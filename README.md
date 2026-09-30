@@ -4,6 +4,8 @@ Jinpeng Wang and Yan Jiang (corresponding author), International Business School
 
 Version 1.0.1 accompanies *Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use*. DOI: https://doi.org/10.5281/zenodo.23064062. Code: https://github.com/extradimen/asset-pricing-dimension-replication.
 
+**Download:** the [GitHub v1.0.1 release](https://github.com/extradimen/asset-pricing-dimension-replication/releases/tag/v1.0.1) provides the complete main ZIP and the separate calibration supplement. The [published Zenodo record](https://zenodo.org/records/23064062) preserves the same main ZIP as 13 checksum-verified parts after a gateway timeout during single-file upload. Follow `README_ZENODO.txt` and run `python3 join_archive.py` to reconstruct the byte-identical archive. No scientific contents differ between these distribution formats.
+
 Read the numbered 01–07 directories in the order of the paper. The original relative runtime paths are preserved under `reproduction/` so existing scripts and frozen manifests remain traceable. These are two views of one package, not different analyses.
 
 ## Reproduce the public exhibits
