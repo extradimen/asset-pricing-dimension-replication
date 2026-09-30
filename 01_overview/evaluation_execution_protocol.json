@@ -1,0 +1,8 @@
+{
+  "experiment_id": "P1-G4-V002-EVAL001",
+  "fixed_node": "local-mac",
+  "reason": "Evaluate the returned immutable aggregates using the local NumPy runtime used for the article geometry audit. No GPU or new fitting is needed; all month blocks, endpoints and RNG were frozen before training.",
+  "script_sha256": "08d59ffe1ecaa05dea573098d685d996f1db68023716f7c4cd11f868b0cda5eb",
+  "inference_protocol": "configs/paper1/P1-G4-V002.json",
+  "scientific_changes": null
+}

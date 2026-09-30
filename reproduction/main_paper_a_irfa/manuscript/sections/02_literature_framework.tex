@@ -4,7 +4,7 @@
 
 Machine-learning asset pricing has developed along two related lines. The first uses firm characteristics and flexible interactions to predict individual-stock returns \citep{gu2020empirical,avramov2023machine,leippold2022machine}. The second uses characteristics to estimate time-varying exposures, latent factors, or stochastic discount factors (SDFs) \citep{kelly2019characteristics,gu2021autoencoder,chen2024deep,feng2024deep}. Surveys emphasize that these methods can improve prediction and pricing while accommodating a much larger information set than conventional linear specifications \citep{giglio2022factor,bagnara2024review,karolyi2020new}. Recent work also develops formal significance and model-selection procedures for neural or high-dimensional pricing models \citep{fallahgoul2024significance,feng2026stepwise}.
 
-These results establish the value of flexible functional forms, but they do not make the size of a hidden layer or a fitted bottleneck an economic primitive. A predictor can reduce conditional mean-squared error without spanning an SDF that prices a given asset set. A network with many parameters can generate a concentrated representation, while a compact representation can omit a weakly priced direction. We therefore separate predictive complexity, representation dimension, factor dimension, and pricing dimension, and to evaluate each with an object-specific criterion.
+These results establish the value of flexible functional forms, but they do not make the size of a hidden layer or a fitted bottleneck an economic primitive. A predictor can reduce conditional mean-squared error without spanning an SDF that prices a given asset set. A network with many parameters can generate a concentrated representation, while a compact representation can omit a weakly priced direction. We therefore separate predictive complexity, representation dimension, factor dimension, and pricing dimension, and evaluate each with an object-specific criterion.
 
 Let $Z_t\in\mathbb{R}^{N_t\times p}$ denote the characteristic panel at date $t$, $h_{K,s}(Z_t)$ a fitted representation with nominal output dimension $K$ and training seed $s$, and $F_{K,s,t+1}$ the resulting factor return or SDF innovation. For test-asset excess returns $R_{t+1}\in\mathbb{R}^{J}$, define pricing moments
 \begin{equation}
@@ -68,7 +68,7 @@ Table~\ref{tab:propositions} distinguishes four claims. They are an organizing f
 \toprule
 Claim & Empirical object & Evidence relevant to the stated claim \\
 \midrule
-Geometry & Rank or local dimension of activations & Decline across layers that survives normalization, estimator checks, and a collapse diagnostic. \\
+Geometry & Rank or local dimension of activations & Rank relative to layer width and matched random networks, with normalization, estimator, and collapse checks. \\
 Exact $K$ & Minimal sufficient $K$ & Recovery under known truth or a valid penalty/equivalence rule; stability cannot be inferred from a single validation minimum. \\
 Stability & Invariance of the selected economic object & Agreement across test assets, loss geometries, data definitions, seeds, and nonoverlapping periods. \\
 Real time & Economic value of reacting to change & A lag-feasible detection rule and a net portfolio gain after inference, turnover, and transaction costs. \\

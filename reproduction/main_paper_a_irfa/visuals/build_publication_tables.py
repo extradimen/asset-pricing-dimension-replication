@@ -182,7 +182,7 @@ def geometry():
             cells.append(f"{d['drift_medians'][key]:.3f}")
             lines += [row(*cells)]
     lines += [r'\bottomrule']
-    finish(lines, r'Entries are archived medians for 30 frozen networks and 120 development months. Spectral summaries use 3,600 observations per group; drift uses 3,570 adjacent-month pairs. Neighbor dimensions and tangent angles use only 300 observations per raw/z-score group (ten sampled months). LB is the Levina--Bickel estimator. Dashes denote diagnostics not computed under row normalization, not zero values. The numerical-collapse rate is zero; it is not a classification neural-collapse test. The two adjacent-layer CKA medians are 0.875 and 0.848. These are descriptive, finite-scale diagnostics; the separate economic-function test is reported in Figure~\ref{fig:evidence-ladder} and Section~6.3.', 'geometry_comparison.tex')
+    finish(lines, r'Entries are archived medians for 30 frozen networks and 120 development months. Spectral summaries use 3,600 observations per group; drift uses 3,570 adjacent-month pairs. Neighbor dimensions and tangent angles use only 300 observations per raw/z-score group (ten sampled months). LB is the Levina--Bickel estimator. Dashes denote diagnostics not computed under row normalization, not zero values. The numerical-collapse rate is zero; it is not a classification neural-collapse test. The two adjacent-layer CKA medians are 0.875 and 0.848. These are descriptive, finite-scale diagnostics; the separate economic-function test is reported in Figure~\ref{fig:evidence-ladder} and Section~\ref{sec:function-gate}.', 'geometry_comparison.tex')
 
 
 def main():

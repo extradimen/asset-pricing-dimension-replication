@@ -1,4 +1,4 @@
 event,date,label,status
 retrospective_break,2014-05,Retrospective common break,exploratory
-realtime_trigger,2018-08,Lagged CUSUM crossing,internal_failed_gate
-policy_active,2018-09,Updating starts next month,internal_failed_gate
+realtime_trigger,2018-08,Real-time CUSUM crossing,failed_gate
+policy_active,2018-09,Updating starts next month,failed_gate

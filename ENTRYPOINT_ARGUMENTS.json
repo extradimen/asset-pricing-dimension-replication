@@ -326,10 +326,6 @@
     ]
   },
   {
-    "module": "reproduction/scripts/build_paper1_identification_artifacts.py",
-    "argument_declarations": []
-  },
-  {
     "module": "reproduction/scripts/build_paper1_reporting_artifacts.py",
     "argument_declarations": [
       "ap.add_argument(\"--output-dir\",type=Path,default=ROOT/\"paper1_artifacts\")"
@@ -513,6 +509,12 @@
     ]
   },
   {
+    "module": "reproduction/scripts/evaluate_paper_a_matched_control.py",
+    "argument_declarations": [
+      "p.add_argument('--'+name,type=Path,required=True)"
+    ]
+  },
+  {
     "module": "reproduction/scripts/evaluate_teacher_pricing.py",
     "argument_declarations": [
       "parser.add_argument(\"--seed-root\", type=Path, required=True)",
@@ -528,15 +530,18 @@
     ]
   },
   {
-    "module": "reproduction/scripts/paper7_geometry_core.py",
-    "argument_declarations": []
-  },
-  {
     "module": "reproduction/scripts/prepare_paper7_representation_sample.py",
     "argument_declarations": [
       "parser.add_argument(\"--config\", type=Path, required=True)",
       "parser.add_argument(\"--output-dir\", type=Path, required=True)",
       "parser.add_argument(\"--run-id\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/prepare_paper_a_matched_control.py",
+    "argument_declarations": [
+      "p.add_argument('--config',type=Path,required=True)",
+      "p.add_argument('--output-dir',type=Path,required=True)"
     ]
   },
   {
@@ -547,6 +552,12 @@
       "parser.add_argument(\"--manifest\", type=Path, required=True)",
       "parser.add_argument(\"--sealed-start\", default=\"2020-01-01\")",
       "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/replay_paper_a_matched_aggregates.py",
+    "argument_declarations": [
+      "p.add_argument('--' + name, type=Path, required=True)"
     ]
   },
   {
@@ -678,6 +689,32 @@
     ]
   },
   {
+    "module": "reproduction/scripts/run_paper7_synthetic_geometry.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--run-id\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper_a_architecture_control.py",
+    "argument_declarations": [
+      "p.add_argument('--config', type=Path, required=True)",
+      "p.add_argument('--output-dir', type=Path, required=True)",
+      "p.add_argument('--run-id', required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper_a_matched_control.py",
+    "argument_declarations": [
+      "p.add_argument('--config',type=Path,required=True)",
+      "p.add_argument('--data-dir',type=Path,required=True)",
+      "p.add_argument('--output-dir',type=Path,required=True)",
+      "p.add_argument('--workers',type=int,default=2)",
+      "p.add_argument('--worker-index',type=int,default=None)"
+    ]
+  },
+  {
     "module": "reproduction/scripts/run_pricing_dimension_identification_simulation.py",
     "argument_declarations": [
       "parser.add_argument(\"--config\", type=Path, default=DEFAULT_CONFIG)"
@@ -698,10 +735,6 @@
       "parser.add_argument(\"--output\", type=Path, required=True)",
       "parser.add_argument(\"--source-run\", default=\"P7-G1-V001-R001\")"
     ]
-  },
-  {
-    "module": "reproduction/scripts/validate_paper1_sealed_outputs.py",
-    "argument_declarations": []
   },
   {
     "module": "reproduction/scripts/validate_presealed_core86_input.py",

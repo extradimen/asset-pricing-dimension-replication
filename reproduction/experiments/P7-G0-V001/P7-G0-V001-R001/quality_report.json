@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P7-G0-V001",
+  "run_id": "P7-G0-V001-R001",
+  "status": "completed_with_failed_gate",
+  "evidence_class": "synthetic_identification_audit",
+  "interpretation": "finite-scale operational geometry; no estimator is treated as oracle topological dimension",
+  "rows": 315,
+  "gates": {
+    "plane3_twonn_relative_error_lte_35pct": true,
+    "plane8_twonn_relative_error_lte_35pct": true,
+    "curved_manifold_exceeds_plane_curvature": false,
+    "near_collapse_flagged": true,
+    "scale_artifact_visible_in_spectrum": false,
+    "full_rank_anisotropy_not_called_topological_truth": true
+  },
+  "all_required_gates_pass": false,
+  "elapsed_seconds": 5.671
+}

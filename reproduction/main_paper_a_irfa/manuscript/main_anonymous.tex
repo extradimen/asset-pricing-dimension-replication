@@ -8,6 +8,7 @@
 \usepackage{stfloats}
 \usepackage{flushend}
 \usepackage{hyperref}
+\pdfstringdefDisableCommands{\def\corref#1{}}
 % Let wide exhibits share pages with text and cross subsection boundaries.
 % Keep font sizes and exhibit dimensions unchanged; avoid half-empty float pages.
 \setcounter{topnumber}{3}
@@ -55,11 +56,11 @@
 \fi
 
 \begin{abstract}
-Low-dimensional representations in asset-pricing networks can summarize data without identifying a unique number of priced directions. We examine this distinction using U.S. equity models, a known-loading simulation, and a separate forecast-updating exercise. Across 30 models per characteristic specification, the selected dimension depends on test assets, loss weighting, random seeds, data construction, and evaluation period. A locked 2020--2025 evaluation supports one of four prespecified directional criteria, with imprecise market-attenuation estimates. Earlier legacy development overlaps January 2020, so this period is not an untouched holdout for the entire research process. In the simulation, noisy evaluation reduces average exact-dimension recovery from 64.2\% to 32.6\%; a finite nested Gaussian example explains persistent over-selection. Hidden-layer median participation rank declines from 20.25 to 9.05, but adding final-layer geometry improves held-out prediction of model-level pricing loss by only 3.915\%, below the specified 5\% threshold. In separate return predictors, retrospective changes in updating value do not yield significant incremental after-cost gains under the tested real-time rule. These results support reporting dimension rankings and uncertainty conditional on the assets, measurement, and evaluation criterion, rather than interpreting a validation minimum as an invariant economic dimension.
+Compact asset-pricing representations need not identify a unique number of priced directions. We examine this distinction using U.S. equity networks, a known-loading simulation, and two bounded controls added after the initial study. In archived models, dimension rankings depend on test assets, loss weighting, seeds, data construction, and period. A later same-panel six-feature ablation does not reproduce the archived pipeline rank reversal: mean rank correlations are 0.65--0.72, and 11 of 12 primary paired intervals include zero. A locked 2020--2025 evaluation supports one of four specified directional criteria, with imprecise market-attenuation estimates. Legacy development overlaps January 2020, so this period is not an untouched research-wide holdout. In the simulation, noisy evaluation reduces average exact-dimension recovery from 64.2\% to 32.6\%; a finite nested Gaussian example explains persistent over-selection. Absolute activation rank declines as hidden layers narrow, while width-normalized rank increases. Training nevertheless lowers final-layer rank/width by 5.34 percentage points relative to matched random networks. Adding final-layer geometry improves held-out prediction of model-level pricing loss by 3.915\%, below the specified 5\% threshold. The later controls use familiar historical data and remain exploratory. The evidence supports reporting dimension rankings and uncertainty conditional on the payoff span, measurement, architecture, and criterion, rather than interpreting a validation minimum as an invariant economic dimension.
 \end{abstract}
 
 \begin{keyword}
-Machine learning \sep Asset pricing \sep Pricing dimension \sep Model instability \sep Representation geometry \sep Real-time updating
+Machine learning \sep Asset pricing \sep Pricing dimension \sep Model instability \sep Representation geometry \sep Feature ablation
 \end{keyword}
 
 \end{frontmatter}

@@ -511,8 +511,8 @@
 \bibinfo{author}{Wang, J.}, \bibinfo{author}{Jiang, Y.}, \bibinfo{year}{2026}.
 \newblock \bibinfo{title}{Replication package for low-dimensional asset-pricing
   networks: Identification, stability, and economic use}.
-\newblock \DOIprefix\doi{10.5281/zenodo.23064062}. \bibinfo{note}{code and
-  aggregate research data, version 1.0.1}.
+\newblock \DOIprefix\doi{10.5281/zenodo.23066253}. \bibinfo{note}{code and
+  aggregate research data, version 1.1.0}.
 %Type = Article
 \bibitem[{Welch and Goyal(2008)}]{welch2008equity}
 \bibinfo{author}{Welch, I.}, \bibinfo{author}{Goyal, A.}, \bibinfo{year}{2008}.

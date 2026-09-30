@@ -5,9 +5,14 @@
 \usepackage{lmodern}
 \hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue}
 \setlength{\emergencystretch}{2em}
+\renewcommand{\topfraction}{0.9}\renewcommand{\bottomfraction}{0.8}\renewcommand{\textfraction}{0.1}\renewcommand{\floatpagefraction}{0.85}
 \renewcommand{\thesection}{\Alph{section}}
 \renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
 \renewcommand{\theequation}{\thesection.\arabic{equation}}
+\renewcommand{\theHequation}{\thesection.\arabic{equation}}
+\newenvironment{widefigure}[1][]{\begin{figure}[#1]}{\end{figure}}
+\newenvironment{widetable}[1][]{\begin{table}[#1]}{\end{table}}
 \newcommand{\E}{\mathbb E}
 \newcommand{\PP}{\mathbb P}
 \title{Online Supplement\\[6pt]\large Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use}
@@ -16,7 +21,7 @@
 \begin{document}
 \maketitle
 \vspace{-2em}
-This supplement records the estimator definitions, proof, chronology qualifications, and expanded numerical tables behind the article. Electronic long tables retain every archived condition; accompanying CSV files also retain the empirical seed-level distances. No additional model was trained or specification selected in preparing this supplement. Protocol identifiers below are archival keys, not names of externally registered studies.
+This supplement records the estimator definitions, proof, chronology qualifications, and expanded numerical tables behind the article. Electronic long tables retain every archived condition; accompanying CSV files also retain the empirical seed-level distances. The original experiments are retained. A later bounded supplement adds a matched random-network control and a same-panel six-feature ablation; their protocols and chronology are stated separately. Protocol identifiers below are archival keys, not names of externally registered studies.
 
 \section{Known-loading selection result}
 \setcounter{equation}{0}
@@ -114,6 +119,15 @@ The later-period inference resamples 12-month circular blocks 500 times. Each dr
 
 \input{generated_feature_dictionary}
 
+\subsection{Post-study matched feature control}
+The later full92/masked86 experiment uses one mother panel and the same 184-column input layout. Masking removes \texttt{bm\_ia}, \texttt{chpmia}, \texttt{ms}, \texttt{pchcapx\_ia}, \texttt{ps}, and \texttt{tb}, together with their six missingness indicators, by setting those twelve columns to zero. This is not the old reconstructed Core-86 bridge. Target-return splits are August 1963--December 1999 (2,068,593 observations), January 2000--December 2009 (606,278), and January 2010--December 2019 (444,538). Each pair uses identical initial parameter tensors. Only its information mask differs; early stopping is applied separately under the same validation rule. All 30 initialization hashes match across arms.
+
+The first deployment stopped before producing any model because the PyTorch 1.13 vector-right-hand-side solve returned an invalid $K=1$ gradient shape. The compatibility fix expresses each solve with a column-matrix right-hand side and squeezes the result back to a vector. Forward loss and gradients agree with the original algebra on the audit runtime for all six $K$ values; all six also pass the corrected CUDA backward check. The failed run is archived. The corrected run completed all 60 models, with no hyperparameter, seed, period, or endpoint change.
+
+The control was frozen before its own execution, after the initial study and version 1.0.1. Development uncertainty uses 1,000 common twelve-month circular-block draws and paired resampling of the five seeds. Validation self-pricing coefficients are fixed. Evaluation return second moments and all candidate losses are recomputed within each draw. Intervals are pointwise and conditional on the fitted networks. Complete 21-point geometry surfaces, all seed-specific rankings, means, margins, and aggregate managed-factor returns are released. No further search follows these results.
+
+\input{generated_matched_features}
+
 \section{Known-truth simulation and complete outputs}
 \setcounter{equation}{0}
 For each condition, returns have mean $B\lambda$ and covariance $B\Sigma_fB'+0.08^2I$. Candidate loading directions are orthogonalized random Gaussian columns scaled by $\sqrt N$. The first $K_0$ risk prices alternate signs with absolute level 0.006 (strong) or 0.002 (weak); later prices are zero. Factor volatilities span 0.035--0.07, with equicorrelation zero or 0.7. In the weak-tail design the final part of the true loading span is multiplied by 0.15. Exact tail indexing is retained in the simulation source.
@@ -122,7 +136,7 @@ The grid crosses $K_0=1,3,5$, $T=72,240,600$, $N=25,74$, two price strengths, tw
 
 Oracle loss evaluates the fitted mean against the population mean; feasible loss evaluates it against the independent sample mean. Thus both modes estimate the training prices, and both retain known loadings/covariance. The finite-grid winner is the strict minimum, with smaller $K$ winning ties.
 
-The package contains 576 condition summaries (144 cells by two metrics by two evaluation modes), 3,456 selection-frequency rows, and 864 cross-asset disagreement summaries. Each condition summary pools the six families and 500 replications. Families share the replication index, so 3,000 pooled selections do not constitute 3,000 independent asset-pricing experiments. A Figure 4 mean across four $N$--metric cells pools 12,000 selections, again with the indicated dependence.
+The package contains 576 condition summaries (144 cells by two metrics by two evaluation modes), 3,456 selection-frequency rows, and 864 cross-asset disagreement summaries. Each condition summary pools the six families and 500 replications. Families share the replication index, so 3,000 pooled selections do not constitute 3,000 independent asset-pricing experiments. A main-text Figure 5 mean across four $N$--metric cells pools 12,000 selections, again with the indicated dependence.
 
 Main-table mechanism intervals are mean cell contrasts plus/minus 1.96 cross-cell standard errors. They describe heterogeneity across the fixed design grid, not confidence intervals from a random sample of economic environments. Two original runs with fixed seeds produced byte-identical summary outputs; the validation manifest is included. Table~\ref{tab:simlong} provides exact/under/over frequencies for every condition. Electronic frequency tables preserve each selected-$K$ probability.
 
@@ -140,6 +154,7 @@ The neural model has two 32-unit SiLU layers, a zero-initialized final layer, an
 Let $e_{it}=y_{it}-\hat y^F_{it}$ and $d_{it}=\hat y^U_{it}-\hat y^F_{it}$. Cross-sectional monthly means define $A_t=\overline{d_{it}^2}$ and $B_t=\overline{e_{it}d_{it}}$. Then
 \begin{equation}
 \overline{(y_{it}-\hat y^U_{it})^2}-\overline{(y_{it}-\hat y^F_{it})^2}=A_t-2B_t.
+\label{eq:s-update-decomp}
 \end{equation}
 Months receive equal weight. For an ex-post scalar adjustment $\hat y^F+\lambda d$, minimizing the period mean quadratic over $[0,1]$ gives $\lambda^*=\operatorname{clip}(\bar B/\bar A,0,1)$. It is a diagnostic using realized outcomes, not an implementable policy estimated before those outcomes. Table~\ref{tab:decomposition} reports all period components at full source precision rounded for printing.
 
@@ -151,6 +166,8 @@ The retrospective common break minimizes pooled one-break mean squared residuals
 The sequential rule uses 2000--2009 location and scale, a reference shift of 0.25 standard deviations, and threshold 5.6177778 calibrated to a nominal familywise 5\% crossing rate. It first crosses in August 2018 and acts from September, for 16 months. A month-$t$ observation affects month $t+1$ decisions. Design after observing the broader sample remains a limitation; the lag rule alone does not remove research selection.
 
 Portfolios sort predictions into deciles each month, with equal or value weights and unit long and unit short legs. Turnover accounts for return drift. Linear cost is turnover times 0, 10, 25, or 50 basis points; value weighting at 25 basis points is primary. Annualized mean is $12\bar r$, annualized volatility $\sqrt{12}s_r$, and certainty equivalent at risk aversion five is $12\bar r-(5/2)12s_r^2$. This is a mean--variance approximation, not realized compound utility. Six update-minus-frozen comparisons use block-bootstrap intervals and Holm adjustment. Full cost/weighting results are retained in the electronic aggregate report. No borrow fees or security-specific price-impact model are estimated.
+
+\input{temporal_results}
 
 \section{Representation geometry and functional probe}
 \setcounter{equation}{0}
@@ -165,6 +182,11 @@ The variable archived as \texttt{curvature\_proxy\_radians} is a tangent-angle d
 The functional probe uses one median final-layer raw participation rank per model. The baseline is nominal-factor-count fixed effects; the augmented regression adds geometry. Each fold holds out one common seed across all six factor counts, leaving 24 training and six held-out models. The primary outcome is the normalized HJ span loss recorded in the frozen model report. This report-level endpoint refits span loadings for that evaluation report; it is distinct from the validation-fixed self-pricing distance in Figures 2--3. The probe predicts cross-model performance summaries, not next-month stock returns.
 
 The permutation diagnostic shuffles geometry within factor count (5,000 draws; seed 7292026). The primary threshold requires at least 5\% leave-one-seed-out RMSE improvement and two-sided permutation $p\le0.05$. Observed improvement is 3.915\% and $p=0.149$. The secondary Sharpe probe has 1.211\% improvement and $p=0.041$, and cannot substitute for the primary endpoint. These 30 models share the economic period; five folds are algorithmic repetitions, not independent histories.
+
+\subsection{Post-study random-network control}
+Five fresh random hidden networks are evaluated on the same 120 sets of 384 securities as the 30 frozen trained networks. The inputs, 128--64--32 widths, SiLU activations, normalization rules, and seed identifiers match. For a given seed, hidden random weights are shared across all $K$ values and counted once in the random distribution. They are matched draws under the recorded control runtime, not asserted to be byte-identical to historical training initializations. The additional 5,400 random cells combine with 32,400 trained cells. Trained participation ranks and leading-eigenvalue shares match the earlier CPU replay to numerical precision.
+
+The primary contrast is the raw-centered H3 mean participation rank divided by width, trained minus random. The means are 0.271584 and 0.324981, and the paired gap is $-0.053397$, with interval $[-0.077367,-0.033587]$. Each of 1,000 draws resamples common twelve-month circular blocks and paired seed clusters, retaining all six trained $K$ values inside their seed. The other layers, normalization rules, and leading-eigenvalue shares are descriptive. Inference is conditional on the archived sample and trained models, with five initialization clusters. The original functional endpoint, permutation test, and failure criterion are not changed by this control.
 
 \section{Replication package and audit boundaries}
 The public package is organized in article order: framework, data design, pricing dimension, temporal replay, and representation geometry. It includes all plotted aggregate data, numeric tables, synthetic selection outputs, methods code, configurations, dependency specifications, and a manifest of included file hashes. Restricted stock observations, historical benchmark security records, fitted weights, stock-level predictions, and individual-security intermediate panels are excluded. External freely downloadable inputs are referenced at their source with vintage hashes; accessibility alone is not a redistribution license.

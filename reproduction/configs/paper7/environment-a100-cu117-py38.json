@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "project_id": "9fcfc658-5808-40b7-9d88-6d17a719ce65",
+  "kind": "python-venv",
+  "python_executable": "/usr/bin/python3",
+  "python_version": "3.8",
+  "lock_file": "configs/paper7/requirements-a100-cu117-py38.lock",
+  "target_platform": "linux_x86_64",
+  "target_implementation": "cp",
+  "target_abi": "cp38"
+}

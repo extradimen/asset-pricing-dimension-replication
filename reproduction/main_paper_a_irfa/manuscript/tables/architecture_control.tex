@@ -1,0 +1,32 @@
+\begin{widetable}[!tbp]
+\centering
+\begin{minipage}{\textwidth}
+\caption{Trained and random-network concentration on matched inputs}
+\label{tab:architecture-control}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}crrrrr@{}}
+\toprule
+Layer & Width & Trained PR & Random PR & Gap / width (pp) & 95\% interval \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{A. Raw centered}} \\[2pt]
+H1 & 128 & 20.318 & 20.435 & -0.092 & [-0.214, 0.063] \\
+H2 & 64 & 14.114 & 15.253 & -1.780 & [-2.596, -1.059] \\
+H3 & 32 & 8.691 & 10.399 & -5.340 & [-7.737, -3.359] \\
+\addlinespace[4pt]
+\multicolumn{6}{@{}l}{\textit{B. Feature z-score}} \\[2pt]
+H1 & 128 & 23.057 & 23.138 & -0.064 & [-0.175, 0.092] \\
+H2 & 64 & 16.204 & 17.219 & -1.587 & [-2.229, -1.014] \\
+H3 & 32 & 10.241 & 11.755 & -4.729 & [-6.667, -3.041] \\
+\addlinespace[4pt]
+\multicolumn{6}{@{}l}{\textit{C. Row-$L_2$}} \\[2pt]
+H1 & 128 & 21.131 & 21.270 & -0.108 & [-0.217, 0.028] \\
+H2 & 64 & 14.926 & 15.950 & -1.600 & [-2.412, -0.865] \\
+H3 & 32 & 8.793 & 10.448 & -5.170 & [-7.412, -3.320] \\
+\bottomrule
+\end{tabular*}
+\par\vspace{4pt}
+{\footnotesize\raggedright\textit{Notes:} PR denotes participation rank. Entries are means, unlike the archived medians in Table~\ref{tab:geometry}. Width-normalized gaps are trained minus random. The primary endpoint is raw-centered H3; all other rows are descriptive. The 1,000 draws resample common twelve-month circular blocks and five paired seed clusters. Random hidden weights are shared across all six $K$ values. Intervals are pointwise and conditional on the archived sample and trained weights. This control was designed after the earlier study; it does not retune the economic-function probe.\par}
+\end{minipage}
+\end{widetable}

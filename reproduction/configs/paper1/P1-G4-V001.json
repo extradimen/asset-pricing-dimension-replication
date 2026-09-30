@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "paper": 1,
+  "generation": "G4",
+  "evidence_class": "post_publication_exploratory_control_frozen_before_execution",
+  "research_snapshot_id": "paper-a-bounded-controls-2026-10-01-v1",
+  "created_at": "2026-09-30T16:05:30.088267+00:00",
+  "status": "protocol_frozen",
+  "sealed_outputs_allowed": false,
+  "previous_release": "https://doi.org/10.5281/zenodo.23064062",
+  "stop_rule": "Run only these two specified controls; report any direction or null result; no new architectures, seeds, periods, metrics, or thresholds selected after inspection.",
+  "experiment_id": "P1-G4-V001",
+  "parent_experiment_id": "P7-G1-V001",
+  "data_snapshot_id": "paper7-representation-sample-2026-09-28",
+  "inputs": [
+    {
+      "path": "experiments/P7-G0-V003/P7-G0-V003-R001/paper7_representation_sample.npz",
+      "sha256": "a2daecc9c533fb7db61113c473c2e454dbb918e6c4c03f3244086e88f6599774"
+    },
+    {
+      "path": "experiments/P1-G2-V001/checkpoint_manifest.json",
+      "sha256": "e25af61c57f485ed12d08c0faf438cac3a1082beb772b880a94ef3450a6b0274"
+    },
+    {
+      "path": "scripts/paper7_geometry_core.py",
+      "sha256": "20f64fe2f998c26c1aa9d11cbadd1d4ba986af062d773310c06c6888497ec226"
+    },
+    {
+      "path": "scripts/run_paper7_representation_geometry.py",
+      "sha256": "5ab9b522a3bfea51b542446b5f3a81013a7544e1198a942d8bec8c315a18f872"
+    }
+  ],
+  "seeds": [
+    20260924,
+    20260925,
+    20260926,
+    20260927,
+    20260928
+  ],
+  "factor_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+  ],
+  "hidden": [
+    128,
+    64,
+    32
+  ],
+  "months": 120,
+  "stocks_per_month": 384,
+  "normalizations": [
+    "raw_centered",
+    "feature_zscore",
+    "row_l2_centered"
+  ],
+  "random_control": "5 unique seed-matched PyTorch-default untrained hidden networks; hidden initialization shared across K, never counted as 30 independent controls; fresh draw matched by seed, not claimed identical to archived historical training initialization across runtime versions",
+  "primary": "Trained minus random hidden3 raw-centered participation rank / layer width, paired by seed and month; K-specific values plus mean over the fixed K grid",
+  "secondary": [
+    "raw participation rank",
+    "rank/width by layer and normalization",
+    "leading eigenvalue share"
+  ],
+  "inference": {
+    "seed": 20261001,
+    "draws": 1000,
+    "month_block": 12,
+    "method": "paired two-way seed-resampling and common circular-month blocks; all K and layer conditions stay paired; 5 seeds limit inference"
+  },
+  "entrypoint": "scripts/run_paper_a_architecture_control.py"
+}

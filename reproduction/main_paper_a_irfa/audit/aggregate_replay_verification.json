@@ -1,0 +1,69 @@
+{
+  "scope": "Aggregate-only I/O adapter replay against unchanged frozen evaluator; no new model or specification",
+  "original_run": "P1-G4-V002-EVAL001",
+  "replay_run": "20260930T165725Z__9fcfc658__P1-G4-V002-REPLAY001",
+  "all_numerical_checks_passed": true,
+  "tolerance": {
+    "rtol": 1e-11,
+    "atol": 1e-11
+  },
+  "note": "Floating-point roundoff below 5.5e-14; complete orderings, winners, winner frequencies and validation coefficients unchanged. This is numerical, not byte-for-byte, replay. Original scientific outputs remain authoritative.",
+  "checks": [
+    {
+      "file": "mean_geometry_surface.csv",
+      "values": 3024,
+      "numerically_equivalent": true,
+      "max_absolute_difference": 2.3092638912203256e-14,
+      "byte_identical": false,
+      "original_sha256": "93f1bd5ae69bc876a7603e99782eb20763626f372b7764a1b15259908009c15b",
+      "replay_sha256": "426e2184c75f5c16bbec5f7f282df71093ad563eafeec26f0dfbcadcee90a603"
+    },
+    {
+      "file": "paired_endpoint_inference.csv",
+      "values": 108,
+      "numerically_equivalent": true,
+      "max_absolute_difference": 5.440092820663267e-14,
+      "byte_identical": false,
+      "original_sha256": "a5da26e79fe375d6a5a7925cf488e94793c53480a07d304523adf01e6d184f46",
+      "replay_sha256": "e0d62bbc541ab0f059059e447ec19db7e54191cd2f6248a226b9796d4d475fbf"
+    },
+    {
+      "file": "rank_agreement.csv",
+      "values": 126,
+      "numerically_equivalent": true,
+      "max_absolute_difference": 0.0,
+      "byte_identical": true,
+      "original_sha256": "8f29ed49765ca6e1f7ee3bf33d089573db6ad448739f4f81be4ac5a4a6c49145",
+      "replay_sha256": "8f29ed49765ca6e1f7ee3bf33d089573db6ad448739f4f81be4ac5a4a6c49145"
+    },
+    {
+      "file": "rankings.csv",
+      "values": 3024,
+      "numerically_equivalent": true,
+      "max_absolute_difference": 1.429412144204889e-14,
+      "byte_identical": false,
+      "original_sha256": "841124cb74df2d23fa582d9d7732dcc5264d11982d2965f3a8e27c93ab9fda09",
+      "replay_sha256": "a86bad5f55867cbf08e7e0b9e7ae1145cbbd7d23347f0b493a5858ce9da1f69d"
+    },
+    {
+      "file": "seed_geometry_surface.csv",
+      "values": 15120,
+      "numerically_equivalent": true,
+      "max_absolute_difference": 3.064215547965432e-14,
+      "byte_identical": false,
+      "original_sha256": "757bb73c7612b82ab8580550dfc30782ad3b134f61c28c5cc70358cbd6280a4e",
+      "replay_sha256": "8a036af1c5c37817048f53818a8ce945244d5a07fec385adbd151970472263e9"
+    },
+    {
+      "file": "validation_coefficients.json",
+      "numerically_equivalent": true,
+      "byte_identical": true
+    },
+    {
+      "file": "quality_report.json",
+      "numerically_equivalent": true,
+      "byte_identical": true
+    }
+  ],
+  "original_evaluator_sha256": "08d59ffe1ecaa05dea573098d685d996f1db68023716f7c4cd11f868b0cda5eb"
+}

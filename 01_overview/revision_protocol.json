@@ -1,0 +1,18 @@
+{
+  "previous_release": "v1.0.1",
+  "planned_release": "v1.1.0",
+  "two_controls": [
+    "P1-G4-V001",
+    "P1-G4-V002"
+  ],
+  "stop_rule": "No further model, seed, metric or period search. Report null or contrary outcomes.",
+  "interpretation": "Both supplements are exploratory after prior publication, with frozen designs before each execution. Architecture control measures training-associated concentration; matched feature control isolates deletion under one mother panel, not all pipeline differences.",
+  "evaluation_detail_frozen_before_training": "1000 paired 12-month block draws; fixed validation coefficients; recompute evaluation second moments within each draw; bootstrap seeds jointly across both arms and all K; pointwise intervals only.",
+  "nonexperimental_edits": [
+    "Qualify layer-width compression claims",
+    "Separate feature deletion from archived pipeline differences",
+    "Move selected-sample temporal replay to supplement and retain concise boundary in main",
+    "Preserve primary failed geometry gate and chronology limitations"
+  ],
+  "evaluation_script_sha256": "08d59ffe1ecaa05dea573098d685d996f1db68023716f7c4cd11f868b0cda5eb"
+}

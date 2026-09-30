@@ -1,0 +1,8 @@
+{
+  "matched_rows": 32400,
+  "maximum_absolute_difference": {
+    "participation_rank": 4.263256414560601e-14,
+    "top_eigenvalue_share": 6.106226635438361e-16
+  },
+  "status": "passed"
+}

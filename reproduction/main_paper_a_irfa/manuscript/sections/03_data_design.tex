@@ -12,6 +12,14 @@ A chronology limitation affects the legacy comparison. Core-92 used characterist
 
 The analysis avoids corporate announcements, news text, analyst narratives, and language-model embeddings. The information set consists of market and accounting variables whose timing can be encoded as reproducible tabular data. This restriction isolates whether nonlinear pricing structure can be learned from conventional numerical information.
 
+\subsection{Later same-panel feature control}
+
+To isolate feature removal from the archived pipeline contrast, a later paired experiment starts from one Core-92 mother panel. It contains 2,068,593 training, 606,278 validation, and 444,538 development stock-months under the target-month calendar used by Core-86. Both arms load the same ordered rows, ranked values, missingness indicators, returns, and test-asset outcomes. All 184 input positions and hidden widths are retained. In the masked arm only, the six excluded characteristic columns and their six missingness indicators are set to zero. Each of the six $K$ values and five seeds receives the same initial parameter tensors in both arms; optimizer settings and the validation stopping rule are unchanged. This produces 30 pairs, or 60 additional models, without architecture or hyperparameter search.
+
+The primary comparisons are all six fixed-$K$ paired pricing-distance differences for the combined 74 assets at geometry endpoints zero and one. Full curves for all three primary asset families, complete rankings, and winner margins are retained. A thousand common twelve-month circular-block draws resample development months and paired seed clusters while retaining every candidate. Validation SDF coefficients remain fixed; the evaluation return second moment and all losses are recomputed in each draw. Intervals are pointwise, conditional on trained models and validation estimates, and do not establish simultaneous coverage or a unique true $K$.
+
+This experiment was designed after the original findings and initial replication release. Its specification was fixed before it ran, but the historical sample was already familiar. It is a post-study control, not fresh confirmation. It isolates information removal within the chosen panel and training procedure; it does not identify the contribution of coverage, accounting vintage, reconstruction, or timing to every historical pipeline difference.
+
 \subsection{Frozen neural model family}
 
 The main family contains 30 neural pricing models. Nominal factor dimension is
@@ -77,23 +85,15 @@ The candidate dimensions contain the truth. Both modes estimate risk prices from
 
 The simulation was frozen before execution. It generated 576 condition summaries, 3,456 selection-frequency rows, and 864 cross-asset disagreement summaries. A second run using the same code and seeds reproduced all four output files byte for byte. Eight directional mechanism tests were fixed in advance: improvements with sample length, strong prices, and complete spanning; greater under-selection under weak prices; greater cross-asset disagreement with weak-tail spanning; disagreement across geometries; amplification of that disagreement with correlation or weak spanning; and better recovery under oracle evaluation.
 
-\subsection{Temporal replay and update-value decomposition}
+\subsection{Scope of the separate temporal replay}
 
-The temporal analysis is an independent stress test of the fourth proposition, real-time economic use. It uses archived stock-level predictions from a frozen model, a rolling 60-month update, and an expanding-history update. These return-prediction models are not the 30 latent pricing-dimension networks, so the replay does not estimate temporal changes in $K$. It asks the narrower question of whether a mapping change that is visible retrospectively can be detected and used in real time. The main neural replay covers February 2000 through December 2019: 239 evaluation months, 1,043,511 stock-months, two update arms, five seeds, and 2,390 fitted models. Ridge and shallow histogram-gradient-boosting models provide cross-estimator comparisons. The 214-input temporal sample is conditioned on archived future-validation eligibility and complete state history; its fixed preprocessing and neural hyperparameters also have development-history dependence. Thus the decision dates can respect lagged information while the full sampling and specification procedure remains retrospective. Portfolio results describe this selected sample and are not a clean prospective investability test. Neural and Ridge updates are monthly; tree models update annually using information available at the annual fit date. This cadence difference is retained when comparing learners.
-
-For each update arm, Eq.~\eqref{eq:update-decomp} is aggregated by period. A scale-free advantage score,
-\begin{equation}
- D_t=\frac{2B_t-A_t}{A_t+|2B_t|+10^{-15}},
-\end{equation}
-is positive when alignment benefit exceeds adjustment cost. A retrospective common-break procedure standardizes the six model--window series and chooses one mean break with at least 60 observations on each side. A 12-month joint circular moving-block bootstrap evaluates the break statistic. This date is exploratory because it uses the entire history.
-
-The CUSUM rule fixes location, scale, and a bootstrap-calibrated nominal familywise 5\% threshold using 2000--2009 only. Its design followed inspection of the broader development history, so its 2010--2019 replay is an internal diagnostic, not an independent confirmatory sample. From 2010 onward it uses a one-sided absorbing boundary, and information from month $t$ can change the update decision only in month $t+1$. The rule is evaluated against both frozen and always-updated policies.
-
-Portfolio tests sort stocks each month into predicted-return deciles and form a high-minus-low strategy under equal and value weights. Turnover is computed after return drift for a unit long and unit short position. Costs are 0, 10, 25, and 50 basis points per unit turnover; the primary specification is value weighted at 25 basis points. Six update-minus-frozen comparisons use a 12-month block bootstrap and Holm adjustment. Certainty equivalents use risk aversion $\gamma=5$.
+Supplement~D documents a retrospective return-prediction replay with neural, Ridge, and shallow-tree estimators. It is not a refit of the 30 pricing-dimension networks. The stock universe and historical model choices are selected using overlapping research history. Its results are retained as a boundary case for economic-use claims, not a prospective investability test or evidence that latent pricing dimension changes. Section~5 gives the limited conclusion; the numerical results and full implementation remain in the supplement.
 
 \subsection{Hidden-representation geometry}
 
 The geometry sample contains the same 30 frozen Core-86 networks, 120 development months, 384 securities per month, 172 inputs (86 ranked characteristics and 86 missingness indicators), and three hidden layers. For every model, month, and layer we calculate participation rank, entropy rank, PCA90 and PCA95 dimension, and a collapse indicator. Neighbor-based TWO-NN and Levina--Bickel ($k=20$) dimensions and a tangent-angle diagnostic are computed only every twelfth development month (ten months) under raw centering and feature z-scoring. They are not computed under row normalization. We repeat the spectral statistics under raw centering, feature z-scoring, and row-$L_2$ normalization.
+
+Because layer widths differ, we additionally report participation rank divided by width and the later architecture-matched random-network control in Section~6. Its protocol was fixed before that control ran, after the earlier results had been inspected. It does not create an independent confirmation sample.
 
 CKA measures adjacent-layer similarity. Rank-five principal-subspace Grassmann distance measures month-to-month drift. The primary functional probe asks whether hidden geometry improves leave-one-seed-out prediction of development-period HJ loss after controlling for nominal factor count. Advancement requires at least a 5\% RMSE reduction and a within-factor-count permutation $p\leq0.05$. The factor-Sharpe probe is secondary and cannot replace the primary endpoint.
 

@@ -172,93 +172,36 @@ def evidence_ladder() -> None:
 
 
 def graphical_abstract() -> None:
-    fig, ax = plt.subplots(figsize=(12.5, 5.0))
-    ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
-    ax.text(0.025, 0.955, "THE COMPRESSION ILLUSION", color=BLUE, fontsize=9.5,
-            fontweight="bold", va="top")
-    ax.text(0.025, 0.895, "The network becomes compact. The economic law does not.",
-            color=INK, fontsize=17.5, fontweight="bold", va="top")
-
-    # Descriptive compression: widths and colors make the funnel visible before
-    # the reader inspects any number.
-    ax.text(0.035, 0.765, "ARCHITECTURE INPUT  →  HIDDEN-STATE CONCENTRATION", color=MID, fontsize=8.2,
-            fontweight="bold")
-    stages = [
-        (0.035, 0.18,  "172",   "86 characteristics + 86 missing flags", "#DDEFFC"),
-        (0.235, 0.135, "20.25", "hidden layer 1", SKY),
-        (0.390, 0.105, "14.67", "hidden layer 2", BLUE),
-        (0.515, 0.070, "9.05",  "hidden layer 3", "#004C6D"),
-    ]
-    cy = 0.55
-    for i, (x, w, number, label, color) in enumerate(stages):
-        h = 0.24 if i == 0 else 0.19 - 0.015 * (i - 1)
-        y = cy - h / 2
-        ax.add_patch(FancyBboxPatch((x, y), w, h,
-                     boxstyle="round,pad=0.012,rounding_size=0.025",
-                     facecolor=color, edgecolor="white", linewidth=1.2))
-        txtcolor = INK if i == 0 else "white"
-        ax.text(x+w/2, cy+0.026, number, ha="center", va="center",
-                fontsize=16 if i == 0 else 14, color=txtcolor, fontweight="bold")
-        ax.text(x+w/2, cy-0.050, label, ha="center", va="center",
-                fontsize=7.1, color=txtcolor)
-        if i < len(stages)-1:
-            nx = stages[i+1][0]
-            ax.annotate("", xy=(nx-0.003, cy), xytext=(x+w+0.003, cy),
-                        arrowprops=dict(arrowstyle="-|>", color=MID, lw=1.25))
-    ax.add_patch(FancyBboxPatch((0.155, 0.305), 0.31, 0.064,
-                 boxstyle="round,pad=0.008,rounding_size=0.025",
-                 facecolor="#E5F6F0", edgecolor=GREEN, linewidth=1.0))
-    ax.text(0.31, 0.337, "REPRESENTATION COMPRESSION: SUPPORTED", ha="center",
-            va="center", color=GREEN, fontsize=8.2, fontweight="bold")
-
-    # The visual rupture is the paper's claim: compactness ends here and each
-    # stronger interpretation must pass a distinct empirical gate.
-    ax.plot([0.595, 0.595], [0.25, 0.77], color=RED, lw=1.5, ls=(0, (3, 3)))
-    ax.text(0.595, 0.805, "≠", ha="center", va="center", color=RED,
-            fontsize=27, fontweight="bold")
-    ax.text(0.595, 0.215, "INFERENCE BREAK", ha="center", va="center",
-            color=RED, fontsize=7.6, fontweight="bold",
-            bbox=dict(boxstyle="round,pad=0.28", facecolor="white",
-                      edgecolor=RED, linewidth=0.8))
-
-    ax.text(0.64, 0.765, "THREE STRONGER CLAIMS", color=MID, fontsize=8.2,
-            fontweight="bold")
-    cards = [
-        (0.64, "IDENTIFICATION", "32.6%", "exact K recovery", "feasible known-truth\nevaluation"),
-        (0.755, "STABILITY", "1 / 4", "locked criteria pass", "2020–2025\nfrozen test"),
-        (0.87, "ECONOMIC USE", "3.915%", "HJ-loss gain", "p = 0.149; all primary\nCE < 0"),
-    ]
-    for x, title, number, line1, line2 in cards:
-        ax.add_patch(FancyBboxPatch((x, 0.285), 0.105, 0.39,
-                     boxstyle="round,pad=0.012,rounding_size=0.022",
-                     facecolor="white", edgecolor=LIGHT, linewidth=1.15))
-        ax.add_patch(FancyBboxPatch((x+0.012, 0.611), 0.081, 0.043,
-                     boxstyle="round,pad=0.005,rounding_size=0.015",
-                     facecolor="#FCEBE6", edgecolor="none"))
-        ax.text(x+0.0525, 0.632, "NOT SUPPORTED", ha="center", va="center",
-                color=RED, fontsize=6.1, fontweight="bold")
-        ax.text(x+0.0525, 0.575, title, ha="center", color=INK,
-                fontsize=7.2, fontweight="bold")
-        ax.text(x+0.0525, 0.475, number, ha="center", color=RED,
-                fontsize=17, fontweight="bold")
-        ax.text(x+0.0525, 0.413, line1, ha="center", color=INK, fontsize=7.0)
-        ax.text(x+0.0525, 0.335, line2, ha="center", color=MID, fontsize=6.1,
-                linespacing=1.15, wrap=True)
-
-    ax.add_patch(FancyBboxPatch((0.025, 0.055), 0.95, 0.09,
-                 boxstyle="round,pad=0.012,rounding_size=0.022",
-                 facecolor=INK, edgecolor=INK))
-    ax.text(0.5, 0.100,
-            "A low-dimensional hidden state is a diagnostic representation—not evidence of a stable pricing law.",
-            ha="center", va="center", color="white", fontsize=10.3, fontweight="bold")
-    # Elsevier-compatible 2.5:1 visual abstract; the same frozen evidence is
-    # exported on a fixed artboard so the PNG is exactly 2500 x 1000 pixels.
-    OUT.mkdir(parents=True, exist_ok=True)
-    with mpl.rc_context({"savefig.bbox": None}):
-        for ext in ("pdf", "svg", "png"):
-            fig.savefig(OUT / f"graphical_abstract.{ext}",
-                        dpi=200 if ext == "png" else None,
-                        bbox_inches=None, metadata=metadata_for(ext))
+    """A concise summary of distinct measurements, without a compression funnel."""
+    d = pd.read_csv(DATA / "architecture_paired_summary.csv")
+    q = d[(d.normalization == 'raw_centered') & (d.metric == 'rank_fraction')].sort_values('layer')
+    fig = plt.figure(figsize=(12.5, 5.0))
+    ax = fig.add_axes([.075, .24, .38, .49])
+    widths = [128, 64, 32]
+    for field, label, color, marker in [('random_mean', 'Matched random network', MID, 's'),
+                                       ('trained_mean', 'Trained network', BLUE, 'o')]:
+        ax.plot([1,2,3], 100*q[field], marker=marker, color=color, lw=2, label=label)
+    ax.set_xticks([1,2,3], [f'Hidden {i+1}\nwidth {w}' for i,w in enumerate(widths)])
+    ax.set_ylabel('Participation rank / layer width (%)')
+    ax.set_ylim(10,38)
+    clean(ax)
+    ax.legend(loc='upper left',fontsize=8)
+    ax.set_title('Architecture-matched representation control',loc='left',fontsize=11,pad=14)
+    fig.text(.55,.715,'IDENTIFICATION',fontsize=10,color=INK,weight='bold')
+    fig.text(.55,.655,'Dimension rankings depend on the evaluation geometry.',fontsize=10,color=INK)
+    fig.text(.55,.605,'Matched feature removal does not reproduce the archived rank reversal.',fontsize=8.7,color=MID)
+    fig.text(.55,.495,'PRICING FUNCTION',fontsize=10,color=INK,weight='bold')
+    fig.text(.55,.435,'Adding hidden-state rank: 3.915% HJ-loss RMSE gain',fontsize=10,color=INK)
+    fig.text(.55,.385,'Below the specified 5% threshold; permutation p = 0.149.',fontsize=9,color=MID)
+    fig.text(.55,.275,'INTERPRETATION',fontsize=10,color=INK,weight='bold')
+    fig.text(.55,.215,'Concentration alone does not identify an invariant pricing dimension.',fontsize=9.4,color=INK)
+    fig.text(.05,.92,'Low-dimensional representation and economic identification',fontsize=18,color=INK,weight='bold')
+    fig.text(.05,.105,'Training adds concentration beyond random initialization. Absolute rank decline also reflects narrowing layer width.',fontsize=10,color=INK)
+    fig.text(.05,.055,'Later controls are exploratory; historical evaluation is not an untouched research-wide holdout.',fontsize=9,color=MID)
+    OUT.mkdir(parents=True,exist_ok=True)
+    with mpl.rc_context({'savefig.bbox':None}):
+        for ext in ('pdf','svg','png'):
+            fig.savefig(OUT/f'graphical_abstract.{ext}',dpi=200 if ext=='png' else None,bbox_inches=None,metadata=metadata_for(ext))
     plt.close(fig)
 
 
@@ -660,7 +603,8 @@ def main() -> None:
     sealed_falsification()
     identification_mechanisms()
     temporal_usability()
-    geometry_function()
+    from build_bounded_control_exhibits import architecture
+    architecture()
     print("built 7 publication figures in PDF, SVG, and PNG")
 
 

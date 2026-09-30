@@ -1,0 +1,23 @@
+{
+  "experiment_id": "P1-G4-V001",
+  "run_id": "P1-G4-V001-R001",
+  "status": "completed",
+  "trained_models": 30,
+  "unique_random_hidden_networks": 5,
+  "months": 120,
+  "primary": {
+    "normalization": "raw_centered",
+    "layer": 3,
+    "width": 32,
+    "metric": "rank_fraction",
+    "trained_mean": 0.2715843012732271,
+    "random_mean": 0.3249810442229234,
+    "trained_median": 0.2827601971601006,
+    "random_median": 0.330769811925322,
+    "paired_mean_difference": -0.05339674294969627,
+    "paired_bootstrap_low": -0.07736650483174723,
+    "paired_bootstrap_high": -0.03358660661850236
+  },
+  "elapsed_seconds": 14.704761028289795,
+  "interpretation": "Paired descriptive post-publication control, conditional on architecture and archived sample. Random hidden layers are shared across K; 5 seeds limit inference. No pricing-functional endpoint retuned."
+}

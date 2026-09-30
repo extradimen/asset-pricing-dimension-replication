@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "models": [
+    2,
+    6,
+    5
+  ],
+  "development_months": 120,
+  "all_30_initialization_pairs_match": true,
+  "evidence_class": "post_publication_exploratory_control_frozen_before_execution",
+  "sealed_period_accessed": false,
+  "bootstrap_draws": 1000,
+  "metric_second_moment_reestimated_in_each_draw": true,
+  "interpretation": "Positive paired difference means that masking six features worsens pricing distance. Intervals are pointwise and conditional on existing training/validation estimates; no joint significance or prospective validation claim."
+}

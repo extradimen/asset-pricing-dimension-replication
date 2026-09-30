@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-30T16:21:50.541905+00:00",
+  "inputs": [
+    {
+      "path": "data/processed/gkx-datashare-2021-v1/P1-G1-V002/structured_core92_presealed_2019.parquet",
+      "bytes": 1296950941,
+      "sha256": "d9e3a0cbb9bb73a01f00ab5952d69117b52d7138f8786e8bb1b53d639e0ba127"
+    },
+    {
+      "path": "data/raw/public/F-F_Research_Data_Factors_daily_CSV.zip",
+      "bytes": 178044,
+      "sha256": "1916d331c2c51d2aee3d00215897d2b8e5995cb387f1f4569ba46bff5fb049a8"
+    },
+    {
+      "path": "data/processed/ken-french-monthly-test-assets-2026-07-v1/public_74_pricing_targets_tplus1.parquet",
+      "bytes": 266955,
+      "sha256": "3546f8563910b10f7d46f7a094def9c7290ac30298fb668deea4dd6dd88b2df6"
+    },
+    {
+      "path": "scripts/run_neural_sdf_teacher.py",
+      "bytes": 29157,
+      "sha256": "8fdd044cbc0ecf3e7151f2aac0af1f5a81d796cd1c57816da5daf2965e28623c"
+    },
+    {
+      "path": "scripts/run_multi_factor_sdf_teacher.py",
+      "bytes": 14140,
+      "sha256": "5c5af1f0c240f053959ef9569c1c141267e37dc919ac1c9511404055c3b456d6"
+    }
+  ],
+  "config_sha256": "8ff7055a2a184e34a66e4ba2d4fb41da24e217193c65b7a1244059bfbc9f2108",
+  "script_sha256": "6c7438d3ce1b20cbbc77cbf99480adf39afb578441703a0bb51fe025c5136af7",
+  "outputs": [
+    {
+      "path": "array_design.json",
+      "bytes": 4961,
+      "sha256": "a38e9fd4eef60477e300c79083411e897fb70c9e8710fadf3717f6a6a7a8635a"
+    },
+    {
+      "path": "development.npz",
+      "bytes": 131912593,
+      "sha256": "bbde40129b81b859aeae4c975cd250c0a1e3cc582e241f7712acba242323ab5c"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 164,
+      "sha256": "11bc3897138e07bf7ff3c8bdaa63643110685c93ae10cd3bcd78df1718af9c97"
+    },
+    {
+      "path": "quality_report.json",
+      "bytes": 1603,
+      "sha256": "59b11e85f45522cabdbb5f404f1bba019fd9eb978342468439d399eee3fa9b38"
+    },
+    {
+      "path": "train.npz",
+      "bytes": 504865347,
+      "sha256": "1f862c7e26f4c055d7a6b7c8d0ca099da68bae0a2d9e829e013bf515ac9f39d9"
+    },
+    {
+      "path": "validation.npz",
+      "bytes": 179168531,
+      "sha256": "f0a3f0058d7ca3d0c9c4c4ab64231ebdeb667bc32f827395a262e8ba282b0715"
+    }
+  ]
+}

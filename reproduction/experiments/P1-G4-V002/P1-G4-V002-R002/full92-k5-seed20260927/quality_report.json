@@ -1,0 +1,28 @@
+{
+  "experiment_id": "P1-G4-V002",
+  "arm": "full92",
+  "factor_count": 5,
+  "seed": 20260927,
+  "epochs": 16,
+  "best_epoch": 4,
+  "initialization_sha256": "4d0fb5e2842777a67b843b861a5094b52f54366f2a4eff28abf059f02d14efa8",
+  "performance": {
+    "train": {
+      "normalized_hj_span_loss": 0.09138590842485428,
+      "factor_span_sharpe": 3.2535560131073,
+      "mean_scaled_hhi": 1.4996806383132935
+    },
+    "validation": {
+      "normalized_hj_span_loss": 0.3344176113605499,
+      "factor_span_sharpe": 2.7398548126220703,
+      "mean_scaled_hhi": 1.681489109992981
+    },
+    "development": {
+      "normalized_hj_span_loss": 0.5699016451835632,
+      "factor_span_sharpe": 2.0617687702178955,
+      "mean_scaled_hhi": 1.7218904495239258
+    }
+  },
+  "elapsed_seconds": 3.8557183742523193,
+  "status": "completed"
+}

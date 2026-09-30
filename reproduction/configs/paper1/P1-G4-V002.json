@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "paper": 1,
+  "generation": "G4",
+  "evidence_class": "post_publication_exploratory_control_frozen_before_execution",
+  "research_snapshot_id": "paper-a-bounded-controls-2026-10-01-v1",
+  "created_at": "2026-09-30T16:05:30.088267+00:00",
+  "status": "protocol_frozen",
+  "sealed_outputs_allowed": false,
+  "previous_release": "https://doi.org/10.5281/zenodo.23064062",
+  "stop_rule": "Run only these two specified controls; report any direction or null result; no new architectures, seeds, periods, metrics, or thresholds selected after inspection.",
+  "experiment_id": "P1-G4-V002",
+  "parent_experiment_id": "P1-G1-V022",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "mother_panel": "data/processed/gkx-datashare-2021-v1/P1-G1-V002/structured_core92_presealed_2019.parquet",
+  "max_feature_month": "2019-11",
+  "splits": {
+    "train": [
+      "1963-08",
+      "1999-12"
+    ],
+    "validation": [
+      "2000-01",
+      "2009-12"
+    ],
+    "development": [
+      "2010-01",
+      "2019-12"
+    ]
+  },
+  "split_clock": "target_month",
+  "arms": [
+    "full92",
+    "masked86"
+  ],
+  "excluded_features": [
+    "bm_ia",
+    "chpmia",
+    "ms",
+    "pchcapx_ia",
+    "ps",
+    "tb"
+  ],
+  "mask_rule": "Both arms use identical 184-column arrays in CORE92 order. Set the six excluded ranked columns and six missing indicators to zero only in masked86. No refitting of ranks, resampling, or row deletion by arm. This isolates information removal at fixed parameterization, not the entire legacy-versus-bridge pipeline contrast.",
+  "factor_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+  ],
+  "seeds": [
+    20260924,
+    20260925,
+    20260926,
+    20260927,
+    20260928
+  ],
+  "hidden": [
+    128,
+    64,
+    32
+  ],
+  "training": {
+    "epochs": 80,
+    "patience": 12,
+    "month_batch_size": 120,
+    "learning_rate": 0.0003,
+    "weight_decay": 1e-05,
+    "hj_penalty": 3.0,
+    "span_sharpe_reward": 0.25,
+    "diversity_penalty": 0.05,
+    "concentration_penalty": 0.001,
+    "pricing_ridge_multiplier": 0.0001
+  },
+  "test_assets": [
+    "size_bm_25",
+    "industry_49",
+    "combined_74"
+  ],
+  "geometry_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "primary": "Development full K-loss curves and paired arm differences at gamma=0 and gamma=1 for combined74; exact selected K is descriptive only",
+  "secondary": [
+    "all three asset families over all 21 geometry weights",
+    "all K seed-specific and seed-mean rankings",
+    "winner margin and complete ranking agreement"
+  ],
+  "inference": {
+    "seed": 20261002,
+    "draws": 1000,
+    "month_block": 12,
+    "method": "paired joint time blocks with fixed validation SDF coefficients; all K and arms re-evaluated in each draw; paired seed-resampling; descriptive pointwise intervals, no simultaneous coverage claim"
+  },
+  "not_claimed": [
+    "prospective confirmation",
+    "pure reconstruction of point-in-time accounting data",
+    "causal decomposition of every historical Core92/Core86 difference",
+    "stable economic dimension inferred from a validation minimum"
+  ],
+  "entrypoint": "scripts/run_paper_a_matched_control.py",
+  "factors": "data/raw/public/F-F_Research_Data_Factors_daily_CSV.zip",
+  "pricing_targets": "data/processed/ken-french-monthly-test-assets-2026-07-v1/public_74_pricing_targets_tplus1.parquet",
+  "input_manifest": [
+    {
+      "path": "data/processed/gkx-datashare-2021-v1/P1-G1-V002/structured_core92_presealed_2019.parquet",
+      "bytes": 1296950941,
+      "sha256": "d9e3a0cbb9bb73a01f00ab5952d69117b52d7138f8786e8bb1b53d639e0ba127"
+    },
+    {
+      "path": "data/raw/public/F-F_Research_Data_Factors_daily_CSV.zip",
+      "bytes": 178044,
+      "sha256": "1916d331c2c51d2aee3d00215897d2b8e5995cb387f1f4569ba46bff5fb049a8"
+    },
+    {
+      "path": "data/processed/ken-french-monthly-test-assets-2026-07-v1/public_74_pricing_targets_tplus1.parquet",
+      "bytes": 266955,
+      "sha256": "3546f8563910b10f7d46f7a094def9c7290ac30298fb668deea4dd6dd88b2df6"
+    },
+    {
+      "path": "scripts/run_neural_sdf_teacher.py",
+      "bytes": 29157,
+      "sha256": "8fdd044cbc0ecf3e7151f2aac0af1f5a81d796cd1c57816da5daf2965e28623c"
+    },
+    {
+      "path": "scripts/run_multi_factor_sdf_teacher.py",
+      "bytes": 14140,
+      "sha256": "5c5af1f0c240f053959ef9569c1c141267e37dc919ac1c9511404055c3b456d6"
+    }
+  ],
+  "execution": {
+    "data_preparation_node": "local-mac",
+    "data_preparation_reason": "The licensed mother panel and Python3.12/PyArrow reader are locally available; no remote data preparation environment is registered. This fixes only data preparation placement, before execution.",
+    "training_placement": "automatic across registered deployments with immutable materials and environment receipts"
+  }
+}

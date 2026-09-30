@@ -1,0 +1,38 @@
+{
+  "version": "1.1.0",
+  "visual_review": "All pages rendered; full main/anonymous/supplement contact sheets inspected, changed figures/tables/title and final sections inspected at larger scale. No clipping or empty pages. Supplement float layout improved from 25 to 24 pages.",
+  "pdfs": [
+    {
+      "file": "main_paper_a_irfa/manuscript/main_full.pdf",
+      "sha256": "75c54aae7d7f891aec5181a65789f77a555621a58401610bfd7b1ea756c01c91",
+      "pages": 21,
+      "minimum_page_characters": 3336,
+      "no_blank_pages": true,
+      "no_overflow_or_unresolved_reference": true
+    },
+    {
+      "file": "main_paper_a_irfa/manuscript/main_anonymous.pdf",
+      "sha256": "5e93c2bb8c571b3128c20aa29a9f1aa1ea34a34c9b9ff4665730a85eec8790c0",
+      "pages": 21,
+      "minimum_page_characters": 1409,
+      "no_blank_pages": true,
+      "no_overflow_or_unresolved_reference": true
+    },
+    {
+      "file": "main_paper_a_irfa/manuscript/title_page.pdf",
+      "sha256": "5366f9335831830cf2a65384fb3b15b2a443c8b8a998bdda48307099942bfc63",
+      "pages": 1,
+      "minimum_page_characters": 1437,
+      "no_blank_pages": true,
+      "no_overflow_or_unresolved_reference": true
+    },
+    {
+      "file": "main_paper_a_irfa/manuscript/supplement/supplement.pdf",
+      "sha256": "9f9c25345dee1e5217ac8dd31d64f4d8660346fb33c9c25d6e57951a0da5ce62",
+      "pages": 24,
+      "minimum_page_characters": 2251,
+      "no_blank_pages": true,
+      "no_overflow_or_unresolved_reference": true
+    }
+  ]
+}

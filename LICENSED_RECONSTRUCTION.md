@@ -40,6 +40,26 @@ Then run the P3 environment-label, stock-anchor, frozen-neural, neural-update an
 
 Use `prepare_paper7_representation_sample.py` and `run_paper7_representation_geometry.py` with `configs/paper7/P7-G1-V001.json`, then the audit/summarize entry points. This needs the 30 Core-86 checkpoints and licensed sampled stocks. The complete aggregate geometry, CKA, drift and endpoint outputs are included, so figure replay needs neither input.
 
+## 7. Later bounded controls (version 1.1.0)
+
+`configs/paper1/P1-G4-V001.json` freezes the matched random-network architecture comparison. Run `scripts/run_paper_a_architecture_control.py` against the retained Core-86 checkpoints and sampled inputs. Public `monthly_geometry.csv` includes all 32,400 trained and 5,400 random spectral rows, permitting exhibit replay without those restricted inputs. Raw rank and rank divided by width are separate outcomes.
+
+`configs/paper1/P1-G4-V002.json` freezes the six-feature masking experiment. `prepare_paper_a_matched_control.py` constructs one mother array; `run_paper_a_matched_control.py` trains both arms with identical 184 input positions and paired initial weights. The six deleted characteristics and six missing indicators are set to zero only in `masked86`. Follow each script's `--help`. Do not reuse the historical bridge Core-86 panel for this experiment. The new sample uses target-return months and ends in December 2019. All 60 final networks are retained locally; the release supplies aggregate returns, histories, initialization hashes and summaries. The two-worker CUDA environment is recorded with the outputs. The matrix-right-hand-side linear solve preserves the objective while avoiding the Torch 1.13 singleton-factor gradient-shape error encountered in the failed first attempt.
+
+### Recalculate new control statistics without stock-level data
+
+First obtain the provider's public portfolio/factor files and run `build_public_pricing_targets.py` as described above. From `reproduction/`, use:
+
+```sh
+python scripts/replay_paper_a_matched_aggregates.py \
+  --config configs/paper1/P1-G4-V002.json \
+  --pricing-targets data/processed/ken-french-monthly-test-assets-2026-07-v1/public_74_pricing_targets_tplus1.parquet \
+  --training-dir experiments/P1-G4-V002/P1-G4-V002-R002 \
+  --output-dir local_replay/matched_control
+```
+
+The output directory must not already exist. The adapter verifies aggregate-return hashes, builds benchmark-only arrays and an explicitly projected aggregate manifest, and invokes the original frozen evaluator unchanged. It does not require model weights or licensed stock arrays. It regenerates all K-by-geometry loss curves, rankings, validation coefficients, and the 1,000-draw paired endpoint intervals. With the archived benchmark vintage and runtime, this path was verified against the original evaluation; see `main_paper_a_irfa/audit/aggregate_replay_verification.json`. Other benchmark vintages can differ. On the authors' Mac/campus nodes, wrap this command in the required global experiment controller after preflight. The public exhibit replay never starts this resampling job automatically.
+
 ## Runtime and validation boundaries
 
 `requirements-public.txt` pins the tested exhibit runtime. Historical CUDA environment information and hash-locked requirements accompany the geometry and temporal runs. Additional data-build dependencies include Polars/PyArrow and scikit-learn; use the recorded source environments rather than assuming the plotting environment is suitable for retraining. `SOURCE_MANIFEST.json` identifies original and released source hashes. Deployment-prefix sanitization is recorded separately. The package has no hidden credential, download-on-import or remote-execution step.

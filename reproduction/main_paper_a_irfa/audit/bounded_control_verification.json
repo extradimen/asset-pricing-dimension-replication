@@ -1,0 +1,276 @@
+{
+  "scope": "Identity and source-output verification, not an additional experiment",
+  "checks": [
+    {
+      "check": "Copied control source: architecture_paired_summary.csv",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "Copied control source: architecture_seed_summary.csv",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "Copied control source: architecture_monthly_geometry.csv",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "Copied control source: matched_rank_agreement.csv",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "Copied control source: matched_rankings.csv",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "Copied control source: matched_paired_endpoint_inference.csv",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "Copied control source: matched_seed_geometry_surface.csv",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "Copied control source: matched_mean_geometry_surface.csv",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "Width-normalized participation rank",
+      "values": 37800,
+      "passed": true
+    },
+    {
+      "check": "Unique trained/random spectral cells",
+      "values": 37800,
+      "passed": true
+    },
+    {
+      "check": "Architecture means raw_centered/1/participation_rank",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means raw_centered/1/rank_fraction",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means raw_centered/1/top_eigenvalue_share",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means raw_centered/2/participation_rank",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means raw_centered/2/rank_fraction",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means raw_centered/2/top_eigenvalue_share",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means raw_centered/3/participation_rank",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means raw_centered/3/rank_fraction",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means raw_centered/3/top_eigenvalue_share",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means feature_zscore/1/participation_rank",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means feature_zscore/1/rank_fraction",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means feature_zscore/1/top_eigenvalue_share",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means feature_zscore/2/participation_rank",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means feature_zscore/2/rank_fraction",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means feature_zscore/2/top_eigenvalue_share",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means feature_zscore/3/participation_rank",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means feature_zscore/3/rank_fraction",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means feature_zscore/3/top_eigenvalue_share",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means row_l2_centered/1/participation_rank",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means row_l2_centered/1/rank_fraction",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means row_l2_centered/1/top_eigenvalue_share",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means row_l2_centered/2/participation_rank",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means row_l2_centered/2/rank_fraction",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means row_l2_centered/2/top_eigenvalue_share",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means row_l2_centered/3/participation_rank",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means row_l2_centered/3/rank_fraction",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Architecture means row_l2_centered/3/top_eigenvalue_share",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Complete matched grid",
+      "values": 3780,
+      "passed": true
+    },
+    {
+      "check": "Matched seed means and dispersion",
+      "values": 1512,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=1 gamma=0.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=1 gamma=1.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=2 gamma=0.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=2 gamma=1.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=3 gamma=0.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=3 gamma=1.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=4 gamma=0.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=4 gamma=1.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=5 gamma=0.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=5 gamma=1.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=8 gamma=0.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "Matched endpoint K=8 gamma=1.0",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "All mean winners and margins",
+      "values": 126,
+      "passed": true
+    },
+    {
+      "check": "Thirty initialization pairs",
+      "values": 30,
+      "passed": true
+    },
+    {
+      "check": "Both CUDA workers completed",
+      "values": 2,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

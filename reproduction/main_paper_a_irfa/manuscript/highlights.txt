@@ -1,0 +1,7 @@
+Highlights
+
+• Pricing-dimension rankings depend on payoff geometry and data construction.
+• Noisy validation can favor unnecessary directions even with known loadings.
+• Layer width explains part of falling rank; training adds concentration.
+• Final-layer rank fails the specified incremental pricing-function criterion.
+• Matched controls distinguish feature deletion from pipeline differences.
