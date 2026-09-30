@@ -51,8 +51,8 @@
 \bibitem[{Avramov et~al.(2023)Avramov, Cheng and Metzker}]{avramov2023machine}
 \bibinfo{author}{Avramov, D.}, \bibinfo{author}{Cheng, S.},
   \bibinfo{author}{Metzker, L.}, \bibinfo{year}{2023}.
-\newblock \bibinfo{title}{Machine learning versus economic restrictions:
-  Evidence from stock return predictability}.
+\newblock \bibinfo{title}{Machine learning vs. economic restrictions: Evidence
+  from stock return predictability}.
 \newblock \bibinfo{journal}{Management Science} \bibinfo{volume}{69},
   \bibinfo{pages}{2587--2619}.
 \newblock \DOIprefix\doi{10.1287/mnsc.2022.4449}.
@@ -512,7 +512,7 @@
 \newblock \bibinfo{title}{Replication package for low-dimensional asset-pricing
   networks: Identification, stability, and economic use}.
 \newblock \DOIprefix\doi{10.5281/zenodo.23064062}. \bibinfo{note}{code and
-  aggregate research data, version 1.0.0}.
+  aggregate research data, version 1.0.1}.
 %Type = Article
 \bibitem[{Welch and Goyal(2008)}]{welch2008equity}
 \bibinfo{author}{Welch, I.}, \bibinfo{author}{Goyal, A.}, \bibinfo{year}{2008}.

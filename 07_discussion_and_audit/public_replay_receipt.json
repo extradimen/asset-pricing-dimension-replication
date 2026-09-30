@@ -17,5 +17,6 @@
     "six main figures plus optional graphical abstract",
     "five formatted tables and supplemental long tables"
   ],
-  "cross_platform_bitwise_training_claim": false
+  "cross_platform_bitwise_training_claim": false,
+  "version": "1.0.1"
 }

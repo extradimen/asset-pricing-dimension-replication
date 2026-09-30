@@ -11,5 +11,21 @@
     "url": "https://proceedings.neurips.cc/paper/2004/hash/74934548253bcab8490ebd74afed7031-Abstract.html",
     "verified": "NIPS 2004 conference; proceedings volume 17, print year 2005 retained with explicit note",
     "corroboration": "https://www.imstat.org/publications/aihp/aihp_53_3/aihp_53_3.pdf"
+  },
+  "avramov2023machine": {
+    "verified": "Normalized title to exact publisher abbreviation: Machine Learning vs. Economic Restrictions: Evidence from Stock Return Predictability",
+    "source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3450322"
+  },
+  "gibbons1989test": {
+    "verified": "Published original article header: Econometrica 57(5), 1121\u20131152",
+    "source": "https://www.researchgate.net/profile/Jay-Shanken/publication/4815103_A_Test_of_Effciency_of_a_Given_Portfolio/links/0046352a0db7555d31000000/A-Test-of-Effciency-of-a-Given-Portfolio.pdf"
+  },
+  "bai1998breaks": {
+    "verified": "Author-hosted original published paper: 66(1), 47\u201378",
+    "source": "https://www.columbia.edu/~jb3064/papers/1998_Estimating_and_testing_linear_models_with_multiple_structural_changes.pdf"
+  },
+  "andrews1993instability": {
+    "verified": "Original published article header: 61(4), 821\u2013856",
+    "source": "https://users.ssc.wisc.edu/~behansen/718/Andrews1993.pdf"
   }
 }

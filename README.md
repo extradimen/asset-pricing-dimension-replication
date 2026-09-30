@@ -2,7 +2,7 @@
 
 Jinpeng Wang and Yan Jiang (corresponding author), International Business School, Guangzhou City University of Technology.
 
-Version 1.0.0 accompanies *Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use*. DOI: https://doi.org/10.5281/zenodo.23064062. Code: https://github.com/extradimen/asset-pricing-dimension-replication.
+Version 1.0.1 accompanies *Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use*. DOI: https://doi.org/10.5281/zenodo.23064062. Code: https://github.com/extradimen/asset-pricing-dimension-replication.
 
 Read the numbered 01–07 directories in the order of the paper. The original relative runtime paths are preserved under `reproduction/` so existing scripts and frozen manifests remain traceable. These are two views of one package, not different analyses.
 
