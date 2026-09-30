@@ -1,0 +1,999 @@
+{
+  "key": "feng2020taming",
+  "submitted": {
+    "key": "feng2020taming",
+    "type": "article",
+    "fields": {
+      "author": "Feng, Guanhao and Giglio, Stefano and Xiu, Dacheng",
+      "title": "Taming the Factor Zoo: A Test of New Factors",
+      "journal": "The Journal of Finance",
+      "year": "2020",
+      "volume": "75",
+      "number": "3",
+      "pages": "1327--1370",
+      "doi": "10.1111/jofi.12883"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/jofi.12883",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T04:32:55Z",
+        "timestamp": 1790742775523,
+        "version": "4.1.0"
+      },
+      "reference-count": 139,
+      "publisher": "Wiley",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                27
+              ]
+            ],
+            "date-time": "2020-02-27T00:00:00Z",
+            "timestamp": 1582761600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "The Journal of Finance"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    We propose a model selection method to systematically evaluate the contribution to asset pricing of any new factor, above and beyond what a high‐dimensional set of existing factors explains. Our methodology accounts for\n                    <jats:italic>model selection mistakes</jats:italic>\n                    that produce a bias due to omitted variables, unlike standard approaches that assume perfect variable selection. We apply our procedure to a set of factors recently discovered in the literature. While most of these new factors are shown to be redundant relative to the existing factors, a few have statistically significant explanatory power beyond the hundreds of factors proposed in the past.\n                  </jats:p>",
+      "DOI": "10.1111/jofi.12883",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            1,
+            24
+          ]
+        ],
+        "date-time": "2020-01-24T04:12:03Z",
+        "timestamp": 1579839123000
+      },
+      "page": "1327-1370",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 683,
+      "title": [
+        "Taming the Factor Zoo: A Test of New Factors"
+      ],
+      "prefix": "10.1111",
+      "volume": "75",
+      "author": [
+        {
+          "given": "GUANHAO",
+          "family": "FENG",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "STEFANO",
+          "family": "GIGLIO",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "DACHENG",
+          "family": "XIU",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            27
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_6_2_1",
+          "first-page": "19",
+          "article-title": "Abnormal returns to a fundamental analysis strategy",
+          "volume": "73",
+          "author": "Abarbanell Jeffery S.",
+          "year": "1998",
+          "journal-title": "The Accounting Review"
+        },
+        {
+          "key": "e_1_2_6_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12189"
+        },
+        {
+          "key": "e_1_2_6_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-405X(03)00116-8"
+        },
+        {
+          "key": "e_1_2_6_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhm019"
+        },
+        {
+          "key": "e_1_2_6_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1386-4181(01)00024-6"
+        },
+        {
+          "key": "e_1_2_6_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1989.tb05067.x"
+        },
+        {
+          "key": "e_1_2_6_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2006.00833.x"
+        },
+        {
+          "key": "e_1_2_6_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2006.00836.x"
+        },
+        {
+          "key": "e_1_2_6_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3905/jpm.2013.39.4.049"
+        },
+        {
+          "key": "e_1_2_6_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11142-018-9470-2"
+        },
+        {
+          "key": "e_1_2_6_12_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Asness Clifford S. R. BurtPorter andRoss L.Stevens 2000 Predicting stock returns using industry‐relative firm characteristics Technical report AQR Capital Investment.",
+          "DOI": "10.2139/ssrn.213872"
+        },
+        {
+          "key": "e_1_2_6_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.frl.2015.08.001"
+        },
+        {
+          "key": "e_1_2_6_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jacceco.2009.12.002"
+        },
+        {
+          "key": "e_1_2_6_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2010.08.014"
+        },
+        {
+          "key": "e_1_2_6_16_1",
+          "unstructured": "Bandyopadhyay Sati P. Alan G.Huang andTony S.Wirjanto 2010 The accrual volatility anomaly Technical report Working paper University of Waterloo."
+        },
+        {
+          "key": "e_1_2_6_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2469/faj.v52.n2.1980"
+        },
+        {
+          "key": "e_1_2_6_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12607"
+        },
+        {
+          "key": "e_1_2_6_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2491414"
+        },
+        {
+          "key": "e_1_2_6_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1977.tb01979.x"
+        },
+        {
+          "key": "e_1_2_6_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3982/ECTA9626"
+        },
+        {
+          "key": "e_1_2_6_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3150/11-BEJ410"
+        },
+        {
+          "key": "e_1_2_6_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1257/jep.28.2.29"
+        },
+        {
+          "key": "e_1_2_6_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/restud/rdt044"
+        },
+        {
+          "key": "e_1_2_6_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhr069"
+        },
+        {
+          "key": "e_1_2_6_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/674549"
+        },
+        {
+          "key": "e_1_2_6_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1988.tb03952.x"
+        },
+        {
+          "key": "e_1_2_6_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/08-AOS620"
+        },
+        {
+          "key": "e_1_2_6_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1985.tb05004.x"
+        },
+        {
+          "key": "e_1_2_6_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2007.01226.x"
+        },
+        {
+          "key": "e_1_2_6_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jacceco.2006.03.004"
+        },
+        {
+          "key": "e_1_2_6_32_1",
+          "unstructured": "Brandt Michael W. RuneetKishore PedroSanta‐Clara andMohanVenkatachalam 2008 Earnings announcements are full of surprises Technical report Duke University."
+        },
+        {
+          "key": "e_1_2_6_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(79)90016-3"
+        },
+        {
+          "key": "e_1_2_6_34_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Brown David P. andBradfordRowe 2007 The productivity premium in equity returns Technical report University of Wisconsin‐Madison.",
+          "DOI": "10.2139/ssrn.993467"
+        },
+        {
+          "key": "e_1_2_6_35_1",
+          "unstructured": "Bryzgalova Svetlana 2015 Spurious factors in linear asset pricing models Technical report Stanford University."
+        },
+        {
+          "key": "e_1_2_6_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1997.tb03808.x"
+        },
+        {
+          "key": "e_1_2_6_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00411"
+        },
+        {
+          "key": "e_1_2_6_38_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chandrashekar Satyajit andRamesh KSRao 2009 The productivity of corporate cash holdings and the cross‐section of expected stock returns Technical report University of Texas at Austin.",
+          "DOI": "10.2139/ssrn.1334162"
+        },
+        {
+          "key": "e_1_2_6_39_1",
+          "first-page": "563",
+          "article-title": "A better three‐factor model that explains more anomalies",
+          "volume": "65",
+          "author": "Chen Long",
+          "year": "2010",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "e_1_2_6_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/296344"
+        },
+        {
+          "key": "e_1_2_6_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/ectj.12097"
+        },
+        {
+          "key": "e_1_2_6_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-economics-012315-015826"
+        },
+        {
+          "key": "e_1_2_6_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-405X(00)00080-5"
+        },
+        {
+          "key": "e_1_2_6_44_1",
+          "volume-title": "Asset Pricing (Revised Edition)",
+          "author": "Cochrane John H.",
+          "year": "2009"
+        },
+        {
+          "key": "e_1_2_6_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2011.01671.x"
+        },
+        {
+          "key": "e_1_2_6_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3982/ECTA7432"
+        },
+        {
+          "key": "e_1_2_6_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2006.00884.x"
+        },
+        {
+          "key": "e_1_2_6_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1386-4181(97)00004-9"
+        },
+        {
+          "key": "e_1_2_6_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12365"
+        },
+        {
+          "key": "e_1_2_6_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2308/accr.2004.79.2.355"
+        },
+        {
+          "key": "e_1_2_6_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00046"
+        },
+        {
+          "key": "e_1_2_6_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2004.00644.x"
+        },
+        {
+          "key": "e_1_2_6_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12034"
+        },
+        {
+          "key": "e_1_2_6_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1024413412176"
+        },
+        {
+          "key": "e_1_2_6_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(93)90023-5"
+        },
+        {
+          "key": "e_1_2_6_56_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2008.01371.x"
+        },
+        {
+          "key": "e_1_2_6_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2014.10.010"
+        },
+        {
+          "key": "e_1_2_6_58_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2018.02.012"
+        },
+        {
+          "key": "e_1_2_6_59_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/260061"
+        },
+        {
+          "key": "e_1_2_6_60_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261755"
+        },
+        {
+          "key": "e_1_2_6_61_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2308/accr.2004.79.4.967"
+        },
+        {
+          "key": "e_1_2_6_62_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2013.10.005"
+        },
+        {
+          "key": "e_1_2_6_63_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhz123"
+        },
+        {
+          "key": "e_1_2_6_64_1",
+          "volume-title": "The Elements of Statistical Learning ‐ Data Mining, Inference, and Prediction",
+          "author": "Friedman Jerome",
+          "year": "2009"
+        },
+        {
+          "key": "e_1_2_6_65_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3982/ECTA11069"
+        },
+        {
+          "key": "e_1_2_6_66_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2019.06.001"
+        },
+        {
+          "key": "e_1_2_6_67_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gettleman Eric andJoseph M.Marks 2006 Acceleration strategies Technical report Bentley University.",
+          "DOI": "10.2139/ssrn.802724"
+        },
+        {
+          "key": "e_1_2_6_68_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913625"
+        },
+        {
+          "key": "e_1_2_6_69_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Giglio Stefano YuanLiao andDachengXiu 2018 Thousands of alpha tests Technical report University of Chicago.",
+          "DOI": "10.2139/ssrn.3259268"
+        },
+        {
+          "key": "e_1_2_6_70_1",
+          "unstructured": "Giglio Stefano W. andDachengXiu 2016 Asset pricing with omitted factors Technical report University of Chicago."
+        },
+        {
+          "key": "e_1_2_6_71_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhx019"
+        },
+        {
+          "key": "e_1_2_6_72_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jempfin.2009.01.001"
+        },
+        {
+          "key": "e_1_2_6_73_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2308/accr.00000011"
+        },
+        {
+          "key": "e_1_2_6_74_1",
+          "unstructured": "Harvey Campbell R. andYanLiu 2016 Lucky factors Technical report Duke University."
+        },
+        {
+          "key": "e_1_2_6_75_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhv059"
+        },
+        {
+          "key": "e_1_2_6_76_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(95)00868-F"
+        },
+        {
+          "key": "e_1_2_6_77_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2017.08.002"
+        },
+        {
+          "key": "e_1_2_6_78_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jacceco.2004.10.002"
+        },
+        {
+          "key": "e_1_2_6_79_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0165-4101(92)90025-W"
+        },
+        {
+          "key": "e_1_2_6_80_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2008.09.001"
+        },
+        {
+          "key": "e_1_2_6_81_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhi023"
+        },
+        {
+          "key": "e_1_2_6_82_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2006.00893.x"
+        },
+        {
+          "key": "e_1_2_6_83_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhu068"
+        },
+        {
+          "key": "e_1_2_6_84_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hou Kewei ChenXue andLuZhang 2017 Replicating anomalies Technical report National Bureau of Economic Research.",
+          "DOI": "10.3386/w23394"
+        },
+        {
+          "key": "e_1_2_6_85_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1996.tb05201.x"
+        },
+        {
+          "key": "e_1_2_6_86_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jacceco.2005.10.003"
+        },
+        {
+          "key": "e_1_2_6_87_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1993.tb04702.x"
+        },
+        {
+          "key": "e_1_2_6_88_1",
+          "volume-title": "Studies in the Theory of Capital Markets",
+          "author": "Jensen Michael C.",
+          "year": "1972"
+        },
+        {
+          "key": "e_1_2_6_89_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11142-005-1528-2"
+        },
+        {
+          "key": "e_1_2_6_90_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1468-5957.2008.02121.x"
+        },
+        {
+          "key": "e_1_2_6_91_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.05.001"
+        },
+        {
+          "key": "e_1_2_6_92_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.06.008"
+        },
+        {
+          "key": "e_1_2_6_93_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1994.tb04772.x"
+        },
+        {
+          "key": "e_1_2_6_94_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2007.02.003"
+        },
+        {
+          "key": "e_1_2_6_95_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/14.2.529"
+        },
+        {
+          "key": "e_1_2_6_96_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0266466605050036"
+        },
+        {
+          "key": "e_1_2_6_97_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lerman Alina JoshuaLivnat andRichard R.Mendenhall 2008 The high‐volume return premium and post‐earnings announcement drift Technical report Yale University.",
+          "DOI": "10.2139/ssrn.1122463"
+        },
+        {
+          "key": "e_1_2_6_98_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/323282"
+        },
+        {
+          "key": "e_1_2_6_99_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2308/accr.2004.79.4.1039"
+        },
+        {
+          "key": "e_1_2_6_100_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2009.09.001"
+        },
+        {
+          "key": "e_1_2_6_101_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(79)90012-6"
+        },
+        {
+          "key": "e_1_2_6_102_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2005.10.001"
+        },
+        {
+          "key": "e_1_2_6_103_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/3.3.431"
+        },
+        {
+          "key": "e_1_2_6_104_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhu019"
+        },
+        {
+          "key": "e_1_2_6_105_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1995.tb05166.x"
+        },
+        {
+          "key": "e_1_2_6_106_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0022109011000445"
+        },
+        {
+          "key": "e_1_2_6_107_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhm058"
+        },
+        {
+          "key": "e_1_2_6_108_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/07-AOS582"
+        },
+        {
+          "key": "e_1_2_6_109_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1995.tb04796.x"
+        },
+        {
+          "key": "e_1_2_6_110_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261114"
+        },
+        {
+          "key": "e_1_2_6_111_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11142-005-1526-4"
+        },
+        {
+          "key": "e_1_2_6_112_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00146"
+        },
+        {
+          "key": "e_1_2_6_113_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rof/rfq019"
+        },
+        {
+          "key": "e_1_2_6_114_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2013.01.003"
+        },
+        {
+          "key": "e_1_2_6_115_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0022109014000210"
+        },
+        {
+          "key": "e_1_2_6_116_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0165-4101(89)90017-7"
+        },
+        {
+          "key": "e_1_2_6_117_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2011.12.009"
+        },
+        {
+          "key": "e_1_2_6_118_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/374184"
+        },
+        {
+          "key": "e_1_2_6_119_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1475-679X.2007.00240.x"
+        },
+        {
+          "key": "e_1_2_6_120_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2672906"
+        },
+        {
+          "key": "e_1_2_6_121_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2008.01335.x"
+        },
+        {
+          "key": "e_1_2_6_122_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1027364031775"
+        },
+        {
+          "key": "e_1_2_6_123_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Raponi Valentina CesareRobotti andPaoloZaffaroni 2017 Testing beta‐pricing models using large cross‐sections Technical report Imperial College London.",
+          "DOI": "10.2139/ssrn.2924882"
+        },
+        {
+          "key": "e_1_2_6_124_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(82)90003-4"
+        },
+        {
+          "key": "e_1_2_6_125_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jacceco.2005.04.005"
+        },
+        {
+          "key": "e_1_2_6_126_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/5.1.1"
+        },
+        {
+          "key": "e_1_2_6_127_1",
+          "first-page": "289",
+          "article-title": "Do stock prices fully reflect information in accruals and cash flows about future earnings?",
+          "volume": "71",
+          "author": "Sloan Richard G.",
+          "year": "1996",
+          "journal-title": "The Accounting Review"
+        },
+        {
+          "key": "e_1_2_6_128_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2308/accr.2008.83.3.823"
+        },
+        {
+          "key": "e_1_2_6_129_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1020221918065"
+        },
+        {
+          "key": "e_1_2_6_130_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.2517-6161.1996.tb02080.x"
+        },
+        {
+          "key": "e_1_2_6_131_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1467-9868.2011.00771.x"
+        },
+        {
+          "key": "e_1_2_6_132_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0022109000003173"
+        },
+        {
+          "key": "e_1_2_6_133_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhq006"
+        },
+        {
+          "key": "e_1_2_6_134_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S002210901600003X"
+        },
+        {
+          "key": "e_1_2_6_135_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIT.2009.2016018"
+        },
+        {
+          "key": "e_1_2_6_136_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Welch Ivo 2008 The link between Fama‐French time‐series tests and Fama‐Macbeth cross‐sectional tests Technical report UCLA.",
+          "DOI": "10.2139/ssrn.1271935"
+        },
+        {
+          "key": "e_1_2_6_137_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhj012"
+        },
+        {
+          "key": "e_1_2_6_138_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhm051"
+        },
+        {
+          "key": "e_1_2_6_139_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2006.00848.x"
+        },
+        {
+          "key": "e_1_2_6_140_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/07-AOS520"
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjofi.12883",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.12883",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/jofi.12883",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.12883",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            6
+          ]
+        ],
+        "date-time": "2023-09-06T09:50:00Z",
+        "timestamp": 1693993800000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.12883"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            27
+          ]
+        ]
+      },
+      "references-count": 139,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/jofi.12883"
+      ],
+      "URL": "https://doi.org/10.1111/jofi.12883",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "0022-1082",
+        "1540-6261"
+      ],
+      "issn-type": [
+        {
+          "value": "0022-1082",
+          "type": "print"
+        },
+        {
+          "value": "1540-6261",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            27
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2017-09-06",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2019-06-20",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2020-02-27",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

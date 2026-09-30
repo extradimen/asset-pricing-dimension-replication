@@ -1,0 +1,4 @@
+asset_family,asset_label,exact_best_K_agreement_rate,mean_spearman,min_spearman,max_spearman,mean_kendall
+combined_74,Combined 74,0.04761904762,-0.1510204082,-0.3714285714,0.6,-0.1238095238
+industry_49,49 Industries,0,-0.156462585,-0.3714285714,0.6,-0.1111111111
+size_bm_25,25 Size–B/M,0.09523809524,-0.3551020408,-0.6,0.08571428571,-0.2634920635

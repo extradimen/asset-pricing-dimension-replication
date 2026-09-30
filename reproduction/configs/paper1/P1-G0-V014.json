@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V014",
+  "parent_experiment_id": "P1-G0-V013",
+  "paper": 1,
+  "generation": "G0",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Can all twenty monthly Core-92 characteristics be assembled into one point-in-time, rank-normalized panel with an explicit 2021/2022 source bridge?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "additional_data_snapshot_ids": ["gkx-datashare-2021-v1", "ken-french-daily-2026-07-v1"],
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Combine V004 and V009-V013 into a single monthly Core-20 panel; use official GKX values where available and audited self-built values otherwise; generate deterministic cross-sectional ranks and missing indicators.",
+  "entrypoint": "scripts/build_core20_monthly_panel.py",
+  "validator": "scripts/validate_core20_monthly_panel.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V014",
+  "result_summary": "experiments/P1-G0-V014/result_summary.json"
+}

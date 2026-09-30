@@ -1,0 +1,625 @@
+{
+  "key": "papyan2020collapse",
+  "submitted": {
+    "key": "papyan2020collapse",
+    "type": "article",
+    "fields": {
+      "author": "Papyan, Vardan and Han, X. Y. and Donoho, David L.",
+      "title": "Prevalence of Neural Collapse during the Terminal Phase of Deep Learning Training",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": "2020",
+      "volume": "117",
+      "number": "40",
+      "pages": "24652--24663",
+      "doi": "10.1073/pnas.2015509117"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1073/pnas.2015509117",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T10:24:31Z",
+        "timestamp": 1790763871256,
+        "version": "4.1.0"
+      },
+      "reference-count": 50,
+      "publisher": "National Academy of Sciences",
+      "issue": "40",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                21
+              ]
+            ],
+            "date-time": "2020-09-21T00:00:00Z",
+            "timestamp": 1600646400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000001",
+          "name": "National Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DMS 1418362"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DMS 1418362"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000001",
+          "name": "National Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DMS 1407813"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DMS 1407813"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000001",
+          "name": "National Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DMS 1811614"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DMS 1811614"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.pnas.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Proc. Natl. Acad. Sci. U.S.A."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Significance</jats:title>\n                  <jats:p>Modern deep neural networks for image classification have achieved superhuman performance. Yet, the complex details of trained networks have forced most practitioners and researchers to regard them as black boxes with little that could be understood. This paper considers in detail a now-standard training methodology: driving the cross-entropy loss to zero, continuing long after the classification error is already zero. Applying this methodology to an authoritative collection of standard deepnets and datasets, we observe the emergence of a simple and highly symmetric geometry of the deepnet features and of the deepnet classifier, and we document important benefits that the geometry conveys—thereby helping us understand an important component of the modern deep learning training paradigm.</jats:p>",
+      "DOI": "10.1073/pnas.2015509117",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2020-09-21T20:42:08Z",
+        "timestamp": 1600720928000
+      },
+      "page": "24652-24663",
+      "update-policy": "https://doi.org/10.1073/pnas.cm10313",
+      "source": "Crossref",
+      "is-referenced-by-count": 379,
+      "title": [
+        "Prevalence of neural collapse during the terminal phase of deep learning training"
+      ],
+      "prefix": "10.1073",
+      "volume": "117",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5028-2144",
+          "authenticated-orcid": false,
+          "given": "Vardan",
+          "family": "Papyan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Statistics, Stanford University, Stanford, CA 94305-4065;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4605-4990",
+          "authenticated-orcid": false,
+          "given": "X. Y.",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Operations Research and Information Engineering, Cornell University, Ithaca, NY 14850"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David L.",
+          "family": "Donoho",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Statistics, Stanford University, Stanford, CA 94305-4065;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "341",
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            21
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_4_1_2",
+          "first-page": "3325",
+          "volume-title": "International Conference on Machine Learning",
+          "author": "Ma S.",
+          "year": "2018",
+          "unstructured": "S. Ma, R. Bassily, M. Belkin, “The power of interpolation: Understanding the effectiveness of SGD in modern over-parametrized learning” in International Conference on Machine Learning (Proceedings of Machine Learning Research [PMLR], Cambridge, MA, 2018), pp. 3325–3334."
+        },
+        {
+          "key": "e_1_3_4_2_2",
+          "first-page": "1611",
+          "volume-title": "The 22nd International Conference on Artificial Intelligence and Statistics",
+          "author": "Belkin M.",
+          "year": "2019",
+          "unstructured": "M. Belkin, A. Rakhlin, A. B. Tsybakov, “Does data interpolation contradict statistical optimality?” in The 22nd International Conference on Artificial Intelligence and Statistics (Proceedings of Machine Learning Research [PMLR], Cambridge, MA, 2019), pp. 1611–1619."
+        },
+        {
+          "key": "e_1_3_4_3_2",
+          "first-page": "2300",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "author": "Belkin M.",
+          "year": "2018",
+          "unstructured": "M. Belkin, D. J. Hsu, P. Mitra, “Overfitting or perfect fitting? Risk bounds for classification and regression rules that interpolate” in Advances in Neural Information Processing Systems (Curran, Vancouver, Canada, 2018), pp. 2300–2311."
+        },
+        {
+          "key": "e_1_3_4_4_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1903070116"
+        },
+        {
+          "key": "e_1_3_4_5_2",
+          "volume-title": "Beyond Empirical Risk Minimization: The Lessons of Deep Learning",
+          "author": "Belkin M.",
+          "year": "2019",
+          "unstructured": "M. Belkin, Beyond Empirical Risk Minimization: The Lessons of Deep Learning (colloquium recording, MIT CBMM, 2019)."
+        },
+        {
+          "key": "e_1_3_4_6_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1063-5203(03)00023-X"
+        },
+        {
+          "key": "e_1_3_4_7_2",
+          "unstructured": "A. Krizhevsky G. Hinton Learning multiple layers of features from tiny images. Citeseer. https://www.cs.toronto.edu/∼kriz/learning-features-2009-TR.pdf. (8 April 2009)."
+        },
+        {
+          "key": "e_1_3_4_8_2",
+          "unstructured": "Y. LeCun C. Cortes C. Burges MNIST handwritten digit database. AT&T Labs (2010). http://yann.lecun.com/exdb/mnist/. Accessed 1 July 2020."
+        },
+        {
+          "key": "e_1_3_4_9_2",
+          "unstructured": "H. Xiao K. Rasul R. Vollgraf Fashion-MNIST: A novel image dataset for benchmarking machine learning algorithms arXiv:1708.07747v1 (25 August 2017)."
+        },
+        {
+          "key": "e_1_3_4_10_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "248",
+          "DOI": "10.1109/CVPR.2009.5206848",
+          "volume-title": "IEEE Conference on Computer Vision and Pattern Recognition, 2009",
+          "author": "Deng J.",
+          "year": "2009",
+          "unstructured": "J. Deng , “Imagenet: A large-scale hierarchical image database” in IEEE Conference on Computer Vision and Pattern Recognition, 2009 (IEEE, 2009), pp. 248–255."
+        },
+        {
+          "key": "e_1_3_4_11_2",
+          "first-page": "770",
+          "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "author": "He K.",
+          "year": "2016",
+          "unstructured": "K. He, X. Zhang, S. Ren, J. Sun, “Deep residual learning for image recognition” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (IEEE, 2016), pp. 770–778."
+        },
+        {
+          "key": "e_1_3_4_12_2",
+          "first-page": "4700",
+          "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "author": "Huang G.",
+          "year": "2017",
+          "unstructured": "G. Huang, Z. Liu, L. Van Der Maaten, K. Q. Weinberger, “Densely connected convolutional networks” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (IEEE, 2017), pp. 4700–4708."
+        },
+        {
+          "key": "e_1_3_4_13_2",
+          "unstructured": "K. Simonyan A. Zisserman Very deep convolutional networks for large-scale image recognition. arXiv:1409.1556 (4 September 2014)."
+        },
+        {
+          "key": "e_1_3_4_14_2",
+          "unstructured": "Benchmarks.AI Directory of AI benchmarks (2020). https://benchmarks.ai/. Accessed 1 July 2020."
+        },
+        {
+          "key": "e_1_3_4_15_2",
+          "unstructured": "Stanford University Stanford DAWN (2020). https://dawn.cs.stanford.edu/. Accessed 1 July 2020."
+        },
+        {
+          "key": "e_1_3_4_16_2",
+          "unstructured": "GitHub Who is best at X? (2020). https://rodrigob.github.io/are_we_there_yet/build/. Accessed 1 July 2020."
+        },
+        {
+          "key": "e_1_3_4_17_2",
+          "first-page": "8026",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "author": "Paszke A.",
+          "year": "2019",
+          "unstructured": "A. Paszke , “Pytorch: An imperative style, high-performance deep learning library” in Advances in Neural Information Processing Systems (Curran, Vancouver, Canada 2019), pp. 8026–8037."
+        },
+        {
+          "key": "e_1_3_4_18_2",
+          "unstructured": "G. Pleiss Memory-efficient implementation of DenseNets arXiv:1707.06990 (21 July 2017)."
+        },
+        {
+          "key": "e_1_3_4_19_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Monajemi D. L. Donoho ClusterJob: An automated system for painless and reproducible massive computational experiments (2015). https://github.com/monajemi/clusterjob. Accessed 1 July 2020.",
+          "DOI": "10.1109/BigData.2016.7840870"
+        },
+        {
+          "key": "e_1_3_4_20_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/BigData.2016.7840870"
+        },
+        {
+          "key": "e_1_3_4_21_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/99608f92.02ffc552"
+        },
+        {
+          "key": "e_1_3_4_22_2",
+          "unstructured": "PyTorch Forward and backward function hooks—PyTorch documentation. https://pytorch.org/tutorials/beginner/former_torchies/nnft_tutorial.html#forward-and-backward-function-hooks. Accessed 21 June 2020."
+        },
+        {
+          "key": "e_1_3_4_23_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. M. Moosavi-Dezfooli A. Fawzi P. Frossard “Deepfool: A simple and accurate method to fool deep neural networks” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (IEEE 2016) pp. 2574–2582.",
+          "DOI": "10.1109/CVPR.2016.282"
+        },
+        {
+          "key": "e_1_3_4_24_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/SMC.2017.8122985"
+        },
+        {
+          "key": "e_1_3_4_25_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Zhang An improved method of identifying mislabeled data and the mislabeled data in MNIST and CIFAR-10 appendix findings in fashion-MNIST. https://arxiv.org/pdf/1912.05283.pdf (11 December 2019).",
+          "DOI": "10.2139/ssrn.3097307"
+        },
+        {
+          "key": "e_1_3_4_26_2",
+          "first-page": "1",
+          "volume-title": "2019 International Joint Conference on Neural Networks (IJCNN)",
+          "author": "Müller N. M.",
+          "year": "2019",
+          "unstructured": "N. M. Müller, K. Markert, “Identifying mislabeled instances in classification datasets” in 2019 International Joint Conference on Neural Networks (IJCNN) (IEEE, 2019), pp. 1–8."
+        },
+        {
+          "key": "e_1_3_4_27_2",
+          "volume-title": "An Introduction to Multivariate Statistical Analysis",
+          "author": "Anderson T. W.",
+          "year": "1962",
+          "unstructured": "T. W. Anderson, An Introduction to Multivariate Statistical Analysis (Wiley, New York, NY, 1962)."
+        },
+        {
+          "key": "e_1_3_4_28_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0893-6080(90)90019-H"
+        },
+        {
+          "key": "e_1_3_4_29_2",
+          "first-page": "2822",
+          "article-title": "The implicit bias of gradient descent on separable data",
+          "volume": "19",
+          "author": "Soudry D.",
+          "year": "2018",
+          "unstructured": "D. Soudry, E. Hoffer, M. S. Nacson, S. Gunasekar, N. Srebro, The implicit bias of gradient descent on separable data. J. Mach. Learn. Res. 19, 2822–2878 (2018).",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "e_1_3_4_30_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1469-1809.1936.tb02137.x"
+        },
+        {
+          "key": "e_1_3_4_31_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1538-7305.1959.tb03905.x"
+        },
+        {
+          "key": "e_1_3_4_32_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4612-5320-4"
+        },
+        {
+          "key": "e_1_3_4_33_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2012.230"
+        },
+        {
+          "key": "e_1_3_4_34_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpa.21413"
+        },
+        {
+          "key": "e_1_3_4_35_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIT.2017.2776228"
+        },
+        {
+          "key": "e_1_3_4_36_2",
+          "first-page": "2149",
+          "volume-title": "International Conference on Machine Learning",
+          "author": "Wiatowski T.",
+          "year": "2016",
+          "unstructured": "T. Wiatowski, M. Tschannen, A. Stanic, P. Grohs, H. Bölcskei, “Discrete deep feature extraction: A theory and new architectures” in International Conference on Machine Learning (Proceedings of Machine Learning Research [PMLR], Cambridge, MA, 2016), pp. 2149–2158."
+        },
+        {
+          "key": "e_1_3_4_37_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ISIT.2015.7282648"
+        },
+        {
+          "key": "e_1_3_4_38_2",
+          "volume-title": "International Conference on Learning Representations",
+          "author": "Zarka J.",
+          "year": "2020",
+          "unstructured": "J. Zarka, L. Thiry, T. Angles, S. Mallat, “Deep network classification by scattering and homotopy dictionary learning” in International Conference on Learning Representations (International Conference on Learning Representations, 2020)."
+        },
+        {
+          "key": "e_1_3_4_39_2",
+          "unstructured": "L. Sagun L. Bottou Y. LeCun Eigenvalues of the Hessian in Deep Learning: Singularity and Beyond. arXiv:1611.07476v2 (22 November 2016)."
+        },
+        {
+          "key": "e_1_3_4_40_2",
+          "unstructured": "L. Sagun U. Evci V. U. Guney Y. Dauphin L. Bottou Empirical Analysis of the Hessian of Over-Parametrized Neural Networks. arXiv:1706.04454v3 (14 June 2017)."
+        },
+        {
+          "key": "e_1_3_4_41_2",
+          "unstructured": "V. Papyan The full spectrum of deep net Hessians at scale: Dynamics with sample size. (2018)."
+        },
+        {
+          "key": "e_1_3_4_42_2",
+          "unstructured": "V. Papyan Measurements of three-level hierarchical structure in the outliers in the spectrum of deepnet Hessians. https://arxiv.org/pdf/1811.07062.pdf (3 June 2019)."
+        },
+        {
+          "key": "e_1_3_4_43_2",
+          "volume-title": "Proceedings of the 36th International Conference on Machine Learning",
+          "author": "Ghorbani B.",
+          "year": "2019",
+          "unstructured": "B. Ghorbani, S. Krishnan, Y. Xiao, “An investigation into neural net optimization via Hessians eigenvalue density” in Proceedings of the 36th International Conference on Machine Learning (Proceedings of Machine Learning Research [PMLR], Cambridge, MA, 2019)."
+        },
+        {
+          "key": "e_1_3_4_44_2",
+          "first-page": "2887",
+          "article-title": "Convolutional neural networks analyzed via convolutional sparse coding",
+          "volume": "18",
+          "author": "Papyan V.",
+          "year": "2017",
+          "unstructured": "V. Papyan, Y. Romano, M. Elad, Convolutional neural networks analyzed via convolutional sparse coding. J. Mach. Learn. Res. 18, 2887–2938 (2017).",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "e_1_3_4_45_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10851-019-00913-z"
+        },
+        {
+          "key": "e_1_3_4_46_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2019.2904255"
+        },
+        {
+          "key": "e_1_3_4_47_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1137/18M1183352"
+        },
+        {
+          "key": "e_1_3_4_48_2",
+          "unstructured": "A. Aberdam D. Simon M. Elad When and how can deep generative models be inverted? arXiv:2006.15555 (28 June 2020)."
+        },
+        {
+          "key": "e_1_3_4_49_2",
+          "first-page": "854",
+          "volume-title": "Proceedings of the 34th International Conference on Machine Learning",
+          "author": "Cisse M.",
+          "year": "2017",
+          "unstructured": "M. Cisse, P. Bojanowski, E. Grave, Y. Dauphin, N. Usunier, “Parseval networks: Improving robustness to adversarial examples” in Proceedings of the 34th International Conference on Machine Learning (JMLR.org, 2017), vol. 70, pp. 854–863."
+        },
+        {
+          "key": "e_1_3_4_50_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13042-020-01097-4"
+        }
+      ],
+      "container-title": [
+        "Proceedings of the National Academy of Sciences"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://www.pnas.org/syndication/doi/10.1073/pnas.2015509117",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://pnas.org/doi/pdf/10.1073/pnas.2015509117",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            13
+          ]
+        ],
+        "date-time": "2022-04-13T06:05:35Z",
+        "timestamp": 1649829935000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://pnas.org/doi/full/10.1073/pnas.2015509117"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            21
+          ]
+        ]
+      },
+      "references-count": 50,
+      "journal-issue": {
+        "issue": "40",
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1073/pnas.2015509117"
+      ],
+      "URL": "https://doi.org/10.1073/pnas.2015509117",
+      "relation": {},
+      "ISSN": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "issn-type": [
+        {
+          "value": "0027-8424",
+          "type": "print"
+        },
+        {
+          "value": "1091-6490",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            21
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2020-09-21",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

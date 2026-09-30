@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V020",
+  "parent_experiment_id": "P1-G1-V019",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "benchmark_complementary_teacher_gate",
+  "research_question": "Can one characteristic-managed neural factor trained only to complement FF5 plus momentum pass the joint distance, raw-moment and alpha teacher gate?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "pricing_target_snapshot_id": "ken-french-public-74-pricing-targets-2026-07-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "fixed_base_factors": "Ken French five factors plus momentum",
+  "learned_factor_count": 1,
+  "seeds": [
+    20260924,
+    20260925,
+    20260926,
+    20260927,
+    20260928
+  ],
+  "architecture": [
+    184,
+    128,
+    64,
+    32,
+    1
+  ],
+  "training_assets": "25 size-book-to-market portfolios only",
+  "external_assets": "49 industry portfolios, never used in the training loss",
+  "training_objective": "Across four chronological training blocks, minimize mean plus one-half worst-block value of the sum of normalized strict-self-pricing equal-weight Euler loss, normalized strict-self-pricing ridge-HJ loss and normalized factor-regression alpha loss for FF5 plus momentum plus the learned factor. Add concentration regularization only; no hyperparameter sweep.",
+  "checkpoint_rule": "Maximize the negative analogous two-block validation loss. Fixed 80 epochs, patience 12, learning rate 0.0003 and one seed-independent specification.",
+  "development_gate": "Against FF5 plus momentum on the combined 74 assets, require nonpositive five-seed mean differences in gamma-zero distance, gamma-one distance, mean absolute Euler moment and mean absolute alpha; at least four of five seeds must jointly improve raw moments and alpha; and 500-draw circular 12-month block-bootstrap upper 95% bounds for both distances and alpha must be nonpositive.",
+  "stopping_rule": "This is the final G1 teacher family. If it fails, stop teacher architecture search, keep the sealed period closed and position paper one around metric-dependent compressibility and the market-direction mechanism.",
+  "training_entrypoint": "scripts/run_benchmark_complementary_teacher.py",
+  "sweep_entrypoint": "scripts/run_benchmark_complementary_sweep.py",
+  "gate_entrypoint": "scripts/audit_benchmark_complementary_gate.py",
+  "remote_node": "campus-vm",
+  "cuda_devices": [
+    0,
+    1
+  ]
+}

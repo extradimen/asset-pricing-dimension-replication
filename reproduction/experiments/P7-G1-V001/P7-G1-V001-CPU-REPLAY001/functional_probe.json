@@ -1,0 +1,24 @@
+[
+  {
+    "endpoint": "development_hj_loss",
+    "n_models": 30,
+    "within_factor_count_slope": -0.01609215779650172,
+    "within_factor_count_correlation": -0.2955270528034804,
+    "within_factor_count_spearman": -0.2863181312569522,
+    "permutation_p_two_sided": 0.14897020595880825,
+    "leave_one_seed_out_baseline_rmse": 0.10613711819195293,
+    "leave_one_seed_out_geometry_rmse": 0.10198213338470266,
+    "cross_validated_rmse_improvement_pct": 3.9147330152075757
+  },
+  {
+    "endpoint": "development_factor_sharpe",
+    "n_models": 30,
+    "within_factor_count_slope": 0.087392225298297,
+    "within_factor_count_correlation": 0.4131938081045423,
+    "within_factor_count_spearman": 0.34949944382647385,
+    "permutation_p_two_sided": 0.04059188162367527,
+    "leave_one_seed_out_baseline_rmse": 0.41225814529649246,
+    "leave_one_seed_out_geometry_rmse": 0.40726401602137274,
+    "cross_validated_rmse_improvement_pct": 1.2114082722435926
+  }
+]

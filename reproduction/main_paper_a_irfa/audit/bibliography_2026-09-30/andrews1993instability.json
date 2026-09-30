@@ -1,0 +1,156 @@
+{
+  "key": "andrews1993instability",
+  "submitted": {
+    "key": "andrews1993instability",
+    "type": "article",
+    "fields": {
+      "author": "Andrews, Donald W. K.",
+      "title": "Tests for Parameter Instability and Structural Change with Unknown Change Point",
+      "journal": "Econometrica",
+      "year": "1993",
+      "volume": "61",
+      "number": "4",
+      "pages": "821--856",
+      "doi": "10.2307/2951764"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.2307/2951764",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T05:33:32Z",
+        "timestamp": 1790746412642,
+        "version": "4.1.0"
+      },
+      "reference-count": 0,
+      "publisher": "JSTOR",
+      "issue": "4",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Econometrica"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1993,
+            7
+          ]
+        ]
+      },
+      "DOI": "10.2307/2951764",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2006,
+            7,
+            5
+          ]
+        ],
+        "date-time": "2006-07-05T13:34:23Z",
+        "timestamp": 1152106463000
+      },
+      "page": "821",
+      "source": "Crossref",
+      "is-referenced-by-count": 3026,
+      "title": [
+        "Tests for Parameter Instability and Structural Change With Unknown Change Point"
+      ],
+      "prefix": "10.2307",
+      "volume": "61",
+      "author": [
+        {
+          "given": "Donald W. K.",
+          "family": "Andrews",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1121",
+      "container-title": [
+        "Econometrica"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2018,
+            5,
+            8
+          ]
+        ],
+        "date-time": "2018-05-08T12:01:01Z",
+        "timestamp": 1525780861000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.jstor.org/stable/2951764?origin=crossref"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1993,
+            7
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              1993,
+              7
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.2307/2951764",
+      "relation": {},
+      "ISSN": [
+        "0012-9682"
+      ],
+      "issn-type": [
+        {
+          "value": "0012-9682",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1993,
+            7
+          ]
+        ]
+      }
+    }
+  }
+}

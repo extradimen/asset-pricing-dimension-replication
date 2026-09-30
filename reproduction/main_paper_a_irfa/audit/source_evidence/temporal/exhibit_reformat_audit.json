@@ -1,0 +1,20 @@
+[
+  {
+    "file": "temporal_decomposition.csv",
+    "rows": 12,
+    "gross_transcription_mismatches": [],
+    "sha256": "896c778ebe4b8e4b9712aaab169794c1b446fc966f99db0c31c1ee064d58bc63"
+  },
+  {
+    "file": "temporal_portfolio.csv",
+    "rows": 9,
+    "gross_transcription_mismatches": [],
+    "sha256": "2c90f3f249e6265f09cc1dad3961b915c3c038884983f0862bd9a0cf4e5c0b50"
+  },
+  {
+    "file": "temporal_events.csv",
+    "rows": 3,
+    "gross_transcription_mismatches": [],
+    "sha256": "7c3d95170dd659b4c628040f2368f09e2a4e663b3b0a8b85f2fcb85f2cb8a71b"
+  }
+]

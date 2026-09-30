@@ -1,0 +1,227 @@
+{
+  "scope": "Frozen-output audit; not a new experiment or clean-room retraining",
+  "checks": [
+    {
+      "check": "Exhibit checksum: table_01_geometry_surface_long.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: table_01_geometry_surface_long.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: table_02_geometry_seed_long.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: table_02_geometry_seed_long.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: table_04_data_definition_rank_agreement.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: table_04_data_definition_rank_agreement.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: sealed_table_01_family_inference.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: sealed_table_01_family_inference.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: sealed_table_04_development_comparison.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: sealed_table_04_development_comparison.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: identification_condition_summary.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: identification_condition_summary.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: identification_hypothesis_summary.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: identification_hypothesis_summary.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: identification_table_02_mechanism_aggregates.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: identification_table_02_mechanism_aggregates.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: identification_table_04_geometry_disagreement.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: identification_table_04_geometry_disagreement.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: p7_canonical_return_summary.json",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source identity: p7_canonical_return_summary.json",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: p7_model_evidence_matrix.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: p7_geometry_distribution.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: temporal_decomposition.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: temporal_portfolio.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exhibit checksum: temporal_events.csv",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every dimension-surface mean, SE, and band",
+      "items": 3024,
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Every individual-seed pricing distance",
+      "items": 3780,
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "All surface ranks",
+      "items": 756,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Locked evaluation: all nine families and intervals",
+      "items": 126,
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Simulation frequency sums",
+      "items": 576,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Simulation oracle exact recovery 64.2%",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Simulation feasible exact recovery 32.6%",
+      "items": 1,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All geometry-distribution identities",
+      "items": 32400,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All model-level geometry and pricing endpoints",
+      "items": 240,
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "All temporal loss-decomposition identities",
+      "items": 12,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bibliography keys resolve",
+      "items": 60,
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "all_passed": true,
+  "bibliography_entries": 61,
+  "cited_research_entries": 60,
+  "uncited_keys": [
+    "wang2026replication"
+  ]
+}

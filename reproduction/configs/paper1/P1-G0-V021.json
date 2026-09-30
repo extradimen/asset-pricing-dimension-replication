@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V021",
+  "parent_experiment_id": "P1-G0-V020",
+  "paper": 1,
+  "generation": "G0",
+  "status": "preregistered",
+  "evidence_class": "annual_direct_accounting_replication",
+  "research_question": "Can the 44 annual characteristics that do not require industry adjustment, CPI, or market-value scaling be reconstructed from the extended annual source table?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "additional_data_snapshot_ids": ["gkx-datashare-2021-v1"],
+  "research_snapshot_id": "paper1-design-2026-09-24-v5",
+  "features": ["absacc", "acc", "age", "agr", "cashdebt", "chcsho", "chinv", "convind", "currat", "depr", "divi", "divo", "egr", "gma", "grcapx", "grltnoa", "hire", "invest", "lgr", "operprof", "pchcurrat", "pchdepr", "pchgm_pchsale", "pchquick", "pchsale_pchinvt", "pchsale_pchrect", "pchsale_pchxsga", "pchsaleinv", "pctacc", "ps", "quick", "rd", "rd_sale", "realestate", "roic", "salecash", "saleinv", "salerec", "secured", "securedind", "sgr", "sin", "tang", "tb"],
+  "formula_source": {
+    "repository": "fkempf92/FactorData",
+    "commit": "6b57f13260245d688c177bb6ebad55efc291e75b",
+    "file": "factordata/factordata.py"
+  },
+  "timing_rule": "Use the existing annual point-in-time assignment in the research master with no additional monthly lag.",
+  "selection_period": ["2000-01", "2009-12"],
+  "confirmation_period": ["2010-01", "2019-12"],
+  "orientation_rule": "For each continuous feature compare only the published raw formula and its sign reversal on 2000-2009; select the orientation with positive and larger median monthly Spearman. Do not alter magnitudes or formulas. Discrete features are never sign-reversed.",
+  "thresholds": {
+    "continuous_feature_median_monthly_spearman": 0.85,
+    "continuous_feature_median_monthly_rank_mae": 0.2,
+    "discrete_feature_exact_agreement": 0.75
+  },
+  "discrete_features": ["convind", "divi", "divo", "ps", "rd", "securedind", "sin"],
+  "stopping_rule": "Judge each feature separately on 2010-2019. Failures require a source-backed later version; do not add formula candidates after confirmation.",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "entrypoint": "scripts/audit_annual_direct_characteristics.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V021"
+}

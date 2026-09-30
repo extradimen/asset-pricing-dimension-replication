@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P7-G1-V001-REPORT001",
+  "source_run": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001",
+  "audit_status": "completed",
+  "geometry_summary_medians": {
+    "hidden1|raw_centered": {
+      "participation_rank": 20.2506163461346,
+      "entropy_effective_rank": 35.855337299231834,
+      "stable_rank": 7.434612435083169,
+      "top_eigenvalue_share": 0.13450600299573065,
+      "pca90_rank": 37.0,
+      "pca95_rank": 50.0,
+      "twonn_dimension": 15.47662981876939,
+      "mle10_dimension": 14.01419038045225,
+      "mle20_dimension": 13.835230539248952,
+      "curvature_proxy_radians": 1.4930160272050852
+    },
+    "hidden1|feature_zscore": {
+      "participation_rank": 22.989181752719215,
+      "entropy_effective_rank": 38.44388526762049,
+      "stable_rank": 8.627655790290289,
+      "top_eigenvalue_share": 0.11590633989209628,
+      "pca90_rank": 38.0,
+      "pca95_rank": 51.0,
+      "twonn_dimension": 15.750354315063205,
+      "mle10_dimension": 14.33312823354463,
+      "mle20_dimension": 14.18636322281429,
+      "curvature_proxy_radians": 1.4942813139697608
+    },
+    "hidden1|row_l2_centered": {
+      "participation_rank": 21.167698019103454,
+      "entropy_effective_rank": 36.728358356417004,
+      "stable_rank": 7.712704729043725,
+      "top_eigenvalue_share": 0.12965620170896872,
+      "pca90_rank": 37.0,
+      "pca95_rank": 50.0,
+      "twonn_dimension": null,
+      "mle10_dimension": null,
+      "mle20_dimension": null,
+      "curvature_proxy_radians": null
+    },
+    "hidden2|raw_centered": {
+      "participation_rank": 14.66858587714664,
+      "entropy_effective_rank": 23.75972734633377,
+      "stable_rank": 6.112744345099761,
+      "top_eigenvalue_share": 0.16359264439987592,
+      "pca90_rank": 24.0,
+      "pca95_rank": 32.0,
+      "twonn_dimension": 14.07199745660541,
+      "mle10_dimension": 12.37636984078933,
+      "mle20_dimension": 12.05429106232458,
+      "curvature_proxy_radians": 1.473893846030565
+    },
+    "hidden2|feature_zscore": {
+      "participation_rank": 16.53827390936089,
+      "entropy_effective_rank": 25.43037918833265,
+      "stable_rank": 7.074945920911265,
+      "top_eigenvalue_share": 0.14134383711578138,
+      "pca90_rank": 25.0,
+      "pca95_rank": 32.0,
+      "twonn_dimension": 14.237412235771032,
+      "mle10_dimension": 12.635575117330115,
+      "mle20_dimension": 12.398894747387281,
+      "curvature_proxy_radians": 1.4770118372978929
+    },
+    "hidden2|row_l2_centered": {
+      "participation_rank": 15.478564867511867,
+      "entropy_effective_rank": 24.60925519360086,
+      "stable_rank": 6.487332131359466,
+      "top_eigenvalue_share": 0.15414657199453352,
+      "pca90_rank": 25.0,
+      "pca95_rank": 32.0,
+      "twonn_dimension": null,
+      "mle10_dimension": null,
+      "mle20_dimension": null,
+      "curvature_proxy_radians": null
+    },
+    "hidden3|raw_centered": {
+      "participation_rank": 9.048326309123219,
+      "entropy_effective_rank": 13.838992903744815,
+      "stable_rank": 4.311281949559385,
+      "top_eigenvalue_share": 0.23194957563941032,
+      "pca90_rank": 14.0,
+      "pca95_rank": 18.0,
+      "twonn_dimension": 11.81410176450797,
+      "mle10_dimension": 10.043470208442045,
+      "mle20_dimension": 9.757094107199377,
+      "curvature_proxy_radians": 1.4373705666769543
+    },
+    "hidden3|feature_zscore": {
+      "participation_rank": 10.475632025614159,
+      "entropy_effective_rank": 15.096885711378519,
+      "stable_rank": 5.07644847170314,
+      "top_eigenvalue_share": 0.19698811602838273,
+      "pca90_rank": 14.0,
+      "pca95_rank": 18.0,
+      "twonn_dimension": 11.990178584178622,
+      "mle10_dimension": 10.282204363314102,
+      "mle20_dimension": 10.057516420658684,
+      "curvature_proxy_radians": 1.4287428210327926
+    },
+    "hidden3|row_l2_centered": {
+      "participation_rank": 9.105314564383946,
+      "entropy_effective_rank": 13.902705919534473,
+      "stable_rank": 4.355975081645914,
+      "top_eigenvalue_share": 0.22956972561596994,
+      "pca90_rank": 14.0,
+      "pca95_rank": 18.0,
+      "twonn_dimension": null,
+      "mle10_dimension": null,
+      "mle20_dimension": null,
+      "curvature_proxy_radians": null
+    }
+  },
+  "raw_centered_layer_participation_rank_medians": {
+    "hidden1": 20.2506163461346,
+    "hidden2": 14.66858587714664,
+    "hidden3": 9.048326309123219
+  },
+  "hidden3_minus_hidden1_participation_rank": -11.20229003701138,
+  "hidden3_zscore_minus_raw_participation_rank": 1.42730571649094,
+  "hidden3_zscore_to_raw_participation_ratio": 1.1577425114578175,
+  "collapse_rate": 0.0,
+  "hidden3_high_vol_minus_other": 0.16492440153646015,
+  "drift_medians": {
+    "hidden1|raw_centered": 0.9873073087593227,
+    "hidden1|feature_zscore": 0.941993880652332,
+    "hidden1|row_l2_centered": 0.9477144446159027,
+    "hidden2|raw_centered": 0.8621247044860665,
+    "hidden2|feature_zscore": 0.8896234655293017,
+    "hidden2|row_l2_centered": 0.8560739795245782,
+    "hidden3|raw_centered": 0.6699072719609505,
+    "hidden3|feature_zscore": 0.6611352668205734,
+    "hidden3|row_l2_centered": 0.6606994022184225
+  },
+  "cka_medians": {
+    "hidden1-hidden2": 0.8752164244651794,
+    "hidden2-hidden3": 0.8484468162059784
+  },
+  "functional_probes": [
+    {
+      "endpoint": "development_hj_loss",
+      "n_models": 30,
+      "within_factor_count_slope": -0.01609215779650172,
+      "within_factor_count_correlation": -0.2955270528034804,
+      "within_factor_count_spearman": -0.2863181312569522,
+      "permutation_p_two_sided": 0.14897020595880825,
+      "leave_one_seed_out_baseline_rmse": 0.10613711819195293,
+      "leave_one_seed_out_geometry_rmse": 0.10198213338470266,
+      "cross_validated_rmse_improvement_pct": 3.9147330152075757
+    },
+    {
+      "endpoint": "development_factor_sharpe",
+      "n_models": 30,
+      "within_factor_count_slope": 0.087392225298297,
+      "within_factor_count_correlation": 0.4131938081045423,
+      "within_factor_count_spearman": 0.34949944382647385,
+      "permutation_p_two_sided": 0.04059188162367527,
+      "leave_one_seed_out_baseline_rmse": 0.41225814529649246,
+      "leave_one_seed_out_geometry_rmse": 0.40726401602137274,
+      "cross_validated_rmse_improvement_pct": 1.2114082722435926
+    }
+  ],
+  "decisions": {
+    "descriptive_layer_compression": true,
+    "collapse_stop_triggered": false,
+    "normalization_artifact_stop_triggered": false,
+    "primary_functional_gate_passed": false,
+    "functional_search_stopped": true
+  },
+  "interpretation": "Descriptive finite-scale hidden geometry is retained; the preregistered functional gate failed, so no alternative geometry-function search is permitted."
+}

@@ -1,0 +1,896 @@
+{
+  "key": "arlot2010cv",
+  "submitted": {
+    "key": "arlot2010cv",
+    "type": "article",
+    "fields": {
+      "author": "Arlot, Sylvain and Celisse, Alain",
+      "title": "A Survey of Cross-Validation Procedures for Model Selection",
+      "journal": "Statistics Surveys",
+      "year": "2010",
+      "volume": "4",
+      "pages": "40--79",
+      "doi": "10.1214/09-SS054"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1214/09-SS054",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T02:38:24Z",
+        "timestamp": 1790735904101,
+        "version": "4.1.0"
+      },
+      "reference-count": 129,
+      "publisher": "Institute of Mathematical Statistics",
+      "issue": "none",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Statist. Surv."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1214/09-ss054",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2010,
+            3,
+            8
+          ]
+        ],
+        "date-time": "2010-03-08T01:50:42Z",
+        "timestamp": 1268013042000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3396,
+      "title": [
+        "A survey of cross-validation procedures for model selection"
+      ],
+      "prefix": "10.1214",
+      "volume": "4",
+      "author": [
+        {
+          "given": "Sylvain",
+          "family": "Arlot",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alain",
+          "family": "Celisse",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "108",
+      "reference": [
+        {
+          "key": "12",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Barron, A., Birgé, L., and Massart, P. (1999). Risk bounds for model selection via penalization., <i>Probab. Theory Related Fields</i>, 113(3):301–413.",
+          "DOI": "10.1007/s004400050210"
+        },
+        {
+          "key": "88",
+          "unstructured": "Massart, P. (2007)., <i>Concentration Inequalities and Model Selection</i>, volume 1896 of <i>Lecture Notes in Mathematics</i>. Springer, Berlin. Lectures from the 33rd Summer School on Probability Theory held in Saint-Flour, July 6–23, 2003, With a foreword by Jean Picard."
+        },
+        {
+          "key": "1",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Akaike, H. (1970). Statistical predictor identification., <i>Ann. Inst. Statist. Math.</i>, 22:203–217.",
+          "DOI": "10.1007/BF02506337"
+        },
+        {
+          "key": "2",
+          "unstructured": "Akaike, H. (1973). Information theory and an extension of the maximum likelihood principle. In, <i>Second International Symposium on Information Theory (Tsahkadsor, 1971)</i>, pages 267–281. Akadémiai Kiadó, Budapest."
+        },
+        {
+          "key": "3",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Allen, D. M. (1974). The relationship between variable selection and data augmentation and a method for prediction., <i>Technometrics</i>, 16:125–127.",
+          "DOI": "10.2307/1267500"
+        },
+        {
+          "key": "4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alpaydin, E. (1999). Combined 5 x 2 cv F test for comparing supervised classification learning algorithms., <i>Neur. Comp.</i>, 11(8):1885–1892.",
+          "DOI": "10.1162/089976699300016007"
+        },
+        {
+          "key": "5",
+          "unstructured": "Anderson, R. L., Allen, D. M., and Cady, F. B. (1972). Selection of predictor variables in linear multiple regression. In bancroft, T. A., editor, <i>In Statistical papers in Honor of George W. Snedecor</i>. Iowa: iowa State University Press."
+        },
+        {
+          "key": "6",
+          "unstructured": "Arlot, S. (2007)., <i>Resampling and Model Selection</i>. PhD thesis, University Paris-Sud 11. http://tel.archives-ouvertes.fr/tel-00198803/en/."
+        },
+        {
+          "key": "7",
+          "unstructured": "Arlot, S. (2008a). Suboptimality of penalties proportional to the dimension for model selection in heteroscedastic regression., arXiv:0812.3141."
+        },
+        {
+          "key": "8",
+          "unstructured": "Arlot, S. (2008b)., <i>V</i>-fold cross-validation improved: <i>V</i>-fold penalization. arXiv:0802.0566v2."
+        },
+        {
+          "key": "9",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Arlot, S. (2009). Model selection by resampling penalization., <i>Electron. J. Stat.</i>, 3:557–624 (electronic).",
+          "DOI": "10.1214/08-EJS196"
+        },
+        {
+          "key": "10",
+          "unstructured": "Arlot, S. and Celisse, A. (2009). Segmentation in the mean of heteroscedastic data via cross-validation., arXiv:0902.3977v2."
+        },
+        {
+          "key": "11",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Baraud, Y. (2002). Model selection for regression on a random design., <i>ESAIM Probab. Statist.</i>, 6:127–146 (electronic).",
+          "DOI": "10.1051/ps:2002007"
+        },
+        {
+          "key": "13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bartlett, P. L., Boucheron, S., and Lugosi, G. (2002). Model selection and error estimation., <i>Machine Learning</i>, 48:85–113.",
+          "DOI": "10.1023/A:1013999503812"
+        },
+        {
+          "key": "14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bellman, R. E. and Dreyfus, S. E. (1962)., <i>Applied Dynamic Programming</i>. Princeton.",
+          "DOI": "10.1515/9781400874651"
+        },
+        {
+          "key": "15",
+          "unstructured": "Bengio, Y. and Grandvalet, Y. (2004). No unbiased estimator of the variance of, <i>K</i>-fold cross-validation. <i>J. Mach. Learn. Res.</i>, 5:1089–1105 (electronic)."
+        },
+        {
+          "key": "16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bhansali, R. J. and Downham, D. Y. (1977). Some properties of the order of an autoregressive model selected by a generalization of Akaike’s FPE criterion., <i>Biometrika</i>, 64(3):547–551.",
+          "DOI": "10.1093/biomet/64.3.547"
+        },
+        {
+          "key": "17",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Birgé, L. and Massart, P. (2001). Gaussian model selection., <i>J. Eur. Math. Soc. (JEMS)</i>, 3(3):203–268.",
+          "DOI": "10.1007/s100970100031"
+        },
+        {
+          "key": "19",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Blanchard, G. and Massart, P. (2006). Discussion: “Local Rademacher complexities and oracle inequalities in risk minimization” [Ann. Statist., <b>34</b> (2006), no. 6, 2593–2656] by V. Koltchinskii. <i>Ann. Statist.</i>, 34(6):2664–2671.",
+          "DOI": "10.1214/009053606000001037"
+        },
+        {
+          "key": "20",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Boucheron, S., Bousquet, O., and Lugosi, G. (2005). Theory of classification: a survey of some recent advances., <i>ESAIM Probab. Stat.</i>, 9:323–375 (electronic).",
+          "DOI": "10.1051/ps:2005018"
+        },
+        {
+          "key": "21",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Bousquet, O. and Elisseff, A. (2002). Stability and Generalization., <i>J. Machine Learning Research</i>, 2:499–526.",
+          "DOI": "10.1162/153244302760200704"
+        },
+        {
+          "key": "22",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Bowman, A. W. (1984). An alternative method of cross-validation for the smoothing of density estimates., <i>Biometrika</i>, 71(2):353–360.",
+          "DOI": "10.1093/biomet/71.2.353"
+        },
+        {
+          "key": "23",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Breiman, L. (1996). Heuristics of instability and stabilization in model selection., <i>Ann. Statist.</i>, 24(6):2350–2383.",
+          "DOI": "10.1214/aos/1032181158"
+        },
+        {
+          "key": "24",
+          "unstructured": "Breiman, L., Friedman, J. H., Olshen, R. A., and Stone, C. J. (1984)., <i>Classification and regression trees</i>. Wadsworth Statistics/Probability Series. Wadsworth Advanced Books and Software, Belmont, CA."
+        },
+        {
+          "key": "25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Breiman, L. and Spector, P. (1992). Submodel selection and evaluation in regression. the x-random case., <i>International Statistical Review</i>, 60(3):291–319.",
+          "DOI": "10.2307/1403680"
+        },
+        {
+          "key": "26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Burman, P. (1989). A comparative study of ordinary cross-validation, <i>v</i>-fold cross-validation and the repeated learning-testing methods. <i>Biometrika</i>, 76(3):503–514.",
+          "DOI": "10.1093/biomet/76.3.503"
+        },
+        {
+          "key": "27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Burman, P. (1990). Estimation of optimal transformations using, <i>v</i>-fold cross validation and repeated learning-testing methods. <i>Sankhyā Ser. A</i>, 52(3):314–345.",
+          "DOI": "10.2307/2336116"
+        },
+        {
+          "key": "28",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Burman, P., Chow, E., and Nolan, D. (1994). A cross-validatory method for dependent data., <i>Biometrika</i>, 81(2):351–358.",
+          "DOI": "10.1093/biomet/81.2.351"
+        },
+        {
+          "key": "29",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Burman, P. and Nolan, D. (1992). Data-dependent estimation of prediction functions., <i>J. Time Ser. Anal.</i>, 13(3):189–207.",
+          "DOI": "10.1111/j.1467-9892.1992.tb00102.x"
+        },
+        {
+          "key": "30",
+          "unstructured": "Burnham, K. P. and Anderson, D. R. (2002)., <i>Model selection and multimodel inference</i>. Springer-Verlag, New York, second edition. A practical information-theoretic approach."
+        },
+        {
+          "key": "31",
+          "unstructured": "Cao, Y. and Golubev, Y. (2006). On oracle inequalities related to smoothing splines., <i>Math. Methods Statist.</i>, 15(4):398–414."
+        },
+        {
+          "key": "32",
+          "unstructured": "Celisse, A. (2008a). Model selection in density estimation via cross-validation. Technical report, arXiv:0811.0802."
+        },
+        {
+          "key": "33",
+          "unstructured": "Celisse, A. (2008b)., <i>Model Selection Via Cross-Validation in Density Estimation, Regression and Change-Points Detection</i>. PhD thesis, University Paris-Sud 11, http://tel.archives-ouvertes.fr/tel-00346320/en/."
+        },
+        {
+          "key": "34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Celisse, A. and Robin, S. (2008). Nonparametric density estimation by exact leave-p-out cross-validation., <i>Computational Statistics and Data Analysis</i>, 52(5):2350–2368.",
+          "DOI": "10.1016/j.csda.2007.10.002"
+        },
+        {
+          "key": "35",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Chow, Y. S., Geman, S., and Wu, L. D. (1987). Consistent cross-validated density estimation., <i>Ann. Statist.</i>, 11:25–38.",
+          "DOI": "10.1214/aos/1176346053"
+        },
+        {
+          "key": "36",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Chu, C.-K. and Marron, J. S. (1991). Comparison of two bandwidth selectors with dependent errors., <i>Ann. Statist.</i>, 19(4):1906–1918.",
+          "DOI": "10.1214/aos/1176348377"
+        },
+        {
+          "key": "37",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Craven, P. and Wahba, G. (1979). Smoothing noisy data with spline functions. Estimating the correct degree of smoothing by the method of generalized cross-validation., <i>Numer. Math.</i>, 31(4):377–403.",
+          "DOI": "10.1007/BF01404567"
+        },
+        {
+          "key": "38",
+          "unstructured": "Dalelane, C. (2005). Exact oracle inequality for sharp adaptive kernel density estimator. Technical report, arXiv."
+        },
+        {
+          "key": "39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Daudin, J.-J. and Mary-Huard, T. (2008). Estimation of the conditional risk in classification: The swapping method., <i>Comput. Stat. Data Anal.</i>, 52(6):3220–3232.",
+          "DOI": "10.1016/j.csda.2007.10.003"
+        },
+        {
+          "key": "40",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Davies, S. L., Neath, A. A., and Cavanaugh, J. E. (2005). Cross validation model selection criteria for linear regression based on the Kullback-Leibler discrepancy., <i>Stat. Methodol.</i>, 2(4):249–266.",
+          "DOI": "10.1016/j.stamet.2005.05.002"
+        },
+        {
+          "key": "41",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Davison, A. C. and Hall, P. (1992). On the bias and variability of bootstrap and cross-validation estimates of error rate in discrimination problems., <i>Biometrika</i>, 79(2):279–284.",
+          "DOI": "10.1093/biomet/79.2.279"
+        },
+        {
+          "key": "42",
+          "unstructured": "Devroye, L., Györfi, L., and Lugosi, G. (1996)., <i>A probabilistic theory of pattern recognition</i>, volume 31 of <i>Applications of Mathematics (New York)</i>. Springer-Verlag, New York."
+        },
+        {
+          "key": "43",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Devroye, L. and Wagner, T. J. (1979). Distribution-Free performance Bounds for Potential Function Rules., <i>IEEE Transaction in Information Theory</i>, 25(5):601–604.",
+          "DOI": "10.1109/TIT.1979.1056087"
+        },
+        {
+          "key": "44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dietterich, T. G. (1998). Approximate statistical tests for comparing supervised classification learning algorithms., <i>Neur. Comp.</i>, 10(7):1895–1924.",
+          "DOI": "10.1162/089976698300017197"
+        },
+        {
+          "key": "45",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Efron, B. (1983). Estimating the error rate of a prediction rule: improvement on cross-validation., <i>J. Amer. Statist. Assoc.</i>, 78(382):316–331.",
+          "DOI": "10.2307/2288636"
+        },
+        {
+          "key": "46",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Efron, B. (1986). How biased is the apparent error rate of a prediction rule?, <i>J. Amer. Statist. Assoc.</i>, 81(394):461–470.",
+          "DOI": "10.2307/2289236"
+        },
+        {
+          "key": "47",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Efron, B. (2004). The estimation of prediction error: covariance penalties and cross-validation., <i>J. Amer. Statist. Assoc.</i>, 99(467):619–642. With comments and a rejoinder by the author.",
+          "DOI": "10.1198/016214504000000692"
+        },
+        {
+          "key": "48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Efron, B. and Morris, C. (1973). Combining possibly related estimation problems (with discussion)., <i>J. R. Statist. Soc. B</i>, 35:379.",
+          "DOI": "10.1111/j.2517-6161.1973.tb00968.x"
+        },
+        {
+          "key": "49",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Efron, B. and Tibshirani, R. (1997). Improvements on cross-validation: the.632+ bootstrap method., <i>J. Amer. Statist. Assoc.</i>, 92(438):548–560.",
+          "DOI": "10.2307/2965703"
+        },
+        {
+          "key": "50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fromont, M. (2007). Model selection by bootstrap penalization for classification., <i>Mach. Learn.</i>, 66(2–3):165–207.",
+          "DOI": "10.1007/s10994-006-7679-y"
+        },
+        {
+          "key": "51",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Geisser, S. (1974). A predictive approach to the random effect model., <i>Biometrika</i>, 61(1):101–107.",
+          "DOI": "10.1093/biomet/61.1.101"
+        },
+        {
+          "key": "52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Geisser, S. (1975). The predictive sample reuse method with applications., <i>J. Amer. Statist. Assoc.</i>, 70:320–328.",
+          "DOI": "10.1080/01621459.1975.10479865"
+        },
+        {
+          "key": "53",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Girard, D. A. (1998). Asymptotic comparison of (partial) cross-validation, GCV and randomized GCV in nonparametric regression., <i>Ann. Statist.</i>, 26(1):315–334.",
+          "DOI": "10.1214/aos/1030563988"
+        },
+        {
+          "key": "55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Györfi, L., Kohler, M., Krzyżak, A., and Walk, H. (2002)., <i>A distribution-free theory of nonparametric regression</i>. Springer Series in Statistics. Springer-Verlag, New York.",
+          "DOI": "10.1007/b97848"
+        },
+        {
+          "key": "56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hall, P. (1983). Large sample optimality of least squares cross-validation in density estimation., <i>Ann. Statist.</i>, 11(4):1156–1174.",
+          "DOI": "10.1214/aos/1176346329"
+        },
+        {
+          "key": "57",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hall, P. (1987). On Kullback-Leibler loss and density estimation., <i>The Annals of Statistics</i>, 15(4):1491–1519.",
+          "DOI": "10.1214/aos/1176350606"
+        },
+        {
+          "key": "58",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hall, P., Lahiri, S. N., and Polzehl, J. (1995). On bandwidth choice in nonparametric regression with both short- and long-range dependent errors., <i>Ann. Statist.</i>, 23(6):1921–1936.",
+          "DOI": "10.1214/aos/1034713640"
+        },
+        {
+          "key": "59",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hall, P., Marron, J. S., and Park, B. U. (1992). Smoothed cross-validation., <i>Probab. Theory Related Fields</i>, 92(1):1–20.",
+          "DOI": "10.1007/BF01205233"
+        },
+        {
+          "key": "60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hall, P. and Schucany, W. R. (1989). A local cross-validation algorithm., <i>Statist. Probab. Lett.</i>, 8(2):109–117.",
+          "DOI": "10.1016/0167-7152(89)90002-3"
+        },
+        {
+          "key": "61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Härdle, W. (1984). How to determine the bandwidth of some nonlinear smoothers in practice. In, <i>Robust and nonlinear time series analysis (Heidelberg, 1983)</i>, volume 26 of <i>Lecture Notes in Statist.</i>, pages 163–184. Springer, New York.",
+          "DOI": "10.1007/978-1-4615-7821-5_9"
+        },
+        {
+          "key": "62",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Härdle, W., Hall, P., and Marron, J. S. (1988). How far are automatically chosen regression smoothing parameters from their optimum?, <i>J. Amer. Statist. Assoc.</i>, 83(401):86–101. With comments by David W. Scott and Iain Johnstone and a reply by the authors.",
+          "DOI": "10.2307/2288922"
+        },
+        {
+          "key": "63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hart, J. D. (1994). Automated kernel smoothing of dependent data by using time series cross-validation., <i>J. Roy. Statist. Soc. Ser. B</i>, 56(3):529–542.",
+          "DOI": "10.1111/j.2517-6161.1994.tb01998.x"
+        },
+        {
+          "key": "64",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hart, J. D. and Vieu, P. (1990). Data-driven bandwidth choice for density estimation based on dependent data., <i>Ann. Statist.</i>, 18(2):873–890.",
+          "DOI": "10.1214/aos/1176347630"
+        },
+        {
+          "key": "65",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hart, J. D. and Wehrly, T. E. (1986). Kernel regression estimation using repeated measurements data., <i>J. Amer. Statist. Assoc.</i>, 81(396):1080–1088.",
+          "DOI": "10.2307/2289087"
+        },
+        {
+          "key": "66",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hastie, T., Tibshirani, R., and Friedman, J. (2009)., <i>The elements of statistical learning</i>. Springer Series in Statistics. Springer-Verlag, New York. Data mining, inference, and prediction. 2nd edition.",
+          "DOI": "10.1007/978-0-387-84858-7"
+        },
+        {
+          "key": "67",
+          "unstructured": "Herzberg, A. M. and Tsukanov, A. V. (1986). A note on modifications of jackknife criterion for model selection., <i>Utilitas Math.</i>, 29:209–216."
+        },
+        {
+          "key": "68",
+          "unstructured": "Herzberg, P. A. (1969). The parameters of cross-validation., <i>Psychometrika</i>, 34:Monograph Supplement."
+        },
+        {
+          "key": "69",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hesterberg, T. C., Choi, N. H., Meier, L., and Fraley, C. (2008). Least angle and l1 penalized regression: A review., <i>Statistics Surveys</i>, 2:61–93 (electronic).",
+          "DOI": "10.1214/08-SS035"
+        },
+        {
+          "key": "70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hills, M. (1966). Allocation Rules and their Error Rates., <i>J. Royal Statist. Soc. Series B</i>, 28(1):1–31.",
+          "DOI": "10.1111/j.2517-6161.1966.tb00614.x"
+        },
+        {
+          "key": "72",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Huber, P. (1964). Robust estimation of a local parameter., <i>Ann. Math. Statist.</i>, 35:73–101.",
+          "DOI": "10.1214/aoms/1177703732"
+        },
+        {
+          "key": "73",
+          "unstructured": "John, P. W. M. (1971)., <i>Statistical design and analysis of experiments</i>. The Macmillan Co., New York."
+        },
+        {
+          "key": "74",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jonathan, P., Krzanowki, W. J., and McCarthy, W. V. (2000). On the use of cross-validation to assess performance in multivariate prediction., <i>Stat. and Comput.</i>, 10:209–229.",
+          "DOI": "10.1023/A:1008987426876"
+        },
+        {
+          "key": "75",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kearns, M., Mansour, Y., Ng, A. Y., and Ron, D. (1997). An Experimental and Theoretical Comparison of Model Selection Methods., <i>Machine Learning</i>, 27:7–50.",
+          "DOI": "10.1023/A:1007344726582"
+        },
+        {
+          "key": "76",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kearns, M. and Ron, D. (1999). Algorithmic Stability and Sanity-Check Bounds for Leave-One-Out Cross-Validation., <i>Neural Computation</i>, 11:1427–1453.",
+          "DOI": "10.1162/089976699300016304"
+        },
+        {
+          "key": "77",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Koltchinskii, V. (2001). Rademacher penalties and structural risk minimization., <i>IEEE Trans. Inform. Theory</i>, 47(5):1902–1914.",
+          "DOI": "10.1109/18.930926"
+        },
+        {
+          "key": "78",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Lachenbruch, P. A. and Mickey, M. R. (1968). Estimation of Error Rates in Discriminant Analysis., <i>Technometrics</i>, 10(1):1–11.",
+          "DOI": "10.2307/1266219"
+        },
+        {
+          "key": "79",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Larson, S. C. (1931). The shrinkage of the coefficient of multiple correlation., <i>J. Edic. Psychol.</i>, 22:45–55.",
+          "DOI": "10.1037/h0072400"
+        },
+        {
+          "key": "80",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lecué, G. (2006). Optimal oracle inequality for aggregation of classifiers under low noise condition. In Gabor Lugosi, H. U. S., editor, <i>19th Annual Conference On Learning Theory, COLT06.</i>, pages 364–378. Springer.",
+          "DOI": "10.1007/11776420_28"
+        },
+        {
+          "key": "81",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lecué, G. (2007). Suboptimality of penalized empirical risk minimization in classification. In, <i>COLT 2007</i>, volume 4539 of <i>Lecture Notes in Artificial Intelligence</i>. Springer, Berlin.",
+          "DOI": "10.1007/978-3-540-72927-3_12"
+        },
+        {
+          "key": "82",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Leung, D., Marriott, F., and Wu, E. (1993). Bandwidth selection in robust smoothing., <i>J. Nonparametr. Statist.</i>, 2:333–339.",
+          "DOI": "10.1080/10485259308832562"
+        },
+        {
+          "key": "83",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Leung, D. H.-Y. (2005). Cross-validation in nonparametric regression with outliers., <i>Ann. Statist.</i>, 33(5):2291–2310.",
+          "DOI": "10.1214/009053605000000499"
+        },
+        {
+          "key": "84",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Li, K.-C. (1985). From Stein’s unbiased risk estimates to the method of generalized cross validation., <i>Ann. Statist.</i>, 13(4):1352–1377.",
+          "DOI": "10.1214/aos/1176349742"
+        },
+        {
+          "key": "85",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Li, K.-C. (1987). Asymptotic optimality for, <i>C</i><sub><i>p</i></sub>, <i>C</i><sub><i>L</i></sub>, cross-validation and generalized cross-validation: discrete index set. <i>Ann. Statist.</i>, 15(3):958–975.",
+          "DOI": "10.1214/aos/1176350486"
+        },
+        {
+          "key": "86",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mallows, C. L. (1973). Some comments on, <i>C</i><sub><i>p</i></sub>. <i>Technometrics</i>, 15:661–675.",
+          "DOI": "10.1080/00401706.1973.10489103"
+        },
+        {
+          "key": "87",
+          "unstructured": "Markatou, M., Tian, H., Biswas, S., and Hripcsak, G. (2005). Analysis of variance of cross-validation estimators of the generalization error., <i>J. Mach. Learn. Res.</i>, 6:1127–1168 (electronic)."
+        },
+        {
+          "key": "90",
+          "unstructured": "Mosteller, F. and Tukey, J. W. (1968). Data analysis, including statistics. In Lindzey, G. and Aronson, E., editors, <i>Handbook of Social Psychology, Vol. 2</i>. Addison-Wesley."
+        },
+        {
+          "key": "91",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nadeau, C. and Bengio, Y. (2003). Inference for the generalization error., <i>Machine Learning</i>, 52:239–281.",
+          "DOI": "10.1023/A:1024068626366"
+        },
+        {
+          "key": "92",
+          "unstructured": "Nemirovski, A. (2000). Topics in Non-Parametric Statistics. In Bernard, P., editor, <i>Lecture Notes in Mathematics</i>, Lectures on Probability Theory and Statistics, Ecole d’ete de Probabilities de Saint-Flour XXVIII - 1998. M. Emery, A. Nemirovski, D. Voiculescu."
+        },
+        {
+          "key": "93",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Nishii, R. (1984). Asymptotic properties of criteria for selection of variables in multiple regression., <i>Ann. Statist.</i>, 12(2):758–765.",
+          "DOI": "10.1214/aos/1176346522"
+        },
+        {
+          "key": "94",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Opsomer, J., Wang, Y., and Yang, Y. (2001). Nonparametric regression with correlated errors., <i>Statist. Sci.</i>, 16(2):134–153.",
+          "DOI": "10.1214/ss/1009213287"
+        },
+        {
+          "key": "95",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Picard, R. R. and Cook, R. D. (1984). Cross-validation of regression models., <i>J. Amer. Statist. Assoc.</i>, 79(387):575–583.",
+          "DOI": "10.2307/2288403"
+        },
+        {
+          "key": "96",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Politis, D. N., Romano, J. P., and Wolf, M. (1999)., <i>Subsampling</i>. Springer Series in Statistics. Springer-Verlag, New York.",
+          "DOI": "10.1007/978-1-4612-1554-7"
+        },
+        {
+          "key": "97",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Quenouille, M. H. (1949). Approximate tests of correlation in time-series., <i>J. Roy. Statist. Soc. Ser. B.</i>, 11:68–84.",
+          "DOI": "10.1111/j.2517-6161.1949.tb00023.x"
+        },
+        {
+          "key": "98",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Raftery, A. E. (1995). Bayesian Model Selection in Social Research., <i>Siociological Methodology</i>, 25:111–163.",
+          "DOI": "10.2307/271063"
+        },
+        {
+          "key": "99",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ripley, B. D. (1996)., <i>Pattern Recognition and Neural Networks</i>. Cambridge Univ. Press.",
+          "DOI": "10.1017/CBO9780511812651"
+        },
+        {
+          "key": "100",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Rissanen, J. (1983). Universal Prior for Integers and Estimation by Minimum Description Length., <i>The Annals of Statistics</i>, 11(2):416–431.",
+          "DOI": "10.1214/aos/1176346150"
+        },
+        {
+          "key": "101",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ronchetti, E., Field, C., and Blanchard, W. (1997). Robust linear model selection by cross-validation., <i>J. Amer. Statist. Assoc.</i>, 92:1017–1023.",
+          "DOI": "10.2307/2965566"
+        },
+        {
+          "key": "102",
+          "unstructured": "Rudemo, M. (1982). Empirical Choice of Histograms and Kernel Density Estimators., <i>Scandinavian Journal of Statistics</i>, 9:65–78."
+        },
+        {
+          "key": "103",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Sauvé, M. (2009). Histogram selection in non gaussian regression., <i>ESAIM: Probability and Statistics</i>, 13:70–86.",
+          "DOI": "10.1051/ps:2008002"
+        },
+        {
+          "key": "104",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schuster, E. F. and Gregory, G. G. (1981). On the consistency of maximum likelihood nonparametric density estimators. In Eddy, W. F., editor, <i>Computer Science and Statistics: Proceedings of the 13th Symposium on the Interface</i>, pages 295–298. Springer-Verlag, New York.",
+          "DOI": "10.1007/978-1-4613-9464-8_43"
+        },
+        {
+          "key": "105",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Schwarz, G. (1978). Estimating the dimension of a model., <i>Ann. Statist.</i>, 6(2):461–464.",
+          "DOI": "10.1214/aos/1176344136"
+        },
+        {
+          "key": "106",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Shao, J. (1993). Linear model selection by cross-validation., <i>J. Amer. Statist. Assoc.</i>, 88(422):486–494.",
+          "DOI": "10.2307/2290328"
+        },
+        {
+          "key": "107",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Shao, J. (1996). Bootstrap model selection., <i>J. Amer. Statist. Assoc.</i>, 91(434):655–665.",
+          "DOI": "10.2307/2291661"
+        },
+        {
+          "key": "109",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Shibata, R. (1984). Approximate efficiency of a selection procedure for the number of regression variables., <i>Biometrika</i>, 71(1):43–49.",
+          "DOI": "10.1093/biomet/71.1.43"
+        },
+        {
+          "key": "110",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Stone, C. (1984). An asymptotically optimal window selection rule for kernel density estimates., <i>The Annals of Statistics</i>, 12(4):1285–1297.",
+          "DOI": "10.1214/aos/1176346792"
+        },
+        {
+          "key": "111",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stone, M. (1974). Cross-validatory choice and assessment of statistical predictions., <i>J. Roy. Statist. Soc. Ser. B</i>, 36:111–147. With discussion and a reply by the authors.",
+          "DOI": "10.1111/j.2517-6161.1974.tb00994.x"
+        },
+        {
+          "key": "112",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Stone, M. (1977). Asymptotics for and against cross-validation., <i>Biometrika</i>, 64(1):29–35.",
+          "DOI": "10.1093/biomet/64.1.29"
+        },
+        {
+          "key": "113",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tibshirani, R. (1996). Regression Shrinkage and Selection via the Lasso., <i>J. Royal Statist. Soc. Series B</i>, 58(1):267–288.",
+          "DOI": "10.1111/j.2517-6161.1996.tb02080.x"
+        },
+        {
+          "key": "114",
+          "unstructured": "van der Laan, M. J. and Dudoit, S. (2003). Unified cross-validation methodology for selection among estimators and a general cross-validated adaptive epsilon-net estimator: Finite sample oracle inequalities and examples. Working Paper Series Working Paper 130, U.C. Berkeley Division of Biostatistics. available at, http://www.bepress.com/ucbbiostat/paper130."
+        },
+        {
+          "key": "115",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van der Laan, M. J., Dudoit, S., and Keles, S. (2004). Asymptotic optimality of likelihood-based cross-validation., <i>Stat. Appl. Genet. Mol. Biol.</i>, 3:Art. 4, 27 pp. (electronic).",
+          "DOI": "10.2202/1544-6115.1036"
+        },
+        {
+          "key": "116",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van der Laan, M. J., Dudoit, S., and van der Vaart, A. W. (2006). The cross-validated adaptive epsilon-net estimator., <i>Statist. Decisions</i>, 24(3):373–395.",
+          "DOI": "10.1524/stnd.2006.24.3.373"
+        },
+        {
+          "key": "117",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van der Vaart, A. W., Dudoit, S., and van der Laan, M. J. (2006). Oracle inequalities for multi-fold cross validation., <i>Statist. Decisions</i>, 24(3):351–371.",
+          "DOI": "10.1524/stnd.2006.24.3.351"
+        },
+        {
+          "key": "118",
+          "unstructured": "van Erven, T., Grünwald, P. D., and de Rooij, S. (2008). Catching up faster by switching sooner: A prequential solution to the aic-bic dilemma., arXiv:0807.1005."
+        },
+        {
+          "key": "119",
+          "unstructured": "Vapnik, V. (1982)., <i>Estimation of dependences based on empirical data</i>. Springer Series in Statistics. Springer-Verlag, New York. Translated from the Russian by Samuel Kotz."
+        },
+        {
+          "key": "120",
+          "unstructured": "Vapnik, V. N. (1998)., <i>Statistical learning theory</i>. Adaptive and Learning Systems for Signal Processing, Communications, and Control. John Wiley &amp; Sons Inc., New York. A Wiley-Interscience Publication."
+        },
+        {
+          "key": "121",
+          "unstructured": "Vapnik, V. N. and Chervonenkis, A. Y. (1974)., <i>Teoriya raspoznavaniya obrazov. Statisticheskie problemy obucheniya</i>. Izdat. “Nauka”, Moscow. Theory of Pattern Recognition (In Russian)."
+        },
+        {
+          "key": "122",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Wahba, G. (1975). Periodic splines for spectral density estimation: The use of cross validation for determining the degree of smoothing., <i>Communications in Statistics</i>, 4:125–142.",
+          "DOI": "10.1080/03610927508827233"
+        },
+        {
+          "key": "123",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Wahba, G. (1977). Practical Approximate Solutions to Linear Operator Equations When the Data are Noisy., <i>SIAM Journal on Numerical Analysis</i>, 14(4):651–667.",
+          "DOI": "10.1137/0714044"
+        },
+        {
+          "key": "125",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yang, Y. (2001). Adaptive Regression by Mixing., <i>J. Amer. Statist. Assoc.</i>, 96(454):574–588.",
+          "DOI": "10.1198/016214501753168262"
+        },
+        {
+          "key": "126",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yang, Y. (2005). Can the strengths of AIC and BIC be shared? A conflict between model indentification and regression estimation., <i>Biometrika</i>, 92(4):937–950.",
+          "DOI": "10.1093/biomet/92.4.937"
+        },
+        {
+          "key": "127",
+          "unstructured": "Yang, Y. (2006). Comparing learning methods for classification., <i>Statist. Sinica</i>, 16(2):635–657."
+        },
+        {
+          "key": "128",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yang, Y. (2007). Consistency of cross validation for comparing regression procedures., <i>Ann. Statist.</i>, 35(6):2450–2473.",
+          "DOI": "10.1214/009053607000000514"
+        },
+        {
+          "key": "129",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Zhang, P. (1993). Model selection via multifold cross validation., <i>Ann. Statist.</i>, 21(1):299–313.",
+          "DOI": "10.1214/aos/1176349027"
+        },
+        {
+          "key": "18",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Birgé, L. and Massart, P. (2007). Minimal penalties for Gaussian model selection., <i>Probab. Theory Related Fields</i>, 138(1-2):33–73.",
+          "DOI": "10.1007/s00440-006-0011-8"
+        },
+        {
+          "key": "54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grünwald, P. D. (2007)., <i>The Minimum Description Length Principle</i>. MIT Press, Cambridge, MA, USA.",
+          "DOI": "10.7551/mitpress/4643.001.0001"
+        },
+        {
+          "key": "71",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hoeting, J. A., Madigan, D., Raftery, A. E., and Volinsky, C. T. (1999). Bayesian Model Averaging: A tutorial., <i>Statistical Science</i>, 14(4):382–417.",
+          "DOI": "10.1214/ss/1009212519"
+        },
+        {
+          "key": "89",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Molinaro, A. M., Simon, R., and Pfeiffer, R. M. (2005). Prediction error estimation: a comparison of resampling methods., <i>Bioinformatics</i>, 21(15):3301–3307.",
+          "DOI": "10.1093/bioinformatics/bti499"
+        },
+        {
+          "key": "108",
+          "unstructured": "Shao, J. (1997). An asymptotic theory for linear model selection., <i>Statist. Sinica</i>, 7(2):221–264. With comments and a rejoinder by the author."
+        },
+        {
+          "key": "124",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Wegkamp, M. (2003). Model selection in nonparametric regression., <i>The Annals of Statistics</i>, 31(1):252–273.",
+          "DOI": "10.1214/aos/1046294464"
+        }
+      ],
+      "container-title": [
+        "Statistics Surveys"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://projecteuclid.org/download/pdfview_1/euclid.ssu/1268143839",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            10
+          ]
+        ],
+        "date-time": "2021-05-10T21:32:53Z",
+        "timestamp": 1620682373000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://projecteuclid.org/journals/statistics-surveys/volume-4/issue-none/A-survey-of-cross-validation-procedures-for-model-selection/10.1214/09-SS054.full"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ]
+      },
+      "references-count": 129,
+      "journal-issue": {
+        "issue": "none",
+        "published-online": {
+          "date-parts": [
+            [
+              2010,
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1214/09-ss054",
+      "relation": {},
+      "ISSN": [
+        "1935-7516"
+      ],
+      "issn-type": [
+        {
+          "value": "1935-7516",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ]
+      }
+    }
+  }
+}

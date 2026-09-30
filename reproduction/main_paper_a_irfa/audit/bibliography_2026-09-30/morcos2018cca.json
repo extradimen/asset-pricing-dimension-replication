@@ -1,0 +1,15 @@
+{
+  "key": "morcos2018cca",
+  "submitted": {
+    "key": "morcos2018cca",
+    "type": "inproceedings",
+    "fields": {
+      "author": "Morcos, Ari S. and Raghu, Maithra and Bengio, Samy",
+      "title": "Insights on Representational Similarity in Neural Networks with Canonical Correlation",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2018",
+      "volume": "31"
+    }
+  },
+  "status": "needs_primary_lookup"
+}

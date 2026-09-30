@@ -1,0 +1,842 @@
+[
+  {
+    "month": 201001,
+    "common_signal": -0.22545180484759722,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201002,
+    "common_signal": 0.7017696552246614,
+    "cusum": 0.4517696552246614,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201003,
+    "common_signal": 0.6249743676324022,
+    "cusum": 0.8267440228570635,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201004,
+    "common_signal": -0.045524380242131825,
+    "cusum": 0.5312196426149317,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201005,
+    "common_signal": 0.4324602042431758,
+    "cusum": 0.7136798468581076,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201006,
+    "common_signal": 0.6738777954979351,
+    "cusum": 1.1375576423560427,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201007,
+    "common_signal": -0.2311615340224101,
+    "cusum": 0.6563961083336326,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201008,
+    "common_signal": 0.07846083897933294,
+    "cusum": 0.4848569473129656,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201009,
+    "common_signal": -1.1453222696995362,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201010,
+    "common_signal": -0.4422545703972585,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201011,
+    "common_signal": -0.10865888730685724,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201012,
+    "common_signal": -1.1453222696999281,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201101,
+    "common_signal": 0.1716749693065568,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201102,
+    "common_signal": 0.4024364210840345,
+    "cusum": 0.1524364210840345,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201103,
+    "common_signal": 0.2381516250512252,
+    "cusum": 0.14058804613525966,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201104,
+    "common_signal": -0.057503636470312446,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201105,
+    "common_signal": -0.019446458383948928,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201106,
+    "common_signal": -0.48205586992093,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201107,
+    "common_signal": 0.3660456620487366,
+    "cusum": 0.11604566204873662,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201108,
+    "common_signal": 0.6311476137839991,
+    "cusum": 0.49719327583273576,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201109,
+    "common_signal": 1.1535825477664443,
+    "cusum": 1.40077582359918,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201110,
+    "common_signal": -0.3689201501467207,
+    "cusum": 0.7818556734524593,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201111,
+    "common_signal": 0.39347923254173006,
+    "cusum": 0.9253349059941893,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201112,
+    "common_signal": 0.35930472121089524,
+    "cusum": 1.0346396272050846,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201201,
+    "common_signal": -0.712775971101152,
+    "cusum": 0.07186365610393264,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201202,
+    "common_signal": 0.27749231210954234,
+    "cusum": 0.09935596821347498,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201203,
+    "common_signal": 0.2765158852879108,
+    "cusum": 0.1258718535013858,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201204,
+    "common_signal": -0.06073248799579598,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201205,
+    "common_signal": -0.11422056202311331,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201206,
+    "common_signal": 0.2823146962397362,
+    "cusum": 0.03231469623973621,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201207,
+    "common_signal": -0.10765540931333667,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201208,
+    "common_signal": 0.2913905714545017,
+    "cusum": 0.0413905714545017,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201209,
+    "common_signal": -0.45652954185228317,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201210,
+    "common_signal": -0.3992315053408581,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201211,
+    "common_signal": 0.7491404112941176,
+    "cusum": 0.49914041129411757,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201212,
+    "common_signal": 0.1655517683510172,
+    "cusum": 0.41469217964513483,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201301,
+    "common_signal": -0.3831061829547778,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201302,
+    "common_signal": 0.21358216952003703,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201303,
+    "common_signal": 0.6569934750304741,
+    "cusum": 0.4069934750304741,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201304,
+    "common_signal": 0.1969220265471637,
+    "cusum": 0.35391550157763785,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201305,
+    "common_signal": 0.3593585233611145,
+    "cusum": 0.46327402493875236,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201306,
+    "common_signal": 0.11293244311655604,
+    "cusum": 0.3262064680553084,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201307,
+    "common_signal": 0.08954350369671076,
+    "cusum": 0.16574997175201917,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201308,
+    "common_signal": -0.35267411635635754,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201309,
+    "common_signal": 0.38631908523853314,
+    "cusum": 0.13631908523853314,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201310,
+    "common_signal": -0.26982851181462575,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201311,
+    "common_signal": 0.0173658649785333,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201312,
+    "common_signal": -0.06221113688303725,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201401,
+    "common_signal": -0.5986053244412898,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201402,
+    "common_signal": 0.6948144103683492,
+    "cusum": 0.44481441036834923,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201403,
+    "common_signal": 0.19263450095254583,
+    "cusum": 0.3874489113208951,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201404,
+    "common_signal": -0.3964467023444205,
+    "cusum": 0.0,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201405,
+    "common_signal": 0.7945358719256358,
+    "cusum": 0.5445358719256358,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201406,
+    "common_signal": 0.8065255153201747,
+    "cusum": 1.1010613872458106,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201407,
+    "common_signal": 0.3807234688899646,
+    "cusum": 1.2317848561357752,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201408,
+    "common_signal": 0.659553164886375,
+    "cusum": 1.6413380210221502,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201409,
+    "common_signal": -0.17871581287243674,
+    "cusum": 1.2126222081497136,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201410,
+    "common_signal": 0.6950488918679595,
+    "cusum": 1.657671100017673,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201411,
+    "common_signal": 0.8956153492908593,
+    "cusum": 2.303286449308532,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201412,
+    "common_signal": 0.7500931802075206,
+    "cusum": 2.8033796295160527,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201501,
+    "common_signal": -0.45631513367942045,
+    "cusum": 2.0970644958366322,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201502,
+    "common_signal": 0.04177689489129529,
+    "cusum": 1.8888413907279276,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201503,
+    "common_signal": 0.4460689808944483,
+    "cusum": 2.084910371622376,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201504,
+    "common_signal": 0.2677238602459638,
+    "cusum": 2.1026342318683398,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201505,
+    "common_signal": 0.6535504879992088,
+    "cusum": 2.5061847198675484,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201506,
+    "common_signal": 0.27633846215350183,
+    "cusum": 2.53252318202105,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201507,
+    "common_signal": 0.01082728484906211,
+    "cusum": 2.293350466870112,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201508,
+    "common_signal": -0.39371160299463764,
+    "cusum": 1.6496388638754744,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201509,
+    "common_signal": -0.4124070772336639,
+    "cusum": 0.9872317866418105,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201510,
+    "common_signal": 0.3502255093254476,
+    "cusum": 1.0874572959672582,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201511,
+    "common_signal": 0.13939710111182457,
+    "cusum": 0.9768543970790828,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201512,
+    "common_signal": 0.48587175078904626,
+    "cusum": 1.212726147868129,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201601,
+    "common_signal": 0.06764067165274872,
+    "cusum": 1.0303668195208777,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201602,
+    "common_signal": 0.2284249080259704,
+    "cusum": 1.008791727546848,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201603,
+    "common_signal": 0.0920079888599488,
+    "cusum": 0.8507997164067969,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201604,
+    "common_signal": 0.44807310666718525,
+    "cusum": 1.048872823073982,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201605,
+    "common_signal": 0.4322772131928738,
+    "cusum": 1.231150036266856,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201606,
+    "common_signal": 0.3414631465055889,
+    "cusum": 1.3226131827724448,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201607,
+    "common_signal": -0.3490764273821398,
+    "cusum": 0.7235367553903049,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201608,
+    "common_signal": 0.33699241524921913,
+    "cusum": 0.8105291706395241,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201609,
+    "common_signal": 0.6772527740857326,
+    "cusum": 1.2377819447252567,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201610,
+    "common_signal": 0.015411121906266348,
+    "cusum": 1.003193066631523,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201611,
+    "common_signal": 0.7551068055121389,
+    "cusum": 1.5082998721436618,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201612,
+    "common_signal": 0.6321983025067847,
+    "cusum": 1.8904981746504466,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201701,
+    "common_signal": 0.25871467851094165,
+    "cusum": 1.899212853161388,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201702,
+    "common_signal": 0.7106164802656397,
+    "cusum": 2.3598293334270277,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201703,
+    "common_signal": 0.32842448334555474,
+    "cusum": 2.4382538167725825,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201704,
+    "common_signal": 0.7800693318665792,
+    "cusum": 2.9683231486391617,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201705,
+    "common_signal": 0.26645281057582654,
+    "cusum": 2.9847759592149883,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201706,
+    "common_signal": 0.5539894160174939,
+    "cusum": 3.288765375232482,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201707,
+    "common_signal": 0.3719935091620917,
+    "cusum": 3.410758884394574,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201708,
+    "common_signal": 0.013970778277539045,
+    "cusum": 3.174729662672113,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201709,
+    "common_signal": 0.0671900920843513,
+    "cusum": 2.991919754756464,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201710,
+    "common_signal": 0.6846744064140595,
+    "cusum": 3.4265941611705237,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201711,
+    "common_signal": 0.6953799822592356,
+    "cusum": 3.8719741434297594,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201712,
+    "common_signal": 0.40658142258901786,
+    "cusum": 4.0285555660187775,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201801,
+    "common_signal": 0.26690517034750066,
+    "cusum": 4.0454607363662785,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201802,
+    "common_signal": -0.4109937193111614,
+    "cusum": 3.384467017055117,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201803,
+    "common_signal": 0.5978630334593661,
+    "cusum": 3.7323300505144834,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201804,
+    "common_signal": 0.7267024982257055,
+    "cusum": 4.209032548740189,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201805,
+    "common_signal": 0.1955995471414944,
+    "cusum": 4.154632095881683,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201806,
+    "common_signal": 0.7933729333737235,
+    "cusum": 4.698005029255407,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201807,
+    "common_signal": 0.8893523760548937,
+    "cusum": 5.337357405310301,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201808,
+    "common_signal": 0.7863730856650865,
+    "cusum": 5.873730490975388,
+    "threshold": 5.617777775532913,
+    "active_update": false
+  },
+  {
+    "month": 201809,
+    "common_signal": -0.377670564452097,
+    "cusum": 5.246059926523291,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201810,
+    "common_signal": -0.688773686456067,
+    "cusum": 4.307286240067224,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201811,
+    "common_signal": 0.605251713995461,
+    "cusum": 4.662537954062685,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201812,
+    "common_signal": 0.027221989711347778,
+    "cusum": 4.439759943774033,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201901,
+    "common_signal": 0.09866479298659059,
+    "cusum": 4.288424736760623,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201902,
+    "common_signal": -0.37137604716195943,
+    "cusum": 3.667048689598664,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201903,
+    "common_signal": -0.20260987073904788,
+    "cusum": 3.214438818859616,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201904,
+    "common_signal": 0.7399375381122734,
+    "cusum": 3.7043763569718893,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201905,
+    "common_signal": 0.47387074225771936,
+    "cusum": 3.9282470992296084,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201906,
+    "common_signal": 0.8071464478477856,
+    "cusum": 4.485393547077394,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201907,
+    "common_signal": 0.2224983273899964,
+    "cusum": 4.457891874467391,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201908,
+    "common_signal": -0.030135693476566323,
+    "cusum": 4.177756180990825,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201909,
+    "common_signal": 0.9029528868107466,
+    "cusum": 4.830709067801571,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201910,
+    "common_signal": 0.5238362063370346,
+    "cusum": 5.104545274138606,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201911,
+    "common_signal": 0.4562959353571981,
+    "cusum": 5.310841209495804,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  },
+  {
+    "month": 201912,
+    "common_signal": 0.10308854106771657,
+    "cusum": 5.16392975056352,
+    "threshold": 5.617777775532913,
+    "active_update": true
+  }
+]

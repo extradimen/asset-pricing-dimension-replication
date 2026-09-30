@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V020",
+  "parent_experiment_id": "P1-G0-V019",
+  "paper": 1,
+  "generation": "G0",
+  "status": "preregistered",
+  "evidence_class": "extended_annual_source_table",
+  "research_question": "Can the original WRDS annual archive supply every specialized accounting field required by the public annual-characteristic formulas without changing the existing canonical statement rows?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "source_archive": "data/raw/licensed/【批量下载】Fundamentals Quarterly等.zip",
+  "base_table": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V005/compustat_annual_pti.parquet",
+  "additional_numeric_fields": ["ajex", "dc", "dcpstk", "dcvt", "dm", "drc", "drlt", "dvt", "fatb", "fatl", "ob", "gdwlia", "gdwlip", "gwo", "ivao", "np", "dpc", "txdc", "txdi", "txfed", "txfo", "scstkc"],
+  "validation_rules": [
+    "same canonical gvkey-datadate keys and row count as V005",
+    "all requested raw fields present in the archive and output schema",
+    "shared accounting fields equal V005 including null placement",
+    "same conservative six-month availability rule",
+    "input and output SHA-256 hashes recorded"
+  ],
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "entrypoint": "scripts/build_compustat_annual_extended.py",
+  "validator": "scripts/validate_compustat_annual_extended.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V020"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V016",
+  "parent_experiment_id": "P1-G1-V015",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "spectral_economic_decomposition",
+  "research_question": "Which covariance eigen-directions and economically identifiable test-asset combinations cause the K=1 versus K=5 compression ranking to change across pricing geometries?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "pricing_target_snapshot_id": "ken-french-public-74-pricing-targets-2026-07-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "parent_run_id": "P1-G1-V015-R001",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "models": "All five paired K=1 and K=5 seeds from P1-G1-V015; no retraining or model selection.",
+  "asset_basis": "One common eigensystem of the 2010-2019 second-moment matrix for the combined 74 public portfolios.",
+  "loading_case": "Strict factor self-pricing loadings estimated in 2000-2009 and frozen for 2010-2019.",
+  "decomposition_identity": "For each seed and gamma, D_K1 squared minus D_K5 squared equals the sum over common eigen-directions of 12 times the normalized geometry weight times the difference in squared projected Euler moments.",
+  "geometry_endpoints": [
+    0.0,
+    1.0
+  ],
+  "diagnostics": [
+    "exact direction-level squared-distance gap decomposition",
+    "eigenvalue-decile contribution to each endpoint and to the endpoint change",
+    "seed sign consistency and standard error by direction",
+    "top asset loadings and size-value versus industry loading shares",
+    "effective number of absolute gap-contributing directions"
+  ],
+  "interpretation_rule": "Call the mechanism concentrated only if the three largest absolute direction contributions explain at least half of the absolute endpoint change and each has the same change sign in at least four of five paired seeds. Otherwise characterize the mechanism as distributed. Economic labels are descriptive loadings, not structural shocks.",
+  "boundary": "V016 explains the V015 descriptive ranking change. It cannot rescue the failed V015 replication rule, promote a teacher, select a dimension or access the sealed period.",
+  "entrypoint": "scripts/decompose_dimension_geometry.py"
+}

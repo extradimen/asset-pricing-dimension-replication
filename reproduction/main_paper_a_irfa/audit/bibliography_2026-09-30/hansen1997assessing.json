@@ -1,0 +1,489 @@
+{
+  "key": "hansen1997assessing",
+  "submitted": {
+    "key": "hansen1997assessing",
+    "type": "article",
+    "fields": {
+      "author": "Hansen, Lars Peter and Jagannathan, Ravi",
+      "title": "Assessing Specification Errors in Stochastic Discount Factor Models",
+      "journal": "The Journal of Finance",
+      "year": "1997",
+      "volume": "52",
+      "number": "2",
+      "pages": "557--590",
+      "doi": "10.1111/j.1540-6261.1997.tb04813.x"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/j.1540-6261.1997.tb04813.x",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T02:21:59Z",
+        "timestamp": 1790648519399,
+        "version": "4.1.0"
+      },
+      "reference-count": 45,
+      "publisher": "Wiley",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2012,
+                4,
+                18
+              ]
+            ],
+            "date-time": "2012-04-18T00:00:00Z",
+            "timestamp": 1334707200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 5435,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "The Journal of Finance"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1997,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>In this article we develop alternative ways to compare asset pricing models when it is understood that their implied stochastic discount factors do not price all portfolios correctly. Unlike comparisons based on  statistics associated with null hypotheses that models are correct, our measures of model performance do not reward variability of discount factor proxies. One of our measures is designed to exploit fully the implications of arbitrage‐free pricing of derivative claims. We demonstrate empirically the usefulness of our methods in assessing some alternative stochastic factor models that have been proposed in asset pricing literature.</jats:p>",
+      "DOI": "10.1111/j.1540-6261.1997.tb04813.x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            18
+          ]
+        ],
+        "date-time": "2012-04-18T10:48:12Z",
+        "timestamp": 1334746092000
+      },
+      "page": "557-590",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 637,
+      "title": [
+        "Assessing Specification Errors in Stochastic Discount Factor Models"
+      ],
+      "prefix": "10.1111",
+      "volume": "52",
+      "author": [
+        {
+          "given": "LARS PETER",
+          "family": "HANSEN",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "RAVI",
+          "family": "JAGANNATHAN",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            18
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_11_2_1",
+          "first-page": "38",
+          "article-title": "Asset prices under habit formation and catching up with the Joneses",
+          "volume": "80",
+          "author": "Abel Andrew B.",
+          "year": "1990",
+          "journal-title": "American Economic Review"
+        },
+        {
+          "key": "e_1_2_11_3_1",
+          "unstructured": "Allen Edward R. 1991 Evaluating consumption‐based models of asset pricing Ph.D. dissertation University of Chicago."
+        },
+        {
+          "key": "e_1_2_11_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2938259"
+        },
+        {
+          "key": "e_1_2_11_5_1",
+          "unstructured": "Bakshi Gurdip S. andZhiwuChen. 1997 The spirit of capitalism and stock market prices The American Economic Review Forthcoming."
+        },
+        {
+          "key": "e_1_2_11_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1993.tb05126.x"
+        },
+        {
+          "key": "e_1_2_11_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2951782"
+        },
+        {
+          "key": "e_1_2_11_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1989.tb05056.x"
+        },
+        {
+          "key": "e_1_2_11_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1989.tb02649.x"
+        },
+        {
+          "key": "e_1_2_11_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1985.tb04962.x"
+        },
+        {
+          "key": "e_1_2_11_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912275"
+        },
+        {
+          "key": "e_1_2_11_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/8.2.287"
+        },
+        {
+          "key": "e_1_2_11_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4068(93)90037-L"
+        },
+        {
+          "key": "e_1_2_11_14_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cochrane John H. 1992 A cross‐sectional test of a production‐based asset pricing model Working paper NBER.",
+          "DOI": "10.3386/w4025"
+        },
+        {
+          "key": "e_1_2_11_15_1",
+          "first-page": "115",
+          "volume-title": "NBER Macroeconomics Annual 1992",
+          "author": "Cochrane John H.",
+          "year": "1992"
+        },
+        {
+          "key": "e_1_2_11_16_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Durlauf Steven N. andRobertE. Hall 1989 Bounds on the variances of specification errors in models with expectations Working paper NBER.",
+          "DOI": "10.3386/w2936"
+        },
+        {
+          "key": "e_1_2_11_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/296162"
+        },
+        {
+          "key": "e_1_2_11_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261750"
+        },
+        {
+          "key": "e_1_2_11_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(91)90002-2"
+        },
+        {
+          "key": "e_1_2_11_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1992.tb04400.x"
+        },
+        {
+          "key": "e_1_2_11_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913624"
+        },
+        {
+          "key": "e_1_2_11_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4076(90)90097-D"
+        },
+        {
+          "key": "e_1_2_11_23_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Glosten Lawrence R. andRaviJagannathan. 1993 A contingent claim approach to performance evaluation Journal of Empirical Finance Forthcoming.",
+          "DOI": "10.21034/sr.159"
+        },
+        {
+          "key": "e_1_2_11_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1986.tb05037.x"
+        },
+        {
+          "key": "e_1_2_11_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912775"
+        },
+        {
+          "key": "e_1_2_11_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/8.2.237"
+        },
+        {
+          "key": "e_1_2_11_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261749"
+        },
+        {
+          "key": "e_1_2_11_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913601"
+        },
+        {
+          "key": "e_1_2_11_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1911873"
+        },
+        {
+          "key": "e_1_2_11_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-0531(79)90043-7"
+        },
+        {
+          "key": "e_1_2_11_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-0531(82)90098-9"
+        },
+        {
+          "key": "e_1_2_11_32_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1111/j.1540-6261.1987.tb02546.x",
+          "article-title": "Mimicking portfolios and exact arbitrage pricing",
+          "volume": "43",
+          "author": "Huberman Gur",
+          "year": "1987",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "e_1_2_11_33_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jagannathan Ravi andZhenyuWang. 1993 The CAPM is alive and well Research Department Staff Report 165 Federal Reserve Bank of Minneapolis.",
+          "DOI": "10.21034/sr.165"
+        },
+        {
+          "key": "e_1_2_11_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1996.tb05201.x"
+        },
+        {
+          "key": "e_1_2_11_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(87)90061-4"
+        },
+        {
+          "key": "e_1_2_11_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2951737"
+        },
+        {
+          "key": "e_1_2_11_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4068(81)90010-0"
+        },
+        {
+          "key": "e_1_2_11_38_1",
+          "volume-title": "Optimization by Vector Space Methods",
+          "author": "Luenberger David G.",
+          "year": "1969"
+        },
+        {
+          "key": "e_1_2_11_39_1",
+          "unstructured": "Luttmer Erzo G. J. 1994 Asset pricing in economies with frictions Working paper Northwestern University."
+        },
+        {
+          "key": "e_1_2_11_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(90)90046-3"
+        },
+        {
+          "key": "e_1_2_11_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913610"
+        },
+        {
+          "key": "e_1_2_11_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(77)90009-5"
+        },
+        {
+          "key": "e_1_2_11_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-0531(76)90046-6"
+        },
+        {
+          "key": "e_1_2_11_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/296008"
+        },
+        {
+          "key": "e_1_2_11_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/3003264"
+        },
+        {
+          "key": "e_1_2_11_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(87)90062-6"
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1540-6261.1997.tb04813.x",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6261.1997.tb04813.x",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            2
+          ]
+        ],
+        "date-time": "2023-10-02T12:31:41Z",
+        "timestamp": 1696249901000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1997.tb04813.x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1997,
+            6
+          ]
+        ]
+      },
+      "references-count": 45,
+      "aliases": [
+        "10.2307/2329490"
+      ],
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              1997,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/j.1540-6261.1997.tb04813.x"
+      ],
+      "URL": "https://doi.org/10.1111/j.1540-6261.1997.tb04813.x",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.21034/sr.167",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "ISSN": [
+        "0022-1082",
+        "1540-6261"
+      ],
+      "issn-type": [
+        {
+          "value": "0022-1082",
+          "type": "print"
+        },
+        {
+          "value": "1540-6261",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1997,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2012-04-18",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

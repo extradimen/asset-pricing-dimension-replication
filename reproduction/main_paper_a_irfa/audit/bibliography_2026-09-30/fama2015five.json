@@ -1,0 +1,527 @@
+{
+  "key": "fama2015five",
+  "submitted": {
+    "key": "fama2015five",
+    "type": "article",
+    "fields": {
+      "author": "Fama, Eugene F. and French, Kenneth R.",
+      "title": "A Five-Factor Asset Pricing Model",
+      "journal": "Journal of Financial Economics",
+      "year": "2015",
+      "volume": "116",
+      "number": "1",
+      "pages": "1--22",
+      "doi": "10.1016/j.jfineco.2014.10.010"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1016/j.jfineco.2014.10.010",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T14:01:52Z",
+        "timestamp": 1790776912205,
+        "version": "4.1.0"
+      },
+      "reference-count": 27,
+      "publisher": "Elsevier BV",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2015-04-01T00:00:00Z",
+            "timestamp": 1427846400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Financial Economics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.jfineco.2014.10.010",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2014,
+            10,
+            29
+          ]
+        ],
+        "date-time": "2014-10-29T22:27:37Z",
+        "timestamp": 1414621657000
+      },
+      "page": "1-22",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 7193,
+      "title": [
+        "A five-factor asset pricing model"
+      ],
+      "prefix": "10.1016",
+      "volume": "116",
+      "author": [
+        {
+          "given": "Eugene F.",
+          "family": "Fama",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kenneth R.",
+          "family": "French",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib1",
+          "doi-asserted-by": "crossref",
+          "first-page": "347",
+          "DOI": "10.1016/j.jfineco.2013.08.003",
+          "article-title": "Stock returns and the Miller Modigliani valuation formula: revisiting the Fama French analysis",
+          "volume": "110",
+          "author": "Aharoni",
+          "year": "2013",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib2",
+          "doi-asserted-by": "crossref",
+          "first-page": "195",
+          "DOI": "10.1093/rfs/1.3.195",
+          "article-title": "The dividend-price ratio and expectations for future dividends and discount factors",
+          "volume": "1",
+          "author": "Campbell",
+          "year": "1988",
+          "journal-title": "Review of Financial Studies"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib3",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1111/j.1540-6261.1997.tb03808.x",
+          "article-title": "On persistence in mutual fund performance",
+          "volume": "52",
+          "author": "Carhart",
+          "year": "1997",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib4",
+          "doi-asserted-by": "crossref",
+          "first-page": "409",
+          "DOI": "10.1016/S0304-405X(02)00229-5",
+          "article-title": "Who underreacts to cashflow news? Evidence from trading between individuals and institutions",
+          "volume": "66",
+          "author": "Cohen",
+          "year": "2002",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib5",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.2308/accr.2003.78.1.353",
+          "article-title": "Accrued earnings and growth: Implications for future profitability and market mispricing",
+          "volume": "78",
+          "author": "Fairfield",
+          "year": "2003",
+          "journal-title": "The Accounting Review"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib6",
+          "doi-asserted-by": "crossref",
+          "first-page": "441",
+          "DOI": "10.2307/2331355",
+          "article-title": "Multifactor portfolio efficiency and multifactor asset pricing",
+          "volume": "31",
+          "author": "Fama",
+          "year": "1996",
+          "journal-title": "Journal of Financial and Quantitative Analysis"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib7",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/0304-405X(93)90023-5",
+          "article-title": "Common risk factors in the returns on stocks and bonds",
+          "volume": "33",
+          "author": "Fama",
+          "year": "1993",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib8",
+          "doi-asserted-by": "crossref",
+          "first-page": "131",
+          "DOI": "10.1111/j.1540-6261.1995.tb05169.x",
+          "article-title": "Size and book-to-market factors in earnings and returns",
+          "volume": "50",
+          "author": "Fama",
+          "year": "1995",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib9",
+          "doi-asserted-by": "crossref",
+          "first-page": "491",
+          "DOI": "10.1016/j.jfineco.2005.09.009",
+          "article-title": "Profitability, investment, and average returns",
+          "volume": "82",
+          "author": "Fama",
+          "year": "2006",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1653",
+          "DOI": "10.1111/j.1540-6261.2008.01371.x",
+          "article-title": "Dissecting anomalies",
+          "volume": "63",
+          "author": "Fama",
+          "year": "2008",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib11",
+          "doi-asserted-by": "crossref",
+          "first-page": "457",
+          "DOI": "10.1016/j.jfineco.2012.05.011",
+          "article-title": "Size, value, and momentum in international stock returns",
+          "volume": "105",
+          "author": "Fama",
+          "year": "2012",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fama, E., French, K., 2014. Dissecting anomalies with a five-factor model. Unpublished working paper. University of Chicago and Dartmouth College.",
+          "DOI": "10.2139/ssrn.2503174"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib13",
+          "doi-asserted-by": "crossref",
+          "first-page": "401",
+          "DOI": "10.1016/0304-405X(95)00868-F",
+          "article-title": "Commonality in the determinants of expected stock returns",
+          "volume": "41",
+          "author": "Haugen",
+          "year": "1996",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hou, K., Xue, C., Zhang, L., 2012. Digesting anomalies: an investment approach. NBER working paper no. 18435.",
+          "DOI": "10.3386/w18435"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib15",
+          "doi-asserted-by": "crossref",
+          "first-page": "873",
+          "DOI": "10.1111/j.1540-6261.1987.tb03917.x",
+          "article-title": "Mean-variance spanning",
+          "volume": "42",
+          "author": "Huberman",
+          "year": "1987",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1121",
+          "DOI": "10.2307/1913625",
+          "article-title": "A test of the efficiency of a given portfolio",
+          "volume": "57",
+          "author": "Gibbons",
+          "year": "1989",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib17",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1016/0304-405X(95)00826-Z",
+          "article-title": "Market underreaction to open market share repurchases",
+          "volume": "39",
+          "author": "Ikenberry",
+          "year": "1995",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib18",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.2307/1924119",
+          "article-title": "The valuation of risk assets and the selection of risky investments in stock portfolios and capital budgets",
+          "volume": "47",
+          "author": "Lintner",
+          "year": "1965",
+          "journal-title": "Review of Economics and Statistics"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "249",
+          "DOI": "10.2307/2331199",
+          "article-title": "Book-to-market across firm size, exchange, and seasonality: Is there an effect?",
+          "volume": "32",
+          "author": "Loughran",
+          "year": "1997",
+          "journal-title": "Journal of Financial and Quantitative Analysis"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib20",
+          "doi-asserted-by": "crossref",
+          "first-page": "23",
+          "DOI": "10.1111/j.1540-6261.1995.tb05166.x",
+          "article-title": "The new issues puzzle",
+          "volume": "50",
+          "author": "Loughran",
+          "year": "1995",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1765",
+          "DOI": "10.1111/j.1540-6261.1997.tb02741.x",
+          "article-title": "Do long-term shareholders benefit from corporate acquisitions?",
+          "volume": "52",
+          "author": "Loughran",
+          "year": "1997",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib22",
+          "doi-asserted-by": "crossref",
+          "first-page": "867",
+          "DOI": "10.2307/1913811",
+          "article-title": "An intertemporal capital asset pricing model",
+          "volume": "41",
+          "author": "Merton",
+          "year": "1973",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "411",
+          "DOI": "10.1086/294442",
+          "article-title": "Dividend policy, growth, and the valuation of shares",
+          "volume": "34",
+          "author": "Miller",
+          "year": "1961",
+          "journal-title": "Journal of Business"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.jfineco.2013.01.003",
+          "article-title": "The other side of value: The gross profitability premium",
+          "volume": "108",
+          "author": "Novy-Marx",
+          "year": "2013",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib25",
+          "doi-asserted-by": "crossref",
+          "first-page": "642",
+          "DOI": "10.1086/374184",
+          "article-title": "Liquidity risk and expected stock returns",
+          "volume": "111",
+          "author": "Pástor",
+          "year": "2003",
+          "journal-title": "Journal of Political Economy"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib26",
+          "first-page": "425",
+          "article-title": "Capital asset prices: A theory of market equilibrium under conditions of risk",
+          "volume": "19",
+          "author": "Sharpe",
+          "year": "1964",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2014.10.010_bib27",
+          "doi-asserted-by": "crossref",
+          "first-page": "677",
+          "DOI": "10.1017/S0022109000003173",
+          "article-title": "Capital investments and stock returns",
+          "volume": "39",
+          "author": "Titman",
+          "year": "2004",
+          "journal-title": "Journal of Financial and Quantitative Analysis"
+        }
+      ],
+      "container-title": [
+        "Journal of Financial Economics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304405X14002323?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304405X14002323?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            16
+          ]
+        ],
+        "date-time": "2019-08-16T16:19:53Z",
+        "timestamp": 1565972393000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0304405X14002323"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2015,
+            4
+          ]
+        ]
+      },
+      "references-count": 27,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              4
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0304405X14002323"
+      ],
+      "URL": "https://doi.org/10.1016/j.jfineco.2014.10.010",
+      "relation": {},
+      "ISSN": [
+        "0304-405X"
+      ],
+      "issn-type": [
+        {
+          "value": "0304-405X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            4
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A five-factor asset pricing model",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Financial Economics",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.jfineco.2014.10.010",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "Copyright © 2014 Elsevier B.V. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  }
+}

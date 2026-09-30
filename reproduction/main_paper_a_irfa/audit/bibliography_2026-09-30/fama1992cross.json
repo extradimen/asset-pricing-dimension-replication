@@ -1,0 +1,405 @@
+{
+  "key": "fama1992cross",
+  "submitted": {
+    "key": "fama1992cross",
+    "type": "article",
+    "fields": {
+      "author": "Fama, Eugene F. and French, Kenneth R.",
+      "title": "The Cross-Section of Expected Stock Returns",
+      "journal": "The Journal of Finance",
+      "year": "1992",
+      "volume": "47",
+      "number": "2",
+      "pages": "427--465",
+      "doi": "10.1111/j.1540-6261.1992.tb04398.x"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/j.1540-6261.1992.tb04398.x",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T14:07:41Z",
+        "timestamp": 1790777261490,
+        "version": "4.1.0"
+      },
+      "reference-count": 31,
+      "publisher": "Wiley",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2012,
+                4,
+                30
+              ]
+            ],
+            "date-time": "2012-04-30T00:00:00Z",
+            "timestamp": 1335744000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 7273,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "The Journal of Finance"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1992,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    Two easily measured variables, size and book‐to‐market equity, combine to capture the cross‐sectional variation in average stock returns associated with market\n                    <jats:italic>β</jats:italic>\n                    , size, leverage, book‐to‐market equity, and earnings‐price ratios. Moreover, when the tests allow for variation in\n                    <jats:italic>β</jats:italic>\n                    that is unrelated to size, the relation between market\n                    <jats:italic>β</jats:italic>\n                    and average return is flat, even when\n                    <jats:italic>β</jats:italic>\n                    is the only explanatory variable.\n                  </jats:p>",
+      "DOI": "10.1111/j.1540-6261.1992.tb04398.x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            30
+          ]
+        ],
+        "date-time": "2012-04-30T05:24:08Z",
+        "timestamp": 1335763448000
+      },
+      "page": "427-465",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 6038,
+      "title": [
+        "The Cross‐Section of Expected Stock Returns"
+      ],
+      "prefix": "10.1111",
+      "volume": "47",
+      "author": [
+        {
+          "given": "EUGENE F.",
+          "family": "FAMA",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "KENNETH R.",
+          "family": "FRENCH",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            30
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_7_2_1",
+          "unstructured": "Alford Andrew Jennifer J.Jones andMarkE. Zmijewski 1992 Extensions and violations of the statutory SEC Form 10‐k filing date Unpublished manuscript University of Chicago Chicago IL."
+        },
+        {
+          "key": "e_1_2_7_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(78)90026-0"
+        },
+        {
+          "key": "e_1_2_7_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(81)90018-0"
+        },
+        {
+          "key": "e_1_2_7_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(83)90031-4"
+        },
+        {
+          "key": "e_1_2_7_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1988.tb03952.x"
+        },
+        {
+          "key": "e_1_2_7_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/295472"
+        },
+        {
+          "key": "e_1_2_7_8_1",
+          "volume-title": "Studies in the Theory of Capital Markets",
+          "author": "Black Fischer",
+          "year": "1972"
+        },
+        {
+          "key": "e_1_2_7_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1991.tb04642.x"
+        },
+        {
+          "key": "e_1_2_7_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1988.tb03941.x"
+        },
+        {
+          "key": "e_1_2_7_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1991.tb04626.x"
+        },
+        {
+          "key": "e_1_2_7_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(85)90008-X"
+        },
+        {
+          "key": "e_1_2_7_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/296344"
+        },
+        {
+          "key": "e_1_2_7_14_1",
+          "first-page": "557",
+          "article-title": "Does the stock market overreact",
+          "volume": "40",
+          "author": "DeBondt Werner F. M.",
+          "year": "1985",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "e_1_2_7_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(79)90013-8"
+        },
+        {
+          "key": "e_1_2_7_16_1",
+          "volume-title": "Foundations of Finance",
+          "author": "Fama Eugene F.",
+          "year": "1976"
+        },
+        {
+          "key": "e_1_2_7_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/260061"
+        },
+        {
+          "key": "e_1_2_7_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(83)90039-9"
+        },
+        {
+          "key": "e_1_2_7_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1989.tb02408.x"
+        },
+        {
+          "key": "e_1_2_7_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(83)90025-9"
+        },
+        {
+          "key": "e_1_2_7_21_1",
+          "volume-title": "Stock Market Anomalies",
+          "author": "Keim Donald B.",
+          "year": "1988"
+        },
+        {
+          "key": "e_1_2_7_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0378-4266(86)90023-3"
+        },
+        {
+          "key": "e_1_2_7_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1924119"
+        },
+        {
+          "key": "e_1_2_7_24_1",
+          "volume-title": "Portfolio Selection: Efficient Diversification of Investments",
+          "author": "Markowitz Harry",
+          "year": "1959"
+        },
+        {
+          "key": "e_1_2_7_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913811"
+        },
+        {
+          "key": "e_1_2_7_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2330365"
+        },
+        {
+          "key": "e_1_2_7_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3905/jpm.1983.18"
+        },
+        {
+          "key": "e_1_2_7_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3905/jpm.1985.409007"
+        },
+        {
+          "key": "e_1_2_7_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-0531(76)90046-6"
+        },
+        {
+          "key": "e_1_2_7_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1964.tb02865.x"
+        },
+        {
+          "key": "e_1_2_7_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(82)90002-2"
+        },
+        {
+          "key": "e_1_2_7_32_1",
+          "first-page": "25",
+          "article-title": "Book values and stock returns",
+          "volume": "4",
+          "author": "Stattman Dennis",
+          "year": "1980",
+          "journal-title": "The Chicago MBA: A Journal of Selected Papers"
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1540-6261.1992.tb04398.x",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6261.1992.tb04398.x",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            2
+          ]
+        ],
+        "date-time": "2023-10-02T05:12:35Z",
+        "timestamp": 1696223555000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1992.tb04398.x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1992,
+            6
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              1992,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/j.1540-6261.1992.tb04398.x"
+      ],
+      "URL": "https://doi.org/10.1111/j.1540-6261.1992.tb04398.x",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "0022-1082",
+        "1540-6261"
+      ],
+      "issn-type": [
+        {
+          "value": "0022-1082",
+          "type": "print"
+        },
+        {
+          "value": "1540-6261",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1992,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2012-04-30",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "experiment_id": "P3-TOP-TREE-FULL",
+  "source_dir": "experiments/P3-NN-F001/outputs/R001",
+  "source_manifest_sha256": "d72aa3d2e27e2e402465d2ac71cb011374f054c88a7f746845c5eaaee526b336",
+  "model": "sklearn HistGradientBoostingRegressor",
+  "hyperparameters": {
+    "loss": "squared_error",
+    "learning_rate": 0.05,
+    "max_iter": 100,
+    "max_leaf_nodes": 6,
+    "max_depth": null,
+    "min_samples_leaf": 100,
+    "l2_regularization": 1.0,
+    "max_bins": 63,
+    "early_stopping": false,
+    "random_state": 20260928
+  },
+  "base_training_end": 200001,
+  "evaluation_start": 200002,
+  "evaluation_end": 201912,
+  "rolling_months": 60,
+  "refit_frequency": "annual; the first target month of each year is predicted using data ending in the prior available month, and that fitted model predicts the remaining months of the year",
+  "training_objective": "month-balanced stock-level squared error, matching the neural and Ridge comparisons",
+  "threads": 4,
+  "scope": "Locked full-sample shallow boosted-tree mechanism validation. Hyperparameters are unchanged from the compute-only pilot; the full run tests whether adjustment cost and alignment benefit conclusions replicate outside linear and neural estimators.",
+  "pilot_evidence": {
+    "run_id": "20260927T171546Z__9fcfc658__P3-TOP-TREE-PILOT",
+    "return_code": 0,
+    "termination_evidence": "os_child_wait_status",
+    "scientific_output_valid": true,
+    "resource_note": "The pilot's peak_rss_gib label used a Linux divisor on macOS; the raw value corresponds to about 4.96 GiB. This full protocol corrects only that reporting function and leaves all scientific calculations unchanged."
+  },
+  "promotion_gate": "All input hashes, historical-only slices, complete calendar, finite predictions, archived row alignment, exact loss identities, and output checksums must pass. Interpret cross-model evidence only after decade-level and full-period A/B summaries are computed without changing this locked specification."
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "ken-french-industry-definitions-2026-09-25-v1",
+  "downloaded_at": "2026-09-25",
+  "source_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Industry_Definitions.zip",
+  "local_path": "data/raw/public/ken-french-industry-definitions-2026-09-25/Industry_Definitions.zip",
+  "sha256": "e6a7c022f45381f0a88b6a46022c5a1408bffdc9f8d2501a820e14bf81ce4c2b",
+  "selected_member": "Siccodes49.txt",
+  "purpose": "Audit the SIC-to-49-industry membership bridge for the Paper 2 public-asset endpoint",
+  "confirmation_returns_accessed": false
+}

@@ -1,0 +1,175 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=24mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array,graphicx,hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\thesection}{\Alph{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\newcommand{\E}{\mathbb E}
+\newcommand{\PP}{\mathbb P}
+\title{Online Supplement\\[6pt]\large Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\vspace{-2em}
+This supplement records the estimator definitions, proof, chronology qualifications, and expanded numerical tables behind the article. Electronic long tables retain every archived condition; accompanying CSV files also retain the empirical seed-level distances. No additional model was trained or specification selected in preparing this supplement. Protocol identifiers below are archival keys, not names of externally registered studies.
+
+\section{Known-loading selection result}
+\setcounter{equation}{0}
+Let the finite ordered candidate set $\mathcal K$ contain $K_0$ and at least one larger dimension. Let $B$ be a fixed full-column-rank matrix and $B_K$ its first $K$ columns. For fixed $W\succ0$, define
+\begin{equation}
+P_K=B_K(B_K'WB_K)^{-1}B_K'W.
+\end{equation}
+Then $P_K^2=P_K$, $P_K'W=WP_K$, and, for $K>K_0$, $Q_K=P_K-P_{K_0}$ is also a $W$-orthogonal projector, with $Q_KP_{K_0}=P_{K_0}Q_K=0$. Suppose the fixed population mean $\mu$ belongs to the span of $B_{K_0}$ but to none of the smaller candidate spans. Training and evaluation sample means are independent:
+\begin{equation}
+\bar R_n=\mu+U/\sqrt n,\qquad \bar R_T^e=\mu+V/\sqrt T,
+\qquad U,V\stackrel{ind}{\sim}N(0,\Sigma),\quad\Sigma\succ0.
+\end{equation}
+The training estimate is $\widehat\mu_K=P_K\bar R_n$, and validation loss is $L_T(K)=\|\bar R_T^e-\widehat\mu_K\|_W^2$. Ties are resolved in favor of the smaller dimension. The asymptotic sequence holds $B,W,\Sigma,\mu$ and $\mathcal K$ fixed, with $n/T\to c\in(0,\infty)$.
+
+\subsection{Exact loss difference and nonvanishing over-selection}
+For $K\ge K_0$, $P_K\mu=\mu$, so
+\begin{equation}
+L_T(K)=\|V/\sqrt T-P_KU/\sqrt n\|_W^2.
+\end{equation}
+Using $P_K=P_{K_0}+Q_K$ and orthogonality, expansion gives
+\begin{equation}
+T\{L_T(K)-L_T(K_0)\}=(T/n)U'Q_K'WQ_KU-2\sqrt{T/n}\,V'WQ_KU.
+\label{eq:s-exact}
+\end{equation}
+It converges in distribution to
+\begin{equation}
+Z_K=c^{-1}\|Q_KU\|_W^2-2c^{-1/2}V'WQ_KU.
+\end{equation}
+Because $Q_K$ has positive rank and $U$ has a nonsingular Gaussian distribution, $q=Q_KU\ne0$ almost surely. Conditional on $U$, $V'Wq$ is normal with zero mean and strictly positive variance $q'W\Sigma Wq$. Consequently
+\begin{equation}
+\PP(Z_K<0\mid U)=1-\Phi\!\left(\frac{\|q\|_W^2}{2\sqrt c\sqrt{q'W\Sigma Wq}}\right)>0
+\end{equation}
+almost surely. The mixture has no atom at zero. Thus $\PP(L_T(K)<L_T(K_0))\to\PP(Z_K<0)>0$. On this event the raw minimizer cannot be $K_0$.
+
+For $K<K_0$, $L_T(K)\to_p\|(I-P_K)\mu\|_W^2>0$, whereas $L_T(K_0)\to_p0$. Finiteness of the candidate set implies that under-selection probability tends to zero. Combining these facts proves Proposition 1: the probability of correct raw selection cannot converge to one. This is a statement about exact dimension, not failure of the selected model's predictive loss to converge to the population optimum.
+
+\subsection{Penalty and oracle evaluation}
+For every overfitted candidate, Eq.~\eqref{eq:s-exact} implies $L_T(K)-L_T(K_0)=O_p(T^{-1})$. If $p_T\to0$ and $Tp_T\to\infty$, then
+\begin{equation}
+\PP\{L_T(K)-L_T(K_0)+(K-K_0)p_T>0\}\to1.
+\end{equation}
+The vanishing penalty does not overturn any fixed positive underfit gap. A union bound over finitely many candidates proves Corollary 1. For example, $p_T=\log(T)/T$ has the stated rates; it is an illustrative rate, not an empirically tuned prescription in this paper.
+
+Oracle evaluation replaces $\bar R_T^e$ by $\mu$. For $K>K_0$ the loss difference is exactly $\|Q_KU\|_W^2/n\ge0$. Larger correct spans therefore cannot beat $K_0$ under the smaller-dimension tie rule. Oracle under-selection is still possible at finite sample because training risk prices are estimated. This explains why oracle exact recovery need not be 100\% in the reported grid and why oracle over-selection is zero by construction.
+
+The proof is conditional on known loadings and a fixed known weight matrix. It neither covers estimated HJ weights automatically nor establishes the same asymptotics for separately trained nonlinear networks, dependent stock histories, a growing candidate set, or a different training/evaluation ratio.
+
+\section{Data, chronology, and pricing-network implementation}
+\setcounter{equation}{0}
+\subsection{Source records and filters}
+The original security source is a WRDS CRSP CIZ Daily Stock File export. Daily total returns are compounded within PERMNO and calendar month; same-day distribution duplicates are checked and resolved before compounding. CIZ delisting returns are already in the total-return field. Delisting rows inherit the last active classification where required. Month-end common-stock eligibility requires \texttt{PrimaryExch} in N/A/Q, \texttt{USIncFlg=Y}, \texttt{IssuerType} in ACOR/CORP, \texttt{SecurityType=EQTY}, \texttt{SecuritySubType=COM}, and \texttt{ShareType=NS}. The published code retains the exact treatment of missing daily returns and duplicate keys.
+
+CCM links use LC/LU and primary flags P/C, with month-end dates inside the link interval. Missing start and end dates receive open-interval endpoints. Competing valid links are ranked by primary status and link type; ambiguity counts are recorded rather than silently discarded. Standard industrial, consolidated, domestic-format accounting filters and duplicate resolution are implemented in the accounting builder. Annual availability is fiscal period end plus six months. Quarterly availability uses \texttt{rdq} if it lies between fiscal period end and one year afterward; otherwise it uses period end plus four months. This is a reporting-lag convention applied to the downloaded vintage, not a reconstruction of unrevised historical releases.
+
+The characteristic bridge first joins monthly, quarterly, and annual components on PERMNO/month. Where a nonmissing public benchmark value exists, it takes precedence over the self-built value; otherwise the latter is used. Source flags and feature counts are retained by component. This dependence on benchmark values is essential to the interpretation of Core-86. The dictionary in Table~\ref{tab:dictionary} lists all included characteristics. The source code and feature-lineage reports give formulas and their audits; the short labels are not a substitute for those formulas.
+
+\begin{table}[htbp]\centering\small
+\caption{Calendar used by each archived analysis}\label{tab:chronology}
+\begin{tabular}{@{}lll@{}}\toprule
+Pipeline/block & Characteristic months & Realized return months\\\midrule
+Core-86 train & 1963-07--1999-11 & 1963-08--1999-12\\
+Core-86 validation & 1999-12--2009-11 & 2000-01--2009-12\\
+Core-86 development & 2009-12--2019-11 & 2010-01--2019-12\\
+Core-86 later evaluation & 2019-12--2025-11 & 2020-01--2025-12\\
+Legacy Core-92 validation & 2000-01--2009-12 & 2000-02--2010-01\\
+Legacy Core-92 development & 2010-01--2019-12 & 2010-02--2020-01\\\bottomrule
+\end{tabular}
+\end{table}
+The legacy last-month overlap prevents a claim that the entire later period was never observed in the research process. Original manifests that say \texttt{sealed\_period\_accessed=false} refer to the old characteristic clock; the calendar audit in this release qualifies that label. We preserve archived files and their hashes rather than rewriting the historical records.
+
+\subsection{Rank inputs, portfolio scores, and optimization}
+For a characteristic with $n_t>1$ nonmissing observations, the input is $2(r_{it}-1)/(n_t-1)-1$, using average ranks for ties. Missing observations, and degenerate single-observation groups, receive zero; a separate missing indicator distinguishes imputation from a median rank. Core-86 therefore has 172 inputs and Core-92 has 184.
+
+For output score $s_{ikt}$, portfolio weights and factor returns are
+\begin{equation}
+w_{ikt}=\frac{s_{ikt}-\bar s_{kt}}{\max(\sum_j|s_{jkt}-\bar s_{kt}|,10^{-8})},\qquad
+F_{k,t+1}=\sum_iw_{ikt}R^e_{i,t+1}.
+\end{equation}
+Scores are a feed-forward 128--64--32 SiLU network followed by a tanh output. Portfolio concentration is $N_t\sum_iw_{ikt}^2$, averaged over factors and months. Factor diversity is the average squared off-diagonal sample correlation; it is zero when $K=1$.
+
+For a batch of months, let $G=F'R/T$, $\bar R$ be mean test-asset returns, and $S_R=R'R/T$. Training uses $W_R=(S_R+\epsilon I)^{-1}$, with a trace-scaled ridge multiplier $10^{-4}$. The fitted loading solves the ridge system in $GW_RG'$. Its squared pricing distance is divided by $\bar R'W_R\bar R$, with a numerical floor. This normalized HJ span loss differs from the fixed-self-pricing geometry used in the later diagnostic surfaces. The training objective is
+\begin{equation}
+3 L_{HJ}-0.25\,SR(F)+0.05\,\mathrm{Diversity}(F)+0.001\,\mathrm{Concentration}(w).
+\end{equation}
+The factor-span Sharpe uses annualization $\sqrt{12}$ and a ridge covariance solve. Asset columns must be complete within a training batch. AdamW uses learning rate $0.0003$, weight decay $0.00001$, norm clipping at 5, 120-month random batches, and at most 80 epochs. Checkpoints maximize $0.25\,SR-3L_{HJ}$ on validation data. An increase exceeding $10^{-4}$ resets patience; training stops after 12 epochs without such an increase. Seeds are 20260924--20260928. Deterministic PyTorch operations were requested, TF32 and cuDNN benchmarking disabled, and runtime fingerprints archived.
+
+A declared deterministic configuration does not guarantee bitwise identity across CUDA, CPU, library, or hardware versions. Frozen aggregate replay has a smaller computational contract than full retraining. Both contracts and their source hashes are documented in the public package.
+
+\subsection{Diagnostic estimands and uncertainty}
+Main-text Section 3 gives the exact spectral-power weighting path. It normalizes $\operatorname{tr}(W_\gamma S)=J$ at each $\gamma$; equal-moment and HJ endpoint values therefore should not be read as raw return percentages. Self-pricing coefficients are estimated from validation factors and fixed throughout evaluation. Regression alpha is estimated separately using a pseudoinverse with an intercept.
+
+Market betas are fitted in validation, frozen, and used to hedge evaluation test-asset returns. Attenuation is $|A|-|A^{hedged}|$. Completion is the error for the one-factor representation augmented with market excess return minus the error for the original representation. Negative completion means improvement. Raw-moment and alpha errors are annualized mean absolute errors. The main table multiplies their differences by 100 to show percentage points.
+
+The later-period inference resamples 12-month circular blocks 500 times. Each draw uses the same time indices across models and test assets; validation-estimated coefficients stay fixed. Seed standard errors in the dimension table quantify algorithmic dispersion, not independent economic sampling. Passing a directional count criterion does not imply that its bootstrap intervals exclude zero.
+
+\input{generated_feature_dictionary}
+
+\section{Known-truth simulation and complete outputs}
+\setcounter{equation}{0}
+For each condition, returns have mean $B\lambda$ and covariance $B\Sigma_fB'+0.08^2I$. Candidate loading directions are orthogonalized random Gaussian columns scaled by $\sqrt N$. The first $K_0$ risk prices alternate signs with absolute level 0.006 (strong) or 0.002 (weak); later prices are zero. Factor volatilities span 0.035--0.07, with equicorrelation zero or 0.7. In the weak-tail design the final part of the true loading span is multiplied by 0.15. Exact tail indexing is retained in the simulation source.
+
+The grid crosses $K_0=1,3,5$, $T=72,240,600$, $N=25,74$, two price strengths, two spanning regimes, and two correlations: 144 base cells. Each uses 500 replications and six independently drawn asset loading systems. Candidate dimensions are 1, 2, 3, 4, 5, and 8. Training and evaluation means have independent Gaussian sampling error with covariance $\Sigma_R/T$. The model projects the training mean onto a candidate span under the stated metric. Equal weighting uses $I/N$; the HJ-labelled weight is the inverse of the known covariance plus a ridge equal to 0.01 of mean variance, normalized to unit trace. This differs from the empirical second-moment path and does not include covariance-estimation noise.
+
+Oracle loss evaluates the fitted mean against the population mean; feasible loss evaluates it against the independent sample mean. Thus both modes estimate the training prices, and both retain known loadings/covariance. The finite-grid winner is the strict minimum, with smaller $K$ winning ties.
+
+The package contains 576 condition summaries (144 cells by two metrics by two evaluation modes), 3,456 selection-frequency rows, and 864 cross-asset disagreement summaries. Each condition summary pools the six families and 500 replications. Families share the replication index, so 3,000 pooled selections do not constitute 3,000 independent asset-pricing experiments. A Figure 4 mean across four $N$--metric cells pools 12,000 selections, again with the indicated dependence.
+
+Main-table mechanism intervals are mean cell contrasts plus/minus 1.96 cross-cell standard errors. They describe heterogeneity across the fixed design grid, not confidence intervals from a random sample of economic environments. Two original runs with fixed seeds produced byte-identical summary outputs; the validation manifest is included. Table~\ref{tab:simlong} provides exact/under/over frequencies for every condition. Electronic frequency tables preserve each selected-$K$ probability.
+
+Selection frequencies are percentages. O denotes oracle evaluation and F denotes evaluation with an independent noisy sample mean; both know the loadings and covariance.\par
+\input{generated_simulation_long}
+
+\section{Temporal replay, update identities, and implementation}
+\setcounter{equation}{0}
+\subsection{Selected sample and models}
+This is a separate stock-return prediction exercise with 214 inputs, not a refit of the 30 pricing networks. It covers February 2000--December 2019 (239 months; 1,043,511 stock-months). The archived feature panel conditions on future-validation eligibility and complete state history. Preprocessing is fixed from an earlier source configuration, and the neural hyperparameters had been chosen in research using overlapping years. Consequently, all temporal evidence is retrospective and conditional on this selected sample, despite lag-respecting individual fit and switching dates. It is not a fully prospective universe-selection backtest.
+
+The neural model has two 32-unit SiLU layers, a zero-initialized final layer, and seeds 17, 41, 73, 101, and 149. It uses month-balanced raw mean squared error, AdamW at learning rate $3\times10^{-5}$ and weight decay 0.001, batch size 32,768, gradient norm clipping at 1, and ten epochs without early stopping. Five predictions are ensembled. Ridge uses penalty 0.1 with an unpenalized intercept. Neural and Ridge updates are monthly, using either the previous 60 calendar months or expanding history. The shallow histogram-gradient-boosting model is updated annually, using learning rate 0.05, 100 iterations, at most six leaves, minimum 100 observations per leaf, $L_2$ penalty 1, 63 bins, and no early stopping. Cross-learner comparisons retain this cadence difference.
+
+\subsection{Exact loss decomposition}
+Let $e_{it}=y_{it}-\hat y^F_{it}$ and $d_{it}=\hat y^U_{it}-\hat y^F_{it}$. Cross-sectional monthly means define $A_t=\overline{d_{it}^2}$ and $B_t=\overline{e_{it}d_{it}}$. Then
+\begin{equation}
+\overline{(y_{it}-\hat y^U_{it})^2}-\overline{(y_{it}-\hat y^F_{it})^2}=A_t-2B_t.
+\end{equation}
+Months receive equal weight. For an ex-post scalar adjustment $\hat y^F+\lambda d$, minimizing the period mean quadratic over $[0,1]$ gives $\lambda^*=\operatorname{clip}(\bar B/\bar A,0,1)$. It is a diagnostic using realized outcomes, not an implementable policy estimated before those outcomes. Table~\ref{tab:decomposition} reports all period components at full source precision rounded for printing.
+
+\input{generated_temporal_tables}
+
+\subsection{Breaks, sequential rule, and portfolios}
+The retrospective common break minimizes pooled one-break mean squared residuals for six standardized advantage series, with at least 60 months on either side. Its null block bootstrap has 4,999 draws and its break-date uncertainty calculation has 1,999 draws, both with 12-month blocks. The estimated first post-break month is May 2014, with interval October 2009--January 2015. It uses future observations relative to the estimated date.
+
+The sequential rule uses 2000--2009 location and scale, a reference shift of 0.25 standard deviations, and threshold 5.6177778 calibrated to a nominal familywise 5\% crossing rate. It first crosses in August 2018 and acts from September, for 16 months. A month-$t$ observation affects month $t+1$ decisions. Design after observing the broader sample remains a limitation; the lag rule alone does not remove research selection.
+
+Portfolios sort predictions into deciles each month, with equal or value weights and unit long and unit short legs. Turnover accounts for return drift. Linear cost is turnover times 0, 10, 25, or 50 basis points; value weighting at 25 basis points is primary. Annualized mean is $12\bar r$, annualized volatility $\sqrt{12}s_r$, and certainty equivalent at risk aversion five is $12\bar r-(5/2)12s_r^2$. This is a mean--variance approximation, not realized compound utility. Six update-minus-frozen comparisons use block-bootstrap intervals and Holm adjustment. Full cost/weighting results are retained in the electronic aggregate report. No borrow fees or security-specific price-impact model are estimated.
+
+\section{Representation geometry and functional probe}
+\setcounter{equation}{0}
+The sample fixes 384 securities per development target month and uses the same rows in all 30 Core-86 models. There are 32,400 model--month--layer--normalization cells: 30 models, 120 months, three hidden layers, and three normalizations. Each spectral group has 3,600 observations. Adjacent-month drift has 3,570 observations per layer/normalization group, since there are 119 transitions. Neighbor diagnostics use January of each development year only, hence 300 observations per raw-centered or z-scored group; they are omitted under row normalization.
+
+Let positive covariance eigenvalues be $\ell_j$, with $p_j=\ell_j/\sum_j\ell_j$. Participation rank is $(\sum_j\ell_j)^2/\sum_j\ell_j^2$; entropy rank is $\exp(-\sum_jp_j\log p_j)$; PCA90 and PCA95 are the smallest ranks reaching the stated variance shares. Numerical collapse is flagged if total variance is at most $10^{-12}$ or participation rank at most 1.05. This test does not assess the class-conditional geometry called neural collapse in supervised classification.
+
+TWO-NN is the reciprocal mean log ratio of second to first neighbor distance, excluding invalid distances. The Levina--Bickel implementation uses the median local bias-adjusted estimate $(k-2)/\sum_{j<k}\log(r_k/r_j)$ at $k=20$. These estimators depend on sampling and neighborhood scale.
+
+The variable archived as \texttt{curvature\_proxy\_radians} is a tangent-angle diagnostic. At eight deterministic random anchors it compares PCA tangents from 16 and 48 neighbors. Local rank is the rounded TWO-NN estimate clipped to 1--12 and further limited by the available coordinates. It reports the median largest principal angle between the two neighborhood scales. It is not a Weingarten-map curvature estimator and has no curvature units. Rank-five temporal Grassmann drift is the Euclidean norm of the five principal angles. Linear CKA is $\|X'Y\|_F^2/(\|X'X\|_F\|Y'Y\|_F)$ for centered activations.
+
+The functional probe uses one median final-layer raw participation rank per model. The baseline is nominal-factor-count fixed effects; the augmented regression adds geometry. Each fold holds out one common seed across all six factor counts, leaving 24 training and six held-out models. The primary outcome is the normalized HJ span loss recorded in the frozen model report. This report-level endpoint refits span loadings for that evaluation report; it is distinct from the validation-fixed self-pricing distance in Figures 2--3. The probe predicts cross-model performance summaries, not next-month stock returns.
+
+The permutation diagnostic shuffles geometry within factor count (5,000 draws; seed 7292026). The primary threshold requires at least 5\% leave-one-seed-out RMSE improvement and two-sided permutation $p\le0.05$. Observed improvement is 3.915\% and $p=0.149$. The secondary Sharpe probe has 1.211\% improvement and $p=0.041$, and cannot substitute for the primary endpoint. These 30 models share the economic period; five folds are algorithmic repetitions, not independent histories.
+
+\section{Replication package and audit boundaries}
+The public package is organized in article order: framework, data design, pricing dimension, temporal replay, and representation geometry. It includes all plotted aggregate data, numeric tables, synthetic selection outputs, methods code, configurations, dependency specifications, and a manifest of included file hashes. Restricted stock observations, historical benchmark security records, fitted weights, stock-level predictions, and individual-security intermediate panels are excluded. External freely downloadable inputs are referenced at their source with vintage hashes; accessibility alone is not a redistribution license.
+
+The package distinguishes three operations. Exhibit replay reuses released aggregate inputs and regenerates figures, tables, and documents. Synthetic replay reruns the known-truth generator with its frozen seed and grid. Full empirical reconstruction requires licensed inputs matching the documented exports and historical vintages, together with the specified runtimes; exact numerical equality across hardware is not promised. Original execution receipts and protocol labels are retained alongside the chronology correction. No unexecuted attribution protocol is reported as evidence.
+
+The manuscript audit additionally corrects three distinctions: 86 characteristics versus 172 network inputs; all-month spectral summaries versus ten-month neighbor diagnostics; and noisy-mean ``feasible'' simulation evaluation versus estimation of every population object. These corrections alter interpretation and documentation, not the archived experimental outcomes.
+\end{document}

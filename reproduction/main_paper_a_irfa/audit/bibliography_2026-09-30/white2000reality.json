@@ -1,0 +1,607 @@
+{
+  "key": "white2000reality",
+  "submitted": {
+    "key": "white2000reality",
+    "type": "article",
+    "fields": {
+      "author": "White, Halbert",
+      "title": "A Reality Check for Data Snooping",
+      "journal": "Econometrica",
+      "year": "2000",
+      "volume": "68",
+      "number": "5",
+      "pages": "1097--1126",
+      "doi": "10.1111/1468-0262.00152"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/1468-0262.00152",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T13:11:51Z",
+        "timestamp": 1790687511021,
+        "version": "4.1.0"
+      },
+      "reference-count": 53,
+      "publisher": "The Econometric Society",
+      "issue": "5",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2015-09-01T00:00:00Z",
+            "timestamp": 1441065600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 5478,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Econometrica"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2000,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1111/1468-0262.00152",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2003,
+            12,
+            10
+          ]
+        ],
+        "date-time": "2003-12-10T04:49:43Z",
+        "timestamp": 1071031783000
+      },
+      "page": "1097-1126",
+      "source": "Crossref",
+      "is-referenced-by-count": 1327,
+      "title": [
+        "A Reality Check for Data Snooping"
+      ],
+      "prefix": "10.3982",
+      "volume": "68",
+      "author": [
+        {
+          "given": "Halbert",
+          "family": "White",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "2359",
+      "reference": [
+        {
+          "key": "b1_169",
+          "unstructured": "F. A\n                      ltissimo\n                      , and V. C\n                      orradi\n                      (1996 ): \"A LIL for\n                      m\n                      -Estimators and Applications to Hypothesis Testing with Nuisance Parameters ,\" University of Pennsylvania Department of Economics Discussion Paper."
+        },
+        {
+          "key": "b2_170",
+          "doi-asserted-by": "crossref",
+          "first-page": "821",
+          "DOI": "10.2307/2951764",
+          "volume": "61",
+          "author": "Andrews D. W. K.",
+          "year": "1993",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "b3_171",
+          "volume-title": "Convergence of Probability Measures",
+          "author": "Billingsley P.",
+          "year": "1968"
+        },
+        {
+          "key": "b4_172",
+          "volume-title": "Probability and Measure",
+          "author": "Billingsley P.",
+          "year": "1995"
+        },
+        {
+          "key": "b5_173",
+          "doi-asserted-by": "crossref",
+          "first-page": "1731",
+          "DOI": "10.1111/j.1540-6261.1992.tb04681.x",
+          "volume": "47",
+          "author": "Brock W.",
+          "year": "1992",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "b6_174",
+          "doi-asserted-by": "crossref",
+          "first-page": "419",
+          "DOI": "10.2307/2983440",
+          "volume": "158",
+          "author": "Chatfield C.",
+          "year": "1995",
+          "journal-title": "Journal of the Royal Statistical Society, Series A"
+        },
+        {
+          "key": "b7_175",
+          "unstructured": "V. C\n                      orradi\n                      , N. R. S\n                      wanson\n                      , and C. O\n                      livetti\n                      (1998 ): \"Predictive Ability With Cointegrated Variables ,\" Pennsylvania State University Department of Economics Discussion Paper."
+        },
+        {
+          "key": "b8_176",
+          "doi-asserted-by": "crossref",
+          "first-page": "309",
+          "DOI": "10.2307/1907042",
+          "volume": "1",
+          "author": "Cowles A.",
+          "year": "1933",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "b9_177",
+          "doi-asserted-by": "crossref",
+          "first-page": "325",
+          "DOI": "10.1111/j.1365-2125.1982.tb01987.x",
+          "volume": "14",
+          "author": "Cox D. R.",
+          "year": "1982",
+          "journal-title": "British Journal of Clinical Pharmacology"
+        },
+        {
+          "key": "b10_178",
+          "doi-asserted-by": "crossref",
+          "first-page": "253",
+          "DOI": "10.1080/07350015.1995.10524599",
+          "volume": "13",
+          "author": "Diebold F.",
+          "year": "1995",
+          "journal-title": "Journal of Business and Economic Statistics"
+        },
+        {
+          "key": "b11_179",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.2307/2527098",
+          "volume": "35",
+          "author": "Dufour J.-M.",
+          "year": "1994",
+          "journal-title": "International Economic Review"
+        },
+        {
+          "key": "b12_180",
+          "doi-asserted-by": "crossref",
+          "first-page": "251",
+          "DOI": "10.2307/1913236",
+          "volume": "55",
+          "author": "Engle R.",
+          "year": "1987",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "b13_181",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(97)00058-4"
+        },
+        {
+          "key": "b14_182",
+          "unstructured": "S. G\n                      onCALVES\n                      , and H. W\n                      hite\n                      (1999 ): \"The Bootstrap of the Mean for Dependent Heterogeneous Arrays ,\" UCSD Department of Economics Discussion Paper."
+        },
+        {
+          "key": "b15_183",
+          "doi-asserted-by": "crossref",
+          "first-page": "561",
+          "DOI": "10.1093/biomet/82.3.561",
+          "volume": "82",
+          "author": "Hall P.",
+          "year": "1995",
+          "journal-title": "Biometrika"
+        },
+        {
+          "key": "b16_184",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1080/00031305.1998.10480549",
+          "volume": "52",
+          "author": "Hand D.",
+          "year": "1998",
+          "journal-title": "The American Statistician"
+        },
+        {
+          "key": "b17_185",
+          "doi-asserted-by": "crossref",
+          "first-page": "800",
+          "DOI": "10.1093/biomet/75.4.800",
+          "volume": "75",
+          "author": "Hochberg Y.",
+          "year": "1988",
+          "journal-title": "Biometrika"
+        },
+        {
+          "key": "b18_186",
+          "doi-asserted-by": "crossref",
+          "first-page": "625",
+          "DOI": "10.1093/biomet/76.3.624",
+          "volume": "76",
+          "author": "Hommel G.",
+          "year": "1989",
+          "journal-title": "Biometrika"
+        },
+        {
+          "key": "b19_187",
+          "unstructured": "K. D. H\n                      oover\n                      , and S. J. P\n                      erez\n                      (1998 ): \"Data Mining Reconsidered: Encompassing and the General-to-Specific Approach to Specification Search ,\" UC Davis Department of Economics Discussion Paper."
+        },
+        {
+          "key": "b20_188",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1007631014630"
+        },
+        {
+          "key": "b21_189",
+          "doi-asserted-by": "crossref",
+          "first-page": "537",
+          "DOI": "10.1017/S0266466600009403",
+          "volume": "11",
+          "author": "Kabaila P.",
+          "year": "1995",
+          "journal-title": "Econometric Theory"
+        },
+        {
+          "key": "b22_190",
+          "doi-asserted-by": "crossref",
+          "first-page": "933",
+          "DOI": "10.2307/1911335",
+          "volume": "43",
+          "author": "Kloek T.",
+          "year": "1972",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "b23_191",
+          "doi-asserted-by": "crossref",
+          "first-page": "1217",
+          "DOI": "10.1214/aos/1176347265",
+          "volume": "17",
+          "author": "Kuensch H. R.",
+          "year": "1989",
+          "journal-title": "Annals of Statistics"
+        },
+        {
+          "key": "b24_192",
+          "volume-title": "Specification Searches: Ad Hoc Inference with Nonexperimental Data",
+          "author": "Leamer E.",
+          "year": "1978"
+        },
+        {
+          "key": "b26_193",
+          "first-page": "31",
+          "volume": "73",
+          "author": "Leamer E.",
+          "year": "1983",
+          "journal-title": "American Economic Review"
+        },
+        {
+          "key": "b27_194",
+          "first-page": "225",
+          "volume-title": "Exploring the Limits of Bootstrap",
+          "author": "Liu R. Y.",
+          "year": "1992"
+        },
+        {
+          "key": "b28_195",
+          "volume-title": "System Identification: Theory for the User",
+          "author": "Ljung L.",
+          "year": "1987"
+        },
+        {
+          "key": "b29_196",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/3.3.431"
+        },
+        {
+          "key": "b30_197",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.2307/1924403",
+          "volume": "45",
+          "author": "Lovell M. C.",
+          "year": "1983",
+          "journal-title": "Review of Economics and Statistics"
+        },
+        {
+          "key": "b31_198",
+          "doi-asserted-by": "crossref",
+          "first-page": "165",
+          "DOI": "10.1111/j.1465-7295.1980.tb00568.x",
+          "volume": "18",
+          "author": "Mayer T.",
+          "year": "1980",
+          "journal-title": "Economic Inquiry"
+        },
+        {
+          "key": "b32_199",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-1-4613-8122-8",
+          "volume-title": "Simultaneous Statistical Inference",
+          "author": "Miller R. G.",
+          "year": "1981"
+        },
+        {
+          "key": "b33_200",
+          "unstructured": "E. P\n                      aparoditis\n                      , and D. P\n                      olitis\n                      (2000 ): \"Tapered Block Bootstrap ,\" U.C. San Diego Dept. of Mathematics Discussion Paper."
+        },
+        {
+          "key": "b34_201",
+          "unstructured": "D. P\n                      olitis\n                      (1999 ): Personal Communication."
+        },
+        {
+          "key": "b35_202",
+          "doi-asserted-by": "crossref",
+          "first-page": "1985",
+          "DOI": "10.1214/aos/1176348899",
+          "volume": "20",
+          "author": "Politis D.",
+          "year": "1992",
+          "journal-title": "Annals of Statistics"
+        },
+        {
+          "key": "b36_203",
+          "doi-asserted-by": "crossref",
+          "first-page": "1303",
+          "DOI": "10.1080/01621459.1994.10476870",
+          "volume": "89",
+          "author": "Politis D.",
+          "year": "1994",
+          "journal-title": "Journal of the American Statistical Association"
+        },
+        {
+          "key": "b37_204",
+          "first-page": "461",
+          "volume": "4",
+          "author": "Politis D.",
+          "year": "1994",
+          "journal-title": "Statistica Sinica"
+        },
+        {
+          "key": "b38_205",
+          "doi-asserted-by": "crossref",
+          "first-page": "2031",
+          "DOI": "10.1214/aos/1176325770",
+          "volume": "22",
+          "author": "Politis D.",
+          "year": "1994",
+          "journal-title": "Annals of Statistics"
+        },
+        {
+          "key": "b39_206",
+          "doi-asserted-by": "crossref",
+          "first-page": "163",
+          "DOI": "10.1017/S0266466600004382",
+          "volume": "7",
+          "author": "Potscher B.",
+          "year": "1991",
+          "journal-title": "Econometric Theory"
+        },
+        {
+          "key": "b40_207",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/9780470316436",
+          "volume-title": "Linear Statistical Inference and its Applications",
+          "author": "Rao C. R.",
+          "year": "1973"
+        },
+        {
+          "key": "b41_208",
+          "unstructured": "D. R\n                      ivers\n                      , and Q. V\n                      uong\n                      (1991 ): \"Model Selection Tests for Nonlinear Dynamic Models ,\" University of Southern California Department of Economics Discussion Paper."
+        },
+        {
+          "key": "b42_209",
+          "doi-asserted-by": "crossref",
+          "first-page": "220",
+          "DOI": "10.1214/aoms/1177729029",
+          "volume": "24",
+          "author": "Roy S. N.",
+          "year": "1953",
+          "journal-title": "Annals of Mathematical Statistics"
+        },
+        {
+          "key": "b43_210",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.2307/2297112",
+          "volume": "48",
+          "author": "Savin N. E.",
+          "year": "1980",
+          "journal-title": "Review of Economic Studies"
+        },
+        {
+          "key": "b44_211",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4076(94)01701-8"
+        },
+        {
+          "key": "b45_212",
+          "doi-asserted-by": "crossref",
+          "first-page": "111",
+          "DOI": "10.1111/j.2517-6161.1974.tb00994.x",
+          "volume": "36",
+          "author": "Stone M.",
+          "year": "1974",
+          "journal-title": "Journal of the Royal Statistical Society"
+        },
+        {
+          "key": "b46_213",
+          "first-page": "127",
+          "volume": "9",
+          "author": "Stone M.",
+          "year": "1977",
+          "journal-title": "Mathematics of Operations Research and Statistics"
+        },
+        {
+          "key": "b47_214",
+          "unstructured": "R. S\n                      ullivan\n                      , A. T\n                      immermann\n                      , and H. W\n                      hite\n                      (1998 ): \"Dangers of Data-Driven Inference: The Case of Calendar Effects in Stock Returns ,\" UC San Diego Department of Economics Discussion Paper 98-31."
+        },
+        {
+          "key": "b48_215",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00163"
+        },
+        {
+          "key": "b49_216",
+          "unstructured": "R. S\n                      ullivan\n                      , and H. W\n                      hite\n                      (1999 ): \"Finite Sample Properties of the Bootstrap Reality Check for Data-Snooping: A Monte Carlo Assessment ,\" QRDA, LLC Technical Report, San Diego."
+        },
+        {
+          "key": "b50_217",
+          "doi-asserted-by": "crossref",
+          "first-page": "28",
+          "DOI": "10.1214/aop/1176988847",
+          "volume": "22",
+          "author": "Talagrand M.",
+          "year": "1994",
+          "journal-title": "Annals of Probability"
+        },
+        {
+          "key": "b51_218",
+          "unstructured": "K. W\n                      est\n                      (1994 ): \"Asymptotic Inference About Predictive Ability ,\" University of Wisconsin Department of Economics Discussion Paper."
+        },
+        {
+          "key": "b52_219",
+          "doi-asserted-by": "crossref",
+          "first-page": "1067",
+          "DOI": "10.2307/2171956",
+          "volume": "64",
+          "author": "West K.",
+          "year": "1996",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "b53_220",
+          "volume-title": "Resampling-Based Multiple Testing: Examples and Methods for p-Value Adjustment",
+          "author": "Westfall P. H.",
+          "year": "1993"
+        },
+        {
+          "key": "b54_221",
+          "volume-title": "Asymptotic Theory for Econometricians",
+          "author": "White H.",
+          "year": "1984"
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1468-0262.00152",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1468-0262.00152",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            14
+          ]
+        ],
+        "date-time": "2024-12-14T11:32:28Z",
+        "timestamp": 1734175948000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://doi.wiley.com/10.1111/1468-0262.00152"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2000,
+            9
+          ]
+        ]
+      },
+      "references-count": 53,
+      "journal-issue": {
+        "issue": "5",
+        "published-print": {
+          "date-parts": [
+            [
+              2000,
+              9
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/1468-0262.00152"
+      ],
+      "URL": "https://doi.org/10.1111/1468-0262.00152",
+      "relation": {},
+      "ISSN": [
+        "0012-9682",
+        "1468-0262"
+      ],
+      "issn-type": [
+        {
+          "value": "0012-9682",
+          "type": "print"
+        },
+        {
+          "value": "1468-0262",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            9
+          ]
+        ]
+      }
+    }
+  }
+}

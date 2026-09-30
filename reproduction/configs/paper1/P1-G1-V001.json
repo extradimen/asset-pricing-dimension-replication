@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V001",
+  "parent_experiment_id": "P1-G0-V014",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "development",
+  "research_question": "What sealed-safe linear benchmark does Core-92 establish before training the neural teacher?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "additional_data_snapshot_ids": ["wrds-us-equity-2025-12-v1", "ken-french-daily-2026-07-v1"],
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Estimate pooled OLS/Ridge models on 1963-1999, select feature/missing-indicator specification and penalty on 2000-2009, and evaluate only the 2010-2019 development sample.",
+  "entrypoint": "scripts/run_core92_linear_baseline.py",
+  "validator": "scripts/validate_core92_linear_baseline.py",
+  "output_directory": "data/processed/gkx-datashare-2021-v1/P1-G1-V001",
+  "result_summary": "experiments/P1-G1-V001/result_summary.json"
+}

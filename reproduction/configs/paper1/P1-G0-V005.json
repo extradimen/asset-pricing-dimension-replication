@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V005",
+  "parent_experiment_id": "P1-G0-V004",
+  "paper": 1,
+  "generation": "G0",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Construct point-in-time Compustat annual and quarterly fundamentals and audit the CRSP-Compustat link history.",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v3",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Add conservative and report-date availability rules, standardized accounting fields, duplicate diagnostics, and CCM link-quality checks.",
+  "entrypoint": "scripts/build_compustat_ccm.py",
+  "validator": "scripts/validate_compustat_ccm.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V005",
+  "result_summary": "experiments/P1-G0-V005/result_summary.json"
+}

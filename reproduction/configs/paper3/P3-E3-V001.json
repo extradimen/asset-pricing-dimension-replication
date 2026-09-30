@@ -1,0 +1,12 @@
+{
+  "experiment_id": "P3-E3-V001",
+  "existing_labels": "experiments/P3-E2-V001/outputs/R001/monthly_labels.json",
+  "existing_labels_sha256": "dc8d45ed38ffb7d3a9cfc857d3725b4a2b8074587c3e85b6db3870badee5d49b",
+  "source": "experiments/P3-E0-V001/outputs/R001/PredictorData2025.xlsx",
+  "source_sha256": "8d210b779442a5a9206702060aac67c1de4283186c0f167ebdb4488d149be872",
+  "credit_definition": "Contemporaneous BAA-minus-AAA > full 2000-2025 75th percentile; equals threshold assigned non-high",
+  "credit_rounding": "Round percentage-point spread to 10 decimal places before quantile calculation and comparison; removes binary floating-point tie artifacts",
+  "quantile": 0.75,
+  "quantile_method": "linear_inclusive",
+  "scope": "Four retrospective environment labels only; no stock model results"
+}

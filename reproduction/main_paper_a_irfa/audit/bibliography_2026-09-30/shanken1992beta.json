@@ -1,0 +1,464 @@
+{
+  "key": "shanken1992beta",
+  "submitted": {
+    "key": "shanken1992beta",
+    "type": "article",
+    "fields": {
+      "author": "Shanken, Jay",
+      "title": "On the Estimation of Beta-Pricing Models",
+      "journal": "The Review of Financial Studies",
+      "year": "1992",
+      "volume": "5",
+      "number": "1",
+      "pages": "1--33",
+      "doi": "10.1093/rfs/5.1.1"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1093/rfs/5.1.1",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T12:41:59Z",
+        "timestamp": 1790772119115,
+        "version": "4.1.0"
+      },
+      "reference-count": 53,
+      "publisher": "Oxford University Press (OUP)",
+      "issue": "1",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Rev. Financ. Stud."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1992,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/5.1.1",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2002,
+            7,
+            26
+          ]
+        ],
+        "date-time": "2002-07-26T22:59:57Z",
+        "timestamp": 1027724397000
+      },
+      "page": "1-33",
+      "source": "Crossref",
+      "is-referenced-by-count": 1242,
+      "title": [
+        "On the Estimation of Beta-Pricing Models"
+      ],
+      "prefix": "10.1093",
+      "volume": "5",
+      "author": [
+        {
+          "given": "Jay",
+          "family": "Shanken",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "286",
+      "published-online": {
+        "date-parts": [
+          [
+            1992,
+            1,
+            1
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "2016021002583274000_5.1.1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(85)90004-2"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(81)90018-0"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/295472"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(74)90006-3"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.5",
+          "unstructured": "Black F. Jensen M. Scholes M. , 1972, “The Capital Asset Pricing Model: Some Empirical Findings,” in Jensen M. (ed.), Studies in the Theory of Capital Markets, Praeger, New York, pp. 79–121."
+        },
+        {
+          "key": "2016021002583274000_5.1.1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2978165"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(79)90016-3"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2328589"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912275"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/296344"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-0531(84)90159-5"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(88)90062-1"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(83)90045-4"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1985.tb02370.x"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.15",
+          "unstructured": "Fama E. F. , 1976, Foundations of Finance, Basic Books, New York."
+        },
+        {
+          "key": "2016021002583274000_5.1.1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261535"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/260061"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.18",
+          "unstructured": "Gibbons M. , 1980, “Estimating the Parameters of the Capital Asset Pricing Model: A Minimum Expected Loss Approach,” unpublished manuscript, Graduate School of Business, Stanford University."
+        },
+        {
+          "key": "2016021002583274000_5.1.1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(82)90028-9"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913625"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(83)90046-6"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(82)90013-7"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1911873"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hess P. , 1980, “Dividend Yields and Stock Returns: A Test for Tax Effects,” Ph.D. dissertation, Graduate School of Business, University of Chicago.",
+          "DOI": "10.3386/w0649"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.25",
+          "unstructured": "Huang C. Litzenberger R. , 1988, Foundations for Financial Economics, North-Holland, New York."
+        },
+        {
+          "key": "2016021002583274000_5.1.1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/3003029"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(82)90019-8"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(84)90017-5"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1924119"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(79)90012-6"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/1.1.41"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(87)90044-4"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "867",
+          "DOI": "10.2307/1913811",
+          "article-title": "An Intertemporal Capital Asset Pricing Model",
+          "volume": "44",
+          "author": "Merton",
+          "year": "1973",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.34",
+          "unstructured": "Miller M. H. Scholes M. , 1972, “Rates of Return in Relation to Risk: A Reexamination of Some Recent Findings,” in Jensen M. C. (ed.), Studies in the Theory of Capital Markets, Praeger, New York, pp. 47–78."
+        },
+        {
+          "key": "2016021002583274000_5.1.1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913610"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(88)90021-9"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(89)90086-X"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(77)90009-5"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "60",
+          "DOI": "10.2469/faj.v32.n3.60",
+          "article-title": "Prediction of Beta from Investment Fundamentals",
+          "volume": "32",
+          "author": "Rosenberg",
+          "year": "1976",
+          "journal-title": "Financial Analysts Journal"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-0531(76)90046-6"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2329748"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2327839"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.43",
+          "unstructured": "Shanken , 1982b, “An Asymptotic Analysis of the Traditional Risk-Return Model,” Ph.D. dissertation, Carnegie Mellon University, chap. 2."
+        },
+        {
+          "key": "2016021002583274000_5.1.1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(85)90002-9"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2328402"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2328359"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(87)90062-6"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4076(90)90095-B"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.49",
+          "unstructured": "Shanken J. Weinstein M. , 1990, “Macroeconomic Variables and Asset Pricing: Further Results,” working paper, University of Rochester."
+        },
+        {
+          "key": "2016021002583274000_5.1.1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2977928"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sharpe W. , 1977, “The Capital Asset Pricing Model: A ‘Multibeta’ Interpretation,” in Levy H. Sarnat M. (eds.), Financial Decision Making Under Uncertainty, Academic, New York.",
+          "DOI": "10.1016/B978-0-12-445850-5.50011-8"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(82)90002-2"
+        },
+        {
+          "key": "2016021002583274000_5.1.1.53",
+          "unstructured": "Theil H. , 1971, Principles of Econometrics, Wiley, New York."
+        }
+      ],
+      "container-title": [
+        "Review of Financial Studies"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://academic.oup.com/rfs/article-pdf/5/1/1/5371329/050001.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            4
+          ]
+        ],
+        "date-time": "2020-03-04T09:42:54Z",
+        "timestamp": 1583314974000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://academic.oup.com/rfs/article-lookup/doi/10.1093/rfs/5.1.1"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1992,
+            1
+          ]
+        ]
+      },
+      "references-count": 53,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              1992,
+              1,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1992,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1093/rfs/5.1.1"
+      ],
+      "URL": "https://doi.org/10.1093/rfs/5.1.1",
+      "relation": {},
+      "ISSN": [
+        "0893-9454",
+        "1465-7368"
+      ],
+      "issn-type": [
+        {
+          "value": "0893-9454",
+          "type": "print"
+        },
+        {
+          "value": "1465-7368",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1992,
+            1
+          ]
+        ]
+      }
+    }
+  }
+}

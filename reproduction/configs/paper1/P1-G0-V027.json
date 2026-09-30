@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V027",
+  "parent_experiment_id": "P1-G0-V026",
+  "paper": 1,
+  "generation": "G0",
+  "status": "preregistered",
+  "evidence_class": "physical_presealed_core86_input",
+  "research_question": "Can a physically pre-2020 Core-86 development input be created with an immutable source and output manifest?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v5",
+  "source_experiment_id": "P1-G0-V026",
+  "sealed_start": "2020-01-01",
+  "required_maximum_month": "2019-12-01",
+  "sealed_outputs_allowed": false,
+  "entrypoint": "scripts/prepare_presealed_model_input.py",
+  "validator": "scripts/validate_presealed_core86_input.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V027"
+}

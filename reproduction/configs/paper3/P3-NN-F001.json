@@ -1,0 +1,17 @@
+{
+  "experiment_id": "P3-NN-F001",
+  "data_config": "configs/paper3/P3-STOCK-V001.json",
+  "data_config_sha256": "a21a49f1e681d0946d4c1d3b26cfc9759d0db043cc780f1661e5cd954fb138ea",
+  "hidden_widths": [32, 32],
+  "activation": "SiLU",
+  "seeds": [17, 41, 73, 101, 149],
+  "epochs": 10,
+  "batch_size": 32768,
+  "learning_rate": 0.00003,
+  "weight_decay": 0.001,
+  "gradient_clip_norm": 1.0,
+  "cpu_threads": 2,
+  "objective": "Month-balanced raw MSE; AdamW; zero-initialized final layer. Fixed ten epochs, no early stopping or evaluation during training. Five-seed prediction ensemble plus all individual seed results.",
+  "scope": "Frozen neural anchor and immutable yearly feature arrays only; no rolling/expanding claim. Historical paper2 hyperparameters selected using overlapping evaluation years, so this is exploratory despite fresh past-only weight training. Do not reuse paper2 checkpoints. All source sample-selection and preprocessing limitations of P3-STOCK-V001 remain.",
+  "next_update_contract": "If expanded to updates, preserve this architecture, optimizer, epochs and seed ensemble; all fitting targets before prediction target. Record compute forecast before launch; do not change schedule silently."
+}

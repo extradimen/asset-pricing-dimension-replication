@@ -1,0 +1,180 @@
+{
+  "key": "gibbons1989test",
+  "submitted": {
+    "key": "gibbons1989test",
+    "type": "article",
+    "fields": {
+      "author": "Gibbons, Michael R. and Ross, Stephen A. and Shanken, Jay",
+      "title": "A Test of the Efficiency of a Given Portfolio",
+      "journal": "Econometrica",
+      "year": "1989",
+      "volume": "57",
+      "number": "5",
+      "pages": "1121--1152",
+      "doi": "10.2307/1913625"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.2307/1913625",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T12:42:14Z",
+        "timestamp": 1790772134811,
+        "version": "4.1.0"
+      },
+      "reference-count": 0,
+      "publisher": "JSTOR",
+      "issue": "5",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Econometrica"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1989,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.2307/1913625",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2006,
+            7,
+            5
+          ]
+        ],
+        "date-time": "2006-07-05T17:28:42Z",
+        "timestamp": 1152120522000
+      },
+      "page": "1121",
+      "source": "Crossref",
+      "is-referenced-by-count": 1920,
+      "title": [
+        "A Test of the Efficiency of a Given Portfolio"
+      ],
+      "prefix": "10.2307",
+      "volume": "57",
+      "author": [
+        {
+          "given": "Michael R.",
+          "family": "Gibbons",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stephen A.",
+          "family": "Ross",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jay",
+          "family": "Shanken",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1121",
+      "container-title": [
+        "Econometrica"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2018,
+            5,
+            9
+          ]
+        ],
+        "date-time": "2018-05-09T03:51:33Z",
+        "timestamp": 1525837893000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.jstor.org/stable/1913625?origin=crossref"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1989,
+            9
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "5",
+        "published-print": {
+          "date-parts": [
+            [
+              1989,
+              9
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.2307/1913625",
+      "relation": {},
+      "ISSN": [
+        "0012-9682"
+      ],
+      "issn-type": [
+        {
+          "value": "0012-9682",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1989,
+            9
+          ]
+        ]
+      }
+    }
+  }
+}

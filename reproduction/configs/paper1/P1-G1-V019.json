@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V019",
+  "parent_experiment_id": "P1-G1-V018",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "hybrid_benchmark_gate",
+  "research_question": "Does the K=1 plus Mkt-RF hybrid improve on FF5 plus momentum jointly in pricing distance, raw Euler moments and alpha?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "pricing_target_snapshot_id": "ken-french-public-74-pricing-targets-2026-07-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "parent_run_id": "P1-G1-V018-R001",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "candidate": "Each of five paired V015 K=1 factors concatenated with Mkt-RF.",
+  "benchmark": "Ken French five factors plus momentum.",
+  "loading_case": "Strict factor self-pricing loadings estimated in 2000-2009 and frozen for 2010-2019.",
+  "geometry_grid": {
+    "start": 0.0,
+    "stop": 1.0,
+    "step": 0.05
+  },
+  "inference": "Five-seed candidate summary plus 500-draw circular 12-month development-period block bootstrap of seed-mean candidate-minus-benchmark differences.",
+  "interpretation_rule": "The hybrid passes only if its seed-mean candidate-minus-benchmark differences are nonpositive for gamma-zero distance, gamma-one distance, mean absolute Euler moment and mean absolute alpha; both distance bootstrap 95% upper bounds are nonpositive; and at least four of five seeds jointly weakly improve raw moments and alpha. Otherwise retain it only as mechanism evidence.",
+  "boundary": "No retraining, tuning, dimension selection or sealed-period access. A failed gate cannot be relaxed after inspection.",
+  "entrypoint": "scripts/audit_hybrid_benchmark_gate.py"
+}

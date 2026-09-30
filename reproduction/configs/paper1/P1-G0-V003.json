@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V003",
+  "parent_experiment_id": "P1-G0-V002",
+  "paper": 1,
+  "generation": "G0",
+  "status": "planned",
+  "evidence_class": "exploratory",
+  "research_question": "Freeze the end-of-day scope assessment: measure economic compressibility, identify which capability is first lost, and map that loss to economic mechanisms.",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v3",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Document how the question evolved from binary compressibility to a functional frontier with directional and economic interpretation, while preserving the paper-two boundary.",
+  "entrypoint": null
+}

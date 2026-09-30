@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V021",
+  "parent_experiment_id": "P1-G1-V020",
+  "paper": 1,
+  "generation": "G1",
+  "status": "preregistered",
+  "evidence_class": "external_asset_geometry_confirmation",
+  "research_question": "Does metric-dependent economic compressibility and its market-direction mechanism transfer to six prespecified public portfolio families that never entered model training?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "pricing_target_snapshot_id": "ken-french-external-six-families-2026-07-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v5",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "validation_period": [
+    "2000-01",
+    "2009-12"
+  ],
+  "development_period": [
+    "2010-01",
+    "2019-12"
+  ],
+  "external_asset_families": [
+    "25 size-operating-profitability portfolios",
+    "25 size-investment portfolios",
+    "25 size-momentum portfolios",
+    "25 size-accruals portfolios",
+    "25 size-market-beta portfolios",
+    "25 size-residual-variance portfolios"
+  ],
+  "frozen_models": {
+    "learned_dimensions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "seeds": [
+      20260924,
+      20260925,
+      20260926,
+      20260927,
+      20260928
+    ],
+    "economic_completions": [
+      "K=1 plus Mkt-RF"
+    ],
+    "traditional_benchmark": "FF5 plus momentum",
+    "retraining_allowed": false
+  },
+  "geometry_grid": {
+    "gamma_start": 0.0,
+    "gamma_stop": 1.0,
+    "gamma_step": 0.05,
+    "ridge_rule": "1e-4 times trace of the asset second-moment matrix divided by asset count"
+  },
+  "primary_estimands": [
+    "For each family and gamma, the five-seed mean strict-self-pricing squared distance for K in {1,2,3,4,5,8}",
+    "For each family, A_f = [D_K1(0)-D_K5(0)]-[D_K1(1)-D_K5(1)]",
+    "Market-direction attenuation = abs(A_f)-abs(A_f_hedged), with betas estimated only in 2000-2009 and frozen",
+    "K=1 plus Mkt-RF changes in raw Euler moments and regression alpha relative to K=1"
+  ],
+  "preregistered_hypotheses": {
+    "H1_geometry_dependence": "At least four of six external families select a different best learned dimension at gamma zero and gamma one.",
+    "H2_market_direction": "Validation-frozen market-beta hedging reduces abs(A_f) in at least four of six families and the median family attenuation is positive.",
+    "H3_economic_completion": "Adding Mkt-RF to K=1 lowers both mean absolute raw Euler moments and mean absolute alpha in at least four of six families.",
+    "H4_asset_family_dependence": "Across the twelve family-by-endpoint rankings, at least three distinct learned dimensions are selected as best. This is descriptive confirmation of heterogeneity, not a teacher gate."
+  },
+  "inference": {
+    "bootstrap_draws": 500,
+    "circular_block_months": 12,
+    "bootstrap_seed": 20260924,
+    "subperiods": [
+      "2010-01 to 2014-12",
+      "2015-01 to 2019-12"
+    ],
+    "reporting_rule": "Report every family, seed, endpoint and subperiod. No family may be removed after seeing returns."
+  },
+  "stopping_rule": "V021 uses frozen models and is the only development-period external-family confirmation run. Do not alter the family list, retrain models or add metrics after seeing results. A failure narrows the claim; it does not reopen architecture search.",
+  "official_sources": [
+    "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_OP_5x5_CSV.zip",
+    "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_INV_5x5_CSV.zip",
+    "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_Prior_12_2_CSV.zip",
+    "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_AC_5x5_CSV.zip",
+    "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_BETA_5x5_CSV.zip",
+    "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_RESVAR_5x5_CSV.zip"
+  ]
+}

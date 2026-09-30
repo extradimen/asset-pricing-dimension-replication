@@ -1,0 +1,322 @@
+{
+  "experiment_id": "P3-TOP-M002",
+  "scope": "Exploratory exact loss decomposition of already observed 2000-2019 neural predictions. No new model, hyperparameter, update rule, later-period outcome, or promotion decision is allowed.",
+  "claim_boundary": "This run diagnoses why the two archived full-update arms did or did not help. It cannot establish that any feasible anchored update improves forecasts.",
+  "identity": "configs/paper3/P3-TOP-P001.json",
+  "months": 239,
+  "stock_months": 1043511,
+  "max_absolute_identity_error": 7.589415207398531e-18,
+  "max_absolute_archived_reconstruction_error": 0.0,
+  "summary": {
+    "rolling60": {
+      "full_2000_2019": {
+        "adjustment_cost_A": 0.00041901684783378677,
+        "alignment_B": 0.00014060331437842409,
+        "alignment_benefit_2B": 0.00028120662875684817,
+        "updated_minus_frozen_loss": 0.00013781021907693873,
+        "reconstructed_loss_difference": 0.0001378102190769385,
+        "ex_post_lambda_star_from_mean_terms": 0.3355552768470012,
+        "months": 239,
+        "stock_months": 1043511,
+        "months_full_update_helped": 135,
+        "mean_frozen_seed_variance": 6.014543022422505e-05,
+        "mean_updated_seed_variance": 4.1787117947879724e-06
+      },
+      "development_2000_2009": {
+        "adjustment_cost_A": 0.0005825192023232534,
+        "alignment_B": 2.5616982035086923e-05,
+        "alignment_benefit_2B": 5.1233964070173846e-05,
+        "updated_minus_frozen_loss": 0.0005312852382530797,
+        "reconstructed_loss_difference": 0.0005312852382530795,
+        "ex_post_lambda_star_from_mean_terms": 0.04397620187097535,
+        "months": 119,
+        "stock_months": 598701,
+        "months_full_update_helped": 60,
+        "mean_frozen_seed_variance": 9.556959999467647e-05,
+        "mean_updated_seed_variance": 7.266606671502784e-06
+      },
+      "promotion_2010_2019": {
+        "adjustment_cost_A": 0.0002568770129650656,
+        "alignment_B": 0.0002546314272855668,
+        "alignment_benefit_2B": 0.0005092628545711336,
+        "updated_minus_frozen_loss": -0.00025238584160606787,
+        "reconstructed_loss_difference": -0.000252385841606068,
+        "ex_post_lambda_star_from_mean_terms": 0.9912581291195401,
+        "months": 120,
+        "stock_months": 444810,
+        "months_full_update_helped": 75,
+        "mean_frozen_seed_variance": 2.5016461868527394e-05,
+        "mean_updated_seed_variance": 1.1165493753791187e-06
+      },
+      "by_environment": {
+        "A": {
+          "0": {
+            "adjustment_cost_A": 0.00030419365763923736,
+            "alignment_B": 0.00014270737695901094,
+            "alignment_benefit_2B": 0.00028541475391802187,
+            "updated_minus_frozen_loss": 1.877890372121558e-05,
+            "reconstructed_loss_difference": 1.877890372121545e-05,
+            "ex_post_lambda_star_from_mean_terms": 0.46913330825673133,
+            "months": 213,
+            "stock_months": 917315,
+            "months_full_update_helped": 122,
+            "mean_frozen_seed_variance": 5.449335961314339e-05,
+            "mean_updated_seed_variance": 3.536087035629329e-06
+          },
+          "1": {
+            "adjustment_cost_A": 0.0013596837521199026,
+            "alignment_B": 0.00012336618631438552,
+            "alignment_benefit_2B": 0.00024673237262877104,
+            "updated_minus_frozen_loss": 0.001112951379491132,
+            "reconstructed_loss_difference": 0.0011129513794911317,
+            "ex_post_lambda_star_from_mean_terms": 0.09073152938839162,
+            "months": 26,
+            "stock_months": 126196,
+            "months_full_update_helped": 13,
+            "mean_frozen_seed_variance": 0.0001064489317688554,
+            "mean_updated_seed_variance": 9.443291552510706e-06
+          }
+        },
+        "B1": {
+          "0": {
+            "adjustment_cost_A": 0.0003073544733979015,
+            "alignment_B": 0.00015061839192649697,
+            "alignment_benefit_2B": 0.00030123678385299393,
+            "updated_minus_frozen_loss": 6.117689544907738e-06,
+            "reconstructed_loss_difference": 6.117689544907607e-06,
+            "ex_post_lambda_star_from_mean_terms": 0.4900478273875851,
+            "months": 211,
+            "stock_months": 916396,
+            "months_full_update_helped": 122,
+            "mean_frozen_seed_variance": 5.5094314098682344e-05,
+            "mean_updated_seed_variance": 3.630598834681435e-06
+          },
+          "1": {
+            "adjustment_cost_A": 0.0012604725980470649,
+            "alignment_B": 6.513255142687519e-05,
+            "alignment_benefit_2B": 0.00013026510285375038,
+            "updated_minus_frozen_loss": 0.0011302074951933148,
+            "reconstructed_loss_difference": 0.0011302074951933146,
+            "ex_post_lambda_star_from_mean_terms": 0.05167311969160571,
+            "months": 28,
+            "stock_months": 127115,
+            "months_full_update_helped": 13,
+            "mean_frozen_seed_variance": 9.820919817027893e-05,
+            "mean_updated_seed_variance": 8.30913445844795e-06
+          }
+        },
+        "B2": {
+          "0": {
+            "adjustment_cost_A": 0.00025467098515659256,
+            "alignment_B": 0.0001502412080633726,
+            "alignment_benefit_2B": 0.0003004824161267452,
+            "updated_minus_frozen_loss": -4.5811430970152475e-05,
+            "reconstructed_loss_difference": -4.581143097015262e-05,
+            "ex_post_lambda_star_from_mean_terms": 0.5899423837819294,
+            "months": 173,
+            "stock_months": 755994,
+            "months_full_update_helped": 104,
+            "mean_frozen_seed_variance": 6.224518353581535e-05,
+            "mean_updated_seed_variance": 3.936594796121403e-06
+          },
+          "1": {
+            "adjustment_cost_A": 0.0008498022151543108,
+            "alignment_B": 0.00011534035062848332,
+            "alignment_benefit_2B": 0.00023068070125696665,
+            "updated_minus_frozen_loss": 0.0006191215138973443,
+            "reconstructed_loss_difference": 0.0006191215138973443,
+            "ex_post_lambda_star_from_mean_terms": 0.13572611199600051,
+            "months": 66,
+            "stock_months": 287517,
+            "months_full_update_helped": 31,
+            "mean_frozen_seed_variance": 5.464153139232923e-05,
+            "mean_updated_seed_variance": 4.813351806444283e-06
+          }
+        },
+        "C": {
+          "0": {
+            "adjustment_cost_A": 0.0002722806970847501,
+            "alignment_B": 0.0001659790067284893,
+            "alignment_benefit_2B": 0.0003319580134569786,
+            "updated_minus_frozen_loss": -5.967731637222839e-05,
+            "reconstructed_loss_difference": -5.967731637222856e-05,
+            "ex_post_lambda_star_from_mean_terms": 0.60958785733102,
+            "months": 182,
+            "stock_months": 773853,
+            "months_full_update_helped": 108,
+            "mean_frozen_seed_variance": 4.43993355150807e-05,
+            "mean_updated_seed_variance": 2.8412092784057898e-06
+          },
+          "1": {
+            "adjustment_cost_A": 0.0008875428028570267,
+            "alignment_B": 5.957917389225092e-05,
+            "alignment_benefit_2B": 0.00011915834778450184,
+            "updated_minus_frozen_loss": 0.0007683844550725248,
+            "reconstructed_loss_difference": 0.0007683844550725246,
+            "ex_post_lambda_star_from_mean_terms": 0.06712822604212866,
+            "months": 57,
+            "stock_months": 269658,
+            "months_full_update_helped": 27,
+            "mean_frozen_seed_variance": 0.00011042243438324736,
+            "mean_updated_seed_variance": 8.449333864639853e-06
+          }
+        }
+      }
+    },
+    "expanding": {
+      "full_2000_2019": {
+        "adjustment_cost_A": 0.00028219372331880137,
+        "alignment_B": -8.296993212981338e-05,
+        "alignment_benefit_2B": -0.00016593986425962677,
+        "updated_minus_frozen_loss": 0.0004481335875784282,
+        "reconstructed_loss_difference": 0.0004481335875784282,
+        "ex_post_lambda_star_from_mean_terms": 0.0,
+        "months": 239,
+        "stock_months": 1043511,
+        "months_full_update_helped": 111,
+        "mean_frozen_seed_variance": 6.014543022422505e-05,
+        "mean_updated_seed_variance": 5.4122515122663e-05
+      },
+      "development_2000_2009": {
+        "adjustment_cost_A": 0.00047457187185057445,
+        "alignment_B": -0.00016555843992940213,
+        "alignment_benefit_2B": -0.00033111687985880426,
+        "updated_minus_frozen_loss": 0.000805688751709379,
+        "reconstructed_loss_difference": 0.000805688751709379,
+        "ex_post_lambda_star_from_mean_terms": 0.0,
+        "months": 119,
+        "stock_months": 598701,
+        "months_full_update_helped": 52,
+        "mean_frozen_seed_variance": 9.556959999467647e-05,
+        "mean_updated_seed_variance": 8.149820350745976e-05
+      },
+      "promotion_2010_2019": {
+        "adjustment_cost_A": 9.141872602479311e-05,
+        "alignment_B": -1.0696618952211847e-06,
+        "alignment_benefit_2B": -2.1393237904423694e-06,
+        "updated_minus_frozen_loss": 9.355804981523553e-05,
+        "reconstructed_loss_difference": 9.355804981523549e-05,
+        "ex_post_lambda_star_from_mean_terms": 0.0,
+        "months": 120,
+        "stock_months": 444810,
+        "months_full_update_helped": 59,
+        "mean_frozen_seed_variance": 2.5016461868527394e-05,
+        "mean_updated_seed_variance": 2.6974957474406227e-05
+      },
+      "by_environment": {
+        "A": {
+          "0": {
+            "adjustment_cost_A": 0.00024518009127127104,
+            "alignment_B": -9.726678610403961e-05,
+            "alignment_benefit_2B": -0.00019453357220807922,
+            "updated_minus_frozen_loss": 0.00043971366347935023,
+            "reconstructed_loss_difference": 0.0004397136634793502,
+            "ex_post_lambda_star_from_mean_terms": 0.0,
+            "months": 213,
+            "stock_months": 917315,
+            "months_full_update_helped": 100,
+            "mean_frozen_seed_variance": 5.449335961314339e-05,
+            "mean_updated_seed_variance": 4.606608476114474e-05
+          },
+          "1": {
+            "adjustment_cost_A": 0.0005854207858620308,
+            "alignment_B": 3.415429465903973e-05,
+            "alignment_benefit_2B": 6.830858931807945e-05,
+            "updated_minus_frozen_loss": 0.0005171121965439513,
+            "reconstructed_loss_difference": 0.0005171121965439513,
+            "ex_post_lambda_star_from_mean_terms": 0.05834144513462671,
+            "months": 26,
+            "stock_months": 126196,
+            "months_full_update_helped": 11,
+            "mean_frozen_seed_variance": 0.0001064489317688554,
+            "mean_updated_seed_variance": 0.00012012327154587025
+          }
+        },
+        "B1": {
+          "0": {
+            "adjustment_cost_A": 0.0002140774888828682,
+            "alignment_B": -0.0001072831298498077,
+            "alignment_benefit_2B": -0.0002145662596996154,
+            "updated_minus_frozen_loss": 0.0004286437485824837,
+            "reconstructed_loss_difference": 0.0004286437485824837,
+            "ex_post_lambda_star_from_mean_terms": 0.0,
+            "months": 211,
+            "stock_months": 916396,
+            "months_full_update_helped": 98,
+            "mean_frozen_seed_variance": 5.5094314098682344e-05,
+            "mean_updated_seed_variance": 4.765291084032425e-05
+          },
+          "1": {
+            "adjustment_cost_A": 0.0007954982042467261,
+            "alignment_B": 0.00010024737926014375,
+            "alignment_benefit_2B": 0.0002004947585202875,
+            "updated_minus_frozen_loss": 0.0005950034457264386,
+            "reconstructed_loss_difference": 0.0005950034457264388,
+            "ex_post_lambda_star_from_mean_terms": 0.12601836022379218,
+            "months": 28,
+            "stock_months": 127115,
+            "months_full_update_helped": 13,
+            "mean_frozen_seed_variance": 9.820919817027893e-05,
+            "mean_updated_seed_variance": 0.0001028756045360015
+          }
+        },
+        "B2": {
+          "0": {
+            "adjustment_cost_A": 0.00025969278745501727,
+            "alignment_B": -0.00012791364416074453,
+            "alignment_benefit_2B": -0.00025582728832148905,
+            "updated_minus_frozen_loss": 0.0005155200757765063,
+            "reconstructed_loss_difference": 0.0005155200757765063,
+            "ex_post_lambda_star_from_mean_terms": 0.0,
+            "months": 173,
+            "stock_months": 755994,
+            "months_full_update_helped": 85,
+            "mean_frozen_seed_variance": 6.224518353581535e-05,
+            "mean_updated_seed_variance": 5.050902369661718e-05
+          },
+          "1": {
+            "adjustment_cost_A": 0.0003411734491435689,
+            "alignment_B": 3.483707061793031e-05,
+            "alignment_benefit_2B": 6.967414123586062e-05,
+            "updated_minus_frozen_loss": 0.0002714993079077085,
+            "reconstructed_loss_difference": 0.0002714993079077084,
+            "ex_post_lambda_star_from_mean_terms": 0.10210955953747314,
+            "months": 66,
+            "stock_months": 287517,
+            "months_full_update_helped": 26,
+            "mean_frozen_seed_variance": 5.464153139232923e-05,
+            "mean_updated_seed_variance": 6.359424264851039e-05
+          }
+        },
+        "C": {
+          "0": {
+            "adjustment_cost_A": 0.0001735298200399369,
+            "alignment_B": -4.9337508833961814e-05,
+            "alignment_benefit_2B": -9.867501766792363e-05,
+            "updated_minus_frozen_loss": 0.0002722048377078606,
+            "reconstructed_loss_difference": 0.0002722048377078605,
+            "ex_post_lambda_star_from_mean_terms": 0.0,
+            "months": 182,
+            "stock_months": 773853,
+            "months_full_update_helped": 94,
+            "mean_frozen_seed_variance": 4.43993355150807e-05,
+            "mean_updated_seed_variance": 3.809850347582188e-05
+          },
+          "1": {
+            "adjustment_cost_A": 0.0006291556601039477,
+            "alignment_B": -0.00019035766967095353,
+            "alignment_benefit_2B": -0.00038071533934190706,
+            "updated_minus_frozen_loss": 0.0010098709994458548,
+            "reconstructed_loss_difference": 0.0010098709994458548,
+            "ex_post_lambda_star_from_mean_terms": 0.0,
+            "months": 57,
+            "stock_months": 269658,
+            "months_full_update_helped": 17,
+            "mean_frozen_seed_variance": 0.00011042243438324736,
+            "mean_updated_seed_variance": 0.00010528690318801538
+          }
+        }
+      }
+    }
+  }
+}

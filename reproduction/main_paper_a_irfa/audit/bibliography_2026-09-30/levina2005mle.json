@@ -1,0 +1,16 @@
+{
+  "key": "levina2005mle",
+  "submitted": {
+    "key": "levina2005mle",
+    "type": "inproceedings",
+    "fields": {
+      "author": "Levina, Elizaveta and Bickel, Peter J.",
+      "title": "Maximum Likelihood Estimation of Intrinsic Dimension",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2005",
+      "volume": "17",
+      "pages": "777--784"
+    }
+  },
+  "status": "needs_primary_lookup"
+}

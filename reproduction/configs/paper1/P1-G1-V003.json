@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V003",
+  "parent_experiment_id": "P1-G1-V002",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Does the neural SDF teacher pass a five-seed partial economic admission gate on public 25 size-value and 49 industry test assets relative to linear and FF5-plus-momentum baselines?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [
+    20260924,
+    20260925,
+    20260926,
+    20260927,
+    20260928
+  ],
+  "changes_from_parent": "Add five fixed teacher seeds, retain training-period monthly SDF returns for validation-only SDF scaling, add official public test assets, and evaluate pricing moments, HJ distance, alpha, seed agreement, and block-bootstrap uncertainty without accessing the sealed period.",
+  "entrypoint": "scripts/run_neural_sdf_seed_grid.py",
+  "evaluator": "scripts/evaluate_teacher_pricing.py",
+  "input_product": "data/processed/gkx-datashare-2021-v1/P1-G1-V002/structured_core92_presealed_2019.parquet",
+  "additional_data_snapshot_ids": [
+    "ken-french-daily-2026-07-v1",
+    "ken-french-monthly-test-assets-2026-07-v1"
+  ],
+  "remote_node": "campus-vm",
+  "cuda_devices": [0, 1],
+  "test_assets": [
+    "25 value-weighted size-book-to-market portfolios",
+    "49 value-weighted industry portfolios"
+  ],
+  "non_neural_baselines": [
+    "Core-92 linear continuous long-short factor",
+    "validation-fitted FF5-plus-momentum tangency factor"
+  ],
+  "sdf_scale_fit_period": ["2000-01", "2009-12"],
+  "evaluation_period": ["2010-01", "2019-12"],
+  "return_alignment": "Characteristic month t is paired with official test-asset and benchmark-factor returns in t+1.",
+  "block_bootstrap": {
+    "draws": 500,
+    "block_months": 12,
+    "seed": 20260924
+  },
+  "partial_gate": {
+    "minimum_relative_hj_improvement": 0.05,
+    "minimum_relative_mean_absolute_alpha_improvement": 0.05,
+    "minimum_directionally_consistent_seeds": 4,
+    "teacher_factor_sharpe_not_below_selected_baseline": true,
+    "at_least_one_improvement_ci_lower_bound_above_zero": true
+  },
+  "boundary": "This is a partial gate. IPCA and model-out double-sort test assets remain required before final strong-teacher admission.",
+  "outcome": "failed_partial_admission_gate",
+  "result_path": "experiments/P1-G1-V003/result_summary.json"
+}

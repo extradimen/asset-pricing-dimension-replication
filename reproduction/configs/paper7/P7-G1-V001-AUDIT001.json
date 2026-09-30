@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P7-G1-V001-AUDIT001",
+  "parent_experiment_id": "P7-G1-V001",
+  "paper": 7,
+  "generation": "G1",
+  "status": "planned",
+  "evidence_class": "independent_hash_recalculation_and_cpu_cuda_summary_parity",
+  "source_config": "configs/paper7/P7-G1-V001.json",
+  "source_config_sha256": "ab1216d0b948a9498cca466eb49f4e2ad7e4e6dd24f514614ff0e921def90818",
+  "source_run_dir": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001",
+  "source_output_manifest_sha256": "35d24f7bf150aa9c87eb66e2b6a4c8dfeb20b5044004ae1ed59cacb3d6eaefe1",
+  "returned_summary": "experiments/P7-G1-V001/returned/R001/canonical_return_summary.json",
+  "returned_summary_sha256": "1d2e36373148f03c78634e4bdbf45aea75927640070398ec3a05ad0a77c66e47",
+  "entrypoint": "scripts/audit_paper7_representation_geometry.py"
+}

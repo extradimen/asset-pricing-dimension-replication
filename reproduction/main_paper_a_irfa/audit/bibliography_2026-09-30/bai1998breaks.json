@@ -1,0 +1,168 @@
+{
+  "key": "bai1998breaks",
+  "submitted": {
+    "key": "bai1998breaks",
+    "type": "article",
+    "fields": {
+      "author": "Bai, Jushan and Perron, Pierre",
+      "title": "Estimating and Testing Linear Models with Multiple Structural Changes",
+      "journal": "Econometrica",
+      "year": "1998",
+      "volume": "66",
+      "number": "1",
+      "pages": "47--78",
+      "doi": "10.2307/2998540"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.2307/2998540",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T11:53:59Z",
+        "timestamp": 1790769239381,
+        "version": "4.1.0"
+      },
+      "reference-count": 0,
+      "publisher": "JSTOR",
+      "issue": "1",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Econometrica"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1998,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.2307/2998540",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2006,
+            7,
+            5
+          ]
+        ],
+        "date-time": "2006-07-05T12:08:14Z",
+        "timestamp": 1152101294000
+      },
+      "page": "47",
+      "source": "Crossref",
+      "is-referenced-by-count": 4540,
+      "title": [
+        "Estimating and Testing Linear Models with Multiple Structural Changes"
+      ],
+      "prefix": "10.2307",
+      "volume": "66",
+      "author": [
+        {
+          "given": "Jushan",
+          "family": "Bai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pierre",
+          "family": "Perron",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1121",
+      "container-title": [
+        "Econometrica"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2018,
+            5,
+            9
+          ]
+        ],
+        "date-time": "2018-05-09T10:32:52Z",
+        "timestamp": 1525861972000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.jstor.org/stable/2998540?origin=crossref"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1998,
+            1
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              1998,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.2307/2998540",
+      "relation": {},
+      "ISSN": [
+        "0012-9682"
+      ],
+      "issn-type": [
+        {
+          "value": "0012-9682",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1998,
+            1
+          ]
+        ]
+      }
+    }
+  }
+}

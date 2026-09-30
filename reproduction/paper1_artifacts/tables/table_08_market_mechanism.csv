@@ -1,0 +1,5 @@
+data_definition,mode,largest_eigenvalue_share,equal_weight_cosine,same_sign_asset_share,endpoint_change_A
+Core-92,original,0.6391251027,0.9618463594,1,-16.92109231
+Core-92,market_beta_hedged,0.2307263476,0.4625912928,0.7162162162,5.834417987
+Core-86,original,0.6412053937,0.9624873537,1,-3.065653047
+Core-86,market_beta_hedged,0.2256880011,0.455483688,0.7162162162,-1.361308848

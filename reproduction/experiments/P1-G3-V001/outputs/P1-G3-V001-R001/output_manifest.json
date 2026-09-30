@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G3-V001",
+  "run_id": "P1-G3-V001-R001",
+  "config_path": "configs/paper1/P1-G3-V001.json",
+  "config_sha256": "3e6c9c5b7060ec3db366e4f94fed393c1c59679a6605b6e42ff12265344158f2",
+  "files": [
+    {
+      "path": "experiments/P1-G3-V001/outputs/P1-G3-V001-R001/condition_summary.csv",
+      "bytes": 79662,
+      "sha256": "45277a0be3e0af51096b594a2ac597b056c6f4ea98bcdba9febae7ac4166ccee"
+    },
+    {
+      "path": "experiments/P1-G3-V001/outputs/P1-G3-V001-R001/selection_frequencies.csv",
+      "bytes": 321556,
+      "sha256": "a6b0c4ccf232ee9033aef4483d9ed39d932d709b7b711d0605c691f0246b8d78"
+    },
+    {
+      "path": "experiments/P1-G3-V001/outputs/P1-G3-V001-R001/disagreement_summary.csv",
+      "bytes": 51833,
+      "sha256": "482ef57115003ca52f6db0675eae5d575d219691587f9fe819357a2c1350221e"
+    },
+    {
+      "path": "experiments/P1-G3-V001/outputs/P1-G3-V001-R001/hypothesis_summary.csv",
+      "bytes": 1147,
+      "sha256": "24ee22b2cf2f57c998f7519bb0c0f76d4ba028fc6f81a0de51bd06afbb773018"
+    },
+    {
+      "path": "experiments/P1-G3-V001/outputs/P1-G3-V001-R001/result_summary.json",
+      "bytes": 2931,
+      "sha256": "57e574bd314d942fe7d3f0b4fd331b74020855a970c407797e3dc2186d320785"
+    }
+  ]
+}

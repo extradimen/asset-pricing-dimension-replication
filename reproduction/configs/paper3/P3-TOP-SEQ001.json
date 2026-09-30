@@ -1,0 +1,48 @@
+{
+  "experiment_id": "P3-TOP-SEQ001",
+  "inputs": {
+    "neural": {
+      "dir": "experiments/P3-TOP-M002/outputs/R001",
+      "manifest_sha256": "7a5afdd93043605b174bdf4061a317f35256e78e75c65d310c3d45c29fcbf0c9",
+      "monthly_file": "monthly_decomposition.json"
+    },
+    "ridge": {
+      "dir": "experiments/P3-TOP-MR001/outputs/R001",
+      "manifest_sha256": "eb446f679ecde3a87920e157a29cbf11be4438b69668e8e96fa620ee6574a662",
+      "monthly_file": "monthly_decomposition.json"
+    },
+    "tree": {
+      "dir": "experiments/P3-TOP-TREE-FULL/outputs/R001",
+      "manifest_sha256": "84a413375e4736d35f1817fc3154c03c7b81c190da45ab469da27cb505d9e226",
+      "monthly_file": "monthly_results.json"
+    }
+  },
+  "arms": ["rolling60", "expanding"],
+  "primary_arm": "rolling60",
+  "development_start": 200002,
+  "development_end": 200912,
+  "promotion_start": 201001,
+  "promotion_end": 201912,
+  "dominance_score": "(2B-A)/(A+abs(2B)+1e-15)",
+  "common_signal": "Equal-weight mean of all six dominance scores after centering and scaling each series with fixed 2000-2009 moments.",
+  "sequential_detector": {
+    "type": "one-sided absorbing CUSUM",
+    "reference_shift_sigma": 0.25,
+    "decision_timing": "The statistic incorporates month t only after its outcome is observed; a crossing in t can first activate updates for t+1.",
+    "threshold_calibration": "95th percentile of the maximum 120-month CUSUM under a joint circular moving-block bootstrap of the centered development-period six-variate observations.",
+    "block_months": 12,
+    "bootstrap_replications": 9999,
+    "alpha": 0.05,
+    "seed": 20260930
+  },
+  "inference": {
+    "joint_family": "For the primary rolling60 switch: switched-vs-frozen and switched-vs-full for neural, ridge, and tree.",
+    "block_months": 12,
+    "bootstrap_replications": 9999,
+    "seed": 20261001,
+    "holm_alpha": 0.05
+  },
+  "promotion_gate": "The primary rolling switch must have positive improvement versus both frozen and full rolling for neural and tree, Holm-adjusted p<0.05 with a positive 95% interval for those four endpoints, and nonnegative point estimates versus both baselines for Ridge. Neural and tree primary improvements must remain positive under every leave-one-year-out calculation. Failure closes this detector without parameter revision and forbids access to 2020-2025 model outcomes.",
+  "scope": "First locked internal promotion test of a causal common-break update switch. The 2010-2019 period has informed the broader research program and is not an untouched confirmation sample; it is used only to decide whether the fully locked rule merits one later-period test.",
+  "claim_boundary": "Even a pass is internal promotion evidence, not independent confirmation. Only a separately executed 2020-2025 run with unchanged detector and economic gate can support an out-of-sample claim."
+}

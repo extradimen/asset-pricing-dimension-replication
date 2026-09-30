@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P7-G1-V001",
+  "run_id": "P7-G1-V001-CPU-REPLAY001",
+  "status": "completed",
+  "evidence_class": "exploratory_frozen_model_geometry",
+  "device": "cpu",
+  "models": 30,
+  "target_months": 120,
+  "stocks_per_month": 384,
+  "feature_columns": 172,
+  "geometry_rows": 32400,
+  "subspace_drift_rows": 32130,
+  "cka_rows": 7200,
+  "collapse_rate": 0.0,
+  "hidden3_participation_rank_high_vol_minus_other": 0.16492440153646015,
+  "hidden3_zscore_minus_raw_participation_rank": 1.42730571649094,
+  "primary_functional_probe": {
+    "endpoint": "development_hj_loss",
+    "n_models": 30,
+    "within_factor_count_slope": -0.01609215779650172,
+    "within_factor_count_correlation": -0.2955270528034804,
+    "within_factor_count_spearman": -0.2863181312569522,
+    "permutation_p_two_sided": 0.14897020595880825,
+    "leave_one_seed_out_baseline_rmse": 0.10613711819195293,
+    "leave_one_seed_out_geometry_rmse": 0.10198213338470266,
+    "cross_validated_rmse_improvement_pct": 3.9147330152075757
+  },
+  "functional_gate": {
+    "criterion": "geometry must improve leave-one-seed-out HJ-loss RMSE by at least 5% and have within-K permutation p <= 0.05",
+    "passed": false,
+    "stop_if_failed": "Do not search alternative layers, metrics, states, or endpoints for a positive association; report the preregistered negative result."
+  },
+  "interpretation": "finite-scale hidden-representation geometry of frozen networks; not an economic compression frontier and not a claim of unique topological dimension",
+  "elapsed_seconds": 400.303
+}

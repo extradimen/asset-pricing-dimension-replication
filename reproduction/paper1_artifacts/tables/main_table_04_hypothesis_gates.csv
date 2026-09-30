@@ -1,0 +1,9 @@
+data_definition,hypothesis,passed,evidence
+Core-92,Primary geometry rule,False,Different endpoint K and bootstrap interval restriction
+Core-92,External-family geometry,True,"{""count"": 6, ""required"": 4}"
+Core-92,Market-direction mechanism,True,"{""median_attenuation"": 6.285581061551221, ""positive_attenuation_count"": 6}"
+Core-92,Economic completion,True,"{""joint_improvement_count"": 6, ""required"": 4}"
+Core-86,Primary geometry rule,False,Different endpoint K and bootstrap interval restriction
+Core-86,External-family geometry,True,"{""count"": 6, ""required"": 4}"
+Core-86,Market-direction mechanism,True,"{""median_attenuation"": 0.8638754447448469, ""positive_attenuation_count"": 5}"
+Core-86,Economic completion,True,"{""joint_improvement_count"": 6, ""required"": 4}"

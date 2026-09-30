@@ -1,0 +1,8 @@
+{
+  "experiment_id": "P3-TOP-MR001",
+  "source_dir": "experiments/P3-STOCK-V001/outputs/R001",
+  "source_manifest_sha256": "f48a95593ec737bb1e95932b9212fb07d44073f3b52313967c9920d2d6149503",
+  "arms": ["frozen", "rolling60", "expanding"],
+  "scope": "Exact Ridge update-loss decomposition using archived coefficients and monthly sufficient statistics; no refitting, parameter change, or later-period access.",
+  "purpose": "Determine whether the neural-network decade reversal and adjustment-cost/alignment mechanism generalize to the linear Ridge benchmark."
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "wrds-us-equity-2025-12-v1",
+  "created_at": "2026-09-24T00:00:00+08:00",
+  "license": "WRDS/CRSP/Compustat licensed data; do not redistribute",
+  "raw_root_variable": "WRDS_RAW_ROOT",
+  "observed_raw_root": "data/raw/licensed",
+  "common_equity_return_end": "2025-12-31",
+  "files": [
+    {
+      "role": "crsp_daily_ciz",
+      "relative_path": "Daily Stock File_csv.zip",
+      "size_bytes": 6835654999,
+      "sha256": "1365cf53901508dbda1216aaf5653a0c3ddac068a293e8a706909b6096e401e0",
+      "csv_rows": 110285669,
+      "csv_columns": 94,
+      "date_min": "1925-12-31",
+      "date_max": "2025-12-31"
+    },
+    {
+      "role": "compustat_outer_container",
+      "relative_path": "【批量下载】Fundamentals Quarterly等.zip",
+      "size_bytes": 1058994525,
+      "sha256": "3a9867596a1d620d4ba287a8c32d37713526e18df86121e6876d9a03913e3a70",
+      "members": [
+        {
+          "role": "compustat_quarterly",
+          "basename": "Fundamentals Quarterly.zip",
+          "size_bytes": 751357511,
+          "sha256": "9123b10aa8ef33249ba4cff3b18a65132b2725dd13dd72b34b49387e146e2c1a",
+          "csv_rows": 2112301,
+          "csv_columns": 679,
+          "date_min": "1961-03-31",
+          "date_max": "2026-04-30"
+        },
+        {
+          "role": "compustat_annual",
+          "basename": "Compustat Daily Updates - Fundamentals Annual.zip",
+          "size_bytes": 307636598,
+          "sha256": "34f39d6cb28b7c1f3afb465f80788b85e0ef49f08a889719790fd027070cedb8",
+          "csv_rows": 644956,
+          "csv_columns": 980,
+          "date_min": "1950-06-30",
+          "date_max": "2026-03-31"
+        }
+      ]
+    },
+    {
+      "role": "ccm_link_history",
+      "relative_path": "link.zip",
+      "size_bytes": 8947966,
+      "sha256": "26002da0b70bd69122a33b1f82cd53d81b2fb8fac55f317991dfcbd321c20e0f",
+      "csv_rows": 110053,
+      "csv_columns": 47
+    }
+  ],
+  "audit_report": "WRDS数据下载审计_2026-09-24.md",
+  "audit_json": "data_audit_wrds_2026-09-24.json",
+  "schema_csv": "downloaded_wrds_schema_2026-09-24.csv"
+}

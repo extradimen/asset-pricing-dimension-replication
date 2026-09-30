@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G3-V001",
+  "run_id": "P1-G3-V001-R001",
+  "status": "completed",
+  "synthetic_only": true,
+  "sealed_outputs_accessed": false,
+  "conditions": 576,
+  "frequency_rows": 3456,
+  "disagreement_rows": 864,
+  "hypotheses": [
+    {
+      "hypothesis": "H1_sample_length",
+      "estimand": "exact_rate_T600_minus_T72_in_full_strong_rho0",
+      "matched_cells": 24,
+      "mean_difference": 0.26486111111111116,
+      "ci_low": 0.17754586766410713,
+      "ci_high": 0.3521763545581152,
+      "expected_direction": "positive",
+      "point_direction_pass": true
+    },
+    {
+      "hypothesis": "H2_weak_prices",
+      "estimand": "exact_rate_strong_minus_weak",
+      "matched_cells": 288,
+      "mean_difference": 0.22999537037037035,
+      "ci_low": 0.20332714012223824,
+      "ci_high": 0.25666360061850246,
+      "expected_direction": "positive",
+      "point_direction_pass": true
+    },
+    {
+      "hypothesis": "H2_weak_prices",
+      "estimand": "under_rate_weak_minus_strong",
+      "matched_cells": 288,
+      "mean_difference": 0.2537951388888889,
+      "ci_low": 0.22684275407599302,
+      "ci_high": 0.28074752370178474,
+      "expected_direction": "positive",
+      "point_direction_pass": true
+    },
+    {
+      "hypothesis": "H3_incomplete_span",
+      "estimand": "exact_rate_full_minus_weak_tail",
+      "matched_cells": 288,
+      "mean_difference": 0.1202222222222222,
+      "ci_low": 0.10429971185290948,
+      "ci_high": 0.13614473259153492,
+      "expected_direction": "positive",
+      "point_direction_pass": true
+    },
+    {
+      "hypothesis": "H3_incomplete_span",
+      "estimand": "family_divergence_weak_tail_minus_full",
+      "matched_cells": 288,
+      "mean_difference": 0.0742013888888889,
+      "ci_low": 0.052047787100757255,
+      "ci_high": 0.09635499067702055,
+      "expected_direction": "positive",
+      "point_direction_pass": true
+    },
+    {
+      "hypothesis": "H4_geometry",
+      "estimand": "geometry_disagreement_level",
+      "matched_cells": 288,
+      "mean_difference": 0.20283796296296297,
+      "ci_low": 0.17687171854379022,
+      "ci_high": 0.22880420738213572,
+      "expected_direction": "positive",
+      "point_direction_pass": true
+    },
+    {
+      "hypothesis": "H4_geometry",
+      "estimand": "geometry_disagreement_complex_minus_baseline",
+      "matched_cells": 216,
+      "mean_difference": 0.22946913580246917,
+      "ci_low": 0.2003254217552772,
+      "ci_high": 0.25861284984966115,
+      "expected_direction": "positive",
+      "point_direction_pass": true
+    },
+    {
+      "hypothesis": "H5_oracle_vs_feasible",
+      "estimand": "exact_rate_oracle_minus_feasible",
+      "matched_cells": 288,
+      "mean_difference": 0.31604398148148144,
+      "ci_low": 0.2903573320743623,
+      "ci_high": 0.34173063088860056,
+      "expected_direction": "nonnegative",
+      "point_direction_pass": true
+    }
+  ]
+}

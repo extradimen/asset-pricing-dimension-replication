@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "ken-french-six-factor-daily-2026-07-v1",
+  "retrieved_at": "2026-09-25T01:00:00+08:00",
+  "source_page": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+  "source_note": "Both files state that they were created using the 202607 CRSP database.",
+  "coverage_end": "2026-07-31",
+  "files": [
+    {
+      "role": "ff5_daily",
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_daily_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-six-factor-daily-2026-07/F-F_Research_Data_5_Factors_2x3_daily_CSV.zip",
+      "size_bytes": 150090,
+      "sha256": "478350b8d60831351fbf754bc593fc0112b013552c24639c10902e1f26d7f306"
+    },
+    {
+      "role": "momentum_daily",
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_daily_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-six-factor-daily-2026-07/F-F_Momentum_Factor_daily_CSV.zip",
+      "size_bytes": 85202,
+      "sha256": "b039d986db27fc831bcf1f52ba2134916e96fbeba4762fefc942429b0a568a96"
+    }
+  ],
+  "license_note": "Official public research downloads; retain source attribution and do not infer a redistribution license."
+}

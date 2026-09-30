@@ -1,0 +1,486 @@
+{
+  "key": "detzel2023costs",
+  "submitted": {
+    "key": "detzel2023costs",
+    "type": "article",
+    "fields": {
+      "author": "Detzel, Andrew and Novy-Marx, Robert and Velikov, Mihail",
+      "title": "Model Comparison with Transaction Costs",
+      "journal": "The Journal of Finance",
+      "year": "2023",
+      "volume": "78",
+      "number": "3",
+      "pages": "1743--1775",
+      "doi": "10.1111/jofi.13225"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/jofi.13225",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            22
+          ]
+        ],
+        "date-time": "2026-09-22T16:05:12Z",
+        "timestamp": 1790093112699,
+        "version": "4.0.1"
+      },
+      "reference-count": 42,
+      "publisher": "Wiley",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                12
+              ]
+            ],
+            "date-time": "2023-04-12T00:00:00Z",
+            "timestamp": 1681257600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "The Journal of Finance"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    Failing to account for transaction costs materially impacts inferences drawn when evaluating asset pricing models, biasing tests in favor of those employing high‐cost factors. Ignoring transaction costs, Hou, Xue, and Zhang (2015,\n                    <jats:italic>Review of Financial Studies</jats:italic>\n                    , 28, 650–705)\n                    <jats:italic>q</jats:italic>\n                    ‐factor model and Barillas and Shanken (2018,\n                    <jats:italic>The</jats:italic>\n                    <jats:italic>Journal of Finance</jats:italic>\n                    , 73, 715–754) six‐factor models have high maximum squared Sharpe ratios and small alphas across 205 anomalies. They do not, however, come close to spanning the\n                    <jats:italic>achievable</jats:italic>\n                    mean‐variance efficient frontier. Accounting for transaction costs, the Fama and French (2015,\n                    <jats:italic>Journal of Financial Economics</jats:italic>\n                    , 116, 1–22; 2018,\n                    <jats:italic>Journal of Financial Economics</jats:italic>\n                    , 128, 234–252) five‐factor model has a significantly higher squared Sharpe ratio than either of these alternative models, while variations employing cash profitability perform better still.\n                  </jats:p>",
+      "DOI": "10.1111/jofi.13225",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            20
+          ]
+        ],
+        "date-time": "2023-03-20T12:43:01Z",
+        "timestamp": 1679316181000
+      },
+      "page": "1743-1775",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 79,
+      "title": [
+        "Model Comparison with Transaction Costs"
+      ],
+      "prefix": "10.1111",
+      "volume": "78",
+      "author": [
+        {
+          "given": "ANDREW",
+          "family": "DETZEL",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "ROBERT",
+          "family": "NOVY‐MARX",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "MIHAIL",
+          "family": "VELIKOV",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            12
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_10_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3905/jpm.2013.39.4.049"
+        },
+        {
+          "key": "e_1_2_10_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2016.03.002"
+        },
+        {
+          "key": "e_1_2_10_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0022109019000589"
+        },
+        {
+          "key": "e_1_2_10_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhw101"
+        },
+        {
+          "key": "e_1_2_10_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12607"
+        },
+        {
+          "key": "e_1_2_10_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2021.02.009"
+        },
+        {
+          "key": "e_1_2_10_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13197"
+        },
+        {
+          "key": "e_1_2_10_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1997.tb03808.x"
+        },
+        {
+          "key": "e_1_2_10_10_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen Andrew and Mihail Velikov 2021 Zeroing in on the expected returns of anomalies Journal of Financial and Quantitative Analysis(forthcoming).",
+          "DOI": "10.17016/feds.2020.039"
+        },
+        {
+          "key": "e_1_2_10_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1561/104.00000112"
+        },
+        {
+          "key": "e_1_2_10_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jacceco.2014.06.001"
+        },
+        {
+          "key": "e_1_2_10_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhz069"
+        },
+        {
+          "key": "e_1_2_10_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2015.12.002"
+        },
+        {
+          "key": "e_1_2_10_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhz085"
+        },
+        {
+          "key": "e_1_2_10_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/fima.12231"
+        },
+        {
+          "key": "e_1_2_10_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rof/rfx035"
+        },
+        {
+          "key": "e_1_2_10_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1991.tb04636.x"
+        },
+        {
+          "key": "e_1_2_10_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(93)90023-5"
+        },
+        {
+          "key": "e_1_2_10_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2014.10.010"
+        },
+        {
+          "key": "e_1_2_10_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2018.02.012"
+        },
+        {
+          "key": "e_1_2_10_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12883"
+        },
+        {
+          "key": "e_1_2_10_23_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ferson Wayne E. Andrew F. Siegel and Junbo L. Wang 2019 Asymptotic variances for tests of portfolio efficiency and factor model comparisons with conditioning information University of Southern California Working paper.",
+          "DOI": "10.2139/ssrn.3330663"
+        },
+        {
+          "key": "e_1_2_10_24_1",
+          "unstructured": "Frazzini Andrea Ronen Israel and Tobias J. Moskowitz 2015 Trading costs of asset pricing anomalies AQR Capital Management Working paper."
+        },
+        {
+          "key": "e_1_2_10_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913625"
+        },
+        {
+          "key": "e_1_2_10_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12530"
+        },
+        {
+          "key": "e_1_2_10_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhv059"
+        },
+        {
+          "key": "e_1_2_10_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2009.01469.x"
+        },
+        {
+          "key": "e_1_2_10_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rof/rfy032"
+        },
+        {
+          "key": "e_1_2_10_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhu068"
+        },
+        {
+          "key": "e_1_2_10_31_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kan Raymond Xiaolu Wang and Xinghua Zheng 2019 In‐sample and out‐of‐sample Sharpe ratios of multi‐factor asset pricing models University of Toronto Working paper.",
+          "DOI": "10.2139/ssrn.3454628"
+        },
+        {
+          "key": "e_1_2_10_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.06.008"
+        },
+        {
+          "key": "e_1_2_10_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jempfin.2008.03.002"
+        },
+        {
+          "key": "e_1_2_10_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-405X(03)00206-X"
+        },
+        {
+          "key": "e_1_2_10_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa020"
+        },
+        {
+          "key": "e_1_2_10_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2009.09.001"
+        },
+        {
+          "key": "e_1_2_10_37_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li Sicong (Allen) Víctor DeMiguel and Alberto Martín‐Utrera 2020 Which factors with price‐impact costs? London Business School Working paper.",
+          "DOI": "10.2139/ssrn.3688484"
+        },
+        {
+          "key": "e_1_2_10_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhv063"
+        },
+        {
+          "key": "e_1_2_10_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/0015198X.2018.1547057"
+        },
+        {
+          "key": "e_1_2_10_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2021.05.023"
+        },
+        {
+          "key": "e_1_2_10_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1984.tb03897.x"
+        },
+        {
+          "key": "e_1_2_10_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-0531(76)90046-6"
+        },
+        {
+          "key": "e_1_2_10_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhw107"
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.13225",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.13225",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            21
+          ]
+        ],
+        "date-time": "2023-08-21T21:55:36Z",
+        "timestamp": 1692654936000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.13225"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            12
+          ]
+        ]
+      },
+      "references-count": 42,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/jofi.13225"
+      ],
+      "URL": "https://doi.org/10.1111/jofi.13225",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "0022-1082",
+        "1540-6261"
+      ],
+      "issn-type": [
+        {
+          "value": "0022-1082",
+          "type": "print"
+        },
+        {
+          "value": "1540-6261",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2021-03-18",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2022-10-14",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2023-04-12",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Replication package for Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "publication_date": "2026-09-30",
+  "doi": "10.5281/zenodo.23064062",
+  "creators": [
+    {
+      "name": "Wang, Jinpeng",
+      "orcid": "0009-0003-7324-2211",
+      "affiliation": "International Business School, Guangzhou City University of Technology"
+    },
+    {
+      "name": "Jiang, Yan",
+      "orcid": "0009-0004-0250-7486",
+      "affiliation": "International Business School, Guangzhou City University of Technology"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "description": "Frozen scientific protocols, original source code, synthetic and aggregate results and exhibit replay. Code MIT; original aggregate data and documentation CC BY 4.0. Read AUDIT_QUALIFICATIONS.md. Licensed stock observations and model checkpoints are excluded."
+}

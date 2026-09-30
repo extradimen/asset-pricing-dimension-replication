@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V013",
+  "parent_experiment_id": "P1-G0-V012",
+  "paper": 1,
+  "generation": "G0",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Which Hou-Moskowitz price-delay definition and weekly timing convention reproduce the public GKX characteristic, and can that signal be extended through 2025?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "additional_data_snapshot_ids": ["gkx-datashare-2021-v1"],
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Build a reusable natural-week security panel; compare D1 R-squared, D2 slope, and D3 t-statistic price-delay measures; audit five timing shifts and preserve the public-versus-self-built bridge.",
+  "entrypoints": ["scripts/build_security_weekly_returns.py", "scripts/build_price_delay.py"],
+  "validator": "scripts/validate_price_delay.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V013",
+  "result_summary": "experiments/P1-G0-V013/result_summary.json"
+}

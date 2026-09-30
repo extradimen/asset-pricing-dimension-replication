@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V009",
+  "parent_experiment_id": "P1-G0-V008",
+  "paper": 1,
+  "generation": "G0",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Which CRSP CIZ daily spread definition and timing best reconstruct the cross-sectional ordering of the GKX baspread characteristic?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "additional_data_snapshot_ids": [
+    "gkx-datashare-2021-v1"
+  ],
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Replace the rejected quoted-spread proxy with a streamed daily high-low estimator, validate timing and cross-sectional ranks against GKX, and retain both spread measures as distinct economic variables.",
+  "entrypoints": [
+    "scripts/build_corwin_schultz_spread.py",
+    "scripts/audit_spread_definitions.py"
+  ],
+  "validator": "scripts/validate_spread_definition_audit.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V009",
+  "result_summary": "experiments/P1-G0-V009/result_summary.json"
+}

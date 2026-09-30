@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V017",
+  "parent_experiment_id": "P1-G1-V016",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "market_mode_falsification",
+  "research_question": "Does removing ex ante observable market exposure from the 74 test assets eliminate the K=1 versus K=5 geometry ranking change?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "pricing_target_snapshot_id": "ken-french-public-74-pricing-targets-2026-07-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "parent_run_ids": [
+    "P1-G1-V015-R001",
+    "P1-G1-V016-R001"
+  ],
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "models": "The five paired K=1 and K=5 seeds from P1-G1-V015; no retraining, refitting of SDF loadings or model selection.",
+  "market_hedge": "Estimate each test asset's beta on Ken French Mkt-RF with an intercept in 2000-2009, freeze the beta, and form 2010-2019 excess-return payoffs R_i minus beta_i times Mkt-RF. Preserve intercepts; do not demean development payoffs.",
+  "geometry_grid": {
+    "start": 0.0,
+    "stop": 1.0,
+    "step": 0.05
+  },
+  "primary_contrast": "Paired K=1 minus K=5 squared distance on the original and beta-hedged combined 74 assets under the same normalized W_gamma family.",
+  "interpretation_rule": "The observable market-mode explanation is supported if beta hedging reduces the seed-mean gamma-zero squared-distance disadvantage of K=1 by at least 75%, the hedged seed-mean gap has no sign change over gamma in [0,1], and at least four of five seeds show a smaller gamma-zero disadvantage. Otherwise the V016 principal direction cannot be identified with ordinary market beta alone.",
+  "boundary": "This is a fixed-model diagnostic. It cannot promote a teacher, alter V015 or V016, select a dimension or access the sealed period.",
+  "entrypoint": "scripts/audit_market_hedged_geometry.py"
+}

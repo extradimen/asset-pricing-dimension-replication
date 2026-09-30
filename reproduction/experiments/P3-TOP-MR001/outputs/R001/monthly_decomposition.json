@@ -1,0 +1,5977 @@
+[
+  {
+    "month": 200002,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0020521183496975503,
+      "alignment_B": 0.008807404585952043,
+      "alignment_benefit_2B": 0.017614809171904087,
+      "updated_minus_frozen_loss": -0.015562690822206543,
+      "reconstructed_loss_difference": -0.015562690822206536,
+      "identity_error": 6.938893903907228e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "reconstructed_loss_difference": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200003,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.020712138793911733,
+      "alignment_B": -0.0029016060545146963,
+      "alignment_benefit_2B": -0.005803212109029393,
+      "updated_minus_frozen_loss": 0.026515350902941236,
+      "reconstructed_loss_difference": 0.026515350902941125,
+      "identity_error": -1.1102230246251565e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0015115524191905982,
+      "alignment_B": -0.0004557220229408336,
+      "alignment_benefit_2B": -0.0009114440458816673,
+      "updated_minus_frozen_loss": 0.002422996465072276,
+      "reconstructed_loss_difference": 0.0024229964650722656,
+      "identity_error": -1.0408340855860843e-17
+    }
+  },
+  {
+    "month": 200004,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0035271253465088384,
+      "alignment_B": -0.00024060022317652928,
+      "alignment_benefit_2B": -0.00048120044635305856,
+      "updated_minus_frozen_loss": 0.004008325792861998,
+      "reconstructed_loss_difference": 0.004008325792861897,
+      "identity_error": -1.0148132334464322e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0009173798919872468,
+      "alignment_B": -0.00255313696865377,
+      "alignment_benefit_2B": -0.00510627393730754,
+      "updated_minus_frozen_loss": 0.006023653829294789,
+      "reconstructed_loss_difference": 0.006023653829294787,
+      "identity_error": -2.6020852139652106e-18
+    }
+  },
+  {
+    "month": 200005,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0020478438300708464,
+      "alignment_B": -0.0030144183533740375,
+      "alignment_benefit_2B": -0.006028836706748075,
+      "updated_minus_frozen_loss": 0.008076680536818953,
+      "reconstructed_loss_difference": 0.008076680536818922,
+      "identity_error": -3.122502256758253e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005569786755857619,
+      "alignment_B": 0.0010701653085056014,
+      "alignment_benefit_2B": 0.0021403306170112027,
+      "updated_minus_frozen_loss": -0.0015833519414254343,
+      "reconstructed_loss_difference": -0.0015833519414254408,
+      "identity_error": -6.5052130349130266e-18
+    }
+  },
+  {
+    "month": 200006,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000442499587416731,
+      "alignment_B": -0.0018184160019235902,
+      "alignment_benefit_2B": -0.0036368320038471804,
+      "updated_minus_frozen_loss": 0.004079331591263946,
+      "reconstructed_loss_difference": 0.004079331591263911,
+      "identity_error": -3.469446951953614e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0012773960676213346,
+      "alignment_B": -0.0044816711831892585,
+      "alignment_benefit_2B": -0.008963342366378517,
+      "updated_minus_frozen_loss": 0.01024073843399985,
+      "reconstructed_loss_difference": 0.010240738433999851,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200007,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003966236616556072,
+      "alignment_B": -0.0008101232520586021,
+      "alignment_benefit_2B": -0.0016202465041172042,
+      "updated_minus_frozen_loss": 0.00558648312067353,
+      "reconstructed_loss_difference": 0.005586483120673277,
+      "identity_error": -2.5326962749261384e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0018827800930673094,
+      "alignment_B": -5.747335032134713e-05,
+      "alignment_benefit_2B": -0.00011494670064269426,
+      "updated_minus_frozen_loss": 0.0019977267937100127,
+      "reconstructed_loss_difference": 0.0019977267937100036,
+      "identity_error": -9.107298248878237e-18
+    }
+  },
+  {
+    "month": 200008,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001969194647337204,
+      "alignment_B": -0.004296300550720784,
+      "alignment_benefit_2B": -0.008592601101441569,
+      "updated_minus_frozen_loss": 0.01056179574877901,
+      "reconstructed_loss_difference": 0.010561795748778772,
+      "identity_error": -2.3765711620882257e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 4.751590779912352e-05,
+      "alignment_B": -0.00024256885532143174,
+      "alignment_benefit_2B": -0.00048513771064286347,
+      "updated_minus_frozen_loss": 0.000532653618442,
+      "reconstructed_loss_difference": 0.000532653618441987,
+      "identity_error": -1.3010426069826053e-17
+    }
+  },
+  {
+    "month": 200009,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014327038968902689,
+      "alignment_B": 0.0004554672172164842,
+      "alignment_benefit_2B": 0.0009109344344329684,
+      "updated_minus_frozen_loss": 0.0005217694624573416,
+      "reconstructed_loss_difference": 0.0005217694624573005,
+      "identity_error": -4.109126233720062e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006478687543514489,
+      "alignment_B": 0.00046781910816410437,
+      "alignment_benefit_2B": 0.0009356382163282087,
+      "updated_minus_frozen_loss": -0.00028776946197674874,
+      "reconstructed_loss_difference": -0.0002877694619767598,
+      "identity_error": -1.1058862159352145e-17
+    }
+  },
+  {
+    "month": 200010,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004229255219162564,
+      "alignment_B": -0.00010239780728745022,
+      "alignment_benefit_2B": -0.00020479561457490043,
+      "updated_minus_frozen_loss": 0.004434050833737463,
+      "reconstructed_loss_difference": 0.004434050833737465,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0009531355224897175,
+      "alignment_B": 0.0002634054238048706,
+      "alignment_benefit_2B": 0.0005268108476097412,
+      "updated_minus_frozen_loss": 0.00042632467487997705,
+      "reconstructed_loss_difference": 0.0004263246748799763,
+      "identity_error": -7.589415207398531e-19
+    }
+  },
+  {
+    "month": 200011,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00022969945831488307,
+      "alignment_B": 0.00020148720058634013,
+      "alignment_benefit_2B": 0.00040297440117268026,
+      "updated_minus_frozen_loss": -0.00017327494285777206,
+      "reconstructed_loss_difference": -0.0001732749428577972,
+      "identity_error": -2.5126385347351565e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002769088510149974,
+      "alignment_B": -0.0006246263066488016,
+      "alignment_benefit_2B": -0.0012492526132976032,
+      "updated_minus_frozen_loss": 0.0015261614643125934,
+      "reconstructed_loss_difference": 0.0015261614643126006,
+      "identity_error": 7.15573433840433e-18
+    }
+  },
+  {
+    "month": 200012,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0037195629746995676,
+      "alignment_B": -0.002845506839844694,
+      "alignment_benefit_2B": -0.005691013679689388,
+      "updated_minus_frozen_loss": 0.009410576654389047,
+      "reconstructed_loss_difference": 0.009410576654388957,
+      "identity_error": -9.020562075079397e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.728703517596373e-05,
+      "alignment_B": 0.0004079096104613592,
+      "alignment_benefit_2B": 0.0008158192209227184,
+      "updated_minus_frozen_loss": -0.0007885321857467598,
+      "reconstructed_loss_difference": -0.0007885321857467548,
+      "identity_error": 4.9873299934333204e-18
+    }
+  },
+  {
+    "month": 200101,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00924078919345852,
+      "alignment_B": 0.0223134163986734,
+      "alignment_benefit_2B": 0.0446268327973468,
+      "updated_minus_frozen_loss": -0.035386043603888195,
+      "reconstructed_loss_difference": -0.03538604360388828,
+      "identity_error": -8.326672684688674e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006885017045250843,
+      "alignment_B": 0.00649047196000402,
+      "alignment_benefit_2B": 0.01298094392000804,
+      "updated_minus_frozen_loss": -0.01229244221548298,
+      "reconstructed_loss_difference": -0.012292442215482955,
+      "identity_error": 2.42861286636753e-17
+    }
+  },
+  {
+    "month": 200102,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.018491487026850297,
+      "alignment_B": -0.007227488673191874,
+      "alignment_benefit_2B": -0.014454977346383747,
+      "updated_minus_frozen_loss": 0.03294646437323402,
+      "reconstructed_loss_difference": 0.03294646437323404,
+      "identity_error": 2.0816681711721685e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0073376993731901295,
+      "alignment_B": -0.00359380738395143,
+      "alignment_benefit_2B": -0.00718761476790286,
+      "updated_minus_frozen_loss": 0.014525314141093038,
+      "reconstructed_loss_difference": 0.014525314141092989,
+      "identity_error": -4.85722573273506e-17
+    }
+  },
+  {
+    "month": 200103,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00896441794268457,
+      "alignment_B": -0.007877642472647014,
+      "alignment_benefit_2B": -0.01575528494529403,
+      "updated_minus_frozen_loss": 0.02471970288797891,
+      "reconstructed_loss_difference": 0.024719702887978597,
+      "identity_error": -3.122502256758253e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0020082022916778214,
+      "alignment_B": -0.0033395845133863135,
+      "alignment_benefit_2B": -0.006679169026772627,
+      "updated_minus_frozen_loss": 0.008687371318450446,
+      "reconstructed_loss_difference": 0.00868737131845045,
+      "identity_error": 3.469446951953614e-18
+    }
+  },
+  {
+    "month": 200104,
+    "environment": {
+      "A": 1,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005510204248628541,
+      "alignment_B": -0.0005446324979853749,
+      "alignment_benefit_2B": -0.0010892649959707498,
+      "updated_minus_frozen_loss": 0.0016402854208338175,
+      "reconstructed_loss_difference": 0.001640285420833604,
+      "identity_error": -2.1337098754514727e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00024119757129866632,
+      "alignment_B": -0.0003165512952540204,
+      "alignment_benefit_2B": -0.0006331025905080408,
+      "updated_minus_frozen_loss": 0.0008743001618067431,
+      "reconstructed_loss_difference": 0.0008743001618067071,
+      "identity_error": -3.599551212651875e-17
+    }
+  },
+  {
+    "month": 200105,
+    "environment": {
+      "A": 1,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005854798040755881,
+      "alignment_B": 0.004496147303968702,
+      "alignment_benefit_2B": 0.008992294607937403,
+      "updated_minus_frozen_loss": -0.003137496567181479,
+      "reconstructed_loss_difference": -0.0031374965671815223,
+      "identity_error": -4.336808689942018e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008608687417483726,
+      "alignment_B": 0.0018262416824651728,
+      "alignment_benefit_2B": 0.0036524833649303457,
+      "updated_minus_frozen_loss": -0.002791614623181983,
+      "reconstructed_loss_difference": -0.002791614623181973,
+      "identity_error": 9.974659986866641e-18
+    }
+  },
+  {
+    "month": 200106,
+    "environment": {
+      "A": 1,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004558367385651038,
+      "alignment_B": 0.0007255435364845481,
+      "alignment_benefit_2B": 0.0014510870729690963,
+      "updated_minus_frozen_loss": -0.000995250334403966,
+      "reconstructed_loss_difference": -0.0009952503344039924,
+      "identity_error": -2.6454533008646308e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 9.867474774397971e-05,
+      "alignment_B": -0.0001846801525191152,
+      "alignment_benefit_2B": -0.0003693603050382304,
+      "updated_minus_frozen_loss": 0.00046803505278220775,
+      "reconstructed_loss_difference": 0.00046803505278221014,
+      "identity_error": 2.3852447794681098e-18
+    }
+  },
+  {
+    "month": 200107,
+    "environment": {
+      "A": 1,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.021145255868760104,
+      "alignment_B": 0.016163176720244667,
+      "alignment_benefit_2B": 0.032326353440489335,
+      "updated_minus_frozen_loss": -0.011181097571729255,
+      "reconstructed_loss_difference": -0.011181097571729231,
+      "identity_error": 2.42861286636753e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006470441005322548,
+      "alignment_B": 0.002403352347506696,
+      "alignment_benefit_2B": 0.004806704695013392,
+      "updated_minus_frozen_loss": -0.0041596605944811404,
+      "reconstructed_loss_difference": -0.004159660594481137,
+      "identity_error": 3.469446951953614e-18
+    }
+  },
+  {
+    "month": 200108,
+    "environment": {
+      "A": 1,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0024916459293721567,
+      "alignment_B": 0.0035331533321891597,
+      "alignment_benefit_2B": 0.007066306664378319,
+      "updated_minus_frozen_loss": -0.004574660735006189,
+      "reconstructed_loss_difference": -0.004574660735006163,
+      "identity_error": 2.6020852139652106e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004362962281508016,
+      "alignment_B": 0.0013505945144087212,
+      "alignment_benefit_2B": 0.0027011890288174425,
+      "updated_minus_frozen_loss": -0.0022648928006666347,
+      "reconstructed_loss_difference": -0.0022648928006666407,
+      "identity_error": -6.071532165918825e-18
+    }
+  },
+  {
+    "month": 200109,
+    "environment": {
+      "A": 1,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0017844909556598014,
+      "alignment_B": 0.006299904807396236,
+      "alignment_benefit_2B": 0.012599809614792472,
+      "updated_minus_frozen_loss": -0.010815318659132392,
+      "reconstructed_loss_difference": -0.010815318659132671,
+      "identity_error": -2.7929047963226594e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00036560847411585645,
+      "alignment_B": 0.00196474209236381,
+      "alignment_benefit_2B": 0.00392948418472762,
+      "updated_minus_frozen_loss": -0.003563875710611758,
+      "reconstructed_loss_difference": -0.0035638757106117636,
+      "identity_error": -5.637851296924623e-18
+    }
+  },
+  {
+    "month": 200110,
+    "environment": {
+      "A": 1,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0065569424849214256,
+      "alignment_B": -0.005236117570275303,
+      "alignment_benefit_2B": -0.010472235140550606,
+      "updated_minus_frozen_loss": 0.01702917762547207,
+      "reconstructed_loss_difference": 0.01702917762547203,
+      "identity_error": -3.8163916471489756e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000872612703261393,
+      "alignment_B": -0.001662406616076096,
+      "alignment_benefit_2B": -0.003324813232152192,
+      "updated_minus_frozen_loss": 0.0041974259354135846,
+      "reconstructed_loss_difference": 0.0041974259354135846,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200111,
+    "environment": {
+      "A": 1,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.006516607783573277,
+      "alignment_B": -0.0017756431549234856,
+      "alignment_benefit_2B": -0.0035512863098469713,
+      "updated_minus_frozen_loss": 0.010067894093420258,
+      "reconstructed_loss_difference": 0.010067894093420248,
+      "identity_error": -1.0408340855860843e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006351030270794319,
+      "alignment_B": -0.0003835412721586254,
+      "alignment_benefit_2B": -0.0007670825443172508,
+      "updated_minus_frozen_loss": 0.0014021855713966802,
+      "reconstructed_loss_difference": 0.0014021855713966828,
+      "identity_error": 2.6020852139652106e-18
+    }
+  },
+  {
+    "month": 200112,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00013564841211559682,
+      "alignment_B": 3.504906265130687e-05,
+      "alignment_benefit_2B": 7.009812530261374e-05,
+      "updated_minus_frozen_loss": 6.555028681298064e-05,
+      "reconstructed_loss_difference": 6.555028681298308e-05,
+      "identity_error": 2.439454888092385e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006432498746353682,
+      "alignment_B": 0.00019863515105982894,
+      "alignment_benefit_2B": 0.0003972703021196579,
+      "updated_minus_frozen_loss": 0.0002459795725156949,
+      "reconstructed_loss_difference": 0.0002459795725157103,
+      "identity_error": 1.5395670849294163e-17
+    }
+  },
+  {
+    "month": 200201,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.012301107196368693,
+      "alignment_B": 0.00606595600937954,
+      "alignment_benefit_2B": 0.01213191201875908,
+      "updated_minus_frozen_loss": 0.0001691951776096115,
+      "reconstructed_loss_difference": 0.00016919517760961324,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0017078003346820939,
+      "alignment_B": 0.002246348561768483,
+      "alignment_benefit_2B": 0.004492697123536966,
+      "updated_minus_frozen_loss": -0.0027848967888548723,
+      "reconstructed_loss_difference": -0.002784896788854872,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200202,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003842444096415822,
+      "alignment_B": 0.005295486624904002,
+      "alignment_benefit_2B": 0.010590973249808004,
+      "updated_minus_frozen_loss": -0.006748529153392153,
+      "reconstructed_loss_difference": -0.006748529153392182,
+      "identity_error": -2.949029909160572e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001139272031061213,
+      "alignment_B": 0.002769501929185415,
+      "alignment_benefit_2B": 0.00553900385837083,
+      "updated_minus_frozen_loss": -0.004399731827309621,
+      "reconstructed_loss_difference": -0.004399731827309617,
+      "identity_error": 3.469446951953614e-18
+    }
+  },
+  {
+    "month": 200203,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013263413147576338,
+      "alignment_B": -0.002566119467755219,
+      "alignment_benefit_2B": -0.005132238935510438,
+      "updated_minus_frozen_loss": 0.006458580250268062,
+      "reconstructed_loss_difference": 0.006458580250268072,
+      "identity_error": 1.0408340855860843e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 6.362470040433596e-05,
+      "alignment_B": -0.00016073278459425062,
+      "alignment_benefit_2B": -0.00032146556918850124,
+      "updated_minus_frozen_loss": 0.00038509026959283876,
+      "reconstructed_loss_difference": 0.0003850902695928372,
+      "identity_error": -1.5720931501039814e-18
+    }
+  },
+  {
+    "month": 200204,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.009248119379986616,
+      "alignment_B": -0.002169805316788108,
+      "alignment_benefit_2B": -0.004339610633576216,
+      "updated_minus_frozen_loss": 0.013587730013562817,
+      "reconstructed_loss_difference": 0.01358773001356283,
+      "identity_error": 1.3877787807814457e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008636109607416902,
+      "alignment_B": -0.0006675657213518965,
+      "alignment_benefit_2B": -0.001335131442703793,
+      "updated_minus_frozen_loss": 0.002198742403445475,
+      "reconstructed_loss_difference": 0.0021987424034454832,
+      "identity_error": 8.239936510889834e-18
+    }
+  },
+  {
+    "month": 200205,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004428788481982862,
+      "alignment_B": -0.0006692742421341283,
+      "alignment_benefit_2B": -0.0013385484842682565,
+      "updated_minus_frozen_loss": 0.001781427332466598,
+      "reconstructed_loss_difference": 0.0017814273324665427,
+      "identity_error": -5.5294310796760726e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 7.865997543882666e-05,
+      "alignment_B": -0.00012457417179981582,
+      "alignment_benefit_2B": -0.00024914834359963164,
+      "updated_minus_frozen_loss": 0.0003278083190384473,
+      "reconstructed_loss_difference": 0.00032780831903845827,
+      "identity_error": 1.0950441942103595e-17
+    }
+  },
+  {
+    "month": 200206,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00039437469519723183,
+      "alignment_B": 0.0009011212562488833,
+      "alignment_benefit_2B": 0.0018022425124977666,
+      "updated_minus_frozen_loss": -0.0014078678173005607,
+      "reconstructed_loss_difference": -0.0014078678173005347,
+      "identity_error": 2.6020852139652106e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00019233312159869004,
+      "alignment_B": 0.0007429307448276462,
+      "alignment_benefit_2B": 0.0014858614896552924,
+      "updated_minus_frozen_loss": -0.0012935283680566012,
+      "reconstructed_loss_difference": -0.0012935283680566025,
+      "identity_error": -1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 200207,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00039493878482815896,
+      "alignment_B": 0.0018871244906324023,
+      "alignment_benefit_2B": 0.0037742489812648047,
+      "updated_minus_frozen_loss": -0.0033793101964367384,
+      "reconstructed_loss_difference": -0.0033793101964366455,
+      "identity_error": 9.280770596475918e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00010943951091659108,
+      "alignment_B": 0.0007061731116393232,
+      "alignment_benefit_2B": 0.0014123462232786463,
+      "updated_minus_frozen_loss": -0.0013029067123620924,
+      "reconstructed_loss_difference": -0.0013029067123620551,
+      "identity_error": 3.729655473350135e-17
+    }
+  },
+  {
+    "month": 200208,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012358424321898423,
+      "alignment_B": 0.000471235510414117,
+      "alignment_benefit_2B": 0.000942471020828234,
+      "updated_minus_frozen_loss": 0.00029337141136161204,
+      "reconstructed_loss_difference": 0.00029337141136160836,
+      "identity_error": -3.686287386450715e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003332394877648559,
+      "alignment_B": 0.000395754445999739,
+      "alignment_benefit_2B": 0.000791508891999478,
+      "updated_minus_frozen_loss": -0.0004582694042346222,
+      "reconstructed_loss_difference": -0.0004582694042346221,
+      "identity_error": 1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 200209,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002126564790975663,
+      "alignment_B": -0.006440769895723962,
+      "alignment_benefit_2B": -0.012881539791447924,
+      "updated_minus_frozen_loss": 0.015008104582423722,
+      "reconstructed_loss_difference": 0.015008104582423586,
+      "identity_error": -1.3530843112619095e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00012057958246806629,
+      "alignment_B": 0.0011280578773728556,
+      "alignment_benefit_2B": 0.002256115754745711,
+      "updated_minus_frozen_loss": -0.00213553617227763,
+      "reconstructed_loss_difference": -0.002135536172277645,
+      "identity_error": -1.474514954580286e-17
+    }
+  },
+  {
+    "month": 200210,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.01551337922979298,
+      "alignment_B": 0.0023656281764352096,
+      "alignment_benefit_2B": 0.004731256352870419,
+      "updated_minus_frozen_loss": 0.01078212287692254,
+      "reconstructed_loss_difference": 0.01078212287692256,
+      "identity_error": 2.0816681711721685e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006389731149371994,
+      "alignment_B": 0.0003342440573477292,
+      "alignment_benefit_2B": 0.0006684881146954584,
+      "updated_minus_frozen_loss": -2.9514999758270544e-05,
+      "reconstructed_loss_difference": -2.9514999758258943e-05,
+      "identity_error": 1.1600963245594897e-17
+    }
+  },
+  {
+    "month": 200211,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003714480355467209,
+      "alignment_B": -0.003992179782269744,
+      "alignment_benefit_2B": -0.007984359564539488,
+      "updated_minus_frozen_loss": 0.011698839920006643,
+      "reconstructed_loss_difference": 0.011698839920006697,
+      "identity_error": 5.377642775528102e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006054302365381377,
+      "alignment_B": -0.0018321671111248526,
+      "alignment_benefit_2B": -0.003664334222249705,
+      "updated_minus_frozen_loss": 0.00426976445878785,
+      "reconstructed_loss_difference": 0.004269764458787843,
+      "identity_error": -6.938893903907228e-18
+    }
+  },
+  {
+    "month": 200212,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011656171995641272,
+      "alignment_B": 0.0022529459178259785,
+      "alignment_benefit_2B": 0.004505891835651957,
+      "updated_minus_frozen_loss": -0.0033402746360878324,
+      "reconstructed_loss_difference": -0.00334027463608783,
+      "identity_error": 2.6020852139652106e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006057886879286716,
+      "alignment_B": 0.0018968945516234757,
+      "alignment_benefit_2B": 0.0037937891032469515,
+      "updated_minus_frozen_loss": -0.0031880004153182796,
+      "reconstructed_loss_difference": -0.0031880004153182796,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200301,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0646018695005057,
+      "alignment_B": 0.01664774535052231,
+      "alignment_benefit_2B": 0.03329549070104462,
+      "updated_minus_frozen_loss": 0.03130637879946122,
+      "reconstructed_loss_difference": 0.031306378799461076,
+      "identity_error": -1.457167719820518e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.005850881981841656,
+      "alignment_B": 0.00507314269611061,
+      "alignment_benefit_2B": 0.01014628539222122,
+      "updated_minus_frozen_loss": -0.004295403410379574,
+      "reconstructed_loss_difference": -0.004295403410379564,
+      "identity_error": 9.540979117872439e-18
+    }
+  },
+  {
+    "month": 200302,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005433056481765622,
+      "alignment_B": 0.003406201303304353,
+      "alignment_benefit_2B": 0.006812402606608706,
+      "updated_minus_frozen_loss": -0.0013793461248430665,
+      "reconstructed_loss_difference": -0.0013793461248430847,
+      "identity_error": -1.8214596497756474e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014615482832172908,
+      "alignment_B": 0.001824376208892934,
+      "alignment_benefit_2B": 0.003648752417785868,
+      "updated_minus_frozen_loss": -0.002187204134568573,
+      "reconstructed_loss_difference": -0.002187204134568577,
+      "identity_error": -3.903127820947816e-18
+    }
+  },
+  {
+    "month": 200303,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001080156051600498,
+      "alignment_B": -2.8339740735828196e-05,
+      "alignment_benefit_2B": -5.667948147165639e-05,
+      "updated_minus_frozen_loss": 0.0011368355330721724,
+      "reconstructed_loss_difference": 0.0011368355330721544,
+      "identity_error": -1.7997756063259374e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00011644051131903219,
+      "alignment_B": -4.896378374972474e-05,
+      "alignment_benefit_2B": -9.792756749944948e-05,
+      "updated_minus_frozen_loss": 0.00021436807881847555,
+      "reconstructed_loss_difference": 0.00021436807881848168,
+      "identity_error": 6.1257422745431e-18
+    }
+  },
+  {
+    "month": 200304,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0019848414807863536,
+      "alignment_B": -0.0026504326117385343,
+      "alignment_benefit_2B": -0.0053008652234770685,
+      "updated_minus_frozen_loss": 0.007285706704263456,
+      "reconstructed_loss_difference": 0.007285706704263422,
+      "identity_error": -3.382710778154774e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006778032351162915,
+      "alignment_B": -0.0018384074295383398,
+      "alignment_benefit_2B": -0.0036768148590766796,
+      "updated_minus_frozen_loss": 0.0043546180941929705,
+      "reconstructed_loss_difference": 0.004354618094192971,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200305,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0023473106318074016,
+      "alignment_B": 0.006168282222696145,
+      "alignment_benefit_2B": 0.01233656444539229,
+      "updated_minus_frozen_loss": -0.009989253813584884,
+      "reconstructed_loss_difference": -0.009989253813584889,
+      "identity_error": -5.204170427930421e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.773789129324319e-05,
+      "alignment_B": -0.000445950405047067,
+      "alignment_benefit_2B": -0.000891900810094134,
+      "updated_minus_frozen_loss": 0.0009096387013873691,
+      "reconstructed_loss_difference": 0.0009096387013873772,
+      "identity_error": 8.023096076392733e-18
+    }
+  },
+  {
+    "month": 200306,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.006090127659253519,
+      "alignment_B": 0.0036316545877825533,
+      "alignment_benefit_2B": 0.007263309175565107,
+      "updated_minus_frozen_loss": -0.0011731815163115097,
+      "reconstructed_loss_difference": -0.0011731815163115878,
+      "identity_error": -7.806255641895632e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00012707856801016826,
+      "alignment_B": 0.00047642861839408956,
+      "alignment_benefit_2B": 0.0009528572367881791,
+      "updated_minus_frozen_loss": -0.0008257786687779975,
+      "reconstructed_loss_difference": -0.0008257786687780108,
+      "identity_error": -1.3335686721571705e-17
+    }
+  },
+  {
+    "month": 200307,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00036965007560270716,
+      "alignment_B": 0.0010146092212517492,
+      "alignment_benefit_2B": 0.0020292184425034984,
+      "updated_minus_frozen_loss": -0.0016595683669006975,
+      "reconstructed_loss_difference": -0.0016595683669007912,
+      "identity_error": -9.367506770274758e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.591741268117592e-05,
+      "alignment_B": -6.480593244743578e-05,
+      "alignment_benefit_2B": -0.00012961186489487156,
+      "updated_minus_frozen_loss": 0.00015552927757603308,
+      "reconstructed_loss_difference": 0.00015552927757604747,
+      "identity_error": 1.439278383974507e-17
+    }
+  },
+  {
+    "month": 200308,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0026317902236425122,
+      "alignment_B": 0.002634632231779474,
+      "alignment_benefit_2B": 0.005269264463558948,
+      "updated_minus_frozen_loss": -0.002637474239916386,
+      "reconstructed_loss_difference": -0.002637474239916436,
+      "identity_error": -4.9873299934333204e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0007797301108576082,
+      "alignment_B": 0.0014628559705796354,
+      "alignment_benefit_2B": 0.002925711941159271,
+      "updated_minus_frozen_loss": -0.002145981830301652,
+      "reconstructed_loss_difference": -0.0021459818303016624,
+      "identity_error": -1.0408340855860843e-17
+    }
+  },
+  {
+    "month": 200309,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00531274219841419,
+      "alignment_B": 0.0025501209325019336,
+      "alignment_benefit_2B": 0.005100241865003867,
+      "updated_minus_frozen_loss": 0.00021250033341034535,
+      "reconstructed_loss_difference": 0.0002125003334103228,
+      "identity_error": -2.2551405187698492e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0012591947393961727,
+      "alignment_B": 0.0010564387807304695,
+      "alignment_benefit_2B": 0.002112877561460939,
+      "updated_minus_frozen_loss": -0.0008536828220647649,
+      "reconstructed_loss_difference": -0.0008536828220647662,
+      "identity_error": -1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 200310,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014707941222043104,
+      "alignment_B": 0.00387205054345816,
+      "alignment_benefit_2B": 0.00774410108691632,
+      "updated_minus_frozen_loss": -0.006273306964712018,
+      "reconstructed_loss_difference": -0.00627330696471201,
+      "identity_error": 7.806255641895632e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0007688768530042481,
+      "alignment_B": 0.002887830278571383,
+      "alignment_benefit_2B": 0.005775660557142766,
+      "updated_minus_frozen_loss": -0.005006783704138526,
+      "reconstructed_loss_difference": -0.005006783704138518,
+      "identity_error": 7.806255641895632e-18
+    }
+  },
+  {
+    "month": 200311,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.012848308557362752,
+      "alignment_B": 0.003512674634751498,
+      "alignment_benefit_2B": 0.007025349269502996,
+      "updated_minus_frozen_loss": 0.005822959287859832,
+      "reconstructed_loss_difference": 0.005822959287859757,
+      "identity_error": -7.546047120499111e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0026151209742998546,
+      "alignment_B": 0.0016329736190503928,
+      "alignment_benefit_2B": 0.0032659472381007856,
+      "updated_minus_frozen_loss": -0.0006508262638009292,
+      "reconstructed_loss_difference": -0.0006508262638009309,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200312,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0016901439155241227,
+      "alignment_B": 0.0011839779186992648,
+      "alignment_benefit_2B": 0.0023679558373985296,
+      "updated_minus_frozen_loss": -0.0006778119218744001,
+      "reconstructed_loss_difference": -0.0006778119218744068,
+      "identity_error": -6.7220534694101275e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0009799019400518005,
+      "alignment_B": 0.0009939719997999919,
+      "alignment_benefit_2B": 0.0019879439995999838,
+      "updated_minus_frozen_loss": -0.001008042059548183,
+      "reconstructed_loss_difference": -0.0010080420595481832,
+      "identity_error": -2.168404344971009e-19
+    }
+  },
+  {
+    "month": 200401,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003532250165886943,
+      "alignment_B": 0.004534279302950875,
+      "alignment_benefit_2B": 0.00906855860590175,
+      "updated_minus_frozen_loss": -0.0055363084400147575,
+      "reconstructed_loss_difference": -0.005536308440014807,
+      "identity_error": -4.9439619065339e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0011263045722854353,
+      "alignment_B": 0.0022896611627220317,
+      "alignment_benefit_2B": 0.0045793223254440634,
+      "updated_minus_frozen_loss": -0.0034530177531586354,
+      "reconstructed_loss_difference": -0.0034530177531586284,
+      "identity_error": 6.938893903907228e-18
+    }
+  },
+  {
+    "month": 200402,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0035117725769143494,
+      "alignment_B": 0.0009485740658897742,
+      "alignment_benefit_2B": 0.0018971481317795484,
+      "updated_minus_frozen_loss": 0.0016146244451347887,
+      "reconstructed_loss_difference": 0.001614624445134801,
+      "identity_error": 1.235990476633475e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001902323478374856,
+      "alignment_B": 0.0008494957569484175,
+      "alignment_benefit_2B": 0.001698991513896835,
+      "updated_minus_frozen_loss": 0.00020333196447801585,
+      "reconstructed_loss_difference": 0.00020333196447802106,
+      "identity_error": 5.204170427930421e-18
+    }
+  },
+  {
+    "month": 200403,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007888180087958552,
+      "alignment_B": 0.00013100161382736112,
+      "alignment_benefit_2B": 0.00026200322765472224,
+      "updated_minus_frozen_loss": 0.000526814781141121,
+      "reconstructed_loss_difference": 0.0005268147811411329,
+      "identity_error": 1.1926223897340549e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006732262989422736,
+      "alignment_B": 7.50227383820413e-05,
+      "alignment_benefit_2B": 0.0001500454767640826,
+      "updated_minus_frozen_loss": 0.0005231808221781951,
+      "reconstructed_loss_difference": 0.000523180822178191,
+      "identity_error": -4.119968255444917e-18
+    }
+  },
+  {
+    "month": 200404,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0002812126417847195,
+      "alignment_B": 0.00033269362515973985,
+      "alignment_benefit_2B": 0.0006653872503194797,
+      "updated_minus_frozen_loss": -0.0003841746085347583,
+      "reconstructed_loss_difference": -0.0003841746085347602,
+      "identity_error": -1.8973538018496328e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008125729788858104,
+      "alignment_B": -0.000804211591677114,
+      "alignment_benefit_2B": -0.001608423183354228,
+      "updated_minus_frozen_loss": 0.002420996162240039,
+      "reconstructed_loss_difference": 0.002420996162240038,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200405,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0021181949952586167,
+      "alignment_B": -0.00012993898455608628,
+      "alignment_benefit_2B": -0.00025987796911217256,
+      "updated_minus_frozen_loss": 0.0023780729643707883,
+      "reconstructed_loss_difference": 0.002378072964370789,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003819638247348402,
+      "alignment_B": 0.0001349326913093355,
+      "alignment_benefit_2B": 0.000269865382618671,
+      "updated_minus_frozen_loss": 0.0001120984421161663,
+      "reconstructed_loss_difference": 0.00011209844211616918,
+      "identity_error": 2.8731357570865868e-18
+    }
+  },
+  {
+    "month": 200406,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00019365367072523955,
+      "alignment_B": 5.342659232733755e-06,
+      "alignment_benefit_2B": 1.068531846546751e-05,
+      "updated_minus_frozen_loss": 0.00018296835225975992,
+      "reconstructed_loss_difference": 0.00018296835225977204,
+      "identity_error": 1.2115959277525512e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003161699160316442,
+      "alignment_B": 0.0003734138518894519,
+      "alignment_benefit_2B": 0.0007468277037789038,
+      "updated_minus_frozen_loss": -0.00043065778774726074,
+      "reconstructed_loss_difference": -0.0004306577877472596,
+      "identity_error": 1.1384122811097797e-18
+    }
+  },
+  {
+    "month": 200407,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0010309021939553067,
+      "alignment_B": 0.0029077071435158752,
+      "alignment_benefit_2B": 0.0058154142870317505,
+      "updated_minus_frozen_loss": -0.00478451209307644,
+      "reconstructed_loss_difference": -0.004784512093076444,
+      "identity_error": -3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 6.352239021518016e-05,
+      "alignment_B": -0.00044956056860091093,
+      "alignment_benefit_2B": -0.0008991211372018219,
+      "updated_minus_frozen_loss": 0.0009626435274170016,
+      "reconstructed_loss_difference": 0.000962643527417002,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200408,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0022515676582266888,
+      "alignment_B": 0.00041881819263310993,
+      "alignment_benefit_2B": 0.0008376363852662199,
+      "updated_minus_frozen_loss": 0.0014139312729604739,
+      "reconstructed_loss_difference": 0.001413931272960469,
+      "identity_error": -4.9873299934333204e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 4.7212713834886154e-05,
+      "alignment_B": 8.29288347204042e-05,
+      "alignment_benefit_2B": 0.0001658576694408084,
+      "updated_minus_frozen_loss": -0.00011864495560592013,
+      "reconstructed_loss_difference": -0.00011864495560592224,
+      "identity_error": -2.1141942363467336e-18
+    }
+  },
+  {
+    "month": 200409,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00022257636080578035,
+      "alignment_B": -0.00026531733376070754,
+      "alignment_benefit_2B": -0.0005306346675214151,
+      "updated_minus_frozen_loss": 0.0007532110283271984,
+      "reconstructed_loss_difference": 0.0007532110283271955,
+      "identity_error": -2.927345865710862e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00020304455087476496,
+      "alignment_B": 0.0005413729120754753,
+      "alignment_benefit_2B": 0.0010827458241509506,
+      "updated_minus_frozen_loss": -0.0008797012732761865,
+      "reconstructed_loss_difference": -0.0008797012732761856,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200410,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006624335558270732,
+      "alignment_B": -0.00011793310004423018,
+      "alignment_benefit_2B": -0.00023586620008846036,
+      "updated_minus_frozen_loss": 0.0008982997559155333,
+      "reconstructed_loss_difference": 0.0008982997559155336,
+      "identity_error": 3.2526065174565133e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00024681291193889225,
+      "alignment_B": 1.680450901865626e-05,
+      "alignment_benefit_2B": 3.360901803731252e-05,
+      "updated_minus_frozen_loss": 0.00021320389390157984,
+      "reconstructed_loss_difference": 0.00021320389390157974,
+      "identity_error": -1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 200411,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00030048050740213777,
+      "alignment_B": 8.116267090170117e-05,
+      "alignment_benefit_2B": 0.00016232534180340234,
+      "updated_minus_frozen_loss": 0.0001381551655987301,
+      "reconstructed_loss_difference": 0.00013815516559873543,
+      "identity_error": 5.339695699491109e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.674106622314829e-05,
+      "alignment_B": 0.00032657529075150974,
+      "alignment_benefit_2B": 0.0006531505815030195,
+      "updated_minus_frozen_loss": -0.0006264095152798826,
+      "reconstructed_loss_difference": -0.0006264095152798712,
+      "identity_error": 1.1492543028346347e-17
+    }
+  },
+  {
+    "month": 200412,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005463780060046052,
+      "alignment_B": 0.0006915973718311573,
+      "alignment_benefit_2B": 0.0013831947436623146,
+      "updated_minus_frozen_loss": -0.000836816737657696,
+      "reconstructed_loss_difference": -0.0008368167376577094,
+      "identity_error": -1.3444106938820255e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.77886245266915e-05,
+      "alignment_B": 0.00021213499830291112,
+      "alignment_benefit_2B": 0.00042426999660582224,
+      "updated_minus_frozen_loss": -0.00038648137207912894,
+      "reconstructed_loss_difference": -0.00038648137207913073,
+      "identity_error": -1.7889335846010823e-18
+    }
+  },
+  {
+    "month": 200501,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013635984500716273,
+      "alignment_B": -0.000747697940863685,
+      "alignment_benefit_2B": -0.00149539588172737,
+      "updated_minus_frozen_loss": 0.0028589943317990016,
+      "reconstructed_loss_difference": 0.0028589943317989973,
+      "identity_error": -4.336808689942018e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00014020962169835146,
+      "alignment_B": -0.0002912052933543443,
+      "alignment_benefit_2B": -0.0005824105867086886,
+      "updated_minus_frozen_loss": 0.0007226202084070418,
+      "reconstructed_loss_difference": 0.0007226202084070401,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200502,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003181985029216073,
+      "alignment_B": 0.001210166517532588,
+      "alignment_benefit_2B": 0.002420333035065176,
+      "updated_minus_frozen_loss": 0.0007616519941509095,
+      "reconstructed_loss_difference": 0.0007616519941508974,
+      "identity_error": -1.214306433183765e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.1937847837111932e-05,
+      "alignment_B": 5.824213496641813e-05,
+      "alignment_benefit_2B": 0.00011648426993283626,
+      "updated_minus_frozen_loss": -9.454642209572386e-05,
+      "reconstructed_loss_difference": -9.454642209572433e-05,
+      "identity_error": -4.607859233063394e-19
+    }
+  },
+  {
+    "month": 200503,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0022990541537854623,
+      "alignment_B": -0.0011873675736700203,
+      "alignment_benefit_2B": -0.0023747351473400406,
+      "updated_minus_frozen_loss": 0.004673789301125508,
+      "reconstructed_loss_difference": 0.004673789301125502,
+      "identity_error": -5.204170427930421e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00012737287707112571,
+      "alignment_B": -0.00030272428825042335,
+      "alignment_benefit_2B": -0.0006054485765008467,
+      "updated_minus_frozen_loss": 0.0007328214535719732,
+      "reconstructed_loss_difference": 0.0007328214535719724,
+      "identity_error": -7.589415207398531e-19
+    }
+  },
+  {
+    "month": 200504,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0019471839632518495,
+      "alignment_B": -0.001247039835635299,
+      "alignment_benefit_2B": -0.002494079671270598,
+      "updated_minus_frozen_loss": 0.0044412636345224545,
+      "reconstructed_loss_difference": 0.004441263634522448,
+      "identity_error": -6.938893903907228e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002305829472798795,
+      "alignment_B": -0.00046736321942924305,
+      "alignment_benefit_2B": -0.0009347264388584861,
+      "updated_minus_frozen_loss": 0.0011653093861383624,
+      "reconstructed_loss_difference": 0.0011653093861383656,
+      "identity_error": 3.2526065174565133e-18
+    }
+  },
+  {
+    "month": 200505,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004489735459400613,
+      "alignment_B": 0.0009815131700714366,
+      "alignment_benefit_2B": 0.001963026340142873,
+      "updated_minus_frozen_loss": -0.001514052794202813,
+      "reconstructed_loss_difference": -0.001514052794202812,
+      "identity_error": 1.0842021724855044e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 6.828178361653447e-05,
+      "alignment_B": 0.0004902663495068057,
+      "alignment_benefit_2B": 0.0009805326990136114,
+      "updated_minus_frozen_loss": -0.000912250915397074,
+      "reconstructed_loss_difference": -0.0009122509153970769,
+      "identity_error": -2.927345865710862e-18
+    }
+  },
+  {
+    "month": 200506,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003246146209656011,
+      "alignment_B": -0.000259950533594379,
+      "alignment_benefit_2B": -0.000519901067188758,
+      "updated_minus_frozen_loss": 0.000844515688154357,
+      "reconstructed_loss_difference": 0.0008445156881543591,
+      "identity_error": 2.168404344971009e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.559861706385696e-05,
+      "alignment_B": 0.00014933315757732806,
+      "alignment_benefit_2B": 0.0002986663151546561,
+      "updated_minus_frozen_loss": -0.00024306769809079656,
+      "reconstructed_loss_difference": -0.00024306769809079917,
+      "identity_error": -2.6020852139652106e-18
+    }
+  },
+  {
+    "month": 200507,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00036463135682242314,
+      "alignment_B": -0.0004373885277516173,
+      "alignment_benefit_2B": -0.0008747770555032346,
+      "updated_minus_frozen_loss": 0.0012394084123256467,
+      "reconstructed_loss_difference": 0.0012394084123256578,
+      "identity_error": 1.1058862159352145e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 9.707132157906438e-06,
+      "alignment_B": -2.0167072030436552e-05,
+      "alignment_benefit_2B": -4.0334144060873105e-05,
+      "updated_minus_frozen_loss": 5.0041276218781156e-05,
+      "reconstructed_loss_difference": 5.004127621877954e-05,
+      "identity_error": -1.6127507315721878e-18
+    }
+  },
+  {
+    "month": 200508,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013532196200226724,
+      "alignment_B": -0.0004121891636420159,
+      "alignment_benefit_2B": -0.0008243783272840318,
+      "updated_minus_frozen_loss": 0.002177597947306719,
+      "reconstructed_loss_difference": 0.0021775979473067043,
+      "identity_error": -1.474514954580286e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00011796933782184176,
+      "alignment_B": -0.0001346393397474277,
+      "alignment_benefit_2B": -0.0002692786794948554,
+      "updated_minus_frozen_loss": 0.00038724801731669645,
+      "reconstructed_loss_difference": 0.0003872480173166972,
+      "identity_error": 7.589415207398531e-19
+    }
+  },
+  {
+    "month": 200509,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000957106129444266,
+      "alignment_B": 0.0005645724365208661,
+      "alignment_benefit_2B": 0.0011291448730417321,
+      "updated_minus_frozen_loss": -0.00017203874359746248,
+      "reconstructed_loss_difference": -0.00017203874359746616,
+      "identity_error": -3.686287386450715e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00011631665046632965,
+      "alignment_B": 0.0002497433387910697,
+      "alignment_benefit_2B": 0.0004994866775821394,
+      "updated_minus_frozen_loss": -0.0003831700271158065,
+      "reconstructed_loss_difference": -0.00038317002711580977,
+      "identity_error": -3.2526065174565133e-18
+    }
+  },
+  {
+    "month": 200510,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007105012208908704,
+      "alignment_B": -0.000358358387722055,
+      "alignment_benefit_2B": -0.00071671677544411,
+      "updated_minus_frozen_loss": 0.0014272179963349934,
+      "reconstructed_loss_difference": 0.0014272179963349804,
+      "identity_error": -1.3010426069826053e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.29051469841247e-05,
+      "alignment_B": 5.1801098780842976e-05,
+      "alignment_benefit_2B": 0.00010360219756168595,
+      "updated_minus_frozen_loss": -9.06970505775602e-05,
+      "reconstructed_loss_difference": -9.069705057756125e-05,
+      "identity_error": -1.0570971181733668e-18
+    }
+  },
+  {
+    "month": 200511,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00040729922288298563,
+      "alignment_B": 0.0006138805705603675,
+      "alignment_benefit_2B": 0.001227761141120735,
+      "updated_minus_frozen_loss": -0.0008204619182377616,
+      "reconstructed_loss_difference": -0.0008204619182377495,
+      "identity_error": 1.214306433183765e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.2395022902779603e-05,
+      "alignment_B": 0.00015551760693793587,
+      "alignment_benefit_2B": 0.00031103521387587174,
+      "updated_minus_frozen_loss": -0.0002886401909730982,
+      "reconstructed_loss_difference": -0.00028864019097309216,
+      "identity_error": 6.0173220572945496e-18
+    }
+  },
+  {
+    "month": 200512,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0024022421473315985,
+      "alignment_B": 4.779670059248394e-05,
+      "alignment_benefit_2B": 9.559340118496787e-05,
+      "updated_minus_frozen_loss": 0.0023066487461466337,
+      "reconstructed_loss_difference": 0.0023066487461466307,
+      "identity_error": -3.0357660829594124e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 9.10072109187766e-05,
+      "alignment_B": 5.1580146797973206e-06,
+      "alignment_benefit_2B": 1.0316029359594641e-05,
+      "updated_minus_frozen_loss": 8.069118155918167e-05,
+      "reconstructed_loss_difference": 8.069118155918196e-05,
+      "identity_error": 2.846030702774449e-19
+    }
+  },
+  {
+    "month": 200601,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006908581637303598,
+      "alignment_B": 0.0013280492888762933,
+      "alignment_benefit_2B": 0.0026560985777525866,
+      "updated_minus_frozen_loss": -0.001965240414022216,
+      "reconstructed_loss_difference": -0.0019652404140222267,
+      "identity_error": -1.0842021724855044e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.4171540034698179e-05,
+      "alignment_B": 3.581596927700122e-05,
+      "alignment_benefit_2B": 7.163193855400244e-05,
+      "updated_minus_frozen_loss": -5.7460398519299655e-05,
+      "reconstructed_loss_difference": -5.746039851930426e-05,
+      "identity_error": -4.607859233063394e-18
+    }
+  },
+  {
+    "month": 200602,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00011892154810764705,
+      "alignment_B": 2.1055872159490486e-05,
+      "alignment_benefit_2B": 4.211174431898097e-05,
+      "updated_minus_frozen_loss": 7.680980378868031e-05,
+      "reconstructed_loss_difference": 7.680980378866608e-05,
+      "identity_error": -1.4230153513872246e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.256756517749783e-05,
+      "alignment_B": -0.00010413782079111954,
+      "alignment_benefit_2B": -0.00020827564158223908,
+      "updated_minus_frozen_loss": 0.0002908432067597385,
+      "reconstructed_loss_difference": 0.00029084320675973693,
+      "identity_error": -1.5720931501039814e-18
+    }
+  },
+  {
+    "month": 200603,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009926859554493712,
+      "alignment_B": 0.0018255692990300464,
+      "alignment_benefit_2B": 0.0036511385980600927,
+      "updated_minus_frozen_loss": -0.0026584526426107133,
+      "reconstructed_loss_difference": -0.0026584526426107215,
+      "identity_error": -8.239936510889834e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001432388715268616,
+      "alignment_B": 0.0007072876346598623,
+      "alignment_benefit_2B": 0.0014145752693197247,
+      "updated_minus_frozen_loss": -0.0012713363977928625,
+      "reconstructed_loss_difference": -0.001271336397792863,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200604,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00014554692527281115,
+      "alignment_B": 0.00017872505485040088,
+      "alignment_benefit_2B": 0.00035745010970080176,
+      "updated_minus_frozen_loss": -0.0002119031844279931,
+      "reconstructed_loss_difference": -0.00021190318442799061,
+      "identity_error": 2.4936649967166602e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00011520462704226635,
+      "alignment_B": 0.00012206152766359124,
+      "alignment_benefit_2B": 0.00024412305532718249,
+      "updated_minus_frozen_loss": -0.00012891842828491665,
+      "reconstructed_loss_difference": -0.00012891842828491613,
+      "identity_error": 5.149960319306146e-19
+    }
+  },
+  {
+    "month": 200605,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00012885773228396973,
+      "alignment_B": 0.000273577213804119,
+      "alignment_benefit_2B": 0.000547154427608238,
+      "updated_minus_frozen_loss": -0.00041829669532425853,
+      "reconstructed_loss_difference": -0.0004182966953242683,
+      "identity_error": -9.75781955236954e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.712143408559193e-05,
+      "alignment_B": -0.00015909295617375598,
+      "alignment_benefit_2B": -0.00031818591234751195,
+      "updated_minus_frozen_loss": 0.0003753073464330993,
+      "reconstructed_loss_difference": 0.0003753073464331039,
+      "identity_error": 4.607859233063394e-18
+    }
+  },
+  {
+    "month": 200606,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003529654424752727,
+      "alignment_B": 0.00037629279995909167,
+      "alignment_benefit_2B": 0.0007525855999181833,
+      "updated_minus_frozen_loss": -0.00039962015744290924,
+      "reconstructed_loss_difference": -0.00039962015744291065,
+      "identity_error": -1.4094628242311558e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00019331212082459686,
+      "alignment_B": 0.00028699113236817274,
+      "alignment_benefit_2B": 0.0005739822647363455,
+      "updated_minus_frozen_loss": -0.00038067014391174846,
+      "reconstructed_loss_difference": -0.0003806701439117486,
+      "identity_error": -1.6263032587282567e-19
+    }
+  },
+  {
+    "month": 200607,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011710707252479994,
+      "alignment_B": -0.0011044342197325848,
+      "alignment_benefit_2B": -0.0022088684394651697,
+      "updated_minus_frozen_loss": 0.0033799391647131687,
+      "reconstructed_loss_difference": 0.003379939164713169,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003129777119666585,
+      "alignment_B": -0.0005387309570788617,
+      "alignment_benefit_2B": -0.0010774619141577233,
+      "updated_minus_frozen_loss": 0.0013904396261243748,
+      "reconstructed_loss_difference": 0.0013904396261243818,
+      "identity_error": 6.938893903907228e-18
+    }
+  },
+  {
+    "month": 200608,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006245087495400449,
+      "alignment_B": 0.0007394666938486452,
+      "alignment_benefit_2B": 0.0014789333876972905,
+      "updated_minus_frozen_loss": -0.0008544246381572453,
+      "reconstructed_loss_difference": -0.0008544246381572456,
+      "identity_error": -3.2526065174565133e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00014104709266930506,
+      "alignment_B": 0.0003660741195140354,
+      "alignment_benefit_2B": 0.0007321482390280708,
+      "updated_minus_frozen_loss": -0.000591101146358762,
+      "reconstructed_loss_difference": -0.0005911011463587657,
+      "identity_error": -3.686287386450715e-18
+    }
+  },
+  {
+    "month": 200609,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002012886398150341,
+      "alignment_B": 0.0010793597154800782,
+      "alignment_benefit_2B": 0.0021587194309601564,
+      "updated_minus_frozen_loss": -0.00014583303280981535,
+      "reconstructed_loss_difference": -0.00014583303280981535,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002342305534725417,
+      "alignment_B": 0.0003716870843652471,
+      "alignment_benefit_2B": 0.0007433741687304942,
+      "updated_minus_frozen_loss": -0.0005091436152579523,
+      "reconstructed_loss_difference": -0.0005091436152579525,
+      "identity_error": -2.168404344971009e-19
+    }
+  },
+  {
+    "month": 200610,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009299885459494744,
+      "alignment_B": 0.0014418326123649492,
+      "alignment_benefit_2B": 0.0028836652247298984,
+      "updated_minus_frozen_loss": -0.0019536766787804187,
+      "reconstructed_loss_difference": -0.001953676678780424,
+      "identity_error": -5.204170427930421e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.6076070311725726e-05,
+      "alignment_B": 0.00022259943936903665,
+      "alignment_benefit_2B": 0.0004451988787380733,
+      "updated_minus_frozen_loss": -0.00040912280842634804,
+      "reconstructed_loss_difference": -0.00040912280842634756,
+      "identity_error": 4.87890977618477e-19
+    }
+  },
+  {
+    "month": 200611,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00043713598039252173,
+      "alignment_B": 0.0004147852119311034,
+      "alignment_benefit_2B": 0.0008295704238622068,
+      "updated_minus_frozen_loss": -0.00039243444346969206,
+      "reconstructed_loss_difference": -0.00039243444346968506,
+      "identity_error": 6.993104012531504e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.6260477067393914e-05,
+      "alignment_B": 2.815703307955618e-05,
+      "alignment_benefit_2B": 5.631406615911236e-05,
+      "updated_minus_frozen_loss": -4.005358909172502e-05,
+      "reconstructed_loss_difference": -4.0053589091718444e-05,
+      "identity_error": 6.572975670693371e-18
+    }
+  },
+  {
+    "month": 200612,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00045398483711384,
+      "alignment_B": 0.000256784712012485,
+      "alignment_benefit_2B": 0.00051356942402497,
+      "updated_minus_frozen_loss": -5.9584586911130485e-05,
+      "reconstructed_loss_difference": -5.958458691113005e-05,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 4.269588041806131e-05,
+      "alignment_B": 7.376112964999683e-05,
+      "alignment_benefit_2B": 0.00014752225929999367,
+      "updated_minus_frozen_loss": -0.00010482637888193161,
+      "reconstructed_loss_difference": -0.00010482637888193237,
+      "identity_error": -7.589415207398531e-19
+    }
+  },
+  {
+    "month": 200701,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005411161863758511,
+      "alignment_B": 0.0007494382309587755,
+      "alignment_benefit_2B": 0.001498876461917551,
+      "updated_minus_frozen_loss": -0.0009577602755417025,
+      "reconstructed_loss_difference": -0.0009577602755416999,
+      "identity_error": 2.6020852139652106e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 6.158300962087134e-05,
+      "alignment_B": 0.00023450698160303575,
+      "alignment_benefit_2B": 0.0004690139632060715,
+      "updated_minus_frozen_loss": -0.0004074309535852007,
+      "reconstructed_loss_difference": -0.00040743095358520014,
+      "identity_error": 5.421010862427522e-19
+    }
+  },
+  {
+    "month": 200702,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014551336980309754,
+      "alignment_B": 0.00047232711840523655,
+      "alignment_benefit_2B": 0.0009446542368104731,
+      "updated_minus_frozen_loss": 0.0005104794612205039,
+      "reconstructed_loss_difference": 0.0005104794612205023,
+      "identity_error": -1.6263032587282567e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 7.876197668886901e-05,
+      "alignment_B": 9.896931412586075e-05,
+      "alignment_benefit_2B": 0.0001979386282517215,
+      "updated_minus_frozen_loss": -0.00011917665156285263,
+      "reconstructed_loss_difference": -0.00011917665156285248,
+      "identity_error": 1.4907779871675686e-19
+    }
+  },
+  {
+    "month": 200703,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0001976673392124045,
+      "alignment_B": 0.00013944047656660297,
+      "alignment_benefit_2B": 0.00027888095313320595,
+      "updated_minus_frozen_loss": -8.121361392080667e-05,
+      "reconstructed_loss_difference": -8.121361392080144e-05,
+      "identity_error": 5.231275482242559e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 7.341877016768048e-05,
+      "alignment_B": 0.00010414497789582706,
+      "alignment_benefit_2B": 0.0002082899557916541,
+      "updated_minus_frozen_loss": -0.0001348711856239762,
+      "reconstructed_loss_difference": -0.00013487118562397363,
+      "identity_error": 2.574980159653073e-18
+    }
+  },
+  {
+    "month": 200704,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014431528086351973,
+      "alignment_B": 0.0011397875121826916,
+      "alignment_benefit_2B": 0.0022795750243653832,
+      "updated_minus_frozen_loss": -0.000836422215730187,
+      "reconstructed_loss_difference": -0.000836422215730186,
+      "identity_error": 1.0842021724855044e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.570028552763556e-05,
+      "alignment_B": 0.0002547002343395497,
+      "alignment_benefit_2B": 0.0005094004686790994,
+      "updated_minus_frozen_loss": -0.00042370018315146703,
+      "reconstructed_loss_difference": -0.0004237001831514638,
+      "identity_error": 3.2526065174565133e-18
+    }
+  },
+  {
+    "month": 200705,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0034146308782708307,
+      "alignment_B": 0.0023467828029904427,
+      "alignment_benefit_2B": 0.0046935656059808855,
+      "updated_minus_frozen_loss": -0.0012789347277100543,
+      "reconstructed_loss_difference": -0.0012789347277100548,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00010928929691903102,
+      "alignment_B": 0.0004245717020250838,
+      "alignment_benefit_2B": 0.0008491434040501676,
+      "updated_minus_frozen_loss": -0.0007398541071311389,
+      "reconstructed_loss_difference": -0.0007398541071311365,
+      "identity_error": 2.3852447794681098e-18
+    }
+  },
+  {
+    "month": 200706,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000652649919045722,
+      "alignment_B": -0.00017545185271572244,
+      "alignment_benefit_2B": -0.0003509037054314449,
+      "updated_minus_frozen_loss": 0.001003553624477167,
+      "reconstructed_loss_difference": 0.001003553624477167,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001122886388162298,
+      "alignment_B": -8.852420554155412e-05,
+      "alignment_benefit_2B": -0.00017704841108310824,
+      "updated_minus_frozen_loss": 0.000289337049899337,
+      "reconstructed_loss_difference": 0.00028933704989933805,
+      "identity_error": 1.0299920638612292e-18
+    }
+  },
+  {
+    "month": 200707,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006685143376310757,
+      "alignment_B": -0.000910089924681724,
+      "alignment_benefit_2B": -0.001820179849363448,
+      "updated_minus_frozen_loss": 0.002488694186994534,
+      "reconstructed_loss_difference": 0.0024886941869945237,
+      "identity_error": -1.0408340855860843e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00020272422171002333,
+      "alignment_B": -0.0005082468901958223,
+      "alignment_benefit_2B": -0.0010164937803916446,
+      "updated_minus_frozen_loss": 0.0012192180021016671,
+      "reconstructed_loss_difference": 0.001219218002101668,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200708,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0021585796405979686,
+      "alignment_B": 0.0005573945457978052,
+      "alignment_benefit_2B": 0.0011147890915956104,
+      "updated_minus_frozen_loss": 0.0010437905490023533,
+      "reconstructed_loss_difference": 0.0010437905490023583,
+      "identity_error": 4.9873299934333204e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00015878135880203944,
+      "alignment_B": 0.00018045768892408753,
+      "alignment_benefit_2B": 0.00036091537784817507,
+      "updated_minus_frozen_loss": -0.00020213401904613584,
+      "reconstructed_loss_difference": -0.00020213401904613563,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 200709,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005078773813458117,
+      "alignment_B": 0.0002760433788853525,
+      "alignment_benefit_2B": 0.000552086757770705,
+      "updated_minus_frozen_loss": -4.420937642489464e-05,
+      "reconstructed_loss_difference": -4.420937642489334e-05,
+      "identity_error": 1.3010426069826053e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00011548917655347398,
+      "alignment_B": 0.00012243314693357436,
+      "alignment_benefit_2B": 0.0002448662938671487,
+      "updated_minus_frozen_loss": -0.0001293771173136761,
+      "reconstructed_loss_difference": -0.00012937711731367474,
+      "identity_error": 1.3552527156068805e-18
+    }
+  },
+  {
+    "month": 200710,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0016977826019880544,
+      "alignment_B": -0.00028584861850465147,
+      "alignment_benefit_2B": -0.0005716972370093029,
+      "updated_minus_frozen_loss": 0.002269479838997359,
+      "reconstructed_loss_difference": 0.0022694798389973573,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.5216566073336866e-05,
+      "alignment_B": -1.9582056676452143e-05,
+      "alignment_benefit_2B": -3.9164113352904286e-05,
+      "updated_minus_frozen_loss": 5.43806794262372e-05,
+      "reconstructed_loss_difference": 5.438067942624115e-05,
+      "identity_error": 3.950561665994057e-18
+    }
+  },
+  {
+    "month": 200711,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 9.154621016412816e-05,
+      "alignment_B": -0.00030620844833484655,
+      "alignment_benefit_2B": -0.0006124168966696931,
+      "updated_minus_frozen_loss": 0.0007039631068338284,
+      "reconstructed_loss_difference": 0.0007039631068338212,
+      "identity_error": -7.15573433840433e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.471323378710243e-05,
+      "alignment_B": -0.000359106538634085,
+      "alignment_benefit_2B": -0.00071821307726817,
+      "updated_minus_frozen_loss": 0.0007529263110552763,
+      "reconstructed_loss_difference": 0.0007529263110552725,
+      "identity_error": -3.7947076036992655e-18
+    }
+  },
+  {
+    "month": 200712,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00029382737644282193,
+      "alignment_B": 0.0001324860074791004,
+      "alignment_benefit_2B": 0.0002649720149582008,
+      "updated_minus_frozen_loss": 2.8855361484631664e-05,
+      "reconstructed_loss_difference": 2.8855361484621147e-05,
+      "identity_error": -1.0516761073109393e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.835802565038156e-05,
+      "alignment_B": -3.2659912546279894e-06,
+      "alignment_benefit_2B": -6.531982509255979e-06,
+      "updated_minus_frozen_loss": 2.4890008159639265e-05,
+      "reconstructed_loss_difference": 2.489000815963754e-05,
+      "identity_error": -1.7245590806097555e-18
+    }
+  },
+  {
+    "month": 200801,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009396480541912621,
+      "alignment_B": 0.0016048608533244762,
+      "alignment_benefit_2B": 0.0032097217066489525,
+      "updated_minus_frozen_loss": -0.002270073652457686,
+      "reconstructed_loss_difference": -0.0022700736524576904,
+      "identity_error": -4.336808689942018e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.248161832203437e-05,
+      "alignment_B": -0.0003023209299366553,
+      "alignment_benefit_2B": -0.0006046418598733106,
+      "updated_minus_frozen_loss": 0.00065712347819534,
+      "reconstructed_loss_difference": 0.000657123478195345,
+      "identity_error": 4.9873299934333204e-18
+    }
+  },
+  {
+    "month": 200802,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00020824401813232353,
+      "alignment_B": 7.281958608712146e-05,
+      "alignment_benefit_2B": 0.00014563917217424291,
+      "updated_minus_frozen_loss": 6.260484595807525e-05,
+      "reconstructed_loss_difference": 6.260484595808062e-05,
+      "identity_error": 5.366800753803247e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 4.1620021320857174e-05,
+      "alignment_B": -5.584765900501681e-05,
+      "alignment_benefit_2B": -0.00011169531801003362,
+      "updated_minus_frozen_loss": 0.00015331533933089087,
+      "reconstructed_loss_difference": 0.0001533153393308908,
+      "identity_error": -5.421010862427522e-20
+    }
+  },
+  {
+    "month": 200803,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001620611375656517,
+      "alignment_B": 0.0008442336044579693,
+      "alignment_benefit_2B": 0.0016884672089159385,
+      "updated_minus_frozen_loss": -6.785583325941841e-05,
+      "reconstructed_loss_difference": -6.785583325942144e-05,
+      "identity_error": -3.0357660829594124e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.1729669808484e-05,
+      "alignment_B": -0.00014630276736556216,
+      "alignment_benefit_2B": -0.0002926055347311243,
+      "updated_minus_frozen_loss": 0.0003743352045396074,
+      "reconstructed_loss_difference": 0.00037433520453960834,
+      "identity_error": 9.215718466126788e-19
+    }
+  },
+  {
+    "month": 200804,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009868198979332723,
+      "alignment_B": -0.0004199263054349785,
+      "alignment_benefit_2B": -0.000839852610869957,
+      "updated_minus_frozen_loss": 0.001826672508803237,
+      "reconstructed_loss_difference": 0.0018266725088032293,
+      "identity_error": -7.806255641895632e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00010544620795393853,
+      "alignment_B": 0.00012790468462098816,
+      "alignment_benefit_2B": 0.0002558093692419763,
+      "updated_minus_frozen_loss": -0.0001503631612880356,
+      "reconstructed_loss_difference": -0.00015036316128803779,
+      "identity_error": -2.1955093992831465e-18
+    }
+  },
+  {
+    "month": 200805,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00046776973651709556,
+      "alignment_B": -0.0002316970793102523,
+      "alignment_benefit_2B": -0.0004633941586205046,
+      "updated_minus_frozen_loss": 0.0009311638951376017,
+      "reconstructed_loss_difference": 0.0009311638951376002,
+      "identity_error": -1.5178830414797062e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.612092370895364e-05,
+      "alignment_B": 2.877604950943319e-05,
+      "alignment_benefit_2B": 5.755209901886638e-05,
+      "updated_minus_frozen_loss": -4.1431175309913915e-05,
+      "reconstructed_loss_difference": -4.143117530991274e-05,
+      "identity_error": 1.1722935989999517e-18
+    }
+  },
+  {
+    "month": 200806,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0021049651884824066,
+      "alignment_B": 0.004930330940530885,
+      "alignment_benefit_2B": 0.00986066188106177,
+      "updated_minus_frozen_loss": -0.007755696692579389,
+      "reconstructed_loss_difference": -0.007755696692579363,
+      "identity_error": 2.6020852139652106e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.9051055734873352e-05,
+      "alignment_B": -0.00036278538968717995,
+      "alignment_benefit_2B": -0.0007255707793743599,
+      "updated_minus_frozen_loss": 0.0007446218351092326,
+      "reconstructed_loss_difference": 0.0007446218351092333,
+      "identity_error": 6.505213034913027e-19
+    }
+  },
+  {
+    "month": 200807,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.009299392071542619,
+      "alignment_B": -0.001813660818313044,
+      "alignment_benefit_2B": -0.003627321636626088,
+      "updated_minus_frozen_loss": 0.01292671370816871,
+      "reconstructed_loss_difference": 0.012926713708168707,
+      "identity_error": -3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00011002712007134567,
+      "alignment_B": -0.00016750953239822852,
+      "alignment_benefit_2B": -0.00033501906479645703,
+      "updated_minus_frozen_loss": 0.00044504618486779224,
+      "reconstructed_loss_difference": 0.0004450461848678027,
+      "identity_error": 1.0462550964485118e-17
+    }
+  },
+  {
+    "month": 200808,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0002558379727091986,
+      "alignment_B": 0.00031805346456676185,
+      "alignment_benefit_2B": 0.0006361069291335237,
+      "updated_minus_frozen_loss": -0.0003802689564243282,
+      "reconstructed_loss_difference": -0.0003802689564243251,
+      "identity_error": 3.0899761915836876e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.7764620095530005e-05,
+      "alignment_B": 0.0001221693013312262,
+      "alignment_benefit_2B": 0.0002443386026624524,
+      "updated_minus_frozen_loss": -0.00021657398256692134,
+      "reconstructed_loss_difference": -0.00021657398256692243,
+      "identity_error": -1.0842021724855044e-18
+    }
+  },
+  {
+    "month": 200809,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003401244606503487,
+      "alignment_B": -0.0016392600358057082,
+      "alignment_benefit_2B": -0.0032785200716114165,
+      "updated_minus_frozen_loss": 0.0036186445322617666,
+      "reconstructed_loss_difference": 0.0036186445322617653,
+      "identity_error": -1.3010426069826053e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.6438530623984636e-05,
+      "alignment_B": 0.0002046250302239526,
+      "alignment_benefit_2B": 0.0004092500604479052,
+      "updated_minus_frozen_loss": -0.00039281152982391376,
+      "reconstructed_loss_difference": -0.00039281152982392054,
+      "identity_error": -6.776263578034403e-18
+    }
+  },
+  {
+    "month": 200810,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009895911005818937,
+      "alignment_B": -0.0005604552203027046,
+      "alignment_benefit_2B": -0.0011209104406054093,
+      "updated_minus_frozen_loss": 0.0021105015411873596,
+      "reconstructed_loss_difference": 0.002110501541187303,
+      "identity_error": -5.637851296924623e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 7.584176836358239e-05,
+      "alignment_B": 0.0011652644514887705,
+      "alignment_benefit_2B": 0.002330528902977541,
+      "updated_minus_frozen_loss": -0.0022546871346139086,
+      "reconstructed_loss_difference": -0.0022546871346139584,
+      "identity_error": -4.9873299934333204e-17
+    }
+  },
+  {
+    "month": 200811,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.04489009814777545,
+      "alignment_B": 0.03805443494340214,
+      "alignment_benefit_2B": 0.07610886988680428,
+      "updated_minus_frozen_loss": -0.03121877173902886,
+      "reconstructed_loss_difference": -0.03121877173902883,
+      "identity_error": 2.7755575615628914e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0016771551921120253,
+      "alignment_B": 0.006880004396727177,
+      "alignment_benefit_2B": 0.013760008793454353,
+      "updated_minus_frozen_loss": -0.012082853601342342,
+      "reconstructed_loss_difference": -0.012082853601342328,
+      "identity_error": 1.3877787807814457e-17
+    }
+  },
+  {
+    "month": 200812,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.020748789205283842,
+      "alignment_B": 0.0014345765160942668,
+      "alignment_benefit_2B": 0.0028691530321885337,
+      "updated_minus_frozen_loss": 0.017879636173095306,
+      "reconstructed_loss_difference": 0.01787963617309531,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00466795904429307,
+      "alignment_B": 0.0007508075840308057,
+      "alignment_benefit_2B": 0.0015016151680616115,
+      "updated_minus_frozen_loss": 0.0031663438762314644,
+      "reconstructed_loss_difference": 0.0031663438762314588,
+      "identity_error": -5.637851296924623e-18
+    }
+  },
+  {
+    "month": 200901,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0030932377721496233,
+      "alignment_B": 0.006038860763453902,
+      "alignment_benefit_2B": 0.012077721526907803,
+      "updated_minus_frozen_loss": -0.008984483754758146,
+      "reconstructed_loss_difference": -0.008984483754758181,
+      "identity_error": -3.469446951953614e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002418806280858875,
+      "alignment_B": 0.006744646878161576,
+      "alignment_benefit_2B": 0.013489293756323153,
+      "updated_minus_frozen_loss": -0.011070487475464269,
+      "reconstructed_loss_difference": -0.011070487475464278,
+      "identity_error": -8.673617379884035e-18
+    }
+  },
+  {
+    "month": 200902,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002766764984346774,
+      "alignment_B": 0.007978944521862314,
+      "alignment_benefit_2B": 0.015957889043724627,
+      "updated_minus_frozen_loss": -0.013191124059377696,
+      "reconstructed_loss_difference": -0.013191124059377854,
+      "identity_error": -1.5785983631388945e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0026852949328307852,
+      "alignment_B": 0.0078007670866277,
+      "alignment_benefit_2B": 0.0156015341732554,
+      "updated_minus_frozen_loss": -0.012916239240424572,
+      "reconstructed_loss_difference": -0.012916239240424614,
+      "identity_error": -4.163336342344337e-17
+    }
+  },
+  {
+    "month": 200903,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.018709427183709656,
+      "alignment_B": -0.012677999845669561,
+      "alignment_benefit_2B": -0.025355999691339122,
+      "updated_minus_frozen_loss": 0.04406542687504866,
+      "reconstructed_loss_difference": 0.044065426875048774,
+      "identity_error": 1.1102230246251565e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.006001789975788168,
+      "alignment_B": -0.006747391889942601,
+      "alignment_benefit_2B": -0.013494783779885201,
+      "updated_minus_frozen_loss": 0.019496573755673346,
+      "reconstructed_loss_difference": 0.019496573755673367,
+      "identity_error": 2.0816681711721685e-17
+    }
+  },
+  {
+    "month": 200904,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.022901990991350672,
+      "alignment_B": -0.020115558867986928,
+      "alignment_benefit_2B": -0.040231117735973855,
+      "updated_minus_frozen_loss": 0.0631331087273243,
+      "reconstructed_loss_difference": 0.06313310872732453,
+      "identity_error": 2.220446049250313e-16
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.003207293976357644,
+      "alignment_B": -0.007157509491322858,
+      "alignment_benefit_2B": -0.014315018982645715,
+      "updated_minus_frozen_loss": 0.017522312959003306,
+      "reconstructed_loss_difference": 0.01752231295900336,
+      "identity_error": 5.551115123125783e-17
+    }
+  },
+  {
+    "month": 200905,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005663741581072498,
+      "alignment_B": -0.000280167025117826,
+      "alignment_benefit_2B": -0.000560334050235652,
+      "updated_minus_frozen_loss": 0.006224075631308196,
+      "reconstructed_loss_difference": 0.006224075631308151,
+      "identity_error": -4.5102810375396984e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0007646198176374611,
+      "alignment_B": -0.00011591446145394584,
+      "alignment_benefit_2B": -0.0002318289229078917,
+      "updated_minus_frozen_loss": 0.0009964487405453581,
+      "reconstructed_loss_difference": 0.0009964487405453527,
+      "identity_error": -5.421010862427522e-18
+    }
+  },
+  {
+    "month": 200906,
+    "environment": {
+      "A": 1,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006881345033887728,
+      "alignment_B": 0.00025842694692381114,
+      "alignment_benefit_2B": 0.0005168538938476223,
+      "updated_minus_frozen_loss": 0.0001712806095411218,
+      "reconstructed_loss_difference": 0.00017128060954115052,
+      "identity_error": 2.873135757086587e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.036489868763264e-05,
+      "alignment_B": 4.4163287709280964e-05,
+      "alignment_benefit_2B": 8.832657541856193e-05,
+      "updated_minus_frozen_loss": -7.961676730929013e-06,
+      "reconstructed_loss_difference": -7.961676730929284e-06,
+      "identity_error": -2.710505431213761e-19
+    }
+  },
+  {
+    "month": 200907,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007207691584686137,
+      "alignment_B": 0.001243422616459996,
+      "alignment_benefit_2B": 0.002486845232919992,
+      "updated_minus_frozen_loss": -0.0017660760744513393,
+      "reconstructed_loss_difference": -0.0017660760744513783,
+      "identity_error": -3.903127820947816e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 4.1969309672913564e-05,
+      "alignment_B": 0.00026397251933859655,
+      "alignment_benefit_2B": 0.0005279450386771931,
+      "updated_minus_frozen_loss": -0.00048597572900428015,
+      "reconstructed_loss_difference": -0.00048597572900427956,
+      "identity_error": 5.963111948670274e-19
+    }
+  },
+  {
+    "month": 200908,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.014216386188725415,
+      "alignment_B": 0.0034965872768901885,
+      "alignment_benefit_2B": 0.006993174553780377,
+      "updated_minus_frozen_loss": 0.007223211634945104,
+      "reconstructed_loss_difference": 0.007223211634945038,
+      "identity_error": -6.591949208711867e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00012434842407313748,
+      "alignment_B": 0.0005481153920007451,
+      "alignment_benefit_2B": 0.0010962307840014902,
+      "updated_minus_frozen_loss": -0.0009718823599283444,
+      "reconstructed_loss_difference": -0.0009718823599283526,
+      "identity_error": -8.239936510889834e-18
+    }
+  },
+  {
+    "month": 200909,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.007664262219319897,
+      "alignment_B": 0.006588155540887208,
+      "alignment_benefit_2B": 0.013176311081774417,
+      "updated_minus_frozen_loss": -0.0055120488624544745,
+      "reconstructed_loss_difference": -0.0055120488624545196,
+      "identity_error": -4.5102810375396984e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0009697140030494334,
+      "alignment_B": 0.002267747983422275,
+      "alignment_benefit_2B": 0.00453549596684455,
+      "updated_minus_frozen_loss": -0.0035657819637951033,
+      "reconstructed_loss_difference": -0.0035657819637951167,
+      "identity_error": -1.3444106938820255e-17
+    }
+  },
+  {
+    "month": 200910,
+    "environment": {
+      "A": 0,
+      "B1": 1,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00021560311869498898,
+      "alignment_B": -0.000599881392804774,
+      "alignment_benefit_2B": -0.001199762785609548,
+      "updated_minus_frozen_loss": 0.0014153659043046121,
+      "reconstructed_loss_difference": 0.0014153659043045369,
+      "identity_error": -7.524363077049401e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006390526194097396,
+      "alignment_B": -0.001803870288513974,
+      "alignment_benefit_2B": -0.003607740577027948,
+      "updated_minus_frozen_loss": 0.004246793196437691,
+      "reconstructed_loss_difference": 0.004246793196437688,
+      "identity_error": -3.469446951953614e-18
+    }
+  },
+  {
+    "month": 200911,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009509968007041987,
+      "alignment_B": 0.0012823142810204568,
+      "alignment_benefit_2B": 0.0025646285620409136,
+      "updated_minus_frozen_loss": -0.0016136317613367132,
+      "reconstructed_loss_difference": -0.001613631761336715,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00010685005098739898,
+      "alignment_B": 0.000361725413230977,
+      "alignment_benefit_2B": 0.000723450826461954,
+      "updated_minus_frozen_loss": -0.0006166007754745614,
+      "reconstructed_loss_difference": -0.000616600775474555,
+      "identity_error": 6.396792817664476e-18
+    }
+  },
+  {
+    "month": 200912,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0037835768769252823,
+      "alignment_B": 0.004178594530942949,
+      "alignment_benefit_2B": 0.008357189061885898,
+      "updated_minus_frozen_loss": -0.004573612184960593,
+      "reconstructed_loss_difference": -0.004573612184960616,
+      "identity_error": -2.2551405187698492e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014811713586448754,
+      "alignment_B": 0.0026602997782384373,
+      "alignment_benefit_2B": 0.005320599556476875,
+      "updated_minus_frozen_loss": -0.0038394281978319927,
+      "reconstructed_loss_difference": -0.0038394281978319992,
+      "identity_error": -6.5052130349130266e-18
+    }
+  },
+  {
+    "month": 201001,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000575816680216225,
+      "alignment_B": -0.0009287467731278154,
+      "alignment_benefit_2B": -0.0018574935462556308,
+      "updated_minus_frozen_loss": 0.00243331022647187,
+      "reconstructed_loss_difference": 0.0024333102264718558,
+      "identity_error": -1.431146867680866e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008497644903354146,
+      "alignment_B": -0.0007426083676973128,
+      "alignment_benefit_2B": -0.0014852167353946255,
+      "updated_minus_frozen_loss": 0.0023349812257300456,
+      "reconstructed_loss_difference": 0.00233498122573004,
+      "identity_error": -5.637851296924623e-18
+    }
+  },
+  {
+    "month": 201002,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007040759809980215,
+      "alignment_B": 0.0014245461299646728,
+      "alignment_benefit_2B": 0.0028490922599293455,
+      "updated_minus_frozen_loss": -0.0021450162789313325,
+      "reconstructed_loss_difference": -0.002145016278931324,
+      "identity_error": 8.673617379884035e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00045614615791322356,
+      "alignment_B": 0.0012727245666538409,
+      "alignment_benefit_2B": 0.0025454491333076817,
+      "updated_minus_frozen_loss": -0.0020893029753944643,
+      "reconstructed_loss_difference": -0.0020893029753944583,
+      "identity_error": 6.071532165918825e-18
+    }
+  },
+  {
+    "month": 201003,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011426851318511646,
+      "alignment_B": 0.0016305764403744035,
+      "alignment_benefit_2B": 0.003261152880748807,
+      "updated_minus_frozen_loss": -0.0021184677488975956,
+      "reconstructed_loss_difference": -0.0021184677488976424,
+      "identity_error": -4.683753385137379e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00041084317540883203,
+      "alignment_B": 0.0017350725948254303,
+      "alignment_benefit_2B": 0.0034701451896508606,
+      "updated_minus_frozen_loss": -0.003059302014242017,
+      "reconstructed_loss_difference": -0.0030593020142420284,
+      "identity_error": -1.1275702593849246e-17
+    }
+  },
+  {
+    "month": 201004,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001198965372968941,
+      "alignment_B": 0.0019038812755809338,
+      "alignment_benefit_2B": 0.0038077625511618676,
+      "updated_minus_frozen_loss": -0.0026087971781929634,
+      "reconstructed_loss_difference": -0.0026087971781929265,
+      "identity_error": 3.686287386450715e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006596127727968921,
+      "alignment_B": 0.001976839082573694,
+      "alignment_benefit_2B": 0.003953678165147388,
+      "updated_minus_frozen_loss": -0.003294065392350498,
+      "reconstructed_loss_difference": -0.0032940653923504964,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201005,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.006590000674832516,
+      "alignment_B": 0.006274578781036353,
+      "alignment_benefit_2B": 0.012549157562072706,
+      "updated_minus_frozen_loss": -0.00595915688724016,
+      "reconstructed_loss_difference": -0.00595915688724019,
+      "identity_error": -3.0357660829594124e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.803422063120773e-05,
+      "alignment_B": -0.0006136768592758547,
+      "alignment_benefit_2B": -0.0012273537185517095,
+      "updated_minus_frozen_loss": 0.0013153879391829201,
+      "reconstructed_loss_difference": 0.0013153879391829173,
+      "identity_error": -2.8189256484623115e-18
+    }
+  },
+  {
+    "month": 201006,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0055227704664949275,
+      "alignment_B": 0.003954458828789038,
+      "alignment_benefit_2B": 0.007908917657578077,
+      "updated_minus_frozen_loss": -0.002386147191083099,
+      "reconstructed_loss_difference": -0.0023861471910831492,
+      "identity_error": -5.0306980803327406e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00017364250192257385,
+      "alignment_B": 0.0006519063964990305,
+      "alignment_benefit_2B": 0.001303812792998061,
+      "updated_minus_frozen_loss": -0.0011301702910754795,
+      "reconstructed_loss_difference": -0.001130170291075487,
+      "identity_error": -7.589415207398531e-18
+    }
+  },
+  {
+    "month": 201007,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001826761452182602,
+      "alignment_B": 0.003337500151637994,
+      "alignment_benefit_2B": 0.006675000303275988,
+      "updated_minus_frozen_loss": -0.0048482388510933845,
+      "reconstructed_loss_difference": -0.004848238851093386,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.4092444954077967e-05,
+      "alignment_B": -3.090372526192661e-05,
+      "alignment_benefit_2B": -6.180745052385322e-05,
+      "updated_minus_frozen_loss": 7.589989547792872e-05,
+      "reconstructed_loss_difference": 7.589989547793119e-05,
+      "identity_error": 2.4665599424045226e-18
+    }
+  },
+  {
+    "month": 201008,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.007690320284148992,
+      "alignment_B": -0.007216258693448137,
+      "alignment_benefit_2B": -0.014432517386896274,
+      "updated_minus_frozen_loss": 0.0221228376710453,
+      "reconstructed_loss_difference": 0.022122837671045267,
+      "identity_error": -3.122502256758253e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 9.238693478221946e-05,
+      "alignment_B": -0.0007433731974160954,
+      "alignment_benefit_2B": -0.0014867463948321908,
+      "updated_minus_frozen_loss": 0.0015791333296144051,
+      "reconstructed_loss_difference": 0.0015791333296144101,
+      "identity_error": 4.9873299934333204e-18
+    }
+  },
+  {
+    "month": 201009,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00032975791860583004,
+      "alignment_B": -0.0018778112422778582,
+      "alignment_benefit_2B": -0.0037556224845557164,
+      "updated_minus_frozen_loss": 0.004085380403161573,
+      "reconstructed_loss_difference": 0.004085380403161546,
+      "identity_error": -2.688821387764051e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.85020551322415e-05,
+      "alignment_B": -0.0006672440041036871,
+      "alignment_benefit_2B": -0.0013344880082073742,
+      "updated_minus_frozen_loss": 0.0013729900633396089,
+      "reconstructed_loss_difference": 0.0013729900633396158,
+      "identity_error": 6.938893903907228e-18
+    }
+  },
+  {
+    "month": 201010,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.008090075793744309,
+      "alignment_B": -0.0015315606831783697,
+      "alignment_benefit_2B": -0.0030631213663567395,
+      "updated_minus_frozen_loss": 0.011153197160101058,
+      "reconstructed_loss_difference": 0.011153197160101047,
+      "identity_error": -1.0408340855860843e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.3221609721878964e-05,
+      "alignment_B": -4.500431092828998e-05,
+      "alignment_benefit_2B": -9.000862185657997e-05,
+      "updated_minus_frozen_loss": 0.0001032302315784571,
+      "reconstructed_loss_difference": 0.00010323023157845894,
+      "identity_error": 1.8431436932253575e-18
+    }
+  },
+  {
+    "month": 201011,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000969064161236187,
+      "alignment_B": 3.5459664703946006e-05,
+      "alignment_benefit_2B": 7.091932940789201e-05,
+      "updated_minus_frozen_loss": 0.0008981448318283042,
+      "reconstructed_loss_difference": 0.000898144831828295,
+      "identity_error": -9.215718466126788e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.1853008974039406e-05,
+      "alignment_B": 8.342591845368542e-06,
+      "alignment_benefit_2B": 1.6685183690737084e-05,
+      "updated_minus_frozen_loss": 5.167825283300398e-06,
+      "reconstructed_loss_difference": 5.167825283302322e-06,
+      "identity_error": 1.9244588561617704e-18
+    }
+  },
+  {
+    "month": 201012,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0038632237278068814,
+      "alignment_B": -0.004565746223735732,
+      "alignment_benefit_2B": -0.009131492447471464,
+      "updated_minus_frozen_loss": 0.012994716175278368,
+      "reconstructed_loss_difference": 0.012994716175278346,
+      "identity_error": -2.2551405187698492e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.340836447859115e-05,
+      "alignment_B": -0.0006675785062385833,
+      "alignment_benefit_2B": -0.0013351570124771667,
+      "updated_minus_frozen_loss": 0.0014185653769557618,
+      "reconstructed_loss_difference": 0.0014185653769557577,
+      "identity_error": -4.119968255444917e-18
+    }
+  },
+  {
+    "month": 201101,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005746008434525505,
+      "alignment_B": 0.00026804608651001527,
+      "alignment_benefit_2B": 0.0005360921730200305,
+      "updated_minus_frozen_loss": 3.850867043254588e-05,
+      "reconstructed_loss_difference": 3.850867043251997e-05,
+      "identity_error": -2.5912431922403556e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00041956075862689267,
+      "alignment_B": 0.000292769210370329,
+      "alignment_benefit_2B": 0.000585538420740658,
+      "updated_minus_frozen_loss": -0.0001659776621137643,
+      "reconstructed_loss_difference": -0.00016597766211376528,
+      "identity_error": -9.75781955236954e-19
+    }
+  },
+  {
+    "month": 201102,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00036481164577803997,
+      "alignment_B": 0.0009170306942456153,
+      "alignment_benefit_2B": 0.0018340613884912306,
+      "updated_minus_frozen_loss": -0.0014692497427131815,
+      "reconstructed_loss_difference": -0.0014692497427131906,
+      "identity_error": -9.107298248878237e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 6.519447763824373e-05,
+      "alignment_B": 0.00040049684184247477,
+      "alignment_benefit_2B": 0.0008009936836849495,
+      "updated_minus_frozen_loss": -0.0007357992060467167,
+      "reconstructed_loss_difference": -0.0007357992060467058,
+      "identity_error": 1.0842021724855044e-17
+    }
+  },
+  {
+    "month": 201103,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004309003835940845,
+      "alignment_B": 0.0001263719364956354,
+      "alignment_benefit_2B": 0.0002527438729912708,
+      "updated_minus_frozen_loss": 0.00017815651060282267,
+      "reconstructed_loss_difference": 0.00017815651060281373,
+      "identity_error": -8.944667923005412e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.602165369178057e-05,
+      "alignment_B": 2.8199645483271216e-05,
+      "alignment_benefit_2B": 5.639929096654243e-05,
+      "updated_minus_frozen_loss": -3.7763727476700093e-07,
+      "reconstructed_loss_difference": -3.776372747618645e-07,
+      "identity_error": 5.136407792150077e-18
+    }
+  },
+  {
+    "month": 201104,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006917307353717448,
+      "alignment_B": -5.9942069960201955e-05,
+      "alignment_benefit_2B": -0.00011988413992040391,
+      "updated_minus_frozen_loss": 0.00081161487529215,
+      "reconstructed_loss_difference": 0.0008116148752921488,
+      "identity_error": -1.1926223897340549e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.9791028241649657e-05,
+      "alignment_B": -2.8555286381311006e-05,
+      "alignment_benefit_2B": -5.711057276262201e-05,
+      "updated_minus_frozen_loss": 8.690160100427273e-05,
+      "reconstructed_loss_difference": 8.690160100427167e-05,
+      "identity_error": -1.0570971181733668e-18
+    }
+  },
+  {
+    "month": 201105,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009103906742815521,
+      "alignment_B": -0.00030474921068120387,
+      "alignment_benefit_2B": -0.0006094984213624077,
+      "updated_minus_frozen_loss": 0.0015198890956439701,
+      "reconstructed_loss_difference": 0.0015198890956439597,
+      "identity_error": -1.0408340855860843e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001986751298451532,
+      "alignment_B": -0.00015993358555736734,
+      "alignment_benefit_2B": -0.0003198671711147347,
+      "updated_minus_frozen_loss": 0.0005185423009598875,
+      "reconstructed_loss_difference": 0.0005185423009598879,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 201106,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007802769007215743,
+      "alignment_B": -5.2150245807041016e-05,
+      "alignment_benefit_2B": -0.00010430049161408203,
+      "updated_minus_frozen_loss": 0.0008845773923356649,
+      "reconstructed_loss_difference": 0.0008845773923356563,
+      "identity_error": -8.673617379884035e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00022024041165079886,
+      "alignment_B": -5.567614751159768e-05,
+      "alignment_benefit_2B": -0.00011135229502319535,
+      "updated_minus_frozen_loss": 0.00033159270667399397,
+      "reconstructed_loss_difference": 0.0003315927066739942,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201107,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00017747289793887622,
+      "alignment_B": 0.00011740429415954709,
+      "alignment_benefit_2B": 0.00023480858831909418,
+      "updated_minus_frozen_loss": -5.733569038021691e-05,
+      "reconstructed_loss_difference": -5.7335690380217965e-05,
+      "identity_error": -1.0570971181733668e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.0696911179730136e-05,
+      "alignment_B": -8.096203655179622e-05,
+      "alignment_benefit_2B": -0.00016192407310359244,
+      "updated_minus_frozen_loss": 0.0001926209842833225,
+      "reconstructed_loss_difference": 0.00019262098428332258,
+      "identity_error": 8.131516293641283e-20
+    }
+  },
+  {
+    "month": 201108,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 9.859514195302658e-05,
+      "alignment_B": 0.0006397670318758114,
+      "alignment_benefit_2B": 0.0012795340637516228,
+      "updated_minus_frozen_loss": -0.0011809389217986022,
+      "reconstructed_loss_difference": -0.0011809389217985963,
+      "identity_error": 5.854691731421724e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 7.010712527871783e-05,
+      "alignment_B": -0.0005736222860987519,
+      "alignment_benefit_2B": -0.0011472445721975037,
+      "updated_minus_frozen_loss": 0.0012173516974762141,
+      "reconstructed_loss_difference": 0.0012173516974762215,
+      "identity_error": 7.37257477290143e-18
+    }
+  },
+  {
+    "month": 201109,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.006537696458362898,
+      "alignment_B": 0.008824439559081302,
+      "alignment_benefit_2B": 0.017648879118162604,
+      "updated_minus_frozen_loss": -0.011111182659799712,
+      "reconstructed_loss_difference": -0.011111182659799705,
+      "identity_error": 6.938893903907228e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002408191993332627,
+      "alignment_B": 0.0015786853746912266,
+      "alignment_benefit_2B": 0.0031573707493824533,
+      "updated_minus_frozen_loss": -0.00291655155004919,
+      "reconstructed_loss_difference": -0.0029165515500491905,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201110,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00071819084859174,
+      "alignment_B": -0.003588030905764399,
+      "alignment_benefit_2B": -0.007176061811528798,
+      "updated_minus_frozen_loss": 0.00789425266012049,
+      "reconstructed_loss_difference": 0.007894252660120539,
+      "identity_error": 4.85722573273506e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.194770706549173e-05,
+      "alignment_B": -0.00036884227028723723,
+      "alignment_benefit_2B": -0.0007376845405744745,
+      "updated_minus_frozen_loss": 0.0007696322476399634,
+      "reconstructed_loss_difference": 0.0007696322476399662,
+      "identity_error": 2.8189256484623115e-18
+    }
+  },
+  {
+    "month": 201111,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011250192609292562,
+      "alignment_B": 0.0021536343392032998,
+      "alignment_benefit_2B": 0.0043072686784065995,
+      "updated_minus_frozen_loss": -0.0031822494174773286,
+      "reconstructed_loss_difference": -0.0031822494174773433,
+      "identity_error": -1.474514954580286e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00013259506153856038,
+      "alignment_B": -0.0006469135659824282,
+      "alignment_benefit_2B": -0.0012938271319648564,
+      "updated_minus_frozen_loss": 0.0014264221935034183,
+      "reconstructed_loss_difference": 0.0014264221935034167,
+      "identity_error": -1.5178830414797062e-18
+    }
+  },
+  {
+    "month": 201112,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004684365150232906,
+      "alignment_B": 0.0001986955077902605,
+      "alignment_benefit_2B": 0.000397391015580521,
+      "updated_minus_frozen_loss": 7.104549944277408e-05,
+      "reconstructed_loss_difference": 7.104549944276958e-05,
+      "identity_error": -4.4994390158148434e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 4.123341968309942e-05,
+      "alignment_B": 7.259879541508377e-05,
+      "alignment_benefit_2B": 0.00014519759083016755,
+      "updated_minus_frozen_loss": -0.0001039641711470668,
+      "reconstructed_loss_difference": -0.00010396417114706813,
+      "identity_error": -1.328147661294743e-18
+    }
+  },
+  {
+    "month": 201201,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0001234297168197944,
+      "alignment_B": 0.00039998371508554955,
+      "alignment_benefit_2B": 0.0007999674301710991,
+      "updated_minus_frozen_loss": -0.0006765377133512857,
+      "reconstructed_loss_difference": -0.0006765377133513047,
+      "identity_error": -1.9081958235744878e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.347715588946572e-05,
+      "alignment_B": -0.00010340787725278372,
+      "alignment_benefit_2B": -0.00020681575450556743,
+      "updated_minus_frozen_loss": 0.00023029291039503713,
+      "reconstructed_loss_difference": 0.00023029291039503315,
+      "identity_error": -3.984442983884229e-18
+    }
+  },
+  {
+    "month": 201202,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0018693068689883457,
+      "alignment_B": 0.001376264906166858,
+      "alignment_benefit_2B": 0.002752529812333716,
+      "updated_minus_frozen_loss": -0.000883222943345377,
+      "reconstructed_loss_difference": -0.0008832229433453703,
+      "identity_error": 6.7220534694101275e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004508860472612231,
+      "alignment_B": 0.0006777377948174813,
+      "alignment_benefit_2B": 0.0013554755896349627,
+      "updated_minus_frozen_loss": -0.0009045895423737405,
+      "reconstructed_loss_difference": -0.0009045895423737396,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201203,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0063226059538022345,
+      "alignment_B": 0.0020907758166733934,
+      "alignment_benefit_2B": 0.004181551633346787,
+      "updated_minus_frozen_loss": 0.002141054320455464,
+      "reconstructed_loss_difference": 0.0021410543204554476,
+      "identity_error": -1.6479873021779667e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00026052819002783017,
+      "alignment_B": 0.00043731948841181303,
+      "alignment_benefit_2B": 0.0008746389768236261,
+      "updated_minus_frozen_loss": -0.0006141107867957962,
+      "reconstructed_loss_difference": -0.0006141107867957959,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 201204,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0023228044391620686,
+      "alignment_B": -0.0011563911144174025,
+      "alignment_benefit_2B": -0.002312782228834805,
+      "updated_minus_frozen_loss": 0.004635586667996874,
+      "reconstructed_loss_difference": 0.004635586667996874,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00016548311673353865,
+      "alignment_B": -0.00026849159423609066,
+      "alignment_benefit_2B": -0.0005369831884721813,
+      "updated_minus_frozen_loss": 0.0007024663052057172,
+      "reconstructed_loss_difference": 0.00070246630520572,
+      "identity_error": 2.8189256484623115e-18
+    }
+  },
+  {
+    "month": 201205,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015444873405639607,
+      "alignment_B": -0.002585762358107897,
+      "alignment_benefit_2B": -0.005171524716215794,
+      "updated_minus_frozen_loss": 0.006716012056779755,
+      "reconstructed_loss_difference": 0.006716012056779755,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.466892588766226e-05,
+      "alignment_B": -0.0005510653411382845,
+      "alignment_benefit_2B": -0.001102130682276569,
+      "updated_minus_frozen_loss": 0.0011867996081642261,
+      "reconstructed_loss_difference": 0.0011867996081642313,
+      "identity_error": 5.204170427930421e-18
+    }
+  },
+  {
+    "month": 201206,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003076738180243189,
+      "alignment_B": 0.003586691519180967,
+      "alignment_benefit_2B": 0.007173383038361934,
+      "updated_minus_frozen_loss": -0.00409664485811875,
+      "reconstructed_loss_difference": -0.0040966448581187444,
+      "identity_error": 5.204170427930421e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.303694289678115e-05,
+      "alignment_B": 0.00039079515962489413,
+      "alignment_benefit_2B": 0.0007815903192497883,
+      "updated_minus_frozen_loss": -0.0007285533763530042,
+      "reconstructed_loss_difference": -0.0007285533763530071,
+      "identity_error": -2.927345865710862e-18
+    }
+  },
+  {
+    "month": 201207,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005432460644548683,
+      "alignment_B": -0.00022017548121050926,
+      "alignment_benefit_2B": -0.00044035096242101853,
+      "updated_minus_frozen_loss": 0.0009835970268758862,
+      "reconstructed_loss_difference": 0.0009835970268758868,
+      "identity_error": 6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00022947336803150488,
+      "alignment_B": -0.0001557744873540911,
+      "alignment_benefit_2B": -0.0003115489747081822,
+      "updated_minus_frozen_loss": 0.000541022342739686,
+      "reconstructed_loss_difference": 0.000541022342739687,
+      "identity_error": 1.0842021724855044e-18
+    }
+  },
+  {
+    "month": 201208,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002666543854174705,
+      "alignment_B": 0.002366201003810114,
+      "alignment_benefit_2B": 0.004732402007620228,
+      "updated_minus_frozen_loss": -0.00206585815344551,
+      "reconstructed_loss_difference": -0.0020658581534455235,
+      "identity_error": -1.3444106938820255e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002767673246673436,
+      "alignment_B": 0.0007493491064508605,
+      "alignment_benefit_2B": 0.001498698212901721,
+      "updated_minus_frozen_loss": -0.001221930888234378,
+      "reconstructed_loss_difference": -0.0012219308882343773,
+      "identity_error": 6.505213034913027e-19
+    }
+  },
+  {
+    "month": 201209,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 8.730397359426898e-05,
+      "alignment_B": -0.00013351029114415432,
+      "alignment_benefit_2B": -0.00026702058228830864,
+      "updated_minus_frozen_loss": 0.0003543245558825722,
+      "reconstructed_loss_difference": 0.00035432455588257764,
+      "identity_error": 5.421010862427522e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00025405213743622456,
+      "alignment_B": 0.0005161064965958635,
+      "alignment_benefit_2B": 0.001032212993191727,
+      "updated_minus_frozen_loss": -0.0007781608557555046,
+      "reconstructed_loss_difference": -0.0007781608557555024,
+      "identity_error": 2.168404344971009e-18
+    }
+  },
+  {
+    "month": 201210,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003073401647999517,
+      "alignment_B": 0.000489700401819728,
+      "alignment_benefit_2B": 0.000979400803639456,
+      "updated_minus_frozen_loss": -0.0006720606388394973,
+      "reconstructed_loss_difference": -0.0006720606388395043,
+      "identity_error": -7.047314121155779e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001804279002353127,
+      "alignment_B": -0.0001708767242141431,
+      "alignment_benefit_2B": -0.0003417534484282862,
+      "updated_minus_frozen_loss": 0.000522181348663598,
+      "reconstructed_loss_difference": 0.0005221813486635989,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201211,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00041370655992917194,
+      "alignment_B": 0.0004780556136571935,
+      "alignment_benefit_2B": 0.000956111227314387,
+      "updated_minus_frozen_loss": -0.0005424046673852129,
+      "reconstructed_loss_difference": -0.000542404667385215,
+      "identity_error": -2.168404344971009e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.243520377844973e-05,
+      "alignment_B": 0.00022161750011543977,
+      "alignment_benefit_2B": 0.00044323500023087955,
+      "updated_minus_frozen_loss": -0.00036079979645243024,
+      "reconstructed_loss_difference": -0.0003607997964524298,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201212,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00022652971882049282,
+      "alignment_B": -0.00025807563703426277,
+      "alignment_benefit_2B": -0.0005161512740685255,
+      "updated_minus_frozen_loss": 0.0007426809928890131,
+      "reconstructed_loss_difference": 0.0007426809928890183,
+      "identity_error": 5.204170427930421e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 4.14931026415493e-05,
+      "alignment_B": 0.00019324907130898722,
+      "alignment_benefit_2B": 0.00038649814261797444,
+      "updated_minus_frozen_loss": -0.0003450050399764256,
+      "reconstructed_loss_difference": -0.0003450050399764251,
+      "identity_error": 4.87890977618477e-19
+    }
+  },
+  {
+    "month": 201301,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0002294298635872525,
+      "alignment_B": -0.0007494124619214152,
+      "alignment_benefit_2B": -0.0014988249238428303,
+      "updated_minus_frozen_loss": 0.0017282547874301162,
+      "reconstructed_loss_difference": 0.0017282547874300828,
+      "identity_error": -3.3393426912553537e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002095316586681534,
+      "alignment_B": 0.000998430884739581,
+      "alignment_benefit_2B": 0.001996861769479162,
+      "updated_minus_frozen_loss": -0.0017873301108110133,
+      "reconstructed_loss_difference": -0.0017873301108110088,
+      "identity_error": 4.553649124439119e-18
+    }
+  },
+  {
+    "month": 201302,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00012882706972514724,
+      "alignment_B": 3.296205953072474e-05,
+      "alignment_benefit_2B": 6.592411906144948e-05,
+      "updated_minus_frozen_loss": 6.290295066371104e-05,
+      "reconstructed_loss_difference": 6.290295066369776e-05,
+      "identity_error": -1.328147661294743e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003089011413536045,
+      "alignment_B": 0.00029000695207440183,
+      "alignment_benefit_2B": 0.0005800139041488037,
+      "updated_minus_frozen_loss": -0.00027111276279519897,
+      "reconstructed_loss_difference": -0.0002711127627951992,
+      "identity_error": -2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201303,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00013871182605849574,
+      "alignment_B": 0.0003237229064329501,
+      "alignment_benefit_2B": 0.0006474458128659002,
+      "updated_minus_frozen_loss": -0.0005087339868074074,
+      "reconstructed_loss_difference": -0.0005087339868074045,
+      "identity_error": 2.927345865710862e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.608864867075194e-05,
+      "alignment_B": 0.00043410286620058284,
+      "alignment_benefit_2B": 0.0008682057324011657,
+      "updated_minus_frozen_loss": -0.0007821170837304138,
+      "reconstructed_loss_difference": -0.0007821170837304138,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201304,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00010783266308354434,
+      "alignment_B": 9.441585374771464e-05,
+      "alignment_benefit_2B": 0.00018883170749542928,
+      "updated_minus_frozen_loss": -8.099904441188216e-05,
+      "reconstructed_loss_difference": -8.099904441188494e-05,
+      "identity_error": -2.778268066994105e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001375804463318705,
+      "alignment_B": 4.194818045271788e-05,
+      "alignment_benefit_2B": 8.389636090543576e-05,
+      "updated_minus_frozen_loss": 5.368408542643678e-05,
+      "reconstructed_loss_difference": 5.3684085426434735e-05,
+      "identity_error": -2.0464316005663896e-18
+    }
+  },
+  {
+    "month": 201305,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0019193240286285425,
+      "alignment_B": 0.0026945693796107625,
+      "alignment_benefit_2B": 0.005389138759221525,
+      "updated_minus_frozen_loss": -0.0034698147305929523,
+      "reconstructed_loss_difference": -0.0034698147305929827,
+      "identity_error": -3.0357660829594124e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000244708679351052,
+      "alignment_B": 0.0009220015667545063,
+      "alignment_benefit_2B": 0.0018440031335090125,
+      "updated_minus_frozen_loss": -0.0015992944541579589,
+      "reconstructed_loss_difference": -0.0015992944541579606,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201306,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00018339649120718425,
+      "alignment_B": 0.00010070299039958062,
+      "alignment_benefit_2B": 0.00020140598079916125,
+      "updated_minus_frozen_loss": -1.8009489591970518e-05,
+      "reconstructed_loss_difference": -1.8009489591976996e-05,
+      "identity_error": -6.478107980600889e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003663964918829976,
+      "alignment_B": -6.485274750375857e-05,
+      "alignment_benefit_2B": -0.00012970549500751713,
+      "updated_minus_frozen_loss": 0.0004961019868905143,
+      "reconstructed_loss_difference": 0.0004961019868905147,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201307,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0001673553559192563,
+      "alignment_B": 0.0002277406295985676,
+      "alignment_benefit_2B": 0.0004554812591971352,
+      "updated_minus_frozen_loss": -0.0002881259032778971,
+      "reconstructed_loss_difference": -0.0002881259032778789,
+      "identity_error": 1.8214596497756474e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 6.300210208978803e-05,
+      "alignment_B": 0.00032535479692951454,
+      "alignment_benefit_2B": 0.0006507095938590291,
+      "updated_minus_frozen_loss": -0.0005877074917692432,
+      "reconstructed_loss_difference": -0.000587707491769241,
+      "identity_error": 2.168404344971009e-18
+    }
+  },
+  {
+    "month": 201308,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009393684613879791,
+      "alignment_B": -0.0006834084397707313,
+      "alignment_benefit_2B": -0.0013668168795414625,
+      "updated_minus_frozen_loss": 0.002306185340929457,
+      "reconstructed_loss_difference": 0.0023061853409294415,
+      "identity_error": -1.5612511283791264e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00030546696991697226,
+      "alignment_B": -0.00037192029739052565,
+      "alignment_benefit_2B": -0.0007438405947810513,
+      "updated_minus_frozen_loss": 0.0010493075646980272,
+      "reconstructed_loss_difference": 0.0010493075646980236,
+      "identity_error": -3.686287386450715e-18
+    }
+  },
+  {
+    "month": 201309,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0017866645753594813,
+      "alignment_B": 0.003113904431791116,
+      "alignment_benefit_2B": 0.006227808863582232,
+      "updated_minus_frozen_loss": -0.004441144288222714,
+      "reconstructed_loss_difference": -0.0044411442882227505,
+      "identity_error": -3.642919299551295e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00012673920825502524,
+      "alignment_B": 0.0006892719029965007,
+      "alignment_benefit_2B": 0.0013785438059930014,
+      "updated_minus_frozen_loss": -0.0012518045977379724,
+      "reconstructed_loss_difference": -0.0012518045977379761,
+      "identity_error": -3.686287386450715e-18
+    }
+  },
+  {
+    "month": 201310,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00021040503608342335,
+      "alignment_B": 2.394906553293064e-06,
+      "alignment_benefit_2B": 4.789813106586128e-06,
+      "updated_minus_frozen_loss": 0.00020561522297684112,
+      "reconstructed_loss_difference": 0.00020561522297683722,
+      "identity_error": -3.903127820947816e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00013928568603141086,
+      "alignment_B": 0.00031016122410900613,
+      "alignment_benefit_2B": 0.0006203224482180123,
+      "updated_minus_frozen_loss": -0.0004810367621866027,
+      "reconstructed_loss_difference": -0.0004810367621866014,
+      "identity_error": 1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201311,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003280199624564267,
+      "alignment_B": 0.0006710877963876462,
+      "alignment_benefit_2B": 0.0013421755927752923,
+      "updated_minus_frozen_loss": -0.0010141556303188623,
+      "reconstructed_loss_difference": -0.0010141556303188656,
+      "identity_error": -3.2526065174565133e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001354536048694002,
+      "alignment_B": 0.00046584515624900586,
+      "alignment_benefit_2B": 0.0009316903124980117,
+      "updated_minus_frozen_loss": -0.0007962367076286107,
+      "reconstructed_loss_difference": -0.0007962367076286115,
+      "identity_error": -7.589415207398531e-19
+    }
+  },
+  {
+    "month": 201312,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003750779486779572,
+      "alignment_B": -0.00044053137078353894,
+      "alignment_benefit_2B": -0.0008810627415670779,
+      "updated_minus_frozen_loss": 0.001256140690245034,
+      "reconstructed_loss_difference": 0.001256140690245035,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003468746583805549,
+      "alignment_B": 0.0005572559327855622,
+      "alignment_benefit_2B": 0.0011145118655711244,
+      "updated_minus_frozen_loss": -0.0007676372071905684,
+      "reconstructed_loss_difference": -0.0007676372071905695,
+      "identity_error": -1.1926223897340549e-18
+    }
+  },
+  {
+    "month": 201401,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00024135283817414006,
+      "alignment_B": -0.00040693066379380585,
+      "alignment_benefit_2B": -0.0008138613275876117,
+      "updated_minus_frozen_loss": 0.0010552141657617434,
+      "reconstructed_loss_difference": 0.0010552141657617518,
+      "identity_error": 8.456776945386935e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000511572206052099,
+      "alignment_B": -7.627778840335858e-05,
+      "alignment_benefit_2B": -0.00015255557680671715,
+      "updated_minus_frozen_loss": 0.000664127782858806,
+      "reconstructed_loss_difference": 0.0006641277828588161,
+      "identity_error": 1.0083080204115191e-17
+    }
+  },
+  {
+    "month": 201402,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.006132065791673801,
+      "alignment_B": 0.005364514969806749,
+      "alignment_benefit_2B": 0.010729029939613497,
+      "updated_minus_frozen_loss": -0.004596964147939675,
+      "reconstructed_loss_difference": -0.004596964147939696,
+      "identity_error": -2.168404344971009e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005376720521985181,
+      "alignment_B": 0.0015573356697010034,
+      "alignment_benefit_2B": 0.0031146713394020068,
+      "updated_minus_frozen_loss": -0.0025769992872034866,
+      "reconstructed_loss_difference": -0.002576999287203489,
+      "identity_error": -2.168404344971009e-18
+    }
+  },
+  {
+    "month": 201403,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00020180400713021974,
+      "alignment_B": 2.5950239301269878e-05,
+      "alignment_benefit_2B": 5.1900478602539755e-05,
+      "updated_minus_frozen_loss": 0.0001499035285276798,
+      "reconstructed_loss_difference": 0.00014990352852768,
+      "identity_error": 1.8973538018496328e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.868599015347009e-05,
+      "alignment_B": 5.3682537265227484e-05,
+      "alignment_benefit_2B": 0.00010736507453045497,
+      "updated_minus_frozen_loss": -1.8679084376988647e-05,
+      "reconstructed_loss_difference": -1.867908437698488e-05,
+      "identity_error": 3.767602549387128e-18
+    }
+  },
+  {
+    "month": 201404,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006472784640822758,
+      "alignment_B": -0.0003877622690267204,
+      "alignment_benefit_2B": -0.0007755245380534408,
+      "updated_minus_frozen_loss": 0.0014228030021357103,
+      "reconstructed_loss_difference": 0.0014228030021357166,
+      "identity_error": 6.288372600415926e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00013171559467307526,
+      "alignment_B": -9.532995357703589e-05,
+      "alignment_benefit_2B": -0.00019065990715407178,
+      "updated_minus_frozen_loss": 0.0003223755018271438,
+      "reconstructed_loss_difference": 0.0003223755018271471,
+      "identity_error": 3.2526065174565133e-18
+    }
+  },
+  {
+    "month": 201405,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00010723690960750838,
+      "alignment_B": 0.00035371507561740914,
+      "alignment_benefit_2B": 0.0007074301512348183,
+      "updated_minus_frozen_loss": -0.0006001932416273056,
+      "reconstructed_loss_difference": -0.0006001932416273099,
+      "identity_error": -4.336808689942018e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005019552917363062,
+      "alignment_B": 0.0008306285761563842,
+      "alignment_benefit_2B": 0.0016612571523127685,
+      "updated_minus_frozen_loss": -0.0011593018605764605,
+      "reconstructed_loss_difference": -0.0011593018605764623,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201406,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0002606431372548528,
+      "alignment_B": 0.0009605253594267508,
+      "alignment_benefit_2B": 0.0019210507188535016,
+      "updated_minus_frozen_loss": -0.0016604075815986365,
+      "reconstructed_loss_difference": -0.0016604075815986488,
+      "identity_error": -1.235990476633475e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0009623365546023939,
+      "alignment_B": 0.0020194003818375873,
+      "alignment_benefit_2B": 0.004038800763675175,
+      "updated_minus_frozen_loss": -0.0030764642090727844,
+      "reconstructed_loss_difference": -0.003076464209072781,
+      "identity_error": 3.469446951953614e-18
+    }
+  },
+  {
+    "month": 201407,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 8.727065045016123e-05,
+      "alignment_B": 0.0002966977066747211,
+      "alignment_benefit_2B": 0.0005933954133494422,
+      "updated_minus_frozen_loss": -0.00050612476289927,
+      "reconstructed_loss_difference": -0.0005061247628992809,
+      "identity_error": -1.0950441942103595e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006105501190382996,
+      "alignment_B": -0.0011040131596794513,
+      "alignment_benefit_2B": -0.0022080263193589027,
+      "updated_minus_frozen_loss": 0.002818576438397207,
+      "reconstructed_loss_difference": 0.0028185764383972024,
+      "identity_error": -4.7704895589362195e-18
+    }
+  },
+  {
+    "month": 201408,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005315858454335267,
+      "alignment_B": 0.006061470634803756,
+      "alignment_benefit_2B": 0.012122941269607512,
+      "updated_minus_frozen_loss": -0.00680708281527222,
+      "reconstructed_loss_difference": -0.006807082815272245,
+      "identity_error": -2.42861286636753e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00045221582134432025,
+      "alignment_B": 0.0017572336321471575,
+      "alignment_benefit_2B": 0.003514467264294315,
+      "updated_minus_frozen_loss": -0.0030622514429499877,
+      "reconstructed_loss_difference": -0.0030622514429499946,
+      "identity_error": -6.938893903907228e-18
+    }
+  },
+  {
+    "month": 201409,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00013009525246106954,
+      "alignment_B": -0.0003334233283713937,
+      "alignment_benefit_2B": -0.0006668466567427874,
+      "updated_minus_frozen_loss": 0.000796941909203857,
+      "reconstructed_loss_difference": 0.000796941909203857,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004980666238336351,
+      "alignment_B": -0.0006802176717414122,
+      "alignment_benefit_2B": -0.0013604353434828243,
+      "updated_minus_frozen_loss": 0.001858501967316465,
+      "reconstructed_loss_difference": 0.0018585019673164594,
+      "identity_error": -5.637851296924623e-18
+    }
+  },
+  {
+    "month": 201410,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0058252011972010735,
+      "alignment_B": 0.005405803010712103,
+      "alignment_benefit_2B": 0.010811606021424206,
+      "updated_minus_frozen_loss": -0.004986404824223117,
+      "reconstructed_loss_difference": -0.004986404824223132,
+      "identity_error": -1.5612511283791264e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008432242554650114,
+      "alignment_B": 0.002058019725549296,
+      "alignment_benefit_2B": 0.004116039451098592,
+      "updated_minus_frozen_loss": -0.003272815195633577,
+      "reconstructed_loss_difference": -0.0032728151956335806,
+      "identity_error": -3.469446951953614e-18
+    }
+  },
+  {
+    "month": 201411,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0001462044993766163,
+      "alignment_B": 0.0002646630833571314,
+      "alignment_benefit_2B": 0.0005293261667142628,
+      "updated_minus_frozen_loss": -0.0003831216673376471,
+      "reconstructed_loss_difference": -0.00038312166733764656,
+      "identity_error": 5.421010862427522e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00024809313500225136,
+      "alignment_B": 0.00018573146163877274,
+      "alignment_benefit_2B": 0.0003714629232775455,
+      "updated_minus_frozen_loss": -0.0001233697882752939,
+      "reconstructed_loss_difference": -0.00012336978827529412,
+      "identity_error": -2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201412,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0062484693721041205,
+      "alignment_B": 0.0041796091990195985,
+      "alignment_benefit_2B": 0.008359218398039197,
+      "updated_minus_frozen_loss": -0.0021107490259350756,
+      "reconstructed_loss_difference": -0.0021107490259350764,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0010230074722848161,
+      "alignment_B": 0.0016500749097405553,
+      "alignment_benefit_2B": 0.0033001498194811106,
+      "updated_minus_frozen_loss": -0.0022771423471962954,
+      "reconstructed_loss_difference": -0.0022771423471962945,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201501,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00137266382385435,
+      "alignment_B": -0.0003928415195853169,
+      "alignment_benefit_2B": -0.0007856830391706338,
+      "updated_minus_frozen_loss": 0.0021583468630249868,
+      "reconstructed_loss_difference": 0.0021583468630249837,
+      "identity_error": -3.0357660829594124e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005536762994544709,
+      "alignment_B": -0.0002714273392930675,
+      "alignment_benefit_2B": -0.000542854678586135,
+      "updated_minus_frozen_loss": 0.0010965309780406052,
+      "reconstructed_loss_difference": 0.001096530978040606,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201502,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0037515997306591035,
+      "alignment_B": 0.006055299983329241,
+      "alignment_benefit_2B": 0.012110599966658482,
+      "updated_minus_frozen_loss": -0.008359000235999375,
+      "reconstructed_loss_difference": -0.008359000235999378,
+      "identity_error": -3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00016453184259929572,
+      "alignment_B": 0.0012291864301639164,
+      "alignment_benefit_2B": 0.0024583728603278327,
+      "updated_minus_frozen_loss": -0.0022938410177285457,
+      "reconstructed_loss_difference": -0.002293841017728537,
+      "identity_error": 8.673617379884035e-18
+    }
+  },
+  {
+    "month": 201503,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0008596403779941107,
+      "alignment_B": 0.0005325821730778234,
+      "alignment_benefit_2B": 0.0010651643461556469,
+      "updated_minus_frozen_loss": -0.00020552396816153964,
+      "reconstructed_loss_difference": -0.00020552396816153617,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004916493426069246,
+      "alignment_B": 0.00037372642781187724,
+      "alignment_benefit_2B": 0.0007474528556237545,
+      "updated_minus_frozen_loss": -0.0002558035130168293,
+      "reconstructed_loss_difference": -0.00025580351301682984,
+      "identity_error": -5.421010862427522e-19
+    }
+  },
+  {
+    "month": 201504,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012326476093210655,
+      "alignment_B": 0.00032531030801154036,
+      "alignment_benefit_2B": 0.0006506206160230807,
+      "updated_minus_frozen_loss": 0.000582026993297978,
+      "reconstructed_loss_difference": 0.0005820269932979848,
+      "identity_error": 6.830473686658678e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00015184333674030809,
+      "alignment_B": 0.00015165549871655088,
+      "alignment_benefit_2B": 0.00030331099743310176,
+      "updated_minus_frozen_loss": -0.00015146766069280143,
+      "reconstructed_loss_difference": -0.00015146766069279368,
+      "identity_error": 7.752045533271357e-18
+    }
+  },
+  {
+    "month": 201505,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.008837677350227433,
+      "alignment_B": 0.004196690424584941,
+      "alignment_benefit_2B": 0.008393380849169883,
+      "updated_minus_frozen_loss": 0.0004442965010575603,
+      "reconstructed_loss_difference": 0.0004442965010575499,
+      "identity_error": -1.0408340855860843e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008963334261218933,
+      "alignment_B": 0.0012755256225493096,
+      "alignment_benefit_2B": 0.0025510512450986193,
+      "updated_minus_frozen_loss": -0.0016547178189767232,
+      "reconstructed_loss_difference": -0.0016547178189767258,
+      "identity_error": -2.6020852139652106e-18
+    }
+  },
+  {
+    "month": 201506,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013269326330108623,
+      "alignment_B": 0.0007454905939639427,
+      "alignment_benefit_2B": 0.0014909811879278854,
+      "updated_minus_frozen_loss": -0.00016404855491701856,
+      "reconstructed_loss_difference": -0.0001640485549170231,
+      "identity_error": -4.553649124439119e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005833516571639822,
+      "alignment_B": 0.00045458007443627876,
+      "alignment_benefit_2B": 0.0009091601488725575,
+      "updated_minus_frozen_loss": -0.000325808491708577,
+      "reconstructed_loss_difference": -0.00032580849170857535,
+      "identity_error": 1.6263032587282567e-18
+    }
+  },
+  {
+    "month": 201507,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009936696437275363,
+      "alignment_B": -0.00016445520769483863,
+      "alignment_benefit_2B": -0.00032891041538967727,
+      "updated_minus_frozen_loss": 0.0013225800591172045,
+      "reconstructed_loss_difference": 0.0013225800591172136,
+      "identity_error": 9.107298248878237e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 9.497983987081439e-05,
+      "alignment_B": -0.0001170338313491325,
+      "alignment_benefit_2B": -0.000234067662698265,
+      "updated_minus_frozen_loss": 0.0003290475025690791,
+      "reconstructed_loss_difference": 0.0003290475025690794,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 201508,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0008314633122279647,
+      "alignment_B": -0.0004315174083853308,
+      "alignment_benefit_2B": -0.0008630348167706616,
+      "updated_minus_frozen_loss": 0.001694498128998627,
+      "reconstructed_loss_difference": 0.0016944981289986262,
+      "identity_error": -6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003227104849524331,
+      "alignment_B": -0.00017701626662978393,
+      "alignment_benefit_2B": -0.00035403253325956785,
+      "updated_minus_frozen_loss": 0.0006767430182119949,
+      "reconstructed_loss_difference": 0.000676743018212001,
+      "identity_error": 6.071532165918825e-18
+    }
+  },
+  {
+    "month": 201509,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00023335492756547507,
+      "alignment_B": 0.0003417446182361046,
+      "alignment_benefit_2B": 0.0006834892364722092,
+      "updated_minus_frozen_loss": -0.0004501343089066967,
+      "reconstructed_loss_difference": -0.00045013430890673416,
+      "identity_error": -3.745918505937418e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.494543151419975e-05,
+      "alignment_B": -4.7881711347479996e-05,
+      "alignment_benefit_2B": -9.576342269495999e-05,
+      "updated_minus_frozen_loss": 0.00015070885420915767,
+      "reconstructed_loss_difference": 0.00015070885420915973,
+      "identity_error": 2.0599841277224584e-18
+    }
+  },
+  {
+    "month": 201510,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003136987722040009,
+      "alignment_B": -0.000742409847173145,
+      "alignment_benefit_2B": -0.00148481969434629,
+      "updated_minus_frozen_loss": 0.0017985184665502835,
+      "reconstructed_loss_difference": 0.0017985184665502908,
+      "identity_error": 7.37257477290143e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.3383826285262068e-05,
+      "alignment_B": 0.00016632714066865622,
+      "alignment_benefit_2B": 0.00033265428133731243,
+      "updated_minus_frozen_loss": -0.0003092704550520485,
+      "reconstructed_loss_difference": -0.00030927045505205035,
+      "identity_error": -1.8431436932253575e-18
+    }
+  },
+  {
+    "month": 201511,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00031246544394255323,
+      "alignment_B": 0.00045724070260341195,
+      "alignment_benefit_2B": 0.0009144814052068239,
+      "updated_minus_frozen_loss": -0.00060201596126426,
+      "reconstructed_loss_difference": -0.0006020159612642707,
+      "identity_error": -1.0625181290357943e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003018887829737252,
+      "alignment_B": 0.0005811378613627878,
+      "alignment_benefit_2B": 0.0011622757227255755,
+      "updated_minus_frozen_loss": -0.0008603869397518643,
+      "reconstructed_loss_difference": -0.0008603869397518503,
+      "identity_error": 1.3986208025063007e-17
+    }
+  },
+  {
+    "month": 201512,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00013092186352808675,
+      "alignment_B": 0.0004542525136551742,
+      "alignment_benefit_2B": 0.0009085050273103484,
+      "updated_minus_frozen_loss": -0.00077758316378225,
+      "reconstructed_loss_difference": -0.0007775831637822617,
+      "identity_error": -1.1709383462843448e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0007352017151196989,
+      "alignment_B": -0.00098049403529103,
+      "alignment_benefit_2B": -0.00196098807058206,
+      "updated_minus_frozen_loss": 0.0026961897857017657,
+      "reconstructed_loss_difference": 0.0026961897857017587,
+      "identity_error": -6.938893903907228e-18
+    }
+  },
+  {
+    "month": 201601,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0032413245072371896,
+      "alignment_B": -0.003231814374438166,
+      "alignment_benefit_2B": -0.006463628748876332,
+      "updated_minus_frozen_loss": 0.009704953256113483,
+      "reconstructed_loss_difference": 0.009704953256113522,
+      "identity_error": 3.8163916471489756e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00019670026824642283,
+      "alignment_B": -0.0006682413900340219,
+      "alignment_benefit_2B": -0.0013364827800680437,
+      "updated_minus_frozen_loss": 0.001533183048314471,
+      "reconstructed_loss_difference": 0.0015331830483144666,
+      "identity_error": -4.336808689942018e-18
+    }
+  },
+  {
+    "month": 201602,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015274866899549916,
+      "alignment_B": 0.0015997934017842686,
+      "alignment_benefit_2B": 0.003199586803568537,
+      "updated_minus_frozen_loss": -0.0016721001136135415,
+      "reconstructed_loss_difference": -0.0016721001136135456,
+      "identity_error": -4.119968255444917e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.4531493129049014e-05,
+      "alignment_B": 0.00026519663365539897,
+      "alignment_benefit_2B": 0.0005303932673107979,
+      "updated_minus_frozen_loss": -0.0004958617741817467,
+      "reconstructed_loss_difference": -0.0004958617741817489,
+      "identity_error": -2.168404344971009e-18
+    }
+  },
+  {
+    "month": 201603,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015305457222989068,
+      "alignment_B": 0.003488909441183162,
+      "alignment_benefit_2B": 0.006977818882366324,
+      "updated_minus_frozen_loss": -0.005447273160067406,
+      "reconstructed_loss_difference": -0.0054472731600674175,
+      "identity_error": -1.1275702593849246e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.50485598110619e-05,
+      "alignment_B": 0.0006971895581872006,
+      "alignment_benefit_2B": 0.0013943791163744013,
+      "updated_minus_frozen_loss": -0.0013393305565633368,
+      "reconstructed_loss_difference": -0.0013393305565633394,
+      "identity_error": -2.6020852139652106e-18
+    }
+  },
+  {
+    "month": 201604,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000806846305018822,
+      "alignment_B": 0.0010644728624238018,
+      "alignment_benefit_2B": 0.0021289457248476035,
+      "updated_minus_frozen_loss": -0.001322099419828783,
+      "reconstructed_loss_difference": -0.0013220994198287815,
+      "identity_error": 1.5178830414797062e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006290718617417163,
+      "alignment_B": 0.0010708174318433564,
+      "alignment_benefit_2B": 0.0021416348636867128,
+      "updated_minus_frozen_loss": -0.0015125630019449977,
+      "reconstructed_loss_difference": -0.0015125630019449964,
+      "identity_error": 1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201605,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00122754118998057,
+      "alignment_B": 0.0008667294945110518,
+      "alignment_benefit_2B": 0.0017334589890221036,
+      "updated_minus_frozen_loss": -0.0005059177990415428,
+      "reconstructed_loss_difference": -0.0005059177990415335,
+      "identity_error": 9.324138683375338e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006925511151353599,
+      "alignment_B": 0.0005912854914473455,
+      "alignment_benefit_2B": 0.001182570982894691,
+      "updated_minus_frozen_loss": -0.0004900198677593309,
+      "reconstructed_loss_difference": -0.000490019867759331,
+      "identity_error": -1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 201606,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00046940753282420953,
+      "alignment_B": -8.704176871709162e-05,
+      "alignment_benefit_2B": -0.00017408353743418324,
+      "updated_minus_frozen_loss": 0.0006434910702583924,
+      "reconstructed_loss_difference": 0.0006434910702583928,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00024868070657878266,
+      "alignment_B": 7.806827683187106e-05,
+      "alignment_benefit_2B": 0.00015613655366374213,
+      "updated_minus_frozen_loss": 9.254415291504864e-05,
+      "reconstructed_loss_difference": 9.254415291504053e-05,
+      "identity_error": -8.104411239329146e-18
+    }
+  },
+  {
+    "month": 201607,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00023314148836783765,
+      "alignment_B": -0.0009730822774304187,
+      "alignment_benefit_2B": -0.0019461645548608374,
+      "updated_minus_frozen_loss": 0.0021793060432286626,
+      "reconstructed_loss_difference": 0.002179306043228675,
+      "identity_error": 1.2576745200831851e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.048636861652279e-05,
+      "alignment_B": 0.0004940799746941031,
+      "alignment_benefit_2B": 0.0009881599493882062,
+      "updated_minus_frozen_loss": -0.0009376735807716807,
+      "reconstructed_loss_difference": -0.0009376735807716834,
+      "identity_error": -2.710505431213761e-18
+    }
+  },
+  {
+    "month": 201608,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000231694757320244,
+      "alignment_B": 0.00023902745624152573,
+      "alignment_benefit_2B": 0.00047805491248305147,
+      "updated_minus_frozen_loss": -0.00024636015516280724,
+      "reconstructed_loss_difference": -0.00024636015516280745,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002919654693762453,
+      "alignment_B": 0.00028657199942214336,
+      "alignment_benefit_2B": 0.0005731439988442867,
+      "updated_minus_frozen_loss": -0.00028117852946804925,
+      "reconstructed_loss_difference": -0.0002811785294680414,
+      "identity_error": 7.860465750519907e-18
+    }
+  },
+  {
+    "month": 201609,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0010597667049920794,
+      "alignment_B": 0.0012506072729010827,
+      "alignment_benefit_2B": 0.0025012145458021655,
+      "updated_minus_frozen_loss": -0.0014414478408100936,
+      "reconstructed_loss_difference": -0.001441447840810086,
+      "identity_error": 7.589415207398531e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008897334310138949,
+      "alignment_B": 0.0010469319784721747,
+      "alignment_benefit_2B": 0.0020938639569443493,
+      "updated_minus_frozen_loss": -0.0012041305259304497,
+      "reconstructed_loss_difference": -0.0012041305259304544,
+      "identity_error": -4.7704895589362195e-18
+    }
+  },
+  {
+    "month": 201610,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004234502267221419,
+      "alignment_B": -0.0004121580734287561,
+      "alignment_benefit_2B": -0.0008243161468575122,
+      "updated_minus_frozen_loss": 0.0012477663735796403,
+      "reconstructed_loss_difference": 0.0012477663735796542,
+      "identity_error": 1.3877787807814457e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006471986877677596,
+      "alignment_B": -0.0007829233592621597,
+      "alignment_benefit_2B": -0.0015658467185243193,
+      "updated_minus_frozen_loss": 0.00221304540629208,
+      "reconstructed_loss_difference": 0.002213045406292079,
+      "identity_error": -1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201611,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0016980174516097108,
+      "alignment_B": 0.004603825090151406,
+      "alignment_benefit_2B": 0.009207650180302812,
+      "updated_minus_frozen_loss": -0.0075096327286930595,
+      "reconstructed_loss_difference": -0.007509632728693101,
+      "identity_error": -4.163336342344337e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004876823536666703,
+      "alignment_B": 0.0025285484689680266,
+      "alignment_benefit_2B": 0.005057096937936053,
+      "updated_minus_frozen_loss": -0.004569414584269391,
+      "reconstructed_loss_difference": -0.004569414584269383,
+      "identity_error": 7.806255641895632e-18
+    }
+  },
+  {
+    "month": 201612,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005064830364856517,
+      "alignment_B": 0.0003335433497556258,
+      "alignment_benefit_2B": 0.0006670866995112516,
+      "updated_minus_frozen_loss": -0.00016060366302561233,
+      "reconstructed_loss_difference": -0.00016060366302559986,
+      "identity_error": 1.2468324983583301e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00012008699639756201,
+      "alignment_B": 0.00019367084275354784,
+      "alignment_benefit_2B": 0.00038734168550709567,
+      "updated_minus_frozen_loss": -0.0002672546891095348,
+      "reconstructed_loss_difference": -0.0002672546891095337,
+      "identity_error": 1.1384122811097797e-18
+    }
+  },
+  {
+    "month": 201701,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00642741341111363,
+      "alignment_B": 0.001778447429889144,
+      "alignment_benefit_2B": 0.003556894859778288,
+      "updated_minus_frozen_loss": 0.0028705185513353375,
+      "reconstructed_loss_difference": 0.002870518551335342,
+      "identity_error": 4.336808689942018e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00030774463756416063,
+      "alignment_B": 0.00035217276012389616,
+      "alignment_benefit_2B": 0.0007043455202477923,
+      "updated_minus_frozen_loss": -0.00039660088268363494,
+      "reconstructed_loss_difference": -0.0003966008826836317,
+      "identity_error": 3.2526065174565133e-18
+    }
+  },
+  {
+    "month": 201702,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0038596939234348537,
+      "alignment_B": 0.0031850605844071385,
+      "alignment_benefit_2B": 0.006370121168814277,
+      "updated_minus_frozen_loss": -0.0025104272453794277,
+      "reconstructed_loss_difference": -0.0025104272453794233,
+      "identity_error": 4.336808689942018e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008526442843457027,
+      "alignment_B": 0.0014025662983221084,
+      "alignment_benefit_2B": 0.0028051325966442168,
+      "updated_minus_frozen_loss": -0.0019524883122985191,
+      "reconstructed_loss_difference": -0.001952488312298514,
+      "identity_error": 5.204170427930421e-18
+    }
+  },
+  {
+    "month": 201703,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00162894050921759,
+      "alignment_B": 0.0006992979365918187,
+      "alignment_benefit_2B": 0.0013985958731836375,
+      "updated_minus_frozen_loss": 0.00023034463603394811,
+      "reconstructed_loss_difference": 0.00023034463603395245,
+      "identity_error": 4.336808689942018e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0007099613363404397,
+      "alignment_B": 0.000370400138086314,
+      "alignment_benefit_2B": 0.000740800276172628,
+      "updated_minus_frozen_loss": -3.083893983219302e-05,
+      "reconstructed_loss_difference": -3.083893983218825e-05,
+      "identity_error": 4.7704895589362195e-18
+    }
+  },
+  {
+    "month": 201704,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011945303712767189,
+      "alignment_B": 0.0006369108629339312,
+      "alignment_benefit_2B": 0.0012738217258678624,
+      "updated_minus_frozen_loss": -7.92913545911468e-05,
+      "reconstructed_loss_difference": -7.929135459114355e-05,
+      "identity_error": 3.2526065174565133e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00034833664526603324,
+      "alignment_B": 0.0003329963225882954,
+      "alignment_benefit_2B": 0.0006659926451765908,
+      "updated_minus_frozen_loss": -0.00031765599991055715,
+      "reconstructed_loss_difference": -0.00031765599991055753,
+      "identity_error": -3.7947076036992655e-19
+    }
+  },
+  {
+    "month": 201705,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006447897815560949,
+      "alignment_B": -0.00012123031109372872,
+      "alignment_benefit_2B": -0.00024246062218745743,
+      "updated_minus_frozen_loss": 0.0008872504037435447,
+      "reconstructed_loss_difference": 0.0008872504037435523,
+      "identity_error": 7.589415207398531e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002122902881364299,
+      "alignment_B": -0.00010362988536382312,
+      "alignment_benefit_2B": -0.00020725977072764623,
+      "updated_minus_frozen_loss": 0.000419550058864078,
+      "reconstructed_loss_difference": 0.00041955005886407614,
+      "identity_error": -1.8431436932253575e-18
+    }
+  },
+  {
+    "month": 201706,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0016501098577641757,
+      "alignment_B": 0.002475734701662729,
+      "alignment_benefit_2B": 0.004951469403325458,
+      "updated_minus_frozen_loss": -0.003301359545561308,
+      "reconstructed_loss_difference": -0.003301359545561282,
+      "identity_error": 2.6020852139652106e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000563291394567225,
+      "alignment_B": 0.001406453516264458,
+      "alignment_benefit_2B": 0.002812907032528916,
+      "updated_minus_frozen_loss": -0.0022496156379617077,
+      "reconstructed_loss_difference": -0.0022496156379616912,
+      "identity_error": 1.6479873021779667e-17
+    }
+  },
+  {
+    "month": 201707,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0002742782340030788,
+      "alignment_B": 2.3579710076423095e-05,
+      "alignment_benefit_2B": 4.715942015284619e-05,
+      "updated_minus_frozen_loss": 0.00022711881385023037,
+      "reconstructed_loss_difference": 0.0002271188138502326,
+      "identity_error": 2.222614453595284e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006705035802228614,
+      "alignment_B": 0.00038522660510248745,
+      "alignment_benefit_2B": 0.0007704532102049749,
+      "updated_minus_frozen_loss": -9.994962998211704e-05,
+      "reconstructed_loss_difference": -9.994962998211346e-05,
+      "identity_error": 3.577867169202165e-18
+    }
+  },
+  {
+    "month": 201708,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007318036508781661,
+      "alignment_B": 0.00041472127273688907,
+      "alignment_benefit_2B": 0.0008294425454737781,
+      "updated_minus_frozen_loss": -9.763889459561692e-05,
+      "reconstructed_loss_difference": -9.763889459561204e-05,
+      "identity_error": 4.87890977618477e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005911650523908568,
+      "alignment_B": 0.00021931312167181407,
+      "alignment_benefit_2B": 0.00043862624334362814,
+      "updated_minus_frozen_loss": 0.00015253880904723266,
+      "reconstructed_loss_difference": 0.00015253880904722865,
+      "identity_error": -4.0115480381963664e-18
+    }
+  },
+  {
+    "month": 201709,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009261521643465949,
+      "alignment_B": 0.0025774343860935495,
+      "alignment_benefit_2B": 0.005154868772187099,
+      "updated_minus_frozen_loss": -0.004228716607840487,
+      "reconstructed_loss_difference": -0.004228716607840504,
+      "identity_error": -1.734723475976807e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000267419393662607,
+      "alignment_B": 0.0014366210227667099,
+      "alignment_benefit_2B": 0.0028732420455334197,
+      "updated_minus_frozen_loss": -0.002605822651870808,
+      "reconstructed_loss_difference": -0.002605822651870813,
+      "identity_error": -4.7704895589362195e-18
+    }
+  },
+  {
+    "month": 201710,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00016353754891644044,
+      "alignment_B": 0.0001077353871096294,
+      "alignment_benefit_2B": 0.0002154707742192588,
+      "updated_minus_frozen_loss": -5.193322530282207e-05,
+      "reconstructed_loss_difference": -5.193322530281836e-05,
+      "identity_error": 3.713392440762853e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00024107685210056923,
+      "alignment_B": 0.00022537506900111934,
+      "alignment_benefit_2B": 0.0004507501380022387,
+      "updated_minus_frozen_loss": -0.00020967328590167436,
+      "reconstructed_loss_difference": -0.00020967328590166946,
+      "identity_error": 4.9060148304969076e-18
+    }
+  },
+  {
+    "month": 201711,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011100762634505584,
+      "alignment_B": 0.0015937053197482255,
+      "alignment_benefit_2B": 0.003187410639496451,
+      "updated_minus_frozen_loss": -0.002077334376045875,
+      "reconstructed_loss_difference": -0.0020773343760458925,
+      "identity_error": -1.734723475976807e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002648299763602874,
+      "alignment_B": 0.0007871478703963939,
+      "alignment_benefit_2B": 0.0015742957407927879,
+      "updated_minus_frozen_loss": -0.0013094657644324992,
+      "reconstructed_loss_difference": -0.0013094657644325005,
+      "identity_error": -1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201712,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009551187719554588,
+      "alignment_B": 0.0010904168325607277,
+      "alignment_benefit_2B": 0.0021808336651214554,
+      "updated_minus_frozen_loss": -0.0012257148931659953,
+      "reconstructed_loss_difference": -0.0012257148931659966,
+      "identity_error": -1.3010426069826053e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003897679962159361,
+      "alignment_B": 0.0007258615307369991,
+      "alignment_benefit_2B": 0.0014517230614739982,
+      "updated_minus_frozen_loss": -0.0010619550652580662,
+      "reconstructed_loss_difference": -0.0010619550652580623,
+      "identity_error": 3.903127820947816e-18
+    }
+  },
+  {
+    "month": 201801,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003400574433051441,
+      "alignment_B": 0.00380524322665117,
+      "alignment_benefit_2B": 0.00761048645330234,
+      "updated_minus_frozen_loss": -0.004209912020250901,
+      "reconstructed_loss_difference": -0.004209912020250899,
+      "identity_error": 2.6020852139652106e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001055915476867075,
+      "alignment_B": 0.002108976068587574,
+      "alignment_benefit_2B": 0.004217952137175148,
+      "updated_minus_frozen_loss": -0.0031620366603080756,
+      "reconstructed_loss_difference": -0.0031620366603080726,
+      "identity_error": 3.0357660829594124e-18
+    }
+  },
+  {
+    "month": 201802,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0018727162397496255,
+      "alignment_B": -0.0006226326273951861,
+      "alignment_benefit_2B": -0.0012452652547903721,
+      "updated_minus_frozen_loss": 0.0031179814945399946,
+      "reconstructed_loss_difference": 0.0031179814945399976,
+      "identity_error": 3.0357660829594124e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0010852655713800281,
+      "alignment_B": -0.0005619031792467096,
+      "alignment_benefit_2B": -0.0011238063584934192,
+      "updated_minus_frozen_loss": 0.0022090719298734456,
+      "reconstructed_loss_difference": 0.0022090719298734473,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201803,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013540113428439403,
+      "alignment_B": 0.0007413023703500329,
+      "alignment_benefit_2B": 0.0014826047407000657,
+      "updated_minus_frozen_loss": -0.0001285933978561228,
+      "reconstructed_loss_difference": -0.0001285933978561254,
+      "identity_error": -2.6020852139652106e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.5862762012928876e-05,
+      "alignment_B": 0.00011548513555673874,
+      "alignment_benefit_2B": 0.00023097027111347747,
+      "updated_minus_frozen_loss": -0.00020510750910054942,
+      "reconstructed_loss_difference": -0.0002051075091005486,
+      "identity_error": 8.131516293641283e-19
+    }
+  },
+  {
+    "month": 201804,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003030438613213662,
+      "alignment_B": 0.0002440247745592988,
+      "alignment_benefit_2B": 0.0004880495491185976,
+      "updated_minus_frozen_loss": -0.0001850056877972378,
+      "reconstructed_loss_difference": -0.0001850056877972314,
+      "identity_error": 6.396792817664476e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.289362793349852e-05,
+      "alignment_B": 6.766774369709052e-05,
+      "alignment_benefit_2B": 0.00013533548739418105,
+      "updated_minus_frozen_loss": -0.00010244185946068143,
+      "reconstructed_loss_difference": -0.00010244185946068253,
+      "identity_error": -1.0977546996415732e-18
+    }
+  },
+  {
+    "month": 201805,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0016677851337881593,
+      "alignment_B": 0.0027175550057539537,
+      "alignment_benefit_2B": 0.005435110011507907,
+      "updated_minus_frozen_loss": -0.0037673248777197257,
+      "reconstructed_loss_difference": -0.0037673248777197483,
+      "identity_error": -2.2551405187698492e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003394009354650069,
+      "alignment_B": 0.001240623780991718,
+      "alignment_benefit_2B": 0.002481247561983436,
+      "updated_minus_frozen_loss": -0.0021418466265184233,
+      "reconstructed_loss_difference": -0.0021418466265184294,
+      "identity_error": -6.071532165918825e-18
+    }
+  },
+  {
+    "month": 201806,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004387415237579446,
+      "alignment_B": 0.00042650719705533414,
+      "alignment_benefit_2B": 0.0008530143941106683,
+      "updated_minus_frozen_loss": -0.0004142728703527207,
+      "reconstructed_loss_difference": -0.0004142728703527237,
+      "identity_error": -2.9815559743351372e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002509649687941472,
+      "alignment_B": 0.00033631605674651154,
+      "alignment_benefit_2B": 0.0006726321134930231,
+      "updated_minus_frozen_loss": -0.00042166714469887845,
+      "reconstructed_loss_difference": -0.0004216671446988759,
+      "identity_error": 2.5478751053409354e-18
+    }
+  },
+  {
+    "month": 201807,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0017127034547777355,
+      "alignment_B": 0.0013439840155338412,
+      "alignment_benefit_2B": 0.0026879680310676825,
+      "updated_minus_frozen_loss": -0.0009752645762899446,
+      "reconstructed_loss_difference": -0.000975264576289947,
+      "identity_error": -2.3852447794681098e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00029352309825533634,
+      "alignment_B": 0.0005828825522610171,
+      "alignment_benefit_2B": 0.0011657651045220343,
+      "updated_minus_frozen_loss": -0.0008722420062666977,
+      "reconstructed_loss_difference": -0.000872242006266698,
+      "identity_error": -2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201808,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006859417006537078,
+      "alignment_B": 0.001334188785491297,
+      "alignment_benefit_2B": 0.002668377570982594,
+      "updated_minus_frozen_loss": -0.0019824358703288865,
+      "reconstructed_loss_difference": -0.0019824358703288865,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003336522184750482,
+      "alignment_B": 0.0008922953341697249,
+      "alignment_benefit_2B": 0.0017845906683394497,
+      "updated_minus_frozen_loss": -0.001450938449864405,
+      "reconstructed_loss_difference": -0.0014509384498644015,
+      "identity_error": 3.469446951953614e-18
+    }
+  },
+  {
+    "month": 201809,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00020961417038595434,
+      "alignment_B": -8.054685371832996e-06,
+      "alignment_benefit_2B": -1.6109370743665993e-05,
+      "updated_minus_frozen_loss": 0.0002257235411296278,
+      "reconstructed_loss_difference": 0.00022572354112962033,
+      "identity_error": -7.48099499014998e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00034219821729473575,
+      "alignment_B": -0.00015900504674421282,
+      "alignment_benefit_2B": -0.00031801009348842563,
+      "updated_minus_frozen_loss": 0.000660208310783162,
+      "reconstructed_loss_difference": 0.0006602083107831614,
+      "identity_error": -6.505213034913027e-19
+    }
+  },
+  {
+    "month": 201810,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0022696796746664192,
+      "alignment_B": -0.003150031458327742,
+      "alignment_benefit_2B": -0.006300062916655484,
+      "updated_minus_frozen_loss": 0.0085697425913219,
+      "reconstructed_loss_difference": 0.008569742591321903,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006063276235855129,
+      "alignment_B": -0.0015864657517994083,
+      "alignment_benefit_2B": -0.0031729315035988167,
+      "updated_minus_frozen_loss": 0.003779259127184329,
+      "reconstructed_loss_difference": 0.0037792591271843296,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201811,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00629965681055633,
+      "alignment_B": 0.0031799678100502974,
+      "alignment_benefit_2B": 0.006359935620100595,
+      "updated_minus_frozen_loss": -6.02788095442619e-05,
+      "reconstructed_loss_difference": -6.0278809544264504e-05,
+      "identity_error": -2.6020852139652106e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00030437457361310325,
+      "alignment_B": 0.0006692097242605821,
+      "alignment_benefit_2B": 0.0013384194485211642,
+      "updated_minus_frozen_loss": -0.0010340448749080605,
+      "reconstructed_loss_difference": -0.001034044874908061,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201812,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004307073337721323,
+      "alignment_B": -0.007025822481238883,
+      "alignment_benefit_2B": -0.014051644962477766,
+      "updated_minus_frozen_loss": 0.01835871830019909,
+      "reconstructed_loss_difference": 0.01835871830019909,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00043858363891594347,
+      "alignment_B": -0.0023078082544341306,
+      "alignment_benefit_2B": -0.004615616508868261,
+      "updated_minus_frozen_loss": 0.005054200147784217,
+      "reconstructed_loss_difference": 0.005054200147784205,
+      "identity_error": -1.214306433183765e-17
+    }
+  },
+  {
+    "month": 201901,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001766297330355617,
+      "alignment_B": 0.004536379745057762,
+      "alignment_benefit_2B": 0.009072759490115524,
+      "updated_minus_frozen_loss": -0.007306462159759913,
+      "reconstructed_loss_difference": -0.007306462159759907,
+      "identity_error": 6.071532165918825e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00016694406739664925,
+      "alignment_B": 0.0017274989225224645,
+      "alignment_benefit_2B": 0.003454997845044929,
+      "updated_minus_frozen_loss": -0.00328805377764832,
+      "reconstructed_loss_difference": -0.00328805377764828,
+      "identity_error": 3.9898639947466563e-17
+    }
+  },
+  {
+    "month": 201902,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 1,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012437987282203032,
+      "alignment_B": -0.0009111314228499361,
+      "alignment_benefit_2B": -0.0018222628456998722,
+      "updated_minus_frozen_loss": 0.00306606157392017,
+      "reconstructed_loss_difference": 0.0030660615739201754,
+      "identity_error": 5.204170427930421e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005844053561883057,
+      "alignment_B": 0.0006545726867248625,
+      "alignment_benefit_2B": 0.001309145373449725,
+      "updated_minus_frozen_loss": -0.000724740017261416,
+      "reconstructed_loss_difference": -0.0007247400172614193,
+      "identity_error": -3.2526065174565133e-18
+    }
+  },
+  {
+    "month": 201903,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00045024689861597125,
+      "alignment_B": -0.0004455258489087339,
+      "alignment_benefit_2B": -0.0008910516978174678,
+      "updated_minus_frozen_loss": 0.001341298596433449,
+      "reconstructed_loss_difference": 0.001341298596433439,
+      "identity_error": -9.974659986866641e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00041630835952328414,
+      "alignment_B": -0.0006437720960841496,
+      "alignment_benefit_2B": -0.0012875441921682991,
+      "updated_minus_frozen_loss": 0.001703852551691594,
+      "reconstructed_loss_difference": 0.0017038525516915833,
+      "identity_error": -1.0625181290357943e-17
+    }
+  },
+  {
+    "month": 201904,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003203294671337681,
+      "alignment_B": 0.0008004436152619369,
+      "alignment_benefit_2B": 0.0016008872305238737,
+      "updated_minus_frozen_loss": -0.0012805577633901097,
+      "reconstructed_loss_difference": -0.0012805577633901056,
+      "identity_error": 4.119968255444917e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008942169220474073,
+      "alignment_B": 0.0012367664877521926,
+      "alignment_benefit_2B": 0.0024735329755043852,
+      "updated_minus_frozen_loss": -0.0015793160534569792,
+      "reconstructed_loss_difference": -0.0015793160534569779,
+      "identity_error": 1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201905,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0001714528917463337,
+      "alignment_B": 0.0008217784470994719,
+      "alignment_benefit_2B": 0.0016435568941989439,
+      "updated_minus_frozen_loss": -0.0014721040024526025,
+      "reconstructed_loss_difference": -0.00147210400245261,
+      "identity_error": -7.589415207398531e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004753577405936424,
+      "alignment_B": -0.0020783096216271378,
+      "alignment_benefit_2B": -0.0041566192432542755,
+      "updated_minus_frozen_loss": 0.004631976983847923,
+      "reconstructed_loss_difference": 0.0046319769838479175,
+      "identity_error": -5.204170427930421e-18
+    }
+  },
+  {
+    "month": 201906,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00033300445061964893,
+      "alignment_B": 0.0013075278824299286,
+      "alignment_benefit_2B": 0.002615055764859857,
+      "updated_minus_frozen_loss": -0.0022820513142402174,
+      "reconstructed_loss_difference": -0.0022820513142402083,
+      "identity_error": 9.107298248878237e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006198935687098488,
+      "alignment_B": 0.001974182797981637,
+      "alignment_benefit_2B": 0.003948365595963274,
+      "updated_minus_frozen_loss": -0.0033284720272534277,
+      "reconstructed_loss_difference": -0.003328472027253425,
+      "identity_error": 2.6020852139652106e-18
+    }
+  },
+  {
+    "month": 201907,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00065890530886193,
+      "alignment_B": 0.000717380321670802,
+      "alignment_benefit_2B": 0.001434760643341604,
+      "updated_minus_frozen_loss": -0.0007758553344796755,
+      "reconstructed_loss_difference": -0.000775855334479674,
+      "identity_error": 1.5178830414797062e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00040428448104935316,
+      "alignment_B": -0.00033647591248004024,
+      "alignment_benefit_2B": -0.0006729518249600805,
+      "updated_minus_frozen_loss": 0.0010772363060094318,
+      "reconstructed_loss_difference": 0.0010772363060094336,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201908,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 1
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00041061737969149895,
+      "alignment_B": 0.0009393405004926861,
+      "alignment_benefit_2B": 0.0018786810009853723,
+      "updated_minus_frozen_loss": -0.0014680636212938795,
+      "reconstructed_loss_difference": -0.0014680636212938733,
+      "identity_error": 6.288372600415926e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005426955804446856,
+      "alignment_B": -0.0009642357283962672,
+      "alignment_benefit_2B": -0.0019284714567925343,
+      "updated_minus_frozen_loss": 0.002471167037237213,
+      "reconstructed_loss_difference": 0.00247116703723722,
+      "identity_error": 6.938893903907228e-18
+    }
+  },
+  {
+    "month": 201909,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00014680707932738043,
+      "alignment_B": 0.0004366928310972549,
+      "alignment_benefit_2B": 0.0008733856621945098,
+      "updated_minus_frozen_loss": -0.0007265785828671351,
+      "reconstructed_loss_difference": -0.0007265785828671294,
+      "identity_error": 5.637851296924623e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003439373351839809,
+      "alignment_B": 0.0009023839335004273,
+      "alignment_benefit_2B": 0.0018047678670008547,
+      "updated_minus_frozen_loss": -0.0014608305318168785,
+      "reconstructed_loss_difference": -0.0014608305318168737,
+      "identity_error": 4.7704895589362195e-18
+    }
+  },
+  {
+    "month": 201910,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00028522718194261954,
+      "alignment_B": 0.00019920241223187949,
+      "alignment_benefit_2B": 0.00039840482446375897,
+      "updated_minus_frozen_loss": -0.00011317764252113949,
+      "reconstructed_loss_difference": -0.00011317764252113943,
+      "identity_error": 5.421010862427522e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00018956043839521287,
+      "alignment_B": 0.00012412523217941604,
+      "alignment_benefit_2B": 0.0002482504643588321,
+      "updated_minus_frozen_loss": -5.8690025963616804e-05,
+      "reconstructed_loss_difference": -5.8690025963619217e-05,
+      "identity_error": -2.4123498337802474e-18
+    }
+  },
+  {
+    "month": 201911,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00019891516723142654,
+      "alignment_B": 0.0006216753091157154,
+      "alignment_benefit_2B": 0.0012433506182314307,
+      "updated_minus_frozen_loss": -0.0010444354509999906,
+      "reconstructed_loss_difference": -0.001044435451000004,
+      "identity_error": -1.3444106938820255e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004172635723609316,
+      "alignment_B": 0.0010035316533079676,
+      "alignment_benefit_2B": 0.0020070633066159352,
+      "updated_minus_frozen_loss": -0.001589799734255,
+      "reconstructed_loss_difference": -0.0015897997342550036,
+      "identity_error": -3.686287386450715e-18
+    }
+  },
+  {
+    "month": 201912,
+    "environment": {
+      "A": 0,
+      "B1": 0,
+      "B2": 0,
+      "C": 0
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0002739396331102938,
+      "alignment_B": 0.0004326363844221093,
+      "alignment_benefit_2B": 0.0008652727688442186,
+      "updated_minus_frozen_loss": -0.0005913331357339235,
+      "reconstructed_loss_difference": -0.0005913331357339248,
+      "identity_error": -1.3010426069826053e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0010751542824486984,
+      "alignment_B": 0.0019958688745428765,
+      "alignment_benefit_2B": 0.003991737749085753,
+      "updated_minus_frozen_loss": -0.0029165834666370627,
+      "reconstructed_loss_difference": -0.002916583466637055,
+      "identity_error": 7.806255641895632e-18
+    }
+  }
+]

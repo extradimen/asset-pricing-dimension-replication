@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P7-G1-V001",
+  "parent_experiment_id": "P7-G0-V003",
+  "paper": 7,
+  "generation": "G1",
+  "status": "planned",
+  "evidence_class": "exploratory_frozen_model_geometry",
+  "research_question": "What finite-scale geometry do the hidden representations of the 30 frozen Core-86 pricing networks exhibit, how does it move across layers and market states, and does the preregistered final-layer participation rank predict frozen development-period economic function after controlling for output factor count?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "research_snapshot_id": "paper7-design-2026-09-28-v2",
+  "sealed_test_period": "2020-01 to 2025-12",
+  "sealed_outputs_allowed": false,
+  "changes_from_parent": "Apply the synthetic-validated finite-scale estimator panel to frozen P1-G1-V022 checkpoints without training or model selection.",
+  "inputs": {
+    "sample_payload": "experiments/P7-G0-V003/P7-G0-V003-R001/paper7_representation_sample.npz",
+    "sample_payload_sha256": "a2daecc9c533fb7db61113c473c2e454dbb918e6c4c03f3244086e88f6599774",
+    "checkpoint_manifest": "experiments/P1-G2-V001/checkpoint_manifest.json",
+    "checkpoint_manifest_sha256": "e25af61c57f485ed12d08c0faf438cac3a1082beb772b880a94ef3450a6b0274"
+  },
+  "sampling": {
+    "target_period": ["2010-01", "2019-12"],
+    "stocks_per_month": 384,
+    "seed": 20260928,
+    "rule": "deterministic equal-count sampling within every target month; same securities are passed through all 30 checkpoints"
+  },
+  "geometry": {
+    "layers": ["hidden1", "hidden2", "hidden3"],
+    "normalizations": ["raw_centered", "feature_zscore", "row_l2_centered"],
+    "neighbor_normalizations": ["raw_centered", "feature_zscore"],
+    "neighbor_month_rule": "every twelfth development target month starting 2010-01",
+    "trajectory_rank": 5,
+    "primary_geometry": "median development hidden3 raw-centered participation rank"
+  },
+  "functional_probe": {
+    "primary_endpoint": "development normalized HJ span loss from the frozen checkpoint report",
+    "secondary_endpoint": "development factor-span Sharpe from the frozen checkpoint report",
+    "controls": "factor-count fixed effects",
+    "cross_validation": "leave one common random seed out across all six factor counts",
+    "permutations": 5000,
+    "seed": 7292026,
+    "positive_gate": "at least 5% HJ-loss RMSE improvement and two-sided within-factor-count permutation p <= 0.05",
+    "failure_stop": "do not search alternative layers, metrics, states, or endpoints for a positive association"
+  },
+  "entrypoint": "scripts/run_paper7_representation_geometry.py"
+}

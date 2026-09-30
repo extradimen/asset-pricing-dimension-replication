@@ -1,0 +1,705 @@
+{
+  "key": "leippold2022machine",
+  "submitted": {
+    "key": "leippold2022machine",
+    "type": "article",
+    "fields": {
+      "author": "Leippold, Markus and Wang, Qian and Zhou, Wenyu",
+      "title": "Machine Learning in the Chinese Stock Market",
+      "journal": "Journal of Financial Economics",
+      "year": "2022",
+      "volume": "145",
+      "number": "2",
+      "pages": "64--82",
+      "doi": "10.1016/j.jfineco.2021.08.017"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1016/j.jfineco.2021.08.017",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            28
+          ]
+        ],
+        "date-time": "2026-09-28T13:39:03Z",
+        "timestamp": 1790602743694,
+        "version": "4.1.0"
+      },
+      "reference-count": 40,
+      "publisher": "Elsevier BV",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2022-08-01T00:00:00Z",
+            "timestamp": 1659312000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2022-08-01T00:00:00Z",
+            "timestamp": 1659312000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                26
+              ]
+            ],
+            "date-time": "2021-08-26T00:00:00Z",
+            "timestamp": 1629936000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Financial Economics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.jfineco.2021.08.017",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            27
+          ]
+        ],
+        "date-time": "2021-08-27T11:14:05Z",
+        "timestamp": 1630062845000
+      },
+      "page": "64-82",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 572,
+      "special_numbering": "PA",
+      "title": [
+        "Machine learning in the Chinese stock market"
+      ],
+      "prefix": "10.1016",
+      "volume": "145",
+      "author": [
+        {
+          "given": "Markus",
+          "family": "Leippold",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qian",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenyu",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0001",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1016/j.jfineco.2004.06.010",
+          "article-title": "Law, finance, and economic growth in China",
+          "volume": "77",
+          "author": "Allen",
+          "year": "2005",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0002",
+          "series-title": "Available at SSRN 213872",
+          "article-title": "Predicting Stock Returns Using Industry-Relative Firm Characteristics",
+          "author": "Asness",
+          "year": "2000"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0003",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.1257/000282806777212125",
+          "article-title": "The multitask theory of state enterprise reform: empirical evidence from China",
+          "volume": "96",
+          "author": "Bai",
+          "year": "2006",
+          "journal-title": "Am. Econ. Rev."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0004",
+          "doi-asserted-by": "crossref",
+          "first-page": "427",
+          "DOI": "10.1016/j.jfineco.2010.08.014",
+          "article-title": "Maxing out: stocks as lotteries and the cross-section of expected returns",
+          "volume": "99",
+          "author": "Bali",
+          "year": "2011",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "56",
+          "DOI": "10.2469/faj.v52.n2.1980",
+          "article-title": "Do sales-price and debt-equity explain stock returns better than book-market and firm size?",
+          "volume": "52",
+          "author": "Barbee",
+          "year": "1996",
+          "journal-title": "Financ. Anal. J."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0006",
+          "first-page": "10",
+          "article-title": "Predicting extreme returns in Chinese stock market: an application of contextual fundamental analysis",
+          "volume": "17",
+          "author": "Bin",
+          "year": "2017",
+          "journal-title": "J. Account. Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0007",
+          "series-title": "Available at SSRN 3493458",
+          "article-title": "Forest Through the Trees: Building Cross-Sections of Stock Returns",
+          "author": "Bryzgalova",
+          "year": "2019"
+        },
+        {
+          "issue": "7-9",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0008",
+          "doi-asserted-by": "crossref",
+          "first-page": "581",
+          "DOI": "10.1080/1351847X.2014.997369",
+          "article-title": "Cross-sectional stock return predictability in China",
+          "volume": "23",
+          "author": "Cakici",
+          "year": "2017",
+          "journal-title": "Eur. J. Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0009",
+          "series-title": "Available at SSRN 3350138",
+          "article-title": "Deep Learning in Asset Pricing",
+          "author": "Chen",
+          "year": "2019"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "249",
+          "DOI": "10.1016/j.jeconom.2018.09.014",
+          "article-title": "Daily price limits and destructive market behavior",
+          "volume": "208",
+          "author": "Chen",
+          "year": "2019",
+          "journal-title": "J. Econom."
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0011",
+          "series-title": "Available at SSRN 3557957",
+          "article-title": "Subsampled Factor Models for Asset Pricing: The Rise of Vasa",
+          "author": "De Nard",
+          "year": "2020"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0012",
+          "doi-asserted-by": "crossref",
+          "first-page": "2462",
+          "DOI": "10.1016/j.jbankfin.2010.04.001",
+          "article-title": "Are price limits really bad for equity markets?",
+          "volume": "34",
+          "author": "Deb",
+          "year": "2010",
+          "journal-title": "J. Bank. Finance"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0013",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1198/073500102753410444",
+          "article-title": "Comparing predictive accuracy",
+          "volume": "20",
+          "author": "Diebold",
+          "year": "1995",
+          "journal-title": "J. Bus. Econ. Stat."
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0014",
+          "series-title": "Available at SSRN 3243683",
+          "article-title": "Deep Learning in Characteristics-Sorted Factor Models",
+          "author": "Feng",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0015",
+          "series-title": "Super Stocks",
+          "author": "Fisher",
+          "year": "1984"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0016",
+          "doi-asserted-by": "crossref",
+          "first-page": "3854",
+          "DOI": "10.1093/rfs/hhx100",
+          "article-title": "Decentralized privatization and change of control rights in China",
+          "volume": "31",
+          "author": "Gan",
+          "year": "2018",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0017",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.1016/j.cjar.2019.11.001",
+          "article-title": "Short-sale refinancing and price adjustment speed to bad news: evidence from a quasi-natural experiment in China",
+          "volume": "12",
+          "author": "Gao",
+          "year": "2019",
+          "journal-title": "China J. Account. Res."
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0018",
+          "doi-asserted-by": "crossref",
+          "first-page": "4389",
+          "DOI": "10.1093/rfs/hhx019",
+          "article-title": "The characteristics that provide independent information about average US monthly stock returns",
+          "volume": "30",
+          "author": "Green",
+          "year": "2017",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0019",
+          "doi-asserted-by": "crossref",
+          "first-page": "2223",
+          "DOI": "10.1093/rfs/hhaa009",
+          "article-title": "Empirical asset pricing via machine learning",
+          "volume": "33",
+          "author": "Gu",
+          "year": "2020",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "429",
+          "DOI": "10.1016/j.jeconom.2020.07.009",
+          "article-title": "Autoencoder asset pricing models",
+          "volume": "222",
+          "author": "Gu",
+          "year": "2021",
+          "journal-title": "J. Econom."
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0021",
+          "doi-asserted-by": "crossref",
+          "first-page": "365",
+          "DOI": "10.1198/073500105000000063",
+          "article-title": "A test for superior predictive ability",
+          "volume": "23",
+          "author": "Hansen",
+          "year": "2005",
+          "journal-title": "J. Bus. Econ. Stat."
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0022",
+          "series-title": "Robust Statistics",
+          "volume": "vol. 523",
+          "author": "Huber",
+          "year": "2004"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0023",
+          "doi-asserted-by": "crossref",
+          "first-page": "733",
+          "DOI": "10.1093/rof/rfaa012",
+          "article-title": "Corporate governance in China: a survey",
+          "volume": "24",
+          "author": "Jiang",
+          "year": "2020",
+          "journal-title": "Rev. Finance"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0024",
+          "doi-asserted-by": "crossref",
+          "first-page": "501",
+          "DOI": "10.1016/j.jfineco.2019.05.001",
+          "article-title": "Characteristics are covariances: a unified model of risk and return",
+          "volume": "134",
+          "author": "Kelly",
+          "year": "2019",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "643",
+          "DOI": "10.1007/s11156-016-0563-3",
+          "article-title": "Do political connections affect stock price crash risk? Firm-level evidence from China",
+          "volume": "48",
+          "author": "Lee",
+          "year": "2017",
+          "journal-title": "Rev. Quant. Finance Account."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0026",
+          "first-page": "24",
+          "article-title": "Momentum and seasonality in Chinese stock markets",
+          "volume": "17",
+          "author": "Li",
+          "year": "2010",
+          "journal-title": "J. Money Invest. Bank."
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_sbref0027",
+          "article-title": "Conditional superior predictive ability",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "Rev. Econ. Stud."
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0028",
+          "doi-asserted-by": "crossref",
+          "first-page": "504",
+          "DOI": "10.1016/j.iref.2016.07.011",
+          "article-title": "The meltdown of the Chinese equity market in the summer of 2015",
+          "volume": "45",
+          "author": "Liu",
+          "year": "2016",
+          "journal-title": "Int. Rev. Econ. Finance"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0029",
+          "doi-asserted-by": "crossref",
+          "first-page": "48",
+          "DOI": "10.1016/j.jfineco.2019.03.008",
+          "article-title": "Size and value in China",
+          "volume": "134",
+          "author": "Liu",
+          "year": "2019",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0030",
+          "series-title": "Available at SSRN 3402038",
+          "article-title": "Trend Factor in China",
+          "author": "Liu",
+          "year": "2020"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0031",
+          "article-title": "Speculative trading and stock prices: evidence from Chinese AB share premia",
+          "volume": "10",
+          "author": "Mei",
+          "year": "2009",
+          "journal-title": "Ann. Econ. Finance"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0032",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1016/j.pacfin.2005.10.001",
+          "article-title": "Revealed stock preferences of individual investors: evidence from Chinese equity markets",
+          "volume": "14",
+          "author": "Ng",
+          "year": "2006",
+          "journal-title": "Pacific-Basin Finance J."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0033",
+          "doi-asserted-by": "crossref",
+          "first-page": "1835",
+          "DOI": "10.1093/rof/rfv059",
+          "article-title": "Speculative trading and stock returns",
+          "volume": "20",
+          "author": "Pan",
+          "year": "2015",
+          "journal-title": "Rev. Finance"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0034",
+          "doi-asserted-by": "crossref",
+          "first-page": "1835",
+          "DOI": "10.1093/rof/rfv059",
+          "article-title": "Speculative trading and stock returns",
+          "volume": "20",
+          "author": "Pan",
+          "year": "2016",
+          "journal-title": "Rev. Finance"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1111/1475-679X.12071",
+          "article-title": "Political incentives to suppress negative information: evidence from Chinese listed firms",
+          "volume": "53",
+          "author": "Piotroski",
+          "year": "2015",
+          "journal-title": "J. Account. Res."
+        },
+        {
+          "issue": "1-2",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0036",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1016/j.jacceco.2006.04.002",
+          "article-title": "Costly arbitrage and the myth of idiosyncratic risk",
+          "volume": "42",
+          "author": "Pontiff",
+          "year": "2006",
+          "journal-title": "J. Account. Econ."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0037",
+          "doi-asserted-by": "crossref",
+          "first-page": "821",
+          "DOI": "10.1093/rfs/hhq124",
+          "article-title": "Price efficiency and short selling",
+          "volume": "24",
+          "author": "Saffi",
+          "year": "2011",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0038",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1111/j.1540-6261.1997.tb03807.x",
+          "article-title": "The limits of arbitrage",
+          "volume": "52",
+          "author": "Shleifer",
+          "year": "1997",
+          "journal-title": "J. Finance"
+        },
+        {
+          "key": "10.1016/j.jfineco.2021.08.017_bib0039",
+          "series-title": "Technical Report",
+          "article-title": "The Link Between Fama-French Time-Series Tests and Fama-Macbeth Cross-Sectional Tests",
+          "author": "Welch",
+          "year": "2008"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jfineco.2021.08.017_bib0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "583",
+          "DOI": "10.1086/341636",
+          "article-title": "Does arbitrage flatten demand curves for stocks?",
+          "volume": "75",
+          "author": "Wurgler",
+          "year": "2002",
+          "journal-title": "J. Bus."
+        }
+      ],
+      "container-title": [
+        "Journal of Financial Economics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304405X21003743?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304405X21003743?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2025-10-05T01:50:28Z",
+        "timestamp": 1759629028000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0304405X21003743"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            8
+          ]
+        ]
+      },
+      "references-count": 40,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              8
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0304405X21003743"
+      ],
+      "URL": "https://doi.org/10.1016/j.jfineco.2021.08.017",
+      "relation": {},
+      "ISSN": [
+        "0304-405X"
+      ],
+      "issn-type": [
+        {
+          "value": "0304-405X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Machine learning in the Chinese stock market",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Financial Economics",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.jfineco.2021.08.017",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2021 The Author(s). Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  }
+}

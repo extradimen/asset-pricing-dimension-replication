@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V024",
+  "parent_experiment_id": "P1-G1-V023",
+  "paper": 1,
+  "generation": "G1",
+  "status": "technical_rehearsal",
+  "evidence_class": "frozen_checkpoint_inference_rehearsal",
+  "sealed_outputs_allowed": false,
+  "feature_months": ["2018-01", "2019-11"],
+  "models": {"dimensions": [1,2,3,4,5,8], "seeds": [20260924,20260925,20260926,20260927,20260928]},
+  "validation": "Inference-only factor returns must reproduce the frozen GPU output within 1e-6 absolute return units for every model and month.",
+  "tolerance_reason": "The initial implementation check used 2e-7 and found maximum CPU-versus-GPU floating-point variation of 8.22e-7. The tolerance was fixed at 1e-6 before any sealed-period execution; this equals 0.01 basis points of monthly return.",
+  "stopping_rule": "Any difference above 1e-6 blocks the sealed run."
+}

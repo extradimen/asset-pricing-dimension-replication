@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G2-V001",
+  "parent_experiment_id": "P1-G1-V024",
+  "paper": 1,
+  "generation": "G2",
+  "status": "frozen_before_execution",
+  "evidence_class": "one_time_sealed_confirmation",
+  "protocol_frozen": true,
+  "one_time_sealed_execution_authorized": true,
+  "authorization_basis": "The user instructed the project to continue to completion and run all missing statistical data after the reporting layer and technical rehearsal were complete.",
+  "sealed_feature_months": ["2019-12", "2025-11"],
+  "sealed_target_months": ["2020-01", "2025-12"],
+  "model_policy": "Apply the 30 P1-G1-V022 Core-86 checkpoints without retraining, reselection, sign changes, or hyperparameter changes.",
+  "assets": {
+    "primary": ["size_bm_25", "industry_49", "combined_74"],
+    "external": ["size_op_25", "size_inv_25", "size_mom_25", "size_accruals_25", "size_beta_25", "size_resvar_25"]
+  },
+  "geometries": [0.0, 1.0],
+  "dimensions": [1, 2, 3, 4, 5, 8],
+  "seeds": [20260924, 20260925, 20260926, 20260927, 20260928],
+  "validation_feature_months": ["1999-12", "2009-11"],
+  "inference": {"bootstrap_draws": 500, "circular_block_months": 12, "bootstrap_seed": 20260924},
+  "primary_hypotheses": {
+    "H1_geometry_dependence": "Combined 74 selects different best K at gamma 0 and 1, and at least four of six external families do so.",
+    "H2_market_direction": "Validation-frozen market-beta removal reduces abs(A) for Combined 74 and at least four of six external families.",
+    "H3_economic_completion": "K=1 plus Mkt-RF lowers both raw moments and alpha relative to K=1 in at least four of six external families.",
+    "H4_asset_family_dependence": "At least three distinct best dimensions appear across the two endpoints and six external families."
+  },
+  "reported_uncertainty": "For every asset family report 12-month circular-block-bootstrap 95% intervals for A, attenuation, raw-moment completion, and alpha completion; intervals do not alter the point-rule definitions above.",
+  "factor_performance_statistics": ["annualized return", "annualized volatility", "Sharpe ratio", "maximum drawdown"],
+  "artifact_plan": "Six CSV/LaTeX table sets and six figures in PDF, SVG, and 300-dpi PNG.",
+  "code_revision": "82cdd5f",
+  "code_hashes": {
+    "build_core86_evaluation_panel.py": "b84d8ef48a8b60f14259e6d15738d1b61d8d3f955b650bc6c9ff9a6ca4e85a22",
+    "apply_frozen_core86_models.py": "b450c51d7d214c5844cbf8d8ec1fc87877ba3390644ea645c45e0e87d9a790bf",
+    "audit_sealed_core86_confirmation.py": "21ae6e7bbf23e8cb72b318eafd15f2fd7a6f04ad4029b5b7770aa271c82ffd8b",
+    "build_paper1_sealed_artifacts.py": "a21a0750e76701c53b73b09416dd3ae894b331ba8679c95bb4dc46fe311846d6"
+  },
+  "data_hashes": {
+    "core86_model_input": "7a7f4ff60504e8978ba4928aa1a79dfc5b123e56822cb6c84772a444b25bb5ea",
+    "us_equity_research_master": "73e2cca5d69b269d6d9c25b5711ea0e5aa279a196ce1783c631840f068455972",
+    "daily_risk_free": "1916d331c2c51d2aee3d00215897d2b8e5995cb387f1f4569ba46bff5fb049a8",
+    "size_bm_25": "a6522ad4ea890fafb3971938292844e256128de0e2f6929166ff2f0f7d0d573a",
+    "industry_49": "b197eab1059757f3cfa2b92fd520197372237104d3d46a3000c8061e5066a302",
+    "ff5": "b8653b411cc5e28917e7ef643bb42f6d2d3703f84bc170eb6ae38d5267c65807"
+  },
+  "checkpoint_manifest": "experiments/P1-G2-V001/checkpoint_manifest.json",
+  "one_time_rule": "Create SEALED_ACCESS_STARTED.json before factor inference. If execution fails after the marker exists, repair only a documented code defect without changing hypotheses, models, assets, metrics, or thresholds; retain every failed artifact."
+}

@@ -1,0 +1,5738 @@
+[
+  {
+    "month": 200002,
+    "stocks": 6555,
+    "loss": {
+      "zero": 0.20209838032697494,
+      "frozen": 0.1808377899524168,
+      "rolling60": 0.18620494970585516,
+      "expanding": 0.1808377899524168
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.014777951427860331,
+      "alignment_B": 0.004705395990670685,
+      "alignment_benefit_2B": 0.00941079198134137,
+      "updated_minus_frozen_loss": 0.005367159446518962,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200003,
+    "stocks": 6567,
+    "loss": {
+      "zero": 0.05728079516254977,
+      "frozen": 0.05735937215490847,
+      "rolling60": 0.06985907124635529,
+      "expanding": 0.05735937215490847
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0060445765289007984,
+      "alignment_B": -0.0032275612682927807,
+      "alignment_benefit_2B": -0.006455122536585561,
+      "updated_minus_frozen_loss": 0.012499699065486362,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200004,
+    "stocks": 6553,
+    "loss": {
+      "zero": 0.05745842914494711,
+      "frozen": 0.07704233364696678,
+      "rolling60": 0.08186574341680196,
+      "expanding": 0.07704233364696678
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005548012306425826,
+      "alignment_B": -0.0021343044365542273,
+      "alignment_benefit_2B": -0.004268608873108455,
+      "updated_minus_frozen_loss": 0.004823410103751037,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200005,
+    "stocks": 6573,
+    "loss": {
+      "zero": 0.04166105876288587,
+      "frozen": 0.044099158614754705,
+      "rolling60": 0.04454239628231164,
+      "expanding": 0.044099158614754705
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00024109421363220385,
+      "alignment_B": -0.00010107180722430625,
+      "alignment_benefit_2B": -0.0002021436144486125,
+      "updated_minus_frozen_loss": 0.0004432378280808158,
+      "identity_error": -5.421010862427522e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200006,
+    "stocks": 6541,
+    "loss": {
+      "zero": 0.08398690541527204,
+      "frozen": 0.07469063658757473,
+      "rolling60": 0.08140055106779896,
+      "expanding": 0.07469063658757473
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004210036607370189,
+      "alignment_B": -0.0012499388800736322,
+      "alignment_benefit_2B": -0.0024998777601472643,
+      "updated_minus_frozen_loss": 0.006709914367517455,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200007,
+    "stocks": 6528,
+    "loss": {
+      "zero": 0.036871727101090324,
+      "frozen": 0.04586678687615243,
+      "rolling60": 0.05339436247805496,
+      "expanding": 0.04586678687615243
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0020425533680298977,
+      "alignment_B": -0.002742511225302481,
+      "alignment_benefit_2B": -0.005485022450604962,
+      "updated_minus_frozen_loss": 0.00752757581863486,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200008,
+    "stocks": 6534,
+    "loss": {
+      "zero": 0.05681705652727396,
+      "frozen": 0.05312098472644771,
+      "rolling60": 0.05519593915658985,
+      "expanding": 0.05312098472644771
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015125064202808742,
+      "alignment_B": -0.0002812239589993488,
+      "alignment_benefit_2B": -0.0005624479179986976,
+      "updated_minus_frozen_loss": 0.0020749543382795723,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200009,
+    "stocks": 6523,
+    "loss": {
+      "zero": 0.0421039607286652,
+      "frozen": 0.05228361463456041,
+      "rolling60": 0.050648726616039495,
+      "expanding": 0.05228361463456041
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012029301879029576,
+      "alignment_B": 0.001418909112363461,
+      "alignment_benefit_2B": 0.002837818224726922,
+      "updated_minus_frozen_loss": -0.0016348880368239642,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200010,
+    "stocks": 6485,
+    "loss": {
+      "zero": 0.04804621811726927,
+      "frozen": 0.06727453424962233,
+      "rolling60": 0.054460359721256235,
+      "expanding": 0.06727453424962233
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002705082629556107,
+      "alignment_B": 0.007759628596265496,
+      "alignment_benefit_2B": 0.015519257192530993,
+      "updated_minus_frozen_loss": -0.012814174562974888,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200011,
+    "stocks": 6424,
+    "loss": {
+      "zero": 0.06933887817073119,
+      "frozen": 0.0827951043730456,
+      "rolling60": 0.08344261634642967,
+      "expanding": 0.0827951043730456
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00020865058321312496,
+      "alignment_B": -0.00021943091505470936,
+      "alignment_benefit_2B": -0.00043886183010941873,
+      "updated_minus_frozen_loss": 0.0006475124133225443,
+      "identity_error": 6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200012,
+    "stocks": 6360,
+    "loss": {
+      "zero": 0.06647901925755793,
+      "frozen": 0.0725075357871258,
+      "rolling60": 0.07310635920176123,
+      "expanding": 0.0725075357871258
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00039346639613727395,
+      "alignment_B": -0.00010267909309334507,
+      "alignment_benefit_2B": -0.00020535818618669014,
+      "updated_minus_frozen_loss": 0.0005988245823239647,
+      "identity_error": 6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0,
+      "alignment_B": 0.0,
+      "alignment_benefit_2B": 0.0,
+      "updated_minus_frozen_loss": 0.0,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200101,
+    "stocks": 6290,
+    "loss": {
+      "zero": 0.3013566796227108,
+      "frozen": 0.2686340224084852,
+      "rolling60": 0.28783741179334743,
+      "expanding": 0.30615160828094823
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011923468042913934,
+      "alignment_B": -0.009005521361432572,
+      "alignment_benefit_2B": -0.018011042722865144,
+      "updated_minus_frozen_loss": 0.019203389527156535,
+      "identity_error": -3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.004412229040729439,
+      "alignment_B": -0.016552677330329505,
+      "alignment_benefit_2B": -0.03310535466065901,
+      "updated_minus_frozen_loss": 0.037517583701388454,
+      "identity_error": 6.938893903907228e-18
+    }
+  },
+  {
+    "month": 200102,
+    "stocks": 6226,
+    "loss": {
+      "zero": 0.04936075907894472,
+      "frozen": 0.07401501390337568,
+      "rolling60": 0.044716016854591895,
+      "expanding": 0.04988340031431133
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00932142698648838,
+      "alignment_B": 0.01931021196508974,
+      "alignment_benefit_2B": 0.03862042393017948,
+      "updated_minus_frozen_loss": -0.0292989969436911,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.006758220525042496,
+      "alignment_B": 0.015444916868015178,
+      "alignment_benefit_2B": 0.030889833736030357,
+      "updated_minus_frozen_loss": -0.02413161321098786,
+      "identity_error": 3.469446951953614e-18
+    }
+  },
+  {
+    "month": 200103,
+    "stocks": 6184,
+    "loss": {
+      "zero": 0.0510760331038825,
+      "frozen": 0.05684568863190726,
+      "rolling60": 0.046613493482057185,
+      "expanding": 0.047292025302693434
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0033784957047053917,
+      "alignment_B": 0.006805345478595215,
+      "alignment_benefit_2B": 0.01361069095719043,
+      "updated_minus_frozen_loss": -0.010232195252485034,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002300275120909783,
+      "alignment_B": 0.005926969236442458,
+      "alignment_benefit_2B": 0.011853938472884917,
+      "updated_minus_frozen_loss": -0.009553663351975135,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200104,
+    "stocks": 6106,
+    "loss": {
+      "zero": 0.07048523649136096,
+      "frozen": 0.06626752193667484,
+      "rolling60": 0.07290847846470411,
+      "expanding": 0.07482963087319563
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002824634479491404,
+      "alignment_B": -0.0019081612284021418,
+      "alignment_benefit_2B": -0.0038163224568042837,
+      "updated_minus_frozen_loss": 0.006640956936295687,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00297640873447782,
+      "alignment_B": -0.002792850290085425,
+      "alignment_benefit_2B": -0.00558570058017085,
+      "updated_minus_frozen_loss": 0.008562109314648668,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200105,
+    "stocks": 6039,
+    "loss": {
+      "zero": 0.05574382846878429,
+      "frozen": 0.051471472726031635,
+      "rolling60": 0.06132790281284848,
+      "expanding": 0.05823260826888788
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.013163987490925897,
+      "alignment_B": 0.0016537786596510279,
+      "alignment_benefit_2B": 0.0033075573193020557,
+      "updated_minus_frozen_loss": 0.00985643017162384,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.009394733363405246,
+      "alignment_B": 0.001316798723793187,
+      "alignment_benefit_2B": 0.002633597447586374,
+      "updated_minus_frozen_loss": 0.006761135915818872,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200106,
+    "stocks": 5975,
+    "loss": {
+      "zero": 0.04187311351280524,
+      "frozen": 0.043696361806616055,
+      "rolling60": 0.04212383816605209,
+      "expanding": 0.04162238686322644
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00541141170042643,
+      "alignment_B": 0.00349196765418925,
+      "alignment_benefit_2B": 0.0069839353083785,
+      "updated_minus_frozen_loss": -0.001572523607952069,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0021224717652717686,
+      "alignment_B": 0.002098223416416992,
+      "alignment_benefit_2B": 0.004196446832833984,
+      "updated_minus_frozen_loss": -0.0020739750675622145,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200107,
+    "stocks": 5911,
+    "loss": {
+      "zero": 0.039463714496520065,
+      "frozen": 0.046372129484067486,
+      "rolling60": 0.03780758882109932,
+      "expanding": 0.039061176429030744
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004591600061492867,
+      "alignment_B": 0.006578070321461208,
+      "alignment_benefit_2B": 0.013156140642922415,
+      "updated_minus_frozen_loss": -0.008564540581429546,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002732733609276915,
+      "alignment_B": 0.005021843337843808,
+      "alignment_benefit_2B": 0.010043686675687617,
+      "updated_minus_frozen_loss": -0.007310953066410702,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200108,
+    "stocks": 5831,
+    "loss": {
+      "zero": 0.03972933594659627,
+      "frozen": 0.04256933451900292,
+      "rolling60": 0.037119246174309485,
+      "expanding": 0.03817460208315625
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00938102176516271,
+      "alignment_B": 0.007415554851426608,
+      "alignment_benefit_2B": 0.014831109702853215,
+      "updated_minus_frozen_loss": -0.0054500879376905035,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014796380973494218,
+      "alignment_B": 0.0029371852317818066,
+      "alignment_benefit_2B": 0.005874370463563613,
+      "updated_minus_frozen_loss": -0.004394732366214193,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200109,
+    "stocks": 5769,
+    "loss": {
+      "zero": 0.056932649750476676,
+      "frozen": 0.06305985011736533,
+      "rolling60": 0.05149181125782659,
+      "expanding": 0.0536003669354459
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003511846922574797,
+      "alignment_B": 0.007539943084108807,
+      "alignment_benefit_2B": 0.015079886168217614,
+      "updated_minus_frozen_loss": -0.011568039245642814,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0011037054207843238,
+      "alignment_B": 0.005281594279863732,
+      "alignment_benefit_2B": 0.010563188559727463,
+      "updated_minus_frozen_loss": -0.009459483138943136,
+      "identity_error": 3.469446951953614e-18
+    }
+  },
+  {
+    "month": 200110,
+    "stocks": 5746,
+    "loss": {
+      "zero": 0.09383383022640449,
+      "frozen": 0.08524866838528047,
+      "rolling60": 0.10835129669266862,
+      "expanding": 0.0939379508297843
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.013071482353760865,
+      "alignment_B": -0.005015572851480471,
+      "alignment_benefit_2B": -0.010031145702960941,
+      "updated_minus_frozen_loss": 0.023102628056721808,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0034423458223909113,
+      "alignment_B": -0.002623467399484904,
+      "alignment_benefit_2B": -0.005246934798969808,
+      "updated_minus_frozen_loss": 0.00868928062136072,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200111,
+    "stocks": 5679,
+    "loss": {
+      "zero": 0.05898436896252106,
+      "frozen": 0.05250335119592152,
+      "rolling60": 0.06038185136596808,
+      "expanding": 0.05826832776218076
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004159306173371847,
+      "alignment_B": -0.0018595970205139598,
+      "alignment_benefit_2B": -0.0037191940410279197,
+      "updated_minus_frozen_loss": 0.007878500214399767,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002649222489132269,
+      "alignment_B": -0.0015578772173553907,
+      "alignment_benefit_2B": -0.0031157544347107814,
+      "updated_minus_frozen_loss": 0.005764976923843052,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200112,
+    "stocks": 5642,
+    "loss": {
+      "zero": 0.04659399199323971,
+      "frozen": 0.04258188403376684,
+      "rolling60": 0.05110852909823957,
+      "expanding": 0.04639150121704374
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.008450096537973307,
+      "alignment_B": -3.827406704196716e-05,
+      "alignment_benefit_2B": -7.654813408393432e-05,
+      "updated_minus_frozen_loss": 0.008526644672057241,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0036599921792471383,
+      "alignment_B": -7.481268810674341e-05,
+      "alignment_benefit_2B": -0.00014962537621348681,
+      "updated_minus_frozen_loss": 0.0038096175554606254,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200201,
+    "stocks": 5603,
+    "loss": {
+      "zero": 0.043634009346111315,
+      "frozen": 0.04602813898193556,
+      "rolling60": 0.04255005740648476,
+      "expanding": 0.04390451157482356
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004245892478561507,
+      "alignment_B": 0.0038619868581020295,
+      "alignment_benefit_2B": 0.007723973716204059,
+      "updated_minus_frozen_loss": -0.003478081237642552,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0010782281316821794,
+      "alignment_B": 0.001600927721131493,
+      "alignment_benefit_2B": 0.003201855442262986,
+      "updated_minus_frozen_loss": -0.0021236273105808058,
+      "identity_error": 1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 200202,
+    "stocks": 5558,
+    "loss": {
+      "zero": 0.030708434575339817,
+      "frozen": 0.03058535311973176,
+      "rolling60": 0.030556308520188473,
+      "expanding": 0.029835166998394516
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00013667269133353505,
+      "alignment_B": 8.285870871978858e-05,
+      "alignment_benefit_2B": 0.00016571741743957717,
+      "updated_minus_frozen_loss": -2.9044726106042058e-05,
+      "identity_error": 5.759824041329242e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000130020082782958,
+      "alignment_B": 0.0004401032171805325,
+      "alignment_benefit_2B": 0.000880206434361065,
+      "updated_minus_frozen_loss": -0.0007501863515781067,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 200203,
+    "stocks": 5524,
+    "loss": {
+      "zero": 0.04420627741456086,
+      "frozen": 0.04958844670101947,
+      "rolling60": 0.05534188700336167,
+      "expanding": 0.05885437595810354
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011004173130990734,
+      "alignment_B": -0.002326511216526452,
+      "alignment_benefit_2B": -0.004653022433052904,
+      "updated_minus_frozen_loss": 0.005753439746151979,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014962450017210322,
+      "alignment_B": -0.0038848418290187005,
+      "alignment_benefit_2B": -0.007769683658037401,
+      "updated_minus_frozen_loss": 0.009265928659758433,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200204,
+    "stocks": 5482,
+    "loss": {
+      "zero": 0.03823808242761399,
+      "frozen": 0.038346689849734876,
+      "rolling60": 0.038294159071183345,
+      "expanding": 0.03824569605791318
+    },
+    "rolling60": {
+      "adjustment_cost_A": 4.1176019961295834e-05,
+      "alignment_B": 4.685345895821588e-05,
+      "alignment_benefit_2B": 9.370691791643176e-05,
+      "updated_minus_frozen_loss": -5.253089795513623e-05,
+      "identity_error": -3.049318610115481e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00039664651938207024,
+      "alignment_B": 0.0002488202036148617,
+      "alignment_benefit_2B": 0.0004976404072297234,
+      "updated_minus_frozen_loss": -0.00010099388784765319,
+      "identity_error": -2.710505431213761e-20
+    }
+  },
+  {
+    "month": 200205,
+    "stocks": 5454,
+    "loss": {
+      "zero": 0.03345045640684618,
+      "frozen": 0.03573373769830607,
+      "rolling60": 0.03338585134640788,
+      "expanding": 0.033915150161989024
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000636794518500316,
+      "alignment_B": 0.0014923404407269304,
+      "alignment_benefit_2B": 0.002984680881453861,
+      "updated_minus_frozen_loss": -0.0023478863629535444,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0048103944296413025,
+      "alignment_B": 0.0033144909696079345,
+      "alignment_benefit_2B": 0.006628981939215869,
+      "updated_minus_frozen_loss": -0.0018185875095745648,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200206,
+    "stocks": 5425,
+    "loss": {
+      "zero": 0.03290810205272652,
+      "frozen": 0.0333726390158933,
+      "rolling60": 0.0318592009731338,
+      "expanding": 0.027866413960243773
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00042934218147216936,
+      "alignment_B": 0.0009713900118262429,
+      "alignment_benefit_2B": 0.0019427800236524859,
+      "updated_minus_frozen_loss": -0.0015134378421803164,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0029244782044278517,
+      "alignment_B": 0.004215351438538457,
+      "alignment_benefit_2B": 0.008430702877076915,
+      "updated_minus_frozen_loss": -0.005506224672649064,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200207,
+    "stocks": 5406,
+    "loss": {
+      "zero": 0.04641960515270627,
+      "frozen": 0.0486038774562457,
+      "rolling60": 0.04243813374320877,
+      "expanding": 0.03792747302173101
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0010642149821682339,
+      "alignment_B": 0.0036149793377584175,
+      "alignment_benefit_2B": 0.007229958675516835,
+      "updated_minus_frozen_loss": -0.006165743693348601,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0025265854831149105,
+      "alignment_B": 0.006601495010519129,
+      "alignment_benefit_2B": 0.013202990021038257,
+      "updated_minus_frozen_loss": -0.010676404537923349,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200208,
+    "stocks": 5365,
+    "loss": {
+      "zero": 0.041948604005303036,
+      "frozen": 0.04698763934686112,
+      "rolling60": 0.0418223798943082,
+      "expanding": 0.043452270276878875
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0058672689034495315,
+      "alignment_B": 0.005516264072905708,
+      "alignment_benefit_2B": 0.011032528145811417,
+      "updated_minus_frozen_loss": -0.005165259242361886,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0013015365620817631,
+      "alignment_B": 0.002418452725570568,
+      "alignment_benefit_2B": 0.004836905451141136,
+      "updated_minus_frozen_loss": -0.0035353688890593722,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200209,
+    "stocks": 5321,
+    "loss": {
+      "zero": 0.04017325132712758,
+      "frozen": 0.05734664670163681,
+      "rolling60": 0.040954027222762535,
+      "expanding": 0.042962202441679816
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004655236558407711,
+      "alignment_B": 0.010523928097381358,
+      "alignment_benefit_2B": 0.021047856194762717,
+      "updated_minus_frozen_loss": -0.016392619636355004,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0029303205067329288,
+      "alignment_B": 0.008657382258974815,
+      "alignment_benefit_2B": 0.01731476451794963,
+      "updated_minus_frozen_loss": -0.014384444011216704,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200210,
+    "stocks": 5280,
+    "loss": {
+      "zero": 0.06508202584081234,
+      "frozen": 0.06192327604385895,
+      "rolling60": 0.06549199717819049,
+      "expanding": 0.06281137205943861
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002612218412261653,
+      "alignment_B": -0.0004782519284756363,
+      "alignment_benefit_2B": -0.0009565038569512726,
+      "updated_minus_frozen_loss": 0.0035687222692129253,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00047338003106022934,
+      "alignment_B": -0.00020735833351902182,
+      "alignment_benefit_2B": -0.00041471666703804365,
+      "updated_minus_frozen_loss": 0.0008880966980982733,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 200211,
+    "stocks": 5242,
+    "loss": {
+      "zero": 0.10698575670791959,
+      "frozen": 0.09052239325682708,
+      "rolling60": 0.11043331869224839,
+      "expanding": 0.0971460057406294
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005059117069048657,
+      "alignment_B": -0.0074259043335549915,
+      "alignment_benefit_2B": -0.014851808667109983,
+      "updated_minus_frozen_loss": 0.01991092573615864,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008860570272176992,
+      "alignment_B": -0.002868778114482062,
+      "alignment_benefit_2B": -0.005737556228964124,
+      "updated_minus_frozen_loss": 0.006623613256181823,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200212,
+    "stocks": 5219,
+    "loss": {
+      "zero": 0.03092078959453074,
+      "frozen": 0.041687123477675225,
+      "rolling60": 0.028200073310009396,
+      "expanding": 0.034318238338942576
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005703146167125608,
+      "alignment_B": 0.00959509816239152,
+      "alignment_benefit_2B": 0.01919019632478304,
+      "updated_minus_frozen_loss": -0.013487050157657436,
+      "identity_error": -3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001155210040601415,
+      "alignment_B": 0.0042620475624462984,
+      "alignment_benefit_2B": 0.008524095124892597,
+      "updated_minus_frozen_loss": -0.007368885084291181,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200301,
+    "stocks": 5172,
+    "loss": {
+      "zero": 0.03808431685336645,
+      "frozen": 0.04042277233056002,
+      "rolling60": 0.03805301657936422,
+      "expanding": 0.038036785825892594
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004789954450337543,
+      "alignment_B": 0.0035798550340112563,
+      "alignment_benefit_2B": 0.007159710068022513,
+      "updated_minus_frozen_loss": -0.00236975561768497,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00509442381477922,
+      "alignment_B": 0.0037402051430576594,
+      "alignment_benefit_2B": 0.007480410286115319,
+      "updated_minus_frozen_loss": -0.0023859864713360983,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200302,
+    "stocks": 5151,
+    "loss": {
+      "zero": 0.02157748483293541,
+      "frozen": 0.028341403827984085,
+      "rolling60": 0.022518647486414932,
+      "expanding": 0.020810817781537892
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003887398715348986,
+      "alignment_B": 0.004855077545161138,
+      "alignment_benefit_2B": 0.009710155090322276,
+      "updated_minus_frozen_loss": -0.0058227563749732895,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.007281453925573872,
+      "alignment_B": 0.007406020010405829,
+      "alignment_benefit_2B": 0.014812040020811658,
+      "updated_minus_frozen_loss": -0.007530586095237786,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200303,
+    "stocks": 5110,
+    "loss": {
+      "zero": 0.030288783553802212,
+      "frozen": 0.03088799088112261,
+      "rolling60": 0.031264842814556396,
+      "expanding": 0.03029767512835059
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0036732405284945232,
+      "alignment_B": 0.0016481943704712081,
+      "alignment_benefit_2B": 0.0032963887409424163,
+      "updated_minus_frozen_loss": 0.0003768517875521073,
+      "identity_error": 3.2526065174565133e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002372881118428697,
+      "alignment_B": 0.0014815985871854337,
+      "alignment_benefit_2B": 0.0029631971743708675,
+      "updated_minus_frozen_loss": -0.00059031605594217,
+      "identity_error": 6.505213034913027e-19
+    }
+  },
+  {
+    "month": 200304,
+    "stocks": 5056,
+    "loss": {
+      "zero": 0.05357670534751297,
+      "frozen": 0.04386058226155389,
+      "rolling60": 0.05440479095704515,
+      "expanding": 0.05326699770804334
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005515226851269671,
+      "alignment_B": -0.002514490890599355,
+      "alignment_benefit_2B": -0.00502898178119871,
+      "updated_minus_frozen_loss": 0.01054420863246838,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0041647536176804435,
+      "alignment_B": -0.0026208313016491246,
+      "alignment_benefit_2B": -0.005241662603298249,
+      "updated_minus_frozen_loss": 0.009406416220978693,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200305,
+    "stocks": 5028,
+    "loss": {
+      "zero": 0.09105154999672227,
+      "frozen": 0.07171529593216576,
+      "rolling60": 0.08375892266735728,
+      "expanding": 0.08344576001519431
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002944538476729263,
+      "alignment_B": -0.004549544093448899,
+      "alignment_benefit_2B": -0.009099088186897798,
+      "updated_minus_frozen_loss": 0.012043626663627061,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0022330710486595344,
+      "alignment_B": -0.004748696924842734,
+      "alignment_benefit_2B": -0.009497393849685468,
+      "updated_minus_frozen_loss": 0.011730464898345002,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200306,
+    "stocks": 5003,
+    "loss": {
+      "zero": 0.04313712040882633,
+      "frozen": 0.03924874104410543,
+      "rolling60": 0.04627754363307733,
+      "expanding": 0.04112216506866181
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005941510929017424,
+      "alignment_B": -0.0005436458044326298,
+      "alignment_benefit_2B": -0.0010872916088652596,
+      "updated_minus_frozen_loss": 0.0070288025378826835,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0011144063101791077,
+      "alignment_B": -0.00037950880230459816,
+      "alignment_benefit_2B": -0.0007590176046091963,
+      "updated_minus_frozen_loss": 0.001873423914788304,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200307,
+    "stocks": 4964,
+    "loss": {
+      "zero": 0.03911483659279376,
+      "frozen": 0.03309272241944458,
+      "rolling60": 0.04407062882764098,
+      "expanding": 0.03548943211042943
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.008272132152988713,
+      "alignment_B": -0.001352887084419582,
+      "alignment_benefit_2B": -0.002705774168839164,
+      "updated_minus_frozen_loss": 0.010977906321827878,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001468731634573641,
+      "alignment_B": -0.0004639891909855865,
+      "alignment_benefit_2B": -0.000927978381971173,
+      "updated_minus_frozen_loss": 0.002396710016544814,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200308,
+    "stocks": 4934,
+    "loss": {
+      "zero": 0.02612793912577698,
+      "frozen": 0.02571736474448249,
+      "rolling60": 0.02924212265137571,
+      "expanding": 0.024139854521388386
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0008138651259106224,
+      "alignment_B": -0.0013554464173780967,
+      "alignment_benefit_2B": -0.0027108928347561933,
+      "updated_minus_frozen_loss": 0.003524757960666815,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005128119408283998,
+      "alignment_B": 0.0010451611242065213,
+      "alignment_benefit_2B": 0.0020903222484130427,
+      "updated_minus_frozen_loss": -0.001577510307584643,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200309,
+    "stocks": 4921,
+    "loss": {
+      "zero": 0.029659111295705726,
+      "frozen": 0.02954701730264605,
+      "rolling60": 0.03295695134726076,
+      "expanding": 0.02905421314824562
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015567797624324576,
+      "alignment_B": -0.0009265772089409048,
+      "alignment_benefit_2B": -0.0018531544178818095,
+      "updated_minus_frozen_loss": 0.0034099341803142673,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004188362408400573,
+      "alignment_B": 0.000455820080383574,
+      "alignment_benefit_2B": 0.000911640160767148,
+      "updated_minus_frozen_loss": -0.0004928039199270911,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200310,
+    "stocks": 4909,
+    "loss": {
+      "zero": 0.04060297102372502,
+      "frozen": 0.04307948826799744,
+      "rolling60": 0.04918079128471778,
+      "expanding": 0.037144778213584556
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007866971490461765,
+      "alignment_B": -0.002657302853056084,
+      "alignment_benefit_2B": -0.005314605706112168,
+      "updated_minus_frozen_loss": 0.0061013028551583455,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001420230089161989,
+      "alignment_B": 0.0036774701910815364,
+      "alignment_benefit_2B": 0.007354940382163073,
+      "updated_minus_frozen_loss": -0.005934710293001082,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200311,
+    "stocks": 4875,
+    "loss": {
+      "zero": 0.023276778962348355,
+      "frozen": 0.02239577500636967,
+      "rolling60": 0.02383098603555481,
+      "expanding": 0.02204420601020712
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003514858053557516,
+      "alignment_B": 0.0010398234345434033,
+      "alignment_benefit_2B": 0.0020796468690868065,
+      "updated_minus_frozen_loss": 0.0014352111844707087,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0009866955878774487,
+      "alignment_B": 0.0006691322331224214,
+      "alignment_benefit_2B": 0.001338264466244843,
+      "updated_minus_frozen_loss": -0.00035156887836739414,
+      "identity_error": 1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 200312,
+    "stocks": 4869,
+    "loss": {
+      "zero": 0.0241500539561882,
+      "frozen": 0.023820910856399518,
+      "rolling60": 0.025430343939089984,
+      "expanding": 0.024056526342331037
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003569387268835232,
+      "alignment_B": 0.000979977161103819,
+      "alignment_benefit_2B": 0.001959954322207638,
+      "updated_minus_frozen_loss": 0.0016094329466275934,
+      "identity_error": -6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00022246774250681115,
+      "alignment_B": -6.5738594789087745e-06,
+      "alignment_benefit_2B": -1.3147718957817549e-05,
+      "updated_minus_frozen_loss": 0.00023561546146462877,
+      "identity_error": 8.131516293641283e-20
+    }
+  },
+  {
+    "month": 200401,
+    "stocks": 4862,
+    "loss": {
+      "zero": 0.037833527259918044,
+      "frozen": 0.031224667674804682,
+      "rolling60": 0.03300139883996563,
+      "expanding": 0.03605743560873843
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00047283586033279373,
+      "alignment_B": -0.0006519475832859781,
+      "alignment_benefit_2B": -0.0013038951665719561,
+      "updated_minus_frozen_loss": 0.0017767310269047498,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0021165866151988543,
+      "alignment_B": -0.001358090834655541,
+      "alignment_benefit_2B": -0.002716181669311082,
+      "updated_minus_frozen_loss": 0.004832768284509936,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200402,
+    "stocks": 4854,
+    "loss": {
+      "zero": 0.02731745754080576,
+      "frozen": 0.027395128435763097,
+      "rolling60": 0.02870641028139531,
+      "expanding": 0.027238643790062612
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00048357983197019053,
+      "alignment_B": -0.0004138506235644288,
+      "alignment_benefit_2B": -0.0008277012471288575,
+      "updated_minus_frozen_loss": 0.001311281079099048,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 6.179636618323945e-05,
+      "alignment_B": 0.00010914064758534733,
+      "alignment_benefit_2B": 0.00021828129517069466,
+      "updated_minus_frozen_loss": -0.00015648492898745502,
+      "identity_error": 1.6263032587282567e-19
+    }
+  },
+  {
+    "month": 200403,
+    "stocks": 4861,
+    "loss": {
+      "zero": 0.020284640597998088,
+      "frozen": 0.020261951708554816,
+      "rolling60": 0.022459990929558856,
+      "expanding": 0.020266279722876045
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015423120965395228,
+      "alignment_B": -0.0003278633925558142,
+      "alignment_benefit_2B": -0.0006557267851116284,
+      "updated_minus_frozen_loss": 0.0021980388816511508,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001719302161013412,
+      "alignment_B": 8.380118072531435e-05,
+      "alignment_benefit_2B": 0.0001676023614506287,
+      "updated_minus_frozen_loss": 4.3278546507125005e-06,
+      "identity_error": -1.9481757786848908e-20
+    }
+  },
+  {
+    "month": 200404,
+    "stocks": 4843,
+    "loss": {
+      "zero": 0.018826407797992877,
+      "frozen": 0.02004747372142586,
+      "rolling60": 0.023368900167848525,
+      "expanding": 0.0209385254070138
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006819583937989942,
+      "alignment_B": -0.0013197340505797716,
+      "alignment_benefit_2B": -0.0026394681011595433,
+      "updated_minus_frozen_loss": 0.0033214264949585374,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 7.908414418962872e-05,
+      "alignment_B": -0.00040598387965125294,
+      "alignment_benefit_2B": -0.0008119677593025059,
+      "updated_minus_frozen_loss": 0.0008910519034921346,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200405,
+    "stocks": 4830,
+    "loss": {
+      "zero": 0.015076015518568386,
+      "frozen": 0.015091792541556999,
+      "rolling60": 0.016808379547737416,
+      "expanding": 0.015089913112615415
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012976664241829096,
+      "alignment_B": -0.00020946030237746775,
+      "alignment_benefit_2B": -0.0004189206047549355,
+      "updated_minus_frozen_loss": 0.001716587028937845,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.2348100868803895e-06,
+      "alignment_B": 1.5571152320554477e-06,
+      "alignment_benefit_2B": 3.1142304641108954e-06,
+      "updated_minus_frozen_loss": -1.879420377230609e-06,
+      "identity_error": -1.0312626132821107e-19
+    }
+  },
+  {
+    "month": 200406,
+    "stocks": 4826,
+    "loss": {
+      "zero": 0.014415514302698542,
+      "frozen": 0.014283223375632,
+      "rolling60": 0.014184447075338311,
+      "expanding": 0.014456837847815618
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011550814547572179,
+      "alignment_B": 0.0006269288518661884,
+      "alignment_benefit_2B": 0.0012538577037323768,
+      "updated_minus_frozen_loss": -9.877624897515899e-05,
+      "identity_error": -6.776263578034403e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.354833247735476e-05,
+      "alignment_B": -8.003309201134544e-05,
+      "alignment_benefit_2B": -0.00016006618402269088,
+      "updated_minus_frozen_loss": 0.00017361451650004564,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200407,
+    "stocks": 4816,
+    "loss": {
+      "zero": 0.021654658584003315,
+      "frozen": 0.02774839447111636,
+      "rolling60": 0.029027823724553536,
+      "expanding": 0.026254755953646118
+    },
+    "rolling60": {
+      "adjustment_cost_A": 7.388288274747666e-05,
+      "alignment_B": -0.0006027733846462247,
+      "alignment_benefit_2B": -0.0012055467692924495,
+      "updated_minus_frozen_loss": 0.0012794296520399256,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.885992061602769e-05,
+      "alignment_B": 0.0007762491171018396,
+      "alignment_benefit_2B": 0.0015524982342036793,
+      "updated_minus_frozen_loss": -0.0014936383135876524,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200408,
+    "stocks": 4820,
+    "loss": {
+      "zero": 0.013603968504038685,
+      "frozen": 0.013653780661002885,
+      "rolling60": 0.0162289916815211,
+      "expanding": 0.013415813469153033
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012949608788604548,
+      "alignment_B": -0.0006401250310015162,
+      "alignment_benefit_2B": -0.0012802500620030324,
+      "updated_minus_frozen_loss": 0.002575210940863487,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00020007336011734536,
+      "alignment_B": 0.00021902029602049477,
+      "alignment_benefit_2B": 0.00043804059204098953,
+      "updated_minus_frozen_loss": -0.00023796723192364433,
+      "identity_error": -1.6263032587282567e-19
+    }
+  },
+  {
+    "month": 200409,
+    "stocks": 4820,
+    "loss": {
+      "zero": 0.01877618026501227,
+      "frozen": 0.01788820583235713,
+      "rolling60": 0.017229621529321903,
+      "expanding": 0.01882976513443358
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012366144784665006,
+      "alignment_B": 0.0009475993222796094,
+      "alignment_benefit_2B": 0.0018951986445592188,
+      "updated_minus_frozen_loss": -0.0006585841660927184,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001800839409400795,
+      "alignment_B": -0.0003807376863251527,
+      "alignment_benefit_2B": -0.0007614753726503054,
+      "updated_minus_frozen_loss": 0.000941559313590385,
+      "identity_error": 1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 200410,
+    "stocks": 4811,
+    "loss": {
+      "zero": 0.01784842965405299,
+      "frozen": 0.017568067626293468,
+      "rolling60": 0.018217541635864427,
+      "expanding": 0.017590710239411646
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00037683951337495877,
+      "alignment_B": -0.00013631728114825241,
+      "alignment_benefit_2B": -0.00027263456229650483,
+      "updated_minus_frozen_loss": 0.0006494740756714637,
+      "identity_error": 1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 6.060473848355706e-06,
+      "alignment_B": -8.291058354486534e-06,
+      "alignment_benefit_2B": -1.6582116708973067e-05,
+      "updated_minus_frozen_loss": 2.2642590557328843e-05,
+      "identity_error": 7.115076756936123e-20
+    }
+  },
+  {
+    "month": 200411,
+    "stocks": 4806,
+    "loss": {
+      "zero": 0.04614035323841869,
+      "frozen": 0.04808815932611117,
+      "rolling60": 0.04091696807756531,
+      "expanding": 0.04573444957010726
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002288154581725141,
+      "alignment_B": 0.004729672583879236,
+      "alignment_benefit_2B": 0.009459345167758471,
+      "updated_minus_frozen_loss": -0.0071711905860333295,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00016357952115954544,
+      "alignment_B": 0.0012586441884849346,
+      "alignment_benefit_2B": 0.0025172883769698693,
+      "updated_minus_frozen_loss": -0.0023537088558103236,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200412,
+    "stocks": 4802,
+    "loss": {
+      "zero": 0.029736967656097867,
+      "frozen": 0.027718410996620462,
+      "rolling60": 0.026545415743153913,
+      "expanding": 0.027585533324617773
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003049342748738414,
+      "alignment_B": 0.0007389646273764047,
+      "alignment_benefit_2B": 0.0014779292547528093,
+      "updated_minus_frozen_loss": -0.001172994979878968,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.7893266850578374e-06,
+      "alignment_B": 6.783352960130287e-05,
+      "alignment_benefit_2B": 0.00013566705920260575,
+      "updated_minus_frozen_loss": -0.00013287773251754838,
+      "identity_error": -4.607859233063394e-19
+    }
+  },
+  {
+    "month": 200501,
+    "stocks": 4803,
+    "loss": {
+      "zero": 0.01628381412496088,
+      "frozen": 0.016097351021915642,
+      "rolling60": 0.01975274192310034,
+      "expanding": 0.016887069604004552
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001191676347003994,
+      "alignment_B": -0.0012318572763373682,
+      "alignment_benefit_2B": -0.0024637145526747364,
+      "updated_minus_frozen_loss": 0.0036553908996787296,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 9.604257706937747e-05,
+      "alignment_B": -0.0003468380136291302,
+      "alignment_benefit_2B": -0.0006936760272582604,
+      "updated_minus_frozen_loss": 0.0007897186043276379,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200502,
+    "stocks": 4792,
+    "loss": {
+      "zero": 0.015418658879721877,
+      "frozen": 0.015334742373072474,
+      "rolling60": 0.017173106789843656,
+      "expanding": 0.015318536775000604
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0018804725576601737,
+      "alignment_B": 2.1054089793933562e-05,
+      "alignment_benefit_2B": 4.2108179587867124e-05,
+      "updated_minus_frozen_loss": 0.0018383643780723069,
+      "identity_error": 2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 7.862938316651605e-06,
+      "alignment_B": 1.2034283748678881e-05,
+      "alignment_benefit_2B": 2.4068567497357762e-05,
+      "updated_minus_frozen_loss": -1.6205629180706082e-05,
+      "identity_error": 7.453889935837843e-20
+    }
+  },
+  {
+    "month": 200503,
+    "stocks": 4791,
+    "loss": {
+      "zero": 0.020261299187213297,
+      "frozen": 0.02075063070624309,
+      "rolling60": 0.02549326753672986,
+      "expanding": 0.021162186358245055
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014858129587278525,
+      "alignment_B": -0.0016284119084894275,
+      "alignment_benefit_2B": -0.003256823816978855,
+      "updated_minus_frozen_loss": 0.004742636775706707,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.3648566666082582e-05,
+      "alignment_B": -0.00019395353325429239,
+      "alignment_benefit_2B": -0.00038790706650858477,
+      "updated_minus_frozen_loss": 0.0004115556331746671,
+      "identity_error": -2.710505431213761e-19
+    }
+  },
+  {
+    "month": 200504,
+    "stocks": 4783,
+    "loss": {
+      "zero": 0.01775010728471415,
+      "frozen": 0.01649679056739041,
+      "rolling60": 0.026622204413838526,
+      "expanding": 0.016990029927764872
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003919242247962402,
+      "alignment_B": -0.0031030857323980383,
+      "alignment_benefit_2B": -0.0062061714647960765,
+      "updated_minus_frozen_loss": 0.010125413712758479,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.4267700690053112e-05,
+      "alignment_B": -0.00023448586142640947,
+      "alignment_benefit_2B": -0.00046897172285281894,
+      "updated_minus_frozen_loss": 0.0004932394235428721,
+      "identity_error": 1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 200505,
+    "stocks": 4777,
+    "loss": {
+      "zero": 0.021950233577340116,
+      "frozen": 0.022597416866864565,
+      "rolling60": 0.019737202925441438,
+      "expanding": 0.021418271712660097
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0031134545932532997,
+      "alignment_B": 0.0029868343370755062,
+      "alignment_benefit_2B": 0.0059736686741510125,
+      "updated_minus_frozen_loss": -0.0028602140808977133,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001534523941563817,
+      "alignment_B": 0.0006662988453911645,
+      "alignment_benefit_2B": 0.001332597690782329,
+      "updated_minus_frozen_loss": -0.0011791452966259475,
+      "identity_error": -2.168404344971009e-19
+    }
+  },
+  {
+    "month": 200506,
+    "stocks": 4772,
+    "loss": {
+      "zero": 0.017891961088794078,
+      "frozen": 0.01696936381693454,
+      "rolling60": 0.017322358584002308,
+      "expanding": 0.017008112769845263
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001080493386824631,
+      "alignment_B": 0.0003637493362231532,
+      "alignment_benefit_2B": 0.0007274986724463064,
+      "updated_minus_frozen_loss": 0.00035299471437832475,
+      "identity_error": 1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.7494790047246466e-06,
+      "alignment_B": -1.799974882160342e-05,
+      "alignment_benefit_2B": -3.599949764320684e-05,
+      "updated_minus_frozen_loss": 3.8748976647931414e-05,
+      "identity_error": -7.453889935837843e-20
+    }
+  },
+  {
+    "month": 200507,
+    "stocks": 4771,
+    "loss": {
+      "zero": 0.026675050257199684,
+      "frozen": 0.02483736690507243,
+      "rolling60": 0.022617066599227707,
+      "expanding": 0.024732039812314182
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013016158868581439,
+      "alignment_B": 0.0017609580514674175,
+      "alignment_benefit_2B": 0.003521916102934835,
+      "updated_minus_frozen_loss": -0.0022203002160766905,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.0911517339088267e-06,
+      "alignment_B": 5.3709044324262295e-05,
+      "alignment_benefit_2B": 0.00010741808864852459,
+      "updated_minus_frozen_loss": -0.0001053269369146158,
+      "identity_error": -2.710505431213761e-20
+    }
+  },
+  {
+    "month": 200508,
+    "stocks": 4763,
+    "loss": {
+      "zero": 0.019129554210307514,
+      "frozen": 0.019826567453035654,
+      "rolling60": 0.020420336949162305,
+      "expanding": 0.020022274733072682
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00012197136555051578,
+      "alignment_B": -0.0002358991206963227,
+      "alignment_benefit_2B": -0.0004717982413926454,
+      "updated_minus_frozen_loss": 0.0005937696069431609,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 9.677324226692817e-06,
+      "alignment_B": -9.301498680723558e-05,
+      "alignment_benefit_2B": -0.00018602997361447115,
+      "updated_minus_frozen_loss": 0.00019570729784116386,
+      "identity_error": -1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 200509,
+    "stocks": 4770,
+    "loss": {
+      "zero": 0.014909846923816925,
+      "frozen": 0.015242401760091796,
+      "rolling60": 0.015377431341952697,
+      "expanding": 0.01492698174354531
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015002926567192346,
+      "alignment_B": 0.0006826315132158179,
+      "alignment_benefit_2B": 0.0013652630264316358,
+      "updated_minus_frozen_loss": 0.000135029630287599,
+      "identity_error": 1.3552527156068805e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00016382796966254973,
+      "alignment_B": 0.00023962398053920667,
+      "alignment_benefit_2B": 0.00047924796107841333,
+      "updated_minus_frozen_loss": -0.0003154199914158633,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 200510,
+    "stocks": 4754,
+    "loss": {
+      "zero": 0.015710362140633396,
+      "frozen": 0.016113001077237205,
+      "rolling60": 0.01771234930585606,
+      "expanding": 0.016227101367535236
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00027378907293642917,
+      "alignment_B": -0.0006627796189746366,
+      "alignment_benefit_2B": -0.0013255592379492732,
+      "updated_minus_frozen_loss": 0.001599348310885702,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.935066626180452e-06,
+      "alignment_B": -5.608261622744527e-05,
+      "alignment_benefit_2B": -0.00011216523245489054,
+      "updated_minus_frozen_loss": 0.00011410029908107106,
+      "identity_error": 6.776263578034403e-20
+    }
+  },
+  {
+    "month": 200511,
+    "stocks": 4751,
+    "loss": {
+      "zero": 0.019931900555193695,
+      "frozen": 0.019591898939603822,
+      "rolling60": 0.01957920585021351,
+      "expanding": 0.01939452220402854
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002790068277442064,
+      "alignment_B": 0.0014013807496529532,
+      "alignment_benefit_2B": 0.0028027614993059065,
+      "updated_minus_frozen_loss": -1.2693221863842514e-05,
+      "identity_error": 1.4060746924421386e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.4215228237375604e-05,
+      "alignment_B": 0.00010579611132392993,
+      "alignment_benefit_2B": 0.00021159222264785987,
+      "updated_minus_frozen_loss": -0.00019737699441048443,
+      "identity_error": -1.6263032587282567e-19
+    }
+  },
+  {
+    "month": 200512,
+    "stocks": 4741,
+    "loss": {
+      "zero": 0.015003154702043312,
+      "frozen": 0.01790049125475434,
+      "rolling60": 0.017260402461586583,
+      "expanding": 0.015299397425771197
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004254975144054348,
+      "alignment_B": 0.0005327930780955718,
+      "alignment_benefit_2B": 0.0010655861561911437,
+      "updated_minus_frozen_loss": -0.0006400886417857091,
+      "identity_error": -3.2526065174565133e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0015153860870284431,
+      "alignment_B": 0.002058239878225461,
+      "alignment_benefit_2B": 0.004116479756450922,
+      "updated_minus_frozen_loss": -0.002601093669422479,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200601,
+    "stocks": 4726,
+    "loss": {
+      "zero": 0.02857523882701846,
+      "frozen": 0.02299543515783776,
+      "rolling60": 0.029707165367188912,
+      "expanding": 0.026250222370828837
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003093490900640502,
+      "alignment_B": -0.001809119749701036,
+      "alignment_benefit_2B": -0.003618239499402072,
+      "updated_minus_frozen_loss": 0.006711730400042574,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0011705256980920592,
+      "alignment_B": -0.0010421309225964728,
+      "alignment_benefit_2B": -0.0020842618451929456,
+      "updated_minus_frozen_loss": 0.0032547875432850045,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200602,
+    "stocks": 4703,
+    "loss": {
+      "zero": 0.013459741523647761,
+      "frozen": 0.014001559366028237,
+      "rolling60": 0.013434366731779787,
+      "expanding": 0.013858984272437888
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00040055415050587254,
+      "alignment_B": 0.00048387337780015103,
+      "alignment_benefit_2B": 0.0009677467556003021,
+      "updated_minus_frozen_loss": -0.0005671926050944294,
+      "identity_error": 1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.3627072665180281e-05,
+      "alignment_B": 7.810103933703397e-05,
+      "alignment_benefit_2B": 0.00015620207867406794,
+      "updated_minus_frozen_loss": -0.00014257500600888762,
+      "identity_error": 2.710505431213761e-20
+    }
+  },
+  {
+    "month": 200603,
+    "stocks": 4704,
+    "loss": {
+      "zero": 0.017675405714938593,
+      "frozen": 0.01903483373908375,
+      "rolling60": 0.01959606303532983,
+      "expanding": 0.01768226472770522
+    },
+    "rolling60": {
+      "adjustment_cost_A": 7.379997223127325e-05,
+      "alignment_B": -0.00024371479886531113,
+      "alignment_benefit_2B": -0.00048742959773062227,
+      "updated_minus_frozen_loss": 0.0005612295699618955,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002156650907143727,
+      "alignment_B": 0.0007841169237073521,
+      "alignment_benefit_2B": 0.0015682338474147042,
+      "updated_minus_frozen_loss": -0.0013525687567003313,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 200604,
+    "stocks": 4699,
+    "loss": {
+      "zero": 0.016122357358893096,
+      "frozen": 0.016429811693319044,
+      "rolling60": 0.01608993436438103,
+      "expanding": 0.01629840505481705
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00012530491689207246,
+      "alignment_B": 0.00023259116741493617,
+      "alignment_benefit_2B": 0.00046518233482987234,
+      "updated_minus_frozen_loss": -0.0003398774179378,
+      "identity_error": -1.6263032587282567e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.4516435159345354e-05,
+      "alignment_B": 7.296161518003603e-05,
+      "alignment_benefit_2B": 0.00014592323036007206,
+      "updated_minus_frozen_loss": -0.00013140679520072684,
+      "identity_error": -1.3552527156068805e-19
+    }
+  },
+  {
+    "month": 200605,
+    "stocks": 4698,
+    "loss": {
+      "zero": 0.016973920795336547,
+      "frozen": 0.018111502293761655,
+      "rolling60": 0.017088731644329523,
+      "expanding": 0.017206443386506183
+    },
+    "rolling60": {
+      "adjustment_cost_A": 7.331047994465261e-05,
+      "alignment_B": 0.000548040550688924,
+      "alignment_benefit_2B": 0.001096081101377848,
+      "updated_minus_frozen_loss": -0.001022770621433195,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 6.182624288500254e-05,
+      "alignment_B": 0.0004834425719834679,
+      "alignment_benefit_2B": 0.0009668851439669358,
+      "updated_minus_frozen_loss": -0.0009050589010819333,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200606,
+    "stocks": 4699,
+    "loss": {
+      "zero": 0.013405382962510912,
+      "frozen": 0.013245369209455451,
+      "rolling60": 0.013603391799210917,
+      "expanding": 0.01324908702695121
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004941272103760644,
+      "alignment_B": 6.805227880997479e-05,
+      "alignment_benefit_2B": 0.00013610455761994957,
+      "updated_minus_frozen_loss": 0.00035802265275611494,
+      "identity_error": 1.6263032587282567e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.3276707725249525e-06,
+      "alignment_B": -6.951353186382284e-07,
+      "alignment_benefit_2B": -1.3902706372764569e-06,
+      "updated_minus_frozen_loss": 3.7179414098014666e-06,
+      "identity_error": 5.717472393966527e-20
+    }
+  },
+  {
+    "month": 200607,
+    "stocks": 4704,
+    "loss": {
+      "zero": 0.014396722827273169,
+      "frozen": 0.015369316633804005,
+      "rolling60": 0.012910992031281926,
+      "expanding": 0.014873811350883276
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015046981455974114,
+      "alignment_B": 0.001981511338948681,
+      "alignment_benefit_2B": 0.003963022677897362,
+      "updated_minus_frozen_loss": -0.00245832453229995,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.295756854792394e-05,
+      "alignment_B": 0.00026423137354199727,
+      "alignment_benefit_2B": 0.0005284627470839945,
+      "updated_minus_frozen_loss": -0.0004955051785360706,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200608,
+    "stocks": 4697,
+    "loss": {
+      "zero": 0.016647269183167505,
+      "frozen": 0.017964018878077127,
+      "rolling60": 0.016623511799240695,
+      "expanding": 0.017816471085481442
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001142227845830127,
+      "alignment_B": 0.0012413675043978219,
+      "alignment_benefit_2B": 0.0024827350087956437,
+      "updated_minus_frozen_loss": -0.0013405071629655162,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.836352894940674e-06,
+      "alignment_B": 7.5692137435843e-05,
+      "alignment_benefit_2B": 0.000151384274871686,
+      "updated_minus_frozen_loss": -0.0001475479219767453,
+      "identity_error": 2.710505431213761e-20
+    }
+  },
+  {
+    "month": 200609,
+    "stocks": 4690,
+    "loss": {
+      "zero": 0.012883970721573249,
+      "frozen": 0.013261713698432945,
+      "rolling60": 0.013883346257266822,
+      "expanding": 0.013083888383950764
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002704712993226358,
+      "alignment_B": 0.0010415402447096285,
+      "alignment_benefit_2B": 0.002083080489419257,
+      "updated_minus_frozen_loss": 0.0006216325038071007,
+      "identity_error": -3.2526065174565133e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.7924841428063316e-05,
+      "alignment_B": 0.00010287511150386488,
+      "alignment_benefit_2B": 0.00020575022300772976,
+      "updated_minus_frozen_loss": -0.00017782538157966644,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200610,
+    "stocks": 4688,
+    "loss": {
+      "zero": 0.021858732564811068,
+      "frozen": 0.022348745313334004,
+      "rolling60": 0.02154744778108378,
+      "expanding": 0.021631935733170536
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0001722360943061005,
+      "alignment_B": 0.00048676683849414637,
+      "alignment_benefit_2B": 0.0009735336769882927,
+      "updated_minus_frozen_loss": -0.0008012975826821923,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.83085094367718e-05,
+      "alignment_B": 0.0003875592053700438,
+      "alignment_benefit_2B": 0.0007751184107400875,
+      "updated_minus_frozen_loss": -0.0007168099013033154,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 200611,
+    "stocks": 4680,
+    "loss": {
+      "zero": 0.019149729156945492,
+      "frozen": 0.018640531217098234,
+      "rolling60": 0.018602831683129484,
+      "expanding": 0.018633905954186278
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00010806902100491054,
+      "alignment_B": 7.288418289518905e-05,
+      "alignment_benefit_2B": 0.0001457683657903781,
+      "updated_minus_frozen_loss": -3.769934478546764e-05,
+      "identity_error": -6.776263578034403e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.128772131123944e-07,
+      "alignment_B": 3.718962801640627e-06,
+      "alignment_benefit_2B": 7.437925603281254e-06,
+      "updated_minus_frozen_loss": -6.6250483901687515e-06,
+      "identity_error": 1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 200612,
+    "stocks": 4674,
+    "loss": {
+      "zero": 0.014569488023349982,
+      "frozen": 0.016820863798837574,
+      "rolling60": 0.014784456344019856,
+      "expanding": 0.014753771088223365
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001114125987283265,
+      "alignment_B": 0.001575266717120769,
+      "alignment_benefit_2B": 0.003150533434241538,
+      "updated_minus_frozen_loss": -0.0020364074469582734,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0012756266966073818,
+      "alignment_B": 0.0016713597301017936,
+      "alignment_benefit_2B": 0.003342719460203587,
+      "updated_minus_frozen_loss": -0.0020670927635962053,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200701,
+    "stocks": 4667,
+    "loss": {
+      "zero": 0.014318615864544094,
+      "frozen": 0.014178664736251567,
+      "rolling60": 0.013864879083509835,
+      "expanding": 0.014290245455670082
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004960060895529502,
+      "alignment_B": 0.0004048958810872034,
+      "alignment_benefit_2B": 0.0008097917621744068,
+      "updated_minus_frozen_loss": -0.0003137856726214567,
+      "identity_error": -1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014065087595374849,
+      "alignment_B": 0.0006474640580928306,
+      "alignment_benefit_2B": 0.0012949281161856612,
+      "updated_minus_frozen_loss": 0.00011158064335182375,
+      "identity_error": 9.486769009248164e-20
+    }
+  },
+  {
+    "month": 200702,
+    "stocks": 4643,
+    "loss": {
+      "zero": 0.013648116282595405,
+      "frozen": 0.013809283334833937,
+      "rolling60": 0.014840050428142161,
+      "expanding": 0.013779222461982042
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002261323135536039,
+      "alignment_B": 0.0006152780617957914,
+      "alignment_benefit_2B": 0.0012305561235915828,
+      "updated_minus_frozen_loss": 0.001030767011944456,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005594518973270916,
+      "alignment_B": 0.0002947564333189055,
+      "alignment_benefit_2B": 0.000589512866637811,
+      "updated_minus_frozen_loss": -3.0060969310719526e-05,
+      "identity_error": -1.1519648082658485e-19
+    }
+  },
+  {
+    "month": 200703,
+    "stocks": 4644,
+    "loss": {
+      "zero": 0.012947497295361245,
+      "frozen": 0.013066345523307116,
+      "rolling60": 0.013477698621041399,
+      "expanding": 0.013075380878544178
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00013231437669726992,
+      "alignment_B": -0.00013951935425170382,
+      "alignment_benefit_2B": -0.00027903870850340764,
+      "updated_minus_frozen_loss": 0.00041135308520067745,
+      "identity_error": -1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.8028971425380793e-06,
+      "alignment_B": -3.116248773930925e-06,
+      "alignment_benefit_2B": -6.23249754786185e-06,
+      "updated_minus_frozen_loss": 9.035394690400001e-06,
+      "identity_error": 7.284483346386983e-20
+    }
+  },
+  {
+    "month": 200704,
+    "stocks": 4625,
+    "loss": {
+      "zero": 0.014807160030784054,
+      "frozen": 0.014545182939511955,
+      "rolling60": 0.014431918809723695,
+      "expanding": 0.014501589095048695
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00017077846600423234,
+      "alignment_B": 0.00014202119321356138,
+      "alignment_benefit_2B": 0.00028404238642712275,
+      "updated_minus_frozen_loss": -0.00011326392042289037,
+      "identity_error": 4.0657581468206416e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.2876299656639002e-05,
+      "alignment_B": 2.8235052524823276e-05,
+      "alignment_benefit_2B": 5.647010504964655e-05,
+      "updated_minus_frozen_loss": -4.3593805393007495e-05,
+      "identity_error": 5.421010862427522e-20
+    }
+  },
+  {
+    "month": 200705,
+    "stocks": 4622,
+    "loss": {
+      "zero": 0.01698877606089599,
+      "frozen": 0.017810597316560525,
+      "rolling60": 0.017174766432181767,
+      "expanding": 0.016850850824223627
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0031845142225441635,
+      "alignment_B": 0.001910172519373225,
+      "alignment_benefit_2B": 0.00382034503874645,
+      "updated_minus_frozen_loss": -0.0006358308162022857,
+      "identity_error": 6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00035031283759396064,
+      "alignment_B": 0.0006550296035090636,
+      "alignment_benefit_2B": 0.0013100592070181272,
+      "updated_minus_frozen_loss": -0.0009597463694241663,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 200706,
+    "stocks": 4628,
+    "loss": {
+      "zero": 0.011576014752557866,
+      "frozen": 0.011643103122648853,
+      "rolling60": 0.014174181480472052,
+      "expanding": 0.011673206483683156
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014815748482123893,
+      "alignment_B": -0.0005247517445056115,
+      "alignment_benefit_2B": -0.001049503489011223,
+      "updated_minus_frozen_loss": 0.0025310783372236123,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.550778237700541e-06,
+      "alignment_B": -1.4276281139759747e-05,
+      "alignment_benefit_2B": -2.8552562279519495e-05,
+      "updated_minus_frozen_loss": 3.0103340517220083e-05,
+      "identity_error": 4.743384504624082e-20
+    }
+  },
+  {
+    "month": 200707,
+    "stocks": 4625,
+    "loss": {
+      "zero": 0.017486709787326988,
+      "frozen": 0.017936710996951825,
+      "rolling60": 0.02359199810411036,
+      "expanding": 0.017708969486639276
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013680806296770581,
+      "alignment_B": -0.0021436031331965068,
+      "alignment_benefit_2B": -0.0042872062663930136,
+      "updated_minus_frozen_loss": 0.005655286896070072,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 4.099471603824507e-06,
+      "alignment_B": 0.00011592060614963797,
+      "alignment_benefit_2B": 0.00023184121229927594,
+      "updated_minus_frozen_loss": -0.00022774174069545143,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200708,
+    "stocks": 4619,
+    "loss": {
+      "zero": 0.02017197793647778,
+      "frozen": 0.019955488918641084,
+      "rolling60": 0.025609052898621778,
+      "expanding": 0.020144687713379242
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0047384935035873,
+      "alignment_B": -0.00045753528543928014,
+      "alignment_benefit_2B": -0.0009150705708785603,
+      "updated_minus_frozen_loss": 0.00565356407446586,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00010595829572687289,
+      "alignment_B": -4.162031488606753e-05,
+      "alignment_benefit_2B": -8.324062977213506e-05,
+      "updated_minus_frozen_loss": 0.0001891989254990082,
+      "identity_error": 2.439454888092385e-19
+    }
+  },
+  {
+    "month": 200709,
+    "stocks": 4617,
+    "loss": {
+      "zero": 0.01622557654701692,
+      "frozen": 0.016058164495406067,
+      "rolling60": 0.017850876409935202,
+      "expanding": 0.01615698065595534
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002461838928889937,
+      "alignment_B": 0.0003345635261714749,
+      "alignment_benefit_2B": 0.0006691270523429498,
+      "updated_minus_frozen_loss": 0.0017927118765469871,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000283945190452096,
+      "alignment_B": 9.256448619803165e-05,
+      "alignment_benefit_2B": 0.0001851289723960633,
+      "updated_minus_frozen_loss": 9.881621805603262e-05,
+      "identity_error": -8.131516293641283e-20
+    }
+  },
+  {
+    "month": 200710,
+    "stocks": 4591,
+    "loss": {
+      "zero": 0.029075251334163447,
+      "frozen": 0.029004781572738805,
+      "rolling60": 0.03029989850144521,
+      "expanding": 0.029014074183507103
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0019299386320683512,
+      "alignment_B": 0.0003174107917847073,
+      "alignment_benefit_2B": 0.0006348215835694146,
+      "updated_minus_frozen_loss": 0.0012951170484989372,
+      "identity_error": 6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0001755511908644176,
+      "alignment_B": 8.312922893136304e-05,
+      "alignment_benefit_2B": 0.00016625845786272608,
+      "updated_minus_frozen_loss": 9.292733001690978e-06,
+      "identity_error": -5.30242624981192e-19
+    }
+  },
+  {
+    "month": 200711,
+    "stocks": 4576,
+    "loss": {
+      "zero": 0.0286613316893382,
+      "frozen": 0.0403061684973989,
+      "rolling60": 0.04019209021139715,
+      "expanding": 0.03233210877538113
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007503942267401727,
+      "alignment_B": 0.00043223617576975234,
+      "alignment_benefit_2B": 0.0008644723515395047,
+      "updated_minus_frozen_loss": -0.00011407812479933179,
+      "identity_error": 2.0328790734103208e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014559802999171121,
+      "alignment_B": 0.0047150202140516,
+      "alignment_benefit_2B": 0.0094300404281032,
+      "updated_minus_frozen_loss": -0.007974060128186088,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200712,
+    "stocks": 4573,
+    "loss": {
+      "zero": 0.021228134045800148,
+      "frozen": 0.0239411343252144,
+      "rolling60": 0.02599942767386649,
+      "expanding": 0.021362528382846115
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009018828959075254,
+      "alignment_B": -0.0005782052475997961,
+      "alignment_benefit_2B": -0.0011564104951995921,
+      "updated_minus_frozen_loss": 0.002058293391107117,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014100988232529652,
+      "alignment_B": 0.0019943524884331524,
+      "alignment_benefit_2B": 0.003988704976866305,
+      "updated_minus_frozen_loss": -0.00257860615361334,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200801,
+    "stocks": 4583,
+    "loss": {
+      "zero": 0.02959358255866453,
+      "frozen": 0.03338144242034989,
+      "rolling60": 0.027703030813412785,
+      "expanding": 0.027596432281887854
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0034575154026591586,
+      "alignment_B": 0.004567963594195772,
+      "alignment_benefit_2B": 0.009135927188391544,
+      "updated_minus_frozen_loss": -0.005678411785732387,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0025526883944533355,
+      "alignment_B": 0.004168849293676792,
+      "alignment_benefit_2B": 0.008337698587353583,
+      "updated_minus_frozen_loss": -0.005785010192900247,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200802,
+    "stocks": 4569,
+    "loss": {
+      "zero": 0.024494932256857383,
+      "frozen": 0.024055000968129302,
+      "rolling60": 0.025576204509719265,
+      "expanding": 0.023712840536665968
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0019069055969342633,
+      "alignment_B": 0.00019285095906762634,
+      "alignment_benefit_2B": 0.0003857019181352527,
+      "updated_minus_frozen_loss": 0.0015212036787990108,
+      "identity_error": 2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00041888948488617487,
+      "alignment_B": 0.0003805248743155548,
+      "alignment_benefit_2B": 0.0007610497486311095,
+      "updated_minus_frozen_loss": -0.00034216026374493484,
+      "identity_error": -1.6263032587282567e-19
+    }
+  },
+  {
+    "month": 200803,
+    "stocks": 4561,
+    "loss": {
+      "zero": 0.023075498914158856,
+      "frozen": 0.02755111520298059,
+      "rolling60": 0.022252887569684417,
+      "expanding": 0.022836927663998408
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005770832925855112,
+      "alignment_B": 0.005534530248379037,
+      "alignment_benefit_2B": 0.011069060496758074,
+      "updated_minus_frozen_loss": -0.005298227570902964,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0018574652005714657,
+      "alignment_B": 0.003285826352756284,
+      "alignment_benefit_2B": 0.006571652705512568,
+      "updated_minus_frozen_loss": -0.004714187504941102,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200804,
+    "stocks": 4539,
+    "loss": {
+      "zero": 0.029049439105493506,
+      "frozen": 0.02909150892320733,
+      "rolling60": 0.031021096627970358,
+      "expanding": 0.02891825460126613
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0029592668467859577,
+      "alignment_B": 0.0005148394009017942,
+      "alignment_benefit_2B": 0.0010296788018035884,
+      "updated_minus_frozen_loss": 0.0019295880449823695,
+      "identity_error": 2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006950557361436547,
+      "alignment_B": 0.00043415489845994286,
+      "alignment_benefit_2B": 0.0008683097969198857,
+      "updated_minus_frozen_loss": -0.00017325406077623072,
+      "identity_error": 2.981555974335137e-19
+    }
+  },
+  {
+    "month": 200805,
+    "stocks": 4509,
+    "loss": {
+      "zero": 0.03104914423636803,
+      "frozen": 0.032078373821959785,
+      "rolling60": 0.0309648058821106,
+      "expanding": 0.030347306069943337
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0065795730863487155,
+      "alignment_B": 0.003846570535282864,
+      "alignment_benefit_2B": 0.007693141070565728,
+      "updated_minus_frozen_loss": -0.001113567984217013,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.004759367491556333,
+      "alignment_B": 0.0032452175272952057,
+      "alignment_benefit_2B": 0.006490435054590411,
+      "updated_minus_frozen_loss": -0.0017310675630340788,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200806,
+    "stocks": 4492,
+    "loss": {
+      "zero": 0.03538983026850813,
+      "frozen": 0.053528820966055546,
+      "rolling60": 0.03685058671892665,
+      "expanding": 0.042656063902505544
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004326625134561167,
+      "alignment_B": 0.010502429751529402,
+      "alignment_benefit_2B": 0.021004859503058804,
+      "updated_minus_frozen_loss": -0.016678234368497635,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0019214087111333095,
+      "alignment_B": 0.006397083165401616,
+      "alignment_benefit_2B": 0.012794166330803231,
+      "updated_minus_frozen_loss": -0.010872757619669923,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200807,
+    "stocks": 4476,
+    "loss": {
+      "zero": 0.035627684335662546,
+      "frozen": 0.037982969948340314,
+      "rolling60": 0.03655203214026845,
+      "expanding": 0.035640591171674785
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004792767528333798,
+      "alignment_B": 0.003111852752454253,
+      "alignment_benefit_2B": 0.006223705504908506,
+      "updated_minus_frozen_loss": -0.0014309379765747082,
+      "identity_error": 2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0018209170162693544,
+      "alignment_B": 0.0020816479145365978,
+      "alignment_benefit_2B": 0.0041632958290731955,
+      "updated_minus_frozen_loss": -0.0023423788128038416,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 200808,
+    "stocks": 4447,
+    "loss": {
+      "zero": 0.029236846779894556,
+      "frozen": 0.029432024121013752,
+      "rolling60": 0.029857118550675105,
+      "expanding": 0.028803176084219693
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005693884684812247,
+      "alignment_B": 7.214702332647133e-05,
+      "alignment_benefit_2B": 0.00014429404665294266,
+      "updated_minus_frozen_loss": 0.00042509442182828215,
+      "identity_error": 1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00033193054168585706,
+      "alignment_B": 0.00048038932482147284,
+      "alignment_benefit_2B": 0.0009607786496429457,
+      "updated_minus_frozen_loss": -0.0006288481079570884,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 200809,
+    "stocks": 4428,
+    "loss": {
+      "zero": 0.04304204632508054,
+      "frozen": 0.053923469060046,
+      "rolling60": 0.05167684651068272,
+      "expanding": 0.04711360080364381
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000166404941281401,
+      "alignment_B": 0.0012065137881316743,
+      "alignment_benefit_2B": 0.0024130275762633486,
+      "updated_minus_frozen_loss": -0.002246622634981948,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006973133621813891,
+      "alignment_B": 0.003753590660382174,
+      "alignment_benefit_2B": 0.007507181320764348,
+      "updated_minus_frozen_loss": -0.006809867958582959,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200810,
+    "stocks": 4404,
+    "loss": {
+      "zero": 0.08728358489261666,
+      "frozen": 0.09600984149923031,
+      "rolling60": 0.09144085611996987,
+      "expanding": 0.07745616978420423
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0003293345514142113,
+      "alignment_B": 0.00244915956731147,
+      "alignment_benefit_2B": 0.00489831913462294,
+      "updated_minus_frozen_loss": -0.004568984583208728,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0020468632640970683,
+      "alignment_B": 0.010300268152313285,
+      "alignment_benefit_2B": 0.02060053630462657,
+      "updated_minus_frozen_loss": -0.0185536730405295,
+      "identity_error": 3.469446951953614e-18
+    }
+  },
+  {
+    "month": 200811,
+    "stocks": 4363,
+    "loss": {
+      "zero": 0.07019732210684562,
+      "frozen": 0.07444425028600601,
+      "rolling60": 0.0759419372491021,
+      "expanding": 0.07131859920852392
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00024714621843267744,
+      "alignment_B": -0.0006252705867358167,
+      "alignment_benefit_2B": -0.0012505411734716333,
+      "updated_minus_frozen_loss": 0.0014976873919043104,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003938968320306708,
+      "alignment_B": 0.001759774284620748,
+      "alignment_benefit_2B": 0.003519548569241496,
+      "updated_minus_frozen_loss": -0.003125651737210825,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200812,
+    "stocks": 4344,
+    "loss": {
+      "zero": 0.07614565953160794,
+      "frozen": 0.07606473135522276,
+      "rolling60": 0.07548790268078638,
+      "expanding": 0.07646243851189198
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0004067501641271519,
+      "alignment_B": 0.0004917894394459409,
+      "alignment_benefit_2B": 0.0009835788788918817,
+      "updated_minus_frozen_loss": -0.0005768287147647296,
+      "identity_error": 1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0016402461174119612,
+      "alignment_B": 0.0006212696605269211,
+      "alignment_benefit_2B": 0.0012425393210538421,
+      "updated_minus_frozen_loss": 0.00039770679635812056,
+      "identity_error": 1.5178830414797062e-18
+    }
+  },
+  {
+    "month": 200901,
+    "stocks": 4305,
+    "loss": {
+      "zero": 0.07738444905451988,
+      "frozen": 0.08141159183322844,
+      "rolling60": 0.08021205953859357,
+      "expanding": 0.08108202061782388
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003872095268212612,
+      "alignment_B": 0.00253581412055137,
+      "alignment_benefit_2B": 0.00507162824110274,
+      "updated_minus_frozen_loss": -0.0011995329728901273,
+      "identity_error": 6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005528592213165357,
+      "alignment_B": 0.0004412153078763611,
+      "alignment_benefit_2B": 0.0008824306157527222,
+      "updated_minus_frozen_loss": -0.0003295713944361861,
+      "identity_error": 3.7947076036992655e-19
+    }
+  },
+  {
+    "month": 200902,
+    "stocks": 4283,
+    "loss": {
+      "zero": 0.055051279015610056,
+      "frozen": 0.11447729376010435,
+      "rolling60": 0.04911213405362263,
+      "expanding": 0.10278267337611365
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.03275388539687394,
+      "alignment_B": 0.049059522440543395,
+      "alignment_benefit_2B": 0.09811904488108679,
+      "updated_minus_frozen_loss": -0.06536515948421283,
+      "identity_error": 1.3877787807814457e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008675028026199338,
+      "alignment_B": 0.006281061483194381,
+      "alignment_benefit_2B": 0.012562122966388763,
+      "updated_minus_frozen_loss": -0.011694620163768828,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 200903,
+    "stocks": 4253,
+    "loss": {
+      "zero": 0.17695964037549425,
+      "frozen": 0.158538766373958,
+      "rolling60": 0.22129267998596303,
+      "expanding": 0.15924737884666929
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.07292571546565503,
+      "alignment_B": 0.005085901776342707,
+      "alignment_benefit_2B": 0.010171803552685413,
+      "updated_minus_frozen_loss": 0.06275391191296963,
+      "identity_error": 1.3877787807814457e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014867952561887243,
+      "alignment_B": 0.0003890915082961779,
+      "alignment_benefit_2B": 0.0007781830165923559,
+      "updated_minus_frozen_loss": 0.00070861223959637,
+      "identity_error": 1.6263032587282567e-18
+    }
+  },
+  {
+    "month": 200904,
+    "stocks": 4219,
+    "loss": {
+      "zero": 0.16976235772792908,
+      "frozen": 0.14415484375406856,
+      "rolling60": 0.18433093876262652,
+      "expanding": 0.1475641090922522
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.009103716119738113,
+      "alignment_B": -0.015536190056085633,
+      "alignment_benefit_2B": -0.031072380112171265,
+      "updated_minus_frozen_loss": 0.04017609623190938,
+      "identity_error": 6.938893903907228e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006540590055872366,
+      "alignment_B": -0.0013776037243745762,
+      "alignment_benefit_2B": -0.0027552074487491524,
+      "updated_minus_frozen_loss": 0.00340926645433639,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200905,
+    "stocks": 4197,
+    "loss": {
+      "zero": 0.12820299485608688,
+      "frozen": 0.11789146830340475,
+      "rolling60": 0.1322941499672816,
+      "expanding": 0.11959957643716312
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.006680074843641833,
+      "alignment_B": -0.003861303972827094,
+      "alignment_benefit_2B": -0.007722607945654188,
+      "updated_minus_frozen_loss": 0.014402682789296021,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006243194411912981,
+      "alignment_B": -0.0005418940990702585,
+      "alignment_benefit_2B": -0.001083788198140517,
+      "updated_minus_frozen_loss": 0.0017081076393318183,
+      "identity_error": 3.0357660829594124e-18
+    }
+  },
+  {
+    "month": 200906,
+    "stocks": 4168,
+    "loss": {
+      "zero": 0.050918812909221345,
+      "frozen": 0.05017894700431386,
+      "rolling60": 0.051685973801711985,
+      "expanding": 0.04968583549890786
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.006948440143807296,
+      "alignment_B": 0.002720706722574424,
+      "alignment_benefit_2B": 0.005441413445148848,
+      "updated_minus_frozen_loss": 0.0015070266986584476,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002746068804751603,
+      "alignment_B": 0.0016195904839663036,
+      "alignment_benefit_2B": 0.0032391809679326073,
+      "updated_minus_frozen_loss": -0.0004931121631810046,
+      "identity_error": -3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 200907,
+    "stocks": 4146,
+    "loss": {
+      "zero": 0.052271355914121444,
+      "frozen": 0.046229085863517635,
+      "rolling60": 0.053443189505473165,
+      "expanding": 0.048070221416188226
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0037869477704838,
+      "alignment_B": -0.0017135782411208354,
+      "alignment_benefit_2B": -0.003427156482241671,
+      "updated_minus_frozen_loss": 0.007214104252725472,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0011775056625103156,
+      "alignment_B": -0.0003318151054619435,
+      "alignment_benefit_2B": -0.000663630210923887,
+      "updated_minus_frozen_loss": 0.0018411358734342035,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 200908,
+    "stocks": 4122,
+    "loss": {
+      "zero": 0.0726721612830859,
+      "frozen": 0.06641693030161687,
+      "rolling60": 0.07012223994807135,
+      "expanding": 0.06822292211961943
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015910718660425735,
+      "alignment_B": -0.001057119139343992,
+      "alignment_benefit_2B": -0.002114238278687984,
+      "updated_minus_frozen_loss": 0.0037053101447305577,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0003818874759239553,
+      "alignment_B": -0.0007120523068798956,
+      "alignment_benefit_2B": -0.0014241046137597913,
+      "updated_minus_frozen_loss": 0.0018059920896837465,
+      "identity_error": -2.168404344971009e-19
+    }
+  },
+  {
+    "month": 200909,
+    "stocks": 4109,
+    "loss": {
+      "zero": 0.04134865779942036,
+      "frozen": 0.04027055635260372,
+      "rolling60": 0.050547720942339225,
+      "expanding": 0.03941572581393483
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0032304538109099398,
+      "alignment_B": -0.003523355443073893,
+      "alignment_benefit_2B": -0.007046710886147786,
+      "updated_minus_frozen_loss": 0.010277164697057724,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 5.356250657307343e-05,
+      "alignment_B": 0.00045419653716272156,
+      "alignment_benefit_2B": 0.0009083930743254431,
+      "updated_minus_frozen_loss": -0.0008548305677523693,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 200910,
+    "stocks": 4099,
+    "loss": {
+      "zero": 0.02408331925628829,
+      "frozen": 0.039385123706867316,
+      "rolling60": 0.020997574530252104,
+      "expanding": 0.02863826928153951
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.01159307418404997,
+      "alignment_B": 0.014990311734746008,
+      "alignment_benefit_2B": 0.029980623469492016,
+      "updated_minus_frozen_loss": -0.01838754928544204,
+      "identity_error": 6.938893903907228e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002240634878657609,
+      "alignment_B": 0.006493744720654605,
+      "alignment_benefit_2B": 0.01298748944130921,
+      "updated_minus_frozen_loss": -0.0107468545626516,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 200911,
+    "stocks": 4082,
+    "loss": {
+      "zero": 0.038962057238778956,
+      "frozen": 0.03957127969475849,
+      "rolling60": 0.040516409338826866,
+      "expanding": 0.038924001412499326
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003659807414406521,
+      "alignment_B": 0.0013573389128698522,
+      "alignment_benefit_2B": 0.0027146778257397045,
+      "updated_minus_frozen_loss": 0.0009451295886668175,
+      "identity_error": 9.75781955236954e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014079860055335957,
+      "alignment_B": 0.0010276321984018118,
+      "alignment_benefit_2B": 0.0020552643968036236,
+      "updated_minus_frozen_loss": -0.0006472783912700268,
+      "identity_error": 1.0842021724855044e-18
+    }
+  },
+  {
+    "month": 200912,
+    "stocks": 4080,
+    "loss": {
+      "zero": 0.03658175081371424,
+      "frozen": 0.0328782267217192,
+      "rolling60": 0.036450116143471316,
+      "expanding": 0.03379390866559101
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003333800806116506,
+      "alignment_B": -0.00011904406511484488,
+      "alignment_benefit_2B": -0.00023808813022968976,
+      "updated_minus_frozen_loss": 0.003571888936346196,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014289792477324935,
+      "alignment_B": 0.0002566488435345057,
+      "alignment_benefit_2B": 0.0005132976870690114,
+      "updated_minus_frozen_loss": 0.0009156815606634814,
+      "identity_error": -7.589415207398531e-19
+    }
+  },
+  {
+    "month": 201001,
+    "stocks": 4059,
+    "loss": {
+      "zero": 0.02749255180265754,
+      "frozen": 0.02987012632599427,
+      "rolling60": 0.028800458940849247,
+      "expanding": 0.029171873861621095
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013813439937018076,
+      "alignment_B": 0.0012255056071506828,
+      "alignment_benefit_2B": 0.0024510112143013656,
+      "updated_minus_frozen_loss": -0.0010696672205995586,
+      "identity_error": -6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008810539053922641,
+      "alignment_B": 0.0007896530991896418,
+      "alignment_benefit_2B": 0.0015793061983792836,
+      "updated_minus_frozen_loss": -0.0006982522929870189,
+      "identity_error": 6.505213034913027e-19
+    }
+  },
+  {
+    "month": 201002,
+    "stocks": 4048,
+    "loss": {
+      "zero": 0.01835140960296157,
+      "frozen": 0.018180175294950272,
+      "rolling60": 0.0171310177872826,
+      "expanding": 0.018945355924687414
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000445341658677019,
+      "alignment_B": 0.0007472497018120289,
+      "alignment_benefit_2B": 0.0014944994036240578,
+      "updated_minus_frozen_loss": -0.0010491577449470387,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0007325315946302597,
+      "alignment_B": -1.6324416235136603e-05,
+      "alignment_benefit_2B": -3.2648832470273206e-05,
+      "updated_minus_frozen_loss": 0.0007651804271005332,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 201003,
+    "stocks": 4034,
+    "loss": {
+      "zero": 0.041065679279285866,
+      "frozen": 0.03727707594277245,
+      "rolling60": 0.03662925979131087,
+      "expanding": 0.039715541519359236
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006683560759295421,
+      "alignment_B": 0.0006580866416659241,
+      "alignment_benefit_2B": 0.0013161732833318481,
+      "updated_minus_frozen_loss": -0.0006478172074023058,
+      "identity_error": 2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008898898911621106,
+      "alignment_B": -0.0007742873735748772,
+      "alignment_benefit_2B": -0.0015485747471497544,
+      "updated_minus_frozen_loss": 0.002438464638311865,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201004,
+    "stocks": 4026,
+    "loss": {
+      "zero": 0.03971369908991065,
+      "frozen": 0.033500151349539056,
+      "rolling60": 0.03948802293704357,
+      "expanding": 0.035763075304630625
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0023135840090543255,
+      "alignment_B": -0.0018371438485718877,
+      "alignment_benefit_2B": -0.0036742876971437755,
+      "updated_minus_frozen_loss": 0.005987871706198101,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000643585134468505,
+      "alignment_B": -0.0008096695519484151,
+      "alignment_benefit_2B": -0.0016193391038968302,
+      "updated_minus_frozen_loss": 0.0022629242383653356,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201005,
+    "stocks": 4018,
+    "loss": {
+      "zero": 0.019364443173631587,
+      "frozen": 0.027660836925540826,
+      "rolling60": 0.023233661325032094,
+      "expanding": 0.02129374308742115
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007167346964467857,
+      "alignment_B": 0.002571955232715038,
+      "alignment_benefit_2B": 0.005143910465430076,
+      "updated_minus_frozen_loss": -0.0044271757689832904,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0010025725812452173,
+      "alignment_B": 0.0036848333452767306,
+      "alignment_benefit_2B": 0.007369666690553461,
+      "updated_minus_frozen_loss": -0.006367094109308242,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201006,
+    "stocks": 4019,
+    "loss": {
+      "zero": 0.020593880195135864,
+      "frozen": 0.03099558406751803,
+      "rolling60": 0.024660950038658137,
+      "expanding": 0.017583744986077798
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001087199479058758,
+      "alignment_B": 0.0037109167532854617,
+      "alignment_benefit_2B": 0.007421833506570923,
+      "updated_minus_frozen_loss": -0.006334634027512167,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.004953927748910264,
+      "alignment_B": 0.009182883363957438,
+      "alignment_benefit_2B": 0.018365766727914876,
+      "updated_minus_frozen_loss": -0.01341183897900461,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201007,
+    "stocks": 4006,
+    "loss": {
+      "zero": 0.02043360380936475,
+      "frozen": 0.01838910044211225,
+      "rolling60": 0.019061016265211443,
+      "expanding": 0.02128461397332244
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0015238470949456742,
+      "alignment_B": 0.00042596558223744136,
+      "alignment_benefit_2B": 0.0008519311644748827,
+      "updated_minus_frozen_loss": 0.0006719159304707916,
+      "identity_error": 1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0028892154586215636,
+      "alignment_B": -3.1491203349644477e-06,
+      "alignment_benefit_2B": -6.2982406699288954e-06,
+      "updated_minus_frozen_loss": 0.002895513699291492,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201008,
+    "stocks": 3993,
+    "loss": {
+      "zero": 0.0229644602284824,
+      "frozen": 0.03530417711711325,
+      "rolling60": 0.023877362011256863,
+      "expanding": 0.02900897727101394
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0032544375807299244,
+      "alignment_B": 0.007340626336682168,
+      "alignment_benefit_2B": 0.014681252673364335,
+      "updated_minus_frozen_loss": -0.011426815092634412,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008046167051593208,
+      "alignment_B": 0.0035499083238219905,
+      "alignment_benefit_2B": 0.007099816647643981,
+      "updated_minus_frozen_loss": -0.006295199942484662,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201009,
+    "stocks": 3989,
+    "loss": {
+      "zero": 0.03260611701382323,
+      "frozen": 0.025814048139202735,
+      "rolling60": 0.03040578728271669,
+      "expanding": 0.03108768796721331
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001669676244602561,
+      "alignment_B": -0.0014610312571865227,
+      "alignment_benefit_2B": -0.0029220625143730455,
+      "updated_minus_frozen_loss": 0.004591738758975607,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0018094621751116946,
+      "alignment_B": -0.001732088693466378,
+      "alignment_benefit_2B": -0.003464177386932756,
+      "updated_minus_frozen_loss": 0.005273639562044451,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201010,
+    "stocks": 3972,
+    "loss": {
+      "zero": 0.02069739473985834,
+      "frozen": 0.01954368322331066,
+      "rolling60": 0.019624006754716282,
+      "expanding": 0.01917557976014104
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0029557147417311057,
+      "alignment_B": 0.001437695664717177,
+      "alignment_benefit_2B": 0.002875391329434354,
+      "updated_minus_frozen_loss": 8.032341229675186e-05,
+      "identity_error": 2.303929616531697e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0002830486333689817,
+      "alignment_B": 0.00032557600912541576,
+      "alignment_benefit_2B": 0.0006511520182508315,
+      "updated_minus_frozen_loss": -0.0003681033848818499,
+      "identity_error": -1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 201011,
+    "stocks": 3952,
+    "loss": {
+      "zero": 0.020244288063551514,
+      "frozen": 0.022221526196138576,
+      "rolling60": 0.02023010480612018,
+      "expanding": 0.01989478439003557
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004140485982904097,
+      "alignment_B": 0.003065953716418623,
+      "alignment_benefit_2B": 0.006131907432837246,
+      "updated_minus_frozen_loss": -0.001991421449933148,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0013443030304816617,
+      "alignment_B": 0.0018355224112970834,
+      "alignment_benefit_2B": 0.003671044822594167,
+      "updated_minus_frozen_loss": -0.002326741792112505,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201012,
+    "stocks": 3932,
+    "loss": {
+      "zero": 0.030918273920372833,
+      "frozen": 0.025626423999986207,
+      "rolling60": 0.031087826447277877,
+      "expanding": 0.027325443700554418
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002114980941894901,
+      "alignment_B": -0.0016732108834803929,
+      "alignment_benefit_2B": -0.0033464217669607857,
+      "updated_minus_frozen_loss": 0.0054614027088556874,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0007076957127523208,
+      "alignment_B": -0.0004956621685328383,
+      "alignment_benefit_2B": -0.0009913243370656766,
+      "updated_minus_frozen_loss": 0.001699020049817997,
+      "identity_error": -2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201101,
+    "stocks": 3928,
+    "loss": {
+      "zero": 0.023202025281012287,
+      "frozen": 0.02428948910142897,
+      "rolling60": 0.022607090179508585,
+      "expanding": 0.02324279201026641
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0019496556501062746,
+      "alignment_B": 0.0018160272233869984,
+      "alignment_benefit_2B": 0.0036320544467739967,
+      "updated_minus_frozen_loss": -0.0016823987966677221,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000618928929547868,
+      "alignment_B": 0.0008328130355225628,
+      "alignment_benefit_2B": 0.0016656260710451256,
+      "updated_minus_frozen_loss": -0.0010466971414972576,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201102,
+    "stocks": 3920,
+    "loss": {
+      "zero": 0.028713538950301206,
+      "frozen": 0.027087516670153182,
+      "rolling60": 0.027815351980795957,
+      "expanding": 0.027031808683981712
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012099759591794564,
+      "alignment_B": 0.00024106987041744692,
+      "alignment_benefit_2B": 0.00048213974083489384,
+      "updated_minus_frozen_loss": 0.000727836218344562,
+      "identity_error": -6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00044536951788268556,
+      "alignment_B": 0.0002505386629893227,
+      "alignment_benefit_2B": 0.0005010773259786454,
+      "updated_minus_frozen_loss": -5.570780809596024e-05,
+      "identity_error": -4.0657581468206416e-19
+    }
+  },
+  {
+    "month": 201103,
+    "stocks": 3908,
+    "loss": {
+      "zero": 0.01757720383624713,
+      "frozen": 0.01914050571573218,
+      "rolling60": 0.017331627786193703,
+      "expanding": 0.017848016188023407
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014044999596274919,
+      "alignment_B": 0.0016066889109716573,
+      "alignment_benefit_2B": 0.0032133778219433145,
+      "updated_minus_frozen_loss": -0.0018088778623158229,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005006162738509644,
+      "alignment_B": 0.0008965529057692688,
+      "alignment_benefit_2B": 0.0017931058115385377,
+      "updated_minus_frozen_loss": -0.001292489537687573,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201104,
+    "stocks": 3882,
+    "loss": {
+      "zero": 0.013403926963034055,
+      "frozen": 0.01766221436173362,
+      "rolling60": 0.013282146069581405,
+      "expanding": 0.013455973568510861
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005214626488399676,
+      "alignment_B": 0.004797347345162126,
+      "alignment_benefit_2B": 0.009594694690324252,
+      "updated_minus_frozen_loss": -0.004380068201924576,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002417382192980827,
+      "alignment_B": 0.003311811455282868,
+      "alignment_benefit_2B": 0.006623622910565736,
+      "updated_minus_frozen_loss": -0.004206240717584909,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201105,
+    "stocks": 3868,
+    "loss": {
+      "zero": 0.015388951319956202,
+      "frozen": 0.021846921973312065,
+      "rolling60": 0.015898893643568716,
+      "expanding": 0.01694050493808091
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0026565840639554052,
+      "alignment_B": 0.004302306235771701,
+      "alignment_benefit_2B": 0.008604612471543403,
+      "updated_minus_frozen_loss": -0.005948028407587998,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0015721452613054073,
+      "alignment_B": 0.003239281126774447,
+      "alignment_benefit_2B": 0.006478562253548894,
+      "updated_minus_frozen_loss": -0.0049064169922434855,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201106,
+    "stocks": 3845,
+    "loss": {
+      "zero": 0.015262754207385439,
+      "frozen": 0.014831116560948059,
+      "rolling60": 0.014548571977269283,
+      "expanding": 0.015100233448420111
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00026949318966194136,
+      "alignment_B": 0.0002760189822206921,
+      "alignment_benefit_2B": 0.0005520379644413842,
+      "updated_minus_frozen_loss": -0.0002825447747794429,
+      "identity_error": -5.421010862427522e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.857957626055053e-05,
+      "alignment_B": -0.0001152685052009573,
+      "alignment_benefit_2B": -0.0002305370104019146,
+      "updated_minus_frozen_loss": 0.0002691165866624651,
+      "identity_error": -5.421010862427522e-20
+    }
+  },
+  {
+    "month": 201107,
+    "stocks": 3828,
+    "loss": {
+      "zero": 0.015737404636037823,
+      "frozen": 0.020717053971812664,
+      "rolling60": 0.015088005519457588,
+      "expanding": 0.01587395998145881
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0058530557492879765,
+      "alignment_B": 0.005741052137707177,
+      "alignment_benefit_2B": 0.011482104275414354,
+      "updated_minus_frozen_loss": -0.005629048526126376,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002539347657496952,
+      "alignment_B": 0.0036912207297917507,
+      "alignment_benefit_2B": 0.0073824414595835015,
+      "updated_minus_frozen_loss": -0.004843093802086549,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201108,
+    "stocks": 3839,
+    "loss": {
+      "zero": 0.024147665831322915,
+      "frozen": 0.027312059756111774,
+      "rolling60": 0.02550388607467931,
+      "expanding": 0.026729714000675368
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00012481952848976676,
+      "alignment_B": 0.0009664965210532991,
+      "alignment_benefit_2B": 0.0019329930421065982,
+      "updated_minus_frozen_loss": -0.0018081735136168313,
+      "identity_error": 2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 8.545748149066157e-06,
+      "alignment_B": 0.0002954453618195828,
+      "alignment_benefit_2B": 0.0005908907236391656,
+      "updated_minus_frozen_loss": -0.0005823449754900994,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201109,
+    "stocks": 3825,
+    "loss": {
+      "zero": 0.028553204189979555,
+      "frozen": 0.04331817401331166,
+      "rolling60": 0.03197623073055828,
+      "expanding": 0.02575856868715193
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0023657188843226457,
+      "alignment_B": 0.006853830934840058,
+      "alignment_benefit_2B": 0.013707661869680116,
+      "updated_minus_frozen_loss": -0.011341942985357472,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.005495868937301465,
+      "alignment_B": 0.011527736962179003,
+      "alignment_benefit_2B": 0.023055473924358007,
+      "updated_minus_frozen_loss": -0.01755960498705654,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201110,
+    "stocks": 3816,
+    "loss": {
+      "zero": 0.04349031660243629,
+      "frozen": 0.03680584806953862,
+      "rolling60": 0.03484028940732514,
+      "expanding": 0.04021779227539606
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0008204016854345145,
+      "alignment_B": 0.0013929803113047342,
+      "alignment_benefit_2B": 0.0027859606226094684,
+      "updated_minus_frozen_loss": -0.001965558937174953,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0012026924898135053,
+      "alignment_B": -0.0011046256511396328,
+      "alignment_benefit_2B": -0.0022092513022792656,
+      "updated_minus_frozen_loss": 0.003411943792092771,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201111,
+    "stocks": 3797,
+    "loss": {
+      "zero": 0.024025964872673566,
+      "frozen": 0.034639072020206094,
+      "rolling60": 0.02643752743407011,
+      "expanding": 0.031238419403970246
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0027227355899492943,
+      "alignment_B": 0.005462140007855367,
+      "alignment_benefit_2B": 0.010924280015710735,
+      "updated_minus_frozen_loss": -0.008201544425761442,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005808655416793712,
+      "alignment_B": 0.0019907589593827543,
+      "alignment_benefit_2B": 0.0039815179187655085,
+      "updated_minus_frozen_loss": -0.003400652377086138,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201112,
+    "stocks": 3782,
+    "loss": {
+      "zero": 0.01814711564149555,
+      "frozen": 0.01912937307292935,
+      "rolling60": 0.020715720982932628,
+      "expanding": 0.01839595507390577
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0016538131366453414,
+      "alignment_B": 3.373258021561964e-05,
+      "alignment_benefit_2B": 6.746516043123928e-05,
+      "updated_minus_frozen_loss": 0.001586347976214102,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004694326135450009,
+      "alignment_B": 0.0006014252040442204,
+      "alignment_benefit_2B": 0.0012028504080884407,
+      "updated_minus_frozen_loss": -0.0007334177945434396,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201201,
+    "stocks": 3766,
+    "loss": {
+      "zero": 0.03845586676099246,
+      "frozen": 0.03286493016969581,
+      "rolling60": 0.0380647257192922,
+      "expanding": 0.0413160283643288
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013152757725136302,
+      "alignment_B": -0.0019422595983185755,
+      "alignment_benefit_2B": -0.003884519196637151,
+      "updated_minus_frozen_loss": 0.005199794969150781,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0023549046192096732,
+      "alignment_B": -0.0030480964772140605,
+      "alignment_benefit_2B": -0.006096192954428121,
+      "updated_minus_frozen_loss": 0.008451097573637795,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201202,
+    "stocks": 3748,
+    "loss": {
+      "zero": 0.02371895607311435,
+      "frozen": 0.022659840131817217,
+      "rolling60": 0.022610930404240785,
+      "expanding": 0.022308696157838197
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0025626310829183884,
+      "alignment_B": 0.001305770473493958,
+      "alignment_benefit_2B": 0.002611540946987916,
+      "updated_minus_frozen_loss": -4.8909864069527635e-05,
+      "identity_error": -1.4230153513872246e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0020685779427069314,
+      "alignment_B": 0.001209860966705759,
+      "alignment_benefit_2B": 0.002419721933411518,
+      "updated_minus_frozen_loss": -0.00035114399070458645,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201203,
+    "stocks": 3752,
+    "loss": {
+      "zero": 0.02198684659634033,
+      "frozen": 0.02219740889045378,
+      "rolling60": 0.020972540098072128,
+      "expanding": 0.021143550857798652
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001401800666598605,
+      "alignment_B": 0.0013133347381416214,
+      "alignment_benefit_2B": 0.0026266694762832428,
+      "updated_minus_frozen_loss": -0.0012248688096846373,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0026825466534114825,
+      "alignment_B": 0.001868202441913813,
+      "alignment_benefit_2B": 0.003736404883827626,
+      "updated_minus_frozen_loss": -0.0010538582304161438,
+      "identity_error": -2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201204,
+    "stocks": 3751,
+    "loss": {
+      "zero": 0.019756736480321096,
+      "frozen": 0.023995518952769385,
+      "rolling60": 0.02070214762872334,
+      "expanding": 0.020396570801678924
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013439328777816331,
+      "alignment_B": 0.00231865202582948,
+      "alignment_benefit_2B": 0.00463730405165896,
+      "updated_minus_frozen_loss": -0.003293371173877327,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0015627240262277371,
+      "alignment_B": 0.002580836052924749,
+      "alignment_benefit_2B": 0.005161672105849498,
+      "updated_minus_frozen_loss": -0.003598948079621762,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201205,
+    "stocks": 3741,
+    "loss": {
+      "zero": 0.024185994919551465,
+      "frozen": 0.027696595594421742,
+      "rolling60": 0.02291518046498854,
+      "expanding": 0.02345777587140032
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011721338914508239,
+      "alignment_B": 0.002976774607066926,
+      "alignment_benefit_2B": 0.005953549214133852,
+      "updated_minus_frozen_loss": -0.0047814153226830285,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000894558533621099,
+      "alignment_B": 0.0025666890778212486,
+      "alignment_benefit_2B": 0.005133378155642497,
+      "updated_minus_frozen_loss": -0.0042388196220213975,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201206,
+    "stocks": 3740,
+    "loss": {
+      "zero": 0.017457410742206515,
+      "frozen": 0.01852133543254676,
+      "rolling60": 0.020374134271958975,
+      "expanding": 0.01814495095257781
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001071392640635717,
+      "alignment_B": -0.00039070310423999045,
+      "alignment_benefit_2B": -0.0007814062084799809,
+      "updated_minus_frozen_loss": 0.001852798849115698,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0004999740390748456,
+      "alignment_B": 0.0004381792774604967,
+      "alignment_benefit_2B": 0.0008763585549209934,
+      "updated_minus_frozen_loss": -0.00037638451584614743,
+      "identity_error": 3.7947076036992655e-19
+    }
+  },
+  {
+    "month": 201207,
+    "stocks": 3715,
+    "loss": {
+      "zero": 0.018862097688398236,
+      "frozen": 0.02416044542413261,
+      "rolling60": 0.01881742058777951,
+      "expanding": 0.020312216676006627
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005398459501706839,
+      "alignment_B": 0.005370742201942338,
+      "alignment_benefit_2B": 0.010741484403884676,
+      "updated_minus_frozen_loss": -0.005343024902177836,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0013292161458662002,
+      "alignment_B": 0.0025887223298184754,
+      "alignment_benefit_2B": 0.005177444659636951,
+      "updated_minus_frozen_loss": -0.0038482285137707507,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201208,
+    "stocks": 3706,
+    "loss": {
+      "zero": 0.019492201245491923,
+      "frozen": 0.018738008621371198,
+      "rolling60": 0.020776017949305548,
+      "expanding": 0.018854859227920313
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001572388473792235,
+      "alignment_B": -0.00023281032795852315,
+      "alignment_benefit_2B": -0.0004656206559170463,
+      "updated_minus_frozen_loss": 0.0020380091297092814,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.816615042496249e-05,
+      "alignment_B": -3.934212263805124e-05,
+      "alignment_benefit_2B": -7.868424527610248e-05,
+      "updated_minus_frozen_loss": 0.00011685039570106513,
+      "identity_error": 1.4907779871675686e-19
+    }
+  },
+  {
+    "month": 201209,
+    "stocks": 3694,
+    "loss": {
+      "zero": 0.02371904740660768,
+      "frozen": 0.02250342974955605,
+      "rolling60": 0.0229777738146137,
+      "expanding": 0.022894265883071394
+    },
+    "rolling60": {
+      "adjustment_cost_A": 9.48662531018402e-05,
+      "alignment_B": -0.00018973870845041127,
+      "alignment_benefit_2B": -0.00037947741690082254,
+      "updated_minus_frozen_loss": 0.00047434367000266306,
+      "identity_error": 3.2526065174565133e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 7.06694207567469e-05,
+      "alignment_B": -0.000160083511474432,
+      "alignment_benefit_2B": -0.000320167022948864,
+      "updated_minus_frozen_loss": 0.00039083644370561076,
+      "identity_error": -1.6263032587282567e-19
+    }
+  },
+  {
+    "month": 201210,
+    "stocks": 3674,
+    "loss": {
+      "zero": 0.018705931351260262,
+      "frozen": 0.01835918862204019,
+      "rolling60": 0.01886352609924184,
+      "expanding": 0.01864409439933097
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00027831445384924225,
+      "alignment_B": -0.00011301146898236461,
+      "alignment_benefit_2B": -0.00022602293796472923,
+      "updated_minus_frozen_loss": 0.000504337391813972,
+      "identity_error": 5.421010862427522e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00010641718451118946,
+      "alignment_B": -8.924434327023739e-05,
+      "alignment_benefit_2B": -0.00017848868654047478,
+      "updated_minus_frozen_loss": 0.0002849058710516646,
+      "identity_error": 3.7947076036992655e-19
+    }
+  },
+  {
+    "month": 201211,
+    "stocks": 3675,
+    "loss": {
+      "zero": 0.021011009097754527,
+      "frozen": 0.021629434629838743,
+      "rolling60": 0.021238150317128154,
+      "expanding": 0.022460778848579145
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0002519893692712056,
+      "alignment_B": 0.0003216371304134445,
+      "alignment_benefit_2B": 0.000643274260826889,
+      "updated_minus_frozen_loss": -0.00039128489155568403,
+      "identity_error": -5.963111948670274e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002527763468365748,
+      "alignment_B": 0.0008482095168934396,
+      "alignment_benefit_2B": 0.0016964190337868791,
+      "updated_minus_frozen_loss": 0.0008313444345788687,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201212,
+    "stocks": 3659,
+    "loss": {
+      "zero": 0.01270497756951163,
+      "frozen": 0.013163114298183936,
+      "rolling60": 0.013253055842854636,
+      "expanding": 0.01337005945622437
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0028996372891481343,
+      "alignment_B": 0.00140484788784722,
+      "alignment_benefit_2B": 0.00280969577569444,
+      "updated_minus_frozen_loss": 8.994151345369457e-05,
+      "identity_error": 4.472333961502706e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0029728342204974893,
+      "alignment_B": 0.0013829445857137215,
+      "alignment_benefit_2B": 0.002765889171427443,
+      "updated_minus_frozen_loss": 0.0002069450490700463,
+      "identity_error": 5.421010862427522e-20
+    }
+  },
+  {
+    "month": 201301,
+    "stocks": 3646,
+    "loss": {
+      "zero": 0.023665791551781126,
+      "frozen": 0.01847968562306269,
+      "rolling60": 0.02119543331027096,
+      "expanding": 0.022518114904765192
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014517772786057943,
+      "alignment_B": -0.0006319849743044883,
+      "alignment_benefit_2B": -0.0012639699486089765,
+      "updated_minus_frozen_loss": 0.002715747227214771,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002292577067967449,
+      "alignment_B": -0.0008729260188723026,
+      "alignment_benefit_2B": -0.0017458520377446052,
+      "updated_minus_frozen_loss": 0.004038429105712054,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201302,
+    "stocks": 3634,
+    "loss": {
+      "zero": 0.01457774863330762,
+      "frozen": 0.01550694469457396,
+      "rolling60": 0.014491784424003538,
+      "expanding": 0.014541333197344063
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0010607968348539114,
+      "alignment_B": 0.0010379784894931044,
+      "alignment_benefit_2B": 0.002075956978986209,
+      "updated_minus_frozen_loss": -0.0010151601441322974,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0012732301993067666,
+      "alignment_B": 0.0011194208784400298,
+      "alignment_benefit_2B": 0.0022388417568800596,
+      "updated_minus_frozen_loss": -0.0009656115575732926,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201303,
+    "stocks": 3628,
+    "loss": {
+      "zero": 0.01582300626275541,
+      "frozen": 0.014791377332084523,
+      "rolling60": 0.015307847694097947,
+      "expanding": 0.01571477153614143
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0010726016512541937,
+      "alignment_B": 0.0002780655879923223,
+      "alignment_benefit_2B": 0.0005561311759846446,
+      "updated_minus_frozen_loss": 0.0005164704752695491,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0012902568436230703,
+      "alignment_B": 0.00018343125713991484,
+      "alignment_benefit_2B": 0.0003668625142798297,
+      "updated_minus_frozen_loss": 0.000923394329343241,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 201304,
+    "stocks": 3616,
+    "loss": {
+      "zero": 0.01487628117424701,
+      "frozen": 0.014961345794709145,
+      "rolling60": 0.015206690383879541,
+      "expanding": 0.014953539229956899
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006697783742836288,
+      "alignment_B": 0.00021221690369588566,
+      "alignment_benefit_2B": 0.0004244338073917713,
+      "updated_minus_frozen_loss": 0.00024534456689185745,
+      "identity_error": -5.421010862427522e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.924241707069732e-06,
+      "alignment_B": 5.365339794129615e-06,
+      "alignment_benefit_2B": 1.073067958825923e-05,
+      "updated_minus_frozen_loss": -7.80643788118944e-06,
+      "identity_error": 5.759824041329242e-20
+    }
+  },
+  {
+    "month": 201305,
+    "stocks": 3618,
+    "loss": {
+      "zero": 0.02334000863027591,
+      "frozen": 0.021778013726412047,
+      "rolling60": 0.023901860912989396,
+      "expanding": 0.024595813811205482
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013849796897314355,
+      "alignment_B": -0.00036943387841993316,
+      "alignment_benefit_2B": -0.0007388677568398663,
+      "updated_minus_frozen_loss": 0.0021238474465713024,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0017286762161456974,
+      "alignment_B": -0.0005445620243235159,
+      "alignment_benefit_2B": -0.0010891240486470318,
+      "updated_minus_frozen_loss": 0.0028178002647927295,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201306,
+    "stocks": 3622,
+    "loss": {
+      "zero": 0.01215015507408522,
+      "frozen": 0.016267564065198126,
+      "rolling60": 0.012315056476915725,
+      "expanding": 0.012376896096057768
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0025497188141118806,
+      "alignment_B": 0.003251113125642232,
+      "alignment_benefit_2B": 0.006502226251284464,
+      "updated_minus_frozen_loss": -0.003952507437172585,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0023008912626356725,
+      "alignment_B": 0.003095779546474424,
+      "alignment_benefit_2B": 0.006191559092948848,
+      "updated_minus_frozen_loss": -0.0038906678303131754,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201307,
+    "stocks": 3621,
+    "loss": {
+      "zero": 0.02711248124846619,
+      "frozen": 0.022478838499619135,
+      "rolling60": 0.02616080189558911,
+      "expanding": 0.02725303878041859
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0020272429471339393,
+      "alignment_B": -0.0008273601983494747,
+      "alignment_benefit_2B": -0.0016547203966989494,
+      "updated_minus_frozen_loss": 0.0036819633438328887,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0026090087571124386,
+      "alignment_B": -0.0010825958181777888,
+      "alignment_benefit_2B": -0.0021651916363555775,
+      "updated_minus_frozen_loss": 0.004774200393468016,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201308,
+    "stocks": 3629,
+    "loss": {
+      "zero": 0.01749181756127702,
+      "frozen": 0.017902261314297965,
+      "rolling60": 0.017435920347353803,
+      "expanding": 0.018333004485182602
+    },
+    "rolling60": {
+      "adjustment_cost_A": 7.8974461257017e-05,
+      "alignment_B": 0.0002726576410815722,
+      "alignment_benefit_2B": 0.0005453152821631444,
+      "updated_minus_frozen_loss": -0.0004663408209061272,
+      "identity_error": 2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 4.676963719495053e-05,
+      "alignment_B": -0.00019198678350200248,
+      "alignment_benefit_2B": -0.00038397356700400496,
+      "updated_minus_frozen_loss": 0.00043074320419895563,
+      "identity_error": 1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 201309,
+    "stocks": 3626,
+    "loss": {
+      "zero": 0.022961756005905082,
+      "frozen": 0.02303310604389393,
+      "rolling60": 0.02387084963376876,
+      "expanding": 0.02340722822977257
+    },
+    "rolling60": {
+      "adjustment_cost_A": 5.099770874493664e-05,
+      "alignment_B": -0.0003933731504617169,
+      "alignment_benefit_2B": -0.0007867463009234338,
+      "updated_minus_frozen_loss": 0.0008377440096683703,
+      "identity_error": -1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 1.0625482487966048e-05,
+      "alignment_B": -0.00018174867134343987,
+      "alignment_benefit_2B": -0.00036349734268687975,
+      "updated_minus_frozen_loss": 0.0003741228251748458,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201310,
+    "stocks": 3633,
+    "loss": {
+      "zero": 0.01672737048226096,
+      "frozen": 0.016162457258758815,
+      "rolling60": 0.01667952076104678,
+      "expanding": 0.016178069452793604
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0002517549479522831,
+      "alignment_B": -0.0001326542268017825,
+      "alignment_benefit_2B": -0.000265308453603565,
+      "updated_minus_frozen_loss": 0.0005170634015558483,
+      "identity_error": 1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.733689336925721e-06,
+      "alignment_B": -6.439276820834916e-06,
+      "alignment_benefit_2B": -1.2878553641669832e-05,
+      "updated_minus_frozen_loss": 1.561224297859537e-05,
+      "identity_error": -1.8295911660692887e-19
+    }
+  },
+  {
+    "month": 201311,
+    "stocks": 3633,
+    "loss": {
+      "zero": 0.01991474661244087,
+      "frozen": 0.01852586497521427,
+      "rolling60": 0.02730209774356131,
+      "expanding": 0.021070481447886258
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.010380415818685944,
+      "alignment_B": 0.0008020914966862861,
+      "alignment_benefit_2B": 0.0016041829933725721,
+      "updated_minus_frozen_loss": 0.008776232825313373,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0038764562139768153,
+      "alignment_B": 0.0006659199301238437,
+      "alignment_benefit_2B": 0.0013318398602476873,
+      "updated_minus_frozen_loss": 0.0025446163537291284,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201312,
+    "stocks": 3641,
+    "loss": {
+      "zero": 0.017682237904970824,
+      "frozen": 0.01760799059776176,
+      "rolling60": 0.021365312458905238,
+      "expanding": 0.017261818203919074
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.009093096149834069,
+      "alignment_B": 0.0026678871911191312,
+      "alignment_benefit_2B": 0.0053357743822382625,
+      "updated_minus_frozen_loss": 0.0037573217675958095,
+      "identity_error": 3.0357660829594124e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0029032847670362304,
+      "alignment_B": 0.0016247287062531085,
+      "alignment_benefit_2B": 0.003249457412506217,
+      "updated_minus_frozen_loss": -0.00034617264546998687,
+      "identity_error": -3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 201401,
+    "stocks": 3644,
+    "loss": {
+      "zero": 0.03162112583889792,
+      "frozen": 0.032811125297122164,
+      "rolling60": 0.032632649802798855,
+      "expanding": 0.03186594554034671
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009237109636659292,
+      "alignment_B": 0.0005510931781516303,
+      "alignment_benefit_2B": 0.0011021863563032606,
+      "updated_minus_frozen_loss": -0.00017847539263733073,
+      "identity_error": 6.505213034913027e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0018192469520730288,
+      "alignment_B": 0.0013822134448403533,
+      "alignment_benefit_2B": 0.0027644268896807067,
+      "updated_minus_frozen_loss": -0.0009451799376076778,
+      "identity_error": 1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 201402,
+    "stocks": 3645,
+    "loss": {
+      "zero": 0.016836088125038194,
+      "frozen": 0.014808447841254927,
+      "rolling60": 0.014645291148297112,
+      "expanding": 0.015908963480216743
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0008477068319457517,
+      "alignment_B": 0.0005054317039581736,
+      "alignment_benefit_2B": 0.0010108634079163473,
+      "updated_minus_frozen_loss": -0.0001631565759705956,
+      "identity_error": -2.710505431213761e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0022127992818652712,
+      "alignment_B": 0.0005561417733440918,
+      "alignment_benefit_2B": 0.0011122835466881836,
+      "updated_minus_frozen_loss": 0.0011005157351770879,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201403,
+    "stocks": 3657,
+    "loss": {
+      "zero": 0.016104604282294908,
+      "frozen": 0.021355430359912973,
+      "rolling60": 0.01611281786561069,
+      "expanding": 0.0163333680680663
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005020730515105389,
+      "alignment_B": 0.005131671497156104,
+      "alignment_benefit_2B": 0.010263342994312207,
+      "updated_minus_frozen_loss": -0.005242612479206816,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002940515277609903,
+      "alignment_B": 0.003981288795447709,
+      "alignment_benefit_2B": 0.007962577590895418,
+      "updated_minus_frozen_loss": -0.005022062313285515,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201404,
+    "stocks": 3680,
+    "loss": {
+      "zero": 0.012923230440994244,
+      "frozen": 0.013272651557265694,
+      "rolling60": 0.013454328096441974,
+      "expanding": 0.013341508044322372
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000425613398515428,
+      "alignment_B": 0.00012196846083389243,
+      "alignment_benefit_2B": 0.00024393692166778486,
+      "updated_minus_frozen_loss": 0.00018167647684764338,
+      "identity_error": 2.439454888092385e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005772232805779557,
+      "alignment_B": 0.00025418330767673083,
+      "alignment_benefit_2B": 0.0005083666153534617,
+      "updated_minus_frozen_loss": 6.885666522449432e-05,
+      "identity_error": 2.846030702774449e-19
+    }
+  },
+  {
+    "month": 201405,
+    "stocks": 3694,
+    "loss": {
+      "zero": 0.012767590117023941,
+      "frozen": 0.013875569655447123,
+      "rolling60": 0.013923874712354761,
+      "expanding": 0.012785416440381454
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014342440950874374,
+      "alignment_B": 0.0006929694570650539,
+      "alignment_benefit_2B": 0.0013859389141301077,
+      "updated_minus_frozen_loss": 4.830518095732958e-05,
+      "identity_error": -6.098637220230962e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005656416338602898,
+      "alignment_B": 0.0008278973820119342,
+      "alignment_benefit_2B": 0.0016557947640238684,
+      "updated_minus_frozen_loss": -0.0010901531301635784,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201406,
+    "stocks": 3704,
+    "loss": {
+      "zero": 0.017808203023943776,
+      "frozen": 0.015713450443048012,
+      "rolling60": 0.015585649462065136,
+      "expanding": 0.01615782690537124
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0010875632320117494,
+      "alignment_B": 0.0006076821419702585,
+      "alignment_benefit_2B": 0.001215364283940517,
+      "updated_minus_frozen_loss": -0.00012780105192876752,
+      "identity_error": 5.421010862427522e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0008200473878739252,
+      "alignment_B": 0.00018783544610530018,
+      "alignment_benefit_2B": 0.00037567089221060036,
+      "updated_minus_frozen_loss": 0.00044437649566332496,
+      "identity_error": 1.0842021724855044e-19
+    }
+  },
+  {
+    "month": 201407,
+    "stocks": 3716,
+    "loss": {
+      "zero": 0.014943150774358586,
+      "frozen": 0.02426029679567866,
+      "rolling60": 0.013741754997654981,
+      "expanding": 0.017060788650984295
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005435805130043328,
+      "alignment_B": 0.007977173407871756,
+      "alignment_benefit_2B": 0.015954346815743512,
+      "updated_minus_frozen_loss": -0.010518541685700182,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001955141553039796,
+      "alignment_B": 0.004577324815624716,
+      "alignment_benefit_2B": 0.009154649631249432,
+      "updated_minus_frozen_loss": -0.007199508078209636,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201408,
+    "stocks": 3738,
+    "loss": {
+      "zero": 0.02131196475102857,
+      "frozen": 0.02143116254410141,
+      "rolling60": 0.02006179285329661,
+      "expanding": 0.022059040662095467
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005377287044608325,
+      "alignment_B": 0.0009535492520042959,
+      "alignment_benefit_2B": 0.0019070985040085919,
+      "updated_minus_frozen_loss": -0.0013693697995477597,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.000307085678921564,
+      "alignment_B": -0.0001603962975986884,
+      "alignment_benefit_2B": -0.0003207925951973768,
+      "updated_minus_frozen_loss": 0.0006278782741189411,
+      "identity_error": 3.2526065174565133e-19
+    }
+  },
+  {
+    "month": 201409,
+    "stocks": 3745,
+    "loss": {
+      "zero": 0.01850914206468183,
+      "frozen": 0.025414405286010446,
+      "rolling60": 0.01805085632371499,
+      "expanding": 0.01985545799828078
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0027859967082460146,
+      "alignment_B": 0.0050747727167173955,
+      "alignment_benefit_2B": 0.010149545433434791,
+      "updated_minus_frozen_loss": -0.007363548725188777,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0014361883569045106,
+      "alignment_B": 0.0034975677909954792,
+      "alignment_benefit_2B": 0.0069951355819909584,
+      "updated_minus_frozen_loss": -0.005558947225086448,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201410,
+    "stocks": 3742,
+    "loss": {
+      "zero": 0.020932188980452144,
+      "frozen": 0.021701259932630352,
+      "rolling60": 0.020472331541665792,
+      "expanding": 0.02349151376554666
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014156769794750645,
+      "alignment_B": 0.0013223026376300655,
+      "alignment_benefit_2B": 0.002644605275260131,
+      "updated_minus_frozen_loss": -0.0012289282957850662,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0028553812892229183,
+      "alignment_B": 0.0005325637851499824,
+      "alignment_benefit_2B": 0.0010651275702999647,
+      "updated_minus_frozen_loss": 0.0017902537189229532,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201411,
+    "stocks": 3754,
+    "loss": {
+      "zero": 0.016485911557553384,
+      "frozen": 0.0227710073344557,
+      "rolling60": 0.017040240075033363,
+      "expanding": 0.01684365812621826
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003074192746835774,
+      "alignment_B": 0.004402480084878237,
+      "alignment_benefit_2B": 0.008804960169756473,
+      "updated_minus_frozen_loss": -0.0057307674229207,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0034616792774881614,
+      "alignment_B": 0.0046945142930807935,
+      "alignment_benefit_2B": 0.009389028586161587,
+      "updated_minus_frozen_loss": -0.005927349308673426,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201412,
+    "stocks": 3766,
+    "loss": {
+      "zero": 0.032441688170541924,
+      "frozen": 0.03343252170067262,
+      "rolling60": 0.032222371402098396,
+      "expanding": 0.03229814677965847
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013760874579801631,
+      "alignment_B": 0.0012931189729155795,
+      "alignment_benefit_2B": 0.002586237945831159,
+      "updated_minus_frozen_loss": -0.0012101504878509956,
+      "identity_error": 2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0015124127202411162,
+      "alignment_B": 0.0013233935954628142,
+      "alignment_benefit_2B": 0.0026467871909256284,
+      "updated_minus_frozen_loss": -0.001134374470684511,
+      "identity_error": 1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201501,
+    "stocks": 3764,
+    "loss": {
+      "zero": 0.020350827485511716,
+      "frozen": 0.02468107280402074,
+      "rolling60": 0.025234608266664595,
+      "expanding": 0.02137786333508897
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005461698233264576,
+      "alignment_B": -3.682790514951331e-06,
+      "alignment_benefit_2B": -7.365581029902662e-06,
+      "updated_minus_frozen_loss": 0.0005535354043563603,
+      "identity_error": 1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0011051680921477782,
+      "alignment_B": 0.0022041887580248848,
+      "alignment_benefit_2B": 0.0044083775160497695,
+      "updated_minus_frozen_loss": -0.003303209423901991,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201502,
+    "stocks": 3752,
+    "loss": {
+      "zero": 0.03100329737322118,
+      "frozen": 0.027274799731434464,
+      "rolling60": 0.0301142744082519,
+      "expanding": 0.03172451202586346
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0018023373618241414,
+      "alignment_B": -0.0005185687405137209,
+      "alignment_benefit_2B": -0.0010371374810274419,
+      "updated_minus_frozen_loss": 0.0028394748428515826,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0026557529258364313,
+      "alignment_B": -0.0008969798997312566,
+      "alignment_benefit_2B": -0.0017939597994625133,
+      "updated_minus_frozen_loss": 0.004449712725298946,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201503,
+    "stocks": 3744,
+    "loss": {
+      "zero": 0.01721064460419874,
+      "frozen": 0.020744272034344157,
+      "rolling60": 0.01781179774565602,
+      "expanding": 0.017285079310451704
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.001060379123651614,
+      "alignment_B": 0.001996426661600706,
+      "alignment_benefit_2B": 0.003992853323201412,
+      "updated_minus_frozen_loss": -0.002932474199549799,
+      "identity_error": -1.3010426069826053e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0020840627661059684,
+      "alignment_B": 0.0027716277552179286,
+      "alignment_benefit_2B": 0.005543255510435857,
+      "updated_minus_frozen_loss": -0.003459192744329889,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201504,
+    "stocks": 3743,
+    "loss": {
+      "zero": 0.04228716699107623,
+      "frozen": 0.04523387199337062,
+      "rolling60": 0.04258733999833945,
+      "expanding": 0.042376432626035604
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003344214903639571,
+      "alignment_B": 0.002995373710587557,
+      "alignment_benefit_2B": 0.005990747421175114,
+      "updated_minus_frozen_loss": -0.002646532517535542,
+      "identity_error": 1.3010426069826053e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0024890637662843564,
+      "alignment_B": 0.002673250775174918,
+      "alignment_benefit_2B": 0.005346501550349836,
+      "updated_minus_frozen_loss": -0.002857437784065481,
+      "identity_error": -1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201505,
+    "stocks": 3746,
+    "loss": {
+      "zero": 0.021303738362170185,
+      "frozen": 0.023135808524061677,
+      "rolling60": 0.02199746962332286,
+      "expanding": 0.02118178478958542
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007136823283139328,
+      "alignment_B": 0.00092601068535596,
+      "alignment_benefit_2B": 0.00185202137071192,
+      "updated_minus_frozen_loss": -0.0011383390423979872,
+      "identity_error": 2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002295077357513103,
+      "alignment_B": 0.002124550557508143,
+      "alignment_benefit_2B": 0.004249101115016286,
+      "updated_minus_frozen_loss": -0.001954023757503183,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201506,
+    "stocks": 3755,
+    "loss": {
+      "zero": 0.016237298911417928,
+      "frozen": 0.020157675709576446,
+      "rolling60": 0.01694769106345462,
+      "expanding": 0.01646675914200343
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012732901922034659,
+      "alignment_B": 0.002241637406760704,
+      "alignment_benefit_2B": 0.004483274813521408,
+      "updated_minus_frozen_loss": -0.003209984621317943,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002015030038336923,
+      "alignment_B": 0.0028529732181072705,
+      "alignment_benefit_2B": 0.005705946436214541,
+      "updated_minus_frozen_loss": -0.0036909163978776174,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201507,
+    "stocks": 3750,
+    "loss": {
+      "zero": 0.01912052746218429,
+      "frozen": 0.025667885606653795,
+      "rolling60": 0.02139057485471213,
+      "expanding": 0.01944620030090261
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0008197829991369455,
+      "alignment_B": 0.0025485467920141154,
+      "alignment_benefit_2B": 0.005097093584028231,
+      "updated_minus_frozen_loss": -0.004277310584891286,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0020909000139920824,
+      "alignment_B": 0.004156292601500399,
+      "alignment_benefit_2B": 0.008312585203000798,
+      "updated_minus_frozen_loss": -0.006221685189008714,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201508,
+    "stocks": 3775,
+    "loss": {
+      "zero": 0.0464173472003462,
+      "frozen": 0.05044550593613708,
+      "rolling60": 0.045892801170283715,
+      "expanding": 0.04688899456098678
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0018992779262674109,
+      "alignment_B": 0.0032259900811196134,
+      "alignment_benefit_2B": 0.006451980162239227,
+      "updated_minus_frozen_loss": -0.004552702235971814,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0011556094226437216,
+      "alignment_B": 0.002356059545094984,
+      "alignment_benefit_2B": 0.004712119090189968,
+      "updated_minus_frozen_loss": -0.003556509667546245,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201509,
+    "stocks": 3773,
+    "loss": {
+      "zero": 0.022990661695935437,
+      "frozen": 0.022119938464864045,
+      "rolling60": 0.02686346004467906,
+      "expanding": 0.02257549031669689
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0012094647310872642,
+      "alignment_B": -0.0017670285126587253,
+      "alignment_benefit_2B": -0.0035340570253174506,
+      "updated_minus_frozen_loss": 0.0047435217564047154,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 2.736099753461721e-05,
+      "alignment_B": -0.00021409564643777611,
+      "alignment_benefit_2B": -0.00042819129287555223,
+      "updated_minus_frozen_loss": 0.00045555229041016946,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201510,
+    "stocks": 3759,
+    "loss": {
+      "zero": 0.026380190903265065,
+      "frozen": 0.026596997653379195,
+      "rolling60": 0.023520401382242626,
+      "expanding": 0.024752928657087156
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0026570002036216188,
+      "alignment_B": 0.002866798287566042,
+      "alignment_benefit_2B": 0.005733596575132084,
+      "updated_minus_frozen_loss": -0.0030765963715104648,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005199910233936723,
+      "alignment_B": 0.0011820300246822553,
+      "alignment_benefit_2B": 0.0023640600493645106,
+      "updated_minus_frozen_loss": -0.001844069025970839,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201511,
+    "stocks": 3757,
+    "loss": {
+      "zero": 0.09712896053756355,
+      "frozen": 0.09744569080951501,
+      "rolling60": 0.09653469635701177,
+      "expanding": 0.09652750147343478
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0018305207436213632,
+      "alignment_B": 0.001370759176293542,
+      "alignment_benefit_2B": 0.002741518352587084,
+      "updated_minus_frozen_loss": -0.00091099760896572,
+      "identity_error": 9.75781955236954e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001517794390771528,
+      "alignment_B": 0.0012179924427035812,
+      "alignment_benefit_2B": 0.0024359848854071625,
+      "updated_minus_frozen_loss": -0.0009181904946356353,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201512,
+    "stocks": 3756,
+    "loss": {
+      "zero": 0.022540863439578455,
+      "frozen": 0.0324421928958068,
+      "rolling60": 0.02723243355646758,
+      "expanding": 0.02419900416251449
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0011085871340797686,
+      "alignment_B": 0.0031591733568830105,
+      "alignment_benefit_2B": 0.006318346713766021,
+      "updated_minus_frozen_loss": -0.005209759579686253,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0024084557504961686,
+      "alignment_B": 0.0053258223365036305,
+      "alignment_benefit_2B": 0.010651644673007261,
+      "updated_minus_frozen_loss": -0.008243188922511094,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201601,
+    "stocks": 3719,
+    "loss": {
+      "zero": 0.03187608703940471,
+      "frozen": 0.043511472289737514,
+      "rolling60": 0.03371997051477646,
+      "expanding": 0.030317912413096403
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0017216802950791208,
+      "alignment_B": 0.005756591223635936,
+      "alignment_benefit_2B": 0.011513182447271873,
+      "updated_minus_frozen_loss": -0.009791502152192754,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002925656427774009,
+      "alignment_B": 0.008059608365247106,
+      "alignment_benefit_2B": 0.016119216730494212,
+      "updated_minus_frozen_loss": -0.013193560302720203,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201602,
+    "stocks": 3700,
+    "loss": {
+      "zero": 0.023442461197502373,
+      "frozen": 0.024410286430937587,
+      "rolling60": 0.025831560562848587,
+      "expanding": 0.025177268673562944
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0036290596692862232,
+      "alignment_B": 0.0011038927439396208,
+      "alignment_benefit_2B": 0.0022077854878792416,
+      "updated_minus_frozen_loss": 0.001421274181406983,
+      "identity_error": 1.3010426069826053e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0018455877188437231,
+      "alignment_B": 0.0005393028032156061,
+      "alignment_benefit_2B": 0.0010786056064312122,
+      "updated_minus_frozen_loss": 0.000766982112412511,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201603,
+    "stocks": 3690,
+    "loss": {
+      "zero": 0.04281196232678396,
+      "frozen": 0.03810910054386821,
+      "rolling60": 0.03906116557269163,
+      "expanding": 0.04195057575946909
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006007332098744729,
+      "alignment_B": -0.00017566544716158663,
+      "alignment_benefit_2B": -0.00035133089432317326,
+      "updated_minus_frozen_loss": 0.0009520641041976466,
+      "identity_error": 3.2526065174565133e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0013351322785889904,
+      "alignment_B": -0.0012531712833523086,
+      "alignment_benefit_2B": -0.002506342566704617,
+      "updated_minus_frozen_loss": 0.0038414748452936078,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201604,
+    "stocks": 3675,
+    "loss": {
+      "zero": 0.023420057930238845,
+      "frozen": 0.024016300226816452,
+      "rolling60": 0.02270261077749847,
+      "expanding": 0.02233847962968113
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003938066293238275,
+      "alignment_B": 0.002625877927534842,
+      "alignment_benefit_2B": 0.005251755855069684,
+      "updated_minus_frozen_loss": -0.0013136895618314074,
+      "identity_error": 1.0842021724855044e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.005103472644007841,
+      "alignment_B": 0.003390646624861213,
+      "alignment_benefit_2B": 0.006781293249722426,
+      "updated_minus_frozen_loss": -0.001677820605714585,
+      "identity_error": -6.505213034913027e-19
+    }
+  },
+  {
+    "month": 201605,
+    "stocks": 3663,
+    "loss": {
+      "zero": 0.03629602972622913,
+      "frozen": 0.039104396423294975,
+      "rolling60": 0.037037610933215316,
+      "expanding": 0.03630271925338166
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0006491829720328673,
+      "alignment_B": 0.0013579845414910007,
+      "alignment_benefit_2B": 0.0027159690829820014,
+      "updated_minus_frozen_loss": -0.0020667861109491337,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002022930371566018,
+      "alignment_B": 0.002412303842109911,
+      "alignment_benefit_2B": 0.004824607684219822,
+      "updated_minus_frozen_loss": -0.002801677312653803,
+      "identity_error": 1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201606,
+    "stocks": 3658,
+    "loss": {
+      "zero": 0.03425536469266622,
+      "frozen": 0.037822734172548236,
+      "rolling60": 0.034983595603253426,
+      "expanding": 0.034247711427868366
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0013512354317112506,
+      "alignment_B": 0.002095186931061974,
+      "alignment_benefit_2B": 0.004190373862123948,
+      "updated_minus_frozen_loss": -0.0028391384304126974,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0022782815224937913,
+      "alignment_B": 0.002926652582176796,
+      "alignment_benefit_2B": 0.005853305164353592,
+      "updated_minus_frozen_loss": -0.0035750236418598015,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201607,
+    "stocks": 3643,
+    "loss": {
+      "zero": 0.03147187996878262,
+      "frozen": 0.03230066864414684,
+      "rolling60": 0.03414389135646892,
+      "expanding": 0.034047811400289944
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.000926664074485855,
+      "alignment_B": -0.00045827987072310746,
+      "alignment_benefit_2B": -0.0009165597414462149,
+      "updated_minus_frozen_loss": 0.0018432238159320708,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006387000780080645,
+      "alignment_B": -0.000554221595089472,
+      "alignment_benefit_2B": -0.001108443190178944,
+      "updated_minus_frozen_loss": 0.0017471432681870085,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201608,
+    "stocks": 3643,
+    "loss": {
+      "zero": 0.02782283950449455,
+      "frozen": 0.029346559088625546,
+      "rolling60": 0.02780386935166088,
+      "expanding": 0.027428770376002783
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00457755192647832,
+      "alignment_B": 0.003060120598795689,
+      "alignment_benefit_2B": 0.006120241197591378,
+      "updated_minus_frozen_loss": -0.0015426892711130572,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.003118889996439586,
+      "alignment_B": 0.0025183394260666543,
+      "alignment_benefit_2B": 0.0050366788521333085,
+      "updated_minus_frozen_loss": -0.0019177888556937233,
+      "identity_error": -6.505213034913027e-19
+    }
+  },
+  {
+    "month": 201609,
+    "stocks": 3622,
+    "loss": {
+      "zero": 0.038246628845251374,
+      "frozen": 0.03860535937696665,
+      "rolling60": 0.03846244185150012,
+      "expanding": 0.03789653868757281
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.004263378595519018,
+      "alignment_B": 0.0022031481779564107,
+      "alignment_benefit_2B": 0.0044062963559128214,
+      "updated_minus_frozen_loss": -0.00014291776039380283,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0028025357345283185,
+      "alignment_B": 0.0017556781846640016,
+      "alignment_benefit_2B": 0.0035113563693280033,
+      "updated_minus_frozen_loss": -0.0007088206347996833,
+      "identity_error": 1.5178830414797062e-18
+    }
+  },
+  {
+    "month": 201610,
+    "stocks": 3616,
+    "loss": {
+      "zero": 0.017928923105343303,
+      "frozen": 0.03461961937480177,
+      "rolling60": 0.017368428245111717,
+      "expanding": 0.019473197818614254
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.006618726972242895,
+      "alignment_B": 0.011934959044047089,
+      "alignment_benefit_2B": 0.023869918088094178,
+      "updated_minus_frozen_loss": -0.017251191115851282,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.004523432357156826,
+      "alignment_B": 0.009834926846207317,
+      "alignment_benefit_2B": 0.019669853692414634,
+      "updated_minus_frozen_loss": -0.015146421335257808,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201611,
+    "stocks": 3621,
+    "loss": {
+      "zero": 0.0374551616178553,
+      "frozen": 0.03258588960907877,
+      "rolling60": 0.0322226675051899,
+      "expanding": 0.03767075525915835
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0005754575169385187,
+      "alignment_B": 0.0004693397903097757,
+      "alignment_benefit_2B": 0.0009386795806195515,
+      "updated_minus_frozen_loss": -0.0003632220636810328,
+      "identity_error": -5.421010862427522e-20
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0024556825264631242,
+      "alignment_B": -0.0013145917565564494,
+      "alignment_benefit_2B": -0.0026291835131128987,
+      "updated_minus_frozen_loss": 0.005084866039576023,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201612,
+    "stocks": 3603,
+    "loss": {
+      "zero": 0.019115948850143803,
+      "frozen": 0.021403554222012726,
+      "rolling60": 0.018834298224179345,
+      "expanding": 0.01885125334622525
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002927285406955434,
+      "alignment_B": 0.002748270707373764,
+      "alignment_benefit_2B": 0.005496541414747528,
+      "updated_minus_frozen_loss": -0.0025692560077920923,
+      "identity_error": 1.3010426069826053e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0024336660900312747,
+      "alignment_B": 0.0024929835126702563,
+      "alignment_benefit_2B": 0.004985967025340513,
+      "updated_minus_frozen_loss": -0.0025523009353092367,
+      "identity_error": 1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201701,
+    "stocks": 3598,
+    "loss": {
+      "zero": 0.022665993932376022,
+      "frozen": 0.023291942031534826,
+      "rolling60": 0.022589794828029496,
+      "expanding": 0.022382380450566453
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0009609128939325141,
+      "alignment_B": 0.000831530049991674,
+      "alignment_benefit_2B": 0.001663060099983348,
+      "updated_minus_frozen_loss": -0.000702147206050834,
+      "identity_error": -1.0842021724855044e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0019356128338217456,
+      "alignment_B": 0.001422587126370255,
+      "alignment_benefit_2B": 0.00284517425274051,
+      "updated_minus_frozen_loss": -0.0009095614189187642,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201702,
+    "stocks": 3598,
+    "loss": {
+      "zero": 0.018882134765891758,
+      "frozen": 0.02002943929502238,
+      "rolling60": 0.01880494031741037,
+      "expanding": 0.01859607661909675
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0020482629318993436,
+      "alignment_B": 0.001636380880980874,
+      "alignment_benefit_2B": 0.003272761761961748,
+      "updated_minus_frozen_loss": -0.0012244988300624045,
+      "identity_error": -2.168404344971009e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0016777325287179602,
+      "alignment_B": 0.0015555475293023862,
+      "alignment_benefit_2B": 0.0031110950586047724,
+      "updated_minus_frozen_loss": -0.001433362529886812,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201703,
+    "stocks": 3587,
+    "loss": {
+      "zero": 0.018364098842597345,
+      "frozen": 0.020433291031235937,
+      "rolling60": 0.018951058235835226,
+      "expanding": 0.018401913504675935
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0010681097192853292,
+      "alignment_B": 0.001275171277750635,
+      "alignment_benefit_2B": 0.00255034255550127,
+      "updated_minus_frozen_loss": -0.0014822328362159413,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001641876898699287,
+      "alignment_B": 0.0018366270954170917,
+      "alignment_benefit_2B": 0.0036732541908341835,
+      "updated_minus_frozen_loss": -0.0020313772921348957,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201704,
+    "stocks": 3579,
+    "loss": {
+      "zero": 0.015145343790657377,
+      "frozen": 0.019336632343596942,
+      "rolling60": 0.015531591755845058,
+      "expanding": 0.015341779465447613
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0017741587899797488,
+      "alignment_B": 0.002789599671996487,
+      "alignment_benefit_2B": 0.005579199343992974,
+      "updated_minus_frozen_loss": -0.0038050405540132246,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002141502717467432,
+      "alignment_B": 0.003068177815485976,
+      "alignment_benefit_2B": 0.006136355630971952,
+      "updated_minus_frozen_loss": -0.00399485291350452,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201705,
+    "stocks": 3591,
+    "loss": {
+      "zero": 0.021432895771703882,
+      "frozen": 0.02702709316002123,
+      "rolling60": 0.021338632748757396,
+      "expanding": 0.02234117171420399
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003096957146125073,
+      "alignment_B": 0.004392708765347175,
+      "alignment_benefit_2B": 0.00878541753069435,
+      "updated_minus_frozen_loss": -0.005688460384569276,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0015603951467150743,
+      "alignment_B": 0.003123158369570696,
+      "alignment_benefit_2B": 0.006246316739141392,
+      "updated_minus_frozen_loss": -0.004685921592426317,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201706,
+    "stocks": 3585,
+    "loss": {
+      "zero": 0.04003079012975792,
+      "frozen": 0.038643042486885514,
+      "rolling60": 0.03871914519480706,
+      "expanding": 0.03874818706526743
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007675484709437551,
+      "alignment_B": 0.0003457244045129218,
+      "alignment_benefit_2B": 0.0006914488090258436,
+      "updated_minus_frozen_loss": 7.609966191791031e-05,
+      "identity_error": -1.1655173354219173e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0006363782687407179,
+      "alignment_B": 0.00026561821635424156,
+      "alignment_benefit_2B": 0.0005312364327084831,
+      "updated_minus_frozen_loss": 0.00010514183603223456,
+      "identity_error": -2.0328790734103208e-19
+    }
+  },
+  {
+    "month": 201707,
+    "stocks": 3591,
+    "loss": {
+      "zero": 0.01444989398042192,
+      "frozen": 0.01983697374061264,
+      "rolling60": 0.014327708038667184,
+      "expanding": 0.014887628153832998
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.005178131028514637,
+      "alignment_B": 0.005343698238572314,
+      "alignment_benefit_2B": 0.010687396477144628,
+      "updated_minus_frozen_loss": -0.005509265448629992,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0026658546494441556,
+      "alignment_B": 0.0038076000564257416,
+      "alignment_benefit_2B": 0.007615200112851483,
+      "updated_minus_frozen_loss": -0.004949345463407328,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201708,
+    "stocks": 3589,
+    "loss": {
+      "zero": 0.02288347963600201,
+      "frozen": 0.027099940481434773,
+      "rolling60": 0.0241026500166348,
+      "expanding": 0.023235827771140683
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0014777575093778705,
+      "alignment_B": 0.002237524036701498,
+      "alignment_benefit_2B": 0.004475048073402996,
+      "updated_minus_frozen_loss": -0.0029972905640251253,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.001972050953304125,
+      "alignment_B": 0.0029180818436957915,
+      "alignment_benefit_2B": 0.005836163687391583,
+      "updated_minus_frozen_loss": -0.0038641127340874573,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201709,
+    "stocks": 3583,
+    "loss": {
+      "zero": 0.03747240916961021,
+      "frozen": 0.03300497623085964,
+      "rolling60": 0.03643634305715772,
+      "expanding": 0.03689828507811816
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0017795655254752736,
+      "alignment_B": -0.0008259004142910801,
+      "alignment_benefit_2B": -0.0016518008285821603,
+      "updated_minus_frozen_loss": 0.0034313663540574343,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0018843933694526222,
+      "alignment_B": -0.0010044576742813504,
+      "alignment_benefit_2B": -0.002008915348562701,
+      "updated_minus_frozen_loss": 0.0038933087180153237,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201710,
+    "stocks": 3562,
+    "loss": {
+      "zero": 0.019369560985684535,
+      "frozen": 0.02306983063412552,
+      "rolling60": 0.020300368090015633,
+      "expanding": 0.019583271632671446
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.007978218837764244,
+      "alignment_B": 0.005373840704792624,
+      "alignment_benefit_2B": 0.010747681409585248,
+      "updated_minus_frozen_loss": -0.0027694625718210023,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0017211810348815738,
+      "alignment_B": 0.002603870054617838,
+      "alignment_benefit_2B": 0.005207740109235676,
+      "updated_minus_frozen_loss": -0.0034865590743541016,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201711,
+    "stocks": 3561,
+    "loss": {
+      "zero": 0.03021011157583005,
+      "frozen": 0.029891876880111204,
+      "rolling60": 0.03474706262667257,
+      "expanding": 0.02969093233770767
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.009045072221593868,
+      "alignment_B": 0.00209494334308455,
+      "alignment_benefit_2B": 0.0041898866861691,
+      "updated_minus_frozen_loss": 0.004855185535424771,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0020936410238660327,
+      "alignment_B": 0.0011472928666380455,
+      "alignment_benefit_2B": 0.002294585733276091,
+      "updated_minus_frozen_loss": -0.00020094470941005755,
+      "identity_error": 7.047314121155779e-19
+    }
+  },
+  {
+    "month": 201712,
+    "stocks": 3572,
+    "loss": {
+      "zero": 0.02422451860468357,
+      "frozen": 0.026062425571923075,
+      "rolling60": 0.0259923702648689,
+      "expanding": 0.0241463814804293
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.00815169540343312,
+      "alignment_B": 0.004110875266108662,
+      "alignment_benefit_2B": 0.008221750532217324,
+      "updated_minus_frozen_loss": -7.005512878420229e-05,
+      "identity_error": 9.215718466126788e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.003077384788260652,
+      "alignment_B": 0.002496714323725902,
+      "alignment_benefit_2B": 0.004993428647451804,
+      "updated_minus_frozen_loss": -0.001916043859191151,
+      "identity_error": 1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201801,
+    "stocks": 3567,
+    "loss": {
+      "zero": 0.024413806659920607,
+      "frozen": 0.023744083407121655,
+      "rolling60": 0.027503888699363575,
+      "expanding": 0.026439308656705997
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.002984499746799156,
+      "alignment_B": -0.0003876526779860205,
+      "alignment_benefit_2B": -0.000775305355972041,
+      "updated_minus_frozen_loss": 0.0037598051027711975,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0019087999036593519,
+      "alignment_B": -0.0003932125606049588,
+      "alignment_benefit_2B": -0.0007864251212099176,
+      "updated_minus_frozen_loss": 0.0026952250248692693,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201802,
+    "stocks": 3559,
+    "loss": {
+      "zero": 0.0171703608059202,
+      "frozen": 0.024650495831136404,
+      "rolling60": 0.016622732264380533,
+      "expanding": 0.017844880730673477
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0040691532035713116,
+      "alignment_B": 0.006048458392475238,
+      "alignment_benefit_2B": 0.012096916784950475,
+      "updated_minus_frozen_loss": -0.008027763581379164,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0024340415576982305,
+      "alignment_B": 0.0046198282886508865,
+      "alignment_benefit_2B": 0.009239656577301773,
+      "updated_minus_frozen_loss": -0.006805615019603542,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201803,
+    "stocks": 3561,
+    "loss": {
+      "zero": 0.030354419385929556,
+      "frozen": 0.032080146690766344,
+      "rolling60": 0.030437326804042503,
+      "expanding": 0.03032549374169054
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0010157699745118095,
+      "alignment_B": 0.001329295163875876,
+      "alignment_benefit_2B": 0.002658590327751752,
+      "updated_minus_frozen_loss": -0.001642820353239943,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0021598373858075963,
+      "alignment_B": 0.0019572455990181227,
+      "alignment_benefit_2B": 0.003914491198036245,
+      "updated_minus_frozen_loss": -0.0017546538122286497,
+      "identity_error": -6.505213034913027e-19
+    }
+  },
+  {
+    "month": 201804,
+    "stocks": 3561,
+    "loss": {
+      "zero": 0.01872008398480507,
+      "frozen": 0.022538548095084193,
+      "rolling60": 0.018712890717168418,
+      "expanding": 0.01875447138573353
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0037539126899805287,
+      "alignment_B": 0.0037897850507818114,
+      "alignment_benefit_2B": 0.007579570101563623,
+      "updated_minus_frozen_loss": -0.003825657411583094,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0031673751037948963,
+      "alignment_B": 0.0034757258869079427,
+      "alignment_benefit_2B": 0.0069514517738158855,
+      "updated_minus_frozen_loss": -0.0037840766700209887,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201805,
+    "stocks": 3568,
+    "loss": {
+      "zero": 0.03614022937231087,
+      "frozen": 0.033542061091243996,
+      "rolling60": 0.03576117462903196,
+      "expanding": 0.03505872654767449
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003252081700139166,
+      "alignment_B": 0.0005164836758524801,
+      "alignment_benefit_2B": 0.0010329673517049602,
+      "updated_minus_frozen_loss": 0.0022191143484342063,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002342975105679768,
+      "alignment_B": 0.0004131545662618815,
+      "alignment_benefit_2B": 0.000826309132523763,
+      "updated_minus_frozen_loss": 0.0015166659731560054,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201806,
+    "stocks": 3568,
+    "loss": {
+      "zero": 0.033748772711163486,
+      "frozen": 0.03704994020308406,
+      "rolling60": 0.03347385147830426,
+      "expanding": 0.03360066728414564
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0035400289425717136,
+      "alignment_B": 0.003558058930329282,
+      "alignment_benefit_2B": 0.007116117860658564,
+      "updated_minus_frozen_loss": -0.003576088918086851,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.00303207626399428,
+      "alignment_B": 0.00324067489415533,
+      "alignment_benefit_2B": 0.00648134978831066,
+      "updated_minus_frozen_loss": -0.0034492735243163808,
+      "identity_error": -8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201807,
+    "stocks": 3585,
+    "loss": {
+      "zero": 0.015569744717517667,
+      "frozen": 0.02032082031742351,
+      "rolling60": 0.015250506298721577,
+      "expanding": 0.015699103493087896
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0036352745224117714,
+      "alignment_B": 0.0043527942663712385,
+      "alignment_benefit_2B": 0.008705588532742477,
+      "updated_minus_frozen_loss": -0.005070314010330705,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002694428864436882,
+      "alignment_B": 0.0036580728765798856,
+      "alignment_benefit_2B": 0.007316145753159771,
+      "updated_minus_frozen_loss": -0.004621716888722889,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201808,
+    "stocks": 3598,
+    "loss": {
+      "zero": 0.027235610705230145,
+      "frozen": 0.026736026713459787,
+      "rolling60": 0.026896555494436526,
+      "expanding": 0.02670958881767551
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0028724569540807443,
+      "alignment_B": 0.0013559639341514924,
+      "alignment_benefit_2B": 0.002711927868302985,
+      "updated_minus_frozen_loss": 0.00016052908577776054,
+      "identity_error": 1.111307226797642e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.002476645778710779,
+      "alignment_B": 0.0012515418152551085,
+      "alignment_benefit_2B": 0.002503083630510217,
+      "updated_minus_frozen_loss": -2.643785179943723e-05,
+      "identity_error": 8.605854744103691e-19
+    }
+  },
+  {
+    "month": 201809,
+    "stocks": 3599,
+    "loss": {
+      "zero": 0.023659367786233763,
+      "frozen": 0.024279030141913842,
+      "rolling60": 0.024067567066631903,
+      "expanding": 0.024427180012470105
+    },
+    "rolling60": {
+      "adjustment_cost_A": 5.5814841022262775e-05,
+      "alignment_B": 0.00013363884610539958,
+      "alignment_benefit_2B": 0.00026727769221079916,
+      "updated_minus_frozen_loss": -0.00021146285118853607,
+      "identity_error": 3.2526065174565133e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 7.4248043975943615e-06,
+      "alignment_B": -7.036249144287575e-05,
+      "alignment_benefit_2B": -0.0001407249828857515,
+      "updated_minus_frozen_loss": 0.00014814978728334613,
+      "identity_error": 2.710505431213761e-19
+    }
+  },
+  {
+    "month": 201810,
+    "stocks": 3602,
+    "loss": {
+      "zero": 0.03160462489052644,
+      "frozen": 0.02702875159500053,
+      "rolling60": 0.025366560267748327,
+      "expanding": 0.02796370891881945
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0001348955775204483,
+      "alignment_B": 0.0008985436754703444,
+      "alignment_benefit_2B": 0.0017970873509406888,
+      "updated_minus_frozen_loss": -0.00166219177342024,
+      "identity_error": 4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 3.1365258973208094e-05,
+      "alignment_B": -0.0004517958895285259,
+      "alignment_benefit_2B": -0.0009035917790570518,
+      "updated_minus_frozen_loss": 0.0009349570380302599,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201811,
+    "stocks": 3603,
+    "loss": {
+      "zero": 0.024914321199366485,
+      "frozen": 0.02661881443986822,
+      "rolling60": 0.027627131452880895,
+      "expanding": 0.024904519719713438
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0032893472440214226,
+      "alignment_B": 0.0011405151600510418,
+      "alignment_benefit_2B": 0.0022810303201020836,
+      "updated_minus_frozen_loss": 0.0010083169239193401,
+      "identity_error": 1.0842021724855044e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005254701168269147,
+      "alignment_B": 0.0011198826116273863,
+      "alignment_benefit_2B": 0.0022397652232547726,
+      "updated_minus_frozen_loss": -0.0017142951064278576,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201812,
+    "stocks": 3586,
+    "loss": {
+      "zero": 0.035611998367570404,
+      "frozen": 0.05016937251347767,
+      "rolling60": 0.04916307733103563,
+      "expanding": 0.0416760042386513
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.0007103390954244033,
+      "alignment_B": 0.0008583169982527393,
+      "alignment_benefit_2B": 0.0017166339965054786,
+      "updated_minus_frozen_loss": -0.0010062949010810752,
+      "identity_error": 0.0
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0009809690026718878,
+      "alignment_B": 0.004737168597367092,
+      "alignment_benefit_2B": 0.009474337194734185,
+      "updated_minus_frozen_loss": -0.008493368192062298,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201901,
+    "stocks": 3580,
+    "loss": {
+      "zero": 0.1751070630192219,
+      "frozen": 0.16452887844578445,
+      "rolling60": 0.21509051889134412,
+      "expanding": 0.18026331345952104
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.019609740405252107,
+      "alignment_B": -0.015475949880841939,
+      "alignment_benefit_2B": -0.030951899761683877,
+      "updated_minus_frozen_loss": 0.05056164016693597,
+      "identity_error": -1.3877787807814457e-17
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0034455090082732946,
+      "alignment_B": -0.006144452803015367,
+      "alignment_benefit_2B": -0.012288905606030734,
+      "updated_minus_frozen_loss": 0.015734414614304016,
+      "identity_error": -1.0408340855860843e-17
+    }
+  },
+  {
+    "month": 201902,
+    "stocks": 3569,
+    "loss": {
+      "zero": 0.027029933596037673,
+      "frozen": 0.0260654608435431,
+      "rolling60": 0.03908696514919712,
+      "expanding": 0.02453833992877069
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.02507650417356568,
+      "alignment_B": 0.006027500107801384,
+      "alignment_benefit_2B": 0.012055000215602768,
+      "updated_minus_frozen_loss": 0.013021503957962907,
+      "identity_error": -3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0023087471994768004,
+      "alignment_B": 0.0019179340404683533,
+      "alignment_benefit_2B": 0.0038358680809367066,
+      "updated_minus_frozen_loss": -0.0015271208814599062,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201903,
+    "stocks": 3565,
+    "loss": {
+      "zero": 0.037009295984391156,
+      "frozen": 0.042431397778224654,
+      "rolling60": 0.03843504399335135,
+      "expanding": 0.037227121765339086
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.013229838147888537,
+      "alignment_B": 0.008613096309148159,
+      "alignment_benefit_2B": 0.017226192618296318,
+      "updated_minus_frozen_loss": -0.003996354470407779,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.003409599265018086,
+      "alignment_B": 0.004306938066270633,
+      "alignment_benefit_2B": 0.008613876132541266,
+      "updated_minus_frozen_loss": -0.005204276867523178,
+      "identity_error": 8.673617379884035e-19
+    }
+  },
+  {
+    "month": 201904,
+    "stocks": 3560,
+    "loss": {
+      "zero": 0.021439829588107903,
+      "frozen": 0.023901842987502794,
+      "rolling60": 0.025398048289577813,
+      "expanding": 0.02114587059329058
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.010133062640370767,
+      "alignment_B": 0.004318428734957694,
+      "alignment_benefit_2B": 0.008636857469915387,
+      "updated_minus_frozen_loss": 0.001496205170455379,
+      "identity_error": -4.336808689942018e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0025407484229033922,
+      "alignment_B": 0.002648360351114635,
+      "alignment_benefit_2B": 0.00529672070222927,
+      "updated_minus_frozen_loss": -0.0027559722793258764,
+      "identity_error": 1.3010426069826053e-18
+    }
+  },
+  {
+    "month": 201905,
+    "stocks": 3574,
+    "loss": {
+      "zero": 0.030746212163037964,
+      "frozen": 0.04451601886152671,
+      "rolling60": 0.02606546691876996,
+      "expanding": 0.0311542221544471
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.008984525221823778,
+      "alignment_B": 0.013717538535716528,
+      "alignment_benefit_2B": 0.027435077071433056,
+      "updated_minus_frozen_loss": -0.01845055184960928,
+      "identity_error": -3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0034509117810133366,
+      "alignment_B": 0.00840635418262947,
+      "alignment_benefit_2B": 0.01681270836525894,
+      "updated_minus_frozen_loss": -0.013361796584245604,
+      "identity_error": 0.0
+    }
+  },
+  {
+    "month": 201906,
+    "stocks": 3585,
+    "loss": {
+      "zero": 0.02998392630776738,
+      "frozen": 0.03235199535447354,
+      "rolling60": 0.04021496100553399,
+      "expanding": 0.03098494646276216
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.003416261314944328,
+      "alignment_B": -0.002223352399185794,
+      "alignment_benefit_2B": -0.004446704798371588,
+      "updated_minus_frozen_loss": 0.007862966113315916,
+      "identity_error": 1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0005125423333961479,
+      "alignment_B": 0.0009397956883396854,
+      "alignment_benefit_2B": 0.0018795913766793708,
+      "updated_minus_frozen_loss": -0.0013670490432832224,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201907,
+    "stocks": 3599,
+    "loss": {
+      "zero": 0.021274533085017974,
+      "frozen": 0.029826602061010322,
+      "rolling60": 0.022954978429829926,
+      "expanding": 0.02363395048102583
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.016188051957576752,
+      "alignment_B": 0.011529837819766582,
+      "alignment_benefit_2B": 0.023059675639533164,
+      "updated_minus_frozen_loss": -0.006871623681956411,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0016813780175442769,
+      "alignment_B": 0.003937014816365438,
+      "alignment_benefit_2B": 0.007874029632730876,
+      "updated_minus_frozen_loss": -0.006192651615186597,
+      "identity_error": 1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201908,
+    "stocks": 3603,
+    "loss": {
+      "zero": 0.030824397363669626,
+      "frozen": 0.038243476754384075,
+      "rolling60": 0.028163183864503658,
+      "expanding": 0.033212618097628065
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.015088995342601674,
+      "alignment_B": 0.012584644118611873,
+      "alignment_benefit_2B": 0.025169288237223746,
+      "updated_minus_frozen_loss": -0.010080292894622069,
+      "identity_error": 3.469446951953614e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0009829556371348624,
+      "alignment_B": 0.0030069072724472753,
+      "alignment_benefit_2B": 0.006013814544894551,
+      "updated_minus_frozen_loss": -0.0050308589077596895,
+      "identity_error": -1.734723475976807e-18
+    }
+  },
+  {
+    "month": 201909,
+    "stocks": 3595,
+    "loss": {
+      "zero": 0.025528001182748176,
+      "frozen": 0.027243615327883632,
+      "rolling60": 0.030591291289071638,
+      "expanding": 0.025362337132779536
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.008054150702683727,
+      "alignment_B": 0.0023532373660730592,
+      "alignment_benefit_2B": 0.0047064747321461185,
+      "updated_minus_frozen_loss": 0.003347675970537609,
+      "identity_error": 8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0013419498177031516,
+      "alignment_B": 0.0016116139724478495,
+      "alignment_benefit_2B": 0.003223227944895699,
+      "updated_minus_frozen_loss": -0.0018812781271925472,
+      "identity_error": 2.168404344971009e-19
+    }
+  },
+  {
+    "month": 201910,
+    "stocks": 3592,
+    "loss": {
+      "zero": 0.029363870742209003,
+      "frozen": 0.03259621618377953,
+      "rolling60": 0.031241617937379833,
+      "expanding": 0.029712748451431212
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.008711619403940758,
+      "alignment_B": 0.005033109045467029,
+      "alignment_benefit_2B": 0.010066218090934057,
+      "updated_minus_frozen_loss": -0.0013545986869932974,
+      "identity_error": 1.951563910473908e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0012292077647645336,
+      "alignment_B": 0.002056338012468509,
+      "alignment_benefit_2B": 0.004112676024937018,
+      "updated_minus_frozen_loss": -0.002883468260172484,
+      "identity_error": 4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201911,
+    "stocks": 3589,
+    "loss": {
+      "zero": 0.0491210989889904,
+      "frozen": 0.0498269181255389,
+      "rolling60": 0.05489361733969012,
+      "expanding": 0.04881365986158148
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.014703481319249112,
+      "alignment_B": 0.00481839078918469,
+      "alignment_benefit_2B": 0.00963678157836938,
+      "updated_minus_frozen_loss": 0.005066699740879731,
+      "identity_error": -8.673617379884035e-19
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.005741639882889432,
+      "alignment_B": 0.003377448462058294,
+      "alignment_benefit_2B": 0.006754896924116588,
+      "updated_minus_frozen_loss": -0.0010132570412271559,
+      "identity_error": -4.336808689942018e-19
+    }
+  },
+  {
+    "month": 201912,
+    "stocks": 3580,
+    "loss": {
+      "zero": 0.04580519255392769,
+      "frozen": 0.04258781785224644,
+      "rolling60": 0.05550015805942566,
+      "expanding": 0.044622688455160195
+    },
+    "rolling60": {
+      "adjustment_cost_A": 0.015454485324250346,
+      "alignment_B": 0.0012710726089617732,
+      "alignment_benefit_2B": 0.0025421452179235464,
+      "updated_minus_frozen_loss": 0.012912340106326798,
+      "identity_error": -1.734723475976807e-18
+    },
+    "expanding": {
+      "adjustment_cost_A": 0.0030749714549998843,
+      "alignment_B": 0.0005200500648551802,
+      "alignment_benefit_2B": 0.0010401001297103605,
+      "updated_minus_frozen_loss": 0.002034871325289524,
+      "identity_error": 4.336808689942018e-19
+    }
+  }
+]

@@ -1,0 +1,523 @@
+{
+  "key": "kan2013pricing",
+  "submitted": {
+    "key": "kan2013pricing",
+    "type": "article",
+    "fields": {
+      "author": "Kan, Raymond and Robotti, Cesare and Shanken, Jay",
+      "title": "Pricing Model Performance and the Two-Pass Cross-Sectional Regression Methodology",
+      "journal": "The Journal of Finance",
+      "year": "2013",
+      "volume": "68",
+      "number": "6",
+      "pages": "2617--2649",
+      "doi": "10.1111/jofi.12035"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/jofi.12035",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T03:49:12Z",
+        "timestamp": 1790221752541,
+        "version": "4.1.0"
+      },
+      "reference-count": 48,
+      "publisher": "Wiley",
+      "issue": "6",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2013,
+                11,
+                12
+              ]
+            ],
+            "date-time": "2013-11-12T00:00:00Z",
+            "timestamp": 1384214400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "The Journal of Finance"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    Over the years, many asset pricing studies have employed the sample cross‐sectional regression (CSR)\n                    <jats:italic>R</jats:italic>\n                    <jats:sup>2</jats:sup>\n                    as a measure of model performance. We derive the asymptotic distribution of this statistic and develop associated model comparison tests, taking into account the impact of model misspecification on the variability of the CSR estimates. We encounter several examples of large\n                    <jats:italic>R</jats:italic>\n                    <jats:sup>2</jats:sup>\n                    differences that are not statistically significant. A version of the intertemporal capital asset pricing model (CAPM) exhibits the best overall performance, followed by the Fama–French three‐factor model. Interestingly, the performance of prominent consumption CAPMs is sensitive to variations in experimental design.\n                  </jats:p>",
+      "DOI": "10.1111/jofi.12035",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2013,
+            2,
+            15
+          ]
+        ],
+        "date-time": "2013-02-15T12:37:34Z",
+        "timestamp": 1360931854000
+      },
+      "page": "2617-2649",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 238,
+      "title": [
+        "Pricing Model Performance and the Two‐Pass Cross‐Sectional Regression Methodology"
+      ],
+      "prefix": "10.1111",
+      "volume": "68",
+      "author": [
+        {
+          "given": "RAYMOND",
+          "family": "KAN",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "CESARE",
+          "family": "ROBOTTI",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "JAY",
+          "family": "SHANKEN",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2013,
+            11,
+            12
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_9_2_1",
+          "volume-title": "Studies in the Theory of Capital Markets",
+          "author": "Black Fischer",
+          "year": "1972"
+        },
+        {
+          "key": "e_1_2_9_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/262026"
+        },
+        {
+          "key": "e_1_2_9_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/296344"
+        },
+        {
+          "key": "e_1_2_9_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jae.1091"
+        },
+        {
+          "key": "e_1_2_9_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/262034"
+        },
+        {
+          "key": "e_1_2_9_7_1",
+          "volume-title": "Asset Pricing",
+          "author": "Cochrane John H.",
+          "year": "2005"
+        },
+        {
+          "key": "e_1_2_9_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2331355"
+        },
+        {
+          "key": "e_1_2_9_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1992.tb04398.x"
+        },
+        {
+          "key": "e_1_2_9_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(93)90023-5"
+        },
+        {
+          "key": "e_1_2_9_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/260061"
+        },
+        {
+          "key": "e_1_2_9_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913625"
+        },
+        {
+          "key": "e_1_2_9_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02294799"
+        },
+        {
+          "key": "e_1_2_9_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2012.11.002"
+        },
+        {
+          "key": "e_1_2_9_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(03)00089-7"
+        },
+        {
+          "key": "e_1_2_9_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912775"
+        },
+        {
+          "key": "e_1_2_9_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1997.tb04813.x"
+        },
+        {
+          "key": "e_1_2_9_18_1",
+          "volume-title": "On the estimation of risk premia in linear factor models",
+          "author": "Hou Kewei",
+          "year": "2006"
+        },
+        {
+          "key": "e_1_2_9_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/209747"
+        },
+        {
+          "key": "e_1_2_9_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/B978-0-444-53548-1.50004-0"
+        },
+        {
+          "key": "e_1_2_9_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2007.01253.x"
+        },
+        {
+          "key": "e_1_2_9_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1996.tb05201.x"
+        },
+        {
+          "key": "e_1_2_9_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00053"
+        },
+        {
+          "key": "e_1_2_9_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jempfin.2008.03.003"
+        },
+        {
+          "key": "e_1_2_9_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhn094"
+        },
+        {
+          "key": "e_1_2_9_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.econlet.2010.11.004"
+        },
+        {
+          "key": "e_1_2_9_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00102"
+        },
+        {
+          "key": "e_1_2_9_28_1",
+          "volume-title": "Hansen‐Jagannathan distance: Geometry and exact distribution",
+          "author": "Kan Raymond",
+          "year": "2004"
+        },
+        {
+          "key": "e_1_2_9_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1995.tb05170.x"
+        },
+        {
+          "key": "e_1_2_9_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/323282"
+        },
+        {
+          "key": "e_1_2_9_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2009.09.001"
+        },
+        {
+          "key": "e_1_2_9_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2010.03.002"
+        },
+        {
+          "key": "e_1_2_9_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913811"
+        },
+        {
+          "key": "e_1_2_9_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913610"
+        },
+        {
+          "key": "e_1_2_9_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/426042"
+        },
+        {
+          "key": "e_1_2_9_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2006.00849.x"
+        },
+        {
+          "key": "e_1_2_9_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1368-423X.t01-1-00071"
+        },
+        {
+          "key": "e_1_2_9_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1994.tb04422.x"
+        },
+        {
+          "key": "e_1_2_9_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(85)90002-9"
+        },
+        {
+          "key": "e_1_2_9_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4076(90)90095-B"
+        },
+        {
+          "key": "e_1_2_9_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/5.1.1"
+        },
+        {
+          "key": "e_1_2_9_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2006.02.003"
+        },
+        {
+          "key": "e_1_2_9_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1257/000282803321947399"
+        },
+        {
+          "key": "e_1_2_9_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912557"
+        },
+        {
+          "key": "e_1_2_9_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/CCOL0521252806"
+        },
+        {
+          "key": "e_1_2_9_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1468-0262.00152"
+        },
+        {
+          "key": "e_1_2_9_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/01621459.1987.10478499"
+        },
+        {
+          "key": "e_1_2_9_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4076(89)90094-8"
+        },
+        {
+          "key": "e_1_2_9_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2006.00848.x"
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjofi.12035",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjofi.12035",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.12035",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            14
+          ]
+        ],
+        "date-time": "2023-09-14T02:57:13Z",
+        "timestamp": 1694660233000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.12035"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2013,
+            11,
+            12
+          ]
+        ]
+      },
+      "references-count": 48,
+      "journal-issue": {
+        "issue": "6",
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/jofi.12035"
+      ],
+      "URL": "https://doi.org/10.1111/jofi.12035",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "0022-1082",
+        "1540-6261"
+      ],
+      "issn-type": [
+        {
+          "value": "0022-1082",
+          "type": "print"
+        },
+        {
+          "value": "1540-6261",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            11,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2011-05-02",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2013-01-24",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2013-11-12",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

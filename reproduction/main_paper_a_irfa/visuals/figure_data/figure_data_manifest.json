@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28",
+  "purpose": "presentation-only figure inputs; no new estimands or model fitting",
+  "items": [
+    {
+      "file": "table_01_geometry_surface_long.csv",
+      "source": "paper1_artifacts/tables/table_01_geometry_surface_long.csv",
+      "source_sha256": "412291d8a727fb5e4220872eea2fadc7e5067d7420e0c3c892e096d7540543e8",
+      "copy_sha256": "412291d8a727fb5e4220872eea2fadc7e5067d7420e0c3c892e096d7540543e8",
+      "identity_verified": true
+    },
+    {
+      "file": "table_02_geometry_seed_long.csv",
+      "source": "paper1_artifacts/tables/table_02_geometry_seed_long.csv",
+      "source_sha256": "88739d8ec059661be1f61227abf9083af37c1d72cea0971ac660dcf0508c192d",
+      "copy_sha256": "88739d8ec059661be1f61227abf9083af37c1d72cea0971ac660dcf0508c192d",
+      "identity_verified": true
+    },
+    {
+      "file": "table_04_data_definition_rank_agreement.csv",
+      "source": "paper1_artifacts/tables/table_04_data_definition_rank_agreement.csv",
+      "source_sha256": "182b2c417be94f8320af8a267dfe1abc89bac98d76bc6857f2ba8c73fc38b13d",
+      "copy_sha256": "182b2c417be94f8320af8a267dfe1abc89bac98d76bc6857f2ba8c73fc38b13d",
+      "identity_verified": true
+    },
+    {
+      "file": "sealed_table_01_family_inference.csv",
+      "source": "paper1_sealed_artifacts/tables/sealed_table_01_family_inference.csv",
+      "source_sha256": "f814cc58b2e307808edc280d52ac5ad53512db252779cd538b8f745427dfd13d",
+      "copy_sha256": "f814cc58b2e307808edc280d52ac5ad53512db252779cd538b8f745427dfd13d",
+      "identity_verified": true
+    },
+    {
+      "file": "sealed_table_04_development_comparison.csv",
+      "source": "paper1_sealed_artifacts/tables/sealed_table_04_development_comparison.csv",
+      "source_sha256": "d30493563846a56572797dbbf91373f4e0b756268d0a23f05f60d2a0b0c55794",
+      "copy_sha256": "d30493563846a56572797dbbf91373f4e0b756268d0a23f05f60d2a0b0c55794",
+      "identity_verified": true
+    },
+    {
+      "file": "identification_condition_summary.csv",
+      "source": "experiments/P1-G3-V001/outputs/P1-G3-V001-R001/condition_summary.csv",
+      "source_sha256": "45277a0be3e0af51096b594a2ac597b056c6f4ea98bcdba9febae7ac4166ccee",
+      "copy_sha256": "45277a0be3e0af51096b594a2ac597b056c6f4ea98bcdba9febae7ac4166ccee",
+      "identity_verified": true
+    },
+    {
+      "file": "identification_hypothesis_summary.csv",
+      "source": "experiments/P1-G3-V001/outputs/P1-G3-V001-R001/hypothesis_summary.csv",
+      "source_sha256": "24ee22b2cf2f57c998f7519bb0c0f76d4ba028fc6f81a0de51bd06afbb773018",
+      "copy_sha256": "24ee22b2cf2f57c998f7519bb0c0f76d4ba028fc6f81a0de51bd06afbb773018",
+      "identity_verified": true
+    },
+    {
+      "file": "identification_table_02_mechanism_aggregates.csv",
+      "source": "paper1_identification_artifacts/tables/identification_table_02_mechanism_aggregates.csv",
+      "source_sha256": "db5298b290ff1d0f231fe4195cb2cc28c3200f77a76294fd03ec790da116fa6b",
+      "copy_sha256": "db5298b290ff1d0f231fe4195cb2cc28c3200f77a76294fd03ec790da116fa6b",
+      "identity_verified": true
+    },
+    {
+      "file": "identification_table_04_geometry_disagreement.csv",
+      "source": "paper1_identification_artifacts/tables/identification_table_04_geometry_disagreement.csv",
+      "source_sha256": "183dd889c56cbacf3e576d13ae79733056c02a6df7ab95c434392f497ec04aa2",
+      "copy_sha256": "183dd889c56cbacf3e576d13ae79733056c02a6df7ab95c434392f497ec04aa2",
+      "identity_verified": true
+    },
+    {
+      "file": "p7_canonical_return_summary.json",
+      "source": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001/canonical_return_summary.json",
+      "source_sha256": "1d2e36373148f03c78634e4bdbf45aea75927640070398ec3a05ad0a77c66e47",
+      "copy_sha256": "1d2e36373148f03c78634e4bdbf45aea75927640070398ec3a05ad0a77c66e47",
+      "identity_verified": true
+    },
+    {
+      "file": "p7_model_evidence_matrix.csv",
+      "derived_from": [
+        {
+          "path": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001/monthly_geometry.csv",
+          "sha256": "a1f6a61a281613aaca2f43515cfcc099ff20d91e0ad44c70636bd122d778c58b"
+        },
+        {
+          "path": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001/layer_cka.csv",
+          "sha256": "bb4447f6a4573ea4d4c11a272b109826473880f4451afc6eb04f295f7212495e"
+        },
+        {
+          "path": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001/subspace_drift.csv",
+          "sha256": "0a17fd40a2606ca83a596f96d0cd7be4a4072c9f231ffc86a173d170c23da684"
+        },
+        {
+          "path": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001/model_geometry_endpoints.csv",
+          "sha256": "cf4a0434ece207f7b97cf5da8ec7e818f4f1fd5217274e056430a56b84468448"
+        }
+      ],
+      "derivation": "model-level medians by factor_count and seed; raw-centered participation rank, layer-pair CKA, hidden-3 raw-centered drift, and frozen pricing endpoints",
+      "copy_sha256": "48c184694f9d93ef62bce77ce8af64035fe7dd7c8d8cf0984790932f4b77ef98",
+      "identity_verified": false
+    },
+    {
+      "file": "p7_geometry_distribution.csv",
+      "derived_from": [
+        {
+          "path": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001/monthly_geometry.csv",
+          "sha256": "a1f6a61a281613aaca2f43515cfcc099ff20d91e0ad44c70636bd122d778c58b"
+        },
+        {
+          "path": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001/subspace_drift.csv",
+          "sha256": "0a17fd40a2606ca83a596f96d0cd7be4a4072c9f231ffc86a173d170c23da684"
+        }
+      ],
+      "derivation": "selected participation-rank fields from every frozen model-month-layer-normalization cell and left-joined matching rank-5 subspace drift",
+      "copy_sha256": "82dc2466a8ad9a8fbd01911125a14d0047b0e99233070037180c8dd6c1a4624c",
+      "identity_verified": false
+    },
+    {
+      "file": "temporal_decomposition.csv",
+      "copy_sha256": "896c778ebe4b8e4b9712aaab169794c1b446fc966f99db0c31c1ee064d58bc63",
+      "derivation": "Automatic extraction by audit/rebuild_temporal_exhibit_data.py from archived aggregate JSON reports",
+      "source_reports": [
+        {
+          "path": "audit/source_evidence/temporal/P3-NN-F001_report.json",
+          "sha256": "32984e95872d0116c2f5fdb8a0fa72b6d5061e20c073c43f9b1abb079e624f56"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-NN-I001_report.json",
+          "sha256": "23ee4045ed1077cdf340a9500599a9c9a87ab8f254183e4a4494c4f6fb0b0292"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-STOCK-V001_report.json",
+          "sha256": "5dff599501f451fc72000486cdfed032b45aed56ed7b6305d3ea15e156fa37a4"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-BREAK001_report.json",
+          "sha256": "0f2b3638c8a196e666cbe7846e5869e9aa898d2ed2c1c4d1e700815b91d74147"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-M002_report.json",
+          "sha256": "475c96b2e637666926f3f934bb736885a641f2e9d8401c3b7797e9828a77c948"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-MR001_report.json",
+          "sha256": "21e598acb4d24e2851ebb04920f199376c863b543b75f4f5b2ca2eeb00bf5f70"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-PORT001_report.json",
+          "sha256": "c02140a7b305be8aea7b9b9a8ae33d37410541e54300afc93247b43f798f33ba"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-SEQ001_report.json",
+          "sha256": "0dee7084691b163d110c34504dd5ec8df1c7c2d95f8af472ece8f6b921cc42bd"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-TREE-FULL_report.json",
+          "sha256": "91be5fa8bde432bfed131cd0fd0783dc8f5ed8d7c2b6c1c58e1404c0c1bc818a"
+        }
+      ]
+    },
+    {
+      "file": "temporal_portfolio.csv",
+      "copy_sha256": "2c90f3f249e6265f09cc1dad3961b915c3c038884983f0862bd9a0cf4e5c0b50",
+      "derivation": "Automatic extraction by audit/rebuild_temporal_exhibit_data.py from archived aggregate JSON reports",
+      "source_reports": [
+        {
+          "path": "audit/source_evidence/temporal/P3-NN-F001_report.json",
+          "sha256": "32984e95872d0116c2f5fdb8a0fa72b6d5061e20c073c43f9b1abb079e624f56"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-NN-I001_report.json",
+          "sha256": "23ee4045ed1077cdf340a9500599a9c9a87ab8f254183e4a4494c4f6fb0b0292"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-STOCK-V001_report.json",
+          "sha256": "5dff599501f451fc72000486cdfed032b45aed56ed7b6305d3ea15e156fa37a4"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-BREAK001_report.json",
+          "sha256": "0f2b3638c8a196e666cbe7846e5869e9aa898d2ed2c1c4d1e700815b91d74147"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-M002_report.json",
+          "sha256": "475c96b2e637666926f3f934bb736885a641f2e9d8401c3b7797e9828a77c948"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-MR001_report.json",
+          "sha256": "21e598acb4d24e2851ebb04920f199376c863b543b75f4f5b2ca2eeb00bf5f70"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-PORT001_report.json",
+          "sha256": "c02140a7b305be8aea7b9b9a8ae33d37410541e54300afc93247b43f798f33ba"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-SEQ001_report.json",
+          "sha256": "0dee7084691b163d110c34504dd5ec8df1c7c2d95f8af472ece8f6b921cc42bd"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-TREE-FULL_report.json",
+          "sha256": "91be5fa8bde432bfed131cd0fd0783dc8f5ed8d7c2b6c1c58e1404c0c1bc818a"
+        }
+      ]
+    },
+    {
+      "file": "temporal_events.csv",
+      "copy_sha256": "7c3d95170dd659b4c628040f2368f09e2a4e663b3b0a8b85f2fcb85f2cb8a71b",
+      "derivation": "Automatic extraction by audit/rebuild_temporal_exhibit_data.py from archived aggregate JSON reports",
+      "source_reports": [
+        {
+          "path": "audit/source_evidence/temporal/P3-NN-F001_report.json",
+          "sha256": "32984e95872d0116c2f5fdb8a0fa72b6d5061e20c073c43f9b1abb079e624f56"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-NN-I001_report.json",
+          "sha256": "23ee4045ed1077cdf340a9500599a9c9a87ab8f254183e4a4494c4f6fb0b0292"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-STOCK-V001_report.json",
+          "sha256": "5dff599501f451fc72000486cdfed032b45aed56ed7b6305d3ea15e156fa37a4"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-BREAK001_report.json",
+          "sha256": "0f2b3638c8a196e666cbe7846e5869e9aa898d2ed2c1c4d1e700815b91d74147"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-M002_report.json",
+          "sha256": "475c96b2e637666926f3f934bb736885a641f2e9d8401c3b7797e9828a77c948"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-MR001_report.json",
+          "sha256": "21e598acb4d24e2851ebb04920f199376c863b543b75f4f5b2ca2eeb00bf5f70"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-PORT001_report.json",
+          "sha256": "c02140a7b305be8aea7b9b9a8ae33d37410541e54300afc93247b43f798f33ba"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-SEQ001_report.json",
+          "sha256": "0dee7084691b163d110c34504dd5ec8df1c7c2d95f8af472ece8f6b921cc42bd"
+        },
+        {
+          "path": "audit/source_evidence/temporal/P3-TOP-TREE-FULL_report.json",
+          "sha256": "91be5fa8bde432bfed131cd0fd0783dc8f5ed8d7c2b6c1c58e1404c0c1bc818a"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-09-30"
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V022",
+  "parent_experiment_id": "P1-G1-V021",
+  "paper": 1,
+  "generation": "G1",
+  "status": "preregistered",
+  "evidence_class": "production_core86_fixed_replication",
+  "research_question": "Do the metric-dependent dimension ranking and market-direction mechanism survive replacement of the legacy public Core-92 input by the fully lineage-audited Core-86 production input?",
+  "model_input_experiment_id": "P1-G0-V029",
+  "model_input_sha256": "e5efd1de4243be1a9dc24ef0d5f20fd6413fafe50b6a18ed1b7b74139e484a37",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "pricing_target_snapshot_id": "ken-french-public-assets-2026-07-v1",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "target_month_splits": {
+    "train": ["1963-08", "1999-12"],
+    "validation": ["2000-01", "2009-12"],
+    "development": ["2010-01", "2019-12"]
+  },
+  "feature_month_splits": {
+    "train": ["1963-07", "1999-11"],
+    "validation": ["1999-12", "2009-11"],
+    "development": ["2009-12", "2019-11"]
+  },
+  "fixed_model_family": {
+    "factor_counts": [1, 2, 3, 4, 5, 8],
+    "seeds": [20260924, 20260925, 20260926, 20260927, 20260928],
+    "hidden_layers": [128, 64, 32],
+    "epochs": 80,
+    "patience": 12,
+    "month_batch_size": 120,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.00001,
+    "hj_penalty": 3.0,
+    "span_sharpe_reward": 0.25,
+    "diversity_penalty": 0.05,
+    "concentration_penalty": 0.001,
+    "pricing_ridge_multiplier": 0.0001
+  },
+  "frozen_assets_and_metrics": "Use exactly the 25 size-book-to-market, 49 industry, combined 74, and V021 six external families; use exactly the V015-V021 geometry, moment, alpha, market-hedge, and K=1 plus Mkt-RF estimands.",
+  "primary_rules": {
+    "geometry": "The combined 74 portfolios select different five-seed-mean best K at gamma 0 and gamma 1, and the 12-month block-bootstrap 95% interval for A=[D_K1(0)-D_K5(0)]-[D_K1(1)-D_K5(1)] lies above zero.",
+    "external_transfer": "At least four of the six frozen external families select different best K at the two endpoints.",
+    "market_mechanism": "Validation-frozen market-beta hedging reduces abs(A) for the combined 74 point estimate and in at least four of six external families.",
+    "economic_completion": "K=1 plus Mkt-RF lowers both raw Euler moments and mean absolute alpha relative to K=1 in at least four of six external families."
+  },
+  "inference": {
+    "bootstrap_draws": 500,
+    "circular_block_months": 12,
+    "bootstrap_seed": 20260924
+  },
+  "stopping_rule": "This is a fixed data-lineage replication, not architecture search. Regardless of outcome, do not change features, dimensions, seeds, assets, metrics, hyperparameters, or reopen teacher selection. A failure narrows the claim and both legacy Core-92 and production Core-86 results must be reported.",
+  "remote_node": "campus-vm",
+  "cuda_devices": [0, 1]
+}

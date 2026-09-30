@@ -1,0 +1,31 @@
+\section{Discussion and conclusion}
+
+\subsection{Interpretation of the evidence}
+
+Within the tested model family, hidden activations concentrate across layers, but the preferred pricing dimension depends on the assets, weighting, seed, archived data pipeline, and period. These observations concern different objects. Effective rank measures the distribution of activation variance. Pricing loss measures errors for a specified payoff span. Selecting a small output width under one loss therefore does not establish that the hidden representation has that dimension, or that the economy contains that number of priced shocks.
+
+The market-direction diagnostics offer a limited economic interpretation. Removing a validation-estimated market component reduces the geometry contrast in the later period in point estimates, while adding the market factor does not jointly improve raw moments and alphas. This is consistent with a distinction between dominant common variation and relative-pricing errors. The wide attenuation intervals and pipeline sensitivity prevent a precise attribution of compression losses to market risk. We do not estimate the causal contributions of state complexity, risk exposures, and risk prices.
+
+The known-loading example explains why larger samples need not make the raw validation minimum select the smallest correct span. Redundant directions can exploit evaluation-mean noise even when the population mean is already spanned. It does not establish that this mechanism accounts for all empirical switches. Non-nested fitted networks, optimization error, regularization, and measurement changes can also alter rankings.
+
+\subsection{Reporting and practical implications}
+
+A dimension claim is easier to assess when researchers report all candidate losses, algorithmic dispersion, and a stated tolerance for practically equivalent performance. A penalized or tolerance-based selector needs its own justification and validation. The acceptable-set formulation in Section~4 is a reporting proposal; the present study does not estimate its coverage or demonstrate that it outperforms existing selection procedures.
+
+Asset choice and weighting should accompany the reported dimension. Equal-moment loss, regression alpha, and a regularized HJ-type norm emphasize different features of pricing errors. Data provenance is equally relevant. The Core-92/Core-86 contrast shows sensitivity between two archived pipelines, but does not isolate the information content of six deleted characteristics. Exact source vintages, timing conventions, and missingness treatment are needed to interpret such a comparison.
+
+For model monitoring, retrospective deterioration is a reason to investigate a specification, not evidence that immediate retraining will improve it. The update-loss identity separates the size of a forecast change from its alignment with subsequent errors. In the tested replay, favorable later-period alignment did not translate into a successful real-time switching criterion or a statistically significant primary incremental portfolio gain. This evidence concerns the specified learners, detector, costs, and sample; it does not rule out useful updating policies elsewhere.
+
+\subsection{Limitations}
+
+The empirical pricing family is a diagnostic family that did not pass earlier benchmark-advancement criteria. It is not a representative sample of all successful machine-learning asset-pricing models. The results concern U.S. equities and conventional numerical characteristics; other markets, payoff spans, objectives, and architectures may behave differently.
+
+Chronology limits the strength of the confirmation claim. Core-86 used a target-month cutoff before 2020 and fixed models for the later evaluation, but legacy development had already included January 2020. Moreover, the temporal switching design followed inspection of the broader development history. Its lag-respecting replay is internal evidence, not independent prospective validation. The temporal panel also conditions on future-validation eligibility and complete state histories, and uses historically selected preprocessing and neural hyperparameters. Its trading results cannot be interpreted as a fully ex-ante investable-universe backtest. These limitations are disclosed rather than repaired by relabeling observed periods as fresh holdouts.
+
+The characteristic bridge uses benchmark values where available and reconstructed values otherwise. It is not an independent point-in-time reconstruction of the historical information set. Current-vintage accounting revisions, coverage differences, and the legacy timing shift can contribute to measured instability. Licensed raw records cannot be included in the public package; aggregate exhibit replay and full reconstruction with licensed source vintages are separate reproducibility tasks.
+
+Geometry is measured at a finite cross-sectional sample and neighborhood scale. A tangent-angle diagnostic is not an estimate of a unique smooth pricing manifold, and zero numerical collapse does not test the supervised neural-collapse phenomenon studied in classification. The functional probe has 30 models and five seed folds, so a failed threshold does not prove zero economic information in every geometric statistic. The study also leaves causal attribution to state, exposure, and risk-price changes unresolved.
+
+\subsection{Conclusion}
+
+Low-dimensional descriptions and economic dimension claims require different evidence. Our pricing networks exhibit concentrated activations, while their preferred output dimensions change across evaluation designs. A known-loading simulation demonstrates persistent over-selection from noisy validation, and the separate updating exercise finds no significant primary incremental after-cost gain under the tested rule. The resulting conclusion is conditional: report compactness as a property of the fitted representation, and report pricing dimension with its asset span, loss, uncertainty, data construction, and chronology. These diagnostics delimit the structural interpretation supported by the present evidence.

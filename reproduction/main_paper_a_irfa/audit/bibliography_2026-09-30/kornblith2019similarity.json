@@ -1,0 +1,17 @@
+{
+  "key": "kornblith2019similarity",
+  "submitted": {
+    "key": "kornblith2019similarity",
+    "type": "inproceedings",
+    "fields": {
+      "author": "Kornblith, Simon and Norouzi, Mohammad and Lee, Honglak and Hinton, Geoffrey",
+      "title": "Similarity of Neural Network Representations Revisited",
+      "booktitle": "Proceedings of the 36th International Conference on Machine Learning",
+      "year": "2019",
+      "volume": "97",
+      "pages": "3519--3529",
+      "url": "https://proceedings.mlr.press/v97/kornblith19a.html"
+    }
+  },
+  "status": "needs_primary_lookup"
+}

@@ -1,0 +1,780 @@
+{
+  "key": "muller2025interacting",
+  "submitted": {
+    "key": "muller2025interacting",
+    "type": "article",
+    "fields": {
+      "author": "M{\\\"u}ller, Karsten and Schmickler, Simon N. M.",
+      "title": "Interacting Anomalies",
+      "journal": "The Review of Asset Pricing Studies",
+      "year": "2025",
+      "volume": "15",
+      "number": "2",
+      "pages": "162--216",
+      "doi": "10.1093/rapstu/raaf001"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1093/rapstu/raaf001",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            22
+          ]
+        ],
+        "date-time": "2026-03-22T07:55:07Z",
+        "timestamp": 1774166107827,
+        "version": "3.50.1"
+      },
+      "reference-count": 52,
+      "publisher": "Oxford University Press (OUP)",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                25
+              ]
+            ],
+            "date-time": "2025-01-25T00:00:00Z",
+            "timestamp": 1737763200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>An extensive literature studies interactions of stock market anomalies using double-sorted portfolios. But given hundreds of known candidate anomalies, examining selected interactions is subject to a data mining critique. In this paper, we conduct a comprehensive analysis of all possible double-sorted portfolios constructed from 102 underlying anomalies. We find hundreds of statistically significant anomaly interactions, even after accounting for multiple hypothesis testing. An out-of-sample trading strategy that invests in the top backward-looking double-sort strategy generates equal-weighted (value-weighted) monthly average returns of 4% (2.7%) at an annualized Sharpe ratio of 2 (1.38), on par with state-of-the-art anomaly-based machine learning strategies.</jats:p>",
+      "DOI": "10.1093/rapstu/raaf001",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            7
+          ]
+        ],
+        "date-time": "2025-01-07T15:18:24Z",
+        "timestamp": 1736263104000
+      },
+      "page": "162-216",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Interacting Anomalies"
+      ],
+      "prefix": "10.1093",
+      "volume": "15",
+      "author": [
+        {
+          "given": "Karsten",
+          "family": "Müller",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "National University of Singapore , Singapore. "
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Simon N M",
+          "family": "Schmickler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Simon Schmickler is at Jane Street Capital ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "286",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            25
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "2026032203365950700_raaf001-B1",
+          "author": "Abadi",
+          "year": "2015"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1099",
+          "DOI": "10.1111/jofi.12149",
+          "article-title": "Connected stocks",
+          "volume": "69",
+          "author": "Anton",
+          "year": "2014",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B3",
+          "doi-asserted-by": "crossref",
+          "first-page": "479",
+          "DOI": "10.1016/j.jfineco.2018.05.006",
+          "article-title": "Size matters if you control your junk",
+          "volume": "129",
+          "author": "Asness",
+          "year": "2018",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B4",
+          "doi-asserted-by": "crossref",
+          "first-page": "929",
+          "DOI": "10.1111/jofi.12021",
+          "article-title": "Value and momentum everywhere",
+          "volume": "68",
+          "author": "Asness",
+          "year": "2013",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B5",
+          "doi-asserted-by": "crossref",
+          "first-page": "29",
+          "DOI": "10.2469/faj.v53.n2.2069",
+          "article-title": "The interaction of value and momentum strategies",
+          "volume": "53",
+          "author": "Asness",
+          "year": "1997",
+          "journal-title": "Financial Analysts Journal"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B6",
+          "doi-asserted-by": "crossref",
+          "first-page": "2587",
+          "DOI": "10.1287/mnsc.2022.4449",
+          "article-title": "Machine learning vs. economic restrictions: Evidence from stock return predictability",
+          "volume": "69",
+          "author": "Avramov",
+          "year": "2023",
+          "journal-title": "Management Science"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B7",
+          "doi-asserted-by": "crossref",
+          "first-page": "2365",
+          "DOI": "10.1111/j.1540-6261.2006.01060.x",
+          "article-title": "Liquidity and autocorrelations in individual stock returns",
+          "volume": "61",
+          "author": "Avramov",
+          "year": "2006",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B8",
+          "doi-asserted-by": "crossref",
+          "first-page": "2503",
+          "DOI": "10.1111/j.1540-6261.2007.01282.x",
+          "article-title": "Momentum and credit rating",
+          "volume": "62",
+          "author": "Avramov",
+          "year": "2007",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B9",
+          "doi-asserted-by": "crossref",
+          "first-page": "129",
+          "DOI": "10.1257/jep.21.2.129",
+          "article-title": "Investor sentiment in the stock market",
+          "volume": "21",
+          "author": "Baker",
+          "year": "2007",
+          "journal-title": "Journal of Economic Perspectives"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B10",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.1023/B:REQU.0000049321.34133.95",
+          "article-title": "Risk, mispricing, and value investing",
+          "volume": "23",
+          "author": "Bartov",
+          "year": "2004",
+          "journal-title": "Review of Quantitative Finance and Accounting"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B11",
+          "first-page": "70",
+          "article-title": "Can contrarian strategies improve momentum profits?",
+          "volume": "4",
+          "author": "Chan",
+          "year": "2006",
+          "journal-title": "Journal of Investment Management"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B12",
+          "author": "Cho",
+          "year": "2019"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B13",
+          "doi-asserted-by": "crossref",
+          "first-page": "2134",
+          "DOI": "10.1093/rfs/hhaa018",
+          "article-title": "Anomalies and false rejections",
+          "volume": "33",
+          "author": "Chordia",
+          "year": "2020",
+          "journal-title": "The Review of Financial Studies"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1047",
+          "DOI": "10.1111/j.1540-6261.2011.01671.x",
+          "article-title": "Presidential address: Discount rates",
+          "volume": "66",
+          "author": "Cochrane",
+          "year": "2011",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B15",
+          "doi-asserted-by": "crossref",
+          "first-page": "221",
+          "DOI": "10.1016/j.jfineco.2015.12.002",
+          "article-title": "Momentum crashes",
+          "volume": "122",
+          "author": "Daniel",
+          "year": "2016",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B16",
+          "doi-asserted-by": "crossref",
+          "first-page": "28",
+          "DOI": "10.2469/faj.v55.n6.2312",
+          "article-title": "Market efficiency in an irrational world",
+          "volume": "55",
+          "author": "Daniel",
+          "year": "1999",
+          "journal-title": "Financial Analysts Journal"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B17",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/0304-405X(93)90023-5",
+          "article-title": "Common risk-factors in the returns of stocks and bonds",
+          "volume": "33",
+          "author": "Fama",
+          "year": "1993",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1653",
+          "DOI": "10.1111/j.1540-6261.2008.01371.x",
+          "article-title": "Dissecting anomalies",
+          "volume": "63",
+          "author": "Fama",
+          "year": "2008",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B19",
+          "doi-asserted-by": "crossref",
+          "first-page": "457",
+          "DOI": "10.1016/j.jfineco.2012.05.011",
+          "article-title": "Size, value, and momentum in international stock returns",
+          "volume": "105",
+          "author": "Fama",
+          "year": "2012",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B20",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.jfineco.2014.10.010",
+          "article-title": "A five-factor asset pricing model",
+          "volume": "116",
+          "author": "Fama",
+          "year": "2015",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B21",
+          "doi-asserted-by": "crossref",
+          "first-page": "234",
+          "DOI": "10.1016/j.jfineco.2018.02.012",
+          "article-title": "Choosing factors",
+          "volume": "128",
+          "author": "Fama",
+          "year": "2018",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B22",
+          "article-title": "One anomaly to explain them all",
+          "author": "Favilukis",
+          "year": "2019",
+          "journal-title": "Unpublished Working Paper"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B23",
+          "author": "Frazzini",
+          "year": "2018"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B24",
+          "first-page": "1129",
+          "article-title": "Graph drawing by force-directed placement",
+          "volume": "21",
+          "author": "Fruchterman",
+          "year": "1991",
+          "journal-title": "Software: Practice and Experience"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B25",
+          "doi-asserted-by": "crossref",
+          "first-page": "2145",
+          "DOI": "10.1111/j.1540-6261.2004.00695.x",
+          "article-title": "The 52-week high and momentum investing",
+          "volume": "59",
+          "author": "George",
+          "year": "2004",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B26",
+          "doi-asserted-by": "crossref",
+          "first-page": "4389",
+          "DOI": "10.1093/rfs/hhx019",
+          "article-title": "The characteristics that provide independent information about average u.s. monthly stock returns",
+          "volume": "30",
+          "author": "Green",
+          "year": "2017",
+          "journal-title": "The Review of Financial Studies"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B27",
+          "doi-asserted-by": "crossref",
+          "first-page": "2223",
+          "DOI": "10.1093/rfs/hhaa009",
+          "article-title": "Empirical asset pricing via machine learning",
+          "volume": "33",
+          "author": "Gu",
+          "year": "2020",
+          "journal-title": "The Review of Financial Studies"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B28",
+          "doi-asserted-by": "crossref",
+          "first-page": "550",
+          "DOI": "10.1111/j.1468-5957.2006.00610.x",
+          "article-title": "Explaining the short- and long-term ipo anomalies in the us by rd",
+          "volume": "33",
+          "author": "Guo",
+          "year": "2006",
+          "journal-title": "Journal of Business Finance & Accounting"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B29",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1093/rfs/hhv059",
+          "article-title": "… and the cross-section of expected returns",
+          "volume": "29",
+          "author": "Harvey",
+          "year": "2015",
+          "journal-title": "The Review of Financial Studies"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B30",
+          "doi-asserted-by": "crossref",
+          "first-page": "265",
+          "DOI": "10.1111/0022-1082.00206",
+          "article-title": "Bad news travels slowly: Size, analyst coverage, and the profitability of momentum strategies",
+          "volume": "55",
+          "author": "Hong",
+          "year": "2000",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B31",
+          "article-title": "A tale of two anomalies: The implications of investor attention for price and earnings momentum",
+          "author": "Hou",
+          "year": "2009",
+          "journal-title": "Unpublished Working Paper"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B32",
+          "author": "Ioffe",
+          "year": "2015"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B33",
+          "doi-asserted-by": "crossref",
+          "first-page": "881",
+          "DOI": "10.1111/j.1540-6261.1990.tb05110.x",
+          "article-title": "Evidence of predictable behavior of security returns",
+          "volume": "45",
+          "author": "Jegadeesh",
+          "year": "1990",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B34",
+          "doi-asserted-by": "crossref",
+          "first-page": "185",
+          "DOI": "10.1007/s11142-005-1528-2",
+          "article-title": "Information uncertainty and expected returns",
+          "volume": "10",
+          "author": "Jiang",
+          "year": "2005",
+          "journal-title": "Review of Accounting Studies"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1541",
+          "DOI": "10.1111/j.1540-6261.1994.tb04772.x",
+          "article-title": "Contrarian investment, extrapolation, and risk",
+          "volume": "49",
+          "author": "Lakonishok",
+          "year": "1994",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B36",
+          "author": "Lambert",
+          "year": "2016"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B37",
+          "doi-asserted-by": "crossref",
+          "first-page": "2017",
+          "DOI": "10.1111/0022-1082.00280",
+          "article-title": "Price momentum and trading volume",
+          "volume": "55",
+          "author": "Lee",
+          "year": "2000",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B38",
+          "author": "Lewellen",
+          "year": "2000"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B39",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.2307/1924119",
+          "article-title": "The valuation of risk assets and the selection of risky investments in stock portfolios and capital budgets",
+          "volume": "47",
+          "author": "Lintner",
+          "year": "1965",
+          "journal-title": "The Review of Economics and Statistics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B40",
+          "author": "Lou",
+          "year": "2020"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B41",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1111/jofi.12365",
+          "article-title": "Does academic research destroy stock return predictability?",
+          "volume": "71",
+          "author": "McLean",
+          "year": "2016",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.jfineco.2013.01.003",
+          "article-title": "The other side of value: The gross profitability premium",
+          "volume": "108",
+          "author": "Novy-Marx",
+          "year": "2013",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B43",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.2469/faj.v64.n5.6",
+          "article-title": "The accruals anomaly and company size",
+          "volume": "64",
+          "author": "Palmon",
+          "year": "2008",
+          "journal-title": "Financial Analysts Journal"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1135",
+          "DOI": "10.2307/2946710",
+          "article-title": "Costly arbitrage: Evidence from closed-end funds",
+          "volume": "111",
+          "author": "Pontiff",
+          "year": "1996",
+          "journal-title": "The Quarterly Journal of Economics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B45",
+          "first-page": "3",
+          "article-title": "The long-run performance of initial public offerings",
+          "volume": "46",
+          "author": "Ritter",
+          "year": "1991",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B46",
+          "doi-asserted-by": "crossref",
+          "first-page": "309",
+          "DOI": "10.1016/j.jfineco.2005.04.005",
+          "article-title": "Momentum and post-earnings-announcement drift anomalies: The role of liquidity risk",
+          "volume": "80",
+          "author": "Sadka",
+          "year": "2006",
+          "journal-title": "Journal of Financial Economics"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B47",
+          "first-page": "425",
+          "article-title": "Capital asset prices: A theory of market equilibrium under conditions of risk",
+          "volume": "19",
+          "author": "Sharpe",
+          "year": "1964",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B48",
+          "first-page": "1929",
+          "article-title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+          "volume": "15",
+          "author": "Srivastava",
+          "year": "2014",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1903",
+          "DOI": "10.1111/jofi.12286",
+          "article-title": "Arbitrage Asymmetry and the Idiosyncratic Volatility Puzzle",
+          "volume": "70",
+          "author": "Stambaugh",
+          "year": "2015",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1382",
+          "DOI": "10.1093/rfs/hhx001",
+          "article-title": "Fundamental analysis and the cross-section of stock returns: A data-mining approach",
+          "volume": "30",
+          "author": "Yan",
+          "year": "2017",
+          "journal-title": "The Review of Financial Studies"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B51",
+          "doi-asserted-by": "crossref",
+          "first-page": "105",
+          "DOI": "10.1111/j.1540-6261.2006.00831.x",
+          "article-title": "Information uncertainty and stock returns",
+          "volume": "61",
+          "author": "Zhang",
+          "year": "2006",
+          "journal-title": "The Journal of Finance"
+        },
+        {
+          "key": "2026032203365950700_raaf001-B52",
+          "doi-asserted-by": "crossref",
+          "first-page": "96",
+          "DOI": "10.3905/jpm.2016.42.4.096",
+          "article-title": "The interaction of short-term reversal and momentum strategies",
+          "volume": "42",
+          "author": "Zhu",
+          "year": "2016",
+          "journal-title": "The Journal of Portfolio Management"
+        }
+      ],
+      "container-title": [
+        "The Review of Asset Pricing Studies"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://academic.oup.com/raps/advance-article-pdf/doi/10.1093/rapstu/raaf001/61625137/raaf001.pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://academic.oup.com/raps/article-pdf/15/2/162/61625137/raaf001.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://academic.oup.com/raps/article-pdf/15/2/162/61625137/raaf001.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            22
+          ]
+        ],
+        "date-time": "2026-03-22T07:37:09Z",
+        "timestamp": 1774165029000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://academic.oup.com/raps/article/15/2/162/7979163"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "given": "Jeffrey",
+          "family": "Pontiff",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "editor",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            25
+          ]
+        ]
+      },
+      "references-count": 52,
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              25
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1093/rapstu/raaf001",
+      "relation": {},
+      "ISSN": [
+        "2045-9920",
+        "2045-9939"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-9920",
+          "type": "print"
+        },
+        {
+          "value": "2045-9939",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published-other": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            25
+          ]
+        ]
+      }
+    }
+  }
+}

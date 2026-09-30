@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V018",
+  "parent_experiment_id": "P1-G1-V017",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "market_factor_completion",
+  "research_question": "Can one learned factor plus the observable market factor match or exceed the five-learned-factor span across pricing geometries on the original 74 assets?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "pricing_target_snapshot_id": "ken-french-public-74-pricing-targets-2026-07-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "parent_run_ids": [
+    "P1-G1-V015-R001",
+    "P1-G1-V017-R001"
+  ],
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "models": [
+    "Mkt-RF only",
+    "V015 K=1",
+    "V015 K=1 plus Mkt-RF",
+    "V015 K=5"
+  ],
+  "seeds": [
+    20260924,
+    20260925,
+    20260926,
+    20260927,
+    20260928
+  ],
+  "loading_case": "For every model, estimate strict factor self-pricing loadings in 2000-2009 and freeze them for 2010-2019.",
+  "geometry_grid": {
+    "start": 0.0,
+    "stop": 1.0,
+    "step": 0.05
+  },
+  "primary_contrast": "Paired K=1 plus Mkt-RF minus K=5 squared distance on the original combined 74 assets.",
+  "secondary_metrics": [
+    "mean absolute Euler moment",
+    "mean absolute regression alpha",
+    "factor self-pricing moments",
+    "seed-level geometry crossings"
+  ],
+  "interpretation_rule": "Market completion is supported if K=1 plus Mkt-RF closes at least 75% of the original K=1 versus K=5 gamma-zero squared-distance gap, has nonpositive seed-mean gaps at both gamma endpoints, and has a nonpositive gamma-zero gap in at least four of five paired seeds. No result promotes the teacher because alpha and prior stability gates remain binding.",
+  "boundary": "This fixed-factor diagnostic cannot retrain models, select a dimension, alter V015-V017 or access the sealed period.",
+  "entrypoint": "scripts/audit_market_factor_completion.py"
+}

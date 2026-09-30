@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V010",
+  "parent_experiment_id": "P1-G1-V009",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "diagnostic_development",
+  "research_question": "Did the multi-factor compression fail mainly because the learned return span, the asset-exposure subspace, or the fitted price-of-risk vector changed across time?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "pricing_target_snapshot_id": "ken-french-public-74-pricing-targets-2026-07-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "parent_factor_run": "P1-G1-V008-R001",
+  "models": ["K=1", "K=3", "K=5", "FF5 plus momentum"],
+  "windows": ["2000-2004", "2005-2009", "2010-2014", "2015-2019"],
+  "diagnostics": ["oracle versus transferred HJ", "alpha shift", "asset-beta principal angles", "SDF-loading alignment", "tangency alignment", "factor-covariance drift"],
+  "descriptive_screen": {
+    "span_instability": "development alpha at least twice validation alpha",
+    "risk_price_instability": "development oracle refit recovers at least five percent of transferred HJ",
+    "exposure_subspace_instability": "normalized projection distance at least 0.25"
+  },
+  "boundary": "This is a fixed-model failure audit for paper one. It does not select a new architecture and does not claim the general complexity-location decomposition reserved for paper two.",
+  "entrypoint": "scripts/diagnose_factor_span_stability.py",
+  "remote_node": "campus-vm"
+}

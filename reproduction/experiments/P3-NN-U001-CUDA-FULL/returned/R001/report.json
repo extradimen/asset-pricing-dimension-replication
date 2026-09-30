@@ -1,0 +1,196 @@
+{
+  "scope": "Full registered CUDA execution of the pre-specified historical-only monthly rolling60 and expanding neural updates for all 239 evaluation months. Hyperparameters, five seeds, ten epochs, frozen parent, and environment labels remain unchanged. Results remain exploratory under the inherited hyperparameter-selection and sample limitations; no structural claim follows from this run alone.",
+  "evaluation": {
+    "months": 239,
+    "stock_months": 1043511,
+    "loss": {
+      "frozen": 0.03431341968562217,
+      "rolling60": 0.034451229912702774,
+      "expanding": 0.034761553327515834,
+      "zero": 0.03440314077168921
+    },
+    "r2_against_zero": {
+      "frozen": 0.0026079329983986765,
+      "rolling60": -0.0013978125233593541,
+      "expanding": -0.010418018465382817
+    },
+    "relative_gain": {
+      "rolling60": -0.004016219553259827,
+      "expanding": -0.013060011097682614
+    }
+  },
+  "parity": [
+    {
+      "month": 200002,
+      "arm": "expanding",
+      "max_abs_prediction_difference": 5.960464477539063e-08,
+      "mean_abs_prediction_difference": 7.742942892679907e-09,
+      "cpu_loss": 0.18783910851810817,
+      "cuda_loss": 0.18783910921898997
+    }
+  ],
+  "by_environment": {
+    "A": {
+      "0": {
+        "months": 213,
+        "stock_months": 917315,
+        "loss": {
+          "frozen": 0.030949203770014293,
+          "rolling60": 0.030967982675962152,
+          "expanding": 0.03138891749804358,
+          "zero": 0.030952297940505316
+        },
+        "r2_against_zero": {
+          "frozen": 9.996577627191527e-05,
+          "rolling60": -0.0005067389661015387,
+          "expanding": -0.014106208152218969
+        },
+        "relative_gain": {
+          "rolling60": -0.000606765398147439,
+          "expanding": -0.014207594201674171
+        }
+      },
+      "1": {
+        "months": 26,
+        "stock_months": 126196,
+        "loss": {
+          "frozen": 0.06187411160964058,
+          "rolling60": 0.06298706304446253,
+          "expanding": 0.062391223776653994,
+          "zero": 0.06267350704254188
+        },
+        "r2_against_zero": {
+          "frozen": 0.012754917837271784,
+          "rolling60": -0.0050030071192253,
+          "expanding": 0.0045040285633971555
+        },
+        "relative_gain": {
+          "rolling60": -0.01798735215534863,
+          "expanding": -0.008357488351119147
+        }
+      }
+    },
+    "B1": {
+      "0": {
+        "months": 211,
+        "stock_months": 916396,
+        "loss": {
+          "frozen": 0.03151933995700585,
+          "rolling60": 0.03152545764663663,
+          "expanding": 0.03194798377765449,
+          "zero": 0.031505095073617984
+        },
+        "r2_against_zero": {
+          "frozen": -0.00045214538647098124,
+          "rolling60": -0.0006463263472484826,
+          "expanding": -0.014057685050675284
+        },
+        "relative_gain": {
+          "rolling60": -0.00019409320243151778,
+          "expanding": -0.013599390762412315
+        }
+      },
+      "1": {
+        "months": 28,
+        "stock_months": 127115,
+        "loss": {
+          "frozen": 0.055368806211980856,
+          "rolling60": 0.05649901377484406,
+          "expanding": 0.05596380957825675,
+          "zero": 0.05624198513929739
+        },
+        "r2_against_zero": {
+          "frozen": 0.01552539308763523,
+          "rolling60": -0.004570049135180332,
+          "expanding": 0.004946048052032026
+        },
+        "relative_gain": {
+          "rolling60": -0.020412352011639438,
+          "expanding": -0.010746183762711263
+        }
+      }
+    },
+    "B2": {
+      "0": {
+        "months": 173,
+        "stock_months": 755994,
+        "loss": {
+          "frozen": 0.02980129595631669,
+          "rolling60": 0.029755484548244098,
+          "expanding": 0.03031681606339414,
+          "zero": 0.029709538985214813
+        },
+        "r2_against_zero": {
+          "frozen": -0.0030884683585141737,
+          "rolling60": -0.0015464919550636225,
+          "expanding": -0.02044047463952725
+        },
+        "relative_gain": {
+          "rolling60": 0.0015372287211852828,
+          "expanding": -0.017298580163530766
+        }
+      },
+      "1": {
+        "months": 66,
+        "stock_months": 287517,
+        "loss": {
+          "frozen": 0.046140653097286544,
+          "rolling60": 0.04675977458014749,
+          "expanding": 0.046412152519834854,
+          "zero": 0.04670606666653877
+        },
+        "r2_against_zero": {
+          "frozen": 0.012105784314681012,
+          "rolling60": -0.0011499130079217768,
+          "expanding": 0.006292847325430784
+        },
+        "relative_gain": {
+          "rolling60": -0.013418134363107995,
+          "expanding": -0.005884169475795234
+        }
+      }
+    },
+    "C": {
+      "0": {
+        "months": 182,
+        "stock_months": 773853,
+        "loss": {
+          "frozen": 0.02815075022649933,
+          "rolling60": 0.02809107292263031,
+          "expanding": 0.028422955140357708,
+          "zero": 0.028225347892877936
+        },
+        "r2_against_zero": {
+          "frozen": 0.0026429316889812204,
+          "rolling60": 0.004757247661117625,
+          "expanding": -0.007001056221866309
+        },
+        "relative_gain": {
+          "rolling60": 0.0021199187726386546,
+          "expanding": -0.00966954385471912
+        }
+      },
+      "1": {
+        "months": 57,
+        "stock_months": 269658,
+        "loss": {
+          "frozen": 0.053990715151593344,
+          "rolling60": 0.05475909960030256,
+          "expanding": 0.05500058613563479,
+          "zero": 0.054128725051402406
+        },
+        "r2_against_zero": {
+          "frozen": 0.0025496610104525086,
+          "rolling60": -0.01164584143265035,
+          "expanding": -0.01610717938404127
+        },
+        "relative_gain": {
+          "rolling60": -0.01423178867980865,
+          "expanding": -0.01870453060690095
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 2931.9695830345154,
+  "fits": 2390
+}

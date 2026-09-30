@@ -1,0 +1,38 @@
+{
+  "experiment_id": "P3-TOP-PORT001",
+  "frozen_dir": "experiments/P3-NN-F001/outputs/R001",
+  "frozen_manifest_sha256": "d72aa3d2e27e2e402465d2ac71cb011374f054c88a7f746845c5eaaee526b336",
+  "neural_updated_dir": "experiments/P3-NN-U001-CUDA-FULL/returned/R001",
+  "neural_updated_manifest_sha256": "54d581bb537573aaeab6dd8a85f018e48a843ea5bac84cd9f38e22500301a16d",
+  "tree_dir": "experiments/P3-TOP-TREE-FULL/outputs/R001",
+  "tree_manifest_sha256": "84a413375e4736d35f1817fc3154c03c7b81c190da45ab469da27cb505d9e226",
+  "ridge_dir": "experiments/P3-STOCK-V001/outputs/R001",
+  "ridge_manifest_sha256": "f48a95593ec737bb1e95932b9212fb07d44073f3b52313967c9920d2d6149503",
+  "preprocessing": "./experiments/P2-G2-V002/P2-G2-V002-R001/preprocessing.json",
+  "preprocessing_sha256": "45f2bbdb25d3aec2448ac0dcb61fb171618b906921b967e1b36ffdde0644e299",
+  "rf_zip": "./data/raw/public/ken-french-monthly-2026-07/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+  "rf_sha256": "b8653b411cc5e28917e7ef643bb42f6d2d3703f84bc170eb6ae38d5267c65807",
+  "evaluation_start": 200002,
+  "evaluation_end": 201912,
+  "models": ["neural", "ridge", "tree"],
+  "arms": ["frozen", "rolling60", "expanding"],
+  "portfolio": {
+    "sort": "monthly top-minus-bottom prediction decile",
+    "deciles": 10,
+    "weightings": ["equal", "value"],
+    "turnover": "one-half of the absolute trade in the unit-long/unit-short signed portfolio, with each leg drifted by realized total stock returns before rebalancing",
+    "cost_bps_per_unit_turnover": [0, 10, 25, 50],
+    "primary_weighting": "value",
+    "primary_cost_bps": 25,
+    "risk_aversion_gamma": 5
+  },
+  "inference": {
+    "family": "Six primary net-return differences: rolling60-minus-frozen and expanding-minus-frozen within each of neural, ridge, and tree at value weights and 25 bps.",
+    "block_months": 12,
+    "bootstrap_replications": 9999,
+    "seed": 20261002,
+    "holm_alpha": 0.05
+  },
+  "scope": "First transaction-cost-aware economic-value audit of archived 2000-2019 stock-level predictions. No model, prediction, sort breakpoint, weighting definition, cost grid, or later-period outcome may be changed or accessed in this run.",
+  "claim_boundary": "This is an in-sample-period economic audit of already evaluated forecasts, not an untouched portfolio confirmation. It determines whether economic-value work is worth carrying into a separately locked 2020-2025 test."
+}

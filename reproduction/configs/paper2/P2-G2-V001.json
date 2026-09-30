@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P2-G2-V001",
+  "purpose": "Build the frozen common real-data input for B0, BL, BG, and BN exposure comparisons",
+  "feature_month_range": ["1963-07", "2019-11"],
+  "target_month_range": ["1963-08", "2019-12"],
+  "splits": {
+    "train_end": "1999-12",
+    "validation_end": "2009-12",
+    "development_oos_end": "2019-11"
+  },
+  "inputs": {
+    "core86": {"sha256": "e5efd1de4243be1a9dc24ef0d5f20fd6413fafe50b6a18ed1b7b74139e484a37"},
+    "daily_rolling_characteristics": {"sha256": "87bc43bf5bd78894fb94138e9dc808df5f468e8ebb9f54b56b50f408161d7074"},
+    "stock_month_moments": {"sha256": "82b00b5c499378d77668363b9ef36fdd3084b76615f35587178efff12a9e158d"},
+    "b0_exposures": {"sha256": "b70e9442808118dc9cb3a8a790f955064f0f5e098cce186d10cecd74bf21ecba"},
+    "ff5_monthly": {"sha256": "b8653b411cc5e28917e7ef643bb42f6d2d3703f84bc170eb6ae38d5267c65807"},
+    "momentum_monthly": {"sha256": "7ee14e892b0f7044902fdbc4e25cfaf175b73d4eda0ae6f4a0354a4433afe065"},
+    "ff5_daily": {"sha256": "478350b8d60831351fbf754bc593fc0112b013552c24639c10902e1f26d7f306"}
+  },
+  "company_information": "86 Core-86 cross-sectional ranks, 86 matching missing indicators, and log1p market capitalization",
+  "state_information": {
+    "factor_history": "For each of six factors, compounded 1-, 3-, and 12-month returns and 12-month monthly volatility, all ending in feature month t",
+    "market_daily": "Feature-month daily realized Mkt-RF volatility and trailing-12-month total-market maximum drawdown",
+    "cross_section": "Current-month return dispersion, positive-return breadth, equal-weight return, median three-month daily CAPM idiosyncratic volatility, and value-weighted Core-86 ranks for book-to-market, ROAQ, and asset growth"
+  },
+  "eligibility": "Require complete 12-month state history and at least 15 valid target-month daily stock returns",
+  "forbidden_columns": ["ret_fwd1"],
+  "compute_node": "campus-vm"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "ken-french-daily-2026-07-v1",
+  "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_daily_CSV.zip",
+  "retrieved_at": "2026-09-24T04:58:00+08:00",
+  "source_note": "Official file states that it was created using the 202607 CRSP database.",
+  "coverage": ["1926-07-01", "2026-07-31"],
+  "file": "data/raw/public/F-F_Research_Data_Factors_daily_CSV.zip",
+  "size_bytes": 178044,
+  "sha256": "1916d331c2c51d2aee3d00215897d2b8e5995cb387f1f4569ba46bff5fb049a8",
+  "license_note": "Public research factor download; retain source attribution and do not infer a redistribution license."
+}

@@ -1,0 +1,9 @@
+hypothesis,estimand,matched_cells,mean_difference,ci_low,ci_high,expected_direction,point_direction_pass
+H1_sample_length,exact_rate_T600_minus_T72_in_full_strong_rho0,24,0.26486111111111116,0.17754586766410713,0.3521763545581152,positive,True
+H2_weak_prices,exact_rate_strong_minus_weak,288,0.22999537037037035,0.20332714012223824,0.25666360061850246,positive,True
+H2_weak_prices,under_rate_weak_minus_strong,288,0.2537951388888889,0.22684275407599302,0.28074752370178474,positive,True
+H3_incomplete_span,exact_rate_full_minus_weak_tail,288,0.1202222222222222,0.10429971185290948,0.13614473259153492,positive,True
+H3_incomplete_span,family_divergence_weak_tail_minus_full,288,0.0742013888888889,0.052047787100757255,0.09635499067702055,positive,True
+H4_geometry,geometry_disagreement_level,288,0.20283796296296297,0.17687171854379022,0.22880420738213572,positive,True
+H4_geometry,geometry_disagreement_complex_minus_baseline,216,0.22946913580246917,0.2003254217552772,0.25861284984966115,positive,True
+H5_oracle_vs_feasible,exact_rate_oracle_minus_feasible,288,0.31604398148148144,0.2903573320743623,0.34173063088860056,nonnegative,True

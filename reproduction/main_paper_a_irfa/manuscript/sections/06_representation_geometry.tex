@@ -1,0 +1,42 @@
+\section{What does the network geometry establish?}
+
+\subsection{Layerwise concentration across normalization rules}
+
+Hidden representations become more concentrated with depth under all three normalization rules (Table~\ref{tab:geometry}). Each row describes one layer under one normalization; the columns distinguish spectral concentration, local dimension, tangent-angle diagnostics, and temporal drift. Under raw centering, median participation rank falls from 20.251 in hidden layer 1 to 14.669 in layer 2 and 9.048 in layer 3. Feature z-scoring produces 22.989, 16.538, and 10.476; row-$L_2$ normalization produces 21.168, 15.479, and 9.105. The decline is therefore not driven by a single coordinate scale.
+
+\input{tables/geometry_comparison}
+
+Independent synthetic calibration precedes the empirical estimates. The first calibration failed two of six gates because a fixed tangent-space rank could not distinguish curved from flat manifolds and the scale-artifact design did not match the z-score estimand. Those failures were retained. A corrected, frozen calibration chose local rank adaptively and aligned the scale design with the estimand; it passed plane dimensions 3 and 8, curvature, collapse, scale-artifact, and full-rank anisotropy gates. This supports use of the estimators as directional diagnostics, not as an oracle for unique intrinsic dimension.
+
+The collapse rate is zero. The final layer's leading-eigenvalue share is 0.232 and its PCA90 and PCA95 dimensions are 14 and 18. Hence the pattern is anisotropic concentration rather than a representation converging to a constant or a one-dimensional line. Z-scoring increases final-layer participation rank by 1.427, or 15.8\%, which confirms some scale influence but remains far below the frozen 50\% artifact threshold.
+
+\subsection{Concentration is not evidence of a smooth pricing manifold}
+
+The term ``manifold'' suggests more than a low effective rank. It suggests that observations lie near a smooth lower-dimensional object whose local tangent spaces vary coherently. The finite-scale tangent-angle diagnostic is insufficient to establish that interpretation. Its median declines from 1.493 to 1.437 radians rather than increasing with depth. Values near a right angle indicate that local and larger-scale tangent estimates are not tightly aligned. The representation is concentrated, but the evidence does not establish a unique smooth manifold.
+
+Adjacent-layer CKA medians are 0.875 for hidden 1 versus hidden 2 and 0.848 for hidden 2 versus hidden 3. Layers retain much of the same cross-sectional structure while reorganizing it. Rank-five monthly Grassmann drift falls from 0.987 to 0.862 and 0.670 across layers. Deeper principal subspaces are more stable over adjacent months even though they are not fixed.
+
+High-volatility months have a final-layer raw participation rank only 0.165 above other months. The small association does not identify a volatility-driven state transition. It also illustrates why a geometrically stable subspace and a stable pricing function are different claims: the subspace can move less while the output weights or realized price of risk change materially.
+
+\subsection{The prespecified economic-function gate fails}
+
+The descriptive compression does not pass the separate economic-function criterion. Figure~\ref{fig:evidence-ladder} displays the model-level prediction errors. The primary probe predicts each model's development-period HJ loss from final-layer geometry after controlling for nominal factor count. Validation leaves out one seed at a time so that a seed-specific geometry--performance relation cannot be evaluated on the same seed used to fit it. Adding geometry reduces RMSE from 0.106 to 0.102, an improvement of 3.915\%. This is below the prespecified 5\% threshold, and the within-factor-count permutation $p$-value is 0.149. The within-factor-count Pearson correlation is $-0.296$.
+
+The secondary factor-Sharpe endpoint has permutation $p=0.041$ but improves RMSE by only 1.211\%. It cannot replace the failed HJ endpoint. Searching another layer, normalization, state split, or economic outcome after seeing the result would convert a prespecified test into an unbounded geometry search. The analysis therefore stops at the planned gate.
+
+\begin{widefigure}[!tbp]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/figure_07_geometry_function.pdf}
+\caption{Distribution of layerwise concentration across all 32,400 frozen model--month--layer--normalization cells. Each ridge contains 3,600 observations. Filled distributions pool months; solid orange and dashed gray contours separate high-volatility and other months. Diamonds mark participation-rank medians and are colored by median rank-five month-to-month Grassmann drift. Within each normalization, arrows connect the three layer medians. Compression and declining drift are pervasive rather than artifacts of a few model averages, while the annotated functional probe remains below its prespecified 5\% HJ-loss gate.}
+\label{fig:geometry-dashboard}
+\end{widefigure}
+
+The result clarifies what high-dimensional networks may be doing. They organize 86 characteristics and 86 missingness indicators into progressively concentrated internal coordinates, and those coordinates become somewhat more stable with depth. But concentration does not reveal the number of priced shocks. It may reflect denoising, redundancy removal, saturation, common firm-characteristic structure, or an architecture-induced spectral bias. For the proposed incremental pricing interpretation, the geometry must predict pricing moments, SDF performance, or exposure spans beyond what nominal factor count already explains. The prespecified probe does not provide that incremental evidence here.
+
+\subsection{Connecting geometric and economic compression}
+
+The empirical pieces are consistent without being identical. The hidden representation concentrates to an effective rank near nine, while endpoint pricing choices range among one, two, four, five, and eight depending on data and loss. There is no contradiction: effective rank counts active variation in hidden activations, whereas pricing dimension counts directions needed to reduce a particular set of Euler errors. Some active hidden directions can support nonlinear sorting without carrying distinct risk prices. Some weak priced directions can have little activation variance and still matter under an HJ geometry or for a targeted asset family.
+
+The economic direction of compression provides the bridge. Development decompositions show that a dominant common payoff direction explains part of the geometry contrast. The hidden-state evidence shows a broad anisotropic representation rather than a literal one-factor code. One interpretation is that a few common directions contain much of the variation, while additional directions may refine relative pricing. These diagnostics do not identify that hierarchy within individual hidden units. Which refinement counts as necessary depends on asset spanning, the metric, measurement, and the historical risk-price configuration.
+
+This hierarchy is more informative than a single bottleneck number. It suggests reporting a spectrum, an acceptable dimension set, and economic labels for identifiable directions. The common market direction may be more stable than the exact position at which validation loss reaches its minimum. That is the sense in which compression can be economically interpretable without being a stable law of exact dimension.

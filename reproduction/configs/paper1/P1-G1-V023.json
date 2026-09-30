@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V023",
+  "parent_experiment_id": "P1-G1-V022",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "reporting_statistics_and_artifact_freeze",
+  "research_question": "How stable are the paper-one dimension rankings across seeds, pricing geometries, asset families, and the Core-92 versus Core-86 data definitions?",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "inputs": [
+    "experiments/P1-G1-V015/dimension_geometry_surface_R001.json",
+    "experiments/P1-G1-V016/spectral_economic_decomposition_R001.json",
+    "experiments/P1-G1-V017/market_hedged_geometry_R001.json",
+    "experiments/P1-G1-V018/market_factor_completion_R001.json",
+    "experiments/P1-G1-V021/external_asset_geometry_R001.json",
+    "experiments/P1-G1-V022/core86_geometry_surface_R001.json",
+    "experiments/P1-G1-V022/core86_market_hedge_R001.json",
+    "experiments/P1-G1-V022/core86_external_six_families_R001.json"
+  ],
+  "fixed_reporting_statistics": {
+    "geometry_surface": "For every data definition, asset family, K, gamma, and seed, report the frozen distance, five-seed mean, standard error, and rank.",
+    "endpoint_stability": "At gamma 0 and gamma 1, report the best-K frequency across the five fixed seeds and the five-seed-mean rank.",
+    "data_definition_sensitivity": "For the three common primary asset sets, report Core-92 versus Core-86 Spearman and Kendall rank agreement across the six K values at every frozen gamma, plus exact best-K agreement.",
+    "external_assets": "Report the frozen point estimates and existing 12-month block-bootstrap intervals for A, market-direction attenuation, and K=1 plus market completion.",
+    "mechanism": "Report the already-frozen spectral concentration, market hedge, and factor-completion diagnostics without adding a new decision rule.",
+    "subperiods": "Report all already-frozen 2010-2014 and 2015-2019 external-family results."
+  },
+  "artifact_plan": {
+    "tables": "Canonical CSV long tables plus LaTeX publication tables.",
+    "figures": "PDF, SVG, and 300-dpi PNG generated from the canonical CSV tables.",
+    "manifest": "SHA-256 manifest for every input and generated artifact."
+  },
+  "interpretation_rule": "All V023 statistics are descriptive reporting or robustness diagnostics. They may qualify uncertainty and data-definition sensitivity but cannot replace or rescue a failed V022 primary rule.",
+  "stopping_rule": "Generate the complete fixed artifact set once, correct only code or labeling errors, and retain superseded manifests. Do not add dimensions, assets, model variants, hyperparameters, or sealed-period outputs."
+}

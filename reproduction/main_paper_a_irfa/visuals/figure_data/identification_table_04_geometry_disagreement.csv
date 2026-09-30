@@ -1,0 +1,9 @@
+evaluation,rho,spanning,geometry_disagreement_rate
+feasible,0.0,full,0.053287037037036994
+feasible,0.0,weak_tail,0.1141759259259259
+feasible,0.7,full,0.5169814814814815
+feasible,0.7,weak_tail,0.49466666666666664
+oracle,0.0,full,0.008185185185185169
+oracle,0.0,weak_tail,0.007055555555555534
+oracle,0.7,full,0.23025925925925927
+oracle,0.7,weak_tail,0.1980925925925926

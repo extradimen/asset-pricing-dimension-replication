@@ -1,0 +1,43 @@
+{
+  "experiment_id": "P3-TOP-BREAK001",
+  "inputs": {
+    "neural": {
+      "dir": "experiments/P3-TOP-M002/outputs/R001",
+      "manifest_sha256": "7a5afdd93043605b174bdf4061a317f35256e78e75c65d310c3d45c29fcbf0c9",
+      "monthly_file": "monthly_decomposition.json"
+    },
+    "ridge": {
+      "dir": "experiments/P3-TOP-MR001/outputs/R001",
+      "manifest_sha256": "eb446f679ecde3a87920e157a29cbf11be4438b69668e8e96fa620ee6574a662",
+      "monthly_file": "monthly_decomposition.json"
+    },
+    "tree": {
+      "dir": "experiments/P3-TOP-TREE-FULL/outputs/R001",
+      "manifest_sha256": "84a413375e4736d35f1817fc3154c03c7b81c190da45ab469da27cb505d9e226",
+      "monthly_file": "monthly_results.json"
+    }
+  },
+  "arms": ["rolling60", "expanding"],
+  "evaluation_start": 200002,
+  "evaluation_end": 201912,
+  "development_end": 200912,
+  "promotion_start": 201001,
+  "dominance_score": "(2B-A)/(A+abs(2B)+1e-15); positive values mean realized alignment benefit dominates adjustment cost",
+  "common_break_method": "single pooled mean break in the six model-by-window dominance-score series; each series is centered and scaled by its full-sample standard deviation; choose the candidate maximizing pooled within-series SSE reduction",
+  "minimum_segment_months": 60,
+  "null_bootstrap": {
+    "method": "joint circular moving-block bootstrap of centered six-variate observations under no break",
+    "block_months": 12,
+    "replications": 4999,
+    "seed": 20260928
+  },
+  "break_date_interval_bootstrap": {
+    "method": "joint circular moving-block bootstrap of residuals centered separately within the two fitted regimes, with fitted regime means restored",
+    "block_months": 12,
+    "replications": 1999,
+    "seed": 20260929,
+    "percentiles": [2.5, 97.5]
+  },
+  "scope": "Retrospective exploratory cross-model break analysis of already observed 2000-2019 A/B components. It verifies the new tree archive and summarizes all three models, but does not convert the estimated break date into a real-time trading rule or a confirmatory structural-break claim.",
+  "claim_boundary": "The global bootstrap p-value is exploratory because the statistic and full 2000-2019 sample are used to select the break. A confirmatory claim requires a separately locked rule tested on untouched later outcomes; 2020-2025 outcomes remain inaccessible in this run."
+}

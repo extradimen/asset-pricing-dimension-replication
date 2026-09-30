@@ -1,0 +1,389 @@
+{
+  "key": "giacomini2010unstable",
+  "submitted": {
+    "key": "giacomini2010unstable",
+    "type": "article",
+    "fields": {
+      "author": "Giacomini, Raffaella and Rossi, Barbara",
+      "title": "Forecast Comparisons in Unstable Environments",
+      "journal": "Journal of Applied Econometrics",
+      "year": "2010",
+      "volume": "25",
+      "number": "4",
+      "pages": "595--620",
+      "doi": "10.1002/jae.1177"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1002/jae.1177",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T19:07:15Z",
+        "timestamp": 1790708835289,
+        "version": "4.1.0"
+      },
+      "reference-count": 31,
+      "publisher": "Wiley",
+      "issue": "4",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2010,
+                4,
+                13
+              ]
+            ],
+            "date-time": "2010-04-13T00:00:00Z",
+            "timestamp": 1271116800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "J of Applied Econometrics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>We propose new methods for comparing the out‐of‐sample forecasting performance of two competing models in the presence of possible instabilities. The main idea is to develop a measure of the relative local forecasting performance for the two models, and to investigate its stability over time by means of statistical tests. We propose two tests (the Fluctuation test and the One‐Time Reversal test) that analyze the evolution of the models' relative performance over historical samples. In contrast to previous approaches to forecast comparison, which are based on measures of global performance, we focus on the entire time path of the models' relative performance, which may contain useful information that is lost when looking for the model that forecasts best on average. We apply our tests to the analysis of the time variation in the out‐of‐sample forecasting performance of monetary models of exchange rate determination relative to the random walk. Copyright © 2010 John Wiley &amp; Sons, Ltd.</jats:p>",
+      "DOI": "10.1002/jae.1177",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2010,
+            4,
+            13
+          ]
+        ],
+        "date-time": "2010-04-13T18:09:54Z",
+        "timestamp": 1271182194000
+      },
+      "page": "595-620",
+      "source": "Crossref",
+      "is-referenced-by-count": 390,
+      "title": [
+        "Forecast comparisons in unstable environments"
+      ],
+      "prefix": "10.1002",
+      "volume": "25",
+      "author": [
+        {
+          "given": "Raffaella",
+          "family": "Giacomini",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Barbara",
+          "family": "Rossi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2010,
+            5,
+            4
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_9_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2938229"
+        },
+        {
+          "key": "e_1_2_9_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2951764"
+        },
+        {
+          "key": "e_1_2_9_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/003465397557132"
+        },
+        {
+          "key": "e_1_2_9_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2998540"
+        },
+        {
+          "key": "e_1_2_9_6_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "149",
+          "DOI": "10.1111/j.2517-6161.1975.tb01532.x",
+          "article-title": "Techniques for testing the constancy of regression relationships over time with comments",
+          "volume": "37",
+          "author": "Brown RL",
+          "year": "1975",
+          "journal-title": "Journal of the Royal Statistical Society, Series B"
+        },
+        {
+          "key": "e_1_2_9_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/biomet/82.3.603"
+        },
+        {
+          "key": "e_1_2_9_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(01)00071-9"
+        },
+        {
+          "key": "e_1_2_9_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2005.07.014"
+        },
+        {
+          "key": "e_1_2_9_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1392185"
+        },
+        {
+          "key": "e_1_2_9_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1468-2354.2005.00361.x"
+        },
+        {
+          "key": "e_1_2_9_12_1",
+          "unstructured": "GiacominiR RossiB.2007.Model comparisons in unstable environments.ERID Working Paper#30 Duke University."
+        },
+        {
+          "key": "e_1_2_9_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1468-0262.2006.00718.x"
+        },
+        {
+          "key": "e_1_2_9_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2005.03.003"
+        },
+        {
+          "key": "e_1_2_9_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-1996(02)00060-0"
+        },
+        {
+          "key": "e_1_2_9_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(00)00022-1"
+        },
+        {
+          "key": "e_1_2_9_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-1996(83)90017-X"
+        },
+        {
+          "key": "e_1_2_9_18_1",
+          "first-page": "67",
+          "volume-title": "Exchange Rates and International Macroeconomics",
+          "author": "Meese R",
+          "year": "1983"
+        },
+        {
+          "key": "e_1_2_9_19_1",
+          "unstructured": "MolodtsovaT PapellDH.2007.Out‐of‐sample exchange rate predictability with Taylor rule fundamentals. Mimeo University of Houston."
+        },
+        {
+          "key": "e_1_2_9_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913610"
+        },
+        {
+          "key": "e_1_2_9_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2951597"
+        },
+        {
+          "key": "e_1_2_9_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176350051"
+        },
+        {
+          "key": "e_1_2_9_23_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "RogoffKS StavrakevaV.2008.The continuing puzzle of short horizon exchange rate forecasting. NBER Working Paper W14071.",
+          "DOI": "10.3386/w14071"
+        },
+        {
+          "key": "e_1_2_9_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.0020-6598.2005.00310.x"
+        },
+        {
+          "key": "e_1_2_9_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0266466605050486"
+        },
+        {
+          "key": "e_1_2_9_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S1365100506050085"
+        },
+        {
+          "key": "e_1_2_9_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1257/jel.41.3.788"
+        },
+        {
+          "key": "e_1_2_9_28_1",
+          "volume-title": "Introduction to Econometrics",
+          "author": "Stock JH",
+          "year": "2003"
+        },
+        {
+          "key": "e_1_2_9_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0167-2231(93)90009-L"
+        },
+        {
+          "key": "e_1_2_9_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijforecast.2007.07.008"
+        },
+        {
+          "key": "e_1_2_9_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176348511"
+        },
+        {
+          "key": "e_1_2_9_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2171956"
+        }
+      ],
+      "container-title": [
+        "Journal of Applied Econometrics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fjae.1177",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jae.1177",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            19
+          ]
+        ],
+        "date-time": "2025-02-19T23:41:57Z",
+        "timestamp": 1740008517000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1002/jae.1177"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2010,
+            5,
+            4
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/jae.1177"
+      ],
+      "URL": "https://doi.org/10.1002/jae.1177",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "0883-7252",
+        "1099-1255"
+      ],
+      "issn-type": [
+        {
+          "value": "0883-7252",
+          "type": "print"
+        },
+        {
+          "value": "1099-1255",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            5,
+            4
+          ]
+        ]
+      }
+    }
+  }
+}

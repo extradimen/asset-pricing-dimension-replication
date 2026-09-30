@@ -1,0 +1,725 @@
+[
+  {
+    "module": "reproduction/scripts/analyze_paper3_common_break.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/analyze_paper3_neural_updates.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/analyze_paper3_portfolio_value.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/analyze_paper3_q2_inference.py",
+    "argument_declarations": [
+      "parser.add_argument('--config', required=True)",
+      "parser.add_argument('--output', required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/analyze_paper3_ridge_update_decomposition.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/analyze_paper3_update_decomposition.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_annual_direct_characteristics.py",
+    "argument_declarations": [
+      "p.add_argument(\"--output-dir\",type=Path,required=True)",
+      "p.add_argument(\"--overwrite\",action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_annual_market_industry_orgcap.py",
+    "argument_declarations": [
+      "p.add_argument(\"--output-dir\", type=Path, required=True)",
+      "p.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_dimension_geometry_surface.py",
+    "argument_declarations": [
+      "p.add_argument(\"--sweep-root\",type=Path,required=True)",
+      "p.add_argument(\"--experiment-id\",required=True)",
+      "p.add_argument(\"--bootstrap-draws\",type=int,default=500)",
+      "p.add_argument(\"--bootstrap-seed\",type=int,default=20260924)",
+      "p.add_argument(\"--validation-start\",default=\"2000-01\")",
+      "p.add_argument(\"--validation-end\",default=\"2009-12\")",
+      "p.add_argument(\"--development-start\",default=\"2010-01\")",
+      "p.add_argument(\"--development-end\",default=\"2019-12\")",
+      "p.add_argument(f\"--{x}\",type=Path,required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_external_asset_geometry.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--external-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--sweep-root\", type=Path, required=True)",
+      "parser.add_argument(\"--ff5\", type=Path, required=True)",
+      "parser.add_argument(\"--momentum\", type=Path, required=True)",
+      "parser.add_argument(\"--experiment-id\", default=\"P1-G1-V021\")",
+      "parser.add_argument(\"--source-git-revision\", required=True)",
+      "parser.add_argument(\"--bootstrap-draws\", type=int, default=500)",
+      "parser.add_argument(\"--bootstrap-seed\", type=int, default=20260924)",
+      "parser.add_argument(\"--validation-start\", default=\"2000-01\")",
+      "parser.add_argument(\"--validation-end\", default=\"2009-12\")",
+      "parser.add_argument(\"--development-start\", default=\"2010-01\")",
+      "parser.add_argument(\"--development-end\", default=\"2019-12\")",
+      "parser.add_argument(\"--parent-run-id\", default=\"P1-G1-V020-R001\")",
+      "parser.add_argument(\"--models-retrained\", action=\"store_true\")",
+      "parser.add_argument(\"--output\", type=Path, required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_hj_alpha_estimands.py",
+    "argument_declarations": [
+      "p.add_argument(\"--experiment-id\",required=True)",
+      "p.add_argument(f\"--{x}\",type=Path,required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_market_factor_completion.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--sweep-root\", type=Path, required=True)",
+      "parser.add_argument(\"--portfolios-25\", type=Path, required=True)",
+      "parser.add_argument(\"--industries-49\", type=Path, required=True)",
+      "parser.add_argument(\"--ff5\", type=Path, required=True)",
+      "parser.add_argument(\"--experiment-id\", required=True)",
+      "parser.add_argument(\"--source-git-revision\", required=True)",
+      "parser.add_argument(\"--output\", type=Path, required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_market_hedged_geometry.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--sweep-root\", type=Path, required=True)",
+      "parser.add_argument(\"--portfolios-25\", type=Path, required=True)",
+      "parser.add_argument(\"--industries-49\", type=Path, required=True)",
+      "parser.add_argument(\"--ff5\", type=Path, required=True)",
+      "parser.add_argument(\"--experiment-id\", required=True)",
+      "parser.add_argument(\"--source-git-revision\", required=True)",
+      "parser.add_argument(\"--validation-start\", default=\"2000-01\")",
+      "parser.add_argument(\"--validation-end\", default=\"2009-12\")",
+      "parser.add_argument(\"--development-start\", default=\"2010-01\")",
+      "parser.add_argument(\"--development-end\", default=\"2019-12\")",
+      "parser.add_argument(\"--parent-run-id\", default=\"P1-G1-V015-R001\")",
+      "parser.add_argument(\"--output\", type=Path, required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_market_liquidity_characteristics.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--output-dir\", type=Path, default=DEFAULT_OUTPUT)",
+      "parser.add_argument(\"--gkx\", type=Path, default=DEFAULT_GKX)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_metric_geometry.py",
+    "argument_declarations": [
+      "p.add_argument(\"--experiment-id\",required=True)",
+      "p.add_argument(f\"--{x}\",type=Path,required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_monthly_characteristics.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--gkx\", type=Path, default=DEFAULT_GKX)",
+      "parser.add_argument(\"--master\", type=Path, default=DEFAULT_MASTER)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_monthly_industry_adjustments.py",
+    "argument_declarations": [
+      "ap.add_argument(\"--output-dir\",type=Path,required=True)",
+      "ap.add_argument(\"--overwrite\",action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_paper2_g0.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", type=Path, required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_paper7_representation_geometry.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", type=Path, required=True)",
+      "parser.add_argument(\"--run-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--run-id\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_quarterly_formula_variants.py",
+    "argument_declarations": [
+      "p.add_argument(\"--output-dir\", type=Path, required=True)",
+      "p.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_sealed_core86_confirmation.py",
+    "argument_declarations": [
+      "p.add_argument('--sealed-root',type=Path,required=True)",
+      "p.add_argument('--validation-root',type=Path,required=True)",
+      "p.add_argument('--primary-dir',type=Path,required=True)",
+      "p.add_argument('--external-dir',type=Path,required=True)",
+      "p.add_argument('--ff5',type=Path,required=True)",
+      "p.add_argument('--validation-start',default='1999-12')",
+      "p.add_argument('--validation-end',default='2009-11')",
+      "p.add_argument('--test-start',default='2019-12')",
+      "p.add_argument('--test-end',default='2025-11')",
+      "p.add_argument('--expected-test-months',type=int,default=72)",
+      "p.add_argument('--bootstrap-draws',type=int,default=500)",
+      "p.add_argument('--bootstrap-seed',type=int,default=20260924)",
+      "p.add_argument('--output',type=Path,required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_source_backed_pchcapx_ia.py",
+    "argument_declarations": [
+      "p.add_argument('--output-dir',type=Path,required=True)",
+      "p.add_argument('--overwrite',action='store_true')"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/audit_spread_definitions.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--gkx\", type=Path, default=DEFAULT_GKX)",
+      "parser.add_argument(\"--spreads\", type=Path, default=DEFAULT_SPREADS)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_annual_core56_bridge.py",
+    "argument_declarations": [
+      "p.add_argument('--output-dir',type=Path,required=True)",
+      "p.add_argument('--overwrite',action='store_true')"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_compustat_annual_extended.py",
+    "argument_declarations": [
+      "p.add_argument(\"--input\",type=Path,default=DEFAULT_INPUT)",
+      "p.add_argument(\"--output-dir\",type=Path,required=True)",
+      "p.add_argument(\"--block-size-mb\",type=int,default=64)",
+      "p.add_argument(\"--overwrite\",action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_compustat_ccm.py",
+    "argument_declarations": [
+      "p.add_argument(\"--compustat-input\", type=Path, default=DEFAULT_COMPUSTAT)",
+      "p.add_argument(\"--ccm-input\", type=Path, default=DEFAULT_CCM)",
+      "p.add_argument(\"--output-dir\", type=Path, required=True)",
+      "p.add_argument(\"--block-size-mb\", type=int, default=64)",
+      "p.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_core20_monthly_panel.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_core86_evaluation_panel.py",
+    "argument_declarations": [
+      "p.add_argument('--features',type=Path,required=True)",
+      "p.add_argument('--master',type=Path,required=True)",
+      "p.add_argument('--feature-start',required=True)",
+      "p.add_argument('--feature-end',required=True)",
+      "p.add_argument('--output-dir',type=Path,required=True)",
+      "p.add_argument('--sealed-protocol',type=Path)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_core86_gpu_development_input.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--panel\", type=Path, default=DEFAULT_PANEL)",
+      "parser.add_argument(\"--master\", type=Path, default=DEFAULT_MASTER)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_corwin_schultz_spread.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, default=DEFAULT_INPUT)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--block-size-mb\", type=int, default=64)",
+      "parser.add_argument(\"--max-rows\", type=int)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_crsp_monthly.py",
+    "argument_declarations": [
+      "p.add_argument(\"--input\", type=Path, default=DEFAULT_INPUT)",
+      "p.add_argument(\"--output-dir\", type=Path, required=True)",
+      "p.add_argument(\"--block-size-mb\", type=int, default=64)",
+      "p.add_argument(\"--max-rows\", type=int, help=\"Smoke-test row limit\")",
+      "p.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_daily_rolling_characteristics.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, default=DEFAULT_INPUT)",
+      "parser.add_argument(\"--factors\", type=Path, default=DEFAULT_FACTORS)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--block-size-mb\", type=int, default=64)",
+      "parser.add_argument(\"--max-rows\", type=int)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_gkx_feature_benchmark.py",
+    "argument_declarations": [
+      "p.add_argument(\"--input\", type=Path, default=DEFAULT_INPUT)",
+      "p.add_argument(\"--master\", type=Path, default=DEFAULT_MASTER)",
+      "p.add_argument(\"--output-dir\", type=Path, required=True)",
+      "p.add_argument(\"--chunk-years\", type=int, default=5)",
+      "p.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_industry_momentum.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--master\", type=Path, default=DEFAULT_MASTER)",
+      "parser.add_argument(\"--momentum\", type=Path, default=DEFAULT_MOMENTUM)",
+      "parser.add_argument(\"--gkx\", type=Path, default=DEFAULT_GKX)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_momentum_characteristics.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--master\", type=Path, default=DEFAULT_MASTER)",
+      "parser.add_argument(\"--gkx\", type=Path, default=DEFAULT_GKX)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_paper1_identification_artifacts.py",
+    "argument_declarations": []
+  },
+  {
+    "module": "reproduction/scripts/build_paper1_reporting_artifacts.py",
+    "argument_declarations": [
+      "ap.add_argument(\"--output-dir\",type=Path,default=ROOT/\"paper1_artifacts\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_paper1_sealed_artifacts.py",
+    "argument_declarations": [
+      "p.add_argument('--result',type=Path,required=True)",
+      "p.add_argument('--sealed-root',type=Path,required=True)",
+      "p.add_argument('--development-result',type=Path,required=True)",
+      "p.add_argument('--output-dir',type=Path,required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_paper2_exposure_input.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--core86\", type=Path, required=True)",
+      "parser.add_argument(\"--daily-characteristics\", type=Path, required=True)",
+      "parser.add_argument(\"--moments\", type=Path, required=True)",
+      "parser.add_argument(\"--b0\", type=Path, required=True)",
+      "parser.add_argument(\"--ff5-monthly\", type=Path, required=True)",
+      "parser.add_argument(\"--momentum-monthly\", type=Path, required=True)",
+      "parser.add_argument(\"--ff5-daily\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--experiment-id\", required=True)",
+      "parser.add_argument(\"--run-id\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_paper2_joint_stock_outcomes.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", type=Path, required=True)",
+      "parser.add_argument(\"--input\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--run-id\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_paper2_monthly_moments.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--experiment-id\", required=True)",
+      "parser.add_argument(\"--run-id\", required=True)",
+      "parser.add_argument(\"--input-sha256\", required=True)",
+      "parser.add_argument(\"--minimum-days\", type=int, default=15)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_paper2_stock_day_panel.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, required=True)",
+      "parser.add_argument(\"--panel\", type=Path, required=True)",
+      "parser.add_argument(\"--ff5-daily\", type=Path, required=True)",
+      "parser.add_argument(\"--momentum-daily\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--experiment-id\", required=True)",
+      "parser.add_argument(\"--run-id\", required=True)",
+      "parser.add_argument(\"--input-sha256\", required=True)",
+      "parser.add_argument(\"--target-start\", default=\"1963-08-01\")",
+      "parser.add_argument(\"--target-end\", default=\"2019-12-01\")",
+      "parser.add_argument(\"--block-size-mb\", type=int, default=64)",
+      "parser.add_argument(\"--cpu-threads\", type=int, default=12)",
+      "parser.add_argument(\"--max-rows\", type=int)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_paper3_environment_labels.py",
+    "argument_declarations": [
+      "parser.add_argument('--config', type=Path, required=True)",
+      "parser.add_argument('--output-dir', type=Path, required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_presealed_core86_training_panel.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--features\", type=Path, default=DEFAULT_FEATURES)",
+      "parser.add_argument(\"--targets\", type=Path, default=DEFAULT_TARGETS)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_price_delay.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--weekly-dir\", type=Path, default=DEFAULT_WEEKLY_DIR)",
+      "parser.add_argument(\"--market-file\", type=Path)",
+      "parser.add_argument(\"--gkx\", type=Path, default=DEFAULT_GKX)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--batch-rows\", type=int, default=500_000)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_public_pricing_targets.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--portfolios-25\", type=Path, required=True)",
+      "parser.add_argument(\"--industries-49\", type=Path, required=True)",
+      "parser.add_argument(\"--ff5\", type=Path, required=True)",
+      "parser.add_argument(\"--output\", type=Path, required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_quarterly_characteristics.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_quarterly_core10_bridge.py",
+    "argument_declarations": [
+      "p.add_argument(\"--output-dir\", type=Path, required=True)",
+      "p.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_research_master.py",
+    "argument_declarations": [
+      "p.add_argument(\"--crsp\", type=Path, default=DEFAULT_CRSP)",
+      "p.add_argument(\"--fundamentals-dir\", type=Path, default=DEFAULT_FUNDAMENTALS)",
+      "p.add_argument(\"--output-dir\", type=Path, required=True)",
+      "p.add_argument(\"--start-year\", type=int, default=1950)",
+      "p.add_argument(\"--end-year\", type=int, default=2025)",
+      "p.add_argument(\"--chunk-years\", type=int, default=5)",
+      "p.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_security_weekly_returns.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, default=DEFAULT_INPUT)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--block-size-mb\", type=int, default=128)",
+      "parser.add_argument(\"--max-rows\", type=int)",
+      "parser.add_argument(\"--week-convention\", choices=[\"natural\", \"thursday\"], default=\"natural\")",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_structured_core86.py",
+    "argument_declarations": [
+      "p.add_argument('--output-dir',type=Path,required=True)",
+      "p.add_argument('--overwrite',action='store_true')"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/build_weekly_market_characteristics.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, default=DEFAULT_INPUT)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--block-size-mb\", type=int, default=128)",
+      "parser.add_argument(\"--max-rows\", type=int)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/evaluate_multi_factor_teacher.py",
+    "argument_declarations": [
+      "p.add_argument(\"--candidate-root\",type=Path,required=True)",
+      "p.add_argument(\"--linear-predictions\",type=Path,required=True)",
+      "p.add_argument(\"--experiment-id\",required=True)",
+      "p.add_argument(\"--bootstrap-draws\",type=int,default=500)",
+      "p.add_argument(\"--bootstrap-seed\",type=int,default=20260924)",
+      "p.add_argument(f\"--{name}\",type=Path,required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/evaluate_paper3_anchored_update_gate.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/evaluate_paper3_sequential_break_gate.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/evaluate_teacher_pricing.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--seed-root\", type=Path, required=True)",
+      "parser.add_argument(\"--linear-predictions\", type=Path, required=True)",
+      "parser.add_argument(\"--portfolios-25\", type=Path, required=True)",
+      "parser.add_argument(\"--industries-49\", type=Path, required=True)",
+      "parser.add_argument(\"--ff5\", type=Path, required=True)",
+      "parser.add_argument(\"--momentum\", type=Path, required=True)",
+      "parser.add_argument(\"--output\", type=Path, required=True)",
+      "parser.add_argument(\"--bootstrap-draws\", type=int, default=500)",
+      "parser.add_argument(\"--bootstrap-seed\", type=int, default=20260924)",
+      "parser.add_argument(\"--experiment-id\", default=\"P1-G1-V003\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/paper7_geometry_core.py",
+    "argument_declarations": []
+  },
+  {
+    "module": "reproduction/scripts/prepare_paper7_representation_sample.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--run-id\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/prepare_presealed_model_input.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, required=True)",
+      "parser.add_argument(\"--output\", type=Path, required=True)",
+      "parser.add_argument(\"--manifest\", type=Path, required=True)",
+      "parser.add_argument(\"--sealed-start\", default=\"2020-01-01\")",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_multi_factor_sdf_teacher.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, required=True)",
+      "parser.add_argument(\"--factors\", type=Path, required=True)",
+      "parser.add_argument(\"--pricing-targets\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--source-git-revision\", required=True)",
+      "parser.add_argument(\"--experiment-id\", required=True)",
+      "parser.add_argument(\"--seed\", type=int, default=20260924)",
+      "parser.add_argument(\"--device\", default=\"cuda:0\")",
+      "parser.add_argument(\"--factor-count\", type=int, required=True)",
+      "parser.add_argument(\"--hidden\", default=\"128,64,32\")",
+      "parser.add_argument(\"--epochs\", type=int, default=80)",
+      "parser.add_argument(\"--patience\", type=int, default=12)",
+      "parser.add_argument(\"--month-batch-size\", type=int, default=120)",
+      "parser.add_argument(\"--learning-rate\", type=float, default=3e-4)",
+      "parser.add_argument(\"--weight-decay\", type=float, default=1e-5)",
+      "parser.add_argument(\"--hj-penalty\", type=float, default=3.0)",
+      "parser.add_argument(\"--span-sharpe-reward\", type=float, default=0.25)",
+      "parser.add_argument(\"--diversity-penalty\", type=float, default=0.05)",
+      "parser.add_argument(\"--concentration-penalty\", type=float, default=1e-3)",
+      "parser.add_argument(\"--pricing-ridge-multiplier\", type=float, default=1e-4)",
+      "parser.add_argument(\"--feature-set\", choices=[\"core92\", \"core86\"], default=\"core92\")",
+      "parser.add_argument(\"--split-clock\", choices=[\"feature_month\", \"target_month\"], default=\"feature_month\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_neural_sdf_seed_grid.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, required=True)",
+      "parser.add_argument(\"--factors\", type=Path, required=True)",
+      "parser.add_argument(\"--output-root\", type=Path, required=True)",
+      "parser.add_argument(\"--source-git-revision\", required=True)",
+      "parser.add_argument(\"--experiment-id\", required=True)",
+      "parser.add_argument(\"--seeds\", default=\"20260924,20260925,20260926,20260927,20260928\")",
+      "parser.add_argument(\"--cuda-devices\", default=\"0,1\")",
+      "parser.add_argument(\"--python\", default=sys.executable)",
+      "parser.add_argument(\"--pricing-targets\", type=Path)",
+      "parser.add_argument(\"--pricing-penalty\", type=float, default=0.0)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_neural_sdf_teacher.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--input\", type=Path, required=True)",
+      "parser.add_argument(\"--factors\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--source-git-revision\", required=True)",
+      "parser.add_argument(\"--experiment-id\", default=\"P1-G1-V002\")",
+      "parser.add_argument(\"--seed\", type=int, default=20260924)",
+      "parser.add_argument(\"--device\", default=\"cuda:0\")",
+      "parser.add_argument(\"--hidden\", default=\"128,64,32\")",
+      "parser.add_argument(\"--epochs\", type=int, default=80)",
+      "parser.add_argument(\"--patience\", type=int, default=12)",
+      "parser.add_argument(\"--month-batch-size\", type=int, default=24)",
+      "parser.add_argument(\"--learning-rate\", type=float, default=3e-4)",
+      "parser.add_argument(\"--weight-decay\", type=float, default=1e-5)",
+      "parser.add_argument(\"--concentration-penalty\", type=float, default=1e-3)",
+      "parser.add_argument(\"--pricing-targets\", type=Path)",
+      "parser.add_argument(\"--pricing-penalty\", type=float, default=0.0)",
+      "parser.add_argument(\"--pricing-loss\", choices=[\"standardized\", \"hj_ridge\"], default=\"standardized\")",
+      "parser.add_argument(\"--pricing-asset-family\", choices=[\"all\", \"size_bm_25\", \"industry_49\"], default=\"all\")",
+      "parser.add_argument(\"--pricing-ridge-multiplier\", type=float, default=1e-4)",
+      "parser.add_argument(\"--overwrite\", action=\"store_true\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper2_exposure_baselines.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", type=Path, required=True)",
+      "parser.add_argument(\"--input\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--run-id\", required=True)",
+      "parser.add_argument(\"--max-rows-per-split\", type=int)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper3_neural_frozen.py",
+    "argument_declarations": [
+      "parser.add_argument('--config',required=True)",
+      "parser.add_argument('--output',required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper3_neural_updates.py",
+    "argument_declarations": [
+      "parser.add_argument('--config',required=True)",
+      "parser.add_argument('--output',required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper3_neural_updates_cuda.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper3_q2_baseline.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper3_stock_anchor.py",
+    "argument_declarations": [
+      "parser.add_argument('--config', required=True)",
+      "parser.add_argument('--output', required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper3_tree_updates.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", required=True)",
+      "parser.add_argument(\"--output\", required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_paper7_representation_geometry.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--run-id\", required=True)",
+      "parser.add_argument(\"--device\", default=\"cpu\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/run_pricing_dimension_identification_simulation.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--config\", type=Path, default=DEFAULT_CONFIG)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/summarize_paper7_geometry_results.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--run-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--audit\", type=Path, required=True)",
+      "parser.add_argument(\"--output-dir\", type=Path, required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/summarize_paper7_return.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--run-dir\", type=Path, required=True)",
+      "parser.add_argument(\"--output\", type=Path, required=True)",
+      "parser.add_argument(\"--source-run\", default=\"P7-G1-V001-R001\")"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/validate_paper1_sealed_outputs.py",
+    "argument_declarations": []
+  },
+  {
+    "module": "reproduction/scripts/validate_presealed_core86_input.py",
+    "argument_declarations": [
+      "p.add_argument('--source',type=Path,required=True)",
+      "p.add_argument('--input',type=Path,required=True)",
+      "p.add_argument('--manifest',type=Path,required=True)",
+      "p.add_argument('--report',type=Path,required=True)"
+    ]
+  },
+  {
+    "module": "reproduction/scripts/validate_presealed_core86_training_panel.py",
+    "argument_declarations": [
+      "parser.add_argument(\"--features\", type=Path, required=True)",
+      "parser.add_argument(\"--targets\", type=Path, required=True)",
+      "parser.add_argument(\"--input\", type=Path, required=True)",
+      "parser.add_argument(\"--manifest\", type=Path, required=True)",
+      "parser.add_argument(\"--report\", type=Path, required=True)"
+    ]
+  }
+]

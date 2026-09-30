@@ -1,0 +1,811 @@
+{
+  "key": "fallahgoul2024significance",
+  "submitted": {
+    "key": "fallahgoul2024significance",
+    "type": "article",
+    "fields": {
+      "author": "Fallahgoul, Hasan and Franstianto, Vincentius and Lin, Xin",
+      "title": "Asset Pricing with Neural Networks: Significance Tests",
+      "journal": "Journal of Econometrics",
+      "year": "2024",
+      "volume": "238",
+      "number": "1",
+      "pages": "105574",
+      "doi": "10.1016/j.jeconom.2023.105574"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1016/j.jeconom.2023.105574",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T12:43:03Z",
+        "timestamp": 1790772183683,
+        "version": "4.1.0"
+      },
+      "reference-count": 54,
+      "publisher": "Elsevier BV",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2023-10-16T00:00:00Z",
+            "timestamp": 1697414400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Econometrics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.jeconom.2023.105574",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            3
+          ]
+        ],
+        "date-time": "2023-11-03T07:28:21Z",
+        "timestamp": 1698996501000
+      },
+      "page": "105574",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 25,
+      "title": [
+        "Asset pricing with neural networks: Significance tests"
+      ],
+      "prefix": "10.1016",
+      "volume": "238",
+      "author": [
+        {
+          "given": "Hasan",
+          "family": "Fallahgoul",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vincentius",
+          "family": "Franstianto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0001",
+          "series-title": "Neural Network Learning: Theoretical Foundations",
+          "author": "Anthony",
+          "year": "2009"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.jeconom.2023.105574_bib0002",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0130140",
+          "DOI": "10.1371/journal.pone.0130140",
+          "article-title": "On pixel-wise explanations for non-linear classifier decisions by layer-wise relevance propagation",
+          "volume": "10",
+          "author": "Bach",
+          "year": "2015",
+          "journal-title": "PloS one"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jeconom.2023.105574_bib0003",
+          "doi-asserted-by": "crossref",
+          "first-page": "1497",
+          "DOI": "10.1214/009053605000000282",
+          "article-title": "Local rademacher complexities",
+          "volume": "33",
+          "author": "Bartlett",
+          "year": "2005",
+          "journal-title": "Annal. Stat."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jeconom.2023.105574_bib0004",
+          "doi-asserted-by": "crossref",
+          "first-page": "1046",
+          "DOI": "10.1093/rfs/hhaa062",
+          "article-title": "Bond risk premiums with machine learning",
+          "volume": "34",
+          "author": "Bianchi",
+          "year": "2021",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jeconom.2023.105574_bib0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "1515",
+          "DOI": "10.1111/0022-1082.00260",
+          "article-title": "Asset pricing at the millennium",
+          "volume": "55",
+          "author": "Campbell",
+          "year": "2000",
+          "journal-title": "J. Finance"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0006",
+          "article-title": "Deep learning in asset pricing",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "Manag. Sci. forthcoming"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0007",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.2307/2998559",
+          "article-title": "Sieve extremum estimates for weakly dependent data",
+          "author": "Chen",
+          "year": "1998",
+          "journal-title": "Econometrica"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jeconom.2023.105574_bib0008",
+          "doi-asserted-by": "crossref",
+          "first-page": "682",
+          "DOI": "10.1109/18.749011",
+          "article-title": "Improved rates and asymptotic normality for nonparametric neural network estimators",
+          "volume": "45",
+          "author": "Chen",
+          "year": "1999",
+          "journal-title": "IEEE Trans. Inf. Theory"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0009",
+          "article-title": "Fast and accurate deep network learning by exponential linear units (elus)",
+          "author": "Clevert",
+          "year": "2015",
+          "journal-title": "arXiv preprint arXiv:1511.07289"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0010",
+          "series-title": "Asset Pricing",
+          "author": "Cochrane",
+          "year": "2009"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jeconom.2023.105574_bib0011",
+          "doi-asserted-by": "crossref",
+          "first-page": "1047",
+          "DOI": "10.1111/j.1540-6261.2011.01671.x",
+          "article-title": "Presidential address: discount rates",
+          "volume": "66",
+          "author": "Cochrane",
+          "year": "2011",
+          "journal-title": "J. Fnance"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0012",
+          "series-title": "2016 IEEE symposium on security and privacy (SP)",
+          "first-page": "598",
+          "article-title": "Algorithmic transparency via quantitative input influence: theory and experiments with learning systems",
+          "author": "Datta",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0013",
+          "series-title": "International workshop on multiple classifier systems",
+          "first-page": "1",
+          "article-title": "Ensemble methods in machine learning",
+          "author": "Dietterich",
+          "year": "2000"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0014",
+          "series-title": "in Vitaly Feldman, Alexander Rakhlin, and Ohad Shamir, eds., 29th Annual Conference on Learning Theory, volume 49 of Proceedings of Machine Learning Research",
+          "first-page": "907",
+          "article-title": "The power of depth for feedforward neural networks",
+          "author": "Eldan",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0015",
+          "article-title": "Towards explaining deep learning: asymptotic properties of relu ffn sieve estimators",
+          "author": "Fabozzi",
+          "year": "2021",
+          "journal-title": "Available at SSRN"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jeconom.2023.105574_bib0016",
+          "doi-asserted-by": "crossref",
+          "first-page": "383",
+          "DOI": "10.2307/2325486",
+          "article-title": "Efficient capital markets: a review of theory and empirical work",
+          "volume": "25",
+          "author": "Fama",
+          "year": "1970",
+          "journal-title": "J. Finance"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0017",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/0304-405X(93)90023-5",
+          "article-title": "Common risk factors in the returns on stocks and bonds",
+          "author": "Fama",
+          "year": "1993",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jeconom.2023.105574_bib0018",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1257/0895330042162430",
+          "article-title": "The capital asset pricing model: theory and evidence",
+          "volume": "18",
+          "author": "Fama",
+          "year": "2004",
+          "journal-title": "J. Econ. Perspect."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2023.105574_bib0019",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.jfineco.2014.10.010",
+          "article-title": "A five-factor asset pricing model",
+          "volume": "116",
+          "author": "Fama",
+          "year": "2015",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2023.105574_bib0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.3982/ECTA16901",
+          "article-title": "Deep neural networks for estimation and inference",
+          "volume": "89",
+          "author": "Farrell",
+          "year": "2021",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0021",
+          "article-title": "Taming the factor zoo: a test of new factors",
+          "author": "Feng",
+          "year": "2019",
+          "journal-title": "J. Finance, forthcoming"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0022",
+          "series-title": "Technical Report",
+          "article-title": "Compactness of infinite dimensional parameter spaces",
+          "author": "Freyberger",
+          "year": "2015"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.jeconom.2023.105574_bib0023",
+          "doi-asserted-by": "crossref",
+          "first-page": "2326",
+          "DOI": "10.1093/rfs/hhz123",
+          "article-title": "Dissecting characteristics nonparametrically",
+          "volume": "33",
+          "author": "Freyberger",
+          "year": "2020",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0024",
+          "series-title": "Mathematical foundations of infinite-dimensional statistical models",
+          "author": "Giné",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0025",
+          "series-title": "Deep Learning",
+          "author": "Goodfellow",
+          "year": "2016"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2023.105574_bib0026",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1007/s11408-011-0177-7",
+          "article-title": "Empirical cross-sectional asset pricing: a survey",
+          "volume": "26",
+          "author": "Goyal",
+          "year": "2012",
+          "journal-title": "Financ. Market. Portfolio Manag."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.jeconom.2023.105574_bib0027",
+          "doi-asserted-by": "crossref",
+          "first-page": "4389",
+          "DOI": "10.1093/rfs/hhx019",
+          "article-title": "The characteristics that provide independent information about average us monthly stock returns",
+          "volume": "30",
+          "author": "Green",
+          "year": "2017",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.jeconom.2023.105574_bib0028",
+          "doi-asserted-by": "crossref",
+          "first-page": "2223",
+          "DOI": "10.1093/rfs/hhaa009",
+          "article-title": "Empirical asset pricing via machine learning",
+          "volume": "33",
+          "author": "Gu",
+          "year": "2020",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2023.105574_bib0029",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1093/rfs/hhv059",
+          "article-title": "and the cross-section of expected returns",
+          "volume": "29",
+          "author": "Harvey",
+          "year": "2016",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.jeconom.2023.105574_bib0030",
+          "doi-asserted-by": "crossref",
+          "first-page": "1527",
+          "DOI": "10.1162/neco.2006.18.7.1527",
+          "article-title": "A fast learning algorithm for deep belief nets",
+          "volume": "18",
+          "author": "Hinton",
+          "year": "2006",
+          "journal-title": "Neural Comput."
+        },
+        {
+          "issue": "227",
+          "key": "10.1016/j.jeconom.2023.105574_bib0031",
+          "first-page": "1",
+          "article-title": "Significance tests for neural networks",
+          "volume": "21",
+          "author": "Horel",
+          "year": "2020",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0032",
+          "series-title": "Technical Report",
+          "article-title": "Replicating anomalies",
+          "author": "Hou",
+          "year": "2017"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jeconom.2023.105574_bib0033",
+          "doi-asserted-by": "crossref",
+          "first-page": "501",
+          "DOI": "10.1016/j.jfineco.2019.05.001",
+          "article-title": "Characteristics are covariances: a unified model of risk and return",
+          "volume": "134",
+          "author": "Kelly",
+          "year": "2019",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2023.105574_bib0034",
+          "doi-asserted-by": "crossref",
+          "first-page": "191",
+          "DOI": "10.1214/aos/1176347498",
+          "article-title": "Cube root asymptotics",
+          "volume": "18",
+          "author": "Kim",
+          "year": "1990",
+          "journal-title": "Annal. Stat."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jeconom.2023.105574_bib0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "2231",
+          "DOI": "10.1214/20-AOS2034",
+          "article-title": "On the rate of convergence of fully connected deep neural network regression estimates",
+          "volume": "49",
+          "author": "Kohler",
+          "year": "2021",
+          "journal-title": "Annal. Stat."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0036",
+          "first-page": "2593",
+          "article-title": "Local rademacher complexities and oracle inequalities in risk minimization",
+          "volume": "34",
+          "author": "Koltchinskii",
+          "year": "2006",
+          "journal-title": "Annal. Stat."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0037",
+          "series-title": "High dimensional probability II",
+          "first-page": "443",
+          "article-title": "Rademacher processes and bounding the risk of function learning",
+          "author": "Koltchinskii",
+          "year": "2000"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0038",
+          "article-title": "A unified approach to interpreting model predictions",
+          "author": "Lundberg",
+          "year": "2017",
+          "journal-title": "arXiv preprint arXiv:1705.07874"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0039",
+          "series-title": "Practical neural network recipes in C++",
+          "author": "Masters",
+          "year": "1993"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jeconom.2023.105574_bib0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "574",
+          "DOI": "10.1080/07350015.2015.1086655",
+          "article-title": "Fred-md: a monthly database for macroeconomic research",
+          "volume": "34",
+          "author": "McCracken",
+          "year": "2016",
+          "journal-title": "J. Bus. Econ. Stat."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2023.105574_bib0041",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1111/jofi.12365",
+          "article-title": "Does academic research destroy stock return predictability?",
+          "volume": "71",
+          "author": "McLean",
+          "year": "2016",
+          "journal-title": "J. Finance"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jeconom.2023.105574_bib0042",
+          "doi-asserted-by": "crossref",
+          "first-page": "177",
+          "DOI": "10.1007/s10959-007-0058-1",
+          "article-title": "Bracketing metric entropy rates and empirical central limit theorems for function classes of besov-and sobolev-type",
+          "volume": "20",
+          "author": "Nickl",
+          "year": "2007",
+          "journal-title": "J. Theor. Probab."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0043",
+          "series-title": "Technical Report",
+          "article-title": "I-theory on depth vs width: hierarchical function composition",
+          "author": "Poggio",
+          "year": "2015"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.jeconom.2023.105574_bib0044",
+          "doi-asserted-by": "crossref",
+          "first-page": "503",
+          "DOI": "10.1007/s11633-017-1054-2",
+          "article-title": "Why and when can deep-but not shallow-networks avoid the curse of dimensionality: a review",
+          "volume": "14",
+          "author": "Poggio",
+          "year": "2017",
+          "journal-title": "Int. J. Automat. Comput."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0045",
+          "series-title": "Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining",
+          "first-page": "1135",
+          "article-title": "” why should i trust you?” explaining the predictions of any classifier",
+          "author": "Ribeiro",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0046",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Römisch, W., 2004. Delta method, infinite dimensional, extended entry, encyclopedia of statistical sciences.",
+          "DOI": "10.1002/0471667196.ess3139"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jeconom.2023.105574_bib0047",
+          "first-page": "1875",
+          "article-title": "Nonparametric regression using deep neural networks with relu activation function",
+          "volume": "48",
+          "author": "Schmidt-Hieber",
+          "year": "2020",
+          "journal-title": "Annal. Stat."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.jeconom.2023.105574_bib0048",
+          "doi-asserted-by": "crossref",
+          "first-page": "2555",
+          "DOI": "10.1214/aos/1030741085",
+          "article-title": "On methods of sieves and penalization",
+          "volume": "25",
+          "author": "Shen",
+          "year": "1997",
+          "journal-title": "Annal. Stat."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0049",
+          "first-page": "580",
+          "article-title": "Convergence rate of sieve estimates",
+          "author": "Shen",
+          "year": "1994",
+          "journal-title": "Annal. Stat."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0050",
+          "article-title": "Not just a black box: learning important features through propagating activation differences",
+          "author": "Shrikumar",
+          "year": "2016",
+          "journal-title": "arXiv preprint arXiv:1605.01713"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jeconom.2023.105574_bib0051",
+          "doi-asserted-by": "crossref",
+          "first-page": "647",
+          "DOI": "10.1007/s10115-013-0679-x",
+          "article-title": "Explaining prediction models and individual predictions with feature contributions",
+          "volume": "41",
+          "author": "Štrumbelj",
+          "year": "2014",
+          "journal-title": "Knowl. Inf. Syst."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0052",
+          "series-title": "Weak convergence and empirical processes: with applications to statistics",
+          "author": "Van der Vaart",
+          "year": "1996"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jeconom.2023.105574_bib0053",
+          "doi-asserted-by": "crossref",
+          "first-page": "1455",
+          "DOI": "10.1093/rfs/hhm014",
+          "article-title": "A comprehensive look at the empirical performance of equity premium prediction",
+          "volume": "21",
+          "author": "Welch",
+          "year": "2008",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "key": "10.1016/j.jeconom.2023.105574_bib0054",
+          "doi-asserted-by": "crossref",
+          "first-page": "103",
+          "DOI": "10.1016/j.neunet.2017.07.002",
+          "article-title": "Error bounds for approximations with deep relu networks",
+          "volume": "94",
+          "author": "Yarotsky",
+          "year": "2017",
+          "journal-title": "Neural Netw."
+        }
+      ],
+      "container-title": [
+        "Journal of Econometrics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304407623002907?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304407623002907?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2025-10-05T02:50:48Z",
+        "timestamp": 1759632648000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0304407623002907"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "references-count": 54,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0304407623002907"
+      ],
+      "URL": "https://doi.org/10.1016/j.jeconom.2023.105574",
+      "relation": {},
+      "ISSN": [
+        "0304-4076"
+      ],
+      "issn-type": [
+        {
+          "value": "0304-4076",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Asset pricing with neural networks: Significance tests",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Econometrics",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.jeconom.2023.105574",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2023 The Author(s). Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "105574"
+    }
+  }
+}

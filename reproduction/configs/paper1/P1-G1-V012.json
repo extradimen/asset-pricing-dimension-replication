@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V012",
+  "parent_experiment_id": "P1-G1-V011",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "architecture_pilot",
+  "research_question": "Can an adversarial individual-stock conditional-moment SDF produce a strong and temporally stable teacher without portfolio targets in training?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "training_observations": "individual stock excess returns and lagged Structured Core-92 characteristics",
+  "portfolio_targets_used_in_training": false,
+  "external_test_assets": ["25 size-book-to-market portfolios", "49 industry portfolios"],
+  "architecture": {
+    "sdf_factor_directions": 5,
+    "sdf_hidden_layers": [128, 64, 32],
+    "critic_instruments": [4, 8],
+    "critic_hidden_layers": [64, 32],
+    "critic_output": "month-wise centered and standardized bounded instruments"
+  },
+  "game": "The critic maximizes normalized individual-stock conditional Euler errors. The SDF network minimizes the same errors through five characteristic-managed factor returns, with factor-diversity and concentration regularization.",
+  "validation_selection_rule": "On 2000-2009, require both HJ and mean absolute alpha no worse than FF5 plus momentum on each external asset family; among feasible critic dimensions choose the lowest combined alpha, breaking ties by HJ.",
+  "development_promotion_rule": "On 2010-2019 require at least five-percent HJ and alpha improvements versus FF5 plus momentum on combined assets and each external family, positive improvements in both five-year halves, and factor-span Sharpe no lower than the benchmark.",
+  "boundary": "This is a new strong-teacher architecture pilot, not a compression result. Failure triggers an architecture review; passing triggers five seeds before any bottleneck experiment.",
+  "remote_node": "campus-vm",
+  "cuda_devices": [0, 1]
+}

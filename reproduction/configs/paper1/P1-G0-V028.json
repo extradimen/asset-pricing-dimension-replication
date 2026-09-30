@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V028",
+  "parent_experiment_id": "P1-G0-V027",
+  "paper": 1,
+  "generation": "G0",
+  "status": "preregistered",
+  "evidence_class": "physical_presealed_core86_training_panel",
+  "research_question": "Can Core-86 features be joined to next-month returns without allowing a 2019-12 feature row to import the January 2020 sealed return?",
+  "feature_source_experiment_id": "P1-G0-V027",
+  "target_source_experiment_id": "P1-G0-V006",
+  "target_column": "ret_fwd1",
+  "maximum_feature_month": "2019-11-01",
+  "maximum_target_month": "2019-12-01",
+  "boundary_rule": "For a t+1 return target, require feature month t no later than 2019-11; the 2019-12 feature row is excluded from all development training and evaluation.",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "entrypoint": "scripts/build_presealed_core86_training_panel.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V028"
+}

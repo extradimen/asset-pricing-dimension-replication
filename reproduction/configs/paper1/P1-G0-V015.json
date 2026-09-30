@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V015",
+  "parent_experiment_id": "P1-G0-V014",
+  "paper": 1,
+  "generation": "G0",
+  "status": "preregistered",
+  "evidence_class": "point_in_time_quarterly_characteristic_bridge",
+  "research_question": "Can the eleven non-announcement quarterly Core-92 characteristics be reconstructed from point-in-time Compustat and extended through 2025 without changing their historical cross-sectional meaning?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "additional_data_snapshot_ids": [
+    "gkx-datashare-2021-v1"
+  ],
+  "research_snapshot_id": "paper1-design-2026-09-24-v5",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "features": [
+    "cash",
+    "chtx",
+    "cinvest",
+    "ms",
+    "nincr",
+    "roaq",
+    "roavol",
+    "roeq",
+    "rsup",
+    "stdacc",
+    "stdcf"
+  ],
+  "timing_rule": "Construct signals at the quarterly statement level; make them available on actual rdq when valid and otherwise four months after datadate, using the already frozen Compustat point-in-time table. Join the most recently available statement to each stock-month through the historical CCM link.",
+  "formula_source_revisions": {
+    "OpenSourceAP/CrossSection": "8db892442c2c3a3779b0f1eac4370d3655be15a1",
+    "fkempf92/FactorData": "6b57f13260245d688c177bb6ebad55efc291e75b",
+    "terence-lim/financial-data-science-notebooks": "95cec828c8d439dea669bb81fd772b52b1e08be4"
+  },
+  "overlap_audit_period": [
+    "2000-01",
+    "2019-12"
+  ],
+  "validation_metrics": [
+    "monthly nonmissing overlap",
+    "median monthly Spearman correlation",
+    "median monthly mean absolute rank difference on [-1,1]",
+    "exact agreement for discrete nincr and ms",
+    "2021-2022 source-switch level and missingness discontinuity"
+  ],
+  "preregistered_thresholds": {
+    "continuous_feature_median_monthly_spearman": 0.85,
+    "continuous_feature_median_monthly_rank_mae": 0.2,
+    "nincr_exact_agreement": 0.75,
+    "ms_exact_agreement": 0.65,
+    "latest_month_unique_key_required": true
+  },
+  "failure_rule": "Report any failed feature separately and do not silently substitute another definition. Formula corrections require a new experiment version with a documented source discrepancy. No model training or sealed-period pricing output is allowed in V015.",
+  "entrypoint": "scripts/build_quarterly_characteristics.py",
+  "validator": "scripts/validate_quarterly_characteristics.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V015"
+}

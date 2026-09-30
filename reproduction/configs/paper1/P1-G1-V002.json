@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V002",
+  "parent_experiment_id": "P1-G1-V001",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Can a one-seed neural SDF teacher trained only through 2009 produce stable validation and 2010-2019 development factor returns without accessing the sealed period?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [
+    20260924
+  ],
+  "changes_from_parent": "Add a GPU execution pilot for the main feed-forward neural SDF teacher, including month-batched Sharpe training, deterministic seeds, early stopping, weight and concentration diagnostics, immutable transfer manifests, and remote result provenance.",
+  "entrypoint": "scripts/run_neural_sdf_teacher.py",
+  "input_product": "data/processed/gkx-datashare-2021-v1/P1-G1-V002/structured_core92_presealed_2019.parquet",
+  "input_manifest": "data/processed/gkx-datashare-2021-v1/P1-G1-V002/presealed_input_manifest.json",
+  "remote_node": "campus-vm",
+  "remote_python": "/opt/app/miniforge3/envs/n011-cuda/bin/python",
+  "device": "cuda:0",
+  "architecture": [184, 128, 64, 32, 1],
+  "objective": "month-batched annualized long-short SDF Sharpe with scaled-HHI regularization",
+  "training": {
+    "epochs_max": 80,
+    "early_stopping_patience": 12,
+    "month_batch_size": 24,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.00001,
+    "concentration_penalty": 0.001
+  },
+  "selection_metric": "validation annualized SDF factor Sharpe",
+  "development_outputs": [
+    "checkpoint",
+    "training history",
+    "monthly SDF factor returns",
+    "stock-level teacher scores and normalized weights",
+    "quality report",
+    "environment record",
+    "output manifest"
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "key": "bai2002factors",
+  "submitted": {
+    "key": "bai2002factors",
+    "type": "article",
+    "fields": {
+      "author": "Bai, Jushan and Ng, Serena",
+      "title": "Determining the Number of Factors in Approximate Factor Models",
+      "journal": "Econometrica",
+      "year": "2002",
+      "volume": "70",
+      "number": "1",
+      "pages": "191--221",
+      "doi": "10.1111/1468-0262.00273"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/1468-0262.00273",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T19:44:39Z",
+        "timestamp": 1790711079255,
+        "version": "4.1.0"
+      },
+      "reference-count": 31,
+      "publisher": "The Econometric Society",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2015-09-01T00:00:00Z",
+            "timestamp": 1441065600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 4991,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Econometrica"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2002,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1111/1468-0262.00273",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2003,
+            12,
+            12
+          ]
+        ],
+        "date-time": "2003-12-12T04:51:58Z",
+        "timestamp": 1071204718000
+      },
+      "page": "191-221",
+      "source": "Crossref",
+      "is-referenced-by-count": 3156,
+      "title": [
+        "Determining the Number of Factors in Approximate Factor Models"
+      ],
+      "prefix": "10.3982",
+      "volume": "70",
+      "author": [
+        {
+          "given": "Jushan",
+          "family": "Bai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Serena",
+          "family": "Ng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "2359",
+      "reference": [
+        {
+          "key": "b1_192",
+          "volume-title": "An Introduction to Multivariate Statistical Analysis",
+          "author": "Anderson T. W.",
+          "year": "1984"
+        },
+        {
+          "key": "b2_193",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. B\n                      ackus\n                      , S. F\n                      orsei\n                      , A. M\n                      ozumdar\n                      , and L. W\n                      u\n                      (1997 ): \"Predictable Changes in Yields and Forward Rates, \" Mimeo, Stern School of Business.",
+          "DOI": "10.3386/w6379"
+        },
+        {
+          "key": "b3_194",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1515/9781400830213",
+          "volume-title": "The Econometrics of Financial Markets",
+          "author": "Campbell J.",
+          "year": "1997"
+        },
+        {
+          "key": "b4_195",
+          "doi-asserted-by": "crossref",
+          "first-page": "1305",
+          "DOI": "10.2307/1912276",
+          "volume": "51",
+          "author": "Chamberlain G.",
+          "year": "1983",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "b5_196",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. C\n                      ochrane\n                      (1999 ): \"New Facts in Finance, and Portfolio Advice for a Multifactor World, \" NBER Working Paper 7170.",
+          "DOI": "10.3386/w7170"
+        },
+        {
+          "key": "b6_197",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(86)90027-9"
+        },
+        {
+          "key": "b7_198",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(88)90062-1"
+        },
+        {
+          "key": "b8_199",
+          "doi-asserted-by": "crossref",
+          "first-page": "1263",
+          "DOI": "10.1111/j.1540-6261.1993.tb04754.x",
+          "volume": "48",
+          "author": "Connor G.",
+          "year": "1993",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "b9_200",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4076(95)01790-9"
+        },
+        {
+          "key": "b10_201",
+          "doi-asserted-by": "crossref",
+          "first-page": "323",
+          "DOI": "10.1111/j.1540-6261.1984.tb02312.x",
+          "volume": "39",
+          "author": "Dhrymes P. J.",
+          "year": "1984",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "b11_202",
+          "doi-asserted-by": "crossref",
+          "first-page": "103",
+          "DOI": "10.2307/2171815",
+          "volume": "65",
+          "author": "Donald S.",
+          "year": "1997",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "b12_203",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/003465300559037"
+        },
+        {
+          "key": "b13_204",
+          "unstructured": "M. F\n                      orni\n                      , M. H\n                      allin\n                      , M. L\n                      ippi\n                      , and L. R\n                      eichlin\n                      (2000 ): \"Reference Cycles: The NBER Methodology Revisited, \" CEPR Discussion Paper 2400."
+        },
+        {
+          "key": "b14_205",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1093/oso/9780198288008.001.0001",
+          "volume-title": "Aggregation and the Microfoundations of Dynamic Macroeconomics",
+          "author": "Forni M.",
+          "year": "1997"
+        },
+        {
+          "key": "b15_206",
+          "unstructured": "M. F\n                      orni\n                      , and M. L\n                      ippi\n                      (2000 ): \"The Generalized Dynamic Factor Model: Representation Theory, \" Mimeo, Universita di Modena."
+        },
+        {
+          "key": "b16_207",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1467-937X.00053"
+        },
+        {
+          "key": "b17_208",
+          "volume-title": "Latent Variables in Socio Economic Models",
+          "author": "Geweke J.",
+          "year": "1977"
+        },
+        {
+          "key": "b18_209",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.2307/2526135",
+          "volume": "23",
+          "author": "Geweke J.",
+          "year": "1981",
+          "journal-title": "International Economic Review"
+        },
+        {
+          "key": "b19_210",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/003465398557816"
+        },
+        {
+          "key": "b20_211",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-3932(99)00035-5"
+        },
+        {
+          "key": "b21_212",
+          "doi-asserted-by": "crossref",
+          "first-page": "677",
+          "DOI": "10.2307/2527287",
+          "volume": "38",
+          "author": "Gregory A.",
+          "year": "1997",
+          "journal-title": "International Economic Review"
+        },
+        {
+          "key": "b22_213",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(88)90061-X"
+        },
+        {
+          "key": "b23_214",
+          "doi-asserted-by": "crossref",
+          "first-page": "711",
+          "DOI": "10.2307/2938225",
+          "volume": "59",
+          "author": "Lewbel A.",
+          "year": "1991",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "b24_215",
+          "first-page": "661",
+          "volume": "15",
+          "author": "Mallows C. L.",
+          "year": "1973",
+          "journal-title": "Technometrics"
+        },
+        {
+          "key": "b26_216",
+          "first-page": "341",
+          "volume": "13",
+          "author": "Ross S.",
+          "year": "1976",
+          "journal-title": "Journal of Finance"
+        },
+        {
+          "key": "b27_217",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1007/BF02293851",
+          "volume": "57",
+          "author": "Rubin D. B.",
+          "year": "1982",
+          "journal-title": "Psychometrika"
+        },
+        {
+          "key": "b28_218",
+          "volume-title": "New Methods in Business Cycle Research",
+          "author": "Sargent T.",
+          "year": "1977"
+        },
+        {
+          "key": "b29_219",
+          "doi-asserted-by": "crossref",
+          "first-page": "147",
+          "DOI": "10.1080/07350015.1989.10509723",
+          "volume": "7",
+          "author": "Schwert G. W.",
+          "year": "1989",
+          "journal-title": "Journal of Business and Economic Statistics"
+        },
+        {
+          "key": "b30_220",
+          "volume-title": "NBER Macroeconomics Annual 1989",
+          "author": "Stock J. H.",
+          "year": "1989"
+        },
+        {
+          "key": "b31_221",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. H. S\n                      tock\n                      , and M. W\n                      atson\n                      (1998 ): \"Diffusion Indexes, \" NBER Working Paper 6702.",
+          "DOI": "10.3386/w6702"
+        },
+        {
+          "key": "b32_222",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-3932(99)00027-6"
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1468-0262.00273",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1468-0262.00273",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            14
+          ]
+        ],
+        "date-time": "2024-12-14T11:57:38Z",
+        "timestamp": 1734177458000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://doi.wiley.com/10.1111/1468-0262.00273"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2002,
+            1
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2002,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/1468-0262.00273"
+      ],
+      "URL": "https://doi.org/10.1111/1468-0262.00273",
+      "relation": {},
+      "ISSN": [
+        "0012-9682",
+        "1468-0262"
+      ],
+      "issn-type": [
+        {
+          "value": "0012-9682",
+          "type": "print"
+        },
+        {
+          "value": "1468-0262",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            1
+          ]
+        ]
+      }
+    }
+  }
+}

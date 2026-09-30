@@ -1,0 +1,768 @@
+{
+  "key": "gu2021autoencoder",
+  "submitted": {
+    "key": "gu2021autoencoder",
+    "type": "article",
+    "fields": {
+      "author": "Gu, Shihao and Kelly, Bryan and Xiu, Dacheng",
+      "title": "Autoencoder Asset Pricing Models",
+      "journal": "Journal of Econometrics",
+      "year": "2021",
+      "volume": "222",
+      "number": "1",
+      "pages": "429--450",
+      "doi": "10.1016/j.jeconom.2020.07.009"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1016/j.jeconom.2020.07.009",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T13:54:55Z",
+        "timestamp": 1790776495191,
+        "version": "4.1.0"
+      },
+      "reference-count": 42,
+      "publisher": "Elsevier BV",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2021-05-01T00:00:00Z",
+            "timestamp": 1619827200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2021-05-01T00:00:00Z",
+            "timestamp": 1619827200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2021-05-01T00:00:00Z",
+            "timestamp": 1619827200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2021-05-01T00:00:00Z",
+            "timestamp": 1619827200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2021-05-01T00:00:00Z",
+            "timestamp": 1619827200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2021-05-01T00:00:00Z",
+            "timestamp": 1619827200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2021-05-01T00:00:00Z",
+            "timestamp": 1619827200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Econometrics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.jeconom.2020.07.009",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2020-07-29T02:32:35Z",
+        "timestamp": 1595989955000
+      },
+      "page": "429-450",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 419,
+      "special_numbering": "PB",
+      "title": [
+        "Autoencoder asset pricing models"
+      ],
+      "prefix": "10.1016",
+      "volume": "222",
+      "author": [
+        {
+          "given": "Shihao",
+          "family": "Gu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bryan",
+          "family": "Kelly",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dacheng",
+          "family": "Xiu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1203",
+          "DOI": "10.3982/ECTA8968",
+          "article-title": "Eigenvalue ratio test for the number of factors",
+          "volume": "81",
+          "author": "Ahn",
+          "year": "2013",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b2",
+          "doi-asserted-by": "crossref",
+          "first-page": "388",
+          "DOI": "10.1016/j.jeconom.2017.08.015",
+          "article-title": "Using principal component analysis to estimate a high dimensional factor model with high-frequency data",
+          "volume": "201",
+          "author": "Aït-Sahalia",
+          "year": "2017",
+          "journal-title": "J. Econometrics"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1806",
+          "DOI": "10.1016/j.spl.2010.08.005",
+          "article-title": "Improved penalization for determining the number of factors in approximate factor models",
+          "volume": "80",
+          "author": "Alessi",
+          "year": "2010",
+          "journal-title": "Statist. Probab. Lett."
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b4",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1198/073500106000000585",
+          "article-title": "Consistent estimation of the number of dynamic factors in a large N and T panel",
+          "volume": "25",
+          "author": "Amengual",
+          "year": "2007",
+          "journal-title": "J. Bus. Econom. Statist."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2020.07.009_b5",
+          "doi-asserted-by": "crossref",
+          "first-page": "135",
+          "DOI": "10.1111/1468-0262.00392",
+          "article-title": "Inferential theory for factor models of large dimensions",
+          "volume": "71",
+          "author": "Bai",
+          "year": "2003",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "191",
+          "DOI": "10.1111/1468-0262.00273",
+          "article-title": "Determining the number of factors in approximate factor models",
+          "volume": "70",
+          "author": "Bai",
+          "year": "2002",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b7",
+          "series-title": "Principal Components and Regularized Estimation of Factor Models",
+          "author": "Bai",
+          "year": "2017"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2020.07.009_b8",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1016/0893-6080(89)90014-2",
+          "article-title": "Neural networks and principal component analysis: Learning from examples without local minima",
+          "volume": "2",
+          "author": "Baldi",
+          "year": "1989",
+          "journal-title": "Neural Netw."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.jeconom.2020.07.009_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1481",
+          "DOI": "10.1111/j.1540-6261.2004.00670.x",
+          "article-title": "Risks for the long run: A potential resolution of asset pricing puzzles",
+          "volume": "59",
+          "author": "Bansal",
+          "year": "2004",
+          "journal-title": "J. Finance"
+        },
+        {
+          "issue": "4–5",
+          "key": "10.1016/j.jeconom.2020.07.009_b10",
+          "doi-asserted-by": "crossref",
+          "first-page": "291",
+          "DOI": "10.1007/BF00332918",
+          "article-title": "Auto-association by multilayer perceptrons and singular value decomposition",
+          "volume": "59",
+          "author": "Bourlard",
+          "year": "1988",
+          "journal-title": "Biol. Cybern."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jeconom.2020.07.009_b11",
+          "doi-asserted-by": "crossref",
+          "first-page": "205",
+          "DOI": "10.1086/250059",
+          "article-title": "By force of habit: A consumption-based explanation of aggregate stock market behavior",
+          "volume": "107",
+          "author": "Campbell",
+          "year": "1999",
+          "journal-title": "J. Polit. Econ."
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1281",
+          "DOI": "10.2307/1912275",
+          "article-title": "Arbitrage, factor structure, and mean-variance analysis on large asset markets",
+          "volume": "51",
+          "author": "Chamberlain",
+          "year": "1983",
+          "journal-title": "Econometrica"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jeconom.2020.07.009_b13",
+          "doi-asserted-by": "crossref",
+          "first-page": "713",
+          "DOI": "10.3982/ECTA7432",
+          "article-title": "Efficient semiparametric estimation of the Fama–French model and extensions",
+          "volume": "80",
+          "author": "Connor",
+          "year": "2012",
+          "journal-title": "Econometrica"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jeconom.2020.07.009_b14",
+          "doi-asserted-by": "crossref",
+          "first-page": "373",
+          "DOI": "10.1016/0304-405X(86)90027-9",
+          "article-title": "Performance measurement with the arbitrage pricing theory: A new framework for analysis",
+          "volume": "15",
+          "author": "Connor",
+          "year": "1986",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2020.07.009_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/0304-405X(93)90023-5",
+          "article-title": "Common risk factors in the returns on stocks and bonds",
+          "volume": "33",
+          "author": "Fama",
+          "year": "1993",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.jeconom.2020.07.009_b16",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.1214/15-AOS1364",
+          "article-title": "Projected principal component analysis in factor models",
+          "volume": "44",
+          "author": "Fan",
+          "year": "2016",
+          "journal-title": "Ann. Stat."
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b17",
+          "article-title": "Taming the factor zoo: A test of new factors",
+          "author": "Feng",
+          "year": "2019",
+          "journal-title": "J. Finance"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b18",
+          "series-title": "Deep Learning in Asset Pricing",
+          "author": "Feng",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b19",
+          "series-title": "Dissecting Characteristics Nonparametrically",
+          "author": "Freyberger",
+          "year": "2017"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jeconom.2020.07.009_b20",
+          "doi-asserted-by": "crossref",
+          "first-page": "985",
+          "DOI": "10.3982/ECTA11069",
+          "article-title": "Time-varying risk premium in large cross-sectional equity datasets",
+          "volume": "84",
+          "author": "Gagliardini",
+          "year": "2016",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b21",
+          "first-page": "93",
+          "article-title": "Memoires associatives distribuees",
+          "volume": "87",
+          "author": "Gallinari",
+          "year": "1987",
+          "journal-title": "Proc. COGNITIVA"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b22",
+          "series-title": "Asset Pricing with Omitted Factors",
+          "author": "Giglio",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b23",
+          "series-title": "Deep Learning",
+          "author": "Goodfellow",
+          "year": "2016"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.jeconom.2020.07.009_b24",
+          "doi-asserted-by": "crossref",
+          "first-page": "2223",
+          "DOI": "10.1093/rfs/hhaa009",
+          "article-title": "Empirical asset pricing via machine learning",
+          "volume": "33",
+          "author": "Gu",
+          "year": "2019",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "issue": "478",
+          "key": "10.1016/j.jeconom.2020.07.009_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "603",
+          "DOI": "10.1198/016214506000001275",
+          "article-title": "Determining the number of factors in the general dynamic factor model",
+          "volume": "102",
+          "author": "Hallin",
+          "year": "2007",
+          "journal-title": "J. Amer. Statist. Assoc."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jeconom.2020.07.009_b26",
+          "doi-asserted-by": "crossref",
+          "first-page": "732",
+          "DOI": "10.1257/aer.103.2.732",
+          "article-title": "Intermediary asset pricing",
+          "volume": "103",
+          "author": "He",
+          "year": "2013",
+          "journal-title": "Amer. Econ. Rev."
+        },
+        {
+          "issue": "5786",
+          "key": "10.1016/j.jeconom.2020.07.009_b27",
+          "doi-asserted-by": "crossref",
+          "first-page": "504",
+          "DOI": "10.1126/science.1127647",
+          "article-title": "Reducing the dimensionality of data with neural networks",
+          "volume": "313",
+          "author": "Hinton",
+          "year": "2006",
+          "journal-title": "science"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b28",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "first-page": "3",
+          "article-title": "Autoencoders, minimum description length and Helmholtz free energy",
+          "author": "Hinton",
+          "year": "1994"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b29",
+          "first-page": "448",
+          "article-title": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+          "author": "Ioffe",
+          "year": "2015",
+          "journal-title": "Int. Conf. Mach. Learn."
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "397",
+          "DOI": "10.1198/jbes.2009.07239",
+          "article-title": "A testing procedure for determining the number of factors in approximate factor models",
+          "volume": "28",
+          "author": "Kapetanios",
+          "year": "2010",
+          "journal-title": "J. Bus. Econom. Statist."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jeconom.2020.07.009_b31",
+          "doi-asserted-by": "crossref",
+          "first-page": "294",
+          "DOI": "10.1016/j.jeconom.2015.02.011",
+          "article-title": "The three-pass regression filter: A new approach to forecasting using many predictors",
+          "volume": "186",
+          "author": "Kelly",
+          "year": "2015",
+          "journal-title": "J. Econometrics"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b32",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jfineco.2019.05.001",
+          "article-title": "Characteristics are covariances: A unified model of risk and return",
+          "author": "Kelly",
+          "year": "2019",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b33",
+          "series-title": "Adam: A method for stochastic optimization",
+          "author": "Kingma",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kozak, Serhiy, 2019. Kernel trick for the cross section. SSRN Working Paper.",
+          "DOI": "10.2139/ssrn.3307895"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b35",
+          "series-title": "Shrinking the Cross Section",
+          "author": "Kozak",
+          "year": "2017"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jeconom.2020.07.009_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1183",
+          "DOI": "10.1111/jofi.12612",
+          "article-title": "Interpreting factor models",
+          "volume": "73",
+          "author": "Kozak",
+          "year": "2018",
+          "journal-title": "J. Finance"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b37",
+          "series-title": "Nuclear Norm Regularized Estimation of Panel Regression Models",
+          "author": "Moon",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b38",
+          "doi-asserted-by": "crossref",
+          "first-page": "1004",
+          "DOI": "10.1162/REST_a_00043",
+          "article-title": "Determining the number of factors from empirical distribution of eigenvalues",
+          "volume": "92",
+          "author": "Onatski",
+          "year": "2010",
+          "journal-title": "Rev. Econ. Stat."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jeconom.2020.07.009_b39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1061",
+          "DOI": "10.1111/jofi.12615",
+          "article-title": "Higher order effects in asset pricing models with long-run risks",
+          "volume": "73",
+          "author": "Pohl",
+          "year": "2018",
+          "journal-title": "J. Finance"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jeconom.2020.07.009_b40",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1016/0022-0531(76)90046-6",
+          "article-title": "The arbitrage theory of capital asset pricing",
+          "volume": "13",
+          "author": "Ross",
+          "year": "1976",
+          "journal-title": "J. Econ. Theory"
+        },
+        {
+          "key": "10.1016/j.jeconom.2020.07.009_b41",
+          "series-title": "Conditional Betas",
+          "author": "Santos",
+          "year": "2004"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.jeconom.2020.07.009_b42",
+          "doi-asserted-by": "crossref",
+          "first-page": "147",
+          "DOI": "10.1198/073500102317351921",
+          "article-title": "Macroeconomic forecasting using diffusion indexes",
+          "volume": "20",
+          "author": "Stock",
+          "year": "2002",
+          "journal-title": "J. Bus. Econom. Statist."
+        }
+      ],
+      "container-title": [
+        "Journal of Econometrics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304407620301998?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304407620301998?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2025-10-05T02:31:05Z",
+        "timestamp": 1759631465000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0304407620301998"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      },
+      "references-count": 42,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              5
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0304407620301998"
+      ],
+      "URL": "https://doi.org/10.1016/j.jeconom.2020.07.009",
+      "relation": {},
+      "ISSN": [
+        "0304-4076"
+      ],
+      "issn-type": [
+        {
+          "value": "0304-4076",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Autoencoder asset pricing models",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Econometrics",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.jeconom.2020.07.009",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2020 Elsevier B.V. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  }
+}

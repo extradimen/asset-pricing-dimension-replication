@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V022",
+  "parent_experiment_id": "P1-G0-V021",
+  "paper": 1,
+  "generation": "G0",
+  "status": "preregistered",
+  "evidence_class": "annual_market_industry_orgcap_replication",
+  "research_question": "Can the 17 remaining annual characteristics that require market-value scaling, industry adjustment, or CPI-recursive organization capital be reconstructed from the frozen WRDS and BLS sources?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "additional_data_snapshot_ids": ["gkx-datashare-2021-v1", "bls-cpi-u-2026-09-24-v1"],
+  "research_snapshot_id": "paper1-design-2026-09-24-v5",
+  "features": ["bm", "bm_ia", "cashpr", "cfp", "cfp_ia", "chatoia", "chempia", "chpmia", "dy", "ep", "herf", "lev", "mve_ia", "orgcap", "pchcapx_ia", "rd_mve", "sp"],
+  "feature_groups": {
+    "market_scaled_or_direct": ["bm", "cashpr", "cfp", "dy", "ep", "lev", "rd_mve", "sp"],
+    "industry_adjusted_or_concentration": ["bm_ia", "cfp_ia", "chatoia", "chempia", "chpmia", "herf", "mve_ia", "pchcapx_ia"],
+    "cpi_recursive": ["orgcap"]
+  },
+  "formula_source": {
+    "repository": "fkempf92/FactorData",
+    "commit": "6b57f13260245d688c177bb6ebad55efc291e75b",
+    "file": "factordata/factordata.py"
+  },
+  "cpi_source": {
+    "provider": "U.S. Bureau of Labor Statistics",
+    "series_id": "CUUR0000SA0",
+    "aggregation": "calendar-year arithmetic mean of monthly observations"
+  },
+  "timing_rule": "Use the existing annual point-in-time assignment in the research master with no additional monthly lag.",
+  "selection_period": ["2000-01", "2009-12"],
+  "confirmation_period": ["2010-01", "2019-12"],
+  "orientation_rule": "For each feature compare only the published raw formula and its sign reversal on 2000-2009; select the orientation with positive and larger median monthly Spearman. Do not alter magnitudes, industry definitions, CPI series, recursion, or formulas.",
+  "thresholds": {
+    "median_monthly_spearman": 0.85,
+    "median_monthly_rank_mae": 0.2
+  },
+  "stopping_rule": "Judge each feature separately on 2010-2019 exactly once. Failures require a source-backed later version; do not add formula candidates after confirmation.",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "entrypoint": "scripts/audit_annual_market_industry_orgcap.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V022"
+}

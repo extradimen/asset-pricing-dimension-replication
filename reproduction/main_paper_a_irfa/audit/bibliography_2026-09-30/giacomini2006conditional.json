@@ -1,0 +1,426 @@
+{
+  "key": "giacomini2006conditional",
+  "submitted": {
+    "key": "giacomini2006conditional",
+    "type": "article",
+    "fields": {
+      "author": "Giacomini, Raffaella and White, Halbert",
+      "title": "Tests of Conditional Predictive Ability",
+      "journal": "Econometrica",
+      "year": "2006",
+      "volume": "74",
+      "number": "6",
+      "pages": "1545--1578",
+      "doi": "10.1111/j.1468-0262.2006.00718.x"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/j.1468-0262.2006.00718.x",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T15:09:11Z",
+        "timestamp": 1790694551220,
+        "version": "4.1.0"
+      },
+      "reference-count": 36,
+      "publisher": "The Econometric Society",
+      "issue": "6",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2015-09-01T00:00:00Z",
+            "timestamp": 1441065600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 3226,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Econometrica"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1111/j.1468-0262.2006.00718.x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2006,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2006-11-02T11:26:19Z",
+        "timestamp": 1162466779000
+      },
+      "page": "1545-1578",
+      "source": "Crossref",
+      "is-referenced-by-count": 1291,
+      "title": [
+        "Tests of Conditional Predictive Ability"
+      ],
+      "prefix": "10.3982",
+      "volume": "74",
+      "author": [
+        {
+          "given": "Raffaella",
+          "family": "Giacomini",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Halbert",
+          "family": "White",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "2359",
+      "reference": [
+        {
+          "key": "b1_66",
+          "volume-title": "Journal of Business & Economic Statistics",
+          "author": "Amisano G.",
+          "year": "2006"
+        },
+        {
+          "key": "b2_67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2938229"
+        },
+        {
+          "key": "b3_68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1468-0262.00271"
+        },
+        {
+          "key": "b4_69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2938323"
+        },
+        {
+          "key": "b5_70",
+          "doi-asserted-by": "crossref",
+          "first-page": "598",
+          "DOI": "10.1017/S1365100501023070",
+          "volume": "5",
+          "author": "Chao J. C.",
+          "year": "2001",
+          "journal-title": "Macroeconomic Dynamics"
+        },
+        {
+          "key": "b6_71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1099-131X(199912)18:7<489::AID-FOR727>3.0.CO;2-G"
+        },
+        {
+          "key": "b7_72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(01)00071-9"
+        },
+        {
+          "key": "b8_73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. E. C\n                      lark\n                      , and K. D. W\n                      est\n                      (2005 ): \"Using Out-of-Sample Mean Squared Prediction Errors to Test the Martingale Difference Hypothesis ,\" NBER Technical Working Paper #305. [ 1546].",
+          "DOI": "10.3386/t0305"
+        },
+        {
+          "key": "b9_74",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1017/CBO9780511599286",
+          "volume-title": "Forecasting Economic Time Series.",
+          "author": "Clements M. P.",
+          "year": "1998"
+        },
+        {
+          "key": "b10_75",
+          "volume-title": "Forecasting Non-Stationary Economic Time Series.",
+          "author": "Clements M. P.",
+          "year": "1999"
+        },
+        {
+          "key": "b11_76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(01)00086-0"
+        },
+        {
+          "key": "b12_77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1392185"
+        },
+        {
+          "key": "b13_78",
+          "doi-asserted-by": "crossref",
+          "first-page": "241",
+          "DOI": "10.1016/S0169-7161(96)14010-4",
+          "volume-title": "Handbook of Statistics, Vol. 14: Statistical Methods in Finance",
+          "author": "Diebold F. X.",
+          "year": "1996"
+        },
+        {
+          "key": "b14_79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/260061"
+        },
+        {
+          "key": "b15_80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1198/073500105000000018"
+        },
+        {
+          "key": "b16_81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2329643"
+        },
+        {
+          "key": "b17_82",
+          "volume-title": "Forecasting Economic Time Series.",
+          "author": "Granger C. W J.",
+          "year": "1977"
+        },
+        {
+          "key": "b18_83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0169-2070(96)00719-4"
+        },
+        {
+          "key": "b19_84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2336325"
+        },
+        {
+          "key": "b20_85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1368-423X.00025"
+        },
+        {
+          "key": "b21_86",
+          "first-page": "580",
+          "volume": "81",
+          "author": "Leitch G.",
+          "year": "1991",
+          "journal-title": "American Economic Review"
+        },
+        {
+          "key": "b22_87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1391384"
+        },
+        {
+          "key": "b23_88",
+          "volume-title": "Asymptotics for Out-of-Sample Tests of Granger Causality",
+          "author": "Mc Cracken M. W",
+          "year": "1999"
+        },
+        {
+          "key": "b24_89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(00)00022-1"
+        },
+        {
+          "key": "b25_90",
+          "doi-asserted-by": "crossref",
+          "first-page": "826",
+          "DOI": "10.1214/aop/1176996269",
+          "volume": "3",
+          "author": "McLeish D. L.",
+          "year": "1975",
+          "journal-title": "The Annals of Probability"
+        },
+        {
+          "key": "b26_91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913610"
+        },
+        {
+          "key": "b27_92",
+          "volume-title": "Journal of Econometrics",
+          "author": "Pesaran M. H.",
+          "year": "2006"
+        },
+        {
+          "key": "b28_93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0266466698143013"
+        },
+        {
+          "key": "b29_94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1198/073500102317351921"
+        },
+        {
+          "key": "b30_95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2171956"
+        },
+        {
+          "key": "b31_96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-1996(93)90003-G"
+        },
+        {
+          "key": "b32_97",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1017/CCOL0521252806",
+          "volume-title": "Estimation, Inference and Specification Analysis.",
+          "author": "White H.",
+          "year": "1994"
+        },
+        {
+          "key": "b33_98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1468-0262.00152"
+        },
+        {
+          "key": "b34_99",
+          "volume-title": "Asymptotic Theory for Econometricians.",
+          "author": "White H.",
+          "year": "2001"
+        },
+        {
+          "key": "b35_100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1911465"
+        },
+        {
+          "key": "b36_101",
+          "doi-asserted-by": "crossref",
+          "first-page": "210",
+          "DOI": "10.1017/S0266466600012032",
+          "volume": "4",
+          "author": "Wooldridge J. M.",
+          "year": "1988",
+          "journal-title": "Econometric Theory"
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1468-0262.2006.00718.x",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1468-0262.2006.00718.x",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            4,
+            18
+          ]
+        ],
+        "date-time": "2020-04-18T17:39:28Z",
+        "timestamp": 1587231568000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://doi.wiley.com/10.1111/j.1468-0262.2006.00718.x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2006,
+            11
+          ]
+        ]
+      },
+      "references-count": 36,
+      "journal-issue": {
+        "issue": "6",
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              11
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/j.1468-0262.2006.00718.x"
+      ],
+      "URL": "https://doi.org/10.1111/j.1468-0262.2006.00718.x",
+      "relation": {},
+      "ISSN": [
+        "0012-9682",
+        "1468-0262"
+      ],
+      "issn-type": [
+        {
+          "value": "0012-9682",
+          "type": "print"
+        },
+        {
+          "value": "1468-0262",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            11
+          ]
+        ]
+      }
+    }
+  }
+}

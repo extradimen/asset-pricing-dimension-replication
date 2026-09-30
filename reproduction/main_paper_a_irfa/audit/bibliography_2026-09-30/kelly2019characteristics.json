@@ -1,0 +1,659 @@
+{
+  "key": "kelly2019characteristics",
+  "submitted": {
+    "key": "kelly2019characteristics",
+    "type": "article",
+    "fields": {
+      "author": "Kelly, Bryan and Pruitt, Seth and Su, Yinan",
+      "title": "Characteristics Are Covariances: A Unified Model of Risk and Return",
+      "journal": "Journal of Financial Economics",
+      "year": "2019",
+      "volume": "134",
+      "number": "3",
+      "pages": "501--524",
+      "doi": "10.1016/j.jfineco.2019.05.001"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1016/j.jfineco.2019.05.001",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T12:42:14Z",
+        "timestamp": 1790772134802,
+        "version": "4.1.0"
+      },
+      "reference-count": 39,
+      "publisher": "Elsevier BV",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2019-12-01T00:00:00Z",
+            "timestamp": 1575158400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2019-12-01T00:00:00Z",
+            "timestamp": 1575158400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Financial Economics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.jfineco.2019.05.001",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2019-05-07T18:16:19Z",
+        "timestamp": 1557252979000
+      },
+      "page": "501-524",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 793,
+      "title": [
+        "Characteristics are covariances: A unified model of risk and return"
+      ],
+      "prefix": "10.1016",
+      "volume": "134",
+      "author": [
+        {
+          "given": "Bryan T.",
+          "family": "Kelly",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Seth",
+          "family": "Pruitt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yinan",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0001",
+          "doi-asserted-by": "crossref",
+          "first-page": "2861",
+          "DOI": "10.1111/jofi.12437",
+          "article-title": "Valuation risk and asset pricing",
+          "volume": "71",
+          "author": "Albuquerque",
+          "year": "2016",
+          "journal-title": "J. Financ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0003",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.jfineco.2014.08.007",
+          "article-title": "X-capm: an extrapolative capital asset pricing model",
+          "volume": "115",
+          "author": "Barberis",
+          "year": "2015",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0004",
+          "doi-asserted-by": "crossref",
+          "first-page": "715",
+          "DOI": "10.1111/jofi.12607",
+          "article-title": "Comparing asset pricing models",
+          "volume": "78",
+          "author": "Barillas",
+          "year": "2018",
+          "journal-title": "J. Financ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_sbref0005",
+          "series-title": "United States Equity Version 3 (e3)",
+          "author": "Barra",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0006",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1111/j.1540-6261.1997.tb03808.x",
+          "article-title": "On persistence in mutual fund performance",
+          "volume": "52",
+          "author": "Carhart",
+          "year": "1997",
+          "journal-title": "J. Financ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0007",
+          "doi-asserted-by": "crossref",
+          "first-page": "1281",
+          "DOI": "10.2307/1912275",
+          "article-title": "Arbitrage, factor structure, and mean-variance analysis on large asset markets",
+          "volume": "51",
+          "author": "Chamberlain",
+          "year": "1983",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_sbref0008",
+          "series-title": "Cross-sectional Asset Pricing with Individual Stocks: Betas Versus Characteristics",
+          "author": "Chordia",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0009",
+          "series-title": "Asset Pricing",
+          "author": "Cochrane",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "1047",
+          "DOI": "10.1111/j.1540-6261.2011.01671.x",
+          "article-title": "Presidential address: discount rates",
+          "volume": "66",
+          "author": "Cochrane",
+          "year": "2011",
+          "journal-title": "J. Financ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0011",
+          "doi-asserted-by": "crossref",
+          "first-page": "373",
+          "DOI": "10.1016/0304-405X(86)90027-9",
+          "article-title": "Performance measurement with the arbitrage pricing theory: a new framework for analysis",
+          "volume": "15",
+          "author": "Connor",
+          "year": "1986",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0012",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1016/0304-405X(88)90062-1",
+          "article-title": "Risk and return in an equilibrium apt: application of a new test methodology",
+          "volume": "21",
+          "author": "Connor",
+          "year": "1988",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0013",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1111/j.1540-6261.1997.tb03806.x",
+          "article-title": "Evidence on the characteristics of cross sectional variation in stock returns",
+          "volume": "52",
+          "author": "Daniel",
+          "year": "1997",
+          "journal-title": "J. Financ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0014",
+          "doi-asserted-by": "crossref",
+          "first-page": "103",
+          "DOI": "10.1561/104.00000003",
+          "article-title": "Testing factor-model explanations of market anomalies",
+          "volume": "1",
+          "author": "Daniel",
+          "year": "2012",
+          "journal-title": "Crit. Financ. Rev."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/0304-405X(93)90023-5",
+          "article-title": "Common risk factors in the returns on stocks and bonds",
+          "volume": "33",
+          "author": "Fama",
+          "year": "1993",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0016",
+          "doi-asserted-by": "crossref",
+          "first-page": "607",
+          "DOI": "10.1086/260061",
+          "article-title": "Risk, return, and equilibrium: empirical tests",
+          "volume": "81",
+          "author": "Fama",
+          "year": "1973",
+          "journal-title": "J. Political Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0017",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.jfineco.2014.10.010",
+          "article-title": "A five-factor asset pricing model",
+          "volume": "116",
+          "author": "Fama",
+          "year": "2015",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0018",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.1214/15-AOS1364",
+          "article-title": "Projected principal component analysis in factor models",
+          "volume": "44",
+          "author": "Fan",
+          "year": "2016",
+          "journal-title": "Ann. Stat."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0019",
+          "doi-asserted-by": "crossref",
+          "first-page": "1497",
+          "DOI": "10.3982/ECTA12749",
+          "article-title": "Power enhancement in high-dimensional cross-sectional tests",
+          "volume": "83",
+          "author": "Fan",
+          "year": "2015",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "1325",
+          "DOI": "10.1111/0022-1082.00148",
+          "article-title": "Conditioning variables and the cross section of stock returns",
+          "volume": "54",
+          "author": "Ferson",
+          "year": "1999",
+          "journal-title": "J. Financ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_sbref0021",
+          "series-title": "Dissecting Characteristics Nonparametrically",
+          "author": "Freyberger",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0022",
+          "doi-asserted-by": "crossref",
+          "first-page": "1121",
+          "DOI": "10.2307/1913625",
+          "article-title": "A test of the efficiency of a given portfolio",
+          "volume": "57",
+          "author": "Gibbons",
+          "year": "1989",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0023",
+          "doi-asserted-by": "crossref",
+          "first-page": "89",
+          "DOI": "10.1016/j.jeconom.2003.10.030",
+          "article-title": "Bootstrapping autoregressions with conditional heteroskedasticity of unknown form",
+          "volume": "123",
+          "author": "Goncalves",
+          "year": "2004",
+          "journal-title": "J. Econom."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_sbref0025",
+          "series-title": "Empirical Asset Pricing via Machine Learning",
+          "author": "Gu",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0026",
+          "doi-asserted-by": "crossref",
+          "first-page": "1029",
+          "DOI": "10.2307/1912775",
+          "article-title": "Large sample properties of generalized method of moments estimators",
+          "volume": "50",
+          "author": "Hansen",
+          "year": "1982",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0027",
+          "doi-asserted-by": "crossref",
+          "first-page": "587",
+          "DOI": "10.2307/1913601",
+          "article-title": "The role of conditioning information in deducing testable restrictions implied by dynamic asset pricing models",
+          "volume": "55",
+          "author": "Hansen",
+          "year": "1987",
+          "journal-title": "Econometrica"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0028",
+          "doi-asserted-by": "crossref",
+          "first-page": "650",
+          "DOI": "10.1093/rfs/hhu068",
+          "article-title": "Digesting anomalies: an investment approach",
+          "volume": "28",
+          "author": "Hou",
+          "year": "2015",
+          "journal-title": "Revi. Financ. Stud."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_sbref0029",
+          "series-title": "Instrumented Principal Component Analysis",
+          "author": "Kelly",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0030",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kozak, S., Nagel, S., Santosh, S., 2019. Shrinking the cross-section. Michigan Ross, Chicago Booth, and Maryland Smith. Unpublished.",
+          "DOI": "10.2139/ssrn.3233905"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0031",
+          "doi-asserted-by": "crossref",
+          "first-page": "1183",
+          "DOI": "10.1111/jofi.12612",
+          "article-title": "Interpreting factor models",
+          "volume": "73",
+          "author": "Kozak",
+          "year": "2018",
+          "journal-title": "J. Financ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0032",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1561/104.00000024",
+          "article-title": "The cross-section of expected stock returns",
+          "volume": "4",
+          "author": "Lewellen",
+          "year": "2015",
+          "journal-title": "Crit. Financ. Rev."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0033",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1016/j.jfineco.2009.09.001",
+          "article-title": "A skeptical appraisal of asset pricing tests",
+          "volume": "96",
+          "author": "Lewellen",
+          "year": "2010",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0034",
+          "doi-asserted-by": "crossref",
+          "first-page": "1339",
+          "DOI": "10.1093/rfs/hhw102",
+          "article-title": "Aggregation of information about the cross section of stock returns: a latent variable approach",
+          "volume": "30",
+          "author": "Light",
+          "year": "2017",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "104",
+          "DOI": "10.1093/rfs/hhv063",
+          "article-title": "A taxonomy of anomalies and their trading costs",
+          "volume": "29",
+          "author": "Novy-Marx",
+          "year": "2016",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0036",
+          "doi-asserted-by": "crossref",
+          "first-page": "129",
+          "DOI": "10.1016/0304-405X(77)90009-5",
+          "article-title": "A critique of the asset pricing theory’s tests part I: on past and potential testability of the theory",
+          "volume": "4",
+          "author": "Roll",
+          "year": "1977",
+          "journal-title": "J. Financ. Econ."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0037",
+          "doi-asserted-by": "crossref",
+          "first-page": "263",
+          "DOI": "10.2307/2330104",
+          "article-title": "Extra-market components of covariance in security returns",
+          "volume": "9",
+          "author": "Rosenberg",
+          "year": "1974",
+          "journal-title": "J. Financ. Quant. Anal."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0038",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1016/0022-0531(76)90046-6",
+          "article-title": "The arbitrage theory of capital asset pricing",
+          "volume": "13",
+          "author": "Ross",
+          "year": "1976",
+          "journal-title": "J. Econ. Theory"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_sbref0039",
+          "series-title": "Conditional Betas",
+          "author": "Santos",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "1270",
+          "DOI": "10.1093/rfs/hhw107",
+          "article-title": "Mispricing factors",
+          "volume": "30",
+          "author": "Stambaugh",
+          "year": "2017",
+          "journal-title": "Rev. Financ. Stud."
+        },
+        {
+          "key": "10.1016/j.jfineco.2019.05.001_bib0041",
+          "doi-asserted-by": "crossref",
+          "first-page": "1167",
+          "DOI": "10.1198/016214502388618960",
+          "article-title": "Forecasting using principal components from a large number of predictors",
+          "volume": "97",
+          "author": "Stock",
+          "year": "2002",
+          "journal-title": "J. Am. Stat. Assoc."
+        }
+      ],
+      "container-title": [
+        "Journal of Financial Economics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304405X19301151?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0304405X19301151?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2025-10-05T01:43:10Z",
+        "timestamp": 1759628590000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0304405X19301151"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "references-count": 39,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0304405X19301151"
+      ],
+      "URL": "https://doi.org/10.1016/j.jfineco.2019.05.001",
+      "relation": {},
+      "ISSN": [
+        "0304-405X"
+      ],
+      "issn-type": [
+        {
+          "value": "0304-405X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Characteristics are covariances: A unified model of risk and return",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Financial Economics",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.jfineco.2019.05.001",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2019 Elsevier B.V. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  }
+}

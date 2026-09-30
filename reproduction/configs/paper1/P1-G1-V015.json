@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V015",
+  "parent_experiment_id": "P1-G1-V014",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "dimension_geometry_replication",
+  "research_question": "Is the reversal of preferred compression dimension across pricing geometries stable across dimensions, random seeds and time resampling?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "pricing_target_snapshot_id": "ken-french-public-74-pricing-targets-2026-07-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "factor_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+  ],
+  "seeds": [
+    20260924,
+    20260925,
+    20260926,
+    20260927,
+    20260928
+  ],
+  "training_objective": "Exact P1-G1-V008 multi-direction normalized ridge-HJ span objective; no V015 hyperparameter selection.",
+  "geometry_grid": {
+    "start": 0.0,
+    "stop": 1.0,
+    "step": 0.05
+  },
+  "loading_case": "Strict validation-estimated factor self-pricing loadings.",
+  "test_assets": [
+    "25 size-book-to-market portfolios",
+    "49 industry portfolios",
+    "combined 74 portfolios"
+  ],
+  "statistical_summary": [
+    "seed mean and standard error",
+    "seed-level K=1 versus K=5 crossing gamma",
+    "500-draw circular 12-month block bootstrap for the seed-averaged K=1 minus K=5 distance gap"
+  ],
+  "interpretation_rule": "Metric-dependent compressibility is replicated if K=5 has lower combined distance near gamma zero, K=1 has lower distance near gamma one, and the estimated crossing lies strictly inside (0,1) for at least four of five paired seeds. No model is promoted regardless of result.",
+  "boundary": "This estimates a descriptive dimension-geometry surface using the rejected V008 teacher family. It does not reopen the strong-teacher gate and does not access the sealed period.",
+  "training_entrypoint": "scripts/run_dimension_seed_sweep.py",
+  "audit_entrypoint": "scripts/audit_dimension_geometry_surface.py",
+  "remote_node": "campus-vm",
+  "cuda_devices": [
+    0,
+    1
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "experiment_id": "P3-TOP-PORT001",
+  "scope": "First transaction-cost-aware economic-value audit of archived 2000-2019 stock-level predictions. No model, prediction, sort breakpoint, weighting definition, cost grid, or later-period outcome may be changed or accessed in this run.",
+  "claim_boundary": "This is an in-sample-period economic audit of already evaluated forecasts, not an untouched portfolio confirmation. It determines whether economic-value work is worth carrying into a separately locked 2020-2025 test.",
+  "months": 239,
+  "portfolio_summary": {
+    "neural": {
+      "frozen": {
+        "equal": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.2509182930282772,
+            "annualized_volatility": 0.2383530735935669,
+            "annualized_sharpe": 1.0527168340867974,
+            "annualized_certainty_equivalent_gamma5": 0.1088878237995264,
+            "mean_turnover": 0.7883319246916626,
+            "positive_month_fraction": 0.698744769874477
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.2414583099319772,
+            "annualized_volatility": 0.23834606746598253,
+            "annualized_sharpe": 1.013057662327233,
+            "annualized_certainty_equivalent_gamma5": 0.09943619024073047,
+            "mean_turnover": 0.7883319246916626,
+            "positive_month_fraction": 0.694560669456067
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.2272683352875273,
+            "annualized_volatility": 0.23833970569860527,
+            "annualized_sharpe": 0.9535479395737847,
+            "annualized_certainty_equivalent_gamma5": 0.08525379700628283,
+            "mean_turnover": 0.7883319246916626,
+            "positive_month_fraction": 0.6778242677824268
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.20361837754677736,
+            "annualized_volatility": 0.2383401633418791,
+            "annualized_sharpe": 0.8543183603289881,
+            "annualized_certainty_equivalent_gamma5": 0.061603293892193316,
+            "mean_turnover": 0.7883319246916626,
+            "positive_month_fraction": 0.6485355648535565
+          }
+        },
+        "value": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.16678374690982156,
+            "annualized_volatility": 0.23844656565140188,
+            "annualized_sharpe": 0.6994596313609812,
+            "annualized_certainty_equivalent_gamma5": 0.02464183523245081,
+            "mean_turnover": 1.2192599456860205,
+            "positive_month_fraction": 0.5606694560669456
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.15215262756158932,
+            "annualized_volatility": 0.23844656362787825,
+            "annualized_sharpe": 0.638099477076298,
+            "annualized_certainty_equivalent_gamma5": 0.01001071829672983,
+            "mean_turnover": 1.2192599456860205,
+            "positive_month_fraction": 0.5564853556485355
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.130205948539241,
+            "annualized_volatility": 0.2384633538973493,
+            "annualized_sharpe": 0.5460207885664915,
+            "annualized_certainty_equivalent_gamma5": -0.011955979340690176,
+            "mean_turnover": 1.2192599456860205,
+            "positive_month_fraction": 0.5439330543933054
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.09362815016866033,
+            "annualized_volatility": 0.23853610616588267,
+            "annualized_sharpe": 0.3925114385138385,
+            "annualized_certainty_equivalent_gamma5": -0.04862053469329283,
+            "mean_turnover": 1.2192599456860205,
+            "positive_month_fraction": 0.5271966527196653
+          }
+        }
+      },
+      "rolling60": {
+        "equal": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.09806730038529354,
+            "annualized_volatility": 0.28915271727508973,
+            "annualized_sharpe": 0.33915399899906784,
+            "annualized_certainty_equivalent_gamma5": -0.1109559343836264,
+            "mean_turnover": 0.6761848618096786,
+            "positive_month_fraction": 0.5899581589958159
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.08995308204357738,
+            "annualized_volatility": 0.2891670357380684,
+            "annualized_sharpe": 0.31107654374912275,
+            "annualized_certainty_equivalent_gamma5": -0.11909085435027596,
+            "mean_turnover": 0.6761848618096786,
+            "positive_month_fraction": 0.5857740585774058
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.07778175453100317,
+            "annualized_volatility": 0.28919210741877227,
+            "annualized_sharpe": 0.26896223145664633,
+            "annualized_certainty_equivalent_gamma5": -0.13129843295227367,
+            "mean_turnover": 0.6761848618096786,
+            "positive_month_fraction": 0.5857740585774058
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.057496208676712804,
+            "annualized_volatility": 0.2892434746283564,
+            "annualized_sharpe": 0.19878135107659253,
+            "annualized_certainty_equivalent_gamma5": -0.1516582603609989,
+            "mean_turnover": 0.6761848618096786,
+            "positive_month_fraction": 0.5774058577405857
+          }
+        },
+        "value": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.020112881915219788,
+            "annualized_volatility": 0.2808497939563067,
+            "annualized_sharpe": 0.07161437304934913,
+            "annualized_certainty_equivalent_gamma5": -0.17707863499803012,
+            "mean_turnover": 0.8741077211557087,
+            "positive_month_fraction": 0.502092050209205
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.009623589261351265,
+            "annualized_volatility": 0.28082631194811075,
+            "annualized_sharpe": 0.03426883041902943,
+            "annualized_certainty_equivalent_gamma5": -0.18753495444459273,
+            "mean_turnover": 0.8741077211557087,
+            "positive_month_fraction": 0.502092050209205
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": -0.006110349719451484,
+            "annualized_volatility": 0.2808006407147151,
+            "annualized_sharpe": -0.021760455047036064,
+            "annualized_certainty_equivalent_gamma5": -0.20323284928393787,
+            "mean_turnover": 0.8741077211557087,
+            "positive_month_fraction": 0.4811715481171548
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": -0.03233358135412273,
+            "annualized_volatility": 0.2807833336322224,
+            "annualized_sharpe": -0.11515491655382269,
+            "annualized_certainty_equivalent_gamma5": -0.22943178246818263,
+            "mean_turnover": 0.8741077211557087,
+            "positive_month_fraction": 0.4686192468619247
+          }
+        }
+      },
+      "expanding": {
+        "equal": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.2612467490243193,
+            "annualized_volatility": 0.3105266507246236,
+            "annualized_sharpe": 0.8413021826458112,
+            "annualized_certainty_equivalent_gamma5": 0.020179746998688408,
+            "mean_turnover": 0.9200568835098109,
+            "positive_month_fraction": 0.702928870292887
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.2502060664222016,
+            "annualized_volatility": 0.31058638059011673,
+            "annualized_sharpe": 0.8055925245234771,
+            "annualized_certainty_equivalent_gamma5": 0.00904631690202952,
+            "mean_turnover": 0.9200568835098109,
+            "positive_month_fraction": 0.6903765690376569
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.23364504251902496,
+            "annualized_volatility": 0.31068232071286395,
+            "annualized_sharpe": 0.7520384229875838,
+            "annualized_certainty_equivalent_gamma5": -0.007663718489802129,
+            "mean_turnover": 0.9200568835098109,
+            "positive_month_fraction": 0.6820083682008368
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.2060433360137307,
+            "annualized_volatility": 0.31085912402984134,
+            "annualized_sharpe": 0.6628190073454342,
+            "annualized_certainty_equivalent_gamma5": -0.03554015146777001,
+            "mean_turnover": 0.9200568835098109,
+            "positive_month_fraction": 0.6736401673640168
+          }
+        },
+        "value": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.17178311157981568,
+            "annualized_volatility": 0.29512080095202914,
+            "annualized_sharpe": 0.5820772748842548,
+            "annualized_certainty_equivalent_gamma5": -0.04595760630660234,
+            "mean_turnover": 1.3515255752494888,
+            "positive_month_fraction": 0.5899581589958159
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.15556480467682182,
+            "annualized_volatility": 0.2952018803487343,
+            "annualized_sharpe": 0.5269776889396728,
+            "annualized_certainty_equivalent_gamma5": -0.062295570726749294,
+            "mean_turnover": 1.3515255752494888,
+            "positive_month_fraction": 0.5774058577405857
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.131237344322331,
+            "annualized_volatility": 0.2953368813344319,
+            "annualized_sharpe": 0.4443649019701037,
+            "annualized_certainty_equivalent_gamma5": -0.08682233936853981,
+            "mean_turnover": 1.3515255752494888,
+            "positive_month_fraction": 0.5606694560669456
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.09069157706484637,
+            "annualized_volatility": 0.29559751207831486,
+            "annualized_sharpe": 0.3068076467464272,
+            "annualized_certainty_equivalent_gamma5": -0.12775314580237734,
+            "mean_turnover": 1.3515255752494888,
+            "positive_month_fraction": 0.5481171548117155
+          }
+        }
+      }
+    },
+    "ridge": {
+      "frozen": {
+        "equal": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.16633769496110298,
+            "annualized_volatility": 0.22443172752775792,
+            "annualized_sharpe": 0.7411505351467305,
+            "annualized_certainty_equivalent_gamma5": 0.04041369415836853,
+            "mean_turnover": 0.6557126917492195,
+            "positive_month_fraction": 0.5774058577405857
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.15846914266011236,
+            "annualized_volatility": 0.22445011021806513,
+            "annualized_sharpe": 0.70603281284269,
+            "annualized_certainty_equivalent_gamma5": 0.03252451271785836,
+            "mean_turnover": 0.6557126917492195,
+            "positive_month_fraction": 0.5732217573221757
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.1466663142086264,
+            "annualized_volatility": 0.22448084412592106,
+            "annualized_sharpe": 0.653357816697958,
+            "annualized_certainty_equivalent_gamma5": 0.020687190759911246,
+            "mean_turnover": 0.6557126917492195,
+            "positive_month_fraction": 0.5648535564853556
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.12699493345614982,
+            "annualized_volatility": 0.22454048966898493,
+            "annualized_sharpe": 0.5655769863304577,
+            "annualized_certainty_equivalent_gamma5": 0.0009488547041809833,
+            "mean_turnover": 0.6557126917492195,
+            "positive_month_fraction": 0.5481171548117155
+          }
+        },
+        "value": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.07951440263540585,
+            "annualized_volatility": 0.2286646456579417,
+            "annualized_sharpe": 0.34773369712059043,
+            "annualized_certainty_equivalent_gamma5": -0.05120439779927426,
+            "mean_turnover": 0.7866385086271659,
+            "positive_month_fraction": 0.5648535564853556
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.07007474053187984,
+            "annualized_volatility": 0.22862171767183329,
+            "annualized_sharpe": 0.30650955318455825,
+            "annualized_certainty_equivalent_gamma5": -0.060594983946168836,
+            "mean_turnover": 0.7866385086271659,
+            "positive_month_fraction": 0.5564853556485355
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.05591524737659087,
+            "annualized_volatility": 0.22856613413381663,
+            "annualized_sharpe": 0.24463487379042184,
+            "annualized_certainty_equivalent_gamma5": -0.07469094680560381,
+            "mean_turnover": 0.7866385086271659,
+            "positive_month_fraction": 0.5439330543933054
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.03231609211777589,
+            "annualized_volatility": 0.22849700222105312,
+            "annualized_sharpe": 0.1414289544442801,
+            "annualized_certainty_equivalent_gamma5": -0.098211107942244,
+            "mean_turnover": 0.7866385086271659,
+            "positive_month_fraction": 0.5146443514644351
+          }
+        }
+      },
+      "rolling60": {
+        "equal": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.1910101490859665,
+            "annualized_volatility": 0.3129448899836759,
+            "annualized_sharpe": 0.6103635342821226,
+            "annualized_certainty_equivalent_gamma5": -0.053826111331271076,
+            "mean_turnover": 0.8462246265022282,
+            "positive_month_fraction": 0.6569037656903766
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.18085545356793975,
+            "annualized_volatility": 0.31291447653813953,
+            "annualized_sharpe": 0.577970874242682,
+            "annualized_certainty_equivalent_gamma5": -0.06393322049990502,
+            "mean_turnover": 0.8462246265022282,
+            "positive_month_fraction": 0.6485355648535565
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.1656234102908996,
+            "annualized_volatility": 0.31287287848452155,
+            "annualized_sharpe": 0.529363270773543,
+            "annualized_certainty_equivalent_gamma5": -0.07910018493707588,
+            "mean_turnover": 0.8462246265022282,
+            "positive_month_fraction": 0.6443514644351465
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.1402366714958328,
+            "annualized_volatility": 0.31281427865073325,
+            "annualized_sharpe": 0.4483064906778483,
+            "annualized_certainty_equivalent_gamma5": -0.10439526082361372,
+            "mean_turnover": 0.8462246265022282,
+            "positive_month_fraction": 0.6150627615062761
+          }
+        },
+        "value": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.07690530913095836,
+            "annualized_volatility": 0.2911843915230826,
+            "annualized_sharpe": 0.2641120587841054,
+            "annualized_certainty_equivalent_gamma5": -0.13506556553571133,
+            "mean_turnover": 1.0304025367743224,
+            "positive_month_fraction": 0.6108786610878661
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.06454047868966652,
+            "annualized_volatility": 0.2912665166360319,
+            "annualized_sharpe": 0.2215856440866377,
+            "annualized_certainty_equivalent_gamma5": -0.14754998059355318,
+            "mean_turnover": 1.0304025367743224,
+            "positive_month_fraction": 0.602510460251046
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.045993233027728696,
+            "annualized_volatility": 0.29139838596087975,
+            "annualized_sharpe": 0.1578362655512556,
+            "annualized_certainty_equivalent_gamma5": -0.16628931532378594,
+            "mean_turnover": 1.0304025367743224,
+            "positive_month_fraction": 0.5983263598326359
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.01508115692449901,
+            "annualized_volatility": 0.2916412836674026,
+            "annualized_sharpe": 0.05171132404456861,
+            "annualized_certainty_equivalent_gamma5": -0.19755543892342695,
+            "mean_turnover": 1.0304025367743224,
+            "positive_month_fraction": 0.5606694560669456
+          }
+        }
+      },
+      "expanding": {
+        "equal": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.23604547664844008,
+            "annualized_volatility": 0.23307941956038536,
+            "annualized_sharpe": 1.0127255211706336,
+            "annualized_certainty_equivalent_gamma5": 0.10023043709192467,
+            "mean_turnover": 0.681056118926523,
+            "positive_month_fraction": 0.698744769874477
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.22787280322132186,
+            "annualized_volatility": 0.2331135537098224,
+            "annualized_sharpe": 0.9775184651209762,
+            "annualized_certainty_equivalent_gamma5": 0.09201798091326623,
+            "mean_turnover": 0.681056118926523,
+            "positive_month_fraction": 0.6903765690376569
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.2156137930806445,
+            "annualized_volatility": 0.23316725185767503,
+            "annualized_sharpe": 0.9247173064091129,
+            "annualized_certainty_equivalent_gamma5": 0.07969637473349334,
+            "mean_turnover": 0.681056118926523,
+            "positive_month_fraction": 0.6736401673640168
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.19518210951284876,
+            "annualized_volatility": 0.23326340205333354,
+            "annualized_sharpe": 0.8367455322812368,
+            "annualized_certainty_equivalent_gamma5": 0.059152572669110934,
+            "mean_turnover": 0.681056118926523,
+            "positive_month_fraction": 0.6569037656903766
+          }
+        },
+        "value": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.10151801589576351,
+            "annualized_volatility": 0.209291444127782,
+            "annualized_sharpe": 0.485055738034767,
+            "annualized_certainty_equivalent_gamma5": -0.00798925556696773,
+            "mean_turnover": 0.7449878100842593,
+            "positive_month_fraction": 0.5857740585774058
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.0925781621747524,
+            "annualized_volatility": 0.20930502412763996,
+            "annualized_sharpe": 0.4423121831910527,
+            "annualized_certainty_equivalent_gamma5": -0.016943320637927486,
+            "mean_turnover": 0.7449878100842593,
+            "positive_month_fraction": 0.5732217573221757
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.07916838159323575,
+            "annualized_volatility": 0.2093314891141066,
+            "annualized_sharpe": 0.37819623759558246,
+            "annualized_certainty_equivalent_gamma5": -0.03038079924358758,
+            "mean_turnover": 0.7449878100842593,
+            "positive_month_fraction": 0.5523012552301255
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.05681874729070797,
+            "annualized_volatility": 0.20939184340209335,
+            "annualized_sharpe": 0.2713512922353877,
+            "annualized_certainty_equivalent_gamma5": -0.05279361291760901,
+            "mean_turnover": 0.7449878100842593,
+            "positive_month_fraction": 0.5313807531380753
+          }
+        }
+      }
+    },
+    "tree": {
+      "frozen": {
+        "equal": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.09674745612468341,
+            "annualized_volatility": 0.30428285172616154,
+            "annualized_sharpe": 0.31795237745356414,
+            "annualized_certainty_equivalent_gamma5": -0.13472267851182967,
+            "mean_turnover": 0.9551509330574577,
+            "positive_month_fraction": 0.5523012552301255
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.08528564492799393,
+            "annualized_volatility": 0.304322334993067,
+            "annualized_sharpe": 0.2802477344620035,
+            "annualized_certainty_equivalent_gamma5": -0.14624456401108732,
+            "mean_turnover": 0.9551509330574577,
+            "positive_month_fraction": 0.5439330543933054
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.06809292813295968,
+            "annualized_volatility": 0.3043943315454837,
+            "annualized_sharpe": 0.22369972458828458,
+            "annualized_certainty_equivalent_gamma5": -0.16354684455959492,
+            "mean_turnover": 0.9551509330574577,
+            "positive_month_fraction": 0.5230125523012552
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.039438400141235966,
+            "annualized_volatility": 0.30454835527208723,
+            "annualized_sharpe": 0.12949799090525776,
+            "annualized_certainty_equivalent_gamma5": -0.19243585160609775,
+            "mean_turnover": 0.9551509330574577,
+            "positive_month_fraction": 0.497907949790795
+          }
+        },
+        "value": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.0691684476889044,
+            "annualized_volatility": 0.3186367894930231,
+            "annualized_sharpe": 0.217076150556742,
+            "annualized_certainty_equivalent_gamma5": -0.18465506135714843,
+            "mean_turnover": 1.029710285920153,
+            "positive_month_fraction": 0.5648535564853556
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.056811924257862585,
+            "annualized_volatility": 0.31861042756371094,
+            "annualized_sharpe": 0.17831156592168404,
+            "annualized_certainty_equivalent_gamma5": -0.1969695871229642,
+            "mean_turnover": 1.029710285920153,
+            "positive_month_fraction": 0.5523012552301255
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.03827713911129985,
+            "annualized_volatility": 0.31858830577330693,
+            "annualized_sharpe": 0.1201460895383151,
+            "annualized_certainty_equivalent_gamma5": -0.21546913232746556,
+            "mean_turnover": 1.029710285920153,
+            "positive_month_fraction": 0.5271966527196653
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.0073858305336952455,
+            "annualized_volatility": 0.3185979006108294,
+            "annualized_sharpe": 0.02318229504819341,
+            "annualized_certainty_equivalent_gamma5": -0.2463757251503746,
+            "mean_turnover": 1.029710285920153,
+            "positive_month_fraction": 0.502092050209205
+          }
+        }
+      },
+      "rolling60": {
+        "equal": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.07150733142323451,
+            "annualized_volatility": 0.28329956409633766,
+            "annualized_sharpe": 0.2524089002795572,
+            "annualized_certainty_equivalent_gamma5": -0.12913927611970286,
+            "mean_turnover": 1.1237919708697575,
+            "positive_month_fraction": 0.5732217573221757
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.058021827772797414,
+            "annualized_volatility": 0.28325724488195864,
+            "annualized_sharpe": 0.2048379302600954,
+            "annualized_certainty_equivalent_gamma5": -0.1425648391724973,
+            "mean_turnover": 1.1237919708697575,
+            "positive_month_fraction": 0.5564853556485355
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.03779357229714181,
+            "annualized_volatility": 0.2832029319599829,
+            "annualized_sharpe": 0.13345049797182926,
+            "annualized_certainty_equivalent_gamma5": -0.16271617937968505,
+            "mean_turnover": 1.1237919708697575,
+            "positive_month_fraction": 0.5439330543933054
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.004079813171049057,
+            "annualized_volatility": 0.283136867659938,
+            "annualized_sharpe": 0.014409332153625162,
+            "annualized_certainty_equivalent_gamma5": -0.19633640139965403,
+            "mean_turnover": 1.1237919708697575,
+            "positive_month_fraction": 0.5104602510460251
+          }
+        },
+        "value": {
+          "0": {
+            "months": 239,
+            "annualized_mean": -0.07675041144389295,
+            "annualized_volatility": 0.3135829813695794,
+            "annualized_sharpe": -0.2447531148172778,
+            "annualized_certainty_equivalent_gamma5": -0.3225861269554779,
+            "mean_turnover": 1.3240848527678188,
+            "positive_month_fraction": 0.5146443514644351
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": -0.0926394296771068,
+            "annualized_volatility": 0.3135742121932756,
+            "annualized_sharpe": -0.2954306383460106,
+            "annualized_certainty_equivalent_gamma5": -0.3384613960586904,
+            "mean_turnover": 1.3240848527678188,
+            "positive_month_fraction": 0.502092050209205
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": -0.11647295702692753,
+            "annualized_volatility": 0.31357354429764295,
+            "annualized_sharpe": -0.37143744791292654,
+            "annualized_certainty_equivalent_gamma5": -0.36229387623539216,
+            "mean_turnover": 1.3240848527678188,
+            "positive_month_fraction": 0.4811715481171548
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": -0.1561955026099621,
+            "annualized_volatility": 0.31360572569918954,
+            "annualized_sharpe": -0.4980632999021986,
+            "annualized_certainty_equivalent_gamma5": -0.40206688058825035,
+            "mean_turnover": 1.3240848527678188,
+            "positive_month_fraction": 0.45188284518828453
+          }
+        }
+      },
+      "expanding": {
+        "equal": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.07502660993954487,
+            "annualized_volatility": 0.2824341784093368,
+            "annualized_sharpe": 0.26564281406058254,
+            "annualized_certainty_equivalent_gamma5": -0.1243960528948479,
+            "mean_turnover": 1.0370264507966112,
+            "positive_month_fraction": 0.5857740585774058
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.06258229252998551,
+            "annualized_volatility": 0.2823394684723467,
+            "annualized_sharpe": 0.22165619588575172,
+            "annualized_certainty_equivalent_gamma5": -0.13670664611313266,
+            "mean_turnover": 1.0370264507966112,
+            "positive_month_fraction": 0.5732217573221757
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": 0.04391581641564651,
+            "annualized_volatility": 0.28221282016936877,
+            "annualized_sharpe": 0.15561240764785464,
+            "annualized_certainty_equivalent_gamma5": -0.15519437325422467,
+            "mean_turnover": 1.0370264507966112,
+            "positive_month_fraction": 0.5523012552301255
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": 0.012805022891748181,
+            "annualized_volatility": 0.2820429098920225,
+            "annualized_sharpe": 0.045400974258315734,
+            "annualized_certainty_equivalent_gamma5": -0.18606548465915076,
+            "mean_turnover": 1.0370264507966112,
+            "positive_month_fraction": 0.5188284518828452
+          }
+        },
+        "value": {
+          "0": {
+            "months": 239,
+            "annualized_mean": 0.03285157900101317,
+            "annualized_volatility": 0.29823819128673856,
+            "annualized_sharpe": 0.11015215341561767,
+            "annualized_certainty_equivalent_gamma5": -0.18951346785395007,
+            "mean_turnover": 1.1482263570430897,
+            "positive_month_fraction": 0.5271966527196653
+          },
+          "10": {
+            "months": 239,
+            "annualized_mean": 0.01907286271649611,
+            "annualized_volatility": 0.2981922448131635,
+            "annualized_sharpe": 0.06396163229679723,
+            "annualized_certainty_equivalent_gamma5": -0.203223674450288,
+            "mean_turnover": 1.1482263570430897,
+            "positive_month_fraction": 0.5062761506276151
+          },
+          "25": {
+            "months": 239,
+            "annualized_mean": -0.0015952117102794915,
+            "annualized_volatility": 0.29814239780306123,
+            "annualized_sharpe": -0.0053505027196206175,
+            "annualized_certainty_equivalent_gamma5": -0.22381743512967656,
+            "mean_turnover": 1.1482263570430897,
+            "positive_month_fraction": 0.49372384937238495
+          },
+          "50": {
+            "months": 239,
+            "annualized_mean": -0.036042002421572204,
+            "annualized_volatility": 0.29811020508089714,
+            "annualized_sharpe": -0.12090160553809826,
+            "annualized_certainty_equivalent_gamma5": -0.2582162383550087,
+            "mean_turnover": 1.1482263570430897,
+            "positive_month_fraction": 0.4769874476987448
+          }
+        }
+      }
+    }
+  },
+  "primary_net_return_inference": {
+    "neural:rolling60_minus_frozen": {
+      "estimate": -0.011359691521557703,
+      "basic_ci95": [
+        -0.019444065869418648,
+        -0.0019263994577849372
+      ],
+      "p_two_sided_centered": 0.0122,
+      "p_holm": 0.0732
+    },
+    "neural:expanding_minus_frozen": {
+      "estimate": 8.594964859083982e-05,
+      "basic_ci95": [
+        -0.004452945733588047,
+        0.004895454911149999
+      ],
+      "p_two_sided_centered": 0.9727,
+      "p_holm": 1.0
+    },
+    "ridge:rolling60_minus_frozen": {
+      "estimate": -0.0008268345290718479,
+      "basic_ci95": [
+        -0.010137200999423274,
+        0.010275522116631975
+      ],
+      "p_two_sided_centered": 0.8767,
+      "p_holm": 1.0
+    },
+    "ridge:expanding_minus_frozen": {
+      "estimate": 0.0019377611847204064,
+      "basic_ci95": [
+        -0.001589686629822658,
+        0.005705495376364266
+      ],
+      "p_two_sided_centered": 0.2908,
+      "p_holm": 1.0
+    },
+    "tree:rolling60_minus_frozen": {
+      "estimate": -0.01289584134485228,
+      "basic_ci95": [
+        -0.03097289521840946,
+        0.003776992590195264
+      ],
+      "p_two_sided_centered": 0.1375,
+      "p_holm": 0.6875
+    },
+    "tree:expanding_minus_frozen": {
+      "estimate": -0.0033226959017982776,
+      "basic_ci95": [
+        -0.012040742278121,
+        0.004936618048301459
+      ],
+      "p_two_sided_centered": 0.432,
+      "p_holm": 1.0
+    }
+  },
+  "archive_verification": "pass"
+}

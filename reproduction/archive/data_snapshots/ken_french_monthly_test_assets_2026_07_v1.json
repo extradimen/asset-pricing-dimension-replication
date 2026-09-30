@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "ken-french-monthly-test-assets-2026-07-v1",
+  "retrieved_at": "2026-09-24T09:58:00+08:00",
+  "source_page": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+  "source_note": "Each downloaded file states that it was created using the 202607 CRSP database.",
+  "files": [
+    {
+      "role": "25_size_book_to_market_portfolios",
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_5x5_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-monthly-2026-07/25_Portfolios_5x5_CSV.zip",
+      "sha256": "a6522ad4ea890fafb3971938292844e256128de0e2f6929166ff2f0f7d0d573a"
+    },
+    {
+      "role": "49_industry_portfolios",
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/49_Industry_Portfolios_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-monthly-2026-07/49_Industry_Portfolios_CSV.zip",
+      "sha256": "b197eab1059757f3cfa2b92fd520197372237104d3d46a3000c8061e5066a302"
+    },
+    {
+      "role": "ff5_monthly",
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-monthly-2026-07/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+      "sha256": "b8653b411cc5e28917e7ef643bb42f6d2d3703f84bc170eb6ae38d5267c65807"
+    },
+    {
+      "role": "momentum_monthly",
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-monthly-2026-07/F-F_Momentum_Factor_CSV.zip",
+      "sha256": "7ee14e892b0f7044902fdbc4e25cfaf175b73d4eda0ae6f4a0354a4433afe065"
+    }
+  ],
+  "license_note": "Official public research downloads; retain attribution and source hashes."
+}

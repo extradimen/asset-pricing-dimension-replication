@@ -1,0 +1,520 @@
+{
+  "key": "feng2026stepwise",
+  "submitted": {
+    "key": "feng2026stepwise",
+    "type": "article",
+    "fields": {
+      "author": "Feng, Guanhao and Lan, Wei and Wang, Hansheng and Zhang, Jun",
+      "title": "Selecting and Testing Asset-Pricing Models: A Stepwise Approach",
+      "journal": "Management Science",
+      "year": "2026",
+      "doi": "10.1287/mnsc.2024.07804"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1287/mnsc.2024.07804",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            18
+          ]
+        ],
+        "date-time": "2026-09-18T00:37:20Z",
+        "timestamp": 1789691840156,
+        "version": "4.0.1"
+      },
+      "reference-count": 58,
+      "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Management Science"
+      ],
+      "abstract": "<jats:p>The asset-pricing literature emphasizes factor models that minimize pricing errors but overlooks unselected candidate factors that could enhance the performance of test assets. This paper proposes a framework for factor model selection and testing by (i) selecting the optimal model that spans the joint efficient frontier of test assets and all candidate factors and (ii) testing pricing performance on both test assets and unselected candidate factors. Our framework updates a baseline model (e.g., capital asset-pricing model) sequentially by adding or removing factors based on asset-pricing tests. Ensuring model selection consistency, our framework utilizes the asset-pricing duality; minimizing cross-sectionally unexplained pricing errors aligns with maximizing the Sharpe ratio of the selected factor model. Empirical evidence shows that workhorse factor models fail asset-pricing tests, whereas our proposed eight-factor model is not rejected and exhibits robust out-of-sample performance.</jats:p>\n                  <jats:p>This paper was accepted by Lukas Schmid, finance.</jats:p>\n                  <jats:p>Funding: G. Feng acknowledges financial support from the Hong Kong Research Grants Council [Grant GRF11502023] and the National Natural Science Foundation of China [Grant 72203190]. G. Feng is partially supported by the InnoHK Initiative of the Innovation and Technology Commission of the Hong Kong SAR and the Laboratory for AI-Powered Financial Technologies. The research of W. Lan was supported by the National Key R&amp;D Program of China [Grant 2022YFA1003702]; the National Natural Science Foundation of China [Grants 72422020, 72333001, and 12531011]; and the Joint Lab of Data Science and Business Intelligence at Southwestern University of Finance and Economics. The research of H. Wang was partially supported by the National Natural Science Foundation of China [Grants 72495123 and 12271012].</jats:p>\n                  <jats:p>Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07804 .</jats:p>",
+      "DOI": "10.1287/mnsc.2024.07804",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2026-06-02T17:02:31Z",
+        "timestamp": 1780419751000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Selecting and Testing Asset-Pricing Models: A Stepwise Approach"
+      ],
+      "prefix": "10.1287",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5907-6814",
+          "authenticated-orcid": false,
+          "given": "Guanhao",
+          "family": "Feng",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "City University of Hong Kong, Kowloon 999077, Hong Kong SAR"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4738-5222",
+          "authenticated-orcid": false,
+          "given": "Wei",
+          "family": "Lan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory for Data Intelligence and Innovation in Finance and Economics, Center of Statistical Research, Southwestern University of Finance and Economics, Chengdu 611130, China; and Big Data Laboratory on Financial Security and Behavior (MOE Philosophy and Social Sciences Laboratory), Southwestern University of Finance and Economics, Chengdu 611130, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2386-0209",
+          "authenticated-orcid": false,
+          "given": "Hansheng",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Guanghua School of Management, Peking University, Beijing 100871, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-2676-0300",
+          "authenticated-orcid": false,
+          "given": "Jun",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Statistics and Data Science, Southeast University, Nanjing 211189, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "109",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "B1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0022109018000947"
+        },
+        {
+          "key": "B2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3905/jpm.2013.39.4.049"
+        },
+        {
+          "key": "B3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13226"
+        },
+        {
+          "key": "B4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhw101"
+        },
+        {
+          "key": "B5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12607"
+        },
+        {
+          "key": "B6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0022109019000589"
+        },
+        {
+          "key": "B7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/009053607000000631"
+        },
+        {
+          "key": "B8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13197"
+        },
+        {
+          "key": "B9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13477"
+        },
+        {
+          "key": "B10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/biomet/asn034"
+        },
+        {
+          "key": "B11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/mnsc.2023.4695"
+        },
+        {
+          "key": "B12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chernov M, Kelly BT, Malamud S, Schwab J (2025) A test of the efficiency of a given portfolio in high dimensions. NBER Working Paper No. 33565, National Bureau of Economic Research, Cambridge, MA.",
+          "DOI": "10.3386/w33565"
+        },
+        {
+          "key": "B13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07350015.2019.1573684"
+        },
+        {
+          "key": "B14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/mnsc.2023.4668"
+        },
+        {
+          "key": "B15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chib S, Feng G, He J, Zhang Q (2025) Beyond beta pricing: SDF selection from Euler-restricted traded–nontraded factor–return models. Preprint, submitted February 1, http://dx.doi.org/10.2139/ssrn.5290174.",
+          "DOI": "10.2139/ssrn.5290174"
+        },
+        {
+          "key": "B16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa018"
+        },
+        {
+          "key": "B17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2011.01671.x"
+        },
+        {
+          "key": "B18",
+          "author": "Cong LW",
+          "year": "2025",
+          "journal-title": "J. Financial Econom., ePub ahead of print February 18"
+        },
+        {
+          "key": "B19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cui L, Feng G, Hong Y, Yang J (2023) Do asset pricing models change over time? Preprint, submitted April 1, http://dx.doi.org/10.2139/ssrn.4431543.",
+          "DOI": "10.2139/ssrn.4431543"
+        },
+        {
+          "key": "B20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhz069"
+        },
+        {
+          "key": "B21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13225"
+        },
+        {
+          "key": "B22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(93)90023-5"
+        },
+        {
+          "key": "B23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1996.tb05202.x"
+        },
+        {
+          "key": "B24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2014.10.010"
+        },
+        {
+          "key": "B25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2018.02.012"
+        },
+        {
+          "key": "B26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1467-9868.2008.00674.x"
+        },
+        {
+          "key": "B27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/11-AOS944"
+        },
+        {
+          "key": "B28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3982/ECTA12749"
+        },
+        {
+          "key": "B29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12883"
+        },
+        {
+          "key": "B30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0022109023000893"
+        },
+        {
+          "key": "B31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2021.07.011"
+        },
+        {
+          "key": "B32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913625"
+        },
+        {
+          "key": "B33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhx019"
+        },
+        {
+          "key": "B34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2020.07.009"
+        },
+        {
+          "key": "B35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2021.04.014"
+        },
+        {
+          "key": "B36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhv059"
+        },
+        {
+          "key": "B37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/fima.12436"
+        },
+        {
+          "key": "B38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/mnsc.2022.4563"
+        },
+        {
+          "key": "B39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhy131"
+        },
+        {
+          "key": "B40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rof/rfy032"
+        },
+        {
+          "key": "B41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rof/rfaa004"
+        },
+        {
+          "key": "B42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhu080"
+        },
+        {
+          "key": "B43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/mnsc.2021.4020"
+        },
+        {
+          "key": "B44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1993.tb04702.x"
+        },
+        {
+          "key": "B45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13249"
+        },
+        {
+          "key": "B46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13233"
+        },
+        {
+          "key": "B47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.05.001"
+        },
+        {
+          "key": "B48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa102"
+        },
+        {
+          "key": "B49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12612"
+        },
+        {
+          "key": "B50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.06.008"
+        },
+        {
+          "key": "B51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2019.08.012"
+        },
+        {
+          "key": "B52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa020"
+        },
+        {
+          "key": "B53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2009.09.001"
+        },
+        {
+          "key": "B54",
+          "author": "Li S",
+          "year": "2024",
+          "journal-title": "J. Financial Econom., ePub ahead of print September 21"
+        },
+        {
+          "key": "B55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jjfinec/nbad002"
+        },
+        {
+          "key": "B56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1198/jasa.2008.tm08516"
+        },
+        {
+          "key": "B57",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang J, Lan W, Feng L, Feng G (2025a) Testing asset pricing factor models: An out-of-sample perspective. Preprint, submitted July 11, http://dx.doi.org/10.2139/ssrn.5347838.",
+          "DOI": "10.2139/ssrn.5347838"
+        },
+        {
+          "key": "B58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang J, Pu D, Lan W, Feng G (2025b) Testing alphas in linear factor models: A portfolio approach. Preprint, submitted March 11, http://dx.doi.org/10.2139/ssrn.5174583.",
+          "DOI": "10.2139/ssrn.5177284"
+        }
+      ],
+      "container-title": [
+        "Management Science"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://pubsonline.informs.org/doi/pdf/10.1287/mnsc.2024.07804",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2026-06-02T17:02:36Z",
+        "timestamp": 1780419756000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.07804"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ]
+      },
+      "references-count": 58,
+      "alternative-id": [
+        "10.1287/mnsc.2024.07804"
+      ],
+      "URL": "https://doi.org/10.1287/mnsc.2024.07804",
+      "relation": {},
+      "ISSN": [
+        "0025-1909",
+        "1526-5501"
+      ],
+      "issn-type": [
+        {
+          "value": "0025-1909",
+          "type": "print"
+        },
+        {
+          "value": "1526-5501",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ]
+      },
+      "article-number": "mnsc.2024.07804"
+    }
+  }
+}

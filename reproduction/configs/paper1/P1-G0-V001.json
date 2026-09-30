@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V001",
+  "parent_experiment_id": null,
+  "paper": 1,
+  "generation": "G0",
+  "status": "frozen_baseline",
+  "evidence_class": "design_and_data_audit",
+  "research_question": "Build and validate the point-in-time US equity monthly panel for the economic compressibility study.",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v1",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Initial archived baseline after WRDS source-data audit and research-design review.",
+  "entrypoint": null
+}

@@ -1,0 +1,216 @@
+{
+  "experiment_id": "P3-TOP-SEQ001",
+  "scope": "First locked internal promotion test of a causal common-break update switch. The 2010-2019 period has informed the broader research program and is not an untouched confirmation sample; it is used only to decide whether the fully locked rule merits one later-period test.",
+  "claim_boundary": "Even a pass is internal promotion evidence, not independent confirmation. Only a separately executed 2020-2025 run with unchanged detector and economic gate can support an out-of-sample claim.",
+  "archive_verification": "pass",
+  "detector": {
+    "development_months": 119,
+    "monitor_months": 120,
+    "series": [
+      "neural:rolling60",
+      "neural:expanding",
+      "ridge:rolling60",
+      "ridge:expanding",
+      "tree:rolling60",
+      "tree:expanding"
+    ],
+    "reference_shift_sigma": 0.25,
+    "threshold": 5.617777775532913,
+    "null_maximum_95pct": 5.617777775532913,
+    "crossing_month": 201808,
+    "first_active_month": 201809,
+    "active_months": 16
+  },
+  "switched_results": {
+    "neural": {
+      "rolling60": {
+        "switched_minus_frozen_loss": -4.810261901850795e-05,
+        "full_minus_frozen_loss": -0.00025238584160606787,
+        "improvement_vs_frozen": 4.810261901850795e-05,
+        "improvement_vs_full": -0.0002042832225875599,
+        "active_months": 16
+      },
+      "expanding": {
+        "switched_minus_frozen_loss": 6.722738618078024e-05,
+        "full_minus_frozen_loss": 9.355804981523553e-05,
+        "improvement_vs_frozen": -6.722738618078024e-05,
+        "improvement_vs_full": 2.6330663634455295e-05,
+        "active_months": 16
+      }
+    },
+    "ridge": {
+      "rolling60": {
+        "switched_minus_frozen_loss": 0.00012033872321434491,
+        "full_minus_frozen_loss": 1.3483213603831859e-05,
+        "improvement_vs_frozen": -0.00012033872321434491,
+        "improvement_vs_full": -0.00010685550961051308,
+        "active_months": 16
+      },
+      "expanding": {
+        "switched_minus_frozen_loss": 2.8311416294475905e-05,
+        "full_minus_frozen_loss": -0.00033098875042950553,
+        "improvement_vs_frozen": -2.8311416294475905e-05,
+        "improvement_vs_full": -0.00035930016672398147,
+        "active_months": 16
+      }
+    },
+    "tree": {
+      "rolling60": {
+        "switched_minus_frozen_loss": 0.00043036647534212466,
+        "full_minus_frozen_loss": -0.0008725312255854032,
+        "improvement_vs_frozen": -0.00043036647534212466,
+        "improvement_vs_full": -0.0013028977009275277,
+        "active_months": 16
+      },
+      "expanding": {
+        "switched_minus_frozen_loss": -0.0002714416678413273,
+        "full_minus_frozen_loss": -0.0016496095820385396,
+        "improvement_vs_frozen": 0.0002714416678413273,
+        "improvement_vs_full": -0.001378167914197212,
+        "active_months": 16
+      }
+    }
+  },
+  "primary_inference": {
+    "neural:vs_frozen": {
+      "estimate": 4.810261901850795e-05,
+      "basic_ci95": [
+        -7.934341193606485e-05,
+        0.00012398757079491656
+      ],
+      "p_two_sided_centered": 0.4298,
+      "leave_one_year_out": {
+        "2010": 5.344735446500882e-05,
+        "2011": 5.344735446500882e-05,
+        "2012": 5.344735446500882e-05,
+        "2013": 5.344735446500882e-05,
+        "2014": 5.344735446500882e-05,
+        "2015": 5.344735446500882e-05,
+        "2016": 5.344735446500882e-05,
+        "2017": 5.344735446500882e-05,
+        "2018": 7.367805543194654e-05,
+        "2019": -2.0230700966937735e-05
+      },
+      "p_holm": 1.0,
+      "positive_all_leave_one_year_out": false,
+      "strict_pass": false
+    },
+    "neural:vs_full": {
+      "estimate": -0.0002042832225875599,
+      "basic_ci95": [
+        -0.00035833968234922443,
+        -5.2058728406380116e-05
+      ],
+      "p_two_sided_centered": 0.0081,
+      "leave_one_year_out": {
+        "2010": -0.00023898609806735337,
+        "2011": -0.00017564784047607014,
+        "2012": -0.00022614906163761185,
+        "2013": -0.00020803412016102697,
+        "2014": -0.00017072880120663677,
+        "2015": -0.00021615542758976619,
+        "2016": -0.00018735597657010928,
+        "2017": -0.0001894766801708539,
+        "2018": -0.00020331686156554836,
+        "2019": -0.0002269813584306221
+      },
+      "p_holm": 0.040499999999999994,
+      "positive_all_leave_one_year_out": false,
+      "strict_pass": false
+    },
+    "ridge:vs_frozen": {
+      "estimate": -0.00012033872321434491,
+      "basic_ci95": [
+        -0.00038090182697601355,
+        0.00027979219994427534
+      ],
+      "p_two_sided_centered": 0.5413,
+      "leave_one_year_out": {
+        "2010": -0.00013370969246038323,
+        "2011": -0.00013370969246038323,
+        "2012": -0.00013370969246038323,
+        "2013": -0.00013370969246038323,
+        "2014": -0.00013370969246038323,
+        "2015": -0.00013370969246038323,
+        "2016": -0.00013370969246038323,
+        "2017": -0.00013370969246038323,
+        "2018": 0.00011715980404986081,
+        "2019": -0.000250869496510244
+      },
+      "p_holm": 1.0,
+      "positive_all_leave_one_year_out": false,
+      "strict_pass": false
+    },
+    "ridge:vs_full": {
+      "estimate": -0.00010685550961051308,
+      "basic_ci95": [
+        -0.0009376161275398785,
+        0.0005378464699407492
+      ],
+      "p_two_sided_centered": 0.7844,
+      "leave_one_year_out": {
+        "2010": -0.0004300409582010139,
+        "2011": -6.68495317126199e-05,
+        "2012": -0.000180177664811625,
+        "2013": -7.926645437299109e-05,
+        "2014": 5.003263248094806e-05,
+        "2015": -9.504279603960251e-05,
+        "2016": -7.678465755739725e-05,
+        "2017": -3.208775384946248e-05,
+        "2018": -3.960956802968543e-05,
+        "2019": -0.0001187283440116812
+      },
+      "p_holm": 1.0,
+      "positive_all_leave_one_year_out": false,
+      "strict_pass": false
+    },
+    "tree:vs_frozen": {
+      "estimate": -0.00043036647534212466,
+      "basic_ci95": [
+        -0.0009255566842951622,
+        0.000461562357372467
+      ],
+      "p_two_sided_centered": 0.3105,
+      "leave_one_year_out": {
+        "2010": -0.0004781849726023608,
+        "2011": -0.0004781849726023608,
+        "2012": -0.0004781849726023608,
+        "2013": -0.0004781849726023608,
+        "2014": -0.0004781849726023608,
+        "2015": -0.0004781849726023608,
+        "2016": -0.0004781849726023608,
+        "2017": -0.0004781849726023608,
+        "2018": -0.0004955149041002358,
+        "2019": 1.7329931497875104e-05
+      },
+      "p_holm": 1.0,
+      "positive_all_leave_one_year_out": false,
+      "strict_pass": false
+    },
+    "tree:vs_full": {
+      "estimate": -0.0013028977009275277,
+      "basic_ci95": [
+        -0.0020675326909022824,
+        -0.0005674449105385392
+      ],
+      "p_two_sided_centered": 0.0003,
+      "leave_one_year_out": {
+        "2010": -0.001353650815889707,
+        "2011": -0.001070497424764346,
+        "2012": -0.0014020747654676054,
+        "2013": -0.0016119023219722786,
+        "2014": -0.0011430032764108455,
+        "2015": -0.0012641625866026778,
+        "2016": -0.001135961979061322,
+        "2017": -0.0013005733531345502,
+        "2018": -0.0012994863738302474,
+        "2019": -0.0014476641121416974
+      },
+      "p_holm": 0.0018,
+      "positive_all_leave_one_year_out": false,
+      "strict_pass": false
+    }
+  },
+  "statistical_promotion_gate_pass": false,
+  "next_action": "close this sequential detector without revision; do not access 2020-2025 model outcomes"
+}

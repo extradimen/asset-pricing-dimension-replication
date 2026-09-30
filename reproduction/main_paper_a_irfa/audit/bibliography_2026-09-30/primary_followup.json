@@ -1,0 +1,15 @@
+{
+  "ahn2013eigenvalue": {
+    "url": "https://doi.org/10.3982/ECTA8968",
+    "verified": "Wiley primary page: Seung C. Ahn, Alex R. Horenstein; 81(3), 1203\u20131227, 2013"
+  },
+  "yang2007cv": {
+    "url": "https://experts.umn.edu/en/publications/consistency-of-cross-validation-for-comparing-regression-procedur-2/",
+    "verified": "Author institutional record: 35(6), 2450\u20132473, December 2007"
+  },
+  "levina2005mle": {
+    "url": "https://proceedings.neurips.cc/paper/2004/hash/74934548253bcab8490ebd74afed7031-Abstract.html",
+    "verified": "NIPS 2004 conference; proceedings volume 17, print year 2005 retained with explicit note",
+    "corroboration": "https://www.imstat.org/publications/aihp/aihp_53_3/aihp_53_3.pdf"
+  }
+}

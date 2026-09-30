@@ -1,0 +1,421 @@
+{
+  "scope": "Frozen neural anchor and immutable yearly feature arrays only; no rolling/expanding claim. Historical paper2 hyperparameters selected using overlapping evaluation years, so this is exploratory despite fresh past-only weight training. Do not reuse paper2 checkpoints. All source sample-selection and preprocessing limitations of P3-STOCK-V001 remain.",
+  "source_rows": 2067433,
+  "evaluation": {
+    "months": 239,
+    "stock_months": 1043511,
+    "loss": {
+      "frozen": 0.03431341968562217,
+      "zero": 0.03440314077168921
+    },
+    "r2_against_zero": {
+      "frozen": 0.0026079329983986765
+    },
+    "relative_gain": {}
+  },
+  "seed_mse": {
+    "17": 0.034402501461836134,
+    "41": 0.03432983365928883,
+    "73": 0.03438362138882102,
+    "101": 0.0343853543679195,
+    "149": 0.03436651503900582
+  },
+  "by_environment": {
+    "A": {
+      "0": {
+        "months": 213,
+        "stock_months": 917315,
+        "loss": {
+          "frozen": 0.030949203770014293,
+          "zero": 0.030952297940505316
+        },
+        "r2_against_zero": {
+          "frozen": 9.996577627191527e-05
+        },
+        "relative_gain": {}
+      },
+      "1": {
+        "months": 26,
+        "stock_months": 126196,
+        "loss": {
+          "frozen": 0.06187411160964058,
+          "zero": 0.06267350704254188
+        },
+        "r2_against_zero": {
+          "frozen": 0.012754917837271784
+        },
+        "relative_gain": {}
+      }
+    },
+    "B1": {
+      "0": {
+        "months": 211,
+        "stock_months": 916396,
+        "loss": {
+          "frozen": 0.03151933995700585,
+          "zero": 0.031505095073617984
+        },
+        "r2_against_zero": {
+          "frozen": -0.00045214538647098124
+        },
+        "relative_gain": {}
+      },
+      "1": {
+        "months": 28,
+        "stock_months": 127115,
+        "loss": {
+          "frozen": 0.055368806211980856,
+          "zero": 0.05624198513929739
+        },
+        "r2_against_zero": {
+          "frozen": 0.01552539308763523
+        },
+        "relative_gain": {}
+      }
+    },
+    "B2": {
+      "0": {
+        "months": 173,
+        "stock_months": 755994,
+        "loss": {
+          "frozen": 0.02980129595631669,
+          "zero": 0.029709538985214813
+        },
+        "r2_against_zero": {
+          "frozen": -0.0030884683585141737
+        },
+        "relative_gain": {}
+      },
+      "1": {
+        "months": 66,
+        "stock_months": 287517,
+        "loss": {
+          "frozen": 0.046140653097286544,
+          "zero": 0.04670606666653877
+        },
+        "r2_against_zero": {
+          "frozen": 0.012105784314681012
+        },
+        "relative_gain": {}
+      }
+    },
+    "C": {
+      "0": {
+        "months": 182,
+        "stock_months": 773853,
+        "loss": {
+          "frozen": 0.02815075022649933,
+          "zero": 0.028225347892877936
+        },
+        "r2_against_zero": {
+          "frozen": 0.0026429316889812204
+        },
+        "relative_gain": {}
+      },
+      "1": {
+        "months": 57,
+        "stock_months": 269658,
+        "loss": {
+          "frozen": 0.053990715151593344,
+          "zero": 0.054128725051402406
+        },
+        "r2_against_zero": {
+          "frozen": 0.0025496610104525086
+        },
+        "relative_gain": {}
+      }
+    }
+  },
+  "training": [
+    {
+      "seed": 17,
+      "seconds": 10.528033018112183,
+      "history": [
+        {
+          "epoch": 1,
+          "online_training_loss": 0.028508033092570984
+        },
+        {
+          "epoch": 2,
+          "online_training_loss": 0.028430570826500832
+        },
+        {
+          "epoch": 3,
+          "online_training_loss": 0.028338166194443057
+        },
+        {
+          "epoch": 4,
+          "online_training_loss": 0.028241401456225317
+        },
+        {
+          "epoch": 5,
+          "online_training_loss": 0.02816116624940073
+        },
+        {
+          "epoch": 6,
+          "online_training_loss": 0.028101066058658385
+        },
+        {
+          "epoch": 7,
+          "online_training_loss": 0.028054765617436084
+        },
+        {
+          "epoch": 8,
+          "online_training_loss": 0.02801605295113057
+        },
+        {
+          "epoch": 9,
+          "online_training_loss": 0.027981330132386434
+        },
+        {
+          "epoch": 10,
+          "online_training_loss": 0.027948174472953658
+        }
+      ]
+    },
+    {
+      "seed": 41,
+      "seconds": 9.823259115219116,
+      "history": [
+        {
+          "epoch": 1,
+          "online_training_loss": 0.028504131465574355
+        },
+        {
+          "epoch": 2,
+          "online_training_loss": 0.02842067112968268
+        },
+        {
+          "epoch": 3,
+          "online_training_loss": 0.028322529763569592
+        },
+        {
+          "epoch": 4,
+          "online_training_loss": 0.028216463420496985
+        },
+        {
+          "epoch": 5,
+          "online_training_loss": 0.028128568254817694
+        },
+        {
+          "epoch": 6,
+          "online_training_loss": 0.028065173073218586
+        },
+        {
+          "epoch": 7,
+          "online_training_loss": 0.028017229070816822
+        },
+        {
+          "epoch": 8,
+          "online_training_loss": 0.027976549525761764
+        },
+        {
+          "epoch": 9,
+          "online_training_loss": 0.027938998000739616
+        },
+        {
+          "epoch": 10,
+          "online_training_loss": 0.0279027388660314
+        }
+      ]
+    },
+    {
+      "seed": 73,
+      "seconds": 9.868722915649414,
+      "history": [
+        {
+          "epoch": 1,
+          "online_training_loss": 0.02850485284386386
+        },
+        {
+          "epoch": 2,
+          "online_training_loss": 0.02842003177316228
+        },
+        {
+          "epoch": 3,
+          "online_training_loss": 0.028312647241037717
+        },
+        {
+          "epoch": 4,
+          "online_training_loss": 0.028200869820635334
+        },
+        {
+          "epoch": 5,
+          "online_training_loss": 0.028113153702341655
+        },
+        {
+          "epoch": 6,
+          "online_training_loss": 0.028052842924772243
+        },
+        {
+          "epoch": 7,
+          "online_training_loss": 0.028008664711518496
+        },
+        {
+          "epoch": 8,
+          "online_training_loss": 0.027970597404505738
+        },
+        {
+          "epoch": 9,
+          "online_training_loss": 0.027934778740723084
+        },
+        {
+          "epoch": 10,
+          "online_training_loss": 0.02790014098367624
+        }
+      ]
+    },
+    {
+      "seed": 101,
+      "seconds": 13.138292789459229,
+      "history": [
+        {
+          "epoch": 1,
+          "online_training_loss": 0.02850494022847701
+        },
+        {
+          "epoch": 2,
+          "online_training_loss": 0.028433506849388772
+        },
+        {
+          "epoch": 3,
+          "online_training_loss": 0.028349219745645117
+        },
+        {
+          "epoch": 4,
+          "online_training_loss": 0.02824687496059654
+        },
+        {
+          "epoch": 5,
+          "online_training_loss": 0.0281513660552956
+        },
+        {
+          "epoch": 6,
+          "online_training_loss": 0.028077107568527746
+        },
+        {
+          "epoch": 7,
+          "online_training_loss": 0.028023736534738303
+        },
+        {
+          "epoch": 8,
+          "online_training_loss": 0.027979702225443562
+        },
+        {
+          "epoch": 9,
+          "online_training_loss": 0.02793995184137513
+        },
+        {
+          "epoch": 10,
+          "online_training_loss": 0.027901985150486773
+        }
+      ]
+    },
+    {
+      "seed": 149,
+      "seconds": 14.484296083450317,
+      "history": [
+        {
+          "epoch": 1,
+          "online_training_loss": 0.028507374459368462
+        },
+        {
+          "epoch": 2,
+          "online_training_loss": 0.028443453854754663
+        },
+        {
+          "epoch": 3,
+          "online_training_loss": 0.028362970638185242
+        },
+        {
+          "epoch": 4,
+          "online_training_loss": 0.028257375399572314
+        },
+        {
+          "epoch": 5,
+          "online_training_loss": 0.028158905875558547
+        },
+        {
+          "epoch": 6,
+          "online_training_loss": 0.02808757862425969
+        },
+        {
+          "epoch": 7,
+          "online_training_loss": 0.028037684269647034
+        },
+        {
+          "epoch": 8,
+          "online_training_loss": 0.02799725466358168
+        },
+        {
+          "epoch": 9,
+          "online_training_loss": 0.027960376894989276
+        },
+        {
+          "epoch": 10,
+          "online_training_loss": 0.027924987492520873
+        }
+      ]
+    }
+  ],
+  "year_rows": {
+    "1964": 12204,
+    "1965": 24739,
+    "1966": 25049,
+    "1967": 25156,
+    "1968": 25063,
+    "1969": 25892,
+    "1970": 27137,
+    "1971": 27957,
+    "1972": 29402,
+    "1973": 62488,
+    "1974": 57176,
+    "1975": 55189,
+    "1976": 55880,
+    "1977": 55909,
+    "1978": 54646,
+    "1979": 54119,
+    "1980": 54605,
+    "1981": 58394,
+    "1982": 60145,
+    "1983": 62424,
+    "1984": 68712,
+    "1985": 68364,
+    "1986": 69679,
+    "1987": 74201,
+    "1988": 73924,
+    "1989": 70864,
+    "1990": 69283,
+    "1991": 68034,
+    "1992": 69455,
+    "1993": 72537,
+    "1994": 78964,
+    "1995": 81018,
+    "1996": 85640,
+    "1997": 88823,
+    "1998": 86833,
+    "1999": 80926,
+    "2000": 78245,
+    "2001": 71398,
+    "2002": 64879,
+    "2003": 59992,
+    "2004": 57951,
+    "2005": 57268,
+    "2006": 56362,
+    "2007": 55430,
+    "2008": 53715,
+    "2009": 50063,
+    "2010": 48048,
+    "2011": 46238,
+    "2012": 44621,
+    "2013": 43547,
+    "2014": 44485,
+    "2015": 45074,
+    "2016": 43853,
+    "2017": 42996,
+    "2018": 42957,
+    "2019": 42991
+  },
+  "confirmation_period_accessed": false,
+  "rolling_and_expanding_run": false
+}

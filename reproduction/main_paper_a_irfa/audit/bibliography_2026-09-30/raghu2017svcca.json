@@ -1,0 +1,15 @@
+{
+  "key": "raghu2017svcca",
+  "submitted": {
+    "key": "raghu2017svcca",
+    "type": "inproceedings",
+    "fields": {
+      "author": "Raghu, Maithra and Gilmer, Justin and Yosinski, Jason and Sohl-Dickstein, Jascha",
+      "title": "{SVCCA}: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2017",
+      "volume": "30"
+    }
+  },
+  "status": "needs_primary_lookup"
+}

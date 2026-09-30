@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T09:40:15.578123+00:00",
+  "experiment_id": "P7-G1-V001",
+  "run_id": "P7-G1-V001-CPU-REPLAY001",
+  "inputs": [
+    {
+      "path": "./configs/paper7/P7-G1-V001.json",
+      "sha256": "ab1216d0b948a9498cca466eb49f4e2ad7e4e6dd24f514614ff0e921def90818"
+    },
+    {
+      "path": "./experiments/P7-G0-V003/P7-G0-V003-R001/paper7_representation_sample.npz",
+      "sha256": "a2daecc9c533fb7db61113c473c2e454dbb918e6c4c03f3244086e88f6599774"
+    },
+    {
+      "path": "./experiments/P1-G2-V001/checkpoint_manifest.json",
+      "sha256": "e25af61c57f485ed12d08c0faf438cac3a1082beb772b880a94ef3450a6b0274"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "monthly_geometry.csv",
+      "size_bytes": 7733340,
+      "sha256": "a1f6a61a281613aaca2f43515cfcc099ff20d91e0ad44c70636bd122d778c58b"
+    },
+    {
+      "path": "subspace_drift.csv",
+      "size_bytes": 1977203,
+      "sha256": "0a17fd40a2606ca83a596f96d0cd7be4a4072c9f231ffc86a173d170c23da684"
+    },
+    {
+      "path": "layer_cka.csv",
+      "size_bytes": 395131,
+      "sha256": "bb4447f6a4573ea4d4c11a272b109826473880f4451afc6eb04f295f7212495e"
+    },
+    {
+      "path": "model_geometry_endpoints.csv",
+      "size_bytes": 4616,
+      "sha256": "cf4a0434ece207f7b97cf5da8ec7e818f4f1fd5217274e056430a56b84468448"
+    },
+    {
+      "path": "functional_probe.json",
+      "size_bytes": 959,
+      "sha256": "ddc997c80f14b97421cc6a8194a198d7333828b406eace89d2f9a1abf0a35b3c"
+    },
+    {
+      "path": "quality_report.json",
+      "size_bytes": 1579,
+      "sha256": "19f4681c894af6d22c7ab208259d97c8c7f2c68c12facc868bd372bb8872409a"
+    },
+    {
+      "path": "environment.json",
+      "size_bytes": 237,
+      "sha256": "1788de7fb21b1a269644764f85f39612d96a8b98182c72a8cd1189bd581e96a3"
+    }
+  ]
+}

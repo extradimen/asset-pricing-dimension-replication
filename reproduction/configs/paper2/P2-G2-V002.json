@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P2-G2-V002",
+  "parent_input": "paper2-exposure-common-input-2026-09-25-v1",
+  "purpose": "Fit BL conditional-linear and BG additive linear-spline exposure models under the future daily-moment loss",
+  "factors": ["mkt_rf", "smb", "hml", "rmw", "cma", "mom"],
+  "models": {
+    "BL": "Linear in standardized company characteristics, missing indicators, public states, and eight frozen economic interactions",
+    "BG": "BL nested inside an additive piecewise-linear GAM with knots at -1, 0, and 1 training-standard deviations"
+  },
+  "interactions": [
+    ["x_beta", "z_market_realized_volatility_1m"],
+    ["x_idiovol", "z_market_realized_volatility_1m"],
+    ["x_mom12m", "z_mkt_rf_return_12m"],
+    ["x_bm", "z_hml_return_12m"],
+    ["x_roaq", "z_rmw_return_12m"],
+    ["x_agr", "z_cma_return_12m"],
+    ["x_mvel1", "z_market_realized_volatility_1m"],
+    ["x_lev", "z_market_realized_volatility_1m"]
+  ],
+  "spline_knots_standardized": [-1.0, 0.0, 1.0],
+  "objective": "Month-balanced future target-month demeaned daily return-factor quadratic loss; no single-month stock beta is treated as truth",
+  "optimizer": {
+    "learning_rate": 0.003,
+    "weight_decay": 0.0001,
+    "batch_size": 32768,
+    "maximum_epochs": 30,
+    "patience": 4,
+    "minimum_relative_improvement": 0.00001,
+    "loss_scale": 10000.0
+  },
+  "seed": 20260925,
+  "device": "cuda:0",
+  "physical_gpu_assignment": "CUDA_VISIBLE_DEVICES=1 on campus-vm",
+  "primary_comparison_sample": "Rows that are future-validation eligible and B0 eligible",
+  "confirmation_data_policy": "No feature month after 2019-11 and no target month after 2019-12 may enter fitting, selection, or evaluation"
+}

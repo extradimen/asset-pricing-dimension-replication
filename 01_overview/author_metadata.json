@@ -1,0 +1,46 @@
+{
+  "title": "Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use",
+  "authors": [
+    {
+      "given_name": "Jinpeng",
+      "family_name": "Wang",
+      "email": "wangjp@gcu.edu.cn",
+      "orcid": "0009-0003-7324-2211",
+      "corresponding": false,
+      "credit": [
+        "Conceptualization",
+        "Methodology",
+        "Software",
+        "Data curation",
+        "Formal analysis",
+        "Visualization",
+        "Writing – original draft",
+        "Writing – review & editing"
+      ]
+    },
+    {
+      "given_name": "Yan",
+      "family_name": "Jiang",
+      "email": "jiangyan@gcu.edu.cn",
+      "orcid": "0009-0004-0250-7486",
+      "corresponding": true,
+      "credit": [
+        "Supervision",
+        "Validation",
+        "Writing – original draft",
+        "Writing – review & editing"
+      ]
+    }
+  ],
+  "affiliation": {
+    "school": "International Business School",
+    "institution": "Guangzhou City University of Technology",
+    "address": "No. 1 Xuefu Road",
+    "city": "Guangzhou",
+    "postal_code": "510800",
+    "country": "China"
+  },
+  "funding": "None",
+  "competing_interests": "None",
+  "source": "Author details and contribution correction confirmed by user, 2026-09-30"
+}

@@ -1,0 +1,4798 @@
+[
+  {
+    "key": "gu2020empirical",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Empirical Asset Pricing via Machine Learning"
+      ],
+      "author": [
+        {
+          "given": "Shihao",
+          "family": "Gu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Booth School of Business, University of Chicago"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bryan",
+          "family": "Kelly",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Yale University, AQR Capital Management, and NBER"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dacheng",
+          "family": "Xiu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Booth School of Business, University of Chicago"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Review of Financial Studies"
+      ],
+      "volume": "33",
+      "issue": "5",
+      "page": "2223-2273",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            26
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            26
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhaa009",
+      "URL": "https://doi.org/10.1093/rfs/hhaa009"
+    },
+    "submitted": {
+      "author": "Gu, Shihao and Kelly, Bryan and Xiu, Dacheng",
+      "title": "Empirical Asset Pricing via Machine Learning",
+      "journal": "The Review of Financial Studies",
+      "year": "2020",
+      "volume": "33",
+      "number": "5",
+      "pages": "2223--2273",
+      "doi": "10.1093/rfs/hhaa009"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhaa009",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "kelly2019characteristics",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Characteristics are covariances: A unified model of risk and return"
+      ],
+      "author": [
+        {
+          "given": "Bryan T.",
+          "family": "Kelly",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Seth",
+          "family": "Pruitt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yinan",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Financial Economics"
+      ],
+      "volume": "134",
+      "issue": "3",
+      "page": "501-524",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/j.jfineco.2019.05.001",
+      "URL": "https://doi.org/10.1016/j.jfineco.2019.05.001"
+    },
+    "submitted": {
+      "author": "Kelly, Bryan and Pruitt, Seth and Su, Yinan",
+      "title": "Characteristics Are Covariances: A Unified Model of Risk and Return",
+      "journal": "Journal of Financial Economics",
+      "year": "2019",
+      "volume": "134",
+      "number": "3",
+      "pages": "501--524",
+      "doi": "10.1016/j.jfineco.2019.05.001"
+    },
+    "verification_source": "https://doi.org/10.1016/j.jfineco.2019.05.001",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "gu2021autoencoder",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Autoencoder asset pricing models"
+      ],
+      "author": [
+        {
+          "given": "Shihao",
+          "family": "Gu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bryan",
+          "family": "Kelly",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dacheng",
+          "family": "Xiu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Econometrics"
+      ],
+      "volume": "222",
+      "issue": "1",
+      "page": "429-450",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/j.jeconom.2020.07.009",
+      "URL": "https://doi.org/10.1016/j.jeconom.2020.07.009"
+    },
+    "submitted": {
+      "author": "Gu, Shihao and Kelly, Bryan and Xiu, Dacheng",
+      "title": "Autoencoder Asset Pricing Models",
+      "journal": "Journal of Econometrics",
+      "year": "2021",
+      "volume": "222",
+      "number": "1",
+      "pages": "429--450",
+      "doi": "10.1016/j.jeconom.2020.07.009"
+    },
+    "verification_source": "https://doi.org/10.1016/j.jeconom.2020.07.009",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "chen2024deep",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Deep Learning in Asset Pricing"
+      ],
+      "author": [
+        {
+          "given": "Luyang",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute for Computational and Mathematical Engineering, Stanford University, Stanford, California 94305;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7111-3588",
+          "authenticated-orcid": false,
+          "given": "Markus",
+          "family": "Pelger",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Management Science & Engineering, Stanford University, Stanford, California 94305"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jason",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Management Science & Engineering, Stanford University, Stanford, California 94305"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Management Science"
+      ],
+      "volume": "70",
+      "issue": "2",
+      "page": "714-750",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1287/mnsc.2023.4695",
+      "URL": "https://doi.org/10.1287/mnsc.2023.4695"
+    },
+    "submitted": {
+      "author": "Chen, Luyang and Pelger, Markus and Zhu, Jason",
+      "title": "Deep Learning in Asset Pricing",
+      "journal": "Management Science",
+      "year": "2024",
+      "volume": "70",
+      "number": "2",
+      "pages": "714--750",
+      "doi": "10.1287/mnsc.2023.4695"
+    },
+    "verification_source": "https://doi.org/10.1287/mnsc.2023.4695",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "kozak2020shrinking",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Shrinking the cross-section"
+      ],
+      "author": [
+        {
+          "given": "Serhiy",
+          "family": "Kozak",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stefan",
+          "family": "Nagel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shrihari",
+          "family": "Santosh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Financial Economics"
+      ],
+      "volume": "135",
+      "issue": "2",
+      "page": "271-292",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            2
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/j.jfineco.2019.06.008",
+      "URL": "https://doi.org/10.1016/j.jfineco.2019.06.008"
+    },
+    "submitted": {
+      "author": "Kozak, Serhiy and Nagel, Stefan and Santosh, Shrihari",
+      "title": "Shrinking the Cross-Section",
+      "journal": "Journal of Financial Economics",
+      "year": "2020",
+      "volume": "135",
+      "number": "2",
+      "pages": "271--292",
+      "doi": "10.1016/j.jfineco.2019.06.008"
+    },
+    "verification_source": "https://doi.org/10.1016/j.jfineco.2019.06.008",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "avramov2023machine",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Machine Learning vs. Economic Restrictions: Evidence from Stock Return Predictability"
+      ],
+      "author": [
+        {
+          "given": "Doron",
+          "family": "Avramov",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Arison School of Business, Reichman University (IDC Herzliya), Herzliya 4610101, Israel;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2109-7636",
+          "authenticated-orcid": false,
+          "given": "Si",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Whitman School of Management, Syracuse University, Syracuse, New York 13244;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lior",
+          "family": "Metzker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Business Administration, The Hebrew University of Jerusalem, Jerusalem 9190501, Israel"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Management Science"
+      ],
+      "volume": "69",
+      "issue": "5",
+      "page": "2587-2619",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            5
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1287/mnsc.2022.4449",
+      "URL": "https://doi.org/10.1287/mnsc.2022.4449"
+    },
+    "submitted": {
+      "author": "Avramov, Doron and Cheng, Si and Metzker, Lior",
+      "title": "Machine Learning versus Economic Restrictions: Evidence from Stock Return Predictability",
+      "journal": "Management Science",
+      "year": "2023",
+      "volume": "69",
+      "number": "5",
+      "pages": "2587--2619",
+      "doi": "10.1287/mnsc.2022.4449"
+    },
+    "verification_source": "https://doi.org/10.1287/mnsc.2022.4449",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "giglio2022factor",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Factor Models, Machine Learning, and Asset Pricing"
+      ],
+      "author": [
+        {
+          "given": "Stefano",
+          "family": "Giglio",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Yale School of Management, Yale University, New Haven, Connecticut, USA;,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bryan",
+          "family": "Kelly",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Yale School of Management, Yale University, New Haven, Connecticut, USA;,"
+            },
+            {
+              "name": "AQR Capital Management, Greenwich, Connecticut, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dacheng",
+          "family": "Xiu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Booth School of Business, University of Chicago, Chicago, Illinois, USA;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Annual Review of Financial Economics"
+      ],
+      "volume": "14",
+      "issue": "1",
+      "page": "337-368",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1146/annurev-financial-101521-104735",
+      "URL": "https://doi.org/10.1146/annurev-financial-101521-104735"
+    },
+    "submitted": {
+      "author": "Giglio, Stefano and Kelly, Bryan and Xiu, Dacheng",
+      "title": "Factor Models, Machine Learning, and Asset Pricing",
+      "journal": "Annual Review of Financial Economics",
+      "year": "2022",
+      "volume": "14",
+      "pages": "337--368",
+      "doi": "10.1146/annurev-financial-101521-104735"
+    },
+    "verification_source": "https://doi.org/10.1146/annurev-financial-101521-104735",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "feng2020taming",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Taming the Factor Zoo: A Test of New Factors"
+      ],
+      "author": [
+        {
+          "given": "GUANHAO",
+          "family": "FENG",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "STEFANO",
+          "family": "GIGLIO",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "DACHENG",
+          "family": "XIU",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "volume": "75",
+      "issue": "3",
+      "page": "1327-1370",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            27
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            27
+          ]
+        ]
+      },
+      "DOI": "10.1111/jofi.12883",
+      "URL": "https://doi.org/10.1111/jofi.12883"
+    },
+    "submitted": {
+      "author": "Feng, Guanhao and Giglio, Stefano and Xiu, Dacheng",
+      "title": "Taming the Factor Zoo: A Test of New Factors",
+      "journal": "The Journal of Finance",
+      "year": "2020",
+      "volume": "75",
+      "number": "3",
+      "pages": "1327--1370",
+      "doi": "10.1111/jofi.12883"
+    },
+    "verification_source": "https://doi.org/10.1111/jofi.12883",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "hou2020replicating",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Replicating Anomalies"
+      ],
+      "author": [
+        {
+          "given": "Kewei",
+          "family": "Hou",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The Ohio State University and China Academy of Financial Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chen",
+          "family": "Xue",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Cincinnati"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Ohio State University and National Bureau of Economic Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Review of Financial Studies"
+      ],
+      "volume": "33",
+      "issue": "5",
+      "page": "2019-2133",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhy131",
+      "URL": "https://doi.org/10.1093/rfs/hhy131"
+    },
+    "submitted": {
+      "author": "Hou, Kewei and Xue, Chen and Zhang, Lu",
+      "title": "Replicating Anomalies",
+      "journal": "The Review of Financial Studies",
+      "year": "2020",
+      "volume": "33",
+      "number": "5",
+      "pages": "2019--2133",
+      "doi": "10.1093/rfs/hhy131"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhy131",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "freyberger2025missing",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Missing Data in Asset Pricing Panels"
+      ],
+      "author": [
+        {
+          "given": "Joachim",
+          "family": "Freyberger",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Bonn ,",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bjoern",
+          "family": "Hoeppner",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Bonn ,",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Neuhierl",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Olin School of Business, Washington University in St Louis ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Weber",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Booth School of Business, the University of Chicago , USA, CEPR, and NBER"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Review of Financial Studies"
+      ],
+      "volume": "38",
+      "issue": "3",
+      "page": "760-802",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            27
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            27
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhae003",
+      "URL": "https://doi.org/10.1093/rfs/hhae003"
+    },
+    "submitted": {
+      "author": "Freyberger, Joachim and Hoeppner, Bjoern and Neuhierl, Andreas and Weber, Michael",
+      "title": "Missing Data in Asset Pricing Panels",
+      "journal": "The Review of Financial Studies",
+      "year": "2025",
+      "volume": "38",
+      "number": "3",
+      "pages": "760--802",
+      "doi": "10.1093/rfs/hhae003"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhae003",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "smith2021break",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Break Risk"
+      ],
+      "author": [
+        {
+          "given": "Simon C",
+          "family": "Smith",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Federal Reserve Board"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Allan",
+          "family": "Timmermann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Diego"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Review of Financial Studies"
+      ],
+      "volume": "34",
+      "issue": "4",
+      "page": "2045-2100",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            8,
+            14
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            24
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            8,
+            14
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhaa084",
+      "URL": "https://doi.org/10.1093/rfs/hhaa084"
+    },
+    "submitted": {
+      "author": "Smith, Simon C. and Timmermann, Allan",
+      "title": "Break Risk",
+      "journal": "The Review of Financial Studies",
+      "year": "2021",
+      "volume": "34",
+      "number": "4",
+      "pages": "2045--2100",
+      "doi": "10.1093/rfs/hhaa084"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhaa084",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "detzel2023costs",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Model Comparison with Transaction Costs"
+      ],
+      "author": [
+        {
+          "given": "ANDREW",
+          "family": "DETZEL",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "ROBERT",
+          "family": "NOVY‐MARX",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "MIHAIL",
+          "family": "VELIKOV",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "volume": "78",
+      "issue": "3",
+      "page": "1743-1775",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            12
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1111/jofi.13225",
+      "URL": "https://doi.org/10.1111/jofi.13225"
+    },
+    "submitted": {
+      "author": "Detzel, Andrew and Novy-Marx, Robert and Velikov, Mihail",
+      "title": "Model Comparison with Transaction Costs",
+      "journal": "The Journal of Finance",
+      "year": "2023",
+      "volume": "78",
+      "number": "3",
+      "pages": "1743--1775",
+      "doi": "10.1111/jofi.13225"
+    },
+    "verification_source": "https://doi.org/10.1111/jofi.13225",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "muller2025interacting",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Interacting Anomalies"
+      ],
+      "author": [
+        {
+          "given": "Karsten",
+          "family": "Müller",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "National University of Singapore , Singapore. "
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Simon N M",
+          "family": "Schmickler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Simon Schmickler is at Jane Street Capital ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Review of Asset Pricing Studies"
+      ],
+      "volume": "15",
+      "issue": "2",
+      "page": "162-216",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            25
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            25
+          ]
+        ]
+      },
+      "DOI": "10.1093/rapstu/raaf001",
+      "URL": "https://doi.org/10.1093/rapstu/raaf001"
+    },
+    "submitted": {
+      "author": "M{\\\"u}ller, Karsten and Schmickler, Simon N. M.",
+      "title": "Interacting Anomalies",
+      "journal": "The Review of Asset Pricing Studies",
+      "year": "2025",
+      "volume": "15",
+      "number": "2",
+      "pages": "162--216",
+      "doi": "10.1093/rapstu/raaf001"
+    },
+    "verification_source": "https://doi.org/10.1093/rapstu/raaf001",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "ansuini2019intrinsic",
+    "status": "verified_primary_proceedings",
+    "submitted": {
+      "author": "Ansuini, Alessio and Laio, Alessandro and Macke, Jakob H. and Zoccolan, Davide",
+      "title": "Intrinsic Dimension of Data Representations in Deep Neural Networks",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2019",
+      "volume": "32",
+      "url": "https://proceedings.neurips.cc/paper/2019/hash/cfcce0621b49c983991ead4c3d4d3b6b-Abstract.html"
+    },
+    "verification_source": "https://proceedings.neurips.cc/paper/2019/hash/cfcce0621b49c983991ead4c3d4d3b6b-Abstract.html",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "kornblith2019similarity",
+    "status": "verified_primary_proceedings",
+    "submitted": {
+      "author": "Kornblith, Simon and Norouzi, Mohammad and Lee, Honglak and Hinton, Geoffrey",
+      "title": "Similarity of Neural Network Representations Revisited",
+      "booktitle": "Proceedings of the 36th International Conference on Machine Learning",
+      "year": "2019",
+      "volume": "97",
+      "pages": "3519--3529",
+      "url": "https://proceedings.mlr.press/v97/kornblith19a.html"
+    },
+    "verification_source": "https://proceedings.mlr.press/v97/kornblith19a.html",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "lettau2020factors",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Factors That Fit the Time Series and Cross-Section of Stock Returns"
+      ],
+      "author": [
+        {
+          "given": "Martin",
+          "family": "Lettau",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Haas School of Business, University of California at Berkeley, NBER and CEPR"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Markus",
+          "family": "Pelger",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Management Science & Engineering, Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Review of Financial Studies"
+      ],
+      "volume": "33",
+      "issue": "5",
+      "page": "2274-2325",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            17
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            17
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhaa020",
+      "URL": "https://doi.org/10.1093/rfs/hhaa020"
+    },
+    "submitted": {
+      "author": "Lettau, Martin and Pelger, Markus",
+      "title": "Factors That Fit the Time Series and Cross-Section of Stock Returns",
+      "journal": "The Review of Financial Studies",
+      "year": "2020",
+      "volume": "33",
+      "number": "5",
+      "pages": "2274--2325",
+      "doi": "10.1093/rfs/hhaa020"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhaa020",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "karolyi2020new",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "New Methods for the Cross-Section of Returns"
+      ],
+      "author": [
+        {
+          "given": "G Andrew",
+          "family": "Karolyi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Cornell University SC Johnson College of Business"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stijn",
+          "family": "Van Nieuwerburgh",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Columbia University Graduate School of Business"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Review of Financial Studies"
+      ],
+      "volume": "33",
+      "issue": "5",
+      "page": "1879-1890",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            26
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            26
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhaa019",
+      "URL": "https://doi.org/10.1093/rfs/hhaa019"
+    },
+    "submitted": {
+      "author": "Karolyi, G. Andrew and Van Nieuwerburgh, Stijn",
+      "title": "New Methods for the Cross-Section of Returns",
+      "journal": "The Review of Financial Studies",
+      "year": "2020",
+      "volume": "33",
+      "number": "5",
+      "pages": "1879--1890",
+      "doi": "10.1093/rfs/hhaa019"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhaa019",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "leippold2022machine",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Machine learning in the Chinese stock market"
+      ],
+      "author": [
+        {
+          "given": "Markus",
+          "family": "Leippold",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qian",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenyu",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Financial Economics"
+      ],
+      "volume": "145",
+      "issue": "2",
+      "page": "64-82",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            8
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            8
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/j.jfineco.2021.08.017",
+      "URL": "https://doi.org/10.1016/j.jfineco.2021.08.017"
+    },
+    "submitted": {
+      "author": "Leippold, Markus and Wang, Qian and Zhou, Wenyu",
+      "title": "Machine Learning in the Chinese Stock Market",
+      "journal": "Journal of Financial Economics",
+      "year": "2022",
+      "volume": "145",
+      "number": "2",
+      "pages": "64--82",
+      "doi": "10.1016/j.jfineco.2021.08.017"
+    },
+    "verification_source": "https://doi.org/10.1016/j.jfineco.2021.08.017",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "feng2024deep",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Deep Learning in Characteristics-Sorted Factor Models"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5907-6814",
+          "authenticated-orcid": false,
+          "given": "Guanhao",
+          "family": "Feng",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jingyu",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicholas G.",
+          "family": "Polson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jianeng",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Financial and Quantitative Analysis"
+      ],
+      "volume": "59",
+      "issue": "7",
+      "page": "3001-3036",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            24
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            24
+          ]
+        ]
+      },
+      "DOI": "10.1017/s0022109023000893",
+      "URL": "https://doi.org/10.1017/s0022109023000893"
+    },
+    "submitted": {
+      "author": "Feng, Guanhao and He, Jingyu and Polson, Nicholas G. and Xu, Jianeng",
+      "title": "Deep Learning in Characteristics-Sorted Factor Models",
+      "journal": "Journal of Financial and Quantitative Analysis",
+      "year": "2024",
+      "volume": "59",
+      "number": "7",
+      "pages": "3001--3036",
+      "doi": "10.1017/S0022109023000893"
+    },
+    "verification_source": "https://doi.org/10.1017/s0022109023000893",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "fallahgoul2024significance",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Asset pricing with neural networks: Significance tests"
+      ],
+      "author": [
+        {
+          "given": "Hasan",
+          "family": "Fallahgoul",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vincentius",
+          "family": "Franstianto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Econometrics"
+      ],
+      "volume": "238",
+      "issue": "1",
+      "page": "105574",
+      "article-number": "105574",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/j.jeconom.2023.105574",
+      "URL": "https://doi.org/10.1016/j.jeconom.2023.105574"
+    },
+    "submitted": {
+      "author": "Fallahgoul, Hasan and Franstianto, Vincentius and Lin, Xin",
+      "title": "Asset Pricing with Neural Networks: Significance Tests",
+      "journal": "Journal of Econometrics",
+      "year": "2024",
+      "volume": "238",
+      "number": "1",
+      "pages": "105574",
+      "doi": "10.1016/j.jeconom.2023.105574"
+    },
+    "verification_source": "https://doi.org/10.1016/j.jeconom.2023.105574",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "bagnara2024review",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Asset Pricing and Machine Learning: A critical review"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7674-1812",
+          "authenticated-orcid": false,
+          "given": "Matteo",
+          "family": "Bagnara",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Leibniz Institute for Financial Research SAFE Frankfurt am Main Germany"
+            },
+            {
+              "name": "Goethe University Frankfurt  Frankfurt am Main Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Economic Surveys"
+      ],
+      "volume": "38",
+      "issue": "1",
+      "page": "27-56",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1111/joes.12532",
+      "URL": "https://doi.org/10.1111/joes.12532"
+    },
+    "submitted": {
+      "author": "Bagnara, Matteo",
+      "title": "Asset Pricing and Machine Learning: A Critical Review",
+      "journal": "Journal of Economic Surveys",
+      "year": "2024",
+      "volume": "38",
+      "number": "1",
+      "pages": "27--56",
+      "doi": "10.1111/joes.12532"
+    },
+    "verification_source": "https://doi.org/10.1111/joes.12532",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "feng2026stepwise",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Selecting and Testing Asset-Pricing Models: A Stepwise Approach"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5907-6814",
+          "authenticated-orcid": false,
+          "given": "Guanhao",
+          "family": "Feng",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "City University of Hong Kong, Kowloon 999077, Hong Kong SAR"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4738-5222",
+          "authenticated-orcid": false,
+          "given": "Wei",
+          "family": "Lan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory for Data Intelligence and Innovation in Finance and Economics, Center of Statistical Research, Southwestern University of Finance and Economics, Chengdu 611130, China; and Big Data Laboratory on Financial Security and Behavior (MOE Philosophy and Social Sciences Laboratory), Southwestern University of Finance and Economics, Chengdu 611130, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2386-0209",
+          "authenticated-orcid": false,
+          "given": "Hansheng",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Guanghua School of Management, Peking University, Beijing 100871, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-2676-0300",
+          "authenticated-orcid": false,
+          "given": "Jun",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Statistics and Data Science, Southeast University, Nanjing 211189, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Management Science"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "article-number": "mnsc.2024.07804",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ]
+      },
+      "published-print": null,
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ]
+      },
+      "DOI": "10.1287/mnsc.2024.07804",
+      "URL": "https://doi.org/10.1287/mnsc.2024.07804"
+    },
+    "submitted": {
+      "author": "Feng, Guanhao and Lan, Wei and Wang, Hansheng and Zhang, Jun",
+      "title": "Selecting and Testing Asset-Pricing Models: A Stepwise Approach",
+      "journal": "Management Science",
+      "year": "2026",
+      "doi": "10.1287/mnsc.2024.07804"
+    },
+    "verification_source": "https://doi.org/10.1287/mnsc.2024.07804",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "bai2002factors",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Determining the Number of Factors in Approximate Factor Models"
+      ],
+      "author": [
+        {
+          "given": "Jushan",
+          "family": "Bai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Serena",
+          "family": "Ng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "volume": "70",
+      "issue": "1",
+      "page": "191-221",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2002,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1111/1468-0262.00273",
+      "URL": "https://doi.org/10.1111/1468-0262.00273"
+    },
+    "submitted": {
+      "author": "Bai, Jushan and Ng, Serena",
+      "title": "Determining the Number of Factors in Approximate Factor Models",
+      "journal": "Econometrica",
+      "year": "2002",
+      "volume": "70",
+      "number": "1",
+      "pages": "191--221",
+      "doi": "10.1111/1468-0262.00273"
+    },
+    "verification_source": "https://doi.org/10.1111/1468-0262.00273",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "ahn2013eigenvalue",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Eigenvalue Ratio Test for the Number of Factors"
+      ],
+      "author": null,
+      "container-title": [
+        "Econometrica"
+      ],
+      "volume": "81",
+      "issue": "3",
+      "page": "1203-1227",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "published-print": null,
+      "published-online": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "DOI": "10.3982/ecta8968",
+      "URL": "https://doi.org/10.3982/ecta8968"
+    },
+    "submitted": {
+      "author": "Ahn, Seung C. and Horenstein, Alex R.",
+      "title": "Eigenvalue Ratio Test for the Number of Factors",
+      "journal": "Econometrica",
+      "year": "2013",
+      "volume": "81",
+      "number": "3",
+      "pages": "1203--1227",
+      "doi": "10.3982/ECTA8968"
+    },
+    "verification_source": "https://doi.org/10.3982/ecta8968",
+    "review": "Crossref title/venue/year/pages matched; author names absent in registry response, retained from formal citation."
+  },
+  {
+    "key": "onatski2010factors",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Determining the Number of Factors from Empirical Distribution of Eigenvalues"
+      ],
+      "author": [
+        {
+          "given": "Alexei",
+          "family": "Onatski",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Review of Economics and Statistics"
+      ],
+      "volume": "92",
+      "issue": "4",
+      "page": "1004-1016",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            11
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1162/rest_a_00043",
+      "URL": "https://doi.org/10.1162/rest_a_00043"
+    },
+    "submitted": {
+      "author": "Onatski, Alexei",
+      "title": "Determining the Number of Factors from Empirical Distribution of Eigenvalues",
+      "journal": "The Review of Economics and Statistics",
+      "year": "2010",
+      "volume": "92",
+      "number": "4",
+      "pages": "1004--1016",
+      "doi": "10.1162/REST_a_00043"
+    },
+    "verification_source": "https://doi.org/10.1162/rest_a_00043",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "shao1993cv",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Linear Model Selection by Cross-validation"
+      ],
+      "author": [
+        {
+          "given": "Jun",
+          "family": "Shao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of the American Statistical Association"
+      ],
+      "volume": "88",
+      "issue": "422",
+      "page": "486-494",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1993,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1993,
+            6
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1080/01621459.1993.10476299",
+      "URL": "https://doi.org/10.1080/01621459.1993.10476299"
+    },
+    "submitted": {
+      "author": "Shao, Jun",
+      "title": "Linear Model Selection by Cross-Validation",
+      "journal": "Journal of the American Statistical Association",
+      "year": "1993",
+      "volume": "88",
+      "number": "422",
+      "pages": "486--494",
+      "doi": "10.1080/01621459.1993.10476299"
+    },
+    "verification_source": "https://doi.org/10.1080/01621459.1993.10476299",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "yang2007cv",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Consistency of cross validation for comparing regression procedures"
+      ],
+      "author": [
+        {
+          "given": "Yuhong",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Annals of Statistics"
+      ],
+      "volume": "35",
+      "issue": "6",
+      "page": null,
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            12,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2007,
+            12,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1214/009053607000000514",
+      "URL": "https://doi.org/10.1214/009053607000000514"
+    },
+    "submitted": {
+      "author": "Yang, Yuhong",
+      "title": "Consistency of Cross Validation for Comparing Regression Procedures",
+      "journal": "The Annals of Statistics",
+      "year": "2007",
+      "volume": "35",
+      "number": "6",
+      "pages": "2450--2473",
+      "doi": "10.1214/009053607000000514"
+    },
+    "verification_source": "https://doi.org/10.1214/009053607000000514",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "arlot2010cv",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "A survey of cross-validation procedures for model selection"
+      ],
+      "author": [
+        {
+          "given": "Sylvain",
+          "family": "Arlot",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alain",
+          "family": "Celisse",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Statistics Surveys"
+      ],
+      "volume": "4",
+      "issue": "none",
+      "page": null,
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            1,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1214/09-ss054",
+      "URL": "https://doi.org/10.1214/09-ss054"
+    },
+    "submitted": {
+      "author": "Arlot, Sylvain and Celisse, Alain",
+      "title": "A Survey of Cross-Validation Procedures for Model Selection",
+      "journal": "Statistics Surveys",
+      "year": "2010",
+      "volume": "4",
+      "pages": "40--79",
+      "doi": "10.1214/09-SS054"
+    },
+    "verification_source": "https://doi.org/10.1214/09-ss054",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "hansen1991implications",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Implications of Security Market Data for Models of Dynamic Economies"
+      ],
+      "author": [
+        {
+          "given": "Lars Peter",
+          "family": "Hansen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravi",
+          "family": "Jagannathan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Political Economy"
+      ],
+      "volume": "99",
+      "issue": "2",
+      "page": "225-262",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1991,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1991,
+            4
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1086/261749",
+      "URL": "https://doi.org/10.1086/261749"
+    },
+    "submitted": {
+      "author": "Hansen, Lars Peter and Jagannathan, Ravi",
+      "title": "Implications of Security Market Data for Models of Dynamic Economies",
+      "journal": "Journal of Political Economy",
+      "year": "1991",
+      "volume": "99",
+      "number": "2",
+      "pages": "225--262",
+      "doi": "10.1086/261749"
+    },
+    "verification_source": "https://doi.org/10.1086/261749",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "hansen1997assessing",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Assessing Specification Errors in Stochastic Discount Factor Models"
+      ],
+      "author": [
+        {
+          "given": "LARS PETER",
+          "family": "HANSEN",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "RAVI",
+          "family": "JAGANNATHAN",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "volume": "52",
+      "issue": "2",
+      "page": "557-590",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1997,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1997,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            18
+          ]
+        ]
+      },
+      "DOI": "10.1111/j.1540-6261.1997.tb04813.x",
+      "URL": "https://doi.org/10.1111/j.1540-6261.1997.tb04813.x"
+    },
+    "submitted": {
+      "author": "Hansen, Lars Peter and Jagannathan, Ravi",
+      "title": "Assessing Specification Errors in Stochastic Discount Factor Models",
+      "journal": "The Journal of Finance",
+      "year": "1997",
+      "volume": "52",
+      "number": "2",
+      "pages": "557--590",
+      "doi": "10.1111/j.1540-6261.1997.tb04813.x"
+    },
+    "verification_source": "https://doi.org/10.1111/j.1540-6261.1997.tb04813.x",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "lewellen2010skeptical",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "A skeptical appraisal of asset pricing tests☆"
+      ],
+      "author": [
+        {
+          "given": "Jonathan",
+          "family": "Lewellen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stefan",
+          "family": "Nagel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jay",
+          "family": "Shanken",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Financial Economics"
+      ],
+      "volume": "96",
+      "issue": "2",
+      "page": "175-194",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            5
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/j.jfineco.2009.09.001",
+      "URL": "https://doi.org/10.1016/j.jfineco.2009.09.001"
+    },
+    "submitted": {
+      "author": "Lewellen, Jonathan and Nagel, Stefan and Shanken, Jay",
+      "title": "A Skeptical Appraisal of Asset Pricing Tests",
+      "journal": "Journal of Financial Economics",
+      "year": "2010",
+      "volume": "96",
+      "number": "2",
+      "pages": "175--194",
+      "doi": "10.1016/j.jfineco.2009.09.001"
+    },
+    "verification_source": "https://doi.org/10.1016/j.jfineco.2009.09.001",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "kan2013pricing",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Pricing Model Performance and the Two‐Pass Cross‐Sectional Regression Methodology"
+      ],
+      "author": [
+        {
+          "given": "RAYMOND",
+          "family": "KAN",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "CESARE",
+          "family": "ROBOTTI",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "JAY",
+          "family": "SHANKEN",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "volume": "68",
+      "issue": "6",
+      "page": "2617-2649",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            11,
+            12
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            12
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2013,
+            11,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1111/jofi.12035",
+      "URL": "https://doi.org/10.1111/jofi.12035"
+    },
+    "submitted": {
+      "author": "Kan, Raymond and Robotti, Cesare and Shanken, Jay",
+      "title": "Pricing Model Performance and the Two-Pass Cross-Sectional Regression Methodology",
+      "journal": "The Journal of Finance",
+      "year": "2013",
+      "volume": "68",
+      "number": "6",
+      "pages": "2617--2649",
+      "doi": "10.1111/jofi.12035"
+    },
+    "verification_source": "https://doi.org/10.1111/jofi.12035",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "gibbons1989test",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "A Test of the Efficiency of a Given Portfolio"
+      ],
+      "author": [
+        {
+          "given": "Michael R.",
+          "family": "Gibbons",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stephen A.",
+          "family": "Ross",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jay",
+          "family": "Shanken",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "volume": "57",
+      "issue": "5",
+      "page": "1121",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1989,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1989,
+            9
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.2307/1913625",
+      "URL": "https://doi.org/10.2307/1913625"
+    },
+    "submitted": {
+      "author": "Gibbons, Michael R. and Ross, Stephen A. and Shanken, Jay",
+      "title": "A Test of the Efficiency of a Given Portfolio",
+      "journal": "Econometrica",
+      "year": "1989",
+      "volume": "57",
+      "number": "5",
+      "pages": "1121--1152",
+      "doi": "10.2307/1913625"
+    },
+    "verification_source": "https://doi.org/10.2307/1913625",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "shanken1992beta",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "On the Estimation of Beta-Pricing Models"
+      ],
+      "author": [
+        {
+          "given": "Jay",
+          "family": "Shanken",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Review of Financial Studies"
+      ],
+      "volume": "5",
+      "issue": "1",
+      "page": "1-33",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1992,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1992,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            1992,
+            1,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/5.1.1",
+      "URL": "https://doi.org/10.1093/rfs/5.1.1"
+    },
+    "submitted": {
+      "author": "Shanken, Jay",
+      "title": "On the Estimation of Beta-Pricing Models",
+      "journal": "The Review of Financial Studies",
+      "year": "1992",
+      "volume": "5",
+      "number": "1",
+      "pages": "1--33",
+      "doi": "10.1093/rfs/5.1.1"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/5.1.1",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "fama1992cross",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "The Cross‐Section of Expected Stock Returns"
+      ],
+      "author": [
+        {
+          "given": "EUGENE F.",
+          "family": "FAMA",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "KENNETH R.",
+          "family": "FRENCH",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "volume": "47",
+      "issue": "2",
+      "page": "427-465",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1992,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1992,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            30
+          ]
+        ]
+      },
+      "DOI": "10.1111/j.1540-6261.1992.tb04398.x",
+      "URL": "https://doi.org/10.1111/j.1540-6261.1992.tb04398.x"
+    },
+    "submitted": {
+      "author": "Fama, Eugene F. and French, Kenneth R.",
+      "title": "The Cross-Section of Expected Stock Returns",
+      "journal": "The Journal of Finance",
+      "year": "1992",
+      "volume": "47",
+      "number": "2",
+      "pages": "427--465",
+      "doi": "10.1111/j.1540-6261.1992.tb04398.x"
+    },
+    "verification_source": "https://doi.org/10.1111/j.1540-6261.1992.tb04398.x",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "fama1993common",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Common risk factors in the returns on stocks and bonds"
+      ],
+      "author": [
+        {
+          "given": "Eugene F.",
+          "family": "Fama",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kenneth R.",
+          "family": "French",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Financial Economics"
+      ],
+      "volume": "33",
+      "issue": "1",
+      "page": "3-56",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1993,
+            2
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1993,
+            2
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/0304-405x(93)90023-5",
+      "URL": "https://doi.org/10.1016/0304-405x(93)90023-5"
+    },
+    "submitted": {
+      "author": "Fama, Eugene F. and French, Kenneth R.",
+      "title": "Common Risk Factors in the Returns on Stocks and Bonds",
+      "journal": "Journal of Financial Economics",
+      "year": "1993",
+      "volume": "33",
+      "number": "1",
+      "pages": "3--56",
+      "doi": "10.1016/0304-405X(93)90023-5"
+    },
+    "verification_source": "https://doi.org/10.1016/0304-405x(93)90023-5",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "fama2015five",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "A five-factor asset pricing model"
+      ],
+      "author": [
+        {
+          "given": "Eugene F.",
+          "family": "Fama",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kenneth R.",
+          "family": "French",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Financial Economics"
+      ],
+      "volume": "116",
+      "issue": "1",
+      "page": "1-22",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            4
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/j.jfineco.2014.10.010",
+      "URL": "https://doi.org/10.1016/j.jfineco.2014.10.010"
+    },
+    "submitted": {
+      "author": "Fama, Eugene F. and French, Kenneth R.",
+      "title": "A Five-Factor Asset Pricing Model",
+      "journal": "Journal of Financial Economics",
+      "year": "2015",
+      "volume": "116",
+      "number": "1",
+      "pages": "1--22",
+      "doi": "10.1016/j.jfineco.2014.10.010"
+    },
+    "verification_source": "https://doi.org/10.1016/j.jfineco.2014.10.010",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "jagannathan1996conditional",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "The Conditional CAPM and the Cross‐Section of Expected Returns"
+      ],
+      "author": [
+        {
+          "given": "RAVI",
+          "family": "JAGANNATHAN",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "ZHENYU",
+          "family": "WANG",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "volume": "51",
+      "issue": "1",
+      "page": "3-53",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1996,
+            3
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1996,
+            3
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            30
+          ]
+        ]
+      },
+      "DOI": "10.1111/j.1540-6261.1996.tb05201.x",
+      "URL": "https://doi.org/10.1111/j.1540-6261.1996.tb05201.x"
+    },
+    "submitted": {
+      "author": "Jagannathan, Ravi and Wang, Zhenyu",
+      "title": "The Conditional {CAPM} and the Cross-Section of Expected Returns",
+      "journal": "The Journal of Finance",
+      "year": "1996",
+      "volume": "51",
+      "number": "1",
+      "pages": "3--53",
+      "doi": "10.1111/j.1540-6261.1996.tb05201.x"
+    },
+    "verification_source": "https://doi.org/10.1111/j.1540-6261.1996.tb05201.x",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "harvey2016cross",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "… and the Cross-Section of Expected Returns"
+      ],
+      "author": [
+        {
+          "given": "Campbell R.",
+          "family": "Harvey",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Heqing",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Review of Financial Studies"
+      ],
+      "volume": "29",
+      "issue": "1",
+      "page": "5-68",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            10,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2016,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2015,
+            10,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhv059",
+      "URL": "https://doi.org/10.1093/rfs/hhv059"
+    },
+    "submitted": {
+      "author": "Harvey, Campbell R. and Liu, Yan and Zhu, Heqing",
+      "title": "{\\ldots} and the Cross-Section of Expected Returns",
+      "journal": "The Review of Financial Studies",
+      "year": "2016",
+      "volume": "29",
+      "number": "1",
+      "pages": "5--68",
+      "doi": "10.1093/rfs/hhv059"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhv059",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "mclean2016destroy",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Does Academic Research Destroy Stock Return Predictability?"
+      ],
+      "author": [
+        {
+          "given": "R. DAVID",
+          "family": "MCLEAN",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "JEFFREY",
+          "family": "PONTIFF",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "volume": "71",
+      "issue": "1",
+      "page": "5-32",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            1,
+            14
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2016,
+            2
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            1,
+            14
+          ]
+        ]
+      },
+      "DOI": "10.1111/jofi.12365",
+      "URL": "https://doi.org/10.1111/jofi.12365"
+    },
+    "submitted": {
+      "author": "McLean, R. David and Pontiff, Jeffrey",
+      "title": "Does Academic Research Destroy Stock Return Predictability?",
+      "journal": "The Journal of Finance",
+      "year": "2016",
+      "volume": "71",
+      "number": "1",
+      "pages": "5--32",
+      "doi": "10.1111/jofi.12365"
+    },
+    "verification_source": "https://doi.org/10.1111/jofi.12365",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "green2017characteristics",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "The Characteristics that Provide Independent Information about Average U.S. Monthly Stock Returns"
+      ],
+      "author": [
+        {
+          "given": "Jeremiah",
+          "family": "Green",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Pennsylvania State University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John R. M.",
+          "family": "Hand",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UNC-Chapel Hill"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "X. Frank",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Yale University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Review of Financial Studies"
+      ],
+      "volume": "30",
+      "issue": "12",
+      "page": "4389-4436",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            27
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            12,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            27
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhx019",
+      "URL": "https://doi.org/10.1093/rfs/hhx019"
+    },
+    "submitted": {
+      "author": "Green, Jeremiah and Hand, John R. M. and Zhang, X. Frank",
+      "title": "The Characteristics that Provide Independent Information about Average {U.S.} Monthly Stock Returns",
+      "journal": "The Review of Financial Studies",
+      "year": "2017",
+      "volume": "30",
+      "number": "12",
+      "pages": "4389--4436",
+      "doi": "10.1093/rfs/hhx019"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhx019",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "demiguel2009optimal",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Optimal Versus Naive Diversification: How Inefficient is the 1/\n                    <i>N</i>\n                    Portfolio Strategy?"
+      ],
+      "author": [
+        {
+          "given": "Victor",
+          "family": "DeMiguel",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lorenzo",
+          "family": "Garlappi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Raman",
+          "family": "Uppal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Review of Financial Studies"
+      ],
+      "volume": "22",
+      "issue": "5",
+      "page": "1915-1953",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            12,
+            3
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            5
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2007,
+            12,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhm075",
+      "URL": "https://doi.org/10.1093/rfs/hhm075"
+    },
+    "submitted": {
+      "author": "DeMiguel, Victor and Garlappi, Lorenzo and Uppal, Raman",
+      "title": "Optimal Versus Naive Diversification: How Inefficient Is the 1/{N} Portfolio Strategy?",
+      "journal": "The Review of Financial Studies",
+      "year": "2009",
+      "volume": "22",
+      "number": "5",
+      "pages": "1915--1953",
+      "doi": "10.1093/rfs/hhm075"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhm075",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "white2000reality",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "A Reality Check for Data Snooping"
+      ],
+      "author": [
+        {
+          "given": "Halbert",
+          "family": "White",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "volume": "68",
+      "issue": "5",
+      "page": "1097-1126",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2000,
+            9
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1111/1468-0262.00152",
+      "URL": "https://doi.org/10.1111/1468-0262.00152"
+    },
+    "submitted": {
+      "author": "White, Halbert",
+      "title": "A Reality Check for Data Snooping",
+      "journal": "Econometrica",
+      "year": "2000",
+      "volume": "68",
+      "number": "5",
+      "pages": "1097--1126",
+      "doi": "10.1111/1468-0262.00152"
+    },
+    "verification_source": "https://doi.org/10.1111/1468-0262.00152",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "hansen2005spa",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "A Test for Superior Predictive Ability"
+      ],
+      "author": [
+        {
+          "given": "Peter Reinhard",
+          "family": "Hansen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Business &amp; Economic Statistics"
+      ],
+      "volume": "23",
+      "issue": "4",
+      "page": "365-380",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2005,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2005,
+            10
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1198/073500105000000063",
+      "URL": "https://doi.org/10.1198/073500105000000063"
+    },
+    "submitted": {
+      "author": "Hansen, Peter Reinhard",
+      "title": "A Test for Superior Predictive Ability",
+      "journal": "Journal of Business \\& Economic Statistics",
+      "year": "2005",
+      "volume": "23",
+      "number": "4",
+      "pages": "365--380",
+      "doi": "10.1198/073500105000000063"
+    },
+    "verification_source": "https://doi.org/10.1198/073500105000000063",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "romano2005stepwise",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Stepwise Multiple Testing as Formalized Data Snooping"
+      ],
+      "author": [
+        {
+          "given": "Joseph P.",
+          "family": "Romano",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Wolf",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "volume": "73",
+      "issue": "4",
+      "page": "1237-1282",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2005,
+            7
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2005,
+            7
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1111/j.1468-0262.2005.00615.x",
+      "URL": "https://doi.org/10.1111/j.1468-0262.2005.00615.x"
+    },
+    "submitted": {
+      "author": "Romano, Joseph P. and Wolf, Michael",
+      "title": "Stepwise Multiple Testing as Formalized Data Snooping",
+      "journal": "Econometrica",
+      "year": "2005",
+      "volume": "73",
+      "number": "4",
+      "pages": "1237--1282",
+      "doi": "10.1111/j.1468-0262.2005.00615.x"
+    },
+    "verification_source": "https://doi.org/10.1111/j.1468-0262.2005.00615.x",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "andrews1993instability",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Tests for Parameter Instability and Structural Change With Unknown Change Point"
+      ],
+      "author": [
+        {
+          "given": "Donald W. K.",
+          "family": "Andrews",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "volume": "61",
+      "issue": "4",
+      "page": "821",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1993,
+            7
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1993,
+            7
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.2307/2951764",
+      "URL": "https://doi.org/10.2307/2951764"
+    },
+    "submitted": {
+      "author": "Andrews, Donald W. K.",
+      "title": "Tests for Parameter Instability and Structural Change with Unknown Change Point",
+      "journal": "Econometrica",
+      "year": "1993",
+      "volume": "61",
+      "number": "4",
+      "pages": "821--856",
+      "doi": "10.2307/2951764"
+    },
+    "verification_source": "https://doi.org/10.2307/2951764",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "bai1998breaks",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Estimating and Testing Linear Models with Multiple Structural Changes"
+      ],
+      "author": [
+        {
+          "given": "Jushan",
+          "family": "Bai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pierre",
+          "family": "Perron",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "volume": "66",
+      "issue": "1",
+      "page": "47",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1998,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1998,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.2307/2998540",
+      "URL": "https://doi.org/10.2307/2998540"
+    },
+    "submitted": {
+      "author": "Bai, Jushan and Perron, Pierre",
+      "title": "Estimating and Testing Linear Models with Multiple Structural Changes",
+      "journal": "Econometrica",
+      "year": "1998",
+      "volume": "66",
+      "number": "1",
+      "pages": "47--78",
+      "doi": "10.2307/2998540"
+    },
+    "verification_source": "https://doi.org/10.2307/2998540",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "diebold1995accuracy",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Comparing Predictive Accuracy"
+      ],
+      "author": [
+        {
+          "given": "Francis X.",
+          "family": "Diebold",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Roberto S.",
+          "family": "Mariano",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Business &amp; Economic Statistics"
+      ],
+      "volume": "13",
+      "issue": "3",
+      "page": "253-263",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            1995,
+            7
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            1995,
+            7
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1080/07350015.1995.10524599",
+      "URL": "https://doi.org/10.1080/07350015.1995.10524599"
+    },
+    "submitted": {
+      "author": "Diebold, Francis X. and Mariano, Roberto S.",
+      "title": "Comparing Predictive Accuracy",
+      "journal": "Journal of Business \\& Economic Statistics",
+      "year": "1995",
+      "volume": "13",
+      "number": "3",
+      "pages": "253--263",
+      "doi": "10.1080/07350015.1995.10524599"
+    },
+    "verification_source": "https://doi.org/10.1080/07350015.1995.10524599",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "clark2001nested",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Tests of equal forecast accuracy and encompassing for nested models"
+      ],
+      "author": [
+        {
+          "given": "Todd E",
+          "family": "Clark",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael W",
+          "family": "McCracken",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Econometrics"
+      ],
+      "volume": "105",
+      "issue": "1",
+      "page": "85-110",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2001,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2001,
+            11
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/s0304-4076(01)00071-9",
+      "URL": "https://doi.org/10.1016/s0304-4076(01)00071-9"
+    },
+    "submitted": {
+      "author": "Clark, Todd E. and McCracken, Michael W.",
+      "title": "Tests of Equal Forecast Accuracy and Encompassing for Nested Models",
+      "journal": "Journal of Econometrics",
+      "year": "2001",
+      "volume": "105",
+      "number": "1",
+      "pages": "85--110",
+      "doi": "10.1016/S0304-4076(01)00071-9"
+    },
+    "verification_source": "https://doi.org/10.1016/s0304-4076(01)00071-9",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "giacomini2006conditional",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Tests of Conditional Predictive Ability"
+      ],
+      "author": [
+        {
+          "given": "Raffaella",
+          "family": "Giacomini",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Halbert",
+          "family": "White",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Econometrica"
+      ],
+      "volume": "74",
+      "issue": "6",
+      "page": "1545-1578",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            11
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1111/j.1468-0262.2006.00718.x",
+      "URL": "https://doi.org/10.1111/j.1468-0262.2006.00718.x"
+    },
+    "submitted": {
+      "author": "Giacomini, Raffaella and White, Halbert",
+      "title": "Tests of Conditional Predictive Ability",
+      "journal": "Econometrica",
+      "year": "2006",
+      "volume": "74",
+      "number": "6",
+      "pages": "1545--1578",
+      "doi": "10.1111/j.1468-0262.2006.00718.x"
+    },
+    "verification_source": "https://doi.org/10.1111/j.1468-0262.2006.00718.x",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "giacomini2010unstable",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Forecast comparisons in unstable environments"
+      ],
+      "author": [
+        {
+          "given": "Raffaella",
+          "family": "Giacomini",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Barbara",
+          "family": "Rossi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Applied Econometrics"
+      ],
+      "volume": "25",
+      "issue": "4",
+      "page": "595-620",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            5,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2010,
+            5,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1002/jae.1177",
+      "URL": "https://doi.org/10.1002/jae.1177"
+    },
+    "submitted": {
+      "author": "Giacomini, Raffaella and Rossi, Barbara",
+      "title": "Forecast Comparisons in Unstable Environments",
+      "journal": "Journal of Applied Econometrics",
+      "year": "2010",
+      "volume": "25",
+      "number": "4",
+      "pages": "595--620",
+      "doi": "10.1002/jae.1177"
+    },
+    "verification_source": "https://doi.org/10.1002/jae.1177",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "elliott2004combinations",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Optimal forecast combinations under general loss functions and forecast error distributions"
+      ],
+      "author": [
+        {
+          "given": "Graham",
+          "family": "Elliott",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Allan",
+          "family": "Timmermann",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Econometrics"
+      ],
+      "volume": "122",
+      "issue": "1",
+      "page": "47-79",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2004,
+            9
+          ]
+        ]
+      },
+      "published-online": null,
+      "DOI": "10.1016/j.jeconom.2003.10.019",
+      "URL": "https://doi.org/10.1016/j.jeconom.2003.10.019"
+    },
+    "submitted": {
+      "author": "Elliott, Graham and Timmermann, Allan",
+      "title": "Optimal Forecast Combinations under General Loss Functions and Forecast Error Distributions",
+      "journal": "Journal of Econometrics",
+      "year": "2004",
+      "volume": "122",
+      "number": "1",
+      "pages": "47--79",
+      "doi": "10.1016/j.jeconom.2003.10.019"
+    },
+    "verification_source": "https://doi.org/10.1016/j.jeconom.2003.10.019",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "welch2008equity",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "A Comprehensive Look at The Empirical Performance of Equity Premium Prediction"
+      ],
+      "author": [
+        {
+          "given": "Ivo",
+          "family": "Welch",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Amit",
+          "family": "Goyal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Review of Financial Studies"
+      ],
+      "volume": "21",
+      "issue": "4",
+      "page": "1455-1508",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            3,
+            17
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            7
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2007,
+            3,
+            17
+          ]
+        ]
+      },
+      "DOI": "10.1093/rfs/hhm014",
+      "URL": "https://doi.org/10.1093/rfs/hhm014"
+    },
+    "submitted": {
+      "author": "Welch, Ivo and Goyal, Amit",
+      "title": "A Comprehensive Look at the Empirical Performance of Equity Premium Prediction",
+      "journal": "The Review of Financial Studies",
+      "year": "2008",
+      "volume": "21",
+      "number": "4",
+      "pages": "1455--1508",
+      "doi": "10.1093/rfs/hhm014"
+    },
+    "verification_source": "https://doi.org/10.1093/rfs/hhm014",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "facco2017twonn",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Estimating the intrinsic dimension of datasets by a minimal neighborhood information"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2641-5258",
+          "authenticated-orcid": false,
+          "given": "Elena",
+          "family": "Facco",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maria",
+          "family": "d’Errico",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alex",
+          "family": "Rodriguez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alessandro",
+          "family": "Laio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "volume": "7",
+      "issue": "1",
+      "page": null,
+      "article-number": "12140",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            9,
+            22
+          ]
+        ]
+      },
+      "published-print": null,
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            9,
+            22
+          ]
+        ]
+      },
+      "DOI": "10.1038/s41598-017-11873-y",
+      "URL": "https://doi.org/10.1038/s41598-017-11873-y"
+    },
+    "submitted": {
+      "author": "Facco, Elena and d'Errico, Maria and Rodriguez, Alex and Laio, Alessandro",
+      "title": "Estimating the Intrinsic Dimension of Datasets by a Minimal Neighborhood Information",
+      "journal": "Scientific Reports",
+      "year": "2017",
+      "volume": "7",
+      "pages": "12140",
+      "doi": "10.1038/s41598-017-11873-y"
+    },
+    "verification_source": "https://doi.org/10.1038/s41598-017-11873-y",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "levina2005mle",
+    "status": "verified_primary_proceedings",
+    "submitted": {
+      "author": "Levina, Elizaveta and Bickel, Peter J.",
+      "title": "Maximum Likelihood Estimation of Intrinsic Dimension",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2005",
+      "volume": "17",
+      "pages": "777--784"
+    },
+    "verification_source": "https://proceedings.neurips.cc/paper/2004/hash/74934548253bcab8490ebd74afed7031-Abstract.html",
+    "review": "2004 conference / 2005 print volume distinction disclosed in bibliography; official electronic proceedings index uses 2004."
+  },
+  {
+    "key": "roy2007rank",
+    "status": "retrieved",
+    "registry": {
+      "doi": "10.5281/zenodo.40328",
+      "prefix": "10.5281",
+      "suffix": "zenodo.40328",
+      "identifiers": [
+        {
+          "identifier": "https://zenodo.org/record/40328",
+          "identifierType": "URL"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "URL",
+          "alternateIdentifier": "https://zenodo.org/record/40328"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Roy, Olivier",
+          "nameType": "Personal",
+          "givenName": "Olivier",
+          "familyName": "Roy",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Vetterli, M.",
+          "nameType": "Personal",
+          "givenName": "M.",
+          "familyName": "Vetterli",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "The Effective Rank: A Measure Of Effective Dimensionality"
+        }
+      ],
+      "publisher": "Zenodo",
+      "container": {},
+      "publicationYear": 2007,
+      "subjects": [],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2007-09-03",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "RPRT",
+        "bibtex": "article",
+        "citeproc": "article-journal",
+        "schemaOrg": "ScholarlyArticle",
+        "resourceType": "Conference paper",
+        "resourceTypeGeneral": "Text"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "rights": "Open Access",
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Publication in the conference proceedings of EUSIPCO, Poznan, Poland, 2007",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjEvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC41MjgxL3plbm9kby40MDMyODwvaWRlbnRpZmllcj4KICA8Y3JlYXRvcnM+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPlJveSwgT2xpdmllcjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+T2xpdmllcjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5Sb3k8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPlZldHRlcmxpLCBNLjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+TS48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+VmV0dGVybGk8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPlRoZSBFZmZlY3RpdmUgUmFuazogQSBNZWFzdXJlIE9mIEVmZmVjdGl2ZSBEaW1lbnNpb25hbGl0eTwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5aZW5vZG88L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMDc8L3B1YmxpY2F0aW9uWWVhcj4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDA3LTA5LTAzPC9kYXRlPgogIDwvZGF0ZXM+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJUZXh0Ij5Db25mZXJlbmNlIHBhcGVyPC9yZXNvdXJjZVR5cGU+CiAgPGFsdGVybmF0ZUlkZW50aWZpZXJzPgogICAgPGFsdGVybmF0ZUlkZW50aWZpZXIgYWx0ZXJuYXRlSWRlbnRpZmllclR5cGU9InVybCI+aHR0cHM6Ly96ZW5vZG8ub3JnL3JlY29yZC80MDMyODwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS80LjAvIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIDQuMDwvcmlnaHRzPgogICAgPHJpZ2h0cyByaWdodHNVUkk9ImluZm86ZXUtcmVwby9zZW1hbnRpY3Mvb3BlbkFjY2VzcyI+T3BlbiBBY2Nlc3M8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5QdWJsaWNhdGlvbiBpbiB0aGUgY29uZmVyZW5jZSBwcm9jZWVkaW5ncyBvZiBFVVNJUENPLCBQb3puYW4sIFBvbGFuZCwgMjAwNzwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+Cg==",
+      "url": "http://zenodo.org/record/40328",
+      "contentUrl": null,
+      "metadataVersion": 2,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": null,
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 1,
+      "viewsOverTime": [
+        {
+          "yearMonth": "2020-06",
+          "total": 1
+        }
+      ],
+      "downloadCount": 0,
+      "downloadsOverTime": [
+        {
+          "yearMonth": "2020-06",
+          "total": 0
+        }
+      ],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2015-12-30T12:59:47.000Z",
+      "registered": "2015-12-30T12:59:48.000Z",
+      "published": "2007",
+      "updated": "2020-07-27T14:48:47.000Z"
+    },
+    "submitted": {
+      "author": "Roy, Olivier and Vetterli, Martin",
+      "title": "The Effective Rank: A Measure of Effective Dimensionality",
+      "booktitle": "15th European Signal Processing Conference",
+      "year": "2007",
+      "pages": "606--610",
+      "doi": "10.5281/zenodo.40328"
+    },
+    "verification_source": "10.5281/zenodo.40328",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "raghu2017svcca",
+    "status": "verified_primary_proceedings",
+    "submitted": {
+      "author": "Raghu, Maithra and Gilmer, Justin and Yosinski, Jason and Sohl-Dickstein, Jascha",
+      "title": "{SVCCA}: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2017",
+      "volume": "30"
+    },
+    "verification_source": "https://proceedings.neurips.cc/paper/2017/hash/dc6a7e655d7e5840e66733e9ee67cc69-Abstract.html",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "morcos2018cca",
+    "status": "verified_primary_proceedings",
+    "submitted": {
+      "author": "Morcos, Ari S. and Raghu, Maithra and Bengio, Samy",
+      "title": "Insights on Representational Similarity in Neural Networks with Canonical Correlation",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2018",
+      "volume": "31"
+    },
+    "verification_source": "https://proceedings.neurips.cc/paper/2018/hash/a7a3d70c6d17a73140918996d03c014f-Abstract.html",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "papyan2020collapse",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Prevalence of neural collapse during the terminal phase of deep learning training"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5028-2144",
+          "authenticated-orcid": false,
+          "given": "Vardan",
+          "family": "Papyan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Statistics, Stanford University, Stanford, CA 94305-4065;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4605-4990",
+          "authenticated-orcid": false,
+          "given": "X. Y.",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Operations Research and Information Engineering, Cornell University, Ithaca, NY 14850"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David L.",
+          "family": "Donoho",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Statistics, Stanford University, Stanford, CA 94305-4065;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Proceedings of the National Academy of Sciences"
+      ],
+      "volume": "117",
+      "issue": "40",
+      "page": "24652-24663",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            21
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            21
+          ]
+        ]
+      },
+      "DOI": "10.1073/pnas.2015509117",
+      "URL": "https://doi.org/10.1073/pnas.2015509117"
+    },
+    "submitted": {
+      "author": "Papyan, Vardan and Han, X. Y. and Donoho, David L.",
+      "title": "Prevalence of Neural Collapse during the Terminal Phase of Deep Learning Training",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": "2020",
+      "volume": "117",
+      "number": "40",
+      "pages": "24652--24663",
+      "doi": "10.1073/pnas.2015509117"
+    },
+    "verification_source": "https://doi.org/10.1073/pnas.2015509117",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  },
+  {
+    "key": "cao2021curvature",
+    "status": "retrieved",
+    "registry": {
+      "title": [
+        "Efficient Weingarten map and curvature estimation on manifolds"
+      ],
+      "author": [
+        {
+          "given": "Yueqi",
+          "family": "Cao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Didong",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Huafei",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Amir H.",
+          "family": "Assadi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shiqiang",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Machine Learning"
+      ],
+      "volume": "110",
+      "issue": "6",
+      "page": "1319-1344",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            12
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1007/s10994-021-05953-4",
+      "URL": "https://doi.org/10.1007/s10994-021-05953-4"
+    },
+    "submitted": {
+      "author": "Cao, Yueqi and Li, Didong and Sun, Huafei and Assadi, Amir H. and Zhang, Shiqiang",
+      "title": "Efficient Weingarten Map and Curvature Estimation on Manifolds",
+      "journal": "Machine Learning",
+      "year": "2021",
+      "volume": "110",
+      "number": "6",
+      "pages": "1319--1344",
+      "doi": "10.1007/s10994-021-05953-4"
+    },
+    "verification_source": "https://doi.org/10.1007/s10994-021-05953-4",
+    "review": "Title, author order, year, venue and available volume/issue/pages checked. Registry first-page-only records are not interpreted as complete page ranges."
+  }
+]

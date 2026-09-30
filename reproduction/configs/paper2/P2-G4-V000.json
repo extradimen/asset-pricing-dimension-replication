@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P2-G4-V000",
+  "purpose": "Create the minimum derived stock-return bridge needed by the joint mechanism experiment",
+  "source_snapshot": "core86-training-pre2020",
+  "columns": ["permno", "target_month", "ret_fwd1"],
+  "output_columns": ["permno", "month", "ret"],
+  "maximum_target_month": "2019-12-01",
+  "raw_wrds_archive_included": false
+}

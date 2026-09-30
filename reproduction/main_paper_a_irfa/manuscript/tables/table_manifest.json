@@ -1,0 +1,19 @@
+{
+  "purpose": "Presentation of frozen summaries; no new estimation",
+  "sources": {
+    "main_paper_a_irfa/visuals/figure_data/table_01_geometry_surface_long.csv": "412291d8a727fb5e4220872eea2fadc7e5067d7420e0c3c892e096d7540543e8",
+    "main_paper_a_irfa/visuals/figure_data/sealed_table_01_family_inference.csv": "f814cc58b2e307808edc280d52ac5ad53512db252779cd538b8f745427dfd13d",
+    "main_paper_a_irfa/visuals/figure_data/identification_table_02_mechanism_aggregates.csv": "db5298b290ff1d0f231fe4195cb2cc28c3200f77a76294fd03ec790da116fa6b",
+    "main_paper_a_irfa/visuals/figure_data/identification_hypothesis_summary.csv": "24ee22b2cf2f57c998f7519bb0c0f76d4ba028fc6f81a0de51bd06afbb773018",
+    "main_paper_a_irfa/visuals/figure_data/temporal_decomposition.csv": "896c778ebe4b8e4b9712aaab169794c1b446fc966f99db0c31c1ee064d58bc63",
+    "main_paper_a_irfa/visuals/figure_data/temporal_portfolio.csv": "2c90f3f249e6265f09cc1dad3961b915c3c038884983f0862bd9a0cf4e5c0b50",
+    "experiments/P7-G1-V001/P7-G1-V001-REPORT001/result_summary.json": "9a96adf9fbf40fa3ad8746edba67b6d7062860f2dadfd64673f4c62d4adbc717"
+  },
+  "outputs": {
+    "main_paper_a_irfa/manuscript/tables/dimension_comparison.tex": "34460bcc3eb67d77ef65b5ebed01ade4ce332160e0de2fdac178792745141f88",
+    "main_paper_a_irfa/manuscript/tables/geometry_comparison.tex": "97b0adb98252c4f3ae3d83e37b6ef6b673fac9e00b90caa225b54ad6c7f1283f",
+    "main_paper_a_irfa/manuscript/tables/sealed_comparison.tex": "fd78add535a6c5b233457e3b40bf66ef2a1b237cbb90c6f2a9fe529c93a4792d",
+    "main_paper_a_irfa/manuscript/tables/simulation_comparison.tex": "e1025950703574f3347dcc435527fbe2b973dc9ec7c75c6e6d7b3bedbda4296f",
+    "main_paper_a_irfa/manuscript/tables/temporal_comparison.tex": "eec267cabf8f22ed2bee3fb09078f7bf5df4f35b3160f924146c9c2b745babc1"
+  }
+}

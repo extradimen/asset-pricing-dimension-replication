@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P7-G1-V001-REPORT001",
+  "parent_experiment_id": "P7-G1-V001-AUDIT001",
+  "paper": 7,
+  "generation": "G1",
+  "status": "planned",
+  "evidence_class": "frozen_result_summary",
+  "source_run_dir": "experiments/P7-G1-V001/P7-G1-V001-CPU-REPLAY001",
+  "source_output_manifest_sha256": "35d24f7bf150aa9c87eb66e2b6a4c8dfeb20b5044004ae1ed59cacb3d6eaefe1",
+  "audit": "experiments/P7-G1-V001/P7-G1-V001-AUDIT001/audit_report.json",
+  "audit_sha256": "f5644a2804b7a00359bce39d0561e5c2a276bef3a0889d560ee5e8ac5c542cc1",
+  "entrypoint": "scripts/summarize_paper7_geometry_results.py"
+}

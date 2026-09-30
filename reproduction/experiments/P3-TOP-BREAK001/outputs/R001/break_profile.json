@@ -1,0 +1,482 @@
+[
+  {
+    "first_month_after_break": 200502,
+    "pooled_sse_reduction": 21.956267843821706
+  },
+  {
+    "first_month_after_break": 200503,
+    "pooled_sse_reduction": 21.969729060469717
+  },
+  {
+    "first_month_after_break": 200504,
+    "pooled_sse_reduction": 25.849566150511237
+  },
+  {
+    "first_month_after_break": 200505,
+    "pooled_sse_reduction": 30.07892202672042
+  },
+  {
+    "first_month_after_break": 200506,
+    "pooled_sse_reduction": 26.33081624045394
+  },
+  {
+    "first_month_after_break": 200507,
+    "pooled_sse_reduction": 27.521349636127752
+  },
+  {
+    "first_month_after_break": 200508,
+    "pooled_sse_reduction": 27.27119291662325
+  },
+  {
+    "first_month_after_break": 200509,
+    "pooled_sse_reduction": 30.46094203671396
+  },
+  {
+    "first_month_after_break": 200510,
+    "pooled_sse_reduction": 28.924953193054762
+  },
+  {
+    "first_month_after_break": 200511,
+    "pooled_sse_reduction": 31.63858438857187
+  },
+  {
+    "first_month_after_break": 200512,
+    "pooled_sse_reduction": 28.503319626829807
+  },
+  {
+    "first_month_after_break": 200601,
+    "pooled_sse_reduction": 28.345996671984494
+  },
+  {
+    "first_month_after_break": 200602,
+    "pooled_sse_reduction": 28.23596259443707
+  },
+  {
+    "first_month_after_break": 200603,
+    "pooled_sse_reduction": 27.36341594905616
+  },
+  {
+    "first_month_after_break": 200604,
+    "pooled_sse_reduction": 26.312139643575392
+  },
+  {
+    "first_month_after_break": 200605,
+    "pooled_sse_reduction": 24.049931070078856
+  },
+  {
+    "first_month_after_break": 200606,
+    "pooled_sse_reduction": 22.508335317424326
+  },
+  {
+    "first_month_after_break": 200607,
+    "pooled_sse_reduction": 22.798907597286416
+  },
+  {
+    "first_month_after_break": 200608,
+    "pooled_sse_reduction": 23.326491392873095
+  },
+  {
+    "first_month_after_break": 200609,
+    "pooled_sse_reduction": 20.612563791215962
+  },
+  {
+    "first_month_after_break": 200610,
+    "pooled_sse_reduction": 19.519381615554494
+  },
+  {
+    "first_month_after_break": 200611,
+    "pooled_sse_reduction": 16.497092907026627
+  },
+  {
+    "first_month_after_break": 200612,
+    "pooled_sse_reduction": 15.653278197741884
+  },
+  {
+    "first_month_after_break": 200701,
+    "pooled_sse_reduction": 14.724536938479105
+  },
+  {
+    "first_month_after_break": 200702,
+    "pooled_sse_reduction": 13.270185982485827
+  },
+  {
+    "first_month_after_break": 200703,
+    "pooled_sse_reduction": 13.7237196252363
+  },
+  {
+    "first_month_after_break": 200704,
+    "pooled_sse_reduction": 14.82768095947631
+  },
+  {
+    "first_month_after_break": 200705,
+    "pooled_sse_reduction": 13.246888157556668
+  },
+  {
+    "first_month_after_break": 200706,
+    "pooled_sse_reduction": 12.077670521321352
+  },
+  {
+    "first_month_after_break": 200707,
+    "pooled_sse_reduction": 13.946772353946699
+  },
+  {
+    "first_month_after_break": 200708,
+    "pooled_sse_reduction": 16.108395242863708
+  },
+  {
+    "first_month_after_break": 200709,
+    "pooled_sse_reduction": 18.26439314549839
+  },
+  {
+    "first_month_after_break": 200710,
+    "pooled_sse_reduction": 18.599489715003756
+  },
+  {
+    "first_month_after_break": 200711,
+    "pooled_sse_reduction": 20.093196294862082
+  },
+  {
+    "first_month_after_break": 200712,
+    "pooled_sse_reduction": 20.08171888070092
+  },
+  {
+    "first_month_after_break": 200801,
+    "pooled_sse_reduction": 22.246624042100393
+  },
+  {
+    "first_month_after_break": 200802,
+    "pooled_sse_reduction": 21.112840816175094
+  },
+  {
+    "first_month_after_break": 200803,
+    "pooled_sse_reduction": 23.12787268304328
+  },
+  {
+    "first_month_after_break": 200804,
+    "pooled_sse_reduction": 23.737932311102895
+  },
+  {
+    "first_month_after_break": 200805,
+    "pooled_sse_reduction": 24.809248919327047
+  },
+  {
+    "first_month_after_break": 200806,
+    "pooled_sse_reduction": 25.0302215381098
+  },
+  {
+    "first_month_after_break": 200807,
+    "pooled_sse_reduction": 22.511905861270634
+  },
+  {
+    "first_month_after_break": 200808,
+    "pooled_sse_reduction": 23.228033033555903
+  },
+  {
+    "first_month_after_break": 200809,
+    "pooled_sse_reduction": 22.57310054954837
+  },
+  {
+    "first_month_after_break": 200810,
+    "pooled_sse_reduction": 20.37605599023732
+  },
+  {
+    "first_month_after_break": 200811,
+    "pooled_sse_reduction": 19.77306025466237
+  },
+  {
+    "first_month_after_break": 200812,
+    "pooled_sse_reduction": 19.491374917492294
+  },
+  {
+    "first_month_after_break": 200901,
+    "pooled_sse_reduction": 20.28438393882834
+  },
+  {
+    "first_month_after_break": 200902,
+    "pooled_sse_reduction": 18.431839113430897
+  },
+  {
+    "first_month_after_break": 200903,
+    "pooled_sse_reduction": 16.2594491548482
+  },
+  {
+    "first_month_after_break": 200904,
+    "pooled_sse_reduction": 18.566825653720798
+  },
+  {
+    "first_month_after_break": 200905,
+    "pooled_sse_reduction": 21.25731851918681
+  },
+  {
+    "first_month_after_break": 200906,
+    "pooled_sse_reduction": 23.61036030134551
+  },
+  {
+    "first_month_after_break": 200907,
+    "pooled_sse_reduction": 24.00103785830629
+  },
+  {
+    "first_month_after_break": 200908,
+    "pooled_sse_reduction": 24.611644550871233
+  },
+  {
+    "first_month_after_break": 200909,
+    "pooled_sse_reduction": 26.250799707497663
+  },
+  {
+    "first_month_after_break": 200910,
+    "pooled_sse_reduction": 27.627541048751937
+  },
+  {
+    "first_month_after_break": 200911,
+    "pooled_sse_reduction": 27.2180157818068
+  },
+  {
+    "first_month_after_break": 200912,
+    "pooled_sse_reduction": 25.987903993117243
+  },
+  {
+    "first_month_after_break": 201001,
+    "pooled_sse_reduction": 27.30503209884023
+  },
+  {
+    "first_month_after_break": 201002,
+    "pooled_sse_reduction": 27.47265083998468
+  },
+  {
+    "first_month_after_break": 201003,
+    "pooled_sse_reduction": 24.79814811747997
+  },
+  {
+    "first_month_after_break": 201004,
+    "pooled_sse_reduction": 22.86341508569717
+  },
+  {
+    "first_month_after_break": 201005,
+    "pooled_sse_reduction": 24.26228701310265
+  },
+  {
+    "first_month_after_break": 201006,
+    "pooled_sse_reduction": 22.151091915641473
+  },
+  {
+    "first_month_after_break": 201007,
+    "pooled_sse_reduction": 21.215947841565367
+  },
+  {
+    "first_month_after_break": 201008,
+    "pooled_sse_reduction": 20.886341074940674
+  },
+  {
+    "first_month_after_break": 201009,
+    "pooled_sse_reduction": 20.035730612391035
+  },
+  {
+    "first_month_after_break": 201010,
+    "pooled_sse_reduction": 23.188939576124767
+  },
+  {
+    "first_month_after_break": 201011,
+    "pooled_sse_reduction": 24.879393345408744
+  },
+  {
+    "first_month_after_break": 201012,
+    "pooled_sse_reduction": 25.393743316992868
+  },
+  {
+    "first_month_after_break": 201101,
+    "pooled_sse_reduction": 29.081567676115583
+  },
+  {
+    "first_month_after_break": 201102,
+    "pooled_sse_reduction": 29.249092728646474
+  },
+  {
+    "first_month_after_break": 201103,
+    "pooled_sse_reduction": 29.37092982177478
+  },
+  {
+    "first_month_after_break": 201104,
+    "pooled_sse_reduction": 28.907798396337512
+  },
+  {
+    "first_month_after_break": 201105,
+    "pooled_sse_reduction": 29.383830411486997
+  },
+  {
+    "first_month_after_break": 201106,
+    "pooled_sse_reduction": 29.305657522729916
+  },
+  {
+    "first_month_after_break": 201107,
+    "pooled_sse_reduction": 30.960946732672255
+  },
+  {
+    "first_month_after_break": 201108,
+    "pooled_sse_reduction": 30.42867254636053
+  },
+  {
+    "first_month_after_break": 201109,
+    "pooled_sse_reduction": 29.79413063337074
+  },
+  {
+    "first_month_after_break": 201110,
+    "pooled_sse_reduction": 26.72981001578387
+  },
+  {
+    "first_month_after_break": 201111,
+    "pooled_sse_reduction": 26.74576121799737
+  },
+  {
+    "first_month_after_break": 201112,
+    "pooled_sse_reduction": 25.691795270091916
+  },
+  {
+    "first_month_after_break": 201201,
+    "pooled_sse_reduction": 25.448331971247853
+  },
+  {
+    "first_month_after_break": 201202,
+    "pooled_sse_reduction": 27.648571254995886
+  },
+  {
+    "first_month_after_break": 201203,
+    "pooled_sse_reduction": 27.830757961504332
+  },
+  {
+    "first_month_after_break": 201204,
+    "pooled_sse_reduction": 28.11053927757507
+  },
+  {
+    "first_month_after_break": 201205,
+    "pooled_sse_reduction": 28.440350303236073
+  },
+  {
+    "first_month_after_break": 201206,
+    "pooled_sse_reduction": 29.567314149523554
+  },
+  {
+    "first_month_after_break": 201207,
+    "pooled_sse_reduction": 28.65726892987641
+  },
+  {
+    "first_month_after_break": 201208,
+    "pooled_sse_reduction": 29.65304457361117
+  },
+  {
+    "first_month_after_break": 201209,
+    "pooled_sse_reduction": 28.266254756511216
+  },
+  {
+    "first_month_after_break": 201210,
+    "pooled_sse_reduction": 30.44432174491544
+  },
+  {
+    "first_month_after_break": 201211,
+    "pooled_sse_reduction": 31.252777492947644
+  },
+  {
+    "first_month_after_break": 201212,
+    "pooled_sse_reduction": 28.895723162688682
+  },
+  {
+    "first_month_after_break": 201301,
+    "pooled_sse_reduction": 28.469902436168695
+  },
+  {
+    "first_month_after_break": 201302,
+    "pooled_sse_reduction": 30.84609360346849
+  },
+  {
+    "first_month_after_break": 201303,
+    "pooled_sse_reduction": 30.530976829197925
+  },
+  {
+    "first_month_after_break": 201304,
+    "pooled_sse_reduction": 28.536849772771802
+  },
+  {
+    "first_month_after_break": 201305,
+    "pooled_sse_reduction": 28.165859936561446
+  },
+  {
+    "first_month_after_break": 201306,
+    "pooled_sse_reduction": 27.417898792014284
+  },
+  {
+    "first_month_after_break": 201307,
+    "pooled_sse_reduction": 26.979223220526364
+  },
+  {
+    "first_month_after_break": 201308,
+    "pooled_sse_reduction": 27.465372986562897
+  },
+  {
+    "first_month_after_break": 201309,
+    "pooled_sse_reduction": 27.84362863720594
+  },
+  {
+    "first_month_after_break": 201310,
+    "pooled_sse_reduction": 27.356473556214723
+  },
+  {
+    "first_month_after_break": 201311,
+    "pooled_sse_reduction": 29.64069710611534
+  },
+  {
+    "first_month_after_break": 201312,
+    "pooled_sse_reduction": 30.800864658102
+  },
+  {
+    "first_month_after_break": 201401,
+    "pooled_sse_reduction": 32.660111937306056
+  },
+  {
+    "first_month_after_break": 201402,
+    "pooled_sse_reduction": 35.187687098026345
+  },
+  {
+    "first_month_after_break": 201403,
+    "pooled_sse_reduction": 33.45312216884918
+  },
+  {
+    "first_month_after_break": 201404,
+    "pooled_sse_reduction": 32.640916834831614
+  },
+  {
+    "first_month_after_break": 201405,
+    "pooled_sse_reduction": 35.75571725366103
+  },
+  {
+    "first_month_after_break": 201406,
+    "pooled_sse_reduction": 33.74530790509448
+  },
+  {
+    "first_month_after_break": 201407,
+    "pooled_sse_reduction": 31.57253730431944
+  },
+  {
+    "first_month_after_break": 201408,
+    "pooled_sse_reduction": 29.580163239109652
+  },
+  {
+    "first_month_after_break": 201409,
+    "pooled_sse_reduction": 27.668215801788165
+  },
+  {
+    "first_month_after_break": 201410,
+    "pooled_sse_reduction": 28.12901025305382
+  },
+  {
+    "first_month_after_break": 201411,
+    "pooled_sse_reduction": 26.53368540341239
+  },
+  {
+    "first_month_after_break": 201412,
+    "pooled_sse_reduction": 24.251079993146277
+  },
+  {
+    "first_month_after_break": 201501,
+    "pooled_sse_reduction": 22.643303252391206
+  }
+]

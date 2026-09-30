@@ -1,0 +1,374 @@
+{
+  "experiment_id": "P3-TOP-TREE-FULL",
+  "scope": "Locked full-sample shallow boosted-tree mechanism validation. Hyperparameters are unchanged from the compute-only pilot; the full run tests whether adjustment cost and alignment benefit conclusions replicate outside linear and neural estimators.",
+  "months": 239,
+  "stock_months": 1043511,
+  "summary": {
+    "rolling60": {
+      "months": 239,
+      "stock_months": 1043511,
+      "loss": {
+        "zero": 0.03440314077168921,
+        "frozen": 0.03579303421331202,
+        "rolling60": 0.0359137098226676
+      },
+      "r2_against_zero": {
+        "frozen": -0.040400190518842694,
+        "rolling60": -0.043907882161196676
+      },
+      "adjustment_cost_A": 0.003535516733704609,
+      "alignment_benefit_2B": 0.0034148411293898075,
+      "updated_minus_frozen_loss": 0.00012067560935558053,
+      "ex_post_lambda_star": 0.48293380948188097
+    },
+    "expanding": {
+      "months": 239,
+      "stock_months": 1043511,
+      "loss": {
+        "zero": 0.03440314077168921,
+        "frozen": 0.03579303421331202,
+        "expanding": 0.03458101837917256
+      },
+      "r2_against_zero": {
+        "frozen": -0.040400190518842694,
+        "expanding": -0.005170388618405575
+      },
+      "adjustment_cost_A": 0.0014727470880728489,
+      "alignment_benefit_2B": 0.002684763008576636,
+      "updated_minus_frozen_loss": -0.0012120158341394627,
+      "ex_post_lambda_star": 0.9114813501650717
+    }
+  },
+  "fits": [
+    {
+      "arm": "frozen",
+      "target_year": null,
+      "rows": 2067433,
+      "first_month": 196407,
+      "last_month": 200001,
+      "seconds": 108.6782500743866
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2000,
+      "rows": 423144,
+      "first_month": 199502,
+      "last_month": 200001,
+      "seconds": 25.655287981033325
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2000,
+      "rows": 2067433,
+      "first_month": 196407,
+      "last_month": 200001,
+      "seconds": 0.0
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2001,
+      "rows": 420467,
+      "first_month": 199601,
+      "last_month": 200012,
+      "seconds": 27.59824299812317
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2001,
+      "rows": 2139076,
+      "first_month": 196407,
+      "last_month": 200012,
+      "seconds": 124.36312580108643
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2002,
+      "rows": 406225,
+      "first_month": 199701,
+      "last_month": 200112,
+      "seconds": 31.936764001846313
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2002,
+      "rows": 2210474,
+      "first_month": 196407,
+      "last_month": 200112,
+      "seconds": 123.29811787605286
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2003,
+      "rows": 382281,
+      "first_month": 199801,
+      "last_month": 200212,
+      "seconds": 21.937789916992188
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2003,
+      "rows": 2275353,
+      "first_month": 196407,
+      "last_month": 200212,
+      "seconds": 149.3947718143463
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2004,
+      "rows": 355440,
+      "first_month": 199901,
+      "last_month": 200312,
+      "seconds": 27.491732835769653
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2004,
+      "rows": 2335345,
+      "first_month": 196407,
+      "last_month": 200312,
+      "seconds": 149.26272082328796
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2005,
+      "rows": 332465,
+      "first_month": 200001,
+      "last_month": 200412,
+      "seconds": 22.029038190841675
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2005,
+      "rows": 2393296,
+      "first_month": 196407,
+      "last_month": 200412,
+      "seconds": 135.1850848197937
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2006,
+      "rows": 311488,
+      "first_month": 200101,
+      "last_month": 200512,
+      "seconds": 18.115153789520264
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2006,
+      "rows": 2450564,
+      "first_month": 196407,
+      "last_month": 200512,
+      "seconds": 143.2370150089264
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2007,
+      "rows": 296452,
+      "first_month": 200201,
+      "last_month": 200612,
+      "seconds": 18.250599145889282
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2007,
+      "rows": 2506926,
+      "first_month": 196407,
+      "last_month": 200612,
+      "seconds": 125.2950689792633
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2008,
+      "rows": 287003,
+      "first_month": 200301,
+      "last_month": 200712,
+      "seconds": 18.71974277496338
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2008,
+      "rows": 2562356,
+      "first_month": 196407,
+      "last_month": 200712,
+      "seconds": 158.05075097084045
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2009,
+      "rows": 280726,
+      "first_month": 200401,
+      "last_month": 200812,
+      "seconds": 21.079190969467163
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2009,
+      "rows": 2616071,
+      "first_month": 196407,
+      "last_month": 200812,
+      "seconds": 162.14063215255737
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2010,
+      "rows": 272838,
+      "first_month": 200501,
+      "last_month": 200912,
+      "seconds": 18.233563899993896
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2010,
+      "rows": 2666134,
+      "first_month": 196407,
+      "last_month": 200912,
+      "seconds": 124.63045883178711
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2011,
+      "rows": 263618,
+      "first_month": 200601,
+      "last_month": 201012,
+      "seconds": 15.708635091781616
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2011,
+      "rows": 2714182,
+      "first_month": 196407,
+      "last_month": 201012,
+      "seconds": 144.55278706550598
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2012,
+      "rows": 253494,
+      "first_month": 200701,
+      "last_month": 201112,
+      "seconds": 19.7517192363739
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2012,
+      "rows": 2760420,
+      "first_month": 196407,
+      "last_month": 201112,
+      "seconds": 237.6636838912964
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2013,
+      "rows": 242685,
+      "first_month": 200801,
+      "last_month": 201212,
+      "seconds": 48.81031012535095
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2013,
+      "rows": 2805041,
+      "first_month": 196407,
+      "last_month": 201212,
+      "seconds": 322.9390070438385
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2014,
+      "rows": 232517,
+      "first_month": 200901,
+      "last_month": 201312,
+      "seconds": 19.470163822174072
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2014,
+      "rows": 2848588,
+      "first_month": 196407,
+      "last_month": 201312,
+      "seconds": 200.50354409217834
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2015,
+      "rows": 226939,
+      "first_month": 201001,
+      "last_month": 201412,
+      "seconds": 16.78275203704834
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2015,
+      "rows": 2893073,
+      "first_month": 196407,
+      "last_month": 201412,
+      "seconds": 167.46691584587097
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2016,
+      "rows": 223965,
+      "first_month": 201101,
+      "last_month": 201512,
+      "seconds": 16.8053081035614
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2016,
+      "rows": 2938147,
+      "first_month": 196407,
+      "last_month": 201512,
+      "seconds": 162.25658178329468
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2017,
+      "rows": 221580,
+      "first_month": 201201,
+      "last_month": 201612,
+      "seconds": 14.989179849624634
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2017,
+      "rows": 2982000,
+      "first_month": 196407,
+      "last_month": 201612,
+      "seconds": 187.28614497184753
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2018,
+      "rows": 219955,
+      "first_month": 201301,
+      "last_month": 201712,
+      "seconds": 19.44744896888733
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2018,
+      "rows": 3024996,
+      "first_month": 196407,
+      "last_month": 201712,
+      "seconds": 254.5568277835846
+    },
+    {
+      "arm": "rolling60",
+      "target_year": 2019,
+      "rows": 219365,
+      "first_month": 201401,
+      "last_month": 201812,
+      "seconds": 22.549591064453125
+    },
+    {
+      "arm": "expanding",
+      "target_year": 2019,
+      "rows": 3067953,
+      "first_month": 196407,
+      "last_month": 201812,
+      "seconds": 315.71322298049927
+    }
+  ],
+  "elapsed_seconds": 3980.5576939582825,
+  "peak_rss_gib": 9.021499633789062
+}

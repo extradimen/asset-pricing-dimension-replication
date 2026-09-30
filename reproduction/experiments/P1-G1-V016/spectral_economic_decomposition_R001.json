@@ -1,0 +1,4121 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V016",
+  "source_git_revision": "8a781417d9091e0e5a0d136fe46178428babfa49",
+  "parent_run_id": "P1-G1-V015-R001",
+  "sealed_period_accessed": false,
+  "asset_count": 74,
+  "validation_months": 120,
+  "development_months": 120,
+  "weight_ridge": 3.132488203749888e-07,
+  "weight_normalization": "trace(W_gamma E[RR'])/N=1",
+  "basis_diagnostics": {
+    "largest_eigenvalue_variance_share": 0.639125102740088,
+    "largest_direction_absolute_cosine_with_equal_weight_vector": 0.9618463593623314,
+    "largest_direction_same_sign_asset_share": 1.0,
+    "largest_direction_gamma_1_to_gamma_0_weight_ratio": 0.021230707051632866
+  },
+  "seed_results": {
+    "20260924": {
+      "squared_distance_gap_gamma_0": 19.340338631393713,
+      "squared_distance_gap_gamma_1": -0.8858509304379403,
+      "squared_distance_gap_endpoint_change": -20.226189561831653
+    },
+    "20260925": {
+      "squared_distance_gap_gamma_0": 25.74355588165571,
+      "squared_distance_gap_gamma_1": 0.011634709878630023,
+      "squared_distance_gap_endpoint_change": -25.73192117177708
+    },
+    "20260926": {
+      "squared_distance_gap_gamma_0": 14.782219312961677,
+      "squared_distance_gap_gamma_1": -1.4909387504975073,
+      "squared_distance_gap_endpoint_change": -16.273158063459185
+    },
+    "20260927": {
+      "squared_distance_gap_gamma_0": 17.732881537976894,
+      "squared_distance_gap_gamma_1": 0.006704920130437442,
+      "squared_distance_gap_endpoint_change": -17.726176617846455
+    },
+    "20260928": {
+      "squared_distance_gap_gamma_0": 4.341969392905805,
+      "squared_distance_gap_gamma_1": -0.3060467548632215,
+      "squared_distance_gap_endpoint_change": -4.6480161477690265
+    }
+  },
+  "aggregate_gap": {
+    "squared_distance_gap_gamma_0": 16.38819295137876,
+    "squared_distance_gap_gamma_1": -0.5328993611579205,
+    "squared_distance_gap_endpoint_change": -16.92109231253668
+  },
+  "eigenvalue_deciles": [
+    {
+      "ascending_eigenvalue_decile": 1,
+      "index_start": 0,
+      "index_stop": 7,
+      "eigenvalue_min": 4.686288690146025e-06,
+      "eigenvalue_max": 2.932800805950697e-05,
+      "mean_squared_gap_gamma_0": -0.0007769731301934937,
+      "mean_squared_gap_gamma_1": -0.11905701428906292,
+      "mean_endpoint_change": -0.11828004115886942,
+      "absolute_endpoint_change_mass_share": 0.00585553624508704
+    },
+    {
+      "ascending_eigenvalue_decile": 2,
+      "index_start": 8,
+      "index_stop": 15,
+      "eigenvalue_min": 3.0666711438495505e-05,
+      "eigenvalue_max": 6.206159723721751e-05,
+      "mean_squared_gap_gamma_0": -0.000649201253477773,
+      "mean_squared_gap_gamma_1": -0.04570711899194655,
+      "mean_endpoint_change": -0.045057917738468775,
+      "absolute_endpoint_change_mass_share": 0.004054533585619776
+    },
+    {
+      "ascending_eigenvalue_decile": 3,
+      "index_start": 16,
+      "index_stop": 23,
+      "eigenvalue_min": 6.59687047259736e-05,
+      "eigenvalue_max": 0.00011511072077506447,
+      "mean_squared_gap_gamma_0": -0.0026916044525586652,
+      "mean_squared_gap_gamma_1": -0.11620656562435813,
+      "mean_endpoint_change": -0.11351496117179946,
+      "absolute_endpoint_change_mass_share": 0.012487363679457974
+    },
+    {
+      "ascending_eigenvalue_decile": 4,
+      "index_start": 24,
+      "index_stop": 31,
+      "eigenvalue_min": 0.0001247560450378993,
+      "eigenvalue_max": 0.00020512440120128267,
+      "mean_squared_gap_gamma_0": -0.001260827001264793,
+      "mean_squared_gap_gamma_1": -0.018224808710948153,
+      "mean_endpoint_change": -0.016963981709683357,
+      "absolute_endpoint_change_mass_share": 0.005180605598998583
+    },
+    {
+      "ascending_eigenvalue_decile": 5,
+      "index_start": 32,
+      "index_stop": 38,
+      "eigenvalue_min": 0.00020969788708716868,
+      "eigenvalue_max": 0.0003219469814461425,
+      "mean_squared_gap_gamma_0": 0.00223989089402808,
+      "mean_squared_gap_gamma_1": 0.024172157743234363,
+      "mean_endpoint_change": 0.021932266849206284,
+      "absolute_endpoint_change_mass_share": 0.003020775002028532
+    },
+    {
+      "ascending_eigenvalue_decile": 6,
+      "index_start": 39,
+      "index_stop": 45,
+      "eigenvalue_min": 0.0003507816533215321,
+      "eigenvalue_max": 0.0005217443025226168,
+      "mean_squared_gap_gamma_0": -0.007089224236037843,
+      "mean_squared_gap_gamma_1": -0.05023425079033128,
+      "mean_endpoint_change": -0.04314502655429344,
+      "absolute_endpoint_change_mass_share": 0.0025015734336337764
+    },
+    {
+      "ascending_eigenvalue_decile": 7,
+      "index_start": 46,
+      "index_stop": 52,
+      "eigenvalue_min": 0.0005413666784562902,
+      "eigenvalue_max": 0.0008752554731452354,
+      "mean_squared_gap_gamma_0": -0.0168066835942353,
+      "mean_squared_gap_gamma_1": -0.08641483468367392,
+      "mean_endpoint_change": -0.06960815108943859,
+      "absolute_endpoint_change_mass_share": 0.006493522174128852
+    },
+    {
+      "ascending_eigenvalue_decile": 8,
+      "index_start": 53,
+      "index_stop": 59,
+      "eigenvalue_min": 0.0010297865177655548,
+      "eigenvalue_max": 0.0016083973093441403,
+      "mean_squared_gap_gamma_0": -0.0013135330393410985,
+      "mean_squared_gap_gamma_1": -0.0003179487036821674,
+      "mean_endpoint_change": 0.0009955843356589315,
+      "absolute_endpoint_change_mass_share": 0.0017556943640469364
+    },
+    {
+      "ascending_eigenvalue_decile": 9,
+      "index_start": 60,
+      "index_stop": 66,
+      "eigenvalue_min": 0.00165278751695883,
+      "eigenvalue_max": 0.003059153824654912,
+      "mean_squared_gap_gamma_0": -0.045621283045959415,
+      "mean_squared_gap_gamma_1": -0.0636137241976663,
+      "mean_endpoint_change": -0.01799244115170685,
+      "absolute_endpoint_change_mass_share": 0.0017676173355355824
+    },
+    {
+      "ascending_eigenvalue_decile": 10,
+      "index_start": 67,
+      "index_stop": 73,
+      "eigenvalue_min": 0.0034009910459112183,
+      "eigenvalue_max": 0.14815183653397831,
+      "mean_squared_gap_gamma_0": 16.462162390237797,
+      "mean_squared_gap_gamma_1": -0.057295252909485395,
+      "mean_endpoint_change": -16.519457643147284,
+      "absolute_endpoint_change_mass_share": 0.956882778581463
+    }
+  ],
+  "directions": [
+    {
+      "ascending_eigen_index": 0,
+      "eigenvalue": 4.686288690146025e-06,
+      "eigenvalue_percentile": 0.0,
+      "mean_squared_gap_gamma_0": -5.008269727066732e-06,
+      "mean_squared_gap_gamma_1": -0.003150868618199752,
+      "mean_endpoint_change": -0.003145860348472686,
+      "endpoint_change_standard_error": 0.004496722723213762,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.00015573801895893787,
+      "size_bm_loading_share": 0.7344176542123471,
+      "industry_loading_share": 0.26558234578765294,
+      "top_assets": [
+        {
+          "asset": "size_bm::BIG LoBM",
+          "loading": 0.5820591451388782
+        },
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": 0.442834792165106
+        },
+        {
+          "asset": "size_bm::ME5 BM3",
+          "loading": 0.26478817019654355
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": 0.23238261721224968
+        },
+        {
+          "asset": "industry::Banks",
+          "loading": -0.22961568932530393
+        },
+        {
+          "asset": "industry::Softw",
+          "loading": -0.22136589600308015
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": -0.21584698336530797
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": 0.19929527112088166
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 1,
+      "eigenvalue": 1.1624952109377905e-05,
+      "eigenvalue_percentile": 0.0136986301369863,
+      "mean_squared_gap_gamma_0": -1.3972294387852423e-05,
+      "mean_squared_gap_gamma_1": -0.0036813004067634803,
+      "mean_endpoint_change": -0.003667328112375628,
+      "endpoint_change_standard_error": 0.010847041849818656,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 0.0001815536456890373,
+      "size_bm_loading_share": 0.7911858785127497,
+      "industry_loading_share": 0.20881412148725031,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME1 BM4",
+          "loading": 0.4123498859718734
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": -0.3208367763803437
+        },
+        {
+          "asset": "size_bm::ME4 BM2",
+          "loading": -0.3080489950512596
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": 0.2802527099557443
+        },
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": -0.27061641230607103
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": 0.21538278963887048
+        },
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": 0.20072704074493797
+        },
+        {
+          "asset": "size_bm::BIG LoBM",
+          "loading": -0.19173038469686915
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 2,
+      "eigenvalue": 1.4333895440513167e-05,
+      "eigenvalue_percentile": 0.0273972602739726,
+      "mean_squared_gap_gamma_0": -0.00014172272087623392,
+      "mean_squared_gap_gamma_1": -0.030433993125470637,
+      "mean_endpoint_change": -0.030292270404594403,
+      "endpoint_change_standard_error": 0.021417603884197545,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.001499640053910981,
+      "size_bm_loading_share": 0.7768804113028296,
+      "industry_loading_share": 0.2231195886971704,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME3 BM4",
+          "loading": -0.3675799113561231
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": -0.34057987083101116
+        },
+        {
+          "asset": "size_bm::BIG HiBM",
+          "loading": -0.3129859595605806
+        },
+        {
+          "asset": "industry::Banks",
+          "loading": 0.2907944982950158
+        },
+        {
+          "asset": "size_bm::ME4 BM4",
+          "loading": 0.23425283687840953
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": 0.23277191100056088
+        },
+        {
+          "asset": "size_bm::ME1 BM4",
+          "loading": 0.2305597780090771
+        },
+        {
+          "asset": "size_bm::ME3 BM3",
+          "loading": 0.2065769712374044
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 3,
+      "eigenvalue": 1.6952220661784665e-05,
+      "eigenvalue_percentile": 0.0410958904109589,
+      "mean_squared_gap_gamma_0": -2.131356885622127e-05,
+      "mean_squared_gap_gamma_1": -0.0038828463013725833,
+      "mean_endpoint_change": -0.003861532732516362,
+      "endpoint_change_standard_error": 0.005296072016592203,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.00019116788137120126,
+      "size_bm_loading_share": 0.7719911158034785,
+      "industry_loading_share": 0.22800888419652154,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": 0.4086048606897453
+        },
+        {
+          "asset": "size_bm::ME4 BM3",
+          "loading": -0.3432687869065795
+        },
+        {
+          "asset": "size_bm::ME4 BM2",
+          "loading": 0.29383690740683677
+        },
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": 0.2554334045859485
+        },
+        {
+          "asset": "size_bm::ME2 BM5",
+          "loading": -0.24856486102383635
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": 0.23006393925749652
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": -0.22710882970121365
+        },
+        {
+          "asset": "industry::Banks",
+          "loading": -0.19951419301656353
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 4,
+      "eigenvalue": 2.0115163920905393e-05,
+      "eigenvalue_percentile": 0.0547945205479452,
+      "mean_squared_gap_gamma_0": -0.00016559582202356097,
+      "mean_squared_gap_gamma_1": -0.02549688746070884,
+      "mean_endpoint_change": -0.02533129163868527,
+      "endpoint_change_standard_error": 0.020681743895096496,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0012540433269376593,
+      "size_bm_loading_share": 0.7894829561233763,
+      "industry_loading_share": 0.21051704387662373,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": -0.3772408782781915
+        },
+        {
+          "asset": "size_bm::ME3 BM3",
+          "loading": -0.28971609096104234
+        },
+        {
+          "asset": "size_bm::SMALL HiBM",
+          "loading": -0.2873385909939981
+        },
+        {
+          "asset": "size_bm::BIG LoBM",
+          "loading": 0.2806944109585897
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": -0.2648954040979464
+        },
+        {
+          "asset": "size_bm::ME2 BM3",
+          "loading": 0.22572638925460187
+        },
+        {
+          "asset": "size_bm::ME4 BM2",
+          "loading": -0.22190956825125963
+        },
+        {
+          "asset": "size_bm::ME5 BM3",
+          "loading": -0.2174395235046275
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 5,
+      "eigenvalue": 2.227279763283752e-05,
+      "eigenvalue_percentile": 0.0684931506849315,
+      "mean_squared_gap_gamma_0": -6.548478402691429e-05,
+      "mean_squared_gap_gamma_1": -0.009119532976016042,
+      "mean_endpoint_change": -0.009054048191989128,
+      "endpoint_change_standard_error": 0.014223765131817152,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.000448226994457565,
+      "size_bm_loading_share": 0.8742527219357713,
+      "industry_loading_share": 0.1257472780642287,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME4 BM2",
+          "loading": 0.5043546084275062
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": -0.3385002643030596
+        },
+        {
+          "asset": "size_bm::SMALL HiBM",
+          "loading": -0.3245148110507041
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": 0.29826688517488065
+        },
+        {
+          "asset": "size_bm::ME3 BM4",
+          "loading": 0.2581486071607806
+        },
+        {
+          "asset": "size_bm::ME3 BM1",
+          "loading": -0.19883349232322614
+        },
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": -0.1841961152939175
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": 0.17182359786546053
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 6,
+      "eigenvalue": 2.57903537750093e-05,
+      "eigenvalue_percentile": 0.0821917808219178,
+      "mean_squared_gap_gamma_0": -0.00032535899927002066,
+      "mean_squared_gap_gamma_1": -0.039204398058104876,
+      "mean_endpoint_change": -0.03887903905883486,
+      "endpoint_change_standard_error": 0.016402669882770154,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0019247340477112351,
+      "size_bm_loading_share": 0.7888154657925694,
+      "industry_loading_share": 0.21118453420743055,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME2 BM3",
+          "loading": -0.5096856647347641
+        },
+        {
+          "asset": "size_bm::SMALL HiBM",
+          "loading": -0.25162538969158116
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": 0.23426517647913128
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": 0.2316071748412953
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": 0.23132183292434083
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": 0.2245888930132765
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": -0.20584144592579146
+        },
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": 0.1806667294728483
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 7,
+      "eigenvalue": 2.932800805950697e-05,
+      "eigenvalue_percentile": 0.0958904109589041,
+      "mean_squared_gap_gamma_0": -3.851667102562351e-05,
+      "mean_squared_gap_gamma_1": -0.004087187342426711,
+      "mean_endpoint_change": -0.004048670671401087,
+      "endpoint_change_standard_error": 0.0030335127658826125,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0002004322760504233,
+      "size_bm_loading_share": 0.8987678898389924,
+      "industry_loading_share": 0.10123211016100764,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME3 BM5",
+          "loading": -0.37888181047045166
+        },
+        {
+          "asset": "size_bm::ME3 BM3",
+          "loading": 0.3754025291652099
+        },
+        {
+          "asset": "size_bm::ME3 BM4",
+          "loading": 0.3681857692385532
+        },
+        {
+          "asset": "size_bm::ME2 BM3",
+          "loading": -0.3244289624002118
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": -0.26158546354216716
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": -0.24692272045165525
+        },
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": 0.20844849934859022
+        },
+        {
+          "asset": "size_bm::ME1 BM4",
+          "loading": -0.19922873362783244
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 8,
+      "eigenvalue": 3.0666711438495505e-05,
+      "eigenvalue_percentile": 0.1095890410958904,
+      "mean_squared_gap_gamma_0": 4.665859288071999e-06,
+      "mean_squared_gap_gamma_1": 0.00047372160995408797,
+      "mean_endpoint_change": 0.00046905575066601607,
+      "endpoint_change_standard_error": 0.0009376719369600943,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 2.322093332130541e-05,
+      "size_bm_loading_share": 0.7439227978908884,
+      "industry_loading_share": 0.25607720210911156,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME4 BM3",
+          "loading": 0.401220369319663
+        },
+        {
+          "asset": "size_bm::ME4 BM2",
+          "loading": 0.33006294839309375
+        },
+        {
+          "asset": "size_bm::ME3 BM4",
+          "loading": -0.2890541302936526
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": 0.27020675014893925
+        },
+        {
+          "asset": "size_bm::ME1 BM4",
+          "loading": 0.2671986710072715
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": -0.2474161817842391
+        },
+        {
+          "asset": "size_bm::ME5 BM3",
+          "loading": -0.21651447215055583
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": -0.19573995735334038
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 9,
+      "eigenvalue": 3.467984951754878e-05,
+      "eigenvalue_percentile": 0.1232876712328767,
+      "mean_squared_gap_gamma_0": -3.929704377513706e-05,
+      "mean_squared_gap_gamma_1": -0.0035322375169946412,
+      "mean_endpoint_change": -0.003492940473219505,
+      "endpoint_change_standard_error": 0.006392551497595043,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.00017292046352432796,
+      "size_bm_loading_share": 0.882247041296887,
+      "industry_loading_share": 0.11775295870311298,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": 0.3997580690371595
+        },
+        {
+          "asset": "size_bm::ME4 BM3",
+          "loading": 0.39477372619348305
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": 0.38699577460060886
+        },
+        {
+          "asset": "size_bm::ME4 BM2",
+          "loading": -0.3009633103075141
+        },
+        {
+          "asset": "size_bm::ME2 BM5",
+          "loading": 0.22194496409298414
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": -0.21837603834351285
+        },
+        {
+          "asset": "size_bm::ME2 BM3",
+          "loading": -0.193170632930615
+        },
+        {
+          "asset": "size_bm::ME4 BM4",
+          "loading": -0.1923288062629956
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 10,
+      "eigenvalue": 3.852310460164038e-05,
+      "eigenvalue_percentile": 0.136986301369863,
+      "mean_squared_gap_gamma_0": -3.661468133957755e-05,
+      "mean_squared_gap_gamma_1": -0.002965440603549331,
+      "mean_endpoint_change": -0.0029288259222097534,
+      "endpoint_change_standard_error": 0.0015033065130693915,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.00014499357774161271,
+      "size_bm_loading_share": 0.7456628726829571,
+      "industry_loading_share": 0.25433712731704294,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": -0.4543277407619464
+        },
+        {
+          "asset": "size_bm::ME2 BM3",
+          "loading": 0.3224503059008032
+        },
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": 0.2759263622800769
+        },
+        {
+          "asset": "size_bm::ME3 BM3",
+          "loading": -0.2630224696281918
+        },
+        {
+          "asset": "size_bm::BIG LoBM",
+          "loading": 0.25795345043283874
+        },
+        {
+          "asset": "industry::Insur",
+          "loading": 0.20708511612653088
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": -0.20502388174216454
+        },
+        {
+          "asset": "size_bm::ME2 BM5",
+          "loading": -0.16397806622846564
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 11,
+      "eigenvalue": 4.053705562573727e-05,
+      "eigenvalue_percentile": 0.1506849315068493,
+      "mean_squared_gap_gamma_0": -0.00011375789373229014,
+      "mean_squared_gap_gamma_1": -0.008759083376793705,
+      "mean_endpoint_change": -0.008645325483061416,
+      "endpoint_change_standard_error": 0.023944508800053096,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0004279928906065036,
+      "size_bm_loading_share": 0.852003014266751,
+      "industry_loading_share": 0.14799698573324904,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME3 BM3",
+          "loading": -0.4021129003140824
+        },
+        {
+          "asset": "size_bm::ME4 BM4",
+          "loading": -0.3509956548884612
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": -0.285315251867341
+        },
+        {
+          "asset": "size_bm::ME3 BM1",
+          "loading": -0.2702149735391525
+        },
+        {
+          "asset": "size_bm::ME2 BM3",
+          "loading": -0.26719697348419147
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": -0.2060069200860669
+        },
+        {
+          "asset": "size_bm::ME3 BM4",
+          "loading": 0.20372296769208523
+        },
+        {
+          "asset": "size_bm::ME4 BM2",
+          "loading": 0.18429227459733855
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 12,
+      "eigenvalue": 4.1832741050117404e-05,
+      "eigenvalue_percentile": 0.1643835616438356,
+      "mean_squared_gap_gamma_0": -0.00010272492944589392,
+      "mean_squared_gap_gamma_1": -0.007666409420275522,
+      "mean_endpoint_change": -0.007563684490829626,
+      "endpoint_change_standard_error": 0.0029929771584552545,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0003744454960323158,
+      "size_bm_loading_share": 0.8668740511369074,
+      "industry_loading_share": 0.1331259488630926,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME5 BM3",
+          "loading": 0.5836884016483471
+        },
+        {
+          "asset": "size_bm::ME1 BM4",
+          "loading": -0.27453512416650816
+        },
+        {
+          "asset": "size_bm::BIG LoBM",
+          "loading": -0.24472646504729034
+        },
+        {
+          "asset": "size_bm::ME3 BM4",
+          "loading": -0.19955570658836622
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": 0.18936296415422244
+        },
+        {
+          "asset": "size_bm::ME2 BM5",
+          "loading": 0.18892805816990085
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": 0.1819613979392831
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": -0.17903022839621996
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 13,
+      "eigenvalue": 4.98744653627412e-05,
+      "eigenvalue_percentile": 0.1780821917808219,
+      "mean_squared_gap_gamma_0": -6.378621618203372e-05,
+      "mean_squared_gap_gamma_1": -0.003997623044670674,
+      "mean_endpoint_change": -0.003933836828488639,
+      "endpoint_change_standard_error": 0.002957372075323587,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.00019474734626219887,
+      "size_bm_loading_share": 0.7185801069291048,
+      "industry_loading_share": 0.2814198930708952,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": -0.4037602325654334
+        },
+        {
+          "asset": "size_bm::ME4 BM3",
+          "loading": 0.29753388943994985
+        },
+        {
+          "asset": "size_bm::ME3 BM5",
+          "loading": 0.2941763367715677
+        },
+        {
+          "asset": "size_bm::ME4 BM4",
+          "loading": -0.2902977747521317
+        },
+        {
+          "asset": "size_bm::ME3 BM1",
+          "loading": 0.28381351928925236
+        },
+        {
+          "asset": "industry::Food",
+          "loading": -0.22396993580605623
+        },
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": -0.21300430211690555
+        },
+        {
+          "asset": "industry::Telcm",
+          "loading": 0.20076416217587995
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 14,
+      "eigenvalue": 5.5008918326403045e-05,
+      "eigenvalue_percentile": 0.1917808219178082,
+      "mean_squared_gap_gamma_0": -0.0006608919463392361,
+      "mean_squared_gap_gamma_1": -0.03757540676661921,
+      "mean_endpoint_change": -0.03691451482027997,
+      "endpoint_change_standard_error": 0.021437472514568248,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0018274788999237965,
+      "size_bm_loading_share": 0.7229230670872034,
+      "industry_loading_share": 0.27707693291279656,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": 0.3664724312837227
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": 0.33663717842931995
+        },
+        {
+          "asset": "size_bm::ME3 BM5",
+          "loading": -0.3296962050615441
+        },
+        {
+          "asset": "size_bm::ME4 BM3",
+          "loading": 0.3030696897187854
+        },
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": 0.3013351966917711
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": -0.23072501443838997
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": -0.22659356825539256
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": -0.16995260332609247
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 15,
+      "eigenvalue": 6.206159723721751e-05,
+      "eigenvalue_percentile": 0.2054794520547945,
+      "mean_squared_gap_gamma_0": 0.0003632055980483234,
+      "mean_squared_gap_gamma_1": 0.018315360127002446,
+      "mean_endpoint_change": 0.01795215452895412,
+      "endpoint_change_standard_error": 0.017005205279499766,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0008887339782077152,
+      "size_bm_loading_share": 0.7576897699842269,
+      "industry_loading_share": 0.24231023001577312,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME2 BM5",
+          "loading": 0.5127293619063787
+        },
+        {
+          "asset": "size_bm::ME3 BM4",
+          "loading": -0.28442198528375046
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": -0.2547520023030165
+        },
+        {
+          "asset": "size_bm::ME4 BM4",
+          "loading": -0.2542318558052285
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": -0.2120134334732573
+        },
+        {
+          "asset": "size_bm::ME3 BM1",
+          "loading": 0.19480534020664653
+        },
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": -0.1743257957483537
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": 0.170488088221636
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 16,
+      "eigenvalue": 6.59687047259736e-05,
+      "eigenvalue_percentile": 0.2191780821917808,
+      "mean_squared_gap_gamma_0": -0.0015742670903535997,
+      "mean_squared_gap_gamma_1": -0.07470600839237049,
+      "mean_endpoint_change": -0.0731317413020169,
+      "endpoint_change_standard_error": 0.01578643467022967,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.0036204380524784557,
+      "size_bm_loading_share": 0.5665442383343656,
+      "industry_loading_share": 0.4334557616656344,
+      "top_assets": [
+        {
+          "asset": "size_bm::BIG HiBM",
+          "loading": 0.40693566477269005
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": -0.37924064976563043
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": 0.26437152598003066
+        },
+        {
+          "asset": "industry::Banks",
+          "loading": -0.24473031669348905
+        },
+        {
+          "asset": "size_bm::ME2 BM1",
+          "loading": 0.2412826359560048
+        },
+        {
+          "asset": "size_bm::ME5 BM3",
+          "loading": 0.23559317987398853
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": -0.20077971063344652
+        },
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": 0.17246128345780126
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 17,
+      "eigenvalue": 7.511769133637341e-05,
+      "eigenvalue_percentile": 0.2328767123287671,
+      "mean_squared_gap_gamma_0": -0.0013076514120097988,
+      "mean_squared_gap_gamma_1": -0.05452741155168907,
+      "mean_endpoint_change": -0.05321976013967927,
+      "endpoint_change_standard_error": 0.03150294213396845,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0026346814847160913,
+      "size_bm_loading_share": 0.5539731447637205,
+      "industry_loading_share": 0.4460268552362795,
+      "top_assets": [
+        {
+          "asset": "industry::BusSv",
+          "loading": -0.34253472894944226
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": 0.28210049975916085
+        },
+        {
+          "asset": "size_bm::SMALL HiBM",
+          "loading": 0.26040829958485856
+        },
+        {
+          "asset": "size_bm::ME3 BM3",
+          "loading": -0.24046097715867992
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": -0.23404545606044477
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": 0.230044136025064
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": 0.197407363854632
+        },
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": 0.19469621705307108
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 18,
+      "eigenvalue": 8.06355298765294e-05,
+      "eigenvalue_percentile": 0.2465753424657534,
+      "mean_squared_gap_gamma_0": 0.0010216732708095437,
+      "mean_squared_gap_gamma_1": 0.03969850446976111,
+      "mean_endpoint_change": 0.03867683119895157,
+      "endpoint_change_standard_error": 0.018018677364182483,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0019147236060425708,
+      "size_bm_loading_share": 0.48338390115747987,
+      "industry_loading_share": 0.5166160988425201,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME4 BM4",
+          "loading": 0.32727505320803185
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": -0.26130901388226124
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": 0.24614183993338773
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": -0.24091093661547597
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": -0.24089723969316856
+        },
+        {
+          "asset": "size_bm::ME2 BM5",
+          "loading": 0.22784787157452288
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": -0.2248231545164146
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": 0.18485145091011035
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 19,
+      "eigenvalue": 8.406885481626382e-05,
+      "eigenvalue_percentile": 0.2602739726027397,
+      "mean_squared_gap_gamma_0": 0.00039317760052201886,
+      "mean_squared_gap_gamma_1": 0.014655844060886495,
+      "mean_endpoint_change": 0.014262666460364472,
+      "endpoint_change_standard_error": 0.008913221868645824,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0007060832883721811,
+      "size_bm_loading_share": 0.6438876979943039,
+      "industry_loading_share": 0.3561123020056961,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME2 BM1",
+          "loading": -0.30710553969893567
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": -0.28016302809720045
+        },
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": 0.27746810552695317
+        },
+        {
+          "asset": "industry::Whlsl",
+          "loading": 0.27082507389374416
+        },
+        {
+          "asset": "size_bm::ME4 BM3",
+          "loading": -0.23338503067534688
+        },
+        {
+          "asset": "size_bm::ME3 BM1",
+          "loading": 0.23113572393167195
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": 0.22146863588932003
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": 0.21679920120880122
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 20,
+      "eigenvalue": 9.076905914368959e-05,
+      "eigenvalue_percentile": 0.273972602739726,
+      "mean_squared_gap_gamma_0": -0.0014619558033207615,
+      "mean_squared_gap_gamma_1": -0.05048619406404733,
+      "mean_endpoint_change": -0.04902423826072657,
+      "endpoint_change_standard_error": 0.008079235420948178,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.0024269792368257167,
+      "size_bm_loading_share": 0.3980885819710992,
+      "industry_loading_share": 0.6019114180289008,
+      "top_assets": [
+        {
+          "asset": "industry::Whlsl",
+          "loading": 0.3227787334251351
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": 0.279440858364522
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": -0.2742850631151018
+        },
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": -0.24102764807191548
+        },
+        {
+          "asset": "size_bm::ME3 BM5",
+          "loading": 0.22928460249403843
+        },
+        {
+          "asset": "industry::Other",
+          "loading": 0.2120560968403063
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": 0.21063245957081647
+        },
+        {
+          "asset": "industry::Insur",
+          "loading": -0.2038182613904358
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 21,
+      "eigenvalue": 9.455664108743183e-05,
+      "eigenvalue_percentile": 0.2876712328767123,
+      "mean_squared_gap_gamma_0": 0.0003943283861337161,
+      "mean_squared_gap_gamma_1": 0.013073806724151765,
+      "mean_endpoint_change": 0.012679478338018052,
+      "endpoint_change_standard_error": 0.010445525543298145,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0006277064519899627,
+      "size_bm_loading_share": 0.6247313784612308,
+      "industry_loading_share": 0.37526862153876916,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": -0.3308245718795303
+        },
+        {
+          "asset": "size_bm::SMALL HiBM",
+          "loading": -0.3211347641661521
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": -0.2754799642846193
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": 0.2314474928187301
+        },
+        {
+          "asset": "industry::Whlsl",
+          "loading": 0.2195366256391797
+        },
+        {
+          "asset": "size_bm::ME3 BM3",
+          "loading": -0.2131111732125776
+        },
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": 0.20760875730313688
+        },
+        {
+          "asset": "size_bm::BIG LoBM",
+          "loading": -0.1956418098198396
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 22,
+      "eigenvalue": 0.00010435861179871192,
+      "eigenvalue_percentile": 0.3013698630136986,
+      "mean_squared_gap_gamma_0": 0.00012888209112085856,
+      "mean_squared_gap_gamma_1": 0.003872888959147347,
+      "mean_endpoint_change": 0.0037440068680264895,
+      "endpoint_change_standard_error": 0.0060663007305878465,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.00018534968117010986,
+      "size_bm_loading_share": 0.477554744713263,
+      "industry_loading_share": 0.522445255286737,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME2 BM1",
+          "loading": 0.32276435857150254
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": -0.31147252740605913
+        },
+        {
+          "asset": "industry::Drugs",
+          "loading": -0.2901828536209195
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": 0.2706418240579053
+        },
+        {
+          "asset": "size_bm::ME5 BM3",
+          "loading": -0.24335283104695393
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": -0.2427861062299571
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": 0.18782541113043166
+        },
+        {
+          "asset": "size_bm::ME2 BM5",
+          "loading": 0.18460920542061832
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 23,
+      "eigenvalue": 0.00011511072077506447,
+      "eigenvalue_percentile": 0.3150684931506849,
+      "mean_squared_gap_gamma_0": -0.0002857914954606427,
+      "mean_squared_gap_gamma_1": -0.007787995830197956,
+      "mean_endpoint_change": -0.007502204334737314,
+      "endpoint_change_standard_error": 0.0067633243143715716,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 0.00037140187786288513,
+      "size_bm_loading_share": 0.3264975001975676,
+      "industry_loading_share": 0.6735024998024324,
+      "top_assets": [
+        {
+          "asset": "industry::Mach",
+          "loading": 0.33415272084921144
+        },
+        {
+          "asset": "industry::Paper",
+          "loading": 0.3176870686462449
+        },
+        {
+          "asset": "size_bm::ME2 BM1",
+          "loading": 0.2629860600390126
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": -0.24782906846651692
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": 0.22613162689227176
+        },
+        {
+          "asset": "industry::Food",
+          "loading": 0.22271194922191495
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": 0.20647010812118136
+        },
+        {
+          "asset": "size_bm::BIG HiBM",
+          "loading": 0.19173846671376255
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 24,
+      "eigenvalue": 0.0001247560450378993,
+      "eigenvalue_percentile": 0.3287671232876712,
+      "mean_squared_gap_gamma_0": -0.00026581631088436734,
+      "mean_squared_gap_gamma_1": -0.006685029747190782,
+      "mean_endpoint_change": -0.006419213436306416,
+      "endpoint_change_standard_error": 0.002028451129237552,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.00031778765523724503,
+      "size_bm_loading_share": 0.4538652047947381,
+      "industry_loading_share": 0.546134795205262,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME3 BM1",
+          "loading": 0.38144890097334483
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": -0.2868594886032033
+        },
+        {
+          "asset": "industry::RlEst",
+          "loading": -0.24842867290456505
+        },
+        {
+          "asset": "industry::MedEq",
+          "loading": -0.23442853016500828
+        },
+        {
+          "asset": "industry::Food",
+          "loading": -0.22636765287684757
+        },
+        {
+          "asset": "size_bm::ME3 BM3",
+          "loading": -0.21333547298117048
+        },
+        {
+          "asset": "industry::Paper",
+          "loading": 0.2119492172468499
+        },
+        {
+          "asset": "industry::Boxes",
+          "loading": 0.20599563383407712
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 25,
+      "eigenvalue": 0.00013506895253770606,
+      "eigenvalue_percentile": 0.3424657534246575,
+      "mean_squared_gap_gamma_0": -0.00030391520028442146,
+      "mean_squared_gap_gamma_1": -0.007060952107525241,
+      "mean_endpoint_change": -0.006757036907240818,
+      "endpoint_change_standard_error": 0.01662352150488518,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 0.00033451184267509464,
+      "size_bm_loading_share": 0.27880107769775464,
+      "industry_loading_share": 0.7211989223022454,
+      "top_assets": [
+        {
+          "asset": "industry::Whlsl",
+          "loading": 0.4741824064898507
+        },
+        {
+          "asset": "industry::ElcEq",
+          "loading": 0.31343353652137085
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": -0.28931387769539857
+        },
+        {
+          "asset": "industry::Insur",
+          "loading": 0.2075434021320233
+        },
+        {
+          "asset": "size_bm::ME3 BM1",
+          "loading": -0.19812305182286988
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": 0.1723313657896629
+        },
+        {
+          "asset": "industry::Softw",
+          "loading": 0.16513836578962526
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": 0.16480969797165942
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 26,
+      "eigenvalue": 0.00013937515836680853,
+      "eigenvalue_percentile": 0.3561643835616438,
+      "mean_squared_gap_gamma_0": 0.0015465980336466178,
+      "mean_squared_gap_gamma_1": 0.03482487000621889,
+      "mean_endpoint_change": 0.03327827197257227,
+      "endpoint_change_standard_error": 0.012448106584404681,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0016474641520248495,
+      "size_bm_loading_share": 0.29209950578729016,
+      "industry_loading_share": 0.7079004942127098,
+      "top_assets": [
+        {
+          "asset": "industry::Fin",
+          "loading": 0.44577900362537687
+        },
+        {
+          "asset": "industry::MedEq",
+          "loading": 0.2961214793895612
+        },
+        {
+          "asset": "industry::Softw",
+          "loading": -0.24790332471666565
+        },
+        {
+          "asset": "industry::Banks",
+          "loading": -0.22891866397663438
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": -0.20703536884435478
+        },
+        {
+          "asset": "industry::Telcm",
+          "loading": 0.18823581281936633
+        },
+        {
+          "asset": "industry::Books",
+          "loading": -0.17588684581119995
+        },
+        {
+          "asset": "size_bm::BIG HiBM",
+          "loading": -0.1584959010887313
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 27,
+      "eigenvalue": 0.00017040839467891586,
+      "eigenvalue_percentile": 0.3698630136986301,
+      "mean_squared_gap_gamma_0": -0.0018375057722260838,
+      "mean_squared_gap_gamma_1": -0.03385419914991841,
+      "mean_endpoint_change": -0.03201669337769233,
+      "endpoint_change_standard_error": 0.015398504259344118,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.001585008820457766,
+      "size_bm_loading_share": 0.2598885537707745,
+      "industry_loading_share": 0.7401114462292255,
+      "top_assets": [
+        {
+          "asset": "industry::Paper",
+          "loading": -0.3584909680106979
+        },
+        {
+          "asset": "industry::Mach",
+          "loading": 0.25615207385092426
+        },
+        {
+          "asset": "size_bm::ME4 BM4",
+          "loading": 0.25367663311870386
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": -0.24195852238181573
+        },
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": -0.23731457376871615
+        },
+        {
+          "asset": "industry::Hshld",
+          "loading": 0.23486863083020348
+        },
+        {
+          "asset": "industry::Softw",
+          "loading": -0.22237170406015497
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": -0.21432501396288317
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 28,
+      "eigenvalue": 0.00018074692464019085,
+      "eigenvalue_percentile": 0.3835616438356164,
+      "mean_squared_gap_gamma_0": 0.000283204146346518,
+      "mean_squared_gap_gamma_1": 0.0049198186103035415,
+      "mean_endpoint_change": 0.004636614463957023,
+      "endpoint_change_standard_error": 0.001757608404080101,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.00022953884511866596,
+      "size_bm_loading_share": 0.323371509929788,
+      "industry_loading_share": 0.676628490070212,
+      "top_assets": [
+        {
+          "asset": "industry::Rtail",
+          "loading": -0.336377868205035
+        },
+        {
+          "asset": "industry::MedEq",
+          "loading": 0.3181444620231567
+        },
+        {
+          "asset": "size_bm::ME3 BM1",
+          "loading": 0.2510774264296255
+        },
+        {
+          "asset": "industry::Fin",
+          "loading": -0.2510325691265019
+        },
+        {
+          "asset": "industry::Boxes",
+          "loading": -0.23769648193806925
+        },
+        {
+          "asset": "industry::Drugs",
+          "loading": -0.23074150268580046
+        },
+        {
+          "asset": "industry::Hshld",
+          "loading": 0.21684889788145476
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": 0.20565238442539283
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 29,
+      "eigenvalue": 0.00018380433121565893,
+      "eigenvalue_percentile": 0.3972602739726027,
+      "mean_squared_gap_gamma_0": -0.00011165871392908357,
+      "mean_squared_gap_gamma_1": -0.0019075229812234164,
+      "mean_endpoint_change": -0.001795864267294333,
+      "endpoint_change_standard_error": 0.001862816494767852,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 8.89055178318232e-05,
+      "size_bm_loading_share": 0.2687359440943317,
+      "industry_loading_share": 0.7312640559056682,
+      "top_assets": [
+        {
+          "asset": "industry::Hshld",
+          "loading": -0.3324665252730917
+        },
+        {
+          "asset": "industry::ElcEq",
+          "loading": 0.2847386814419264
+        },
+        {
+          "asset": "size_bm::ME1 BM4",
+          "loading": -0.2750037232194726
+        },
+        {
+          "asset": "industry::Boxes",
+          "loading": 0.24188638077773067
+        },
+        {
+          "asset": "industry::Telcm",
+          "loading": 0.2018135315254342
+        },
+        {
+          "asset": "industry::Trans",
+          "loading": 0.19816795831784567
+        },
+        {
+          "asset": "industry::Mines",
+          "loading": -0.19812271206669638
+        },
+        {
+          "asset": "industry::Paper",
+          "loading": -0.19088103384434557
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 30,
+      "eigenvalue": 0.00019563983030780488,
+      "eigenvalue_percentile": 0.410958904109589,
+      "mean_squared_gap_gamma_0": 0.00039374006439034614,
+      "mean_squared_gap_gamma_1": 0.006320187045117126,
+      "mean_endpoint_change": 0.005926446980726781,
+      "endpoint_change_standard_error": 0.012686724688821144,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 0.0002933929068693945,
+      "size_bm_loading_share": 0.3075914257621668,
+      "industry_loading_share": 0.6924085742378332,
+      "top_assets": [
+        {
+          "asset": "industry::Rubbr",
+          "loading": 0.2971791293230513
+        },
+        {
+          "asset": "industry::ElcEq",
+          "loading": -0.2968919025621769
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": -0.23211401103606985
+        },
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": 0.23012394713474263
+        },
+        {
+          "asset": "industry::Other",
+          "loading": 0.2193873346399361
+        },
+        {
+          "asset": "industry::Chems",
+          "loading": 0.21902615631135347
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": -0.20306879499160851
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": -0.20287432316430015
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 31,
+      "eigenvalue": 0.00020512440120128267,
+      "eigenvalue_percentile": 0.4246575342465753,
+      "mean_squared_gap_gamma_0": -0.0009654732483243186,
+      "mean_squared_gap_gamma_1": -0.014781980386729857,
+      "mean_endpoint_change": -0.013816507138405537,
+      "endpoint_change_standard_error": 0.01235768223148261,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0006839958587837437,
+      "size_bm_loading_share": 0.25230695744036463,
+      "industry_loading_share": 0.7476930425596353,
+      "top_assets": [
+        {
+          "asset": "industry::Other",
+          "loading": 0.40650117594636037
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": -0.295551611098689
+        },
+        {
+          "asset": "industry::ElcEq",
+          "loading": 0.285950122021839
+        },
+        {
+          "asset": "industry::Telcm",
+          "loading": -0.2592752313614713
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": -0.23781970691294657
+        },
+        {
+          "asset": "industry::Meals",
+          "loading": 0.21339705460767494
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": -0.1978302479828445
+        },
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": 0.18877384819484086
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 32,
+      "eigenvalue": 0.00020969788708716868,
+      "eigenvalue_percentile": 0.4383561643835616,
+      "mean_squared_gap_gamma_0": 0.00021644401820780477,
+      "mean_squared_gap_gamma_1": 0.0032417213366300727,
+      "mean_endpoint_change": 0.0030252773184222675,
+      "endpoint_change_standard_error": 0.008248572411976606,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0001497684716364588,
+      "size_bm_loading_share": 0.24337743854086388,
+      "industry_loading_share": 0.7566225614591361,
+      "top_assets": [
+        {
+          "asset": "industry::Insur",
+          "loading": -0.4392664022544518
+        },
+        {
+          "asset": "industry::Whlsl",
+          "loading": 0.32927816392494247
+        },
+        {
+          "asset": "size_bm::ME2 BM1",
+          "loading": 0.30054955471630984
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": -0.23907173786332603
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": -0.22776880908333166
+        },
+        {
+          "asset": "industry::Softw",
+          "loading": 0.21384735687886225
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": -0.1901684296277556
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": -0.1894585932505751
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 33,
+      "eigenvalue": 0.00023379066456485486,
+      "eigenvalue_percentile": 0.4520547945205479,
+      "mean_squared_gap_gamma_0": -0.0002942645393990493,
+      "mean_squared_gap_gamma_1": -0.003953681423711287,
+      "mean_endpoint_change": -0.0036594168843122376,
+      "endpoint_change_standard_error": 0.006378060553701538,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0001811619948051311,
+      "size_bm_loading_share": 0.28161107224875825,
+      "industry_loading_share": 0.7183889277512417,
+      "top_assets": [
+        {
+          "asset": "industry::Softw",
+          "loading": 0.29810817675135476
+        },
+        {
+          "asset": "industry::Telcm",
+          "loading": -0.28728867506014644
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": 0.25582498961171507
+        },
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": 0.2319392553108675
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": 0.22705680052781682
+        },
+        {
+          "asset": "industry::Mach",
+          "loading": -0.2210201044565296
+        },
+        {
+          "asset": "industry::Soda",
+          "loading": 0.2159854599227214
+        },
+        {
+          "asset": "industry::Whlsl",
+          "loading": -0.20765844855497978
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 34,
+      "eigenvalue": 0.0002562704667191274,
+      "eigenvalue_percentile": 0.4657534246575342,
+      "mean_squared_gap_gamma_0": -0.0009987387246392046,
+      "mean_squared_gap_gamma_1": -0.012243207643370403,
+      "mean_endpoint_change": -0.0112444689187312,
+      "endpoint_change_standard_error": 0.012498835799584648,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0005566653060421928,
+      "size_bm_loading_share": 0.20572501449069472,
+      "industry_loading_share": 0.7942749855093053,
+      "top_assets": [
+        {
+          "asset": "industry::Chems",
+          "loading": 0.368453391343388
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": 0.3015242891893571
+        },
+        {
+          "asset": "industry::Util",
+          "loading": 0.25168865859443745
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": 0.21850806013976204
+        },
+        {
+          "asset": "industry::Paper",
+          "loading": -0.2153040104272035
+        },
+        {
+          "asset": "size_bm::ME2 BM5",
+          "loading": -0.21511160813080848
+        },
+        {
+          "asset": "industry::Fin",
+          "loading": 0.20611082113661822
+        },
+        {
+          "asset": "industry::Insur",
+          "loading": -0.1828673051036868
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 35,
+      "eigenvalue": 0.0002730845787130462,
+      "eigenvalue_percentile": 0.4794520547945205,
+      "mean_squared_gap_gamma_0": 0.002648612793365071,
+      "mean_squared_gap_gamma_1": 0.030471639996847204,
+      "mean_endpoint_change": 0.02782302720348213,
+      "endpoint_change_standard_error": 0.019423360523034488,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0013773984405298424,
+      "size_bm_loading_share": 0.2398568344891295,
+      "industry_loading_share": 0.7601431655108705,
+      "top_assets": [
+        {
+          "asset": "industry::Beer",
+          "loading": -0.4290827528531251
+        },
+        {
+          "asset": "industry::Softw",
+          "loading": 0.24765045944061032
+        },
+        {
+          "asset": "industry::Hshld",
+          "loading": 0.246093474854851
+        },
+        {
+          "asset": "industry::Banks",
+          "loading": -0.24341354249335523
+        },
+        {
+          "asset": "industry::Trans",
+          "loading": 0.23560798707538833
+        },
+        {
+          "asset": "industry::Fin",
+          "loading": 0.2298557789790776
+        },
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": -0.2213601754521574
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": -0.20876319917452815
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 36,
+      "eigenvalue": 0.00029532192722106314,
+      "eigenvalue_percentile": 0.4931506849315068,
+      "mean_squared_gap_gamma_0": -0.0004812909611113012,
+      "mean_squared_gap_gamma_1": -0.005120637282299066,
+      "mean_endpoint_change": -0.004639346321187765,
+      "endpoint_change_standard_error": 0.00543544959839977,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 0.00022967408762343924,
+      "size_bm_loading_share": 0.1421156623775838,
+      "industry_loading_share": 0.8578843376224162,
+      "top_assets": [
+        {
+          "asset": "industry::Chems",
+          "loading": 0.3178775112118037
+        },
+        {
+          "asset": "industry::Insur",
+          "loading": 0.2777844096946253
+        },
+        {
+          "asset": "industry::Other",
+          "loading": -0.2740820992906631
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": -0.2385377611200228
+        },
+        {
+          "asset": "industry::RlEst",
+          "loading": -0.23651584252642488
+        },
+        {
+          "asset": "industry::Boxes",
+          "loading": -0.23201500013612403
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": 0.22302109433826917
+        },
+        {
+          "asset": "industry::Mach",
+          "loading": 0.2213686286935385
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 37,
+      "eigenvalue": 0.0003057501982509894,
+      "eigenvalue_percentile": 0.5068493150684932,
+      "mean_squared_gap_gamma_0": 0.0010850026851102104,
+      "mean_squared_gap_gamma_1": 0.011150433791379616,
+      "mean_endpoint_change": 0.010065431106269406,
+      "endpoint_change_standard_error": 0.007194205339960671,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0004982962136952845,
+      "size_bm_loading_share": 0.14983997402665325,
+      "industry_loading_share": 0.8501600259733467,
+      "top_assets": [
+        {
+          "asset": "industry::Softw",
+          "loading": -0.3258462152845701
+        },
+        {
+          "asset": "industry::Whlsl",
+          "loading": 0.31008862753857847
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": -0.2582260460872764
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": 0.23058100681000704
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": 0.21752216859835805
+        },
+        {
+          "asset": "industry::ElcEq",
+          "loading": -0.21481745362922827
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": 0.18980186232001478
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": -0.18254055202140818
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 38,
+      "eigenvalue": 0.0003219469814461425,
+      "eigenvalue_percentile": 0.5205479452054794,
+      "mean_squared_gap_gamma_0": 6.412562249454915e-05,
+      "mean_squared_gap_gamma_1": 0.0006258889677582304,
+      "mean_endpoint_change": 0.0005617633452636812,
+      "endpoint_change_standard_error": 0.0014025040744879526,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 2.781048769618362e-05,
+      "size_bm_loading_share": 0.17026502673215177,
+      "industry_loading_share": 0.8297349732678483,
+      "top_assets": [
+        {
+          "asset": "industry::Beer",
+          "loading": 0.3791521968089263
+        },
+        {
+          "asset": "industry::Meals",
+          "loading": -0.3497606736663194
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": -0.33519097031508166
+        },
+        {
+          "asset": "industry::Trans",
+          "loading": 0.28237304999755564
+        },
+        {
+          "asset": "industry::Drugs",
+          "loading": -0.25200835441803815
+        },
+        {
+          "asset": "industry::Food",
+          "loading": 0.21075023110520957
+        },
+        {
+          "asset": "industry::Telcm",
+          "loading": -0.19168160636144949
+        },
+        {
+          "asset": "size_bm::SMALL HiBM",
+          "loading": -0.17752806625753767
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 39,
+      "eigenvalue": 0.0003507816533215321,
+      "eigenvalue_percentile": 0.5342465753424658,
+      "mean_squared_gap_gamma_0": -1.955249743713196e-05,
+      "mean_squared_gap_gamma_1": -0.0001751661277962828,
+      "mean_endpoint_change": -0.00015561363035915127,
+      "endpoint_change_standard_error": 0.005062584955499452,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 7.7037617155856e-06,
+      "size_bm_loading_share": 0.22958921734160537,
+      "industry_loading_share": 0.7704107826583946,
+      "top_assets": [
+        {
+          "asset": "industry::Drugs",
+          "loading": 0.30682627568651505
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": -0.29354439650114206
+        },
+        {
+          "asset": "industry::Meals",
+          "loading": -0.29235577274791547
+        },
+        {
+          "asset": "industry::Hshld",
+          "loading": -0.21760013221670835
+        },
+        {
+          "asset": "size_bm::ME3 BM1",
+          "loading": -0.21677542354074864
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": -0.20952685893214196
+        },
+        {
+          "asset": "industry::MedEq",
+          "loading": 0.20691076742611966
+        },
+        {
+          "asset": "size_bm::ME3 BM5",
+          "loading": 0.18701309087810197
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 40,
+      "eigenvalue": 0.0003610008942701297,
+      "eigenvalue_percentile": 0.547945205479452,
+      "mean_squared_gap_gamma_0": -0.0017441985308013317,
+      "mean_squared_gap_gamma_1": -0.015183901236094607,
+      "mean_endpoint_change": -0.013439702705293276,
+      "endpoint_change_standard_error": 0.003183757407691729,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.0006653418915228195,
+      "size_bm_loading_share": 0.20560652878289568,
+      "industry_loading_share": 0.7943934712171044,
+      "top_assets": [
+        {
+          "asset": "industry::Meals",
+          "loading": 0.34993733639938884
+        },
+        {
+          "asset": "industry::Paper",
+          "loading": 0.3280794756645905
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": 0.29032370385367817
+        },
+        {
+          "asset": "industry::Other",
+          "loading": 0.26653874644561926
+        },
+        {
+          "asset": "industry::Chems",
+          "loading": 0.25266761732653475
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": 0.22317374687773786
+        },
+        {
+          "asset": "industry::Food",
+          "loading": -0.19820557155303542
+        },
+        {
+          "asset": "industry::Soda",
+          "loading": -0.1877627015866457
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 41,
+      "eigenvalue": 0.0004148463074356301,
+      "eigenvalue_percentile": 0.5616438356164384,
+      "mean_squared_gap_gamma_0": 0.0005615610211344037,
+      "mean_squared_gap_gamma_1": 0.004254556854309926,
+      "mean_endpoint_change": 0.0036929958331755218,
+      "endpoint_change_standard_error": 0.006512172638992227,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.00018282434417713368,
+      "size_bm_loading_share": 0.11636510735705284,
+      "industry_loading_share": 0.8836348926429471,
+      "top_assets": [
+        {
+          "asset": "industry::Food",
+          "loading": -0.38349543545681314
+        },
+        {
+          "asset": "industry::Mach",
+          "loading": 0.2942371559187228
+        },
+        {
+          "asset": "industry::Trans",
+          "loading": 0.2852902782558772
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": -0.2769535490543067
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": 0.2596320072373141
+        },
+        {
+          "asset": "industry::Chems",
+          "loading": -0.248482825921382
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": -0.23620507116126593
+        },
+        {
+          "asset": "industry::Autos",
+          "loading": -0.23362318085104647
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 42,
+      "eigenvalue": 0.00046145165588993306,
+      "eigenvalue_percentile": 0.5753424657534246,
+      "mean_squared_gap_gamma_0": -0.0007710752253887664,
+      "mean_squared_gap_gamma_1": -0.005252284503117429,
+      "mean_endpoint_change": -0.004481209277728663,
+      "endpoint_change_standard_error": 0.002612345653738467,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.00022184540257570633,
+      "size_bm_loading_share": 0.1816478384996156,
+      "industry_loading_share": 0.8183521615003844,
+      "top_assets": [
+        {
+          "asset": "industry::Telcm",
+          "loading": -0.29116088028731785
+        },
+        {
+          "asset": "industry::Food",
+          "loading": -0.2765485465213258
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": 0.26071543879027226
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": 0.25199613184567693
+        },
+        {
+          "asset": "industry::MedEq",
+          "loading": 0.24879875519020098
+        },
+        {
+          "asset": "industry::ElcEq",
+          "loading": -0.2446312250014132
+        },
+        {
+          "asset": "industry::Chems",
+          "loading": -0.21988783454158256
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": 0.19322580563953456
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 43,
+      "eigenvalue": 0.0004739838320571364,
+      "eigenvalue_percentile": 0.589041095890411,
+      "mean_squared_gap_gamma_0": -0.0049995099414248305,
+      "mean_squared_gap_gamma_1": -0.03315502808600411,
+      "mean_endpoint_change": -0.028155518144579277,
+      "endpoint_change_standard_error": 0.01145245474507223,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.00139385863734481,
+      "size_bm_loading_share": 0.15224373991841153,
+      "industry_loading_share": 0.8477562600815884,
+      "top_assets": [
+        {
+          "asset": "industry::MedEq",
+          "loading": 0.3380882803300995
+        },
+        {
+          "asset": "industry::Util",
+          "loading": 0.308470941272722
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": -0.26665248926887114
+        },
+        {
+          "asset": "industry::Telcm",
+          "loading": 0.2640711054303843
+        },
+        {
+          "asset": "industry::Chips",
+          "loading": -0.23212889965384056
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": -0.21816261331777304
+        },
+        {
+          "asset": "industry::PerSv",
+          "loading": -0.18006262527269187
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": 0.17986446433640407
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 44,
+      "eigenvalue": 0.0004926828659553315,
+      "eigenvalue_percentile": 0.6027397260273972,
+      "mean_squared_gap_gamma_0": -5.8640602368140476e-05,
+      "mean_squared_gap_gamma_1": -0.0003741341417510499,
+      "mean_endpoint_change": -0.00031549353938290956,
+      "endpoint_change_standard_error": 0.0023488295532304044,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 1.5618728543272014e-05,
+      "size_bm_loading_share": 0.16764135381377407,
+      "industry_loading_share": 0.8323586461862259,
+      "top_assets": [
+        {
+          "asset": "industry::Util",
+          "loading": 0.31343398921045923
+        },
+        {
+          "asset": "industry::Hshld",
+          "loading": 0.3094173285499139
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": -0.3075678573530367
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": 0.21662542020989978
+        },
+        {
+          "asset": "industry::Trans",
+          "loading": -0.20392105370479205
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": 0.19964805054026846
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": -0.1936231330930378
+        },
+        {
+          "asset": "size_bm::ME3 BM5",
+          "loading": -0.1848993009658694
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 45,
+      "eigenvalue": 0.0005217443025226168,
+      "eigenvalue_percentile": 0.6164383561643836,
+      "mean_squared_gap_gamma_0": -5.7808459752046146e-05,
+      "mean_squared_gap_gamma_1": -0.00034829354987773455,
+      "mean_endpoint_change": -0.0002904850901256889,
+      "endpoint_change_standard_error": 0.028028867829319046,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 1.4380667754449785e-05,
+      "size_bm_loading_share": 0.1642613721274196,
+      "industry_loading_share": 0.8357386278725805,
+      "top_assets": [
+        {
+          "asset": "industry::Insur",
+          "loading": 0.30546566737998515
+        },
+        {
+          "asset": "industry::Telcm",
+          "loading": -0.2882971867165276
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": 0.26111387936015373
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": -0.2520142090876679
+        },
+        {
+          "asset": "industry::Hshld",
+          "loading": -0.24600625763059714
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": -0.2346412102604531
+        },
+        {
+          "asset": "industry::Util",
+          "loading": 0.22771965332230232
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": 0.22660752749069032
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 46,
+      "eigenvalue": 0.0005413666784562902,
+      "eigenvalue_percentile": 0.6301369863013698,
+      "mean_squared_gap_gamma_0": 0.0005276083068372335,
+      "mean_squared_gap_gamma_1": 0.003063665159256221,
+      "mean_endpoint_change": 0.002536056852418987,
+      "endpoint_change_standard_error": 0.004217524986825435,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0001255492699651228,
+      "size_bm_loading_share": 0.08523340580298683,
+      "industry_loading_share": 0.9147665941970131,
+      "top_assets": [
+        {
+          "asset": "industry::Soda",
+          "loading": -0.42431964481341294
+        },
+        {
+          "asset": "industry::Books",
+          "loading": -0.36039226104454686
+        },
+        {
+          "asset": "industry::Util",
+          "loading": 0.35158007643138217
+        },
+        {
+          "asset": "industry::Trans",
+          "loading": 0.29319568488753034
+        },
+        {
+          "asset": "industry::Drugs",
+          "loading": 0.2644424092159364
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": -0.19797620633542734
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": -0.1729150010303362
+        },
+        {
+          "asset": "industry::Hshld",
+          "loading": 0.16626426706207473
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 47,
+      "eigenvalue": 0.0005997125506683878,
+      "eigenvalue_percentile": 0.6438356164383562,
+      "mean_squared_gap_gamma_0": -0.0009304309941509381,
+      "mean_squared_gap_gamma_1": -0.004877380754968757,
+      "mean_endpoint_change": -0.003946949760817819,
+      "endpoint_change_standard_error": 0.026685232993429887,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 0.0001953965111574812,
+      "size_bm_loading_share": 0.12111801852723483,
+      "industry_loading_share": 0.8788819814727652,
+      "top_assets": [
+        {
+          "asset": "industry::Other",
+          "loading": 0.2965370124346122
+        },
+        {
+          "asset": "industry::Food",
+          "loading": -0.2930598375572011
+        },
+        {
+          "asset": "industry::Soda",
+          "loading": 0.2636975904897648
+        },
+        {
+          "asset": "industry::Hshld",
+          "loading": -0.26205813726949184
+        },
+        {
+          "asset": "industry::Boxes",
+          "loading": -0.25420856759620586
+        },
+        {
+          "asset": "industry::PerSv",
+          "loading": 0.24290367221278683
+        },
+        {
+          "asset": "industry::Meals",
+          "loading": -0.23408535622954507
+        },
+        {
+          "asset": "industry::Chips",
+          "loading": -0.22399879572976195
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 48,
+      "eigenvalue": 0.0006759052724868954,
+      "eigenvalue_percentile": 0.6575342465753424,
+      "mean_squared_gap_gamma_0": -0.025146345128297505,
+      "mean_squared_gap_gamma_1": -0.11696615824243091,
+      "mean_endpoint_change": -0.09181981311413338,
+      "endpoint_change_standard_error": 0.03416680001914708,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.004545604131002701,
+      "size_bm_loading_share": 0.07210297411359684,
+      "industry_loading_share": 0.9278970258864032,
+      "top_assets": [
+        {
+          "asset": "industry::Boxes",
+          "loading": -0.4108712894195423
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": -0.31569096723487944
+        },
+        {
+          "asset": "industry::RlEst",
+          "loading": -0.28410045509468845
+        },
+        {
+          "asset": "industry::Trans",
+          "loading": 0.2698333135936659
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": 0.24771786435912302
+        },
+        {
+          "asset": "industry::Meals",
+          "loading": 0.220259503409097
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": 0.217791252823748
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": 0.21256938884482002
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 49,
+      "eigenvalue": 0.0007499049934055103,
+      "eigenvalue_percentile": 0.6712328767123288,
+      "mean_squared_gap_gamma_0": 0.0020369591935715486,
+      "mean_squared_gap_gamma_1": 0.008540181964467512,
+      "mean_endpoint_change": 0.006503222770895964,
+      "endpoint_change_standard_error": 0.0015462774562730553,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.0003219465961607945,
+      "size_bm_loading_share": 0.16536674923910108,
+      "industry_loading_share": 0.8346332507608989,
+      "top_assets": [
+        {
+          "asset": "industry::RlEst",
+          "loading": -0.38221829947078545
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": 0.279407215343596
+        },
+        {
+          "asset": "size_bm::ME2 BM1",
+          "loading": -0.26473022481254394
+        },
+        {
+          "asset": "industry::Boxes",
+          "loading": 0.2173660791372281
+        },
+        {
+          "asset": "industry::Books",
+          "loading": -0.20871591401696385
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": 0.20683511465146778
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": 0.1988193481410378
+        },
+        {
+          "asset": "industry::Chems",
+          "loading": -0.19469337890545294
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 50,
+      "eigenvalue": 0.0007956078218718584,
+      "eigenvalue_percentile": 0.684931506849315,
+      "mean_squared_gap_gamma_0": -0.0005509302467310126,
+      "mean_squared_gap_gamma_1": -0.0021772035301347884,
+      "mean_endpoint_change": -0.0016262732834037758,
+      "endpoint_change_standard_error": 0.0007879876037365591,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 8.050979744416028e-05,
+      "size_bm_loading_share": 0.10510883528963369,
+      "industry_loading_share": 0.8948911647103663,
+      "top_assets": [
+        {
+          "asset": "industry::RlEst",
+          "loading": 0.4709114396689126
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": 0.2984601017070762
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": 0.23772231654929607
+        },
+        {
+          "asset": "industry::Util",
+          "loading": 0.23638762394354407
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": 0.23442940270162965
+        },
+        {
+          "asset": "industry::Trans",
+          "loading": 0.1985557168184387
+        },
+        {
+          "asset": "industry::PerSv",
+          "loading": -0.19815009767702776
+        },
+        {
+          "asset": "industry::Other",
+          "loading": -0.17180036606258972
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 51,
+      "eigenvalue": 0.0008612700318465992,
+      "eigenvalue_percentile": 0.6986301369863014,
+      "mean_squared_gap_gamma_0": -0.0011297505228756617,
+      "mean_squared_gap_gamma_1": -0.00412437080385155,
+      "mean_endpoint_change": -0.0029946202809758887,
+      "endpoint_change_standard_error": 0.003430864787677549,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0001482507735347719,
+      "size_bm_loading_share": 0.14959289792827923,
+      "industry_loading_share": 0.8504071020717208,
+      "top_assets": [
+        {
+          "asset": "industry::Clths",
+          "loading": -0.32795501441074765
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": -0.3115241978792009
+        },
+        {
+          "asset": "industry::Chips",
+          "loading": 0.278190499472613
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": 0.26287535109134846
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": -0.2612056505605036
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": -0.23232853099682801
+        },
+        {
+          "asset": "industry::Util",
+          "loading": 0.1994218030529804
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": -0.18691473568045458
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 52,
+      "eigenvalue": 0.0008752554731452354,
+      "eigenvalue_percentile": 0.7123287671232876,
+      "mean_squared_gap_gamma_0": 0.008386205797411034,
+      "mean_squared_gap_gamma_1": 0.030126431523988362,
+      "mean_endpoint_change": 0.021740225726577328,
+      "endpoint_change_standard_error": 0.03705135470407778,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.001076265094863821,
+      "size_bm_loading_share": 0.1143671476292234,
+      "industry_loading_share": 0.8856328523707766,
+      "top_assets": [
+        {
+          "asset": "industry::Books",
+          "loading": 0.6123028590203258
+        },
+        {
+          "asset": "industry::Chips",
+          "loading": -0.2962566453953856
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": 0.2919109898420848
+        },
+        {
+          "asset": "industry::Soda",
+          "loading": -0.2341357424217818
+        },
+        {
+          "asset": "industry::Boxes",
+          "loading": 0.19965750958143771
+        },
+        {
+          "asset": "size_bm::BIG HiBM",
+          "loading": -0.18960584689844764
+        },
+        {
+          "asset": "size_bm::SMALL HiBM",
+          "loading": -0.18853319904530272
+        },
+        {
+          "asset": "industry::Autos",
+          "loading": 0.16578486233554873
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 53,
+      "eigenvalue": 0.0010297865177655548,
+      "eigenvalue_percentile": 0.726027397260274,
+      "mean_squared_gap_gamma_0": -0.0027982016968348656,
+      "mean_squared_gap_gamma_1": -0.008544214495505988,
+      "mean_endpoint_change": -0.005746012798671127,
+      "endpoint_change_standard_error": 0.026899182855269828,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0002844603863652765,
+      "size_bm_loading_share": 0.04805665494118277,
+      "industry_loading_share": 0.9519433450588173,
+      "top_assets": [
+        {
+          "asset": "industry::PerSv",
+          "loading": -0.49043358030371315
+        },
+        {
+          "asset": "industry::Autos",
+          "loading": 0.2791034861308723
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": 0.2175585158048708
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": 0.21163112305665432
+        },
+        {
+          "asset": "industry::RlEst",
+          "loading": -0.2005870205656366
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": -0.19871896076606843
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": 0.19843406665662827
+        },
+        {
+          "asset": "industry::Paper",
+          "loading": -0.1803148772518733
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 54,
+      "eigenvalue": 0.0011650463104485886,
+      "eigenvalue_percentile": 0.7397260273972602,
+      "mean_squared_gap_gamma_0": 0.0045313229919041525,
+      "mean_squared_gap_gamma_1": 0.01223031076449706,
+      "mean_endpoint_change": 0.007698987772592908,
+      "endpoint_change_standard_error": 0.007989262333611783,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0003811437797214461,
+      "size_bm_loading_share": 0.1119498961937086,
+      "industry_loading_share": 0.8880501038062913,
+      "top_assets": [
+        {
+          "asset": "industry::Chips",
+          "loading": 0.29529412004862
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": -0.28637013927732263
+        },
+        {
+          "asset": "industry::Soda",
+          "loading": -0.24950213889909365
+        },
+        {
+          "asset": "industry::Boxes",
+          "loading": -0.23395504608701986
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": 0.232133530700394
+        },
+        {
+          "asset": "industry::Drugs",
+          "loading": -0.22816684965302475
+        },
+        {
+          "asset": "industry::Ships",
+          "loading": -0.2266504049870137
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": 0.22640176884785174
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 55,
+      "eigenvalue": 0.0012182558187420855,
+      "eigenvalue_percentile": 0.7534246575342466,
+      "mean_squared_gap_gamma_0": -0.0004145425240270017,
+      "mean_squared_gap_gamma_1": -0.0010700186645795752,
+      "mean_endpoint_change": -0.0006554761405525736,
+      "endpoint_change_standard_error": 0.0011825216874169723,
+      "endpoint_change_seed_sign_consistency": 0.2,
+      "absolute_endpoint_change_share": 3.244980523501915e-05,
+      "size_bm_loading_share": 0.11562851317987313,
+      "industry_loading_share": 0.8843714868201269,
+      "top_assets": [
+        {
+          "asset": "industry::Mines",
+          "loading": 0.35833356772215574
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": -0.29656636038137907
+        },
+        {
+          "asset": "industry::Txtls",
+          "loading": 0.29599153118242877
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": 0.280604099478153
+        },
+        {
+          "asset": "industry::Fun",
+          "loading": -0.2719973186967994
+        },
+        {
+          "asset": "industry::Autos",
+          "loading": -0.2247537325966205
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": 0.21394859952954398
+        },
+        {
+          "asset": "industry::Clths",
+          "loading": -0.18958395599579106
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 56,
+      "eigenvalue": 0.0012197855871868661,
+      "eigenvalue_percentile": 0.7671232876712328,
+      "mean_squared_gap_gamma_0": 0.006673806884771938,
+      "mean_squared_gap_gamma_1": 0.01720485585590898,
+      "mean_endpoint_change": 0.010531048971137042,
+      "endpoint_change_standard_error": 0.008072635194716496,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0005213469520732872,
+      "size_bm_loading_share": 0.0830986916517502,
+      "industry_loading_share": 0.9169013083482498,
+      "top_assets": [
+        {
+          "asset": "industry::Autos",
+          "loading": -0.4655929309846813
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": 0.30820730433470994
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": 0.22471148884699363
+        },
+        {
+          "asset": "industry::Soda",
+          "loading": -0.22342425211774658
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": -0.2156379969642787
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": -0.20286304554536322
+        },
+        {
+          "asset": "industry::MedEq",
+          "loading": 0.19866808156439458
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": 0.19780229133607133
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 57,
+      "eigenvalue": 0.0013855244186943795,
+      "eigenvalue_percentile": 0.7808219178082192,
+      "mean_squared_gap_gamma_0": -0.005071782411023095,
+      "mean_squared_gap_gamma_1": -0.01151120179710845,
+      "mean_endpoint_change": -0.00643941938608535,
+      "endpoint_change_standard_error": 0.008077761232370867,
+      "endpoint_change_seed_sign_consistency": 0.4,
+      "absolute_endpoint_change_share": 0.0003187879649271786,
+      "size_bm_loading_share": 0.050436968693499964,
+      "industry_loading_share": 0.9495630313065,
+      "top_assets": [
+        {
+          "asset": "industry::Ships",
+          "loading": -0.4415770418714919
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": -0.3738091315321717
+        },
+        {
+          "asset": "industry::Txtls",
+          "loading": -0.29852261150367754
+        },
+        {
+          "asset": "industry::Agric",
+          "loading": -0.2491684891426077
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": 0.2441833825835121
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": -0.21630886645177042
+        },
+        {
+          "asset": "industry::Toys",
+          "loading": -0.19978587433462036
+        },
+        {
+          "asset": "industry::Mines",
+          "loading": 0.17785169483622082
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 58,
+      "eigenvalue": 0.0014520135313293803,
+      "eigenvalue_percentile": 0.7945205479452054,
+      "mean_squared_gap_gamma_0": -0.0016578520497239398,
+      "mean_squared_gap_gamma_1": -0.0035904909842923256,
+      "mean_endpoint_change": -0.0019326389345683855,
+      "endpoint_change_standard_error": 0.004216454311284346,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 9.567664349077702e-05,
+      "size_bm_loading_share": 0.06811824941400484,
+      "industry_loading_share": 0.9318817505859952,
+      "top_assets": [
+        {
+          "asset": "industry::Clths",
+          "loading": 0.44576933174942135
+        },
+        {
+          "asset": "industry::Agric",
+          "loading": 0.35849004563803977
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": 0.28525487105637526
+        },
+        {
+          "asset": "industry::Toys",
+          "loading": -0.2401192816703534
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": -0.23299896068084686
+        },
+        {
+          "asset": "industry::Boxes",
+          "loading": -0.20869560455696332
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": -0.20152178206217042
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": 0.20037161949302013
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 59,
+      "eigenvalue": 0.0016083973093441403,
+      "eigenvalue_percentile": 0.8082191780821918,
+      "mean_squared_gap_gamma_0": -0.002576284234408287,
+      "mean_squared_gap_gamma_1": -0.0050371893826018695,
+      "mean_endpoint_change": -0.002460905148193582,
+      "endpoint_change_standard_error": 0.0012290448934504938,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.00012182883223395177,
+      "size_bm_loading_share": 0.06177149053800902,
+      "industry_loading_share": 0.938228509461991,
+      "top_assets": [
+        {
+          "asset": "industry::Mines",
+          "loading": -0.3770131710466474
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": -0.3346564595168212
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": -0.31582168173580494
+        },
+        {
+          "asset": "industry::PerSv",
+          "loading": -0.2951088126425283
+        },
+        {
+          "asset": "industry::Clths",
+          "loading": -0.27653573576290574
+        },
+        {
+          "asset": "industry::Ships",
+          "loading": 0.2547739559272277
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": 0.24396964921494227
+        },
+        {
+          "asset": "industry::Chips",
+          "loading": 0.18512186617874019
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 60,
+      "eigenvalue": 0.00165278751695883,
+      "eigenvalue_percentile": 0.821917808219178,
+      "mean_squared_gap_gamma_0": -0.006411663236406473,
+      "mean_squared_gap_gamma_1": -0.012199549459726204,
+      "mean_endpoint_change": -0.0057878862233197315,
+      "endpoint_change_standard_error": 0.0032405760515692994,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0002865333595679701,
+      "size_bm_loading_share": 0.05507772372506446,
+      "industry_loading_share": 0.9449222762749355,
+      "top_assets": [
+        {
+          "asset": "industry::Txtls",
+          "loading": -0.4648167304612322
+        },
+        {
+          "asset": "industry::PerSv",
+          "loading": 0.4200442556850357
+        },
+        {
+          "asset": "industry::Toys",
+          "loading": 0.3067835051169123
+        },
+        {
+          "asset": "industry::Ships",
+          "loading": 0.28587432613633534
+        },
+        {
+          "asset": "industry::Fun",
+          "loading": -0.25462887712751386
+        },
+        {
+          "asset": "industry::Drugs",
+          "loading": -0.1958308559433201
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": -0.1830596527678906
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": -0.16855572683445436
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 61,
+      "eigenvalue": 0.0019445335600525044,
+      "eigenvalue_percentile": 0.8356164383561644,
+      "mean_squared_gap_gamma_0": -0.02504262281592367,
+      "mean_squared_gap_gamma_1": -0.040501100988180196,
+      "mean_endpoint_change": -0.015458478172256521,
+      "endpoint_change_standard_error": 0.013591231418144329,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.000765282784353743,
+      "size_bm_loading_share": 0.07605154223352234,
+      "industry_loading_share": 0.9239484577664776,
+      "top_assets": [
+        {
+          "asset": "industry::Fun",
+          "loading": -0.36258785798466014
+        },
+        {
+          "asset": "industry::Toys",
+          "loading": -0.3138687778845939
+        },
+        {
+          "asset": "industry::Chips",
+          "loading": 0.30544979533118943
+        },
+        {
+          "asset": "industry::Autos",
+          "loading": 0.3024656309216496
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": -0.263689227042871
+        },
+        {
+          "asset": "industry::ElcEq",
+          "loading": 0.23904149788979373
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": -0.2075208644112322
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": 0.18258658721722687
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 62,
+      "eigenvalue": 0.002106787889215443,
+      "eigenvalue_percentile": 0.8493150684931506,
+      "mean_squared_gap_gamma_0": 0.017848344087780722,
+      "mean_squared_gap_gamma_1": 0.026643112818921198,
+      "mean_endpoint_change": 0.00879476873114048,
+      "endpoint_change_standard_error": 0.0022616598527008106,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.00043539118322744654,
+      "size_bm_loading_share": 0.03131493521334098,
+      "industry_loading_share": 0.9686850647866591,
+      "top_assets": [
+        {
+          "asset": "industry::Toys",
+          "loading": -0.5515655833233267
+        },
+        {
+          "asset": "industry::Fun",
+          "loading": 0.2975039418669447
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": 0.25831949498801104
+        },
+        {
+          "asset": "industry::Txtls",
+          "loading": -0.25724404160435105
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": 0.25036344419726136
+        },
+        {
+          "asset": "industry::Ships",
+          "loading": 0.23332417913832962
+        },
+        {
+          "asset": "industry::Agric",
+          "loading": -0.21009726288761513
+        },
+        {
+          "asset": "industry::PerSv",
+          "loading": 0.19491254975063538
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 63,
+      "eigenvalue": 0.0023620755220166456,
+      "eigenvalue_percentile": 0.863013698630137,
+      "mean_squared_gap_gamma_0": -0.006441858550829108,
+      "mean_squared_gap_gamma_1": -0.008576937203553367,
+      "mean_endpoint_change": -0.0021350786527242578,
+      "endpoint_change_standard_error": 0.0008849224907167502,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.00010569856346554891,
+      "size_bm_loading_share": 0.170846961594574,
+      "industry_loading_share": 0.829153038405426,
+      "top_assets": [
+        {
+          "asset": "industry::Mines",
+          "loading": 0.33786077725684316
+        },
+        {
+          "asset": "industry::Ships",
+          "loading": 0.303154725524107
+        },
+        {
+          "asset": "industry::Autos",
+          "loading": -0.28300562253084627
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": 0.246798218064191
+        },
+        {
+          "asset": "size_bm::BIG HiBM",
+          "loading": -0.23845441092913172
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": 0.22268185948985617
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": -0.21859174603542722
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": 0.2078118257414808
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 64,
+      "eigenvalue": 0.0027530813397749067,
+      "eigenvalue_percentile": 0.8767123287671232,
+      "mean_squared_gap_gamma_0": -0.014702743232167009,
+      "mean_squared_gap_gamma_1": -0.016795863398737582,
+      "mean_endpoint_change": -0.002093120166570574,
+      "endpoint_change_standard_error": 0.0012040932201391988,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.00010362137923349511,
+      "size_bm_loading_share": 0.087367047726083,
+      "industry_loading_share": 0.9126329522739169,
+      "top_assets": [
+        {
+          "asset": "industry::Guns",
+          "loading": 0.4189075288092257
+        },
+        {
+          "asset": "industry::Agric",
+          "loading": -0.2907468962835487
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": 0.265064476928806
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": 0.25604806134138974
+        },
+        {
+          "asset": "industry::Fun",
+          "loading": -0.25555725171441535
+        },
+        {
+          "asset": "industry::Aero",
+          "loading": 0.24282300972621398
+        },
+        {
+          "asset": "industry::Txtls",
+          "loading": -0.22449311785991335
+        },
+        {
+          "asset": "size_bm::BIG HiBM",
+          "loading": 0.18115113601208058
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 65,
+      "eigenvalue": 0.0028457334149358487,
+      "eigenvalue_percentile": 0.8904109589041096,
+      "mean_squared_gap_gamma_0": -0.013067210315796362,
+      "mean_squared_gap_gamma_1": -0.014441532441316596,
+      "mean_endpoint_change": -0.001374322125520231,
+      "endpoint_change_standard_error": 0.0015641605519148105,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 6.803677898285315e-05,
+      "size_bm_loading_share": 0.0995980276344004,
+      "industry_loading_share": 0.9004019723655996,
+      "top_assets": [
+        {
+          "asset": "industry::Clths",
+          "loading": 0.3592444309496572
+        },
+        {
+          "asset": "industry::Agric",
+          "loading": -0.3478685307189562
+        },
+        {
+          "asset": "industry::Toys",
+          "loading": 0.34018290188925254
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": -0.2942914134032362
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": -0.2558314401313718
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": -0.21890804538782777
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": 0.21658501086521814
+        },
+        {
+          "asset": "industry::Ships",
+          "loading": -0.19667243513624943
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 66,
+      "eigenvalue": 0.003059153824654912,
+      "eigenvalue_percentile": 0.9041095890410958,
+      "mean_squared_gap_gamma_0": 0.002196471017382481,
+      "mean_squared_gap_gamma_1": 0.002258146474926467,
+      "mean_endpoint_change": 6.167545754398635e-05,
+      "endpoint_change_standard_error": 0.00046505238660140473,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 3.0532867045257878e-06,
+      "size_bm_loading_share": 0.03492843539992306,
+      "industry_loading_share": 0.9650715646000769,
+      "top_assets": [
+        {
+          "asset": "industry::FabPr",
+          "loading": -0.7226990147529061
+        },
+        {
+          "asset": "industry::Toys",
+          "loading": -0.21811451103959534
+        },
+        {
+          "asset": "industry::Coal",
+          "loading": 0.20754787097227725
+        },
+        {
+          "asset": "industry::Cnstr",
+          "loading": 0.19623731605949904
+        },
+        {
+          "asset": "industry::PerSv",
+          "loading": 0.17365012168915447
+        },
+        {
+          "asset": "industry::Clths",
+          "loading": -0.16905507921714955
+        },
+        {
+          "asset": "industry::Hlth",
+          "loading": 0.1624905808790107
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": -0.16039823715005566
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 67,
+      "eigenvalue": 0.0034009910459112183,
+      "eigenvalue_percentile": 0.9178082191780822,
+      "mean_squared_gap_gamma_0": -0.008464771798170085,
+      "mean_squared_gap_gamma_1": -0.007827844369633597,
+      "mean_endpoint_change": 0.0006369274285364889,
+      "endpoint_change_standard_error": 0.00036817769055181015,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 3.153153826076285e-05,
+      "size_bm_loading_share": 0.11167022140573692,
+      "industry_loading_share": 0.8883297785942631,
+      "top_assets": [
+        {
+          "asset": "industry::Agric",
+          "loading": -0.4831950840626743
+        },
+        {
+          "asset": "industry::Ships",
+          "loading": 0.30831664291911687
+        },
+        {
+          "asset": "industry::Txtls",
+          "loading": 0.2658164337579255
+        },
+        {
+          "asset": "industry::Fun",
+          "loading": 0.22720869277594347
+        },
+        {
+          "asset": "industry::Mines",
+          "loading": 0.22682060329818293
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": -0.18815331438655983
+        },
+        {
+          "asset": "industry::Drugs",
+          "loading": -0.1841812950676953
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": -0.17627130605684008
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 68,
+      "eigenvalue": 0.0037007328657777034,
+      "eigenvalue_percentile": 0.9315068493150684,
+      "mean_squared_gap_gamma_0": -0.1137515200791156,
+      "mean_squared_gap_gamma_1": -0.09667298488149187,
+      "mean_endpoint_change": 0.017078535197623736,
+      "endpoint_change_standard_error": 0.009080876032224655,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0008454848415918189,
+      "size_bm_loading_share": 0.09048686270800757,
+      "industry_loading_share": 0.9095131372919925,
+      "top_assets": [
+        {
+          "asset": "industry::Coal",
+          "loading": 0.40086390215920514
+        },
+        {
+          "asset": "industry::Mines",
+          "loading": -0.35306807030731957
+        },
+        {
+          "asset": "industry::Agric",
+          "loading": -0.3333948400761125
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": -0.23970158519891419
+        },
+        {
+          "asset": "industry::Txtls",
+          "loading": 0.20808944332537938
+        },
+        {
+          "asset": "size_bm::BIG HiBM",
+          "loading": -0.2065260950443245
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": 0.19243281650136873
+        },
+        {
+          "asset": "industry::Fin",
+          "loading": -0.1771515078410267
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 69,
+      "eigenvalue": 0.004282051677094052,
+      "eigenvalue_percentile": 0.9452054794520548,
+      "mean_squared_gap_gamma_0": 0.02392882522622698,
+      "mean_squared_gap_gamma_1": 0.017575598376689025,
+      "mean_endpoint_change": -0.006353226849537952,
+      "endpoint_change_standard_error": 0.013423413959710674,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.00031452094306225225,
+      "size_bm_loading_share": 0.25395727440769805,
+      "industry_loading_share": 0.7460427255923019,
+      "top_assets": [
+        {
+          "asset": "industry::Fun",
+          "loading": -0.46512553570852944
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": 0.23371164822802906
+        },
+        {
+          "asset": "industry::Softw",
+          "loading": -0.233080632034736
+        },
+        {
+          "asset": "industry::Agric",
+          "loading": -0.2266956423163023
+        },
+        {
+          "asset": "industry::Ships",
+          "loading": 0.21552638994773063
+        },
+        {
+          "asset": "industry::Chips",
+          "loading": -0.2059137686823487
+        },
+        {
+          "asset": "industry::Hardw",
+          "loading": -0.20288550765418192
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": 0.18763735173324567
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 70,
+      "eigenvalue": 0.005960860096224498,
+      "eigenvalue_percentile": 0.958904109589041,
+      "mean_squared_gap_gamma_0": 0.0069661865196484025,
+      "mean_squared_gap_gamma_1": 0.0036756636483138193,
+      "mean_endpoint_change": -0.0032905228713345836,
+      "endpoint_change_standard_error": 0.0048081820515201035,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.00016289963843103302,
+      "size_bm_loading_share": 0.29037573219897855,
+      "industry_loading_share": 0.7096242678010214,
+      "top_assets": [
+        {
+          "asset": "industry::Smoke",
+          "loading": -0.34742106950736956
+        },
+        {
+          "asset": "industry::Gold",
+          "loading": 0.3350382166183128
+        },
+        {
+          "asset": "industry::Coal",
+          "loading": -0.3156402811101118
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": 0.2556210611709499
+        },
+        {
+          "asset": "industry::Mines",
+          "loading": -0.2313235175946095
+        },
+        {
+          "asset": "industry::Soda",
+          "loading": -0.22292217525147145
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": 0.2041846898595891
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": 0.20356411772012656
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 71,
+      "eigenvalue": 0.009912773313063067,
+      "eigenvalue_percentile": 0.9726027397260274,
+      "mean_squared_gap_gamma_0": -0.39710056424391665,
+      "mean_squared_gap_gamma_1": -0.12599810727168886,
+      "mean_endpoint_change": 0.2711024569722278,
+      "endpoint_change_standard_error": 0.1813167071663378,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.013421116930461873,
+      "size_bm_loading_share": 0.08215629915048034,
+      "industry_loading_share": 0.9178437008495197,
+      "top_assets": [
+        {
+          "asset": "industry::Gold",
+          "loading": 0.7459922934910334
+        },
+        {
+          "asset": "industry::Coal",
+          "loading": -0.3233473696206506
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": 0.1919974199710473
+        },
+        {
+          "asset": "industry::Soda",
+          "loading": 0.14475710747759624
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": 0.13665684939073747
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": -0.12717211091210331
+        },
+        {
+          "asset": "industry::Food",
+          "loading": 0.12049354917459901
+        },
+        {
+          "asset": "industry::Util",
+          "loading": 0.10644070476815931
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 72,
+      "eigenvalue": 0.01797674397199099,
+      "eigenvalue_percentile": 0.9863013698630136,
+      "mean_squared_gap_gamma_0": -1.3524570715176543,
+      "mean_squared_gap_gamma_1": -0.23663408653607232,
+      "mean_endpoint_change": 1.115822984981582,
+      "endpoint_change_standard_error": 0.7379246204452383,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.05523959805598124,
+      "size_bm_loading_share": 0.02461440700127135,
+      "industry_loading_share": 0.9753855929987286,
+      "top_assets": [
+        {
+          "asset": "industry::Coal",
+          "loading": 0.6755390814402898
+        },
+        {
+          "asset": "industry::Gold",
+          "loading": 0.481167462372628
+        },
+        {
+          "asset": "industry::Mines",
+          "loading": 0.27270059622151666
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": 0.20069169719505725
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": 0.15851472255587543
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": -0.11000934153286064
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": 0.10009909962279011
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": -0.0908055385607189
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 73,
+      "eigenvalue": 0.14815183653397831,
+      "eigenvalue_percentile": 1.0,
+      "mean_squared_gap_gamma_0": 18.30304130613078,
+      "mean_squared_gap_gamma_1": 0.38858650812439843,
+      "mean_endpoint_change": -17.914454798006382,
+      "endpoint_change_standard_error": 3.8788816789566543,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.8868676266336739,
+      "size_bm_loading_share": 0.36243967404495864,
+      "industry_loading_share": 0.6375603259550413,
+      "top_assets": [
+        {
+          "asset": "industry::Ships",
+          "loading": 0.1788239082926085
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": 0.16606054283918434
+        },
+        {
+          "asset": "industry::Coal",
+          "loading": 0.1635413174889405
+        },
+        {
+          "asset": "industry::Mines",
+          "loading": 0.16281150504629072
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": 0.1558458113110882
+        },
+        {
+          "asset": "industry::Mach",
+          "loading": 0.15201228316092602
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": 0.15122804495989928
+        },
+        {
+          "asset": "industry::Autos",
+          "loading": 0.14631021847479772
+        }
+      ]
+    }
+  ],
+  "leading_endpoint_change_directions": [
+    {
+      "ascending_eigen_index": 73,
+      "eigenvalue": 0.14815183653397831,
+      "eigenvalue_percentile": 1.0,
+      "mean_squared_gap_gamma_0": 18.30304130613078,
+      "mean_squared_gap_gamma_1": 0.38858650812439843,
+      "mean_endpoint_change": -17.914454798006382,
+      "endpoint_change_standard_error": 3.8788816789566543,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.8868676266336739,
+      "size_bm_loading_share": 0.36243967404495864,
+      "industry_loading_share": 0.6375603259550413,
+      "top_assets": [
+        {
+          "asset": "industry::Ships",
+          "loading": 0.1788239082926085
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": 0.16606054283918434
+        },
+        {
+          "asset": "industry::Coal",
+          "loading": 0.1635413174889405
+        },
+        {
+          "asset": "industry::Mines",
+          "loading": 0.16281150504629072
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": 0.1558458113110882
+        },
+        {
+          "asset": "industry::Mach",
+          "loading": 0.15201228316092602
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": 0.15122804495989928
+        },
+        {
+          "asset": "industry::Autos",
+          "loading": 0.14631021847479772
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 72,
+      "eigenvalue": 0.01797674397199099,
+      "eigenvalue_percentile": 0.9863013698630136,
+      "mean_squared_gap_gamma_0": -1.3524570715176543,
+      "mean_squared_gap_gamma_1": -0.23663408653607232,
+      "mean_endpoint_change": 1.115822984981582,
+      "endpoint_change_standard_error": 0.7379246204452383,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.05523959805598124,
+      "size_bm_loading_share": 0.02461440700127135,
+      "industry_loading_share": 0.9753855929987286,
+      "top_assets": [
+        {
+          "asset": "industry::Coal",
+          "loading": 0.6755390814402898
+        },
+        {
+          "asset": "industry::Gold",
+          "loading": 0.481167462372628
+        },
+        {
+          "asset": "industry::Mines",
+          "loading": 0.27270059622151666
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": 0.20069169719505725
+        },
+        {
+          "asset": "industry::Steel",
+          "loading": 0.15851472255587543
+        },
+        {
+          "asset": "industry::Guns",
+          "loading": -0.11000934153286064
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": 0.10009909962279011
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": -0.0908055385607189
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 71,
+      "eigenvalue": 0.009912773313063067,
+      "eigenvalue_percentile": 0.9726027397260274,
+      "mean_squared_gap_gamma_0": -0.39710056424391665,
+      "mean_squared_gap_gamma_1": -0.12599810727168886,
+      "mean_endpoint_change": 0.2711024569722278,
+      "endpoint_change_standard_error": 0.1813167071663378,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.013421116930461873,
+      "size_bm_loading_share": 0.08215629915048034,
+      "industry_loading_share": 0.9178437008495197,
+      "top_assets": [
+        {
+          "asset": "industry::Gold",
+          "loading": 0.7459922934910334
+        },
+        {
+          "asset": "industry::Coal",
+          "loading": -0.3233473696206506
+        },
+        {
+          "asset": "industry::Smoke",
+          "loading": 0.1919974199710473
+        },
+        {
+          "asset": "industry::Soda",
+          "loading": 0.14475710747759624
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": 0.13665684939073747
+        },
+        {
+          "asset": "industry::FabPr",
+          "loading": -0.12717211091210331
+        },
+        {
+          "asset": "industry::Food",
+          "loading": 0.12049354917459901
+        },
+        {
+          "asset": "industry::Util",
+          "loading": 0.10644070476815931
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 48,
+      "eigenvalue": 0.0006759052724868954,
+      "eigenvalue_percentile": 0.6575342465753424,
+      "mean_squared_gap_gamma_0": -0.025146345128297505,
+      "mean_squared_gap_gamma_1": -0.11696615824243091,
+      "mean_endpoint_change": -0.09181981311413338,
+      "endpoint_change_standard_error": 0.03416680001914708,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.004545604131002701,
+      "size_bm_loading_share": 0.07210297411359684,
+      "industry_loading_share": 0.9278970258864032,
+      "top_assets": [
+        {
+          "asset": "industry::Boxes",
+          "loading": -0.4108712894195423
+        },
+        {
+          "asset": "industry::Oil",
+          "loading": -0.31569096723487944
+        },
+        {
+          "asset": "industry::RlEst",
+          "loading": -0.28410045509468845
+        },
+        {
+          "asset": "industry::Trans",
+          "loading": 0.2698333135936659
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": 0.24771786435912302
+        },
+        {
+          "asset": "industry::Meals",
+          "loading": 0.220259503409097
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": 0.217791252823748
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": 0.21256938884482002
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 16,
+      "eigenvalue": 6.59687047259736e-05,
+      "eigenvalue_percentile": 0.2191780821917808,
+      "mean_squared_gap_gamma_0": -0.0015742670903535997,
+      "mean_squared_gap_gamma_1": -0.07470600839237049,
+      "mean_endpoint_change": -0.0731317413020169,
+      "endpoint_change_standard_error": 0.01578643467022967,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.0036204380524784557,
+      "size_bm_loading_share": 0.5665442383343656,
+      "industry_loading_share": 0.4334557616656344,
+      "top_assets": [
+        {
+          "asset": "size_bm::BIG HiBM",
+          "loading": 0.40693566477269005
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": -0.37924064976563043
+        },
+        {
+          "asset": "industry::Rtail",
+          "loading": 0.26437152598003066
+        },
+        {
+          "asset": "industry::Banks",
+          "loading": -0.24473031669348905
+        },
+        {
+          "asset": "size_bm::ME2 BM1",
+          "loading": 0.2412826359560048
+        },
+        {
+          "asset": "size_bm::ME5 BM3",
+          "loading": 0.23559317987398853
+        },
+        {
+          "asset": "industry::Rubbr",
+          "loading": -0.20077971063344652
+        },
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": 0.17246128345780126
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 17,
+      "eigenvalue": 7.511769133637341e-05,
+      "eigenvalue_percentile": 0.2328767123287671,
+      "mean_squared_gap_gamma_0": -0.0013076514120097988,
+      "mean_squared_gap_gamma_1": -0.05452741155168907,
+      "mean_endpoint_change": -0.05321976013967927,
+      "endpoint_change_standard_error": 0.03150294213396845,
+      "endpoint_change_seed_sign_consistency": 0.6,
+      "absolute_endpoint_change_share": 0.0026346814847160913,
+      "size_bm_loading_share": 0.5539731447637205,
+      "industry_loading_share": 0.4460268552362795,
+      "top_assets": [
+        {
+          "asset": "industry::BusSv",
+          "loading": -0.34253472894944226
+        },
+        {
+          "asset": "size_bm::ME1 BM2",
+          "loading": 0.28210049975916085
+        },
+        {
+          "asset": "size_bm::SMALL HiBM",
+          "loading": 0.26040829958485856
+        },
+        {
+          "asset": "size_bm::ME3 BM3",
+          "loading": -0.24046097715867992
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": -0.23404545606044477
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": 0.230044136025064
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": 0.197407363854632
+        },
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": 0.19469621705307108
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 20,
+      "eigenvalue": 9.076905914368959e-05,
+      "eigenvalue_percentile": 0.273972602739726,
+      "mean_squared_gap_gamma_0": -0.0014619558033207615,
+      "mean_squared_gap_gamma_1": -0.05048619406404733,
+      "mean_endpoint_change": -0.04902423826072657,
+      "endpoint_change_standard_error": 0.008079235420948178,
+      "endpoint_change_seed_sign_consistency": 1.0,
+      "absolute_endpoint_change_share": 0.0024269792368257167,
+      "size_bm_loading_share": 0.3980885819710992,
+      "industry_loading_share": 0.6019114180289008,
+      "top_assets": [
+        {
+          "asset": "industry::Whlsl",
+          "loading": 0.3227787334251351
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": 0.279440858364522
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": -0.2742850631151018
+        },
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": -0.24102764807191548
+        },
+        {
+          "asset": "size_bm::ME3 BM5",
+          "loading": 0.22928460249403843
+        },
+        {
+          "asset": "industry::Other",
+          "loading": 0.2120560968403063
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": 0.21063245957081647
+        },
+        {
+          "asset": "industry::Insur",
+          "loading": -0.2038182613904358
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 6,
+      "eigenvalue": 2.57903537750093e-05,
+      "eigenvalue_percentile": 0.0821917808219178,
+      "mean_squared_gap_gamma_0": -0.00032535899927002066,
+      "mean_squared_gap_gamma_1": -0.039204398058104876,
+      "mean_endpoint_change": -0.03887903905883486,
+      "endpoint_change_standard_error": 0.016402669882770154,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0019247340477112351,
+      "size_bm_loading_share": 0.7888154657925694,
+      "industry_loading_share": 0.21118453420743055,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME2 BM3",
+          "loading": -0.5096856647347641
+        },
+        {
+          "asset": "size_bm::SMALL HiBM",
+          "loading": -0.25162538969158116
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": 0.23426517647913128
+        },
+        {
+          "asset": "size_bm::ME1 BM3",
+          "loading": 0.2316071748412953
+        },
+        {
+          "asset": "industry::LabEq",
+          "loading": 0.23132183292434083
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": 0.2245888930132765
+        },
+        {
+          "asset": "size_bm::ME4 BM1",
+          "loading": -0.20584144592579146
+        },
+        {
+          "asset": "size_bm::ME2 BM4",
+          "loading": 0.1806667294728483
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 18,
+      "eigenvalue": 8.06355298765294e-05,
+      "eigenvalue_percentile": 0.2465753424657534,
+      "mean_squared_gap_gamma_0": 0.0010216732708095437,
+      "mean_squared_gap_gamma_1": 0.03969850446976111,
+      "mean_endpoint_change": 0.03867683119895157,
+      "endpoint_change_standard_error": 0.018018677364182483,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0019147236060425708,
+      "size_bm_loading_share": 0.48338390115747987,
+      "industry_loading_share": 0.5166160988425201,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME4 BM4",
+          "loading": 0.32727505320803185
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": -0.26130901388226124
+        },
+        {
+          "asset": "industry::BusSv",
+          "loading": 0.24614183993338773
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": -0.24091093661547597
+        },
+        {
+          "asset": "size_bm::SMALL LoBM",
+          "loading": -0.24089723969316856
+        },
+        {
+          "asset": "size_bm::ME2 BM5",
+          "loading": 0.22784787157452288
+        },
+        {
+          "asset": "size_bm::ME5 BM4",
+          "loading": -0.2248231545164146
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": 0.18485145091011035
+        }
+      ]
+    },
+    {
+      "ascending_eigen_index": 14,
+      "eigenvalue": 5.5008918326403045e-05,
+      "eigenvalue_percentile": 0.1917808219178082,
+      "mean_squared_gap_gamma_0": -0.0006608919463392361,
+      "mean_squared_gap_gamma_1": -0.03757540676661921,
+      "mean_endpoint_change": -0.03691451482027997,
+      "endpoint_change_standard_error": 0.021437472514568248,
+      "endpoint_change_seed_sign_consistency": 0.8,
+      "absolute_endpoint_change_share": 0.0018274788999237965,
+      "size_bm_loading_share": 0.7229230670872034,
+      "industry_loading_share": 0.27707693291279656,
+      "top_assets": [
+        {
+          "asset": "size_bm::ME4 BM5",
+          "loading": 0.3664724312837227
+        },
+        {
+          "asset": "size_bm::ME3 BM2",
+          "loading": 0.33663717842931995
+        },
+        {
+          "asset": "size_bm::ME3 BM5",
+          "loading": -0.3296962050615441
+        },
+        {
+          "asset": "size_bm::ME4 BM3",
+          "loading": 0.3030696897187854
+        },
+        {
+          "asset": "size_bm::ME5 BM2",
+          "loading": 0.3013351966917711
+        },
+        {
+          "asset": "size_bm::ME2 BM2",
+          "loading": -0.23072501443838997
+        },
+        {
+          "asset": "industry::BldMt",
+          "loading": -0.22659356825539256
+        },
+        {
+          "asset": "industry::Beer",
+          "loading": -0.16995260332609247
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "top3_absolute_endpoint_change_share": 0.955528341620117,
+    "top3_seed_sign_consistent": true,
+    "effective_absolute_change_direction_count": 1.2660724033037234,
+    "spearman_eigenvalue_endpoint_change": 0.27016660496112543
+  },
+  "preregistered_concentrated_mechanism": true
+}

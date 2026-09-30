@@ -1,0 +1,171 @@
+{
+  "key": "ahn2013eigenvalue",
+  "submitted": {
+    "key": "ahn2013eigenvalue",
+    "type": "article",
+    "fields": {
+      "author": "Ahn, Seung C. and Horenstein, Alex R.",
+      "title": "Eigenvalue Ratio Test for the Number of Factors",
+      "journal": "Econometrica",
+      "year": "2013",
+      "volume": "81",
+      "number": "3",
+      "pages": "1203--1227",
+      "doi": "10.3982/ECTA8968"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.3982/ECTA8968",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T14:05:06Z",
+        "timestamp": 1790777106595,
+        "version": "4.1.0"
+      },
+      "reference-count": 0,
+      "publisher": "The Econometric Society",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2015-09-01T00:00:00Z",
+            "timestamp": 1441065600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 973,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Econometrica"
+      ],
+      "DOI": "10.3982/ecta8968",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2013,
+            5,
+            16
+          ]
+        ],
+        "date-time": "2013-05-16T02:25:08Z",
+        "timestamp": 1368671108000
+      },
+      "page": "1203-1227",
+      "source": "Crossref",
+      "is-referenced-by-count": 798,
+      "title": [
+        "Eigenvalue Ratio Test for the Number of Factors"
+      ],
+      "prefix": "10.3982",
+      "volume": "81",
+      "member": "2359",
+      "published-online": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "container-title": [
+        "Econometrica"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.3982%2FECTA8968",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.3982/ecta8968",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            1,
+            24
+          ]
+        ],
+        "date-time": "2020-01-24T04:59:51Z",
+        "timestamp": 1579841991000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://doi.wiley.com/10.3982/ECTA8968"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "3",
+        "published-online": {
+          "date-parts": [
+            [
+              2013
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.3982/ecta8968",
+      "relation": {},
+      "ISSN": [
+        "0012-9682"
+      ],
+      "issn-type": [
+        {
+          "value": "0012-9682",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      }
+    }
+  }
+}

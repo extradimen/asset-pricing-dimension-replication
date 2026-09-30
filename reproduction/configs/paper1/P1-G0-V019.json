@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V019",
+  "parent_experiment_id": "P1-G0-V018",
+  "paper": 1,
+  "generation": "G0",
+  "status": "preregistered",
+  "evidence_class": "production_quarterly_core10_bridge",
+  "research_question": "Can the ten admitted quarterly characteristics be extended through 2025 with the confirmed monthly-lineage rule and packaged without sealed-period outcomes?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "additional_data_snapshot_ids": ["gkx-datashare-2021-v1"],
+  "research_snapshot_id": "paper1-design-2026-09-24-v5",
+  "features": ["cash", "chtx", "cinvest", "nincr", "roaq", "roavol", "roeq", "rsup", "stdacc", "stdcf"],
+  "excluded_feature": "ms",
+  "lineage_rule": "Construct rdq-aware monthly signals and lag the expanded monthly series by six calendar months before joining to target stock-months.",
+  "bridge_rule": "Use official GKX values when present through 2021 and the confirmed self-built value otherwise.",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "output_columns_forbidden": ["ret", "ret_fwd1", "pricing_error", "model_prediction"],
+  "validation_period": ["2000-01", "2019-12"],
+  "validation_thresholds": {
+    "continuous_feature_median_monthly_spearman": 0.85,
+    "continuous_feature_median_monthly_rank_mae": 0.2,
+    "nincr_exact_agreement": 0.75
+  },
+  "entrypoint": "scripts/build_quarterly_core10_bridge.py",
+  "validator": "scripts/validate_quarterly_core10_bridge.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V019"
+}

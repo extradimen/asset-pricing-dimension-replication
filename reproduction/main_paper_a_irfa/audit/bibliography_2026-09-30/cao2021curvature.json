@@ -1,0 +1,802 @@
+{
+  "key": "cao2021curvature",
+  "submitted": {
+    "key": "cao2021curvature",
+    "type": "article",
+    "fields": {
+      "author": "Cao, Yueqi and Li, Didong and Sun, Huafei and Assadi, Amir H. and Zhang, Shiqiang",
+      "title": "Efficient Weingarten Map and Curvature Estimation on Manifolds",
+      "journal": "Machine Learning",
+      "year": "2021",
+      "volume": "110",
+      "number": "6",
+      "pages": "1319--1344",
+      "doi": "10.1007/s10994-021-05953-4"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1007/s10994-021-05953-4",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T15:42:24Z",
+        "timestamp": 1786981344300,
+        "version": "build-2736575974"
+      },
+      "reference-count": 45,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "6",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2021-05-12T00:00:00Z",
+            "timestamp": 1620777600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springer.com/tdm"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2021-05-12T00:00:00Z",
+            "timestamp": 1620777600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springer.com/tdm"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "61179031"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "61179031"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Mach Learn"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1007/s10994-021-05953-4",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2021-05-12T13:02:54Z",
+        "timestamp": 1620824574000
+      },
+      "page": "1319-1344",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 14,
+      "title": [
+        "Efficient Weingarten map and curvature estimation on manifolds"
+      ],
+      "prefix": "10.1007",
+      "volume": "110",
+      "author": [
+        {
+          "given": "Yueqi",
+          "family": "Cao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Didong",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Huafei",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Amir H.",
+          "family": "Assadi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shiqiang",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            12
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "1",
+          "key": "5953_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "177",
+          "DOI": "10.1214/18-AOS1685",
+          "volume": "47",
+          "author": "E Aamari",
+          "year": "2019",
+          "unstructured": "Aamari, E., & Levrard, C. (2019). Nonasymptotic rates for manifold, tangent space and curvature estimation. The Annals of Statistics, 47(1), 177–204.",
+          "journal-title": "The Annals of Statistics"
+        },
+        {
+          "key": "5953_CR2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Absil, P. A., Mahony, R., & Trumpf, J. (2013). An extrinsic look at the Riemannian Hessian. In International conference on geometric science of information (pp 361–368). Springer.",
+          "DOI": "10.1007/978-3-642-40020-9_39"
+        },
+        {
+          "issue": "1",
+          "key": "5953_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "65",
+          "DOI": "10.1007/s10711-005-9011-6",
+          "volume": "117",
+          "author": "SB Alexander",
+          "year": "2006",
+          "unstructured": "Alexander, S. B., & Bishop, R. L. (2006). Gauss equation and injectivity radii for subspaces in spaces of curvature bounded above. Geometriae Dedicata, 117(1), 65–84.",
+          "journal-title": "Geometriae Dedicata"
+        },
+        {
+          "key": "5953_CR4",
+          "unstructured": "Batan, M. A., Pamuk, M., & Varli, H. (2019). Van kampen theorem for persistent fundamental group and interleaving. arXiv:1909.08865."
+        },
+        {
+          "key": "5953_CR5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Belkin, M., & Niyogi, P. (2002). Laplacian eigenmaps and spectral techniques for embedding and clustering. In Advances in neural information processing systems, MIT press (pp. 585–591).",
+          "DOI": "10.7551/mitpress/1120.003.0080"
+        },
+        {
+          "issue": "1–3",
+          "key": "5953_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "209",
+          "DOI": "10.1023/B:MACH.0000033120.25363.1e",
+          "volume": "56",
+          "author": "M Belkin",
+          "year": "2004",
+          "unstructured": "Belkin, M., & Niyogi, P. (2004). Semi-supervised learning on Riemannian manifolds. Machine Learning, 56(1–3), 209–239.",
+          "journal-title": "Machine Learning"
+        },
+        {
+          "key": "5953_CR7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Belkin, M., & Niyogi, P. (2007). Convergence of Laplacian eigenmaps. In Advances in neural information processing systems, MIT press (pp. 129–136).",
+          "DOI": "10.7551/mitpress/7503.003.0021"
+        },
+        {
+          "issue": "1",
+          "key": "5953_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "301",
+          "DOI": "10.1111/cgf.12802",
+          "volume": "36",
+          "author": "M Berger",
+          "year": "2016",
+          "unstructured": "Berger, M., Tagliasacchi, A., Lee, M. S., Alliez, P., Guennebaud, G., Levine, J. A., et al. (2016). A survey of surface reconstruction from point clouds. Computer Graphics Forum, 36(1), 301–329.",
+          "journal-title": "Computer Graphics Forum"
+        },
+        {
+          "issue": "11",
+          "key": "5953_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "1114",
+          "DOI": "10.1109/34.334391",
+          "volume": "16",
+          "author": "J Berkmann",
+          "year": "1994",
+          "unstructured": "Berkmann, J., & Caelli, T. (1994). Computation of surface geometry and segmentation using covariance techniques. IEEE Transactions on Pattern Analysis and Machine Intelligence, 16(11), 1114–1116.",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "5953_CR10",
+          "unstructured": "Boumal, N. (2020). An introduction to optimization on smooth manifolds. Available online."
+        },
+        {
+          "issue": "1",
+          "key": "5953_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "28",
+          "DOI": "10.1515/geofl-2018-0004",
+          "volume": "3",
+          "author": "B Buet",
+          "year": "2018",
+          "unstructured": "Buet, B., Leonardi, G. P., & Masnou, S. (2018). Discretization and approximation of surfaces using varifolds. Geometric Flows, 3(1), 28–56.",
+          "journal-title": "Geometric Flows"
+        },
+        {
+          "issue": "3",
+          "key": "5953_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "419",
+          "DOI": "10.1007/s00454-002-2838-9",
+          "volume": "29",
+          "author": "TK Dey",
+          "year": "2003",
+          "unstructured": "Dey, T. K., Giesen, J., Goswami, S., & Zhao, W. (2003). Shape dimension and approximation from samples. Discrete & Computational Geometry, 29(3), 419–434.",
+          "journal-title": "Discrete & Computational Geometry"
+        },
+        {
+          "key": "5953_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "4143",
+          "DOI": "10.1109/TIP.2020.2969052",
+          "volume": "29",
+          "author": "C Dinesh",
+          "year": "2020",
+          "unstructured": "Dinesh, C., Cheung, G., & Bajić, I. V. (2020). Point cloud denoising via feature graph Laplacian regularization. IEEE Transactions on Image Processing, 29, 4143–4158.",
+          "journal-title": "IEEE Transactions on Image Processing"
+        },
+        {
+          "key": "5953_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "257",
+          "DOI": "10.1090/conm/453/08802",
+          "volume": "453",
+          "author": "H Edelsbrunner",
+          "year": "2008",
+          "unstructured": "Edelsbrunner, H., & Harer, J. (2008). Persistent homology—A survey. Contemporary Mathematics, 453, 257–282.",
+          "journal-title": "Contemporary Mathematics"
+        },
+        {
+          "issue": "1",
+          "key": "5953_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "310",
+          "DOI": "10.1137/17M1112297",
+          "volume": "39",
+          "author": "P Grindrod",
+          "year": "2018",
+          "unstructured": "Grindrod, P., Higham, D. J., & Noferini, V. (2018). The deformed graph Laplacian and its applications to network centrality analysis. SIAM Journal on Matrix Analysis and Applications, 39(1), 310–341.",
+          "journal-title": "SIAM Journal on Matrix Analysis and Applications"
+        },
+        {
+          "issue": "2",
+          "key": "5953_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "71",
+          "DOI": "10.1145/142920.134011",
+          "volume": "26",
+          "author": "H Hoppe",
+          "year": "1992",
+          "unstructured": "Hoppe, H., DeRose, T., Duchamp, T., McDonald, J., & Stuetzle, W. (1992). Surface reconstruction from unorganized points. SIGGRAPH Computer Graphics, 26(2), 71–78.",
+          "journal-title": "SIGGRAPH Computer Graphics"
+        },
+        {
+          "issue": "3",
+          "key": "5953_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "268",
+          "DOI": "10.1109/70.938384",
+          "volume": "17",
+          "author": "JB Huang",
+          "year": "2001",
+          "unstructured": "Huang, J. B., & Menq, C. H. (2001). Automatic data segmentation for geometric feature extraction from unorganized 3-d coordinate points. IEEE Transactions on Robotics and Automation, 17(3), 268–279.",
+          "journal-title": "IEEE Transactions on Robotics and Automation"
+        },
+        {
+          "issue": "3",
+          "key": "5953_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "1660",
+          "DOI": "10.1137/140955483",
+          "volume": "25",
+          "author": "W Huang",
+          "year": "2015",
+          "unstructured": "Huang, W., Gallivan, K. A., & Absil, P. A. (2015). A Broyden class of quasi-Newton methods for Riemannian optimization. SIAM Journal on Optimization, 25(3), 1660–1685.",
+          "journal-title": "SIAM Journal on Optimization"
+        },
+        {
+          "issue": "5",
+          "key": "5953_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "657",
+          "DOI": "10.1016/S0097-8493(02)00121-8",
+          "volume": "26",
+          "author": "SJ Kim",
+          "year": "2002",
+          "unstructured": "Kim, S. J., Kim, C. H., & Levin, D. (2002). Surface simplification using a discrete curvature norm. Computers & Graphics, 26(5), 657–663.",
+          "journal-title": "Computers & Graphics"
+        },
+        {
+          "issue": "7",
+          "key": "5953_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "680",
+          "DOI": "10.1016/j.cagd.2005.06.010",
+          "volume": "22",
+          "author": "C Lange",
+          "year": "2005",
+          "unstructured": "Lange, C., & Polthier, K. (2005). Anisotropic smoothing of point sets. Computer Aided Geometric Design, 22(7), 680–692.",
+          "journal-title": "Computer Aided Geometric Design"
+        },
+        {
+          "key": "5953_CR21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Letscher, D. (2012). On persistent homotopy, knotted complexes and the alexander module. In Proceedings of the 3rd innovations in theoretical computer science conference (pp. 428–441).",
+          "DOI": "10.1145/2090236.2090270"
+        },
+        {
+          "issue": "224",
+          "key": "5953_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "1517",
+          "DOI": "10.1090/S0025-5718-98-00974-0",
+          "volume": "67",
+          "author": "D Levin",
+          "year": "1998",
+          "unstructured": "Levin, D. (1998). The approximation power of moving least-squares. Mathematics of Computation, 67(224), 1517–1531.",
+          "journal-title": "Mathematics of Computation"
+        },
+        {
+          "key": "5953_CR23",
+          "unstructured": "Li, D., & Dunson, D. B. (2019). Geodesic distance estimation with spherelets. arXiv:1907.00296."
+        },
+        {
+          "issue": "3",
+          "key": "5953_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "504",
+          "DOI": "10.1016/j.acha.2015.09.009",
+          "volume": "43",
+          "author": "AV Little",
+          "year": "2017",
+          "unstructured": "Little, A. V., Maggioni, M., & Rosasco, L. (2017). Multiscale geometric methods for data sets i: Multiscale svd, noise and curvature. Applied and Computational Harmonic Analysis, 43(3), 504–567.",
+          "journal-title": "Applied and Computational Harmonic Analysis"
+        },
+        {
+          "issue": "4",
+          "key": "5953_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "1224",
+          "DOI": "10.1016/j.neuroimage.2005.08.049",
+          "volume": "29",
+          "author": "E Luders",
+          "year": "2006",
+          "unstructured": "Luders, E., Thompson, P. M., Narr, K., Toga, A. W., Jancke, L., & Gaser, C. (2006). A curvature-based approach to estimate local gyrification on the cortical surface. NeuroImage, 29(4), 1224–1230.",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "issue": "3",
+          "key": "5953_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "139",
+          "DOI": "10.1016/j.cviu.2006.09.007",
+          "volume": "107",
+          "author": "E Magid",
+          "year": "2007",
+          "unstructured": "Magid, E., Soldea, O., & Rivlin, E. (2007). A comparison of Gaussian and mean curvature estimation methods on triangular meshes of range image data. Computer Vision and Image Understanding, 107(3), 139–159.",
+          "journal-title": "Computer Vision and Image Understanding"
+        },
+        {
+          "issue": "6",
+          "key": "5953_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "521",
+          "DOI": "10.1016/S0167-8396(00)00006-6",
+          "volume": "17",
+          "author": "D Meek",
+          "year": "2000",
+          "unstructured": "Meek, D., & Walton, D. (2000). On surface normal and Gaussian curvature approximations given data sampled from a smooth surface. Computer-Aided Geometric Design, 17(6), 521–543.",
+          "journal-title": "Computer-Aided Geometric Design"
+        },
+        {
+          "issue": "6",
+          "key": "5953_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "743",
+          "DOI": "10.1109/TVCG.2010.261",
+          "volume": "17",
+          "author": "Q Mérigot",
+          "year": "2011",
+          "unstructured": "Mérigot, Q., Ovsjanikov, M., & Guibas, L. J. (2011). Voronoi-based curvature and feature estimation from point clouds. IEEE Transactions on Visualization and Computer Graphics, 17(6), 743–756.",
+          "journal-title": "IEEE Transactions on Visualization and Computer Graphics"
+        },
+        {
+          "key": "5953_CR29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nishimori, Y., Akaho, S., & Plumbley, M. D. (2006). Riemannian optimization method on the flag manifold for independent subspace analysis. In International conference on independent component analysis and signal separation (pp. 295–302). Springer.",
+          "DOI": "10.1007/11679363_37"
+        },
+        {
+          "issue": "1–3",
+          "key": "5953_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "419",
+          "DOI": "10.1007/s00454-008-9053-2",
+          "volume": "39",
+          "author": "P Niyogi",
+          "year": "2008",
+          "unstructured": "Niyogi, P., Smale, S., & Weinberger, S. (2008). Finding the homology of submanifolds with high confidence from random samples. Discrete & Computational Geometry, 39(1–3), 419–441.",
+          "journal-title": "Discrete & Computational Geometry"
+        },
+        {
+          "key": "5953_CR31",
+          "unstructured": "Ozakin, A., & Gray, A. G. (2009). Submanifold density estimation. In Advances in neural information processing systems (pp. 1375–1382)."
+        },
+        {
+          "key": "5953_CR32",
+          "unstructured": "Pauly, M., Gross, M., & Kobbelt, L. P. (2002). Efficient simplification of point-sampled surfaces, (pp. 163–170) Boston, MA: IEEE."
+        },
+        {
+          "issue": "5",
+          "key": "5953_CR33",
+          "first-page": "248",
+          "volume": "36",
+          "author": "T Rabbani",
+          "year": "2006",
+          "unstructured": "Rabbani, T., Heuvel, F. A. V. D., & Vosselmann, G. (2006). Segmentation of point clouds using smoothness constraint. International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 36(5), 248–253.",
+          "journal-title": "International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+        },
+        {
+          "key": "5953_CR34",
+          "unstructured": "Rusinkiewicz, S. (2004). Estimating curvatures and their derivatives on triangle meshes (pp. 486–493) Thessaloniki, Greece: IEEE."
+        },
+        {
+          "issue": "9",
+          "key": "5953_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "833",
+          "DOI": "10.1109/34.57680",
+          "volume": "12",
+          "author": "PT Sander",
+          "year": "1990",
+          "unstructured": "Sander, P. T., & Zucker, S. W. (1990). Inferring surface trace and differential structure from 3-d images. IEEE Transactions on Pattern Analysis and Machine Intelligence, 12(9), 833–854.",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "issue": "8",
+          "key": "5953_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "1067",
+          "DOI": "10.1002/cpa.21395",
+          "volume": "65",
+          "author": "A Singer",
+          "year": "2012",
+          "unstructured": "Singer, A., & Wu, H. T. (2012). Vector diffusion maps and the connection Laplacian. Communications on Pure and Applied Mathematics, 65(8), 1067–1144.",
+          "journal-title": "Communications on Pure and Applied Mathematics"
+        },
+        {
+          "issue": "5",
+          "key": "5953_CR37",
+          "doi-asserted-by": "publisher",
+          "first-page": "S461",
+          "DOI": "10.1137/15M1010506",
+          "volume": "38",
+          "author": "M Steinlechner",
+          "year": "2016",
+          "unstructured": "Steinlechner, M. (2016). Riemannian optimization for high-dimensional tensor completion. SIAM Journal on Scientific Computing, 38(5), S461–S484.",
+          "journal-title": "SIAM Journal on Scientific Computing"
+        },
+        {
+          "issue": "6",
+          "key": "5953_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "858",
+          "DOI": "10.1109/TPAMI.2002.1008395",
+          "volume": "24",
+          "author": "CK Tang",
+          "year": "2002",
+          "unstructured": "Tang, C. K., & Medioni, G. (2002). Curvature-augmented tensor voting for shape inference from noisy 3d data. IEEE Transactions on Pattern Analysis and Machine Intelligence, 24(6), 858–864.",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "5953_CR39",
+          "doi-asserted-by": "publisher",
+          "first-page": "28",
+          "DOI": "10.1016/j.cag.2017.07.015",
+          "volume": "70",
+          "author": "YZ Tang",
+          "year": "2018",
+          "unstructured": "Tang, Y. Z., & Feng, J. Q. (2018). Multi-scale surface reconstruction based on a curvature-adaptive signed distance field. Computers & Graphics, 70, 28–38.",
+          "journal-title": "Computers & Graphics"
+        },
+        {
+          "key": "5953_CR40",
+          "unstructured": "Taubin, G. (1995). Estimating the tensor of curvature of a surface from a polyhedral approximation (pp. 902–907) Cambridge, MA: IEEE."
+        },
+        {
+          "issue": "2",
+          "key": "5953_CR41",
+          "doi-asserted-by": "publisher",
+          "first-page": "1214",
+          "DOI": "10.1137/110845768",
+          "volume": "23",
+          "author": "B Vandereycken",
+          "year": "2013",
+          "unstructured": "Vandereycken, B. (2013). Low-rank matrix completion by Riemannian optimization. SIAM Journal on Optimization, 23(2), 1214–1236.",
+          "journal-title": "SIAM Journal on Optimization"
+        },
+        {
+          "issue": "2",
+          "key": "5953_CR42",
+          "doi-asserted-by": "publisher",
+          "first-page": "214",
+          "DOI": "10.1145/1138450.1138453",
+          "volume": "25",
+          "author": "WP Wang",
+          "year": "2006",
+          "unstructured": "Wang, W. P., Pottmann, H., & Liu, Y. (2006). Fitting b-spline curves to point clouds by curvature-based squared distance minimization. ACM Transactions on Graphics, 25(2), 214–238.",
+          "journal-title": "ACM Transactions on Graphics"
+        },
+        {
+          "issue": "2",
+          "key": "5953_CR43",
+          "doi-asserted-by": "publisher",
+          "first-page": "167",
+          "DOI": "10.1016/S0890-6955(01)00120-1",
+          "volume": "42",
+          "author": "H Woo",
+          "year": "2002",
+          "unstructured": "Woo, H., Kang, E., Wang, S. Y., & Lee, K. H. (2002). A new segmentation method for point cloud data. International Journal of Machine Tools and Manufacture, 42(2), 167–178.",
+          "journal-title": "International Journal of Machine Tools and Manufacture"
+        },
+        {
+          "key": "5953_CR44",
+          "doi-asserted-by": "publisher",
+          "first-page": "117295",
+          "DOI": "10.1016/j.neuroimage.2020.117295",
+          "volume": "222",
+          "author": "X Yue",
+          "year": "2020",
+          "unstructured": "Yue, X., Robert, S., & Ungerleider, L. G. (2020). Curvature processing in human visual cortical areas. NeuroImage, 222, 117295.",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "issue": "2",
+          "key": "5953_CR45",
+          "doi-asserted-by": "publisher",
+          "first-page": "249",
+          "DOI": "10.1007/s00454-004-1146-y",
+          "volume": "33",
+          "author": "A Zomorodian",
+          "year": "2005",
+          "unstructured": "Zomorodian, A., & Carlsson, G. (2005). Computing persistent homology. Discrete & Computational Geometry, 33(2), 249–274.",
+          "journal-title": "Discrete & Computational Geometry"
+        }
+      ],
+      "container-title": [
+        "Machine Learning"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10994-021-05953-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s10994-021-05953-4/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10994-021-05953-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            30
+          ]
+        ],
+        "date-time": "2024-08-30T15:20:41Z",
+        "timestamp": 1725031241000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s10994-021-05953-4"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            12
+          ]
+        ]
+      },
+      "references-count": 45,
+      "journal-issue": {
+        "issue": "6",
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "5953"
+      ],
+      "URL": "https://doi.org/10.1007/s10994-021-05953-4",
+      "relation": {},
+      "ISSN": [
+        "0885-6125",
+        "1573-0565"
+      ],
+      "issn-type": [
+        {
+          "value": "0885-6125",
+          "type": "print"
+        },
+        {
+          "value": "1573-0565",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "1 June 2019",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "23 November 2020",
+          "order": 2,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "1 February 2021",
+          "order": 3,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "12 May 2021",
+          "order": 4,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "This content has been made available to all.",
+          "name": "free",
+          "label": "Free to read"
+        }
+      ]
+    }
+  }
+}

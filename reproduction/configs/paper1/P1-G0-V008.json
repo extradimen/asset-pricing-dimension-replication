@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V008",
+  "parent_experiment_id": "P1-G0-V007",
+  "paper": 1,
+  "generation": "G0",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Which non-announcement CRSP monthly characteristics can be independently reconstructed with the same timing and cross-sectional ordering as the official GKX benchmark?",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "additional_data_snapshot_ids": [
+    "gkx-datashare-2021-v1"
+  ],
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Audit same-month versus one-month-lag timing, variable transformations, cross-sectional rank agreement, coverage, and exchange-related discrepancies before extending monthly characteristics through 2025.",
+  "entrypoint": "scripts/audit_monthly_characteristics.py",
+  "validator": "scripts/validate_monthly_characteristic_audit.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V008",
+  "result_summary": "experiments/P1-G0-V008/result_summary.json"
+}

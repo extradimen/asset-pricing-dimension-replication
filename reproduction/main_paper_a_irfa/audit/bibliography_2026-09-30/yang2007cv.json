@@ -1,0 +1,351 @@
+{
+  "key": "yang2007cv",
+  "submitted": {
+    "key": "yang2007cv",
+    "type": "article",
+    "fields": {
+      "author": "Yang, Yuhong",
+      "title": "Consistency of Cross Validation for Comparing Regression Procedures",
+      "journal": "The Annals of Statistics",
+      "year": "2007",
+      "volume": "35",
+      "number": "6",
+      "pages": "2450--2473",
+      "doi": "10.1214/009053607000000514"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1214/009053607000000514",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T18:00:54Z",
+        "timestamp": 1790704854672,
+        "version": "4.1.0"
+      },
+      "reference-count": 35,
+      "publisher": "Institute of Mathematical Statistics",
+      "issue": "6",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Ann. Statist."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2007,
+            12,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1214/009053607000000514",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2008,
+            3,
+            5
+          ]
+        ],
+        "date-time": "2008-03-05T12:59:38Z",
+        "timestamp": 1204721978000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 108,
+      "title": [
+        "Consistency of cross validation for comparing regression procedures"
+      ],
+      "prefix": "10.1214",
+      "volume": "35",
+      "author": [
+        {
+          "given": "Yuhong",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "108",
+      "reference": [
+        {
+          "key": "25",
+          "unstructured": "Stone, M. (1974). Cross-validatory choice and assessment of statistical predictions (with discussion). <i>J. Roy. Statist. Soc. Ser. B</i> <b>36</b> 111–147."
+        },
+        {
+          "key": "2",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Allen, D. M. (1974). The relationship between variable selection and data augmentation and a method for prediction. <i>Technometrics</i> <b>16</b> 125–127.",
+          "DOI": "10.1080/00401706.1974.10489157"
+        },
+        {
+          "key": "19",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Shao, J. (1993). Linear model selection by cross-validation. <i>J. Amer. Statist. Assoc.</i> <b>88</b> 486–494.",
+          "DOI": "10.1080/01621459.1993.10476299"
+        },
+        {
+          "key": "17",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Opsomer, J., Wang, Y. and Yang, Y. (2001). Nonparametric regression with correlated errors. <i>Statist. Sci.</i> <b>16</b> 134–153.",
+          "DOI": "10.1214/ss/1009213287"
+        },
+        {
+          "key": "35",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Zhang, P. (1993). Model selection via multifold cross validation. <i>Ann. Statist.</i> <b>21</b> 299–313.",
+          "DOI": "10.1214/aos/1176349027"
+        },
+        {
+          "key": "6",
+          "unstructured": "Craven, P. and Wahba, G. (1979). Smoothing noisy data with spline functions. <i>Numer. Math.</i> <b>31</b> 377–403."
+        },
+        {
+          "key": "30",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Wegkamp, M. (2003). Model selection in nonparametric regression. <i>Ann. Statist.</i> <b>31</b> 252–273.",
+          "DOI": "10.1214/aos/1046294464"
+        },
+        {
+          "key": "15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, K.-C. (1987). Asymptotic optimality for $C_p$, $C_L$, cross-validation and generalized cross-validation: Discrete index set. <i>Ann. Statist.</i> <b>15</b> 958–975.",
+          "DOI": "10.1214/aos/1176350486"
+        },
+        {
+          "key": "22",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Speckman, P. (1985). Spline smoothing and optimal rates of convergence in nonparametric regression models. <i>Ann. Statist.</i> <b>13</b> 970–983.",
+          "DOI": "10.1214/aos/1176349650"
+        },
+        {
+          "key": "7",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Donoho, D. L. and Johnstone, I. M. (1998). Minimax estimation via wavelet shrinkage. <i>Ann. Statist.</i> <b>26</b> 879–921.",
+          "DOI": "10.1214/aos/1024691081"
+        },
+        {
+          "key": "20",
+          "unstructured": "Shao, J. (1997). An asymptotic theory for linear model selection (with discussion). <i>Statist. Sinica</i> <b>7</b> 221–264."
+        },
+        {
+          "key": "9",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Geisser, S. (1975). The predictive sample reuse method with applications. <i>J. Amer. Statist. Assoc.</i> <b>70</b> 320–328.",
+          "DOI": "10.1080/01621459.1975.10479865"
+        },
+        {
+          "key": "12",
+          "unstructured": "Härdle, W., Hall, P. and Marron, J. S. (1988). How far are automatically chosen regression smoothing parameters from their optimum? (with discussion). <i>J. Amer. Statist. Assoc.</i> <b>83</b> 86–101."
+        },
+        {
+          "key": "10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Györfi, L., Kohler, M., Krzyzak, A. and Walk, H. (2002). <i>A Distribution-Free Theory of Nonparametric Regression</i>. Springer, New York.",
+          "DOI": "10.1007/b97848"
+        },
+        {
+          "key": "24",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Stone, C. J. (1982). Optimal global rates of convergence for nonparametric regression. <i>Ann. Statist.</i> <b>10</b> 1040–1053.",
+          "DOI": "10.1214/aos/1176345969"
+        },
+        {
+          "key": "23",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Stone, C. J. (1980). Optimal rates of convergence for nonparametric estimators. <i>Ann. Statist.</i> <b>8</b> 1348–1360.",
+          "DOI": "10.1214/aos/1176345206"
+        },
+        {
+          "key": "33",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yang, Y. (2001). Adaptive regression by mixing. <i>J. Amer. Statist. Assoc.</i> <b>96</b> 574–588.",
+          "DOI": "10.1198/016214501753168262"
+        },
+        {
+          "key": "1",
+          "unstructured": "Akaike, H. (1973). Information theory and an extension of the maximum likelihood principle. In <i>Proc. 2nd Int. Symp. Information Theory</i> (B. N. Petrov and F. Csáki, eds.) 267–281. Akadémiai Kiadó, Budapest."
+        },
+        {
+          "key": "4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Burman, P. (1989). A comparative study of ordinary cross-validation, $v$-fold cross-validation and the repeated learning-testing methods. <i>Biometrika</i> <b>76</b> 503–514.",
+          "DOI": "10.1093/biomet/76.3.503"
+        },
+        {
+          "key": "5",
+          "unstructured": "Burman, P. (1990). Estimation of optimal transformations using $v$-fold cross validation and repeated learning-testing methods. <i>Sankhyā Ser. A</i> <b>52</b> 314–345."
+        },
+        {
+          "key": "11",
+          "unstructured": "Hall, P. and Johnstone, I. (1992). Empirical functional and efficient smoothing parameter selection (with discussion). <i>J. Roy. Statist. Soc. Ser. B</i> <b>54</b> 475–530."
+        },
+        {
+          "key": "14",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Li, K.-C. (1984). Consistency for cross-validated nearest neighbor estimates in nonparametric regression. <i>Ann. Statist.</i> <b>12</b> 230–240.",
+          "DOI": "10.1214/aos/1176346403"
+        },
+        {
+          "key": "16",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Nemirovski, A. (2000). Topics in nonparametric statistics. <i>Lectures on Probability Theory and Statistics</i> (<i>Saint-Flour</i>, <i>1998</i>). <i>Lecture Notes in Math.</i> <b>1738</b> 85–277. Springer, Berlin.",
+          "DOI": "10.1007/BFb0106703"
+        },
+        {
+          "key": "26",
+          "unstructured": "van der Laan, M. J. and Dudoit, S. (2003). Unified cross-validation methodology for selection among estimators and a general cross-validated adaptive epsilon-net estimator: Finite sample oracle inequalities and examples. U.C. Berkeley Div. Biostatistics Working Paper Series. Available at www.bepress.com/ucbbiostat/paper130."
+        },
+        {
+          "key": "27",
+          "unstructured": "van der Laan, M. J., Dudoit, S. and van der Vaart, A. W. (2006). The cross-validated adaptive epsilon-net estimator. <i>Statist. Decisions</i> <b>24</b> 373–395."
+        },
+        {
+          "key": "28",
+          "unstructured": "van der Vaart, A. W., Dudoit, S. and van der Laan, M. J. (2006). Oracle inequalities for multi-fold cross-validation. <i>Statist. Decisions</i> <b>24</b> 351–371."
+        },
+        {
+          "key": "31",
+          "unstructured": "Weisberg, S. (2005). <i>Applied Linear Regression</i>, 3rd ed. Wiley, Hoboken, NJ."
+        },
+        {
+          "key": "32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wong, W. H. (1983). On the consistency of cross-validation in kernel nonparametric regression. <i>Ann. Statist.</i> <b>11</b> 1136–1141.",
+          "DOI": "10.1214/aos/1176346327"
+        },
+        {
+          "key": "34",
+          "unstructured": "Yang, Y. (2003). Regression with multiple candidate models: Selecting or mixing? <i>Statist. Sinica</i> <b>13</b> 783–809."
+        },
+        {
+          "key": "18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pollard, D. (1984). <i>Convergence of Stochastic Processes</i>. Springer, New York.",
+          "DOI": "10.1007/978-1-4612-5254-2"
+        },
+        {
+          "key": "29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wahba, G. (1990). <i>Spline Models for Observational Data</i>. SIAM, Philadelphia.",
+          "DOI": "10.1137/1.9781611970128"
+        },
+        {
+          "key": "21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Simonoff, J. S. (1996). <i>Smoothing Methods in Statistics</i>. Springer, New York.",
+          "DOI": "10.1007/978-1-4612-4026-6"
+        },
+        {
+          "key": "8",
+          "unstructured": "Fan, J. and Gijbels, I. (1996). <i>Local Polynomial Modelling and Its Applications</i>. Chapman and Hall, London."
+        },
+        {
+          "key": "3",
+          "unstructured": "Breiman, L., Friedman, J. H., Olshen, R. A. and Stone, C. J. (1984). <i>Classification and Regression Trees</i>. Wadsworth, Belmont, CA."
+        },
+        {
+          "key": "13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hart, J. D. (1997). <i>Nonparametric Smoothing and Lack-of-Fit Tests</i>. Springer, New York.",
+          "DOI": "10.1007/978-1-4757-2722-7"
+        }
+      ],
+      "container-title": [
+        "The Annals of Statistics"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://projecteuclid.org/download/pdfview_1/euclid.aos/1201012968",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            5
+          ]
+        ],
+        "date-time": "2021-04-05T14:44:12Z",
+        "timestamp": 1617633852000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-35/issue-6/Consistency-of-cross-validation-for-comparing-regression-procedures/10.1214/009053607000000514.full"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2007,
+            12,
+            1
+          ]
+        ]
+      },
+      "references-count": 35,
+      "journal-issue": {
+        "issue": "6",
+        "published-online": {
+          "date-parts": [
+            [
+              2007,
+              12,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1214/009053607000000514",
+      "relation": {},
+      "ISSN": [
+        "0090-5364"
+      ],
+      "issn-type": [
+        {
+          "value": "0090-5364",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            12,
+            1
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+\section{Data and frozen empirical design}
+
+\subsection{U.S. equity panel and information timing}
+
+The reconstructed stock panel uses CRSP CIZ daily stock data aggregated to calendar months, Compustat North America annual and quarterly records, and CCM link history. It is not a direct extract of the CRSP Monthly Stock File. Monthly returns compound daily total returns after duplicate distribution rows are resolved; the CIZ delisting return is retained rather than added again. The pipeline keeps the frozen common-stock classification and date-valid accounting links. Annual accounts use a six-month lag; quarterly availability uses the recorded reporting date when admissible and a conservative fallback otherwise. These rules limit timing errors but do not turn a current-vintage accounting database into a point-in-time vintage archive.
+
+The reconstructed panel spans 1950--2025. The Core-86 training period contains 437 target-return months from August 1963 through December 1999. Validation and development contain 120 target months each, January 2000--December 2009 and January 2010--December 2019. Characteristic months precede target months by one. The later evaluation contains 72 target months, January 2020--December 2025, and 286,565 stock-month observations.
+
+Core-86 contains 20 monthly/market, 10 quarterly, and 56 annual characteristics. The production input is a documented bridge: it retains nonmissing public benchmark characteristics where available through 2021 and uses audited self-built values otherwise. It is therefore not an entirely independent reconstruction of every historical value. Monthly cross-sectional ranks are mapped to $[-1,1]$; missing ranks are set to zero and accompanied by separate indicators. The 86 characteristics thus generate 172 network inputs. Relative to the earlier 92-characteristic non-announcement benchmark, the omitted columns are \texttt{ms}, \texttt{ps}, \texttt{tb}, \texttt{bm\_ia}, \texttt{chpmia}, and \texttt{pchcapx\_ia}. Supplement~B and the replication package give the variable dictionary and construction scripts.
+
+A chronology limitation affects the legacy comparison. Core-92 used characteristic-month splits: its nominal 2010--2019 development block realizes returns in February 2010--January 2020, whereas Core-86 realizes returns in January 2010--December 2019. Consequently, Core-92/Core-86 differences combine feature membership, reconstruction and coverage, and a one-month shift in the evaluation window. They are a comparison of archived data pipelines, not an isolated six-feature deletion experiment. The overlap also means that January 2020 had entered legacy development before the later 2020--2025 evaluation was fixed. We call that exercise a \emph{locked later-period evaluation}, not a wholly untouched holdout for the research process. Its Core-86 weights and decision rules were fixed before that evaluation.
+
+The analysis avoids corporate announcements, news text, analyst narratives, and language-model embeddings. The information set consists of market and accounting variables whose timing can be encoded as reproducible tabular data. This restriction isolates whether nonlinear pricing structure can be learned from conventional numerical information.
+
+\subsection{Frozen neural model family}
+
+The main family contains 30 neural pricing models. Nominal factor dimension is
+\[
+ K\in\{1,2,3,4,5,8\},
+\]
+and each dimension is estimated under five fixed random seeds, 20260924 through 20260928. All models within a data-definition exercise share the architecture, optimization rule, stopping rule, sample splits, and target construction. Dimension and seed are the planned sources of variation. Model selection uses the validation decade. The development decade and the locked period never alter weights or hyperparameters.
+
+Each network has hidden widths 128, 64, and 32, SiLU activations, and a $K$-wide tanh output. Within a month, output scores are centered and normalized separately to unit gross exposure, producing zero-net-investment characteristic-managed factors. Training minimizes three times normalized ridge-HJ span loss minus 0.25 times the annualized factor-span Sharpe, plus 0.05 times squared off-diagonal factor correlations and 0.001 times portfolio concentration. Only the 25 size--book-to-market assets enter this training loss. AdamW uses learning rate $3\times10^{-4}$, weight decay $10^{-5}$, batches of 120 months, at most 80 epochs, and patience 12. Supplement~B specifies normalization and checkpoint selection.
+
+This family was retained for diagnostics after earlier benchmark-advancement criteria failed. It should not be interpreted as a demonstrated state-of-the-art pricing model. Architecture is constant across $K$ apart from output width, but separately trained networks are not algebraically nested. The known-loading simulation removes optimization and separates this limitation from the statistical selection issue.
+
+Random seeds are algorithmic repetitions. We summarize across them because a claimed economic dimension should not depend on one initialization, but we do not treat five seeds as five independent economic time series. Time-series uncertainty is obtained from the monthly sequence and the prespecified block bootstrap.
+
+\subsection{Test assets and external transport}
+
+The primary test assets are 25 size--book-to-market portfolios, 49 industry portfolios, and their 74-asset union. The two component sets emphasize different economic spans: characteristic-sorted portfolios organize the cross-section by size and valuation, while industries load on sector-specific cash-flow risks. The union is the main broad pricing panel.
+
+Six external families test transport beyond the primary assets: 25 portfolios sorted on size and operating profitability, investment, momentum, accruals, market beta, and residual variance. These assets were fixed before the corresponding development and locked evaluations. They are useful because a direction that is weakly represented in size--value or industry portfolios can be more visible in an economically targeted family.
+
+The locked exercise evaluates all nine sets: the three primary sets and six external sets. It does not add assets after observing 2020--2025 outcomes. Public portfolio returns and factor series can be independently obtained from the Kenneth French Data Library; stock-level model construction requires licensed CRSP and Compustat access.
+
+\subsection{Pricing losses and the geometry path}
+
+For each model, factor self-pricing coefficients are estimated in the validation block and then held fixed. Let $F$ be its validation factor matrix. The coefficient is $b=(F'F/T_v+\eta I)^{-1}\bar F$, with $\eta=10^{-6}\operatorname{tr}(F'F/T_v)/K$ and a numerical floor. Evaluation moments are $\hat g=T_e^{-1}\sum_t(1-b'F_t)R_t$. Alphas are intercepts from evaluation-period time-series regressions, a separate descriptive estimand.
+
+Write the evaluation return second moment as $S=V\operatorname{diag}(\lambda_j)V'$. For $\gamma\in\{0,0.05,\ldots,1\}$, the actual geometry path is
+\begin{align}
+ d_j(\gamma)&=(\lambda_j+\epsilon)^{-\gamma},\\
+ W_\gamma&=\frac{J\,V\operatorname{diag}(d_j(\gamma))V'}{\sum_jd_j(\gamma)\lambda_j},\\
+ D_{K,s,A}(\gamma)&=\sqrt{12\hat g'W_\gamma\hat g},
+\end{align}
+where $\epsilon=10^{-4}\operatorname{tr}(S)/J$. This is a spectral-power path with $\operatorname{tr}(W_\gamma S)=J$, not a linear mixture of endpoint matrices. At zero it is a scaled equal-moment norm; at one it is a scaled regularized HJ-type norm. The displayed values are dimensionless annualized distances, not percentage returns. The evaluation second moment determines the metric; it is not an investor's ex-ante estimate of $W$. Coefficients $b$ remain fixed along the path.
+
+The aggregate best dimension minimizes the seed-mean distance at each $\gamma$. We report the entire six-dimension ordering and seed-level winners in addition to the aggregate optimum. This matters because a common average winner can mask dispersion across training runs.
+
+The market-direction diagnostic estimates each test asset's market beta in the validation decade, freezes that beta, and subtracts the associated market payoff in the development or locked period. Define $A_A=[\bar D_{1,A}(0)-\bar D_{5,A}(0)]-[\bar D_{1,A}(1)-\bar D_{5,A}(1)]$, where bars average the five seeds. Market attenuation is
+\begin{equation}
+ \Delta_A^{mkt}=|A_A|-|A_A^{hedged}|.
+\end{equation}
+A positive value means that removing the validation-estimated market direction makes the geometry contrast smaller. Betas are never re-estimated on the evaluation period.
+
+The economic-completion diagnostic augments the one-factor neural representation with the observed market excess return. It evaluates both raw Euler moments and time-series alpha. Joint improvement is required because fitting a dominant unconditional moment can leave relative cross-sectional pricing errors unchanged.
+
+\subsection{Development evidence and locked confirmation}
+
+The development analysis maps the full geometry surface, compares Core-92 and Core-86, evaluates the six external families, decomposes spectral directions, and records the market-hedge diagnostics. It is discovery evidence: the sample informed the final hypotheses even though each underlying run used a frozen local protocol.
+
+The later-period protocol was fixed after the development diagnostics. The January 2020 overlap described above prevents a claim of wholly untouched confirmation. The 30 Core-86 checkpoints were unchanged. Four hypotheses were fixed:
+\begin{enumerate}
+ \item the best dimension changes across endpoint geometries for the combined assets and for at least four of six external families;
+ \item removing the frozen market-beta direction attenuates geometry sensitivity for the combined assets and at least four external families;
+ \item adding the market factor to $K=1$ jointly improves raw moments and alpha for at least four external families; and
+ \item external families select at least three distinct best dimensions across the endpoints.
+\end{enumerate}
+The run uses 500 twelve-month circular block-bootstrap draws. Point-estimate gates and confidence intervals are both reported; passing a directional point-estimate rule does not convert an interval that crosses zero into precise evidence.
+
+\subsection{Known-truth identification simulation}
+
+The simulation asks whether the observed instability can arise even when the true dimension is known and neural optimization is absent. It contains 500 Monte Carlo replications for each of 144 base conditions. The design crosses true dimensions $K_0\in\{1,3,5\}$, sample lengths $T\in\{72,240,600\}$, strong and weak risk prices, full and weak-tail asset spanning, factor correlation $\rho\in\{0,0.7\}$, and 25 versus 74 test assets. Six independently drawn asset families and two pricing geometries are evaluated.
+
+The candidate dimensions contain the truth. Both modes estimate risk prices from a noisy training mean. Oracle evaluation compares the fitted mean with the population mean; feasible evaluation compares it with an independent noisy mean of the same sample length. Both modes know the loading matrix and population covariance; ``feasible'' here refers only to evaluation-mean noise. The HJ-labelled simulation weight uses a regularized covariance, whereas the empirical path uses return second moments. This is a mechanism experiment, not a literal replication of the empirical estimator. Because true loadings are provided, any difference between oracle and feasible recovery is attributable to dimension identification and evaluation noise rather than a network failing to optimize.
+
+The simulation was frozen before execution. It generated 576 condition summaries, 3,456 selection-frequency rows, and 864 cross-asset disagreement summaries. A second run using the same code and seeds reproduced all four output files byte for byte. Eight directional mechanism tests were fixed in advance: improvements with sample length, strong prices, and complete spanning; greater under-selection under weak prices; greater cross-asset disagreement with weak-tail spanning; disagreement across geometries; amplification of that disagreement with correlation or weak spanning; and better recovery under oracle evaluation.
+
+\subsection{Temporal replay and update-value decomposition}
+
+The temporal analysis is an independent stress test of the fourth proposition, real-time economic use. It uses archived stock-level predictions from a frozen model, a rolling 60-month update, and an expanding-history update. These return-prediction models are not the 30 latent pricing-dimension networks, so the replay does not estimate temporal changes in $K$. It asks the narrower question of whether a mapping change that is visible retrospectively can be detected and used in real time. The main neural replay covers February 2000 through December 2019: 239 evaluation months, 1,043,511 stock-months, two update arms, five seeds, and 2,390 fitted models. Ridge and shallow histogram-gradient-boosting models provide cross-estimator comparisons. The 214-input temporal sample is conditioned on archived future-validation eligibility and complete state history; its fixed preprocessing and neural hyperparameters also have development-history dependence. Thus the decision dates can respect lagged information while the full sampling and specification procedure remains retrospective. Portfolio results describe this selected sample and are not a clean prospective investability test. Neural and Ridge updates are monthly; tree models update annually using information available at the annual fit date. This cadence difference is retained when comparing learners.
+
+For each update arm, Eq.~\eqref{eq:update-decomp} is aggregated by period. A scale-free advantage score,
+\begin{equation}
+ D_t=\frac{2B_t-A_t}{A_t+|2B_t|+10^{-15}},
+\end{equation}
+is positive when alignment benefit exceeds adjustment cost. A retrospective common-break procedure standardizes the six model--window series and chooses one mean break with at least 60 observations on each side. A 12-month joint circular moving-block bootstrap evaluates the break statistic. This date is exploratory because it uses the entire history.
+
+The CUSUM rule fixes location, scale, and a bootstrap-calibrated nominal familywise 5\% threshold using 2000--2009 only. Its design followed inspection of the broader development history, so its 2010--2019 replay is an internal diagnostic, not an independent confirmatory sample. From 2010 onward it uses a one-sided absorbing boundary, and information from month $t$ can change the update decision only in month $t+1$. The rule is evaluated against both frozen and always-updated policies.
+
+Portfolio tests sort stocks each month into predicted-return deciles and form a high-minus-low strategy under equal and value weights. Turnover is computed after return drift for a unit long and unit short position. Costs are 0, 10, 25, and 50 basis points per unit turnover; the primary specification is value weighted at 25 basis points. Six update-minus-frozen comparisons use a 12-month block bootstrap and Holm adjustment. Certainty equivalents use risk aversion $\gamma=5$.
+
+\subsection{Hidden-representation geometry}
+
+The geometry sample contains the same 30 frozen Core-86 networks, 120 development months, 384 securities per month, 172 inputs (86 ranked characteristics and 86 missingness indicators), and three hidden layers. For every model, month, and layer we calculate participation rank, entropy rank, PCA90 and PCA95 dimension, and a collapse indicator. Neighbor-based TWO-NN and Levina--Bickel ($k=20$) dimensions and a tangent-angle diagnostic are computed only every twelfth development month (ten months) under raw centering and feature z-scoring. They are not computed under row normalization. We repeat the spectral statistics under raw centering, feature z-scoring, and row-$L_2$ normalization.
+
+CKA measures adjacent-layer similarity. Rank-five principal-subspace Grassmann distance measures month-to-month drift. The primary functional probe asks whether hidden geometry improves leave-one-seed-out prediction of development-period HJ loss after controlling for nominal factor count. Advancement requires at least a 5\% RMSE reduction and a within-factor-count permutation $p\leq0.05$. The factor-Sharpe probe is secondary and cannot replace the primary endpoint.
+
+\subsection{Evidence hierarchy and reproducibility}
+
+We label evidence as descriptive, development, exploratory, or locked. ``Prespecified'' denotes a time-stamped local protocol fixed before its run, not registration in an external registry. The label determines permissible interpretation. Development findings motivate hypotheses. A locked failure remains a failure even when a related point estimate has the expected sign. Exploratory break dates cannot be presented as real-time rules. Secondary endpoints cannot rescue failed primary gates.
+
+The project archives protocols, source hashes, model hashes, random seeds, manifests, execution receipts, and derived tables. Licensed raw CRSP and Compustat records cannot be redistributed, but the data dictionary, construction code, source links, and checksums document how licensed researchers can reconstruct the stock-level panel. Exact historical bytes require the same source vintages; current downloads can differ because of vendor revisions. All figures in this manuscript are produced from frozen CSV or JSON outputs; no value is transcribed from an unfrozen interactive analysis.

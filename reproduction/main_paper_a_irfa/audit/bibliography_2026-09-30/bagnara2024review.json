@@ -1,0 +1,712 @@
+{
+  "key": "bagnara2024review",
+  "submitted": {
+    "key": "bagnara2024review",
+    "type": "article",
+    "fields": {
+      "author": "Bagnara, Matteo",
+      "title": "Asset Pricing and Machine Learning: A Critical Review",
+      "journal": "Journal of Economic Surveys",
+      "year": "2024",
+      "volume": "38",
+      "number": "1",
+      "pages": "27--56",
+      "doi": "10.1111/joes.12532"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/joes.12532",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            12
+          ]
+        ],
+        "date-time": "2026-09-12T05:54:31Z",
+        "timestamp": 1789192471638,
+        "version": "build-2803163510"
+      },
+      "reference-count": 92,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                4
+              ]
+            ],
+            "date-time": "2022-09-04T00:00:00Z",
+            "timestamp": 1662249600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Economic Surveys"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>The latest development in empirical Asset Pricing is the use of Machine Learning methods to address the problem of the factor zoo. These techniques offer great flexibility and prediction accuracy but require special care as they strongly depart from traditional Econometrics. We review and critically assess the most recent and relevant contributions in the literature grouping them into five categories defined by the Machine Learning (ML) approach they employ: regularization, dimension reduction, regression trees/random forest (RF), neural networks (NNs), and comparative analyses. We summarize the empirical findings with particular attention to their economic interpretation providing hints for future developments.</jats:p>",
+      "DOI": "10.1111/joes.12532",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2022-09-04T17:09:02Z",
+        "timestamp": 1662311342000
+      },
+      "page": "27-56",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 35,
+      "title": [
+        "Asset Pricing and Machine Learning: A critical review"
+      ],
+      "prefix": "10.1111",
+      "volume": "38",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7674-1812",
+          "authenticated-orcid": false,
+          "given": "Matteo",
+          "family": "Bagnara",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Leibniz Institute for Financial Research SAFE Frankfurt am Main Germany"
+            },
+            {
+              "name": "Goethe University Frankfurt  Frankfurt am Main Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            4
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_8_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1386-4181(01)00024-6"
+        },
+        {
+          "key": "e_1_2_8_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3905/jpm.2014.40.5.075"
+        },
+        {
+          "key": "e_1_2_8_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11142-018-9470-2"
+        },
+        {
+          "key": "e_1_2_8_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-economics-080217-053433"
+        },
+        {
+          "key": "e_1_2_8_6_1",
+          "unstructured": "Avramov D. Cheng S. &Metzker L.(2022).Machine learning versus economic restrictions: Evidence from stock return predictability.Management Science 00 1–33."
+        },
+        {
+          "key": "e_1_2_8_7_1",
+          "volume-title": "Asset pricing and portfolio choice theory",
+          "author": "Back K.",
+          "year": "2010"
+        },
+        {
+          "key": "e_1_2_8_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1468-0262.00392"
+        },
+        {
+          "key": "e_1_2_8_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2018.08.002"
+        },
+        {
+          "key": "e_1_2_8_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1468-0262.00273"
+        },
+        {
+          "key": "e_1_2_8_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2005.01.015"
+        },
+        {
+          "key": "e_1_2_8_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2004.00670.x"
+        },
+        {
+          "key": "e_1_2_8_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(81)90018-0"
+        },
+        {
+          "key": "e_1_2_8_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/restud/rdt044"
+        },
+        {
+          "key": "e_1_2_8_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa062"
+        },
+        {
+          "key": "e_1_2_8_16_1",
+          "first-page": "382",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "author": "Bishop C. M.",
+          "year": "1999"
+        },
+        {
+          "key": "e_1_2_8_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1010933404324"
+        },
+        {
+          "key": "e_1_2_8_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9781315139470"
+        },
+        {
+          "key": "e_1_2_8_19_1",
+          "unstructured": "Bryzgalova S. Huang J. &Julliard C.Bayesian solutions for the factor zoo: We just ran two quadrillion models.Journal of Finance Forthcoming."
+        },
+        {
+          "key": "e_1_2_8_20_1",
+          "unstructured": "Bryzgalova S. Pelger M. &Zhu J.(2021).Forest through the trees: Building cross‐sections of stock returns. Tech. rep. London Business School and Standford University."
+        },
+        {
+          "key": "e_1_2_8_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2021.12.007"
+        },
+        {
+          "key": "e_1_2_8_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/250059"
+        },
+        {
+          "key": "e_1_2_8_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2298008"
+        },
+        {
+          "key": "e_1_2_8_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1997.tb03808.x"
+        },
+        {
+          "key": "e_1_2_8_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912275"
+        },
+        {
+          "key": "e_1_2_8_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1561/104.00000112"
+        },
+        {
+          "key": "e_1_2_8_27_1",
+          "unstructured": "Chen L. Pelger M. &Zhu J.Deep learning in asset pricing.Management Science Forthcoming."
+        },
+        {
+          "key": "e_1_2_8_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12733"
+        },
+        {
+          "key": "e_1_2_8_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2020.12.003"
+        },
+        {
+          "key": "e_1_2_8_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jacceco.2014.06.001"
+        },
+        {
+          "key": "e_1_2_8_31_1",
+          "volume-title": "Asset pricing: Revised edition",
+          "author": "Cochrane J. H.",
+          "year": "2009"
+        },
+        {
+          "key": "e_1_2_8_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2011.01671.x"
+        },
+        {
+          "key": "e_1_2_8_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(86)90027-9"
+        },
+        {
+          "key": "e_1_2_8_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(88)90062-1"
+        },
+        {
+          "key": "e_1_2_8_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1993.tb04754.x"
+        },
+        {
+          "key": "e_1_2_8_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00352"
+        },
+        {
+          "key": "e_1_2_8_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-41068-1"
+        },
+        {
+          "key": "e_1_2_8_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(93)90023-5"
+        },
+        {
+          "key": "e_1_2_8_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2331355"
+        },
+        {
+          "key": "e_1_2_8_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1992.tb04398.x"
+        },
+        {
+          "key": "e_1_2_8_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1996.tb05202.x"
+        },
+        {
+          "key": "e_1_2_8_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2008.01371.x"
+        },
+        {
+          "key": "e_1_2_8_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2014.10.010"
+        },
+        {
+          "key": "e_1_2_8_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/260061"
+        },
+        {
+          "key": "e_1_2_8_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12883"
+        },
+        {
+          "key": "e_1_2_8_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261755"
+        },
+        {
+          "key": "e_1_2_8_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2013.10.005"
+        },
+        {
+          "key": "e_1_2_8_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhz123"
+        },
+        {
+          "key": "e_1_2_8_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1468-0262.2006.00718.x"
+        },
+        {
+          "key": "e_1_2_8_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-financial-101521-104735"
+        },
+        {
+          "key": "e_1_2_8_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/714090"
+        },
+        {
+          "key": "e_1_2_8_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3386/w9116"
+        },
+        {
+          "key": "e_1_2_8_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa009"
+        },
+        {
+          "key": "e_1_2_8_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2020.07.009"
+        },
+        {
+          "key": "e_1_2_8_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261749"
+        },
+        {
+          "key": "e_1_2_8_56_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhv059"
+        },
+        {
+          "key": "e_1_2_8_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-0-387-84858-7"
+        },
+        {
+          "key": "e_1_2_8_58_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2017.08.002"
+        },
+        {
+          "key": "e_1_2_8_59_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00401706.1970.10488634"
+        },
+        {
+          "key": "e_1_2_8_60_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0893-6080(89)90020-8"
+        },
+        {
+          "key": "e_1_2_8_61_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhu068"
+        },
+        {
+          "key": "e_1_2_8_62_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/09-AOS781"
+        },
+        {
+          "issue": "2",
+          "key": "e_1_2_8_63_1",
+          "first-page": "23",
+          "article-title": "Can machines “learn” finance?",
+          "volume": "18",
+          "author": "Israel R.",
+          "year": "2020",
+          "journal-title": "Journal of Investment Management"
+        },
+        {
+          "key": "e_1_2_8_64_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa019"
+        },
+        {
+          "key": "e_1_2_8_65_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2020.06.024"
+        },
+        {
+          "key": "e_1_2_8_66_1",
+          "unstructured": "Kelly B. T. Palhares D. &Pruitt S.Modeling corporate bond returns.The Journal of Finance Forthcoming."
+        },
+        {
+          "key": "e_1_2_8_67_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.05.001"
+        },
+        {
+          "key": "e_1_2_8_68_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12612"
+        },
+        {
+          "key": "e_1_2_8_69_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.06.008"
+        },
+        {
+          "key": "e_1_2_8_70_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2019.08.012"
+        },
+        {
+          "key": "e_1_2_8_71_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa020"
+        },
+        {
+          "key": "e_1_2_8_72_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2009.09.001"
+        },
+        {
+          "key": "e_1_2_8_73_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmoneco.2013.01.001"
+        },
+        {
+          "key": "e_1_2_8_74_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.03.011"
+        },
+        {
+          "key": "e_1_2_8_75_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2021.10.006"
+        },
+        {
+          "key": "e_1_2_8_76_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12365"
+        },
+        {
+          "key": "e_1_2_8_77_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-3932(85)90061-3"
+        },
+        {
+          "key": "e_1_2_8_78_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913811"
+        },
+        {
+          "key": "e_1_2_8_79_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Moritz B. &Zimmermann T.(2016).Tree‐based conditional portfolio sorts: The relation between past and future stock returns. Tech. rep. Ludwig Maximilian Unversity Munich and Federal Reserve Boar.",
+          "DOI": "10.2139/ssrn.2740751"
+        },
+        {
+          "key": "e_1_2_8_80_1",
+          "volume-title": "Machine learning in asset pricing",
+          "author": "Nagel S.",
+          "year": "2021"
+        },
+        {
+          "key": "e_1_2_8_81_1",
+          "volume-title": "Bayesian learning for neural networks",
+          "author": "Neal R. M.",
+          "year": "2012"
+        },
+        {
+          "key": "e_1_2_8_82_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00204"
+        },
+        {
+          "key": "e_1_2_8_83_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-405X(00)00044-1"
+        },
+        {
+          "key": "e_1_2_8_84_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/374184"
+        },
+        {
+          "key": "e_1_2_8_85_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2018.09.004"
+        },
+        {
+          "key": "e_1_2_8_86_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12898"
+        },
+        {
+          "key": "e_1_2_8_87_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07350015.2021.1961786"
+        },
+        {
+          "key": "e_1_2_8_88_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3905/jpm.1985.409007"
+        },
+        {
+          "key": "e_1_2_8_89_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-0531(76)90046-6"
+        },
+        {
+          "key": "e_1_2_8_90_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1198/016214502388618960"
+        },
+        {
+          "key": "e_1_2_8_91_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.2517-6161.1996.tb02080.x"
+        },
+        {
+          "key": "e_1_2_8_92_1",
+          "volume-title": "The nature of statistical learning theory",
+          "author": "Vapnik V. N.",
+          "year": "1998"
+        },
+        {
+          "key": "e_1_2_8_93_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1467-9868.2005.00503.x"
+        }
+      ],
+      "container-title": [
+        "Journal of Economic Surveys"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/joes.12532",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/joes.12532",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/joes.12532",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            20
+          ]
+        ],
+        "date-time": "2024-01-20T17:56:45Z",
+        "timestamp": 1705773405000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1111/joes.12532"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            4
+          ]
+        ]
+      },
+      "references-count": 92,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/joes.12532"
+      ],
+      "URL": "https://doi.org/10.1111/joes.12532",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "0950-0804",
+        "1467-6419"
+      ],
+      "issn-type": [
+        {
+          "value": "0950-0804",
+          "type": "print"
+        },
+        {
+          "value": "1467-6419",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            4
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2022-09-04",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

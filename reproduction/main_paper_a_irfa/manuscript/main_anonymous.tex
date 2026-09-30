@@ -1,0 +1,103 @@
+\ifdefined\IRFAPREPRINT
+  \documentclass[preprint,12pt,authoryear]{elsarticle}
+\else
+  \documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
+\fi
+\usepackage{amsmath,amssymb,amsthm,booktabs,graphicx,threeparttable,longtable,array,tabularx,multirow}
+\usepackage{xcolor}
+\usepackage{stfloats}
+\usepackage{flushend}
+\usepackage{hyperref}
+% Let wide exhibits share pages with text and cross subsection boundaries.
+% Keep font sizes and exhibit dimensions unchanged; avoid half-empty float pages.
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\setcounter{dbltopnumber}{2}
+\renewcommand{\topfraction}{0.88}
+\renewcommand{\bottomfraction}{0.72}
+\renewcommand{\textfraction}{0.10}
+\renewcommand{\floatpagefraction}{0.85}
+\renewcommand{\dbltopfraction}{0.88}
+\renewcommand{\dblfloatpagefraction}{0.85}
+\ifdefined\IRFAREADER
+  \usepackage{fancyhdr}
+  \fancypagestyle{irfareader}{%
+    \fancyhf{}
+    \fancyhead[L]{\footnotesize International Review of Financial Analysis}
+    \fancyhead[R]{\footnotesize Author manuscript preview}
+    \fancyfoot[C]{\footnotesize\thepage}
+    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0pt}}
+\fi
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue}
+\emergencystretch=2em
+\journal{International Review of Financial Analysis}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Pp}{\mathbb{P}}
+\newcommand{\Loss}{\mathcal{L}}
+\newcommand{\Kset}{\mathcal{K}}
+\ifdefined\IRFAPREPRINT
+  \newenvironment{widefigure}[1][!tbp]{\begin{figure}[#1]}{\end{figure}}
+  \newenvironment{widetable}[1][!tbp]{\begin{table}[#1]}{\end{table}}
+\else
+  \newenvironment{widefigure}[1][!tbp]{\begin{figure*}[#1]}{\end{figure*}}
+  \newenvironment{widetable}[1][!tbp]{\begin{table*}[#1]}{\end{table*}}
+\fi
+
+\begin{document}
+\begin{frontmatter}
+\title{Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use}
+\ifdefined\IRFAAUTHORED
+\input{author_frontmatter}
+\fi
+
+\begin{abstract}
+Low-dimensional representations in asset-pricing networks can summarize data without identifying a unique number of priced directions. We examine this distinction using U.S. equity models, a known-loading simulation, and a separate forecast-updating exercise. Across 30 models per characteristic specification, the selected dimension depends on test assets, loss weighting, random seeds, data construction, and evaluation period. A locked 2020--2025 evaluation supports one of four prespecified directional criteria, with imprecise market-attenuation estimates. Earlier legacy development overlaps January 2020, so this period is not an untouched holdout for the entire research process. In the simulation, noisy evaluation reduces average exact-dimension recovery from 64.2\% to 32.6\%; a finite nested Gaussian example explains persistent over-selection. Hidden-layer median participation rank declines from 20.25 to 9.05, but adding final-layer geometry improves held-out prediction of model-level pricing loss by only 3.915\%, below the specified 5\% threshold. In separate return predictors, retrospective changes in updating value do not yield significant incremental after-cost gains under the tested real-time rule. These results support reporting dimension rankings and uncertainty conditional on the assets, measurement, and evaluation criterion, rather than interpreting a validation minimum as an invariant economic dimension.
+\end{abstract}
+
+\begin{keyword}
+Machine learning \sep Asset pricing \sep Pricing dimension \sep Model instability \sep Representation geometry \sep Real-time updating
+\end{keyword}
+
+\end{frontmatter}
+% Keep natural paragraph spacing below tall floats instead of stretching gaps.
+\raggedbottom
+\ifdefined\IRFAREADER\pagestyle{irfareader}\fi
+
+\noindent\textbf{JEL classification:} G12; C52; C53; C55.
+
+\input{sections/01_introduction}
+\input{sections/02_literature_framework}
+\input{sections/03_data_design}
+\input{sections/04_dimension_identification}
+\input{sections/05_temporal_usability}
+\input{sections/06_representation_geometry}
+\input{sections/07_discussion_conclusion}
+
+\section*{Data availability}
+The replication package provides construction and analysis code, frozen configurations, synthetic results, aggregate figure and table data, and checksums. The package follows the section order of this article. CRSP, Compustat, CCM, and third-party security-level characteristic records, model checkpoints, stock-level predictions, and derived security-level panels are excluded. Their inputs and reconstruction paths are documented for researchers with the required access. Public source downloads are linked rather than relicensed. Reproducing the published exhibits from aggregate outputs is distinct from rerunning the full licensed-data pipeline.
+\ifdefined\IRFAAUTHORED
+\input{repository_statement}
+The archive should be cited as \citet{wang2026replication}.
+\else
+Repository identifiers are provided in the separate title-page file for editorial access.
+\fi
+
+\ifdefined\IRFAAUTHORED
+\input{author_declarations}
+\fi
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work, the authors used OpenAI Codex to assist with literature organization, code development and auditing, artifact indexing, statistical-figure production, and language drafting. The authors reviewed and edited all generated material, verified cited sources and numerical claims against frozen project evidence, and take full responsibility for the content of the article.
+
+\begingroup
+\small
+\setlength{\bibsep}{3pt}
+\urlstyle{same}
+\bibliographystyle{elsarticle-harv}
+\bibliography{references/references}
+\endgroup
+\end{document}

@@ -1,0 +1,6455 @@
+[
+  {
+    "month": 200002,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999998904,
+      "standardized_score": -1.3091465243017137
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999989935155912,
+      "standardized_score": -1.02090414335129
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7913127663236718,
+      "standardized_score": 1.402592469394613
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": 0.022885022657239035
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.2218866584229839,
+      "standardized_score": -0.12261367515236274
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200003,
+    "neural:rolling60": {
+      "dominance_score": 0.6399009117930103,
+      "standardized_score": 0.9602535219261245
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999999373,
+      "standardized_score": -1.0209053927200133
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999624,
+      "standardized_score": -1.241444874399505
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999995872,
+      "standardized_score": -1.2548799864295068
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999201,
+      "standardized_score": -1.3104668117993756
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200004,
+    "neural:rolling60": {
+      "dominance_score": 0.40522936991793035,
+      "standardized_score": 0.6354999931306475
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999996756,
+      "standardized_score": -1.0209053927196885
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999997505,
+      "standardized_score": -1.2414448743991924
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.999999999999834,
+      "standardized_score": -1.2548799864298223
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997926,
+      "standardized_score": -1.3104668117991811
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200005,
+    "neural:rolling60": {
+      "dominance_score": 0.3169952677017892,
+      "standardized_score": 0.5133959841577748
+    },
+    "neural:expanding": {
+      "dominance_score": 0.4563131287693253,
+      "standardized_score": 0.7868446052798636
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999998763,
+      "standardized_score": -1.241444874399378
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5870116362889942,
+      "standardized_score": 0.7729479514343809
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999977438,
+      "standardized_score": -1.3104668117960534
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200006,
+    "neural:rolling60": {
+      "dominance_score": -0.3958823312336928,
+      "standardized_score": -0.47312975306511046
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999999418,
+      "standardized_score": -1.0209053927200191
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999997549,
+      "standardized_score": -1.2414448743991988
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999999024,
+      "standardized_score": -1.2548799864299096
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.999999999999851,
+      "standardized_score": -1.3104668117992704
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200007,
+    "neural:rolling60": {
+      "dominance_score": 0.6958424510330938,
+      "standardized_score": 1.0376690113770715
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8296733256143864,
+      "standardized_score": 1.2503039271568075
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.999999999999821,
+      "standardized_score": -1.2414448743992965
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999994994,
+      "standardized_score": -1.2548799864293947
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998671,
+      "standardized_score": -1.3104668117992948
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200008,
+    "neural:rolling60": {
+      "dominance_score": 0.6455869857005798,
+      "standardized_score": 0.9681222756391675
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999998606,
+      "standardized_score": -1.020905392719918
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999054,
+      "standardized_score": -1.241444874399421
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999981227,
+      "standardized_score": -1.2548799864276357
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.999999999999518,
+      "standardized_score": -1.3104668117987621
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200009,
+    "neural:rolling60": {
+      "dominance_score": 0.5949295294080317,
+      "standardized_score": 0.8980192390316656
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6711870185150689,
+      "standardized_score": 1.0535717713573711
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.22263224469557233,
+      "standardized_score": -0.09402415953207645
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.18172920442090912,
+      "standardized_score": 0.25509224119554497
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4046003041697688,
+      "standardized_score": 0.8337694940092223
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200010,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999997029,
+      "standardized_score": -1.3091465243014544
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7838158036624366,
+      "standardized_score": 1.1933800873731377
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999997744,
+      "standardized_score": -1.2414448743992277
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.28806765129674083,
+      "standardized_score": -0.34519774241969053
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.7031351855853767,
+      "standardized_score": 1.289507207707081
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200011,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999993742,
+      "standardized_score": -1.3091465243009994
+    },
+    "neural:expanding": {
+      "dominance_score": 0.857138083835686,
+      "standardized_score": 1.284396469233648
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.27387719637708446,
+      "standardized_score": 0.6388403231102974
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999993447,
+      "standardized_score": -1.254879986429197
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999984557,
+      "standardized_score": -1.3104668117971403
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200012,
+    "neural:rolling60": {
+      "dominance_score": -0.6999577152283518,
+      "standardized_score": -0.8939287693543178
+    },
+    "neural:expanding": {
+      "dominance_score": -0.00899943497656753,
+      "standardized_score": 0.20924301015325006
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999998939,
+      "standardized_score": -1.241444874399404
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.9352702343766325,
+      "standardized_score": 1.2179406021845531
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999983301,
+      "standardized_score": -1.3104668117969485
+    },
+    "tree:expanding": {
+      "dominance_score": 0.0,
+      "standardized_score": -0.04218324096255114
+    }
+  },
+  {
+    "month": 200101,
+    "neural:rolling60": {
+      "dominance_score": -0.5757766424899474,
+      "standardized_score": -0.7220790373451759
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999999096,
+      "standardized_score": -1.0209053927199792
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6569074760702761,
+      "standardized_score": 1.2042057815339509
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8992641364636103,
+      "standardized_score": 1.171933270157523
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999479,
+      "standardized_score": -1.3104668117994183
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999999734,
+      "standardized_score": -1.508983457804042
+    }
+  },
+  {
+    "month": 200102,
+    "neural:rolling60": {
+      "dominance_score": 0.774017803150881,
+      "standardized_score": 1.1458530769106534
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999999586,
+      "standardized_score": -1.0209053927200398
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999697,
+      "standardized_score": -1.241444874399516
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999999312,
+      "standardized_score": -1.2548799864299465
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6111361239393485,
+      "standardized_score": 1.1490631771197821
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6409790275918378,
+      "standardized_score": 0.8980049357000296
+    }
+  },
+  {
+    "month": 200103,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999998272,
+      "standardized_score": -1.3091465243016263
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999999373,
+      "standardized_score": -1.0209053927200133
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999596,
+      "standardized_score": -1.241444874399501
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.999999999999885,
+      "standardized_score": -1.2548799864298874
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6022769339178375,
+      "standardized_score": 1.1355389048924525
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6749695621495247,
+      "standardized_score": 0.9478622591598044
+    }
+  },
+  {
+    "month": 200104,
+    "neural:rolling60": {
+      "dominance_score": 0.40743549383774325,
+      "standardized_score": 0.6385529688864412
+    },
+    "neural:expanding": {
+      "dominance_score": 0.43450539880961553,
+      "standardized_score": 0.7597742431357252
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999993903,
+      "standardized_score": -1.2414448743986606
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999988562,
+      "standardized_score": -1.254879986428573
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998495,
+      "standardized_score": -1.310466811799268
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999998833,
+      "standardized_score": -1.50898345780391
+    }
+  },
+  {
+    "month": 200105,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999992112,
+      "standardized_score": -1.3091465243007738
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6525470979522688,
+      "standardized_score": 1.0304336730360324
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.21132060272133124,
+      "standardized_score": 0.5465047059942394
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6185235623541115,
+      "standardized_score": 0.813212787929333
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.5983913643304983,
+      "standardized_score": -0.6973786508668705
+    },
+    "tree:expanding": {
+      "dominance_score": -0.562100928388161,
+      "standardized_score": -0.8666730046091311
+    }
+  },
+  {
+    "month": 200106,
+    "neural:rolling60": {
+      "dominance_score": 0.06878963164900549,
+      "standardized_score": 0.16991310791718134
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999998859,
+      "standardized_score": -1.0209053927186749
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5219140525613081,
+      "standardized_score": 1.0049509893868154
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999978634,
+      "standardized_score": -1.2548799864273041
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.12686402460817872,
+      "standardized_score": 0.4097825332287966
+    },
+    "tree:expanding": {
+      "dominance_score": 0.3282167724369183,
+      "standardized_score": 0.4392451920189478
+    }
+  },
+  {
+    "month": 200107,
+    "neural:rolling60": {
+      "dominance_score": 0.4524578492230148,
+      "standardized_score": 0.7008577914875307
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999990146,
+      "standardized_score": -1.020905392718868
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.20910344229708705,
+      "standardized_score": 0.5432321033147446
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7627158401350976,
+      "standardized_score": 0.9974566350584694
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.48257075219148216,
+      "standardized_score": 0.9527977078947023
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5722223364093432,
+      "standardized_score": 0.7971526061642403
+    }
+  },
+  {
+    "month": 200108,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999988721,
+      "standardized_score": -1.3091465243003046
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999992931,
+      "standardized_score": -1.0209053927192138
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.47862350122942166,
+      "standardized_score": 0.9410526928375994
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7218815755821232,
+      "standardized_score": 0.9452800406408658
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.22509740395593886,
+      "standardized_score": 0.5597437555170478
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5975968520857917,
+      "standardized_score": 0.8343719512607038
+    }
+  },
+  {
+    "month": 200109,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999996267,
+      "standardized_score": -1.309146524301349
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999998259,
+      "standardized_score": -1.0209053927198752
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7518835278893135,
+      "standardized_score": 1.3443935993716152
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.829755256449011,
+      "standardized_score": 1.0831172554540225
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6222141415837821,
+      "standardized_score": 1.1659746697053008
+    },
+    "tree:expanding": {
+      "dominance_score": 0.81079704287562,
+      "standardized_score": 1.1470940373418796
+    }
+  },
+  {
+    "month": 200110,
+    "neural:rolling60": {
+      "dominance_score": 0.6847391998776714,
+      "standardized_score": 1.0223036203926577
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999981718,
+      "standardized_score": -1.0209053927178218
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999413,
+      "standardized_score": -1.241444874399474
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999997617,
+      "standardized_score": -1.25487998642973
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999567,
+      "standardized_score": -1.3104668117994316
+    },
+    "tree:expanding": {
+      "dominance_score": -0.999999999999885,
+      "standardized_score": -1.5089834578039125
+    }
+  },
+  {
+    "month": 200111,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999997059,
+      "standardized_score": -1.3091465243014584
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999990563,
+      "standardized_score": -1.0209053927189198
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999007,
+      "standardized_score": -1.2414448743994142
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999992868,
+      "standardized_score": -1.2548799864291231
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998732,
+      "standardized_score": -1.3104668117993041
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999998265,
+      "standardized_score": -1.5089834578038268
+    }
+  },
+  {
+    "month": 200112,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999996094,
+      "standardized_score": -1.309146524301325
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999998744,
+      "standardized_score": -1.020905392718532
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.31859727816183725,
+      "standardized_score": -0.23567174724173426
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.23640057925891222,
+      "standardized_score": -0.27917936564776163
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998828,
+      "standardized_score": -1.3104668117993188
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999997375,
+      "standardized_score": -1.5089834578036962
+    }
+  },
+  {
+    "month": 200201,
+    "neural:rolling60": {
+      "dominance_score": -0.23222687897875602,
+      "standardized_score": -0.24665284324576
+    },
+    "neural:expanding": {
+      "dominance_score": 0.4539257311846205,
+      "standardized_score": 0.7838810819182206
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.006924857551163741,
+      "standardized_score": 0.22436713296822458
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.4491408645225565,
+      "standardized_score": 0.5967815034953693
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.2905697675353489,
+      "standardized_score": 0.659692629653922
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4961649168506442,
+      "standardized_score": 0.6855915666631335
+    }
+  },
+  {
+    "month": 200202,
+    "neural:rolling60": {
+      "dominance_score": 0.5311869061562482,
+      "standardized_score": 0.809808109253021
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8326453546568471,
+      "standardized_score": 1.2539931649927007
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4675628086897462,
+      "standardized_score": 0.924726742019336
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6588125288850766,
+      "standardized_score": 0.8646926196148884
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.09605051641334854,
+      "standardized_score": 0.3627432133706517
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7425922195134915,
+      "standardized_score": 1.0470511876446713
+    }
+  },
+  {
+    "month": 200203,
+    "neural:rolling60": {
+      "dominance_score": 0.739967007178227,
+      "standardized_score": 1.0987314018150824
+    },
+    "neural:expanding": {
+      "dominance_score": 0.843425810135648,
+      "standardized_score": 1.2673751554350376
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999998451,
+      "standardized_score": -1.241444874399332
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999974032,
+      "standardized_score": -1.2548799864267162
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998261,
+      "standardized_score": -1.3104668117992324
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999998922,
+      "standardized_score": -1.5089834578039232
+    }
+  },
+  {
+    "month": 200204,
+    "neural:rolling60": {
+      "dominance_score": -0.24388908999290096,
+      "standardized_score": -0.26279175872796673
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999992394,
+      "standardized_score": -1.0209053927191472
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999265,
+      "standardized_score": -1.2414448743994522
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999995451,
+      "standardized_score": -1.254879986429453
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.38945546991544727,
+      "standardized_score": 0.810649675967629
+    },
+    "tree:expanding": {
+      "dominance_score": 0.11293230935420046,
+      "standardized_score": 0.12346589488660484
+    }
+  },
+  {
+    "month": 200205,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999986194,
+      "standardized_score": -1.309146524299955
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999989706,
+      "standardized_score": -1.0209053927188134
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999994386,
+      "standardized_score": -1.2414448743987319
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999969494,
+      "standardized_score": -1.2548799864261364
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6483231566290922,
+      "standardized_score": 1.2058321991411576
+    },
+    "tree:expanding": {
+      "dominance_score": 0.15897610594624487,
+      "standardized_score": 0.19100294571202286
+    }
+  },
+  {
+    "month": 200206,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999992814,
+      "standardized_score": -1.3091465243008709
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999977666,
+      "standardized_score": -1.0209053927173188
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6409254249525013,
+      "standardized_score": 1.1806157414358451
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7707856760958611,
+      "standardized_score": 1.0077679890782072
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6380100649579086,
+      "standardized_score": 1.1900884281047728
+    },
+    "tree:expanding": {
+      "dominance_score": 0.48490857460803294,
+      "standardized_score": 0.6690807614208288
+    }
+  },
+  {
+    "month": 200207,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999995627,
+      "standardized_score": -1.3091465243012603
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999991834,
+      "standardized_score": -1.0209053927190777
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.8105440162515539,
+      "standardized_score": 1.430978435225424
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8561696190759812,
+      "standardized_score": 1.1168686037561075
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.7433825173933889,
+      "standardized_score": 1.3509480245846481
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6787471496038605,
+      "standardized_score": 0.9534032252569619
+    }
+  },
+  {
+    "month": 200208,
+    "neural:rolling60": {
+      "dominance_score": 0.24447561006443383,
+      "standardized_score": 0.41303863133777396
+    },
+    "neural:expanding": {
+      "dominance_score": -0.27238397100309225,
+      "standardized_score": -0.11770137087937257
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.1346782351066163,
+      "standardized_score": 0.03579888994403636
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.4074417109453715,
+      "standardized_score": 0.5434997841458858
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.30564031196975017,
+      "standardized_score": 0.6826990382590001
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5759391196403276,
+      "standardized_score": 0.8026043846134013
+    }
+  },
+  {
+    "month": 200209,
+    "neural:rolling60": {
+      "dominance_score": 0.7794851306733998,
+      "standardized_score": 1.1534191153481719
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999990042,
+      "standardized_score": -1.0209053927188552
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999334,
+      "standardized_score": -1.2414448743994624
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8985317296832228,
+      "standardized_score": 1.1709974264011256
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.637768372614707,
+      "standardized_score": 1.189719465136738
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7105153667509252,
+      "standardized_score": 1.000000853056945
+    }
+  },
+  {
+    "month": 200210,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999995222,
+      "standardized_score": -1.3091465243012042
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999988137,
+      "standardized_score": -1.0209053927186187
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.5325916010143129,
+      "standardized_score": -0.5515344997542996
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.022574282960978395,
+      "standardized_score": 0.05172965153001227
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997198,
+      "standardized_score": -1.3104668117990699
+    },
+    "tree:expanding": {
+      "dominance_score": -0.999999999998874,
+      "standardized_score": -1.5089834578024295
+    }
+  },
+  {
+    "month": 200211,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999998965,
+      "standardized_score": -1.3091465243017222
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999994934,
+      "standardized_score": -1.0209053927194625
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999146,
+      "standardized_score": -1.2414448743994346
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999997657,
+      "standardized_score": -1.254879986429735
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999498,
+      "standardized_score": -1.3104668117994211
+    },
+    "tree:expanding": {
+      "dominance_score": -0.999999999999849,
+      "standardized_score": -1.5089834578038597
+    }
+  },
+  {
+    "month": 200212,
+    "neural:rolling60": {
+      "dominance_score": 0.6983651972831727,
+      "standardized_score": 1.0411601494180223
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8560934583011086,
+      "standardized_score": 1.2830997551062138
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5889569452056733,
+      "standardized_score": 1.103908533329008
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7246150804997314,
+      "standardized_score": 0.9487728175767537
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5417934599196846,
+      "standardized_score": 1.0432059754012155
+    },
+    "tree:expanding": {
+      "dominance_score": 0.761303105780768,
+      "standardized_score": 1.0744963196788095
+    }
+  },
+  {
+    "month": 200301,
+    "neural:rolling60": {
+      "dominance_score": 0.2011751604993062,
+      "standardized_score": 0.3531166924339455
+    },
+    "neural:expanding": {
+      "dominance_score": -0.0338700856288347,
+      "standardized_score": 0.1783705845885039
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.319787772979858,
+      "standardized_score": -0.23742895726983024
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.26851024996735856,
+      "standardized_score": 0.36597802464680695
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.19831147678194327,
+      "standardized_score": 0.5188528648054879
+    },
+    "tree:expanding": {
+      "dominance_score": 0.18974297809353818,
+      "standardized_score": 0.2361318004492084
+    }
+  },
+  {
+    "month": 200302,
+    "neural:rolling60": {
+      "dominance_score": 0.6214900017136661,
+      "standardized_score": 0.9347753238931222
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6084327695323474,
+      "standardized_score": 0.9756736935113858
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.11264143833958046,
+      "standardized_score": 0.4008509705970291
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.42799910661593715,
+      "standardized_score": 0.5697673050116968
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.42822087400340414,
+      "standardized_score": 0.8698282099662207
+    },
+    "tree:expanding": {
+      "dominance_score": 0.3408508456612604,
+      "standardized_score": 0.45777685336400453
+    }
+  },
+  {
+    "month": 200303,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999921098,
+      "standardized_score": -1.3091465242909464
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999962446,
+      "standardized_score": -1.0209053927154295
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999991203,
+      "standardized_score": -1.241444874398262
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999953352,
+      "standardized_score": -1.2548799864240738
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.054070564298823585,
+      "standardized_score": 0.13357120580758455
+    },
+    "tree:expanding": {
+      "dominance_score": 0.11062732282969404,
+      "standardized_score": 0.12008494015264203
+    }
+  },
+  {
+    "month": 200304,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999997533,
+      "standardized_score": -1.3091465243015241
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999996075,
+      "standardized_score": -1.0209053927196041
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999998628,
+      "standardized_score": -1.241444874399358
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999997703,
+      "standardized_score": -1.2548799864297409
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999052,
+      "standardized_score": -1.310466811799353
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999998938,
+      "standardized_score": -1.5089834578039254
+    }
+  },
+  {
+    "month": 200305,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999998812,
+      "standardized_score": -1.309146524301701
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999995991,
+      "standardized_score": -1.0209053927195937
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6802873057054925,
+      "standardized_score": 1.2387151892762547
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999989007,
+      "standardized_score": -1.2548799864286297
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999171,
+      "standardized_score": -1.3104668117993712
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999999148,
+      "standardized_score": -1.5089834578039565
+    }
+  },
+  {
+    "month": 200306,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999995491,
+      "standardized_score": -1.3091465243012415
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999996596,
+      "standardized_score": -1.0209053927158658
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.08785614750896711,
+      "standardized_score": 0.3642670552892431
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7646553296114124,
+      "standardized_score": 0.9999348468467973
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998577,
+      "standardized_score": -1.3104668117992804
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999994662,
+      "standardized_score": -1.5089834578032981
+    }
+  },
+  {
+    "month": 200307,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999995226,
+      "standardized_score": -1.3091465243012048
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999991283,
+      "standardized_score": -1.020905392719009
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6918129753148167,
+      "standardized_score": 1.255727461746031
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999935705,
+      "standardized_score": -1.254879986421819
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.999999999999909,
+      "standardized_score": -1.3104668117993588
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999995828,
+      "standardized_score": -1.508983457803469
+    }
+  },
+  {
+    "month": 200308,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999989495,
+      "standardized_score": -1.3091465243004117
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6985632144454291,
+      "standardized_score": 1.0875543793286229
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3338129331250448,
+      "standardized_score": 0.7273074680827848
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5791432709446964,
+      "standardized_score": 0.7628940295187222
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997162,
+      "standardized_score": -1.3104668117990645
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6060042214126987,
+      "standardized_score": 0.8467038824124778
+    }
+  },
+  {
+    "month": 200309,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999988799,
+      "standardized_score": -1.3091465243003153
+    },
+    "neural:expanding": {
+      "dominance_score": 0.32540430674777243,
+      "standardized_score": 0.6243449216111303
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.02040724657947371,
+      "standardized_score": 0.2044666774226679
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.2531626685013617,
+      "standardized_score": 0.34636742207543986
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997067,
+      "standardized_score": -1.31046681179905
+    },
+    "tree:expanding": {
+      "dominance_score": 0.370396588268245,
+      "standardized_score": 0.5011145550266736
+    }
+  },
+  {
+    "month": 200310,
+    "neural:rolling60": {
+      "dominance_score": 0.6167380588052346,
+      "standardized_score": 0.9281992805611649
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8706561146076811,
+      "standardized_score": 1.3011766654828494
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6807789803732327,
+      "standardized_score": 1.2394409174723255
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7650324828726561,
+      "standardized_score": 1.0004167600870777
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998361,
+      "standardized_score": -1.3104668117992475
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6763071227383529,
+      "standardized_score": 0.9498241933215362
+    }
+  },
+  {
+    "month": 200311,
+    "neural:rolling60": {
+      "dominance_score": -0.3421688834625225,
+      "standardized_score": -0.3987976394731494
+    },
+    "neural:expanding": {
+      "dominance_score": 0.19412893213885093,
+      "standardized_score": 0.46139022903944044
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.29299887009163605,
+      "standardized_score": -0.1978876437888231
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.11066463443299432,
+      "standardized_score": 0.16428842027915383
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.25653944438609594,
+      "standardized_score": -0.17551396396686864
+    },
+    "tree:expanding": {
+      "dominance_score": 0.1512150188317819,
+      "standardized_score": 0.17961898144960262
+    }
+  },
+  {
+    "month": 200312,
+    "neural:rolling60": {
+      "dominance_score": 0.4709850866199104,
+      "standardized_score": 0.7264969707224642
+    },
+    "neural:expanding": {
+      "dominance_score": 0.4836435940814297,
+      "standardized_score": 0.8207704469393742
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.16702692470437136,
+      "standardized_score": 0.48112576102574495
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.3396544430018886,
+      "standardized_score": 0.45688358510607996
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.2910713545414642,
+      "standardized_score": -0.2282297260553809
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999957558,
+      "standardized_score": -1.5089834577978558
+    }
+  },
+  {
+    "month": 200401,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999992896,
+      "standardized_score": -1.3091465243008822
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7548887910629604,
+      "standardized_score": 1.1574724203090918
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.43936135690030675,
+      "standardized_score": 0.8831004592828373
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6051951547221077,
+      "standardized_score": 0.7961822150303068
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999994371,
+      "standardized_score": -1.3104668117986384
+    },
+    "tree:expanding": {
+      "dominance_score": -0.999999999999793,
+      "standardized_score": -1.5089834578037775
+    }
+  },
+  {
+    "month": 200402,
+    "neural:rolling60": {
+      "dominance_score": 0.6038651433439641,
+      "standardized_score": 0.9103849146242895
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999986846,
+      "standardized_score": -1.0209053927184584
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.2985113911060436,
+      "standardized_score": -0.20602430852686138
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.05646047760729306,
+      "standardized_score": -0.04925820002571558
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999992374,
+      "standardized_score": -1.3104668117983336
+    },
+    "tree:expanding": {
+      "dominance_score": 0.558719778758601,
+      "standardized_score": 0.7773470516742165
+    }
+  },
+  {
+    "month": 200403,
+    "neural:rolling60": {
+      "dominance_score": 0.46418166985604153,
+      "standardized_score": 0.7170819663112824
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999972984,
+      "standardized_score": -1.0209053927167377
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.5013362528912013,
+      "standardized_score": -0.505400564249336
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.6354898073952231,
+      "standardized_score": -0.7891216168639879
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.999999999999545,
+      "standardized_score": -1.3104668117988032
+    },
+    "tree:expanding": {
+      "dominance_score": -0.012746507807597162,
+      "standardized_score": -0.060879821378706914
+    }
+  },
+  {
+    "month": 200404,
+    "neural:rolling60": {
+      "dominance_score": 0.5908536484249532,
+      "standardized_score": 0.8923787735468915
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999994046,
+      "standardized_score": -1.020905392719352
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4058468754738306,
+      "standardized_score": 0.8336319677299291
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999995869,
+      "standardized_score": -1.2548799864295064
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999996989,
+      "standardized_score": -1.3104668117990381
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999988778,
+      "standardized_score": -1.508983457802435
+    }
+  },
+  {
+    "month": 200405,
+    "neural:rolling60": {
+      "dominance_score": 0.4533055437952542,
+      "standardized_score": 0.7020308855980303
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999952238,
+      "standardized_score": -1.0209053927141625
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999995794,
+      "standardized_score": -1.24144487439894
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.17197517517069785,
+      "standardized_score": -0.19685883860753312
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999994174,
+      "standardized_score": -1.3104668117986082
+    },
+    "tree:expanding": {
+      "dominance_score": 0.43214597674192307,
+      "standardized_score": 0.5916885714296964
+    }
+  },
+  {
+    "month": 200406,
+    "neural:rolling60": {
+      "dominance_score": 0.5619547005575255,
+      "standardized_score": 0.8523865562399481
+    },
+    "neural:expanding": {
+      "dominance_score": 0.4326473215035263,
+      "standardized_score": 0.7574677753988003
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.8954157646738408,
+      "standardized_score": -1.087075057484764
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.4051352324040087,
+      "standardized_score": 0.5405526465715218
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.041004044716949455,
+      "standardized_score": 0.27871030894389537
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999942402,
+      "standardized_score": -1.5089834577956327
+    }
+  },
+  {
+    "month": 200407,
+    "neural:rolling60": {
+      "dominance_score": 0.8367830697070322,
+      "standardized_score": 1.2327116778174017
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999992798,
+      "standardized_score": -1.0209053927191973
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6988447154557986,
+      "standardized_score": 1.2661065445472828
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999989613,
+      "standardized_score": -1.254879986428707
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999992184,
+      "standardized_score": -1.3104668117983045
+    },
+    "tree:expanding": {
+      "dominance_score": 0.9269437146044331,
+      "standardized_score": 1.3174580006191248
+    }
+  },
+  {
+    "month": 200408,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999967676,
+      "standardized_score": -1.3091465242973923
+    },
+    "neural:expanding": {
+      "dominance_score": 0.45039915442138695,
+      "standardized_score": 0.7795034731397641
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.4577008358960012,
+      "standardized_score": -0.4409932344874192
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5568345716628724,
+      "standardized_score": 0.7343887541781572
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999996116,
+      "standardized_score": -1.310466811798905
+    },
+    "tree:expanding": {
+      "dominance_score": 0.3729227845878922,
+      "standardized_score": 0.5048199803361164
+    }
+  },
+  {
+    "month": 200409,
+    "neural:rolling60": {
+      "dominance_score": 0.6498573589146249,
+      "standardized_score": 0.9740318919456605
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7664001979739116,
+      "standardized_score": 1.1717617550745032
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999986724,
+      "standardized_score": -1.241444874397601
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6841716117667374,
+      "standardized_score": 0.8970955683836186
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.21028846237678253,
+      "standardized_score": 0.5371367048917837
+    },
+    "tree:expanding": {
+      "dominance_score": -0.999999999998938,
+      "standardized_score": -1.5089834578025234
+    }
+  },
+  {
+    "month": 200410,
+    "neural:rolling60": {
+      "dominance_score": 0.1356538697209134,
+      "standardized_score": 0.26244412846858656
+    },
+    "neural:expanding": {
+      "dominance_score": -0.052482752883338785,
+      "standardized_score": 0.15526631633230997
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999988868,
+      "standardized_score": -1.2414448743979174
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.760296792475934,
+      "standardized_score": -0.9485956152897975
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999984603,
+      "standardized_score": -1.3104668117971474
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999558354,
+      "standardized_score": -1.5089834577393006
+    }
+  },
+  {
+    "month": 200411,
+    "neural:rolling60": {
+      "dominance_score": 0.4728789887451305,
+      "standardized_score": 0.7291178739365654
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8502290276740061,
+      "standardized_score": 1.2758201225567398
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.29851646394615855,
+      "standardized_score": -0.2060317962079382
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.9213372709812162,
+      "standardized_score": 1.2001375490849964
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6104439871427064,
+      "standardized_score": 1.1480065741534151
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8779652505264265,
+      "standardized_score": 1.2456163788889394
+    }
+  },
+  {
+    "month": 200412,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999992505,
+      "standardized_score": -1.3091465243008282
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8032852614581366,
+      "standardized_score": 1.2175479065021044
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4336798069944374,
+      "standardized_score": 0.8747143022676227
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8364336350461803,
+      "standardized_score": 1.0916506539429227
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6579275196256591,
+      "standardized_score": 1.2204940383635101
+    },
+    "tree:expanding": {
+      "dominance_score": 0.9597082262742175,
+      "standardized_score": 1.3655169934410711
+    }
+  },
+  {
+    "month": 200501,
+    "neural:rolling60": {
+      "dominance_score": 0.293444458391077,
+      "standardized_score": 0.48080486395405436
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999979916,
+      "standardized_score": -1.0209053927175982
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999996502,
+      "standardized_score": -1.2414448743990443
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999986162,
+      "standardized_score": -1.2548799864282663
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997264,
+      "standardized_score": -1.31046681179908
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999987338,
+      "standardized_score": -1.508983457802224
+    }
+  },
+  {
+    "month": 200502,
+    "neural:rolling60": {
+      "dominance_score": 0.24167101791724846,
+      "standardized_score": 0.40915745687003485
+    },
+    "neural:expanding": {
+      "dominance_score": 0.2784552050369571,
+      "standardized_score": 0.5660660825021617
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.1359530082747056,
+      "standardized_score": 0.03391728226241841
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6830297326629081,
+      "standardized_score": 0.8956365152201377
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9561961911169272,
+      "standardized_score": -1.2435967441646278
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5075122130033943,
+      "standardized_score": 0.7022357831205525
+    }
+  },
+  {
+    "month": 200503,
+    "neural:rolling60": {
+      "dominance_score": -0.999999999998137,
+      "standardized_score": -1.3091465242992872
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999996846,
+      "standardized_score": -1.020905392716176
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999997861,
+      "standardized_score": -1.2414448743992448
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999986354,
+      "standardized_score": -1.2548799864282907
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997892,
+      "standardized_score": -1.310466811799176
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999975702,
+      "standardized_score": -1.508983457800517
+    }
+  },
+  {
+    "month": 200504,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999995458,
+      "standardized_score": -1.3091465243012368
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999961176,
+      "standardized_score": -1.0209053927152718
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999997748,
+      "standardized_score": -1.2414448743992283
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999991418,
+      "standardized_score": -1.2548799864289377
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999013,
+      "standardized_score": -1.310466811799347
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999979726,
+      "standardized_score": -1.5089834578011077
+    }
+  },
+  {
+    "month": 200505,
+    "neural:rolling60": {
+      "dominance_score": 0.7021216069230242,
+      "standardized_score": 1.0463585099708008
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7333045566250951,
+      "standardized_score": 1.1306794875317467
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6277167768282907,
+      "standardized_score": 1.16111933658795
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8697924470956256,
+      "standardized_score": 1.134275376724423
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3147546254992536,
+      "standardized_score": 0.6966127772169569
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7934761476587684,
+      "standardized_score": 1.1216877444819122
+    }
+  },
+  {
+    "month": 200506,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999961183,
+      "standardized_score": -1.3091465242964937
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6913614975908569,
+      "standardized_score": 1.0786147472040049
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.999999999998816,
+      "standardized_score": -1.2414448743978128
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6861184271554917,
+      "standardized_score": 0.8995831409665215
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.19524129686746108,
+      "standardized_score": -0.08193736926011626
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999741929,
+      "standardized_score": -1.5089834577662273
+    }
+  },
+  {
+    "month": 200507,
+    "neural:rolling60": {
+      "dominance_score": -0.12096815844431626,
+      "standardized_score": -0.0926858909083409
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999890816,
+      "standardized_score": -1.0209053927065381
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999991931,
+      "standardized_score": -1.2414448743983697
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999800165,
+      "standardized_score": -1.2548799864045002
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4603058963379081,
+      "standardized_score": 0.9188085993040914
+    },
+    "tree:expanding": {
+      "dominance_score": 0.9618086706274849,
+      "standardized_score": 1.3685979256739074
+    }
+  },
+  {
+    "month": 200508,
+    "neural:rolling60": {
+      "dominance_score": 0.4942825031174066,
+      "standardized_score": 0.7587374297015393
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999994932,
+      "standardized_score": -1.0209053927138003
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999995407,
+      "standardized_score": -1.2414448743988826
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999974176,
+      "standardized_score": -1.2548799864267346
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999983159,
+      "standardized_score": -1.310466811796927
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999948904,
+      "standardized_score": -1.5089834577965866
+    }
+  },
+  {
+    "month": 200509,
+    "neural:rolling60": {
+      "dominance_score": 0.13905311845246304,
+      "standardized_score": 0.2671482268522411
+    },
+    "neural:expanding": {
+      "dominance_score": -0.024465143650872188,
+      "standardized_score": 0.1900451231928623
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.08246310889359935,
+      "standardized_score": 0.35630675055428546
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6222279251550727,
+      "standardized_score": 0.8179460930973658
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.04712162149963096,
+      "standardized_score": 0.14417933069035976
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4904863894562822,
+      "standardized_score": 0.6772623014497428
+    }
+  },
+  {
+    "month": 200510,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999974281,
+      "standardized_score": -1.3091465242983062
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5155721908891309,
+      "standardized_score": 0.8604040392451987
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999992993,
+      "standardized_score": -1.2414448743985265
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7784663784961705,
+      "standardized_score": 1.0175821218505352
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999993747,
+      "standardized_score": -1.3104668117985432
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999912358,
+      "standardized_score": -1.508983457791226
+    }
+  },
+  {
+    "month": 200511,
+    "neural:rolling60": {
+      "dominance_score": 0.6718675995728075,
+      "standardized_score": 1.0044910744535567
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8437409679370955,
+      "standardized_score": 1.2677663669840389
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5017930446483385,
+      "standardized_score": 0.9752517111162462
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.865668914015861,
+      "standardized_score": 1.1290064704412857
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.0022695526898766152,
+      "standardized_score": 0.2195789647138365
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8740942499276749,
+      "standardized_score": 1.239938394371297
+    }
+  },
+  {
+    "month": 200512,
+    "neural:rolling60": {
+      "dominance_score": 0.14856163793299523,
+      "standardized_score": 0.2803067258770915
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999918723,
+      "standardized_score": -1.0209053927100022
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9234590113490848,
+      "standardized_score": -1.1284678242000656
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.7963738756942434,
+      "standardized_score": -0.9946936498560831
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4292774808064136,
+      "standardized_score": 0.8714412059631969
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4618529172589562,
+      "standardized_score": 0.6352627182217792
+    }
+  },
+  {
+    "month": 200601,
+    "neural:rolling60": {
+      "dominance_score": 0.8004254935000474,
+      "standardized_score": 1.1823977323030623
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8405826609096458,
+      "standardized_score": 1.2638458986384844
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.587172337683365,
+      "standardized_score": 1.1012743931488522
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6696744638299722,
+      "standardized_score": 0.8785716200184583
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.999999999999851,
+      "standardized_score": -1.3104668117992704
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999996927,
+      "standardized_score": -1.5089834578036303
+    }
+  },
+  {
+    "month": 200602,
+    "neural:rolling60": {
+      "dominance_score": 0.34872595655479277,
+      "standardized_score": 0.557306946236038
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999931617,
+      "standardized_score": -1.0209053927116027
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.4769808940172179,
+      "standardized_score": -0.46945124283826684
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999965616,
+      "standardized_score": -1.254879986425641
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.41452329861280024,
+      "standardized_score": 0.8489177499820578
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8395202171342326,
+      "standardized_score": 1.1892251955727897
+    }
+  },
+  {
+    "month": 200603,
+    "neural:rolling60": {
+      "dominance_score": 0.6928001676729311,
+      "standardized_score": 1.0334589045660185
+    },
+    "neural:expanding": {
+      "dominance_score": 0.692187108771566,
+      "standardized_score": 1.0796395945261854
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5724705169150037,
+      "standardized_score": 1.0795740157138753
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8161027458006931,
+      "standardized_score": 1.0656725550614103
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999982183,
+      "standardized_score": -1.310466811796778
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7582092952631747,
+      "standardized_score": 1.0699583177407372
+    }
+  },
+  {
+    "month": 200604,
+    "neural:rolling60": {
+      "dominance_score": 0.3051434676442549,
+      "standardized_score": 0.496994703199253
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999807828,
+      "standardized_score": -1.0209053926962366
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4212811799948,
+      "standardized_score": 0.856413515595904
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.3587767784392623,
+      "standardized_score": 0.4813174362199857
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5755880706079486,
+      "standardized_score": 1.094796190043294
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8190418172119911,
+      "standardized_score": 1.1591874741262782
+    }
+  },
+  {
+    "month": 200605,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999986613,
+      "standardized_score": -1.3091465243000129
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999850431,
+      "standardized_score": -1.020905392701525
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6187709632181,
+      "standardized_score": 1.1479150175540886
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999973355,
+      "standardized_score": -1.2548799864266298
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.8746177394877754,
+      "standardized_score": 1.551289236942554
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8797986613628472,
+      "standardized_score": 1.248305626301361
+    }
+  },
+  {
+    "month": 200606,
+    "neural:rolling60": {
+      "dominance_score": -0.5031470067122916,
+      "standardized_score": -0.6215694897218872
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5881213860652013,
+      "standardized_score": 0.9504607755634863
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3614669446445402,
+      "standardized_score": 0.7681257107358093
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.4961200695258024,
+      "standardized_score": 0.6568098878032547
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.5680809361514304,
+      "standardized_score": -0.651107323462751
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999997310339,
+      "standardized_score": -1.5089834574095617
+    }
+  },
+  {
+    "month": 200607,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999968,
+      "standardized_score": -1.3091465242974372
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999988263,
+      "standardized_score": -1.0209053927186342
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999997041,
+      "standardized_score": -1.241444874399124
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999992808,
+      "standardized_score": -1.2548799864291154
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4496068127209587,
+      "standardized_score": 0.9024755802507414
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8825921769102028,
+      "standardized_score": 1.2524031555119723
+    }
+  },
+  {
+    "month": 200608,
+    "neural:rolling60": {
+      "dominance_score": 0.48202810915376637,
+      "standardized_score": 0.7417790134779795
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6994304011733395,
+      "standardized_score": 1.088630835191498
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4062030626043473,
+      "standardized_score": 0.8341577118055424
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.676940341869518,
+      "standardized_score": 0.8878557047376856
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.36979886876759077,
+      "standardized_score": 0.7806422797675062
+    },
+    "tree:expanding": {
+      "dominance_score": 0.9505690326006941,
+      "standardized_score": 1.3521116221789904
+    }
+  },
+  {
+    "month": 200609,
+    "neural:rolling60": {
+      "dominance_score": 0.023634998312020022,
+      "standardized_score": 0.1074252306037153
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5637557843115294,
+      "standardized_score": 0.9202152770842613
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.03495848811796201,
+      "standardized_score": 0.2861883470599901
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.520807238031824,
+      "standardized_score": 0.6883542878936904
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.1298369501650837,
+      "standardized_score": 0.017907671596423265
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7609942550278682,
+      "standardized_score": 1.0740432973274845
+    }
+  },
+  {
+    "month": 200610,
+    "neural:rolling60": {
+      "dominance_score": 0.7581279903333101,
+      "standardized_score": 1.1238637349428375
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7838408990148903,
+      "standardized_score": 1.1934112387254476
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5122847526958063,
+      "standardized_score": 0.9907378218609504
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8500812461426581,
+      "standardized_score": 1.1090890938596332
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.699353048716109,
+      "standardized_score": 1.283733468968348
+    },
+    "tree:expanding": {
+      "dominance_score": 0.860075291484877,
+      "standardized_score": 1.2193753830875087
+    }
+  },
+  {
+    "month": 200611,
+    "neural:rolling60": {
+      "dominance_score": 0.032670080474485864,
+      "standardized_score": 0.11992855670697057
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999550508,
+      "standardized_score": -1.020905392664295
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3098069467014857,
+      "standardized_score": 0.6918738320523936
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5518958481923707,
+      "standardized_score": 0.728078226137992
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.1485176997024568,
+      "standardized_score": 0.44283862481122105
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8029580316963204,
+      "standardized_score": 1.1355957740442597
+    }
+  },
+  {
+    "month": 200612,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999932423,
+      "standardized_score": -1.3091465242925138
+    },
+    "neural:expanding": {
+      "dominance_score": 0.4956813213068089,
+      "standardized_score": 0.8357131134152253
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.061582682547372064,
+      "standardized_score": 0.32548654536640315
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5510850807223591,
+      "standardized_score": 0.7270422558343049
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.47750763793224316,
+      "standardized_score": 0.945068453257003
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4475828994644077,
+      "standardized_score": 0.6143314530264029
+    }
+  },
+  {
+    "month": 200701,
+    "neural:rolling60": {
+      "dominance_score": 0.5111191995383633,
+      "standardized_score": 0.7820371299220051
+    },
+    "neural:expanding": {
+      "dominance_score": 0.1464986349710997,
+      "standardized_score": 0.40226580867353845
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4694920230925658,
+      "standardized_score": 0.9275743267745709
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7678727441916977,
+      "standardized_score": 1.0040459466172131
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.2403018753677142,
+      "standardized_score": 0.5829546145172739
+    },
+    "tree:expanding": {
+      "dominance_score": -0.04130418310141464,
+      "standardized_score": -0.1027682256921684
+    }
+  },
+  {
+    "month": 200702,
+    "neural:rolling60": {
+      "dominance_score": -0.7006199892041576,
+      "standardized_score": -0.8948452665527161
+    },
+    "neural:expanding": {
+      "dominance_score": -0.2605880494640213,
+      "standardized_score": -0.10305886253593459
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.2127185714241106,
+      "standardized_score": -0.07939124738144497
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.4307061474911116,
+      "standardized_score": 0.5732262671201637
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.295189763291437,
+      "standardized_score": -0.2345168110984613
+    },
+    "tree:expanding": {
+      "dominance_score": 0.02616352585692655,
+      "standardized_score": -0.0038065755622722986
+    }
+  },
+  {
+    "month": 200703,
+    "neural:rolling60": {
+      "dominance_score": -0.40190075698050803,
+      "standardized_score": -0.48145843656654763
+    },
+    "neural:expanding": {
+      "dominance_score": -0.06046912901530205,
+      "standardized_score": 0.14535267128484416
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.17042053287168618,
+      "standardized_score": 0.48613483978254984
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.4787611216663692,
+      "standardized_score": 0.6346292316339004
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.999999999997569,
+      "standardized_score": -1.3104668117957865
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999998893241,
+      "standardized_score": -1.5089834576417418
+    }
+  },
+  {
+    "month": 200704,
+    "neural:rolling60": {
+      "dominance_score": 0.6139976396573885,
+      "standardized_score": 0.9244069128052337
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7244701317105892,
+      "standardized_score": 1.1197131429276679
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.22467992645484133,
+      "standardized_score": 0.5662235130631631
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7119805850616694,
+      "standardized_score": 0.9326289013985252
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.2490297439467906,
+      "standardized_score": 0.5962784139099023
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6286382917329176,
+      "standardized_score": 0.8799035416661815
+    }
+  },
+  {
+    "month": 200705,
+    "neural:rolling60": {
+      "dominance_score": 0.5727767665497764,
+      "standardized_score": 0.8673628251635649
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7650925648427133,
+      "standardized_score": 1.1701385644683002
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.15773356383184967,
+      "standardized_score": 0.46740845064966113
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7719416359460605,
+      "standardized_score": 1.0092450341267016
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.09076996303349665,
+      "standardized_score": 0.35468202027662626
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5780309133353385,
+      "standardized_score": 0.805672628058831
+    }
+  },
+  {
+    "month": 200706,
+    "neural:rolling60": {
+      "dominance_score": -0.13354910737472375,
+      "standardized_score": -0.11009621483641399
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999938584,
+      "standardized_score": -1.0209053927124676
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999990035,
+      "standardized_score": -1.2414448743980897
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999965438,
+      "standardized_score": -1.2548799864256182
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999996049,
+      "standardized_score": -1.3104668117988945
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999667811,
+      "standardized_score": -1.5089834577553558
+    }
+  },
+  {
+    "month": 200707,
+    "neural:rolling60": {
+      "dominance_score": -0.999999999999213,
+      "standardized_score": -1.3091465243007763
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999979963,
+      "standardized_score": -1.020905392717604
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999995982,
+      "standardized_score": -1.2414448743989677
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999991798,
+      "standardized_score": -1.2548799864289863
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998231,
+      "standardized_score": -1.3104668117992277
+    },
+    "tree:expanding": {
+      "dominance_score": 0.9652499811690741,
+      "standardized_score": 1.3736456407225295
+    }
+  },
+  {
+    "month": 200708,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999978151,
+      "standardized_score": -1.3091465242988418
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999921494,
+      "standardized_score": -1.0209053927103462
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.3188735013982263,
+      "standardized_score": -0.23607946194458607
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.38894610027500404,
+      "standardized_score": 0.5198667400095891
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998231,
+      "standardized_score": -1.3104668117992277
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999947147,
+      "standardized_score": -1.5089834577963286
+    }
+  },
+  {
+    "month": 200709,
+    "neural:rolling60": {
+      "dominance_score": 0.06665070089737916,
+      "standardized_score": 0.16695311837652552
+    },
+    "neural:expanding": {
+      "dominance_score": -0.12387851353607301,
+      "standardized_score": 0.06664136086943226
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.04170836992815651,
+      "standardized_score": 0.29615139757125214
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.3590263723825285,
+      "standardized_score": 0.4816363586271713
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.5725746901409944,
+      "standardized_score": -0.6579674034621579
+    },
+    "tree:expanding": {
+      "dominance_score": -0.21066224891992003,
+      "standardized_score": -0.3511826733586142
+    }
+  },
+  {
+    "month": 200710,
+    "neural:rolling60": {
+      "dominance_score": -0.24366831473836734,
+      "standardized_score": -0.26248623577274327
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999942638,
+      "standardized_score": -1.0209053927129708
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999995594,
+      "standardized_score": -1.2414448743989102
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999816112,
+      "standardized_score": -1.2548799864065376
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.5049661331308438,
+      "standardized_score": -0.5547574567647652
+    },
+    "tree:expanding": {
+      "dominance_score": -0.02718686566125121,
+      "standardized_score": -0.08206094140971597
+    }
+  },
+  {
+    "month": 200711,
+    "neural:rolling60": {
+      "dominance_score": 0.8476619845657297,
+      "standardized_score": 1.2477666178480433
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999992465,
+      "standardized_score": -1.0209053927191558
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999985796,
+      "standardized_score": -1.241444874397464
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.999999999998672,
+      "standardized_score": -1.2548799864283373
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.07064244584267088,
+      "standardized_score": 0.3239557325360952
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7325045879859798,
+      "standardized_score": 1.0322546475326997
+    }
+  },
+  {
+    "month": 200712,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999976211,
+      "standardized_score": -1.3091465242985734
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999716617,
+      "standardized_score": -1.0209053926849143
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.05163814050015929,
+      "standardized_score": 0.1583688371354924
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999598232,
+      "standardized_score": -1.254879986378698
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999995142,
+      "standardized_score": -1.3104668117987561
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4776254609504231,
+      "standardized_score": 0.6583978887285652
+    }
+  },
+  {
+    "month": 200801,
+    "neural:rolling60": {
+      "dominance_score": 0.5092564634781706,
+      "standardized_score": 0.7794593563073238
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999975162,
+      "standardized_score": -1.020905392717008
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5470887829474785,
+      "standardized_score": 1.0421097304578077
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999984783,
+      "standardized_score": -1.25487998642809
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.45090226478399104,
+      "standardized_score": 0.904453192912324
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5312033633482395,
+      "standardized_score": 0.7369859675835966
+    }
+  },
+  {
+    "month": 200802,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999986376,
+      "standardized_score": -1.30914652429998
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999646974,
+      "standardized_score": -1.0209053926762695
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.17690822190132732,
+      "standardized_score": -0.026533978001915266
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999934776,
+      "standardized_score": -1.2548799864217002
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.6635255571655148,
+      "standardized_score": -0.7968112799299408
+    },
+    "tree:expanding": {
+      "dominance_score": 0.289981258377771,
+      "standardized_score": 0.38316133170594313
+    }
+  },
+  {
+    "month": 200803,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999969812,
+      "standardized_score": -1.3091465242976879
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999958196,
+      "standardized_score": -1.0209053927149019
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.020505960050558346,
+      "standardized_score": 0.26485593396003004
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999973286,
+      "standardized_score": -1.254879986426621
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3146235809181551,
+      "standardized_score": 0.6964127270335441
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5592741206690087,
+      "standardized_score": 0.7781601605086068
+    }
+  },
+  {
+    "month": 200804,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999939209,
+      "standardized_score": -1.3091465242934528
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5257144495045892,
+      "standardized_score": 0.8729938234266431
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999994525,
+      "standardized_score": -1.2414448743987525
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.4162237783420493,
+      "standardized_score": 0.5547212025728069
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.4837338522434293,
+      "standardized_score": -0.522344657622711
+    },
+    "tree:expanding": {
+      "dominance_score": 0.11082121046676456,
+      "standardized_score": 0.12036933458073996
+    }
+  },
+  {
+    "month": 200805,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999985762,
+      "standardized_score": -1.3091465242998952
+    },
+    "neural:expanding": {
+      "dominance_score": 0.797693513238871,
+      "standardized_score": 1.2106067599639723
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999989261,
+      "standardized_score": -1.2414448743979756
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5623656227926882,
+      "standardized_score": 0.7414561377753084
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.07802075848884459,
+      "standardized_score": 0.33521932532086585
+    },
+    "tree:expanding": {
+      "dominance_score": 0.15387537300615511,
+      "standardized_score": 0.18352118952944851
+    }
+  },
+  {
+    "month": 200806,
+    "neural:rolling60": {
+      "dominance_score": 0.829148737882362,
+      "standardized_score": 1.2221467998596942
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7265102951170219,
+      "standardized_score": 1.1222456377057757
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.648164667635272,
+      "standardized_score": 1.1913011049044022
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999986571,
+      "standardized_score": -1.2548799864283184
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6583994032362402,
+      "standardized_score": 1.2212144069743671
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7388605330531718,
+      "standardized_score": 1.0415775491354897
+    }
+  },
+  {
+    "month": 200807,
+    "neural:rolling60": {
+      "dominance_score": 0.32209969899504076,
+      "standardized_score": 0.5204598235212198
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999985374,
+      "standardized_score": -1.0209053927182756
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999227,
+      "standardized_score": -1.2414448743994466
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.999999999997753,
+      "standardized_score": -1.2548799864271631
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.1298907528985648,
+      "standardized_score": 0.41440307949295274
+    },
+    "tree:expanding": {
+      "dominance_score": 0.39142638695187765,
+      "standardized_score": 0.5319610682959597
+    }
+  },
+  {
+    "month": 200808,
+    "neural:rolling60": {
+      "dominance_score": 0.05775793603432808,
+      "standardized_score": 0.15464674007880427
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6019654904912954,
+      "standardized_score": 0.9676457334232922
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4263368237637532,
+      "standardized_score": 0.8638758142928905
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7959258268644416,
+      "standardized_score": 1.0398911940534779
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.5956351918580653,
+      "standardized_score": -0.6931711300063688
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4864575205117834,
+      "standardized_score": 0.6713527556083259
+    }
+  },
+  {
+    "month": 200809,
+    "neural:rolling60": {
+      "dominance_score": 0.874165152499368,
+      "standardized_score": 1.2844434012446848
+    },
+    "neural:expanding": {
+      "dominance_score": 0.9264165246116443,
+      "standardized_score": 1.3703931540812346
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999997237,
+      "standardized_score": -1.2414448743991526
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.9227673422815791,
+      "standardized_score": 1.2019648441531
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.8709755419845367,
+      "standardized_score": 1.5457291269979767
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8300167434732395,
+      "standardized_score": 1.1752854983460972
+    }
+  },
+  {
+    "month": 200810,
+    "neural:rolling60": {
+      "dominance_score": 0.08874237829257312,
+      "standardized_score": 0.19752499826351902
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999994786,
+      "standardized_score": -1.020905392719444
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999995262,
+      "standardized_score": -1.2414448743988613
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.9369658471429235,
+      "standardized_score": 1.2201071968462815
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.8740029193998496,
+      "standardized_score": 1.5503506642039908
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8192407690881895,
+      "standardized_score": 1.1594792967814271
+    }
+  },
+  {
+    "month": 200811,
+    "neural:rolling60": {
+      "dominance_score": 0.7282806620229954,
+      "standardized_score": 1.082559087960752
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7854113567430282,
+      "standardized_score": 1.1953606786493323
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.2580085784707412,
+      "standardized_score": 0.6154177142127558
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7827120067286267,
+      "standardized_score": 1.0230070370475608
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999993323,
+      "standardized_score": -1.3104668117984786
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7986956292258358,
+      "standardized_score": 1.1293436811762871
+    }
+  },
+  {
+    "month": 200812,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999996745,
+      "standardized_score": -1.3091465243014149
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999996831,
+      "standardized_score": -1.0209053927196978
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.7570361546877954,
+      "standardized_score": -0.8828221412429635
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.5132191894037494,
+      "standardized_score": -0.6328884995550059
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.41488647429227155,
+      "standardized_score": 0.8494721671176638
+    },
+    "tree:expanding": {
+      "dominance_score": -0.13795920815030815,
+      "standardized_score": -0.2445418373927089
+    }
+  },
+  {
+    "month": 200901,
+    "neural:rolling60": {
+      "dominance_score": 0.45561886821737907,
+      "standardized_score": 0.7052322122835374
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8412834288547293,
+      "standardized_score": 1.2647157756081397
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5922159289766071,
+      "standardized_score": 1.1087189019900054
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.69590255590476,
+      "standardized_score": 0.9120849583267414
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.1341200867447007,
+      "standardized_score": 0.42085950069359496
+    },
+    "tree:expanding": {
+      "dominance_score": 0.22962009896824334,
+      "standardized_score": 0.29462356999524175
+    }
+  },
+  {
+    "month": 200902,
+    "neural:rolling60": {
+      "dominance_score": 0.7244098966893421,
+      "standardized_score": 1.0772024746654245
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8157760765638347,
+      "standardized_score": 1.233052999834213
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7044789206573024,
+      "standardized_score": 1.2744228192009541
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7063137718132418,
+      "standardized_score": 0.9253880457166523
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4994551535247466,
+      "standardized_score": 0.9785731161963761
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8708075984332655,
+      "standardized_score": 1.2351175332466147
+    }
+  },
+  {
+    "month": 200903,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999998884,
+      "standardized_score": -1.309146524301711
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999999244,
+      "standardized_score": -1.0209053927199974
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999774,
+      "standardized_score": -1.2414448743995272
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999999487,
+      "standardized_score": -1.254879986429969
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.7551839411609683,
+      "standardized_score": -0.9367352384477896
+    },
+    "tree:expanding": {
+      "dominance_score": -0.3128560870149,
+      "standardized_score": -0.501080617236199
+    }
+  },
+  {
+    "month": 200904,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999999706,
+      "standardized_score": -1.3091465243018248
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999998682,
+      "standardized_score": -1.0209053927199276
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999841,
+      "standardized_score": -1.2414448743995372
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999999429,
+      "standardized_score": -1.2548799864299613
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999751,
+      "standardized_score": -1.3104668117994598
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999997067,
+      "standardized_score": -1.508983457803651
+    }
+  },
+  {
+    "month": 200905,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999998952,
+      "standardized_score": -1.3091465243017204
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6400881106881467,
+      "standardized_score": 1.014968088226788
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999998394,
+      "standardized_score": -1.2414448743993236
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999989964,
+      "standardized_score": -1.2548799864287519
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999306,
+      "standardized_score": -1.3104668117993918
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999994145,
+      "standardized_score": -1.5089834578032222
+    }
+  },
+  {
+    "month": 200906,
+    "neural:rolling60": {
+      "dominance_score": -0.2578086654991965,
+      "standardized_score": -0.28205455995595236
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999995294,
+      "standardized_score": -1.020905392719507
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.14214295335443508,
+      "standardized_score": 0.024780717026840517
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.047196675309565776,
+      "standardized_score": 0.08319128291305544
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.12163393924215812,
+      "standardized_score": 0.030430233200365923
+    },
+    "tree:expanding": {
+      "dominance_score": 0.08238790057374255,
+      "standardized_score": 0.07866334946413285
+    }
+  },
+  {
+    "month": 200907,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999998054,
+      "standardized_score": -1.309146524301596
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5588453969315097,
+      "standardized_score": 0.9141199170953618
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5505886490571197,
+      "standardized_score": 1.0472756494788409
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.852717132689007,
+      "standardized_score": 1.1124571374564816
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998613,
+      "standardized_score": -1.3104668117992861
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999994568,
+      "standardized_score": -1.5089834578032846
+    }
+  },
+  {
+    "month": 200908,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999997154,
+      "standardized_score": -1.3091465243014717
+    },
+    "neural:expanding": {
+      "dominance_score": 0.582449699897139,
+      "standardized_score": 0.9434204004845119
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.34056394296128717,
+      "standardized_score": -0.2680952765886244
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7962468584571647,
+      "standardized_score": 1.040301396989471
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997301,
+      "standardized_score": -1.3104668117990856
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999994462,
+      "standardized_score": -1.5089834578032688
+    }
+  },
+  {
+    "month": 200909,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999991236,
+      "standardized_score": -1.3091465243006526
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5960158342296421,
+      "standardized_score": 0.9602603086251286
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.26448643148242107,
+      "standardized_score": 0.6249792411512606
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6477104385290389,
+      "standardized_score": 0.8505067570302182
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999027,
+      "standardized_score": -1.3104668117993492
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8886382954949176,
+      "standardized_score": 1.2612716035630815
+    }
+  },
+  {
+    "month": 200910,
+    "neural:rolling60": {
+      "dominance_score": 0.8068863692429824,
+      "standardized_score": 1.1913387064828123
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999998067,
+      "standardized_score": -1.0209053927198513
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999992935,
+      "standardized_score": -1.2414448743985178
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999997645,
+      "standardized_score": -1.2548799864297335
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4422880408347567,
+      "standardized_score": 0.8913028812660274
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7057241152516618,
+      "standardized_score": 0.9929730443188833
+    }
+  },
+  {
+    "month": 200911,
+    "neural:rolling60": {
+      "dominance_score": 0.2824955419469639,
+      "standardized_score": 0.4656530512404134
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5066154047271516,
+      "standardized_score": 0.8492858052290796
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.458988542532382,
+      "standardized_score": 0.9120708394087448
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7426232974340365,
+      "standardized_score": 0.9717830870514617
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.14826759386221244,
+      "standardized_score": -0.010228201105218628
+    },
+    "tree:expanding": {
+      "dominance_score": 0.18689910230950002,
+      "standardized_score": 0.23196040283251082
+    }
+  },
+  {
+    "month": 200912,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999992822,
+      "standardized_score": -1.3091465243008722
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6013309921733783,
+      "standardized_score": 0.9668581182392452
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3767152919355338,
+      "standardized_score": 0.7906327795327751
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5644747883665985,
+      "standardized_score": 0.7441511557440225
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.99999999999972,
+      "standardized_score": -1.3104668117990703
+    },
+    "tree:expanding": {
+      "dominance_score": -0.4714474770594908,
+      "standardized_score": -0.7337025025428046
+    }
+  },
+  {
+    "month": 201001,
+    "neural:rolling60": {
+      "dominance_score": 0.3490974009548336,
+      "standardized_score": 0.5578209748170102
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999994739,
+      "standardized_score": -1.020905392719438
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.999999999999589,
+      "standardized_score": -1.241444874398954
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999995717,
+      "standardized_score": -1.254879986429487
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.2791148425817822,
+      "standardized_score": 0.6422057574862058
+    },
+    "tree:expanding": {
+      "dominance_score": 0.28380085171937525,
+      "standardized_score": 0.3740959098792394
+    }
+  },
+  {
+    "month": 201002,
+    "neural:rolling60": {
+      "dominance_score": 0.5909858109925312,
+      "standardized_score": 0.8925616685833014
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6965104337339773,
+      "standardized_score": 1.085006222442777
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6036911661607323,
+      "standardized_score": 1.1256567345193809
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6960641834375793,
+      "standardized_score": 0.9122914803326829
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.540847271117133,
+      "standardized_score": 1.0417615414390715
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999986932,
+      "standardized_score": -1.5089834578021644
+    }
+  },
+  {
+    "month": 201003,
+    "neural:rolling60": {
+      "dominance_score": 0.4236431528178668,
+      "standardized_score": 0.660982166757015
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8195319950092771,
+      "standardized_score": 1.2377152949327777
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4810503344664224,
+      "standardized_score": 0.9446347795766784
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7882790996705772,
+      "standardized_score": 1.0301204736111218
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3264336727389544,
+      "standardized_score": 0.7144417902353072
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999995899,
+      "standardized_score": -1.5089834578034795
+    }
+  },
+  {
+    "month": 201004,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999987264,
+      "standardized_score": -1.3091465243001028
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7511529341466628,
+      "standardized_score": 1.1528350279794133
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5210583074863818,
+      "standardized_score": 1.0036878811360341
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7140380775155803,
+      "standardized_score": 0.9352578932625938
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.999999999999833,
+      "standardized_score": -1.3104668117992428
+    },
+    "tree:expanding": {
+      "dominance_score": -0.999999999999558,
+      "standardized_score": -1.508983457803433
+    }
+  },
+  {
+    "month": 201005,
+    "neural:rolling60": {
+      "dominance_score": 0.8003654386894972,
+      "standardized_score": 1.182314624604994
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999976197,
+      "standardized_score": -1.0209053927171365
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.31135940324423944,
+      "standardized_score": 0.6941653096496213
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999992397,
+      "standardized_score": -1.254879986429063
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.7554075782954822,
+      "standardized_score": 1.369305255527347
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7605007337468973,
+      "standardized_score": 1.0733194002055406
+    }
+  },
+  {
+    "month": 201006,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999993676,
+      "standardized_score": -1.3091465243009903
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7566337258835903,
+      "standardized_score": 1.1596384420637467
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.17765058040667192,
+      "standardized_score": 0.496806630906521
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7649438158705384,
+      "standardized_score": 1.000303464494311
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.7444599213811425,
+      "standardized_score": 1.3525927691712085
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5751292750568657,
+      "standardized_score": 0.8014165044027715
+    }
+  },
+  {
+    "month": 201007,
+    "neural:rolling60": {
+      "dominance_score": 0.5148207276528709,
+      "standardized_score": 0.7871595419005395
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999990565,
+      "standardized_score": -1.02090539271892
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5702628455778574,
+      "standardized_score": 1.0763154192431885
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999868248,
+      "standardized_score": -1.2548799864131994
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.28281929418547097,
+      "standardized_score": -0.21563228651295938
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999996546,
+      "standardized_score": -1.5089834578035748
+    }
+  },
+  {
+    "month": 201008,
+    "neural:rolling60": {
+      "dominance_score": 0.7744522861449048,
+      "standardized_score": 1.1464543423405535
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999993804,
+      "standardized_score": -1.0209053927193221
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999548,
+      "standardized_score": -1.241444874399494
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999993667,
+      "standardized_score": -1.2548799864292253
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.637099265807477,
+      "standardized_score": 1.1886980193174064
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7964138176016471,
+      "standardized_score": 1.1259967193911355
+    }
+  },
+  {
+    "month": 201009,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999980693,
+      "standardized_score": -1.3091465242991935
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999987538,
+      "standardized_score": -1.0209053927185443
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999997552,
+      "standardized_score": -1.2414448743991993
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999992716,
+      "standardized_score": -1.2548799864291036
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997822,
+      "standardized_score": -1.3104668117991651
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999998104,
+      "standardized_score": -1.508983457803803
+    }
+  },
+  {
+    "month": 201010,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999994009,
+      "standardized_score": -1.3091465243010363
+    },
+    "neural:expanding": {
+      "dominance_score": -0.3316357155356819,
+      "standardized_score": -0.191251721380435
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999104,
+      "standardized_score": -1.2414448743994284
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999903129,
+      "standardized_score": -1.2548799864176565
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.01377498733798263,
+      "standardized_score": 0.19508567282460249
+    },
+    "tree:expanding": {
+      "dominance_score": 0.39403032340343613,
+      "standardized_score": 0.5357805228477472
+    }
+  },
+  {
+    "month": 201011,
+    "neural:rolling60": {
+      "dominance_score": -0.17375231306790095,
+      "standardized_score": -0.16573198904843892
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999552747,
+      "standardized_score": -1.0209053926645728
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.8636145091795595,
+      "standardized_score": -1.0401353445060055
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.13409620238604406,
+      "standardized_score": -0.1484584126031334
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.1938614857644875,
+      "standardized_score": 0.5120595925330663
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4639243099927933,
+      "standardized_score": 0.6383010375329353
+    }
+  },
+  {
+    "month": 201012,
+    "neural:rolling60": {
+      "dominance_score": -0.999999999999606,
+      "standardized_score": -1.30914652430132
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999991319,
+      "standardized_score": -1.0209053927190137
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999231,
+      "standardized_score": -1.241444874399447
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.999999999999295,
+      "standardized_score": -1.2548799864291336
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998169,
+      "standardized_score": -1.3104668117992182
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999994114,
+      "standardized_score": -1.5089834578032177
+    }
+  },
+  {
+    "month": 201101,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999979609,
+      "standardized_score": -1.3091465242990434
+    },
+    "neural:expanding": {
+      "dominance_score": -0.15380452835269948,
+      "standardized_score": 0.029493612795074176
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.03467084951590307,
+      "standardized_score": 0.1834131241125046
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.16513560603844096,
+      "standardized_score": 0.23388952180757996
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.30141278702520696,
+      "standardized_score": 0.6762453784933777
+    },
+    "tree:expanding": {
+      "dominance_score": 0.45816237351480354,
+      "standardized_score": 0.6298494278575928
+    }
+  },
+  {
+    "month": 201102,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999962954,
+      "standardized_score": -1.3091465242967388
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7389858925334527,
+      "standardized_score": 1.1377318410222697
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6681830736992885,
+      "standardized_score": 1.220848939426412
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.849468093539683,
+      "standardized_score": 1.1083056289183209
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.43013383679257866,
+      "standardized_score": -0.44051988599164144
+    },
+    "tree:expanding": {
+      "dominance_score": 0.058859943859734636,
+      "standardized_score": 0.04415253745418791
+    }
+  },
+  {
+    "month": 201103,
+    "neural:rolling60": {
+      "dominance_score": -0.09050950458539807,
+      "standardized_score": -0.050535252428669124
+    },
+    "neural:expanding": {
+      "dominance_score": -0.627418794566668,
+      "standardized_score": -0.5584130481333853
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.26059827005993386,
+      "standardized_score": -0.15006327829793378
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.0033591362882267623,
+      "standardized_score": 0.027177209467090496
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3917119395264998,
+      "standardized_score": 0.8140943598742246
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5634900347866377,
+      "standardized_score": 0.7843440642505304
+    }
+  },
+  {
+    "month": 201104,
+    "neural:rolling60": {
+      "dominance_score": -0.014458923623498392,
+      "standardized_score": 0.05470841852087479
+    },
+    "neural:expanding": {
+      "dominance_score": -0.006336375672020315,
+      "standardized_score": 0.21254871780455528
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.999999999998768,
+      "standardized_score": -1.2414448743977422
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999884928,
+      "standardized_score": -1.2548799864153308
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.29576427906884634,
+      "standardized_score": 0.6676224728897534
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4652403874801972,
+      "standardized_score": 0.6402314602768396
+    }
+  },
+  {
+    "month": 201105,
+    "neural:rolling60": {
+      "dominance_score": 0.6526862036695887,
+      "standardized_score": 0.9779466287273283
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999994824,
+      "standardized_score": -1.0209053927136662
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.999999999999342,
+      "standardized_score": -1.2414448743985893
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999980715,
+      "standardized_score": -1.2548799864275701
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5281879584320749,
+      "standardized_score": 1.022436073699029
+    },
+    "tree:expanding": {
+      "dominance_score": 0.609439230426653,
+      "standardized_score": 0.8517423543789987
+    }
+  },
+  {
+    "month": 201106,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999933854,
+      "standardized_score": -1.3091465242927116
+    },
+    "neural:expanding": {
+      "dominance_score": 0.617344973626067,
+      "standardized_score": 0.98673658693336
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999988696,
+      "standardized_score": -1.241444874397892
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999969842,
+      "standardized_score": -1.2548799864261808
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.34392460148086207,
+      "standardized_score": 0.741143111827915
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999962841,
+      "standardized_score": -1.5089834577986307
+    }
+  },
+  {
+    "month": 201107,
+    "neural:rolling60": {
+      "dominance_score": -0.035306299298020045,
+      "standardized_score": 0.025858483150228838
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6316697180648188,
+      "standardized_score": 1.0045181726507026
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.13906928225295845,
+      "standardized_score": 0.4398593489978275
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999948085,
+      "standardized_score": -1.2548799864234008
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3247185787788949,
+      "standardized_score": 0.7118235601764673
+    },
+    "tree:expanding": {
+      "dominance_score": 0.48812706508230763,
+      "standardized_score": 0.6738016439463974
+    }
+  },
+  {
+    "month": 201108,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999987486,
+      "standardized_score": -1.3091465243001337
+    },
+    "neural:expanding": {
+      "dominance_score": 0.9145011819189703,
+      "standardized_score": 1.355602405921838
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.8569145163670739,
+      "standardized_score": 1.4994228388275215
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999991784,
+      "standardized_score": -1.2548799864289846
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.8786871746496984,
+      "standardized_score": 1.5575015598307276
+    },
+    "tree:expanding": {
+      "dominance_score": 0.9714873934044811,
+      "standardized_score": 1.3827946783419545
+    }
+  },
+  {
+    "month": 201109,
+    "neural:rolling60": {
+      "dominance_score": 0.6964976638898617,
+      "standardized_score": 1.038575736946126
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7684280124595022,
+      "standardized_score": 1.1742789208954065
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4593946184999957,
+      "standardized_score": 0.9126702210706035
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8582661929038398,
+      "standardized_score": 1.1195475324323134
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.7056351839691395,
+      "standardized_score": 1.2933236580403278
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6150185324780664,
+      "standardized_score": 0.8599260758378362
+    }
+  },
+  {
+    "month": 201110,
+    "neural:rolling60": {
+      "dominance_score": 0.7383774598257085,
+      "standardized_score": 1.0965316842532797
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999999777,
+      "standardized_score": -1.0209053927198144
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999998734,
+      "standardized_score": -1.2414448743993738
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999987007,
+      "standardized_score": -1.2548799864283742
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5450253660843322,
+      "standardized_score": 1.0481397423345074
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999997069,
+      "standardized_score": -1.5089834578036512
+    }
+  },
+  {
+    "month": 201111,
+    "neural:rolling60": {
+      "dominance_score": 0.5111624532059478,
+      "standardized_score": 0.7820969871210042
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999988565,
+      "standardized_score": -1.0209053927186718
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.585802787520467,
+      "standardized_score": 1.099252891464178
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999992989,
+      "standardized_score": -1.2548799864291384
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6009771412849628,
+      "standardized_score": 1.1335546659988975
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7453675050702101,
+      "standardized_score": 1.0511219771010634
+    }
+  },
+  {
+    "month": 201112,
+    "neural:rolling60": {
+      "dominance_score": 0.3958270266714764,
+      "standardized_score": 0.6224884275874439
+    },
+    "neural:expanding": {
+      "dominance_score": 0.34558290722389867,
+      "standardized_score": 0.6493930134326914
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.08205502473817361,
+      "standardized_score": 0.1134725022691765
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5576549247911312,
+      "standardized_score": 0.7354369727005415
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9216103978696728,
+      "standardized_score": -1.190798725165343
+    },
+    "tree:expanding": {
+      "dominance_score": 0.43857276851774657,
+      "standardized_score": 0.6011153910000697
+    }
+  },
+  {
+    "month": 201201,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999991188,
+      "standardized_score": -1.309146524300646
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999995143,
+      "standardized_score": -1.0209053927194882
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7326616890199728,
+      "standardized_score": 1.316021524576862
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999956578,
+      "standardized_score": -1.254879986424486
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998077,
+      "standardized_score": -1.3104668117992042
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999998818,
+      "standardized_score": -1.5089834578039079
+    }
+  },
+  {
+    "month": 201202,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999991501,
+      "standardized_score": -1.3091465243006892
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5198705502107497,
+      "standardized_score": 0.8657396768231047
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.19109782630669156,
+      "standardized_score": 0.5166552140234744
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5007798681594935,
+      "standardized_score": 0.6627640154467778
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.009452693839095975,
+      "standardized_score": 0.23054461237615048
+    },
+    "tree:expanding": {
+      "dominance_score": 0.07823541215971133,
+      "standardized_score": 0.07257247855799992
+    }
+  },
+  {
+    "month": 201203,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999986423,
+      "standardized_score": -1.3091465242999865
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5051563574587385,
+      "standardized_score": 0.8474746612900117
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.2038292269219808,
+      "standardized_score": -0.06627027863307859
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5409870939965401,
+      "standardized_score": 0.7141394017338257
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3040530936659987,
+      "standardized_score": 0.6802760207628167
+    },
+    "tree:expanding": {
+      "dominance_score": 0.16417918476282192,
+      "standardized_score": 0.19863482284842165
+    }
+  },
+  {
+    "month": 201204,
+    "neural:rolling60": {
+      "dominance_score": 0.5232484214555885,
+      "standardized_score": 0.7988223250406324
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999984982,
+      "standardized_score": -1.020905392718227
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999997843,
+      "standardized_score": -1.2414448743992421
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999985765,
+      "standardized_score": -1.2548799864282154
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5506170734796147,
+      "standardized_score": 1.0566759372739716
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5352076244368241,
+      "standardized_score": 0.7428594186166226
+    }
+  },
+  {
+    "month": 201205,
+    "neural:rolling60": {
+      "dominance_score": -0.010581704477746957,
+      "standardized_score": 0.06007396301525761
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999913847,
+      "standardized_score": -1.020905392709397
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999998511,
+      "standardized_score": -1.241444874399341
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999991573,
+      "standardized_score": -1.2548799864289577
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6710115018916539,
+      "standardized_score": 1.2404677986681445
+    },
+    "tree:expanding": {
+      "dominance_score": 0.7031957766859909,
+      "standardized_score": 0.9892644767625084
+    }
+  },
+  {
+    "month": 201206,
+    "neural:rolling60": {
+      "dominance_score": 0.7094281689426074,
+      "standardized_score": 1.0564697990528225
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999990283,
+      "standardized_score": -1.0209053927188851
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3996679425295453,
+      "standardized_score": 0.8245116567732782
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8729086736016448,
+      "standardized_score": 1.1382571819142044
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999994602,
+      "standardized_score": -1.3104668117986737
+    },
+    "tree:expanding": {
+      "dominance_score": 0.27346915817283346,
+      "standardized_score": 0.3589413795448317
+    }
+  },
+  {
+    "month": 201207,
+    "neural:rolling60": {
+      "dominance_score": 0.4966683782488718,
+      "standardized_score": 0.7620391567112044
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999992932,
+      "standardized_score": -1.0209053927113176
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999989833,
+      "standardized_score": -1.24144487439806
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999981517,
+      "standardized_score": -1.2548799864276727
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3310435856178206,
+      "standardized_score": 0.7214791962020694
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5914290953226631,
+      "standardized_score": 0.825325084303121
+    }
+  },
+  {
+    "month": 201208,
+    "neural:rolling60": {
+      "dominance_score": 0.7166753441175269,
+      "standardized_score": 1.0664989048108051
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8016784570567144,
+      "standardized_score": 1.2155533487410877
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.2792097944806534,
+      "standardized_score": 0.6467114156354843
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6882312623801952,
+      "standardized_score": 0.9022828478866147
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999995093,
+      "standardized_score": -1.3104668117987486
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999914421,
+      "standardized_score": -1.5089834577915284
+    }
+  },
+  {
+    "month": 201209,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999979371,
+      "standardized_score": -1.3091465242990106
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7102195264220171,
+      "standardized_score": 1.102023587588917
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999971777,
+      "standardized_score": -1.2414448743953947
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6049770278503944,
+      "standardized_score": 0.7959035001460899
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999978918,
+      "standardized_score": -1.3104668117962794
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999974414,
+      "standardized_score": -1.508983457800328
+    }
+  },
+  {
+    "month": 201210,
+    "neural:rolling60": {
+      "dominance_score": 0.6019380028591303,
+      "standardized_score": 0.9077180140366267
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999978594,
+      "standardized_score": -1.020905392717434
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5222967600495959,
+      "standardized_score": 1.0055158783943667
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999980851,
+      "standardized_score": -1.2548799864275875
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999980173,
+      "standardized_score": -1.3104668117964708
+    },
+    "tree:expanding": {
+      "dominance_score": -0.99999999999649,
+      "standardized_score": -1.508983457798933
+    }
+  },
+  {
+    "month": 201211,
+    "neural:rolling60": {
+      "dominance_score": 0.34336795450170604,
+      "standardized_score": 0.5498921993940048
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6823150729792439,
+      "standardized_score": 1.067385243225441
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3959684802139143,
+      "standardized_score": 0.8190511271000809
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6863615127886157,
+      "standardized_score": 0.8998937472827392
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.43706108279230893,
+      "standardized_score": 0.8833235058022152
+    },
+    "tree:expanding": {
+      "dominance_score": -0.19680599362243986,
+      "standardized_score": -0.33085831508365876
+    }
+  },
+  {
+    "month": 201212,
+    "neural:rolling60": {
+      "dominance_score": 0.597986199803188,
+      "standardized_score": 0.9022492555443627
+    },
+    "neural:expanding": {
+      "dominance_score": -0.5036140964623838,
+      "standardized_score": -0.40473185256554994
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999986536,
+      "standardized_score": -1.2414448743975732
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8061030308375026,
+      "standardized_score": 1.052895269180599
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.01575341855733168,
+      "standardized_score": 0.1920654370774793
+    },
+    "tree:expanding": {
+      "dominance_score": -0.0360611646418098,
+      "standardized_score": -0.09507776507871586
+    }
+  },
+  {
+    "month": 201301,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999924779,
+      "standardized_score": -1.309146524291456
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8579754053407721,
+      "standardized_score": 1.285435852810739
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999994214,
+      "standardized_score": -1.2414448743987065
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8100686341832518,
+      "standardized_score": 1.0579623783757168
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999996317,
+      "standardized_score": -1.3104668117989355
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999997523,
+      "standardized_score": -1.508983457803718
+    }
+  },
+  {
+    "month": 201302,
+    "neural:rolling60": {
+      "dominance_score": -0.10271697376686253,
+      "standardized_score": -0.06742873112943527
+    },
+    "neural:expanding": {
+      "dominance_score": -0.5584100589261553,
+      "standardized_score": -0.47275115355063285
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.32299135658834,
+      "standardized_score": -0.24215755344467757
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.3049928833656576,
+      "standardized_score": 0.41259425704251224
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3236339873575161,
+      "standardized_score": 0.710167843389432
+    },
+    "tree:expanding": {
+      "dominance_score": 0.27494071010475957,
+      "standardized_score": 0.3610998522376745
+    }
+  },
+  {
+    "month": 201303,
+    "neural:rolling60": {
+      "dominance_score": 0.6547054947876332,
+      "standardized_score": 0.9807410532707157
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7538994750669076,
+      "standardized_score": 1.1562443629946617
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6471144737622805,
+      "standardized_score": 1.1897509837471059
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.819576327014601,
+      "standardized_score": 1.070110975592765
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.31709956760974434,
+      "standardized_score": -0.26796390471862686
+    },
+    "tree:expanding": {
+      "dominance_score": -0.5572286178053267,
+      "standardized_score": -0.8595262983897105
+    }
+  },
+  {
+    "month": 201304,
+    "neural:rolling60": {
+      "dominance_score": 0.36067142263137525,
+      "standardized_score": 0.5738378482383859
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999886725,
+      "standardized_score": -1.0209053927060303
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.2730325999496779,
+      "standardized_score": 0.6375936706348163
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.24239145441839124,
+      "standardized_score": -0.28683429630035406
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.22422028469466915,
+      "standardized_score": -0.1261761449603799
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5716940956143196,
+      "standardized_score": 0.7963777824515552
+    }
+  },
+  {
+    "month": 201305,
+    "neural:rolling60": {
+      "dominance_score": 0.7374418988060898,
+      "standardized_score": 1.0952369949181477
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7928475894395438,
+      "standardized_score": 1.2045914198798349
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4747666959953455,
+      "standardized_score": 0.9353599197728673
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7656845929201155,
+      "standardized_score": 1.0012500034877956
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999995292,
+      "standardized_score": -1.310466811798779
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999996451,
+      "standardized_score": -1.5089834578035606
+    }
+  },
+  {
+    "month": 201306,
+    "neural:rolling60": {
+      "dominance_score": 0.34023520948070385,
+      "standardized_score": 0.5455569059355058
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999974378,
+      "standardized_score": -1.0209053927169107
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.046801907217563846,
+      "standardized_score": 0.3036696283673407
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999979844,
+      "standardized_score": -1.254879986427459
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4366473071386326,
+      "standardized_score": 0.8826918437013039
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4581325374194584,
+      "standardized_score": 0.6298056642664709
+    }
+  },
+  {
+    "month": 201307,
+    "neural:rolling60": {
+      "dominance_score": -0.2607363100630441,
+      "standardized_score": -0.2861060222490433
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5465313966228015,
+      "standardized_score": 0.8988343074323835
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.46260270556440114,
+      "standardized_score": 0.9174054644964846
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8234522358318817,
+      "standardized_score": 1.0750634762578988
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997284,
+      "standardized_score": -1.3104668117990832
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999997905,
+      "standardized_score": -1.508983457803774
+    }
+  },
+  {
+    "month": 201308,
+    "neural:rolling60": {
+      "dominance_score": 0.5925682840222485,
+      "standardized_score": 0.8947515962435455
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999988115,
+      "standardized_score": -1.020905392718616
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999995663,
+      "standardized_score": -1.2414448743989206
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999990469,
+      "standardized_score": -1.2548799864288165
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.7469942055279326,
+      "standardized_score": 1.3564615595029854
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999976784,
+      "standardized_score": -1.508983457800676
+    }
+  },
+  {
+    "month": 201309,
+    "neural:rolling60": {
+      "dominance_score": 0.7204269338722692,
+      "standardized_score": 1.0716905952974773
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7793876932619417,
+      "standardized_score": 1.1878833872407952
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5541404961981677,
+      "standardized_score": 1.0525182942346494
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8316074690861314,
+      "standardized_score": 1.085483947951124
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999988064,
+      "standardized_score": -1.3104668117976757
+    },
+    "tree:expanding": {
+      "dominance_score": -0.999999999997327,
+      "standardized_score": -1.5089834578001604
+    }
+  },
+  {
+    "month": 201310,
+    "neural:rolling60": {
+      "dominance_score": -0.1680410172931608,
+      "standardized_score": -0.15782833169816296
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6110302746589759,
+      "standardized_score": 0.9788980274782406
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9554839428072498,
+      "standardized_score": -1.1757376903561678
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6332696300853672,
+      "standardized_score": 0.8320547972979625
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999980661,
+      "standardized_score": -1.3104668117965454
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999359477,
+      "standardized_score": -1.508983457710129
+    }
+  },
+  {
+    "month": 201311,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999939326,
+      "standardized_score": -1.309146524293469
+    },
+    "neural:expanding": {
+      "dominance_score": 0.025429182316787497,
+      "standardized_score": 0.2519799268325627
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6072077171691171,
+      "standardized_score": 1.1308472810070322
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7461380744146858,
+      "standardized_score": 0.9762741460920807
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.7322925834181682,
+      "standardized_score": -0.9017897239013005
+    },
+    "tree:expanding": {
+      "dominance_score": -0.4885698350218164,
+      "standardized_score": -0.758817580914782
+    }
+  },
+  {
+    "month": 201312,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999935596,
+      "standardized_score": -1.3091465242929528
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6354686153786882,
+      "standardized_score": 1.009233818260073
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999992039,
+      "standardized_score": -1.2414448743983855
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5252800642463199,
+      "standardized_score": 0.6940695087223014
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.26040304119742524,
+      "standardized_score": -0.18141205791520784
+    },
+    "tree:expanding": {
+      "dominance_score": 0.056263148262726916,
+      "standardized_score": 0.040343557109403856
+    }
+  },
+  {
+    "month": 201401,
+    "neural:rolling60": {
+      "dominance_score": -0.999999999998098,
+      "standardized_score": -1.3091465242992333
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999978186,
+      "standardized_score": -1.0209053927173835
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999990523,
+      "standardized_score": -1.2414448743981619
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999984943,
+      "standardized_score": -1.2548799864281104
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.08809695875403872,
+      "standardized_score": 0.35060146240932355
+    },
+    "tree:expanding": {
+      "dominance_score": 0.2062057577041392,
+      "standardized_score": 0.26027940915185227
+    }
+  },
+  {
+    "month": 201402,
+    "neural:rolling60": {
+      "dominance_score": 0.6383603487098577,
+      "standardized_score": 0.9581215919375612
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7883161571429819,
+      "standardized_score": 1.1989664642550997
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.2726373315946092,
+      "standardized_score": 0.6370102413692691
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7055742056262388,
+      "standardized_score": 0.9244430539209958
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.08778606935114466,
+      "standardized_score": 0.35012686451638725
+    },
+    "tree:expanding": {
+      "dominance_score": -0.3309739311533257,
+      "standardized_score": -0.5276558749471429
+    }
+  },
+  {
+    "month": 201403,
+    "neural:rolling60": {
+      "dominance_score": 0.47970335262110725,
+      "standardized_score": 0.7385618663047903
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999933614,
+      "standardized_score": -1.0209053927118505
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.5908588020985586,
+      "standardized_score": -0.6375388304783473
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.09527662809178904,
+      "standardized_score": 0.14462616421674862
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.34301146719663,
+      "standardized_score": 0.7397491382693755
+    },
+    "tree:expanding": {
+      "dominance_score": 0.46060896425011527,
+      "standardized_score": 0.6334380876786705
+    }
+  },
+  {
+    "month": 201404,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999988484,
+      "standardized_score": -1.3091465243002718
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7116068424285711,
+      "standardized_score": 1.1037456901083063
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999992971,
+      "standardized_score": -1.2414448743985231
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.999999999996898,
+      "standardized_score": -1.2548799864260707
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.27134103497651774,
+      "standardized_score": -0.1981097927115156
+    },
+    "tree:expanding": {
+      "dominance_score": -0.0634278796095028,
+      "standardized_score": -0.13521926852756833
+    }
+  },
+  {
+    "month": 201405,
+    "neural:rolling60": {
+      "dominance_score": 0.24335991197390808,
+      "standardized_score": 0.4114946567719892
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5209447422144243,
+      "standardized_score": 0.8670730923874727
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7367343918459183,
+      "standardized_score": 1.3220329696826076
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5359167860582196,
+      "standardized_score": 0.7076607396649423
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.017128385214516522,
+      "standardized_score": 0.18996643893768117
+    },
+    "tree:expanding": {
+      "dominance_score": 0.49074244538417633,
+      "standardized_score": 0.6776378843403015
+    }
+  },
+  {
+    "month": 201406,
+    "neural:rolling60": {
+      "dominance_score": 0.7584131084483943,
+      "standardized_score": 1.124258299674706
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7817190940632988,
+      "standardized_score": 1.1907774006989804
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7610635089561453,
+      "standardized_score": 1.3579435573757894
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.615152916883259,
+      "standardized_score": 0.8089058950886392
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.05549503883358918,
+      "standardized_score": 0.300831986975658
+    },
+    "tree:expanding": {
+      "dominance_score": -0.3716397943096932,
+      "standardized_score": -0.5873045718429507
+    }
+  },
+  {
+    "month": 201407,
+    "neural:rolling60": {
+      "dominance_score": 0.49905640983461397,
+      "standardized_score": 0.7653438679605883
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999991257,
+      "standardized_score": -1.020905392719006
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7435727882087373,
+      "standardized_score": 1.3321266706235482
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999996452,
+      "standardized_score": -1.254879986429581
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4917469362704317,
+      "standardized_score": 0.9668058972653416
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6480327090566818,
+      "standardized_score": 0.9083512772021938
+    }
+  },
+  {
+    "month": 201408,
+    "neural:rolling60": {
+      "dominance_score": 0.6305771512809477,
+      "standardized_score": 0.9473507042101694
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6061310597265517,
+      "standardized_score": 0.9728165360672721
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3903412461309479,
+      "standardized_score": 0.8107451420497035
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7719929666264731,
+      "standardized_score": 1.0093106226740256
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5601090313472454,
+      "standardized_score": 1.0711661809486737
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999984074,
+      "standardized_score": -1.5089834578017454
+    }
+  },
+  {
+    "month": 201409,
+    "neural:rolling60": {
+      "dominance_score": -0.13901486242304348,
+      "standardized_score": -0.11766007718329541
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999977844,
+      "standardized_score": -1.020905392717341
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999987452,
+      "standardized_score": -1.2414448743977085
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999994619,
+      "standardized_score": -1.2548799864293467
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5692493321529553,
+      "standardized_score": 1.0851195915918532
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6593207977030981,
+      "standardized_score": 0.9249086480764838
+    }
+  },
+  {
+    "month": 201410,
+    "neural:rolling60": {
+      "dominance_score": 0.5284854583031305,
+      "standardized_score": 0.8060696724739081
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8103523146918431,
+      "standardized_score": 1.226320378037738
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.29972126013700756,
+      "standardized_score": 0.6769870225484275
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6599397388973969,
+      "standardized_score": 0.8661329291265242
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3026706565415641,
+      "standardized_score": 0.6781656183487558
+    },
+    "tree:expanding": {
+      "dominance_score": -0.4566381005807411,
+      "standardized_score": -0.7119801059124866
+    }
+  },
+  {
+    "month": 201411,
+    "neural:rolling60": {
+      "dominance_score": 0.5066977625703887,
+      "standardized_score": 0.7759184619053231
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7054140175754411,
+      "standardized_score": 1.0960584153768613
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5671417843309842,
+      "standardized_score": 1.0717086288243731
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.1991261107471572,
+      "standardized_score": 0.27732139936559375
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.48242222851730016,
+      "standardized_score": 0.9525709744577896
+    },
+    "tree:expanding": {
+      "dominance_score": 0.46124691118684646,
+      "standardized_score": 0.6343738283838013
+    }
+  },
+  {
+    "month": 201412,
+    "neural:rolling60": {
+      "dominance_score": 0.5066225704650779,
+      "standardized_score": 0.7758144062480323
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6012914906246897,
+      "standardized_score": 0.9668090841935086
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.14449576545913695,
+      "standardized_score": 0.44786901906346005
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5267313200777848,
+      "standardized_score": 0.6959238726429812
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3054142112322876,
+      "standardized_score": 0.6823538771419208
+    },
+    "tree:expanding": {
+      "dominance_score": 0.2727386263975042,
+      "standardized_score": 0.3578698353783691
+    }
+  },
+  {
+    "month": 201501,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999978674,
+      "standardized_score": -1.3091465242989142
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5434306978692844,
+      "standardized_score": 0.894985349365099
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999995367,
+      "standardized_score": -1.2414448743988769
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.999999999999088,
+      "standardized_score": -1.2548799864288689
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999981936,
+      "standardized_score": -1.3104668117967402
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5991080256940607,
+      "standardized_score": 0.8365885410369981
+    }
+  },
+  {
+    "month": 201502,
+    "neural:rolling60": {
+      "dominance_score": 0.8084294244502915,
+      "standardized_score": 1.1934740852325998
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999991395,
+      "standardized_score": -1.020905392719023
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5269761064357562,
+      "standardized_score": 1.0124227496131477
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8745422642186599,
+      "standardized_score": 1.1403445268437995
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999996478,
+      "standardized_score": -1.3104668117989602
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999997753,
+      "standardized_score": -1.5089834578037515
+    }
+  },
+  {
+    "month": 201503,
+    "neural:rolling60": {
+      "dominance_score": 0.4296458575827206,
+      "standardized_score": 0.66928909455545
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9474554560299567,
+      "standardized_score": -0.9556808215888645
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.10677652937090298,
+      "standardized_score": 0.39219416949413627
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.20644262707457597,
+      "standardized_score": 0.2866701879171852
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5803165063929442,
+      "standardized_score": 1.1020145308408675
+    },
+    "tree:expanding": {
+      "dominance_score": 0.45352673363170704,
+      "standardized_score": 0.6230498702718676
+    }
+  },
+  {
+    "month": 201504,
+    "neural:rolling60": {
+      "dominance_score": 0.4439755846311883,
+      "standardized_score": 0.6891194897899224
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999859539,
+      "standardized_score": -1.0209053927026555
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.3090515654992888,
+      "standardized_score": -0.22158195721321475
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.3327830788814438,
+      "standardized_score": 0.44810359646827785
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.2835075735121189,
+      "standardized_score": 0.648911617590689
+    },
+    "tree:expanding": {
+      "dominance_score": 0.36467538315315107,
+      "standardized_score": 0.4927226901232589
+    }
+  },
+  {
+    "month": 201505,
+    "neural:rolling60": {
+      "dominance_score": 0.35991196337735304,
+      "standardized_score": 0.5727868598196395
+    },
+    "neural:expanding": {
+      "dominance_score": 0.3556600601005339,
+      "standardized_score": 0.6619019805859142
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.025784632372320822,
+      "standardized_score": 0.1965294767754265
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.4799922192583194,
+      "standardized_score": 0.636202285059666
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.44367517684514723,
+      "standardized_score": 0.8934204569106746
+    },
+    "tree:expanding": {
+      "dominance_score": 0.2985896191103779,
+      "standardized_score": 0.39578807709518105
+    }
+  },
+  {
+    "month": 201506,
+    "neural:rolling60": {
+      "dominance_score": -0.22402544456042658,
+      "standardized_score": -0.23530317235147252
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999847979,
+      "standardized_score": -1.0209053927012206
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.058216313677866297,
+      "standardized_score": 0.32051767272099313
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.21829542010361866,
+      "standardized_score": 0.3018152721096495
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5576215361287629,
+      "standardized_score": 1.0673688177114866
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4780375137837156,
+      "standardized_score": 0.6590022879137889
+    }
+  },
+  {
+    "month": 201507,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999973356,
+      "standardized_score": -1.3091465242981781
+    },
+    "neural:expanding": {
+      "dominance_score": 0.759629551348791,
+      "standardized_score": 1.1633572188650663
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999992438,
+      "standardized_score": -1.2414448743984445
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999969609,
+      "standardized_score": -1.254879986426151
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.7229000849976248,
+      "standardized_score": 1.3196799299929773
+    },
+    "tree:expanding": {
+      "dominance_score": 0.598038547586507,
+      "standardized_score": 0.8350198303169309
+    }
+  },
+  {
+    "month": 201508,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999991749,
+      "standardized_score": -1.3091465243007236
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999847721,
+      "standardized_score": -1.0209053927011884
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999994098,
+      "standardized_score": -1.2414448743986894
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999985224,
+      "standardized_score": -1.2548799864281464
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5451516631053346,
+      "standardized_score": 1.0483325449823102
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6061135343543873,
+      "standardized_score": 0.8468642226590503
+    }
+  },
+  {
+    "month": 201509,
+    "neural:rolling60": {
+      "dominance_score": -0.999999999999344,
+      "standardized_score": -1.3091465243009575
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7495296975741849,
+      "standardized_score": 1.1508200726427609
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4909605433096717,
+      "standardized_score": 0.9592625781158063
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999933648,
+      "standardized_score": -1.254879986421556
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997892,
+      "standardized_score": -1.310466811799176
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999978049,
+      "standardized_score": -1.5089834578008614
+    }
+  },
+  {
+    "month": 201510,
+    "neural:rolling60": {
+      "dominance_score": 0.7005727943760547,
+      "standardized_score": 1.0442151638451815
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999991976,
+      "standardized_score": -1.0209053927190952
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.999999999999444,
+      "standardized_score": -1.2414448743987399
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8686442502357926,
+      "standardized_score": 1.1328082509533843
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3666719367686122,
+      "standardized_score": 0.7758687644136362
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6394023474094063,
+      "standardized_score": 0.8956922608665493
+    }
+  },
+  {
+    "month": 201511,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999977082,
+      "standardized_score": -1.309146524298694
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999924799,
+      "standardized_score": -1.0209053927107563
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4906618095813589,
+      "standardized_score": 0.9588216371766475
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5876299667162964,
+      "standardized_score": 0.7737380324184416
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.19925411611659316,
+      "standardized_score": 0.5202918802169464
+    },
+    "tree:expanding": {
+      "dominance_score": 0.23223109599654465,
+      "standardized_score": 0.2984533810025267
+    }
+  },
+  {
+    "month": 201512,
+    "neural:rolling60": {
+      "dominance_score": 0.7461455890780058,
+      "standardized_score": 1.1072817196715745
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999969341,
+      "standardized_score": -1.0209053927162854
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.748088365459056,
+      "standardized_score": 1.338791813139745
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999996291,
+      "standardized_score": -1.2548799864295603
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.7014684237690715,
+      "standardized_score": 1.2869627605863965
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6311734715052971,
+      "standardized_score": 0.88362214390604
+    }
+  },
+  {
+    "month": 201601,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999995525,
+      "standardized_score": -1.3091465243012461
+    },
+    "neural:expanding": {
+      "dominance_score": 0.9085115897673529,
+      "standardized_score": 1.3481674079216093
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999998971,
+      "standardized_score": -1.2414448743994086
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999993477,
+      "standardized_score": -1.2548799864292008
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.7398264978494734,
+      "standardized_score": 1.3455194722857535
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6927617838710364,
+      "standardized_score": 0.9739598938390102
+    }
+  },
+  {
+    "month": 201602,
+    "neural:rolling60": {
+      "dominance_score": 0.25054939266802334,
+      "standardized_score": 0.421443921207571
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999987821,
+      "standardized_score": -1.0209053927185794
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.35372839366768966,
+      "standardized_score": 0.7567033515842916
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8777483461599314,
+      "standardized_score": 1.144441146164623
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.24350040872027323,
+      "standardized_score": -0.1556088182934753
+    },
+    "tree:expanding": {
+      "dominance_score": -0.2622884423485018,
+      "standardized_score": -0.42690798507436073
+    }
+  },
+  {
+    "month": 201603,
+    "neural:rolling60": {
+      "dominance_score": 0.8591527250715845,
+      "standardized_score": 1.263668241444721
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999999564,
+      "standardized_score": -1.02090539271955
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6402256383183176,
+      "standardized_score": 1.1795828330413682
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.9240409704934044,
+      "standardized_score": 1.2035922417167568
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999989497,
+      "standardized_score": -1.3104668117978944
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999997397,
+      "standardized_score": -1.5089834578036994
+    }
+  },
+  {
+    "month": 201604,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999964141,
+      "standardized_score": -1.309146524296903
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7577961888777626,
+      "standardized_score": 1.161081430136762
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4503382413939194,
+      "standardized_score": 0.8993027066319654
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5459123436135471,
+      "standardized_score": 0.7204327133554578
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.14295048811941846,
+      "standardized_score": 0.4343398247162534
+    },
+    "tree:expanding": {
+      "dominance_score": 0.14117405599041433,
+      "standardized_score": 0.1648908949765869
+    }
+  },
+  {
+    "month": 201605,
+    "neural:rolling60": {
+      "dominance_score": -0.013789829512200782,
+      "standardized_score": 0.055634353860132234
+    },
+    "neural:expanding": {
+      "dominance_score": -0.6466200340387157,
+      "standardized_score": -0.5822479226061053
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.17086044189695598,
+      "standardized_score": 0.48678416016509396
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.26132691213754583,
+      "standardized_score": 0.35679940691941936
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6141731717199888,
+      "standardized_score": 1.1536994769229307
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4091510393704366,
+      "standardized_score": 0.5579595923069427
+    }
+  },
+  {
+    "month": 201606,
+    "neural:rolling60": {
+      "dominance_score": 0.1521844691152019,
+      "standardized_score": 0.2853202319939865
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7313539429577148,
+      "standardized_score": 1.1282581525979023
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.999999999998446,
+      "standardized_score": -1.2414448743972668
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.22860723097470942,
+      "standardized_score": -0.26922129790657695
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5123310359628932,
+      "standardized_score": 0.998229195232695
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4396465019111046,
+      "standardized_score": 0.6026903433742773
+    }
+  },
+  {
+    "month": 201607,
+    "neural:rolling60": {
+      "dominance_score": 0.74028963625137,
+      "standardized_score": 1.0991778766162366
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999999331,
+      "standardized_score": -1.0209053927192608
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999995411,
+      "standardized_score": -1.2414448743988833
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.902784291934987,
+      "standardized_score": 1.1764312016453953
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999994574,
+      "standardized_score": -1.3104668117986695
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999994276,
+      "standardized_score": -1.5089834578032415
+    }
+  },
+  {
+    "month": 201608,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999962633,
+      "standardized_score": -1.3091465242966944
+    },
+    "neural:expanding": {
+      "dominance_score": 0.4612526144665945,
+      "standardized_score": 0.7929760855796429
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3471085167686491,
+      "standardized_score": 0.7469321926546841
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.325020751473314,
+      "standardized_score": 0.43818516611709046
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.14420630995769693,
+      "standardized_score": 0.4362569386249363
+    },
+    "tree:expanding": {
+      "dominance_score": 0.23515083880740859,
+      "standardized_score": 0.30273606039062345
+    }
+  },
+  {
+    "month": 201609,
+    "neural:rolling60": {
+      "dominance_score": 0.66919417984799,
+      "standardized_score": 1.0007914247957892
+    },
+    "neural:expanding": {
+      "dominance_score": 0.4021449358372408,
+      "standardized_score": 0.7196045669047461
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.40478950583864465,
+      "standardized_score": 0.8320712549084807
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.40358344955988507,
+      "standardized_score": 0.5385698327515986
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.01648478878325002,
+      "standardized_score": 0.24127967575353002
+    },
+    "tree:expanding": {
+      "dominance_score": 0.11226365974271998,
+      "standardized_score": 0.12248511949149428
+    }
+  },
+  {
+    "month": 201610,
+    "neural:rolling60": {
+      "dominance_score": 0.7479455363883805,
+      "standardized_score": 1.1097726021877052
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999975389,
+      "standardized_score": -1.0209053927170362
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999991985,
+      "standardized_score": -1.2414448743983777
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999995481,
+      "standardized_score": -1.254879986429457
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5658234756484122,
+      "standardized_score": 1.0798897437314157
+    },
+    "tree:expanding": {
+      "dominance_score": 0.626058870391667,
+      "standardized_score": 0.8761200458835093
+    }
+  },
+  {
+    "month": 201611,
+    "neural:rolling60": {
+      "dominance_score": 0.7741032963914043,
+      "standardized_score": 1.1459713879394482
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8776035859619049,
+      "standardized_score": 1.309800697690343
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6885990828032829,
+      "standardized_score": 1.250983649286705
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8240931413065794,
+      "standardized_score": 1.0758824028476002
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.23988717023483572,
+      "standardized_score": 0.582321533490961
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999998034,
+      "standardized_score": -1.5089834578037928
+    }
+  },
+  {
+    "month": 201612,
+    "neural:rolling60": {
+      "dominance_score": -0.20754798638226876,
+      "standardized_score": -0.212500609048824
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7506767732974392,
+      "standardized_score": 1.1522439601951386
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.1368505493105923,
+      "standardized_score": 0.43658442522917595
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5266842388685121,
+      "standardized_score": 0.6958637139211871
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3049986736636625,
+      "standardized_score": 0.6817195253349132
+    },
+    "tree:expanding": {
+      "dominance_score": 0.3439928761465454,
+      "standardized_score": 0.46238558436114324
+    }
+  },
+  {
+    "month": 201701,
+    "neural:rolling60": {
+      "dominance_score": 0.5209365603545189,
+      "standardized_score": 0.7956230233926421
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999786505,
+      "standardized_score": -1.0209053926935898
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.2875029970482498,
+      "standardized_score": -0.18977555201085416
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.3918631948172037,
+      "standardized_score": 0.5235941013438113
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.26758934168858317,
+      "standardized_score": 0.6246111454215048
+    },
+    "tree:expanding": {
+      "dominance_score": 0.19025348806583586,
+      "standardized_score": 0.23688061658727438
+    }
+  },
+  {
+    "month": 201702,
+    "neural:rolling60": {
+      "dominance_score": 0.658180377554268,
+      "standardized_score": 0.9855498188824231
+    },
+    "neural:expanding": {
+      "dominance_score": 0.17221642470814696,
+      "standardized_score": 0.4341898045692552
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.24540299338169508,
+      "standardized_score": 0.5968114505035904
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5337909817423226,
+      "standardized_score": 0.7049444612939225
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.23012462833989253,
+      "standardized_score": 0.5674182213487292
+    },
+    "tree:expanding": {
+      "dominance_score": 0.29931387249793556,
+      "standardized_score": 0.39685041212109884
+    }
+  },
+  {
+    "month": 201703,
+    "neural:rolling60": {
+      "dominance_score": 0.5187418678250517,
+      "standardized_score": 0.7925858671278876
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9238576645163455,
+      "standardized_score": -0.9263884209925838
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.07608319337559316,
+      "standardized_score": 0.12228712438896935
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.02125706909127995,
+      "standardized_score": 0.05004656173782716
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4096317219778578,
+      "standardized_score": 0.8414503614430179
+    },
+    "tree:expanding": {
+      "dominance_score": 0.38218761831381576,
+      "standardized_score": 0.5184096404543018
+    }
+  },
+  {
+    "month": 201704,
+    "neural:rolling60": {
+      "dominance_score": 0.5437006003702083,
+      "standardized_score": 0.827125361791526
+    },
+    "neural:expanding": {
+      "dominance_score": 0.5702179313383586,
+      "standardized_score": 0.9282368667026273
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.032123194532431815,
+      "standardized_score": 0.28200335923335423
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.3131685172688136,
+      "standardized_score": 0.4230407959710726
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5174561723620277,
+      "standardized_score": 1.0060531316981949
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4825949835511722,
+      "standardized_score": 0.665687185556943
+    }
+  },
+  {
+    "month": 201705,
+    "neural:rolling60": {
+      "dominance_score": 0.42704232601644726,
+      "standardized_score": 0.6656861606133031
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7059899607068933,
+      "standardized_score": 1.0967733448615737
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.999999999998873,
+      "standardized_score": -1.2414448743978972
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999976165,
+      "standardized_score": -1.2548799864269888
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.47873093883043916,
+      "standardized_score": 0.946935921312544
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6002426707863102,
+      "standardized_score": 0.8382528387043477
+    }
+  },
+  {
+    "month": 201706,
+    "neural:rolling60": {
+      "dominance_score": 0.6956482508674253,
+      "standardized_score": 1.037400264734042
+    },
+    "neural:expanding": {
+      "dominance_score": -0.29811583951385645,
+      "standardized_score": -0.1496428430325342
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5000863301027565,
+      "standardized_score": 0.9727325435657481
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6663161797323367,
+      "standardized_score": 0.8742805221079255
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.052158878541188926,
+      "standardized_score": 0.13648954919299383
+    },
+    "tree:expanding": {
+      "dominance_score": -0.090048400299899,
+      "standardized_score": -0.1742662540486759
+    }
+  },
+  {
+    "month": 201707,
+    "neural:rolling60": {
+      "dominance_score": 0.489447556968493,
+      "standardized_score": 0.7520465211625245
+    },
+    "neural:expanding": {
+      "dominance_score": -0.0028539798938076746,
+      "standardized_score": 0.2168714838613434
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.706571899443224,
+      "standardized_score": -0.8083352186341071
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.06936337761548556,
+      "standardized_score": 0.1115151194864139
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.34724754324522006,
+      "standardized_score": 0.7462158519889931
+    },
+    "tree:expanding": {
+      "dominance_score": 0.48140444515069536,
+      "standardized_score": 0.6639409035729653
+    }
+  },
+  {
+    "month": 201708,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999957786,
+      "standardized_score": -1.3091465242960236
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999933117,
+      "standardized_score": -1.0209053927117888
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.06253907604303251,
+      "standardized_score": 0.32689821404058883
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.1481259452074551,
+      "standardized_score": -0.16638512706682576
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5035088954852833,
+      "standardized_score": 0.9847614821395977
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4948778833444918,
+      "standardized_score": 0.6837037456372269
+    }
+  },
+  {
+    "month": 201709,
+    "neural:rolling60": {
+      "dominance_score": 0.7767476378773579,
+      "standardized_score": 1.1496307972655302
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999975305,
+      "standardized_score": -1.0209053927170257
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6953958310576486,
+      "standardized_score": 1.2610158762315242
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.8297050485445014,
+      "standardized_score": 1.0830531015504605
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999997086,
+      "standardized_score": -1.3104668117990528
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999997431,
+      "standardized_score": -1.5089834578037042
+    }
+  },
+  {
+    "month": 201710,
+    "neural:rolling60": {
+      "dominance_score": 0.2751786814171608,
+      "standardized_score": 0.4555275104195209
+    },
+    "neural:expanding": {
+      "dominance_score": 0.705108945325833,
+      "standardized_score": 1.0956797232208104
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.13702397053715173,
+      "standardized_score": 0.43684040073934377
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.30307185018932004,
+      "standardized_score": 0.4101396280684923
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.1478947626143022,
+      "standardized_score": 0.44188766081335595
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5031893135793205,
+      "standardized_score": 0.6958949533079369
+    }
+  },
+  {
+    "month": 201711,
+    "neural:rolling60": {
+      "dominance_score": 0.6312288439916606,
+      "standardized_score": 0.9482525583753709
+    },
+    "neural:expanding": {
+      "dominance_score": 0.654670349352016,
+      "standardized_score": 1.0330693065669132
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.4833835269214836,
+      "standardized_score": 0.9480786494007636
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7120044879035304,
+      "standardized_score": 0.932659443613473
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.3668455315397006,
+      "standardized_score": -0.3439051540615224
+    },
+    "tree:expanding": {
+      "dominance_score": 0.04579177889633026,
+      "standardized_score": 0.02498415025214548
+    }
+  },
+  {
+    "month": 201712,
+    "neural:rolling60": {
+      "dominance_score": 0.4924527215085948,
+      "standardized_score": 0.7562052605700006
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999949043,
+      "standardized_score": -1.020905392713766
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.39085889144036884,
+      "standardized_score": 0.8115092037784422
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5766821732980117,
+      "standardized_score": 0.7597493250618416
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.004278581861113645,
+      "standardized_score": 0.22264591071662948
+    },
+    "tree:expanding": {
+      "dominance_score": 0.2374040577759651,
+      "standardized_score": 0.3060410824622936
+    }
+  },
+  {
+    "month": 201801,
+    "neural:rolling60": {
+      "dominance_score": 0.5863822532736875,
+      "standardized_score": 0.8861909701924247
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7925398116864896,
+      "standardized_score": 1.2042093693293887
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3823348234744521,
+      "standardized_score": 0.7989273953714278
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5995669386710087,
+      "standardized_score": 0.7889906774966292
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.999999999999734,
+      "standardized_score": -1.3104668117990916
+    },
+    "tree:expanding": {
+      "dominance_score": -0.999999999999629,
+      "standardized_score": -1.5089834578035368
+    }
+  },
+  {
+    "month": 201802,
+    "neural:rolling60": {
+      "dominance_score": -0.999999999997245,
+      "standardized_score": -1.309146524298053
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999988698,
+      "standardized_score": -1.0209053927186882
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999996793,
+      "standardized_score": -1.2414448743990871
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999995473,
+      "standardized_score": -1.2548799864294558
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.496581023531293,
+      "standardized_score": 0.9741855236112956
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5829870655296807,
+      "standardized_score": 0.8129423131721918
+    }
+  },
+  {
+    "month": 201803,
+    "neural:rolling60": {
+      "dominance_score": 0.4808042643227689,
+      "standardized_score": 0.7400853785174349
+    },
+    "neural:expanding": {
+      "dominance_score": -0.4513826628742185,
+      "standardized_score": -0.33989595148132895
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.04533338106699949,
+      "standardized_score": 0.3015020348262087
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7986025263300207,
+      "standardized_score": 1.0433113869704373
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.44710377265600454,
+      "standardized_score": 0.898654486544414
+    },
+    "tree:expanding": {
+      "dominance_score": 0.28886382881810013,
+      "standardized_score": 0.3815222857855128
+    }
+  },
+  {
+    "month": 201804,
+    "neural:rolling60": {
+      "dominance_score": 0.4397549648799436,
+      "standardized_score": 0.6832787255158707
+    },
+    "neural:expanding": {
+      "dominance_score": 0.2181234120762521,
+      "standardized_score": 0.4911750467424178
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.2338607367417045,
+      "standardized_score": 0.5797746950237397
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.608942508319892,
+      "standardized_score": 0.8009704523342329
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.33755355542049775,
+      "standardized_score": 0.7314171931960751
+    },
+    "tree:expanding": {
+      "dominance_score": 0.373963969913684,
+      "standardized_score": 0.5063471911977601
+    }
+  },
+  {
+    "month": 201805,
+    "neural:rolling60": {
+      "dominance_score": 0.536543108028402,
+      "standardized_score": 0.8172203648892363
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999908731,
+      "standardized_score": -1.020905392708762
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5303928610313431,
+      "standardized_score": 1.0174659932695043
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.7593454584841689,
+      "standardized_score": 0.9931500793176429
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.5178737329689757,
+      "standardized_score": -0.5744619549850843
+    },
+    "tree:expanding": {
+      "dominance_score": -0.4785515779472116,
+      "standardized_score": -0.7441227992653776
+    }
+  },
+  {
+    "month": 201806,
+    "neural:rolling60": {
+      "dominance_score": 0.4348480706556621,
+      "standardized_score": 0.676488250616235
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6117581383978965,
+      "standardized_score": 0.9798015389872592
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.3207052235037947,
+      "standardized_score": 0.707960051829328
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.4565488055183268,
+      "standardized_score": 0.6062471112891477
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.3355893067278755,
+      "standardized_score": 0.7284186082264902
+    },
+    "tree:expanding": {
+      "dominance_score": 0.3625690161832201,
+      "standardized_score": 0.4896330705950164
+    }
+  },
+  {
+    "month": 201807,
+    "neural:rolling60": {
+      "dominance_score": 0.5288324620456882,
+      "standardized_score": 0.8065498785057108
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7486145469544547,
+      "standardized_score": 1.1496840782619475
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.22161721896911063,
+      "standardized_score": 0.5617028547406027
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5977174382730001,
+      "standardized_score": 0.7866274506037607
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4108557065798282,
+      "standardized_score": 0.8433188732278327
+    },
+    "tree:expanding": {
+      "dominance_score": 0.461683476251038,
+      "standardized_score": 0.6350141821146228
+    }
+  },
+  {
+    "month": 201808,
+    "neural:rolling60": {
+      "dominance_score": 0.5881581552807291,
+      "standardized_score": 0.8886485772758125
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6839828851176766,
+      "standardized_score": 1.0694555310847997
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5910098919597552,
+      "standardized_score": 1.1069387511584456
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6849726529924518,
+      "standardized_score": 0.8981191108326729
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.02874606440700264,
+      "standardized_score": 0.17223110922159396
+    },
+    "tree:expanding": {
+      "dominance_score": 0.005309094054483692,
+      "standardized_score": -0.03439586065220238
+    }
+  },
+  {
+    "month": 201809,
+    "neural:rolling60": {
+      "dominance_score": 0.582518069610413,
+      "standardized_score": 0.8808434650346402
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999940669,
+      "standardized_score": -1.0209053927127263
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999955699,
+      "standardized_score": -1.2414448743930215
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999984854,
+      "standardized_score": -1.254879986428099
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.6544962493309733,
+      "standardized_score": 1.2152559259132518
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999932502,
+      "standardized_score": -1.5089834577941807
+    }
+  },
+  {
+    "month": 201810,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999997166,
+      "standardized_score": -1.3091465243014733
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999989753,
+      "standardized_score": -1.0209053927188192
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999998834,
+      "standardized_score": -1.2414448743993884
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999997354,
+      "standardized_score": -1.2548799864296962
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.8603553110810089,
+      "standardized_score": 1.5295164830082146
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999989305,
+      "standardized_score": -1.5089834578025125
+    }
+  },
+  {
+    "month": 201811,
+    "neural:rolling60": {
+      "dominance_score": 0.0952332059972513,
+      "standardized_score": 0.2065074218887056
+    },
+    "neural:expanding": {
+      "dominance_score": 0.6080834624391602,
+      "standardized_score": 0.9752400917779838
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.004761512653305206,
+      "standardized_score": 0.24161660487224845
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6294428035256862,
+      "standardized_score": 0.8271650122241562
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.18101410762769646,
+      "standardized_score": -0.06021841077281462
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6199454641631321,
+      "standardized_score": 0.867152900301854
+    }
+  },
+  {
+    "month": 201812,
+    "neural:rolling60": {
+      "dominance_score": 0.7729735531901245,
+      "standardized_score": 1.1444079768487092
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999994496,
+      "standardized_score": -1.020905392719408
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999999456,
+      "standardized_score": -1.2414448743994804
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999998022,
+      "standardized_score": -1.2548799864297815
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.4146296077310336,
+      "standardized_score": 0.8490800394748607
+    },
+    "tree:expanding": {
+      "dominance_score": 0.8123500193775925,
+      "standardized_score": 1.1493719436117227
+    }
+  },
+  {
+    "month": 201901,
+    "neural:rolling60": {
+      "dominance_score": 0.866165307733412,
+      "standardized_score": 1.2733727030390063
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999993703,
+      "standardized_score": -1.0209053927193095
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6740865262335292,
+      "standardized_score": 1.2295626321166522
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.907815160246695,
+      "standardized_score": 1.1828594691394216
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999999802,
+      "standardized_score": -1.3104668117994676
+    },
+    "tree:expanding": {
+      "dominance_score": -0.9999999999999365,
+      "standardized_score": -1.508983457803988
+    }
+  },
+  {
+    "month": 201902,
+    "neural:rolling60": {
+      "dominance_score": -0.8448290994012434,
+      "standardized_score": -1.094411081166442
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999940921,
+      "standardized_score": -1.0209053927127576
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999996738,
+      "standardized_score": -1.2414448743990791
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.38274127326896445,
+      "standardized_score": 0.5119384291738319
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.35068614030518613,
+      "standardized_score": -0.31923653248857337
+    },
+    "tree:expanding": {
+      "dominance_score": 0.248529942359042,
+      "standardized_score": 0.32236053238130463
+    }
+  },
+  {
+    "month": 201903,
+    "neural:rolling60": {
+      "dominance_score": 0.4566563425591374,
+      "standardized_score": 0.7066679358094012
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999988992,
+      "standardized_score": -1.0209053927187248
+    },
+    "ridge:rolling60": {
+      "dominance_score": -0.9999999999992544,
+      "standardized_score": -1.24144487439846
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.999999999999413,
+      "standardized_score": -1.2548799864292843
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.13121717997621601,
+      "standardized_score": 0.41642797802705117
+    },
+    "tree:expanding": {
+      "dominance_score": 0.4328429755492462,
+      "standardized_score": 0.5927109294314163
+    }
+  },
+  {
+    "month": 201904,
+    "neural:rolling60": {
+      "dominance_score": 0.3907064203548064,
+      "standardized_score": 0.6154022041893116
+    },
+    "neural:expanding": {
+      "dominance_score": 0.47678711396459406,
+      "standardized_score": 0.8122593639362492
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6665347875389082,
+      "standardized_score": 1.218416014119767
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.468952891841702,
+      "standardized_score": 0.6220966187628545
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.07971292161416076,
+      "standardized_score": 0.09442606725191174
+    },
+    "tree:expanding": {
+      "dominance_score": 0.35164059153839117,
+      "standardized_score": 0.47360325495624495
+    }
+  },
+  {
+    "month": 201905,
+    "neural:rolling60": {
+      "dominance_score": 0.8054464213500189,
+      "standardized_score": 1.1893460142467405
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999996299,
+      "standardized_score": -1.0209053927196319
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.8110722123104755,
+      "standardized_score": 1.43175807021206
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999997841,
+      "standardized_score": -1.2548799864297584
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.5066104704011261,
+      "standardized_score": 0.9894962878490885
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6593982954572409,
+      "standardized_score": 0.9250223217990652
+    }
+  },
+  {
+    "month": 201906,
+    "neural:rolling60": {
+      "dominance_score": 0.765322389055862,
+      "standardized_score": 1.133819805261556
+    },
+    "neural:expanding": {
+      "dominance_score": 0.8417174407826782,
+      "standardized_score": 1.265254523111257
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7740857199106618,
+      "standardized_score": 1.377164774747656
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.728608405799775,
+      "standardized_score": 0.9538753489150523
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.9999999999998729,
+      "standardized_score": -1.3104668117993037
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5714768524538263,
+      "standardized_score": 0.7960591301366363
+    }
+  },
+  {
+    "month": 201907,
+    "neural:rolling60": {
+      "dominance_score": 0.5541664876053854,
+      "standardized_score": 0.8416087277098723
+    },
+    "neural:expanding": {
+      "dominance_score": -0.9999999999984301,
+      "standardized_score": -1.0209053927181426
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.37057264730447287,
+      "standardized_score": 0.7815660313358568
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999990716,
+      "standardized_score": -1.254879986428848
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.17508335138522116,
+      "standardized_score": 0.48339324711661885
+    },
+    "tree:expanding": {
+      "dominance_score": 0.6480782235394876,
+      "standardized_score": 0.9084180378554428
+    }
+  },
+  {
+    "month": 201908,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999953547,
+      "standardized_score": -1.309146524295437
+    },
+    "neural:expanding": {
+      "dominance_score": -0.999999999999012,
+      "standardized_score": -1.020905392718865
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.6412722927184238,
+      "standardized_score": 1.1811277298187226
+    },
+    "ridge:expanding": {
+      "dominance_score": -0.9999999999995953,
+      "standardized_score": -1.2548799864295173
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.25039052831535386,
+      "standardized_score": 0.5983557616356492
+    },
+    "tree:expanding": {
+      "dominance_score": 0.719025890071434,
+      "standardized_score": 1.0124840905089023
+    }
+  },
+  {
+    "month": 201909,
+    "neural:rolling60": {
+      "dominance_score": 0.7254573755845386,
+      "standardized_score": 1.0786520431339137
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7762648424777144,
+      "standardized_score": 1.1840069314241044
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7121973655512692,
+      "standardized_score": 1.2858155011040417
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6798654977568814,
+      "standardized_score": 0.8915933665766842
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.26234419211145704,
+      "standardized_score": -0.18437538225207747
+    },
+    "tree:expanding": {
+      "dominance_score": 0.41209307173203413,
+      "standardized_score": 0.5622749660128887
+    }
+  },
+  {
+    "month": 201910,
+    "neural:rolling60": {
+      "dominance_score": 0.2371479454163796,
+      "standardized_score": 0.402898139085193
+    },
+    "neural:expanding": {
+      "dominance_score": 0.1533407814724964,
+      "standardized_score": 0.41075909907919994
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.1655534577965569,
+      "standardized_score": 0.4789508747622467
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.13405336777658153,
+      "standardized_score": 0.19417372535246233
+    },
+    "tree:rolling60": {
+      "dominance_score": 0.07213816220120921,
+      "standardized_score": 0.3262390648902524
+    },
+    "tree:expanding": {
+      "dominance_score": 0.5397849099096637,
+      "standardized_score": 0.7495733819407292
+    }
+  },
+  {
+    "month": 201911,
+    "neural:rolling60": {
+      "dominance_score": -0.7450452348085885,
+      "standardized_score": -0.9563237703472861
+    },
+    "neural:expanding": {
+      "dominance_score": 0.557444767361637,
+      "standardized_score": 0.9123812881891761
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.7241629535461078,
+      "standardized_score": 1.303477107772395
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.6557695449572738,
+      "standardized_score": 0.860804401228727
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.20816125783815018,
+      "standardized_score": -0.101660737752022
+    },
+    "tree:expanding": {
+      "dominance_score": 0.08108302779206837,
+      "standardized_score": 0.07674936178502256
+    }
+  },
+  {
+    "month": 201912,
+    "neural:rolling60": {
+      "dominance_score": -0.9999999999987821,
+      "standardized_score": -1.30914652430018
+    },
+    "neural:expanding": {
+      "dominance_score": 0.7102077063863688,
+      "standardized_score": 1.1020089151472576
+    },
+    "ridge:rolling60": {
+      "dominance_score": 0.5190718910001975,
+      "standardized_score": 1.0007558641993275
+    },
+    "ridge:expanding": {
+      "dominance_score": 0.5756158703372302,
+      "standardized_score": 0.7583868404494687
+    },
+    "tree:rolling60": {
+      "dominance_score": -0.7174865359416521,
+      "standardized_score": -0.879187091358487
+    },
+    "tree:expanding": {
+      "dominance_score": -0.49449232738737664,
+      "standardized_score": -0.7675046940008281
+    }
+  }
+]

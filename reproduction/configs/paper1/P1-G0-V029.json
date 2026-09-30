@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V029",
+  "parent_experiment_id": "P1-G0-V028",
+  "paper": 1,
+  "generation": "G0",
+  "status": "preregistered",
+  "evidence_class": "core86_gpu_development_adapter",
+  "research_question": "Can the leakage-safe Core-86 training panel be adapted to the frozen GPU trainer without changing any feature, target, row, or time boundary?",
+  "model_input_source_experiment_id": "P1-G0-V028",
+  "auxiliary_market_cap_source_experiment_id": "P1-G0-V006",
+  "allowed_schema_change": "Add market_cap for trainer audit output only.",
+  "maximum_feature_month": "2019-11-01",
+  "maximum_target_month": "2019-12-01",
+  "sealed_outputs_allowed": false,
+  "entrypoint": "scripts/build_core86_gpu_development_input.py",
+  "validator": "scripts/validate_core86_gpu_development_input.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V029"
+}

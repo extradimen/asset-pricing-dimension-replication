@@ -1,0 +1,494 @@
+{
+  "key": "feng2024deep",
+  "submitted": {
+    "key": "feng2024deep",
+    "type": "article",
+    "fields": {
+      "author": "Feng, Guanhao and He, Jingyu and Polson, Nicholas G. and Xu, Jianeng",
+      "title": "Deep Learning in Characteristics-Sorted Factor Models",
+      "journal": "Journal of Financial and Quantitative Analysis",
+      "year": "2024",
+      "volume": "59",
+      "number": "7",
+      "pages": "3001--3036",
+      "doi": "10.1017/S0022109023000893"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1017/S0022109023000893",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T12:42:04Z",
+        "timestamp": 1790772124356,
+        "version": "4.1.0"
+      },
+      "reference-count": 51,
+      "publisher": "Cambridge University Press (CUP)",
+      "issue": "7",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                24
+              ]
+            ],
+            "date-time": "2023-07-24T00:00:00Z",
+            "timestamp": 1690156800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://www.cambridge.org/core/terms"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "J. Financ. Quant. Anal."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>This article presents an augmented deep factor model that generates latent factors for cross-sectional asset pricing. The conventional security sorting on firm characteristics for constructing long–short factor portfolio weights is nonlinear modeling, while factors are treated as inputs in linear models. We provide a structural deep-learning framework to generalize the complete mechanism for fitting cross-sectional returns by firm characteristics through generating risk factors (hidden layers). Our model has an economic-guided objective function that minimizes aggregated realized pricing errors. Empirical results on high-dimensional characteristics demonstrate robust asset pricing performance and strong investment improvements by identifying important raw characteristic sources.</jats:p>",
+      "DOI": "10.1017/s0022109023000893",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2023-07-24T09:30:17Z",
+        "timestamp": 1690191017000
+      },
+      "page": "3001-3036",
+      "source": "Crossref",
+      "is-referenced-by-count": 70,
+      "title": [
+        "Deep Learning in Characteristics-Sorted Factor Models"
+      ],
+      "prefix": "10.1017",
+      "volume": "59",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5907-6814",
+          "authenticated-orcid": false,
+          "given": "Guanhao",
+          "family": "Feng",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jingyu",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicholas G.",
+          "family": "Polson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jianeng",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "56",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            24
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "S0022109023000893_r23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2013.10.005"
+        },
+        {
+          "key": "S0022109023000893_r12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1985.tb05004.x"
+        },
+        {
+          "key": "S0022109023000893_r22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00148"
+        },
+        {
+          "key": "S0022109023000893_r15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(93)90023-5"
+        },
+        {
+          "key": "S0022109023000893_r31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhv059"
+        },
+        {
+          "key": "S0022109023000893_r32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2139/ssrn.3870306"
+        },
+        {
+          "key": "S0022109023000893_r5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1997.tb03808.x"
+        },
+        {
+          "key": "S0022109023000893_r35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1993.tb04702.x"
+        },
+        {
+          "key": "S0022109023000893_r39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3386/w26186"
+        },
+        {
+          "key": "S0022109023000893_r49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913811"
+        },
+        {
+          "key": "S0022109023000893_r41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.05.001"
+        },
+        {
+          "key": "S0022109023000893_r50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00146"
+        },
+        {
+          "key": "S0022109023000893_r46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa020"
+        },
+        {
+          "key": "S0022109023000893_r6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/mnsc.2023.4695"
+        },
+        {
+          "key": "S0022109023000893_r25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913625"
+        },
+        {
+          "key": "S0022109023000893_r29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2139/ssrn.3185335"
+        },
+        {
+          "key": "S0022109023000893_r19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12883"
+        },
+        {
+          "key": "S0022109023000893_r33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/asmb.2209"
+        },
+        {
+          "key": "S0022109023000893_r43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12612"
+        },
+        {
+          "key": "S0022109023000893_r20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2021.11.001"
+        },
+        {
+          "key": "S0022109023000893_r27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa009"
+        },
+        {
+          "key": "S0022109023000893_r48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhw102"
+        },
+        {
+          "key": "S0022109023000893_r26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhx019"
+        },
+        {
+          "key": "S0022109023000893_r11",
+          "unstructured": "Cong, L. W. ; Tang, K. ; Wang, J. ; and Zhang, Y. . “AlphaPortfolio: Direct Construction Trough Deep Reinforcement Learning and Interpretable AI.” Working Paper, Cornell University (2020)."
+        },
+        {
+          "key": "S0022109023000893_r30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261749"
+        },
+        {
+          "key": "S0022109023000893_r7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2020.12.003"
+        },
+        {
+          "key": "S0022109023000893_r38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3386/w29723"
+        },
+        {
+          "key": "S0022109023000893_r34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhy131"
+        },
+        {
+          "key": "S0022109023000893_r28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2020.07.009"
+        },
+        {
+          "key": "S0022109023000893_r4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2139/ssrn.3493458"
+        },
+        {
+          "key": "S0022109023000893_r2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa062"
+        },
+        {
+          "key": "S0022109023000893_r37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13268"
+        },
+        {
+          "key": "S0022109023000893_r16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2014.10.010"
+        },
+        {
+          "key": "S0022109023000893_r36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13249"
+        },
+        {
+          "key": "S0022109023000893_r9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3386/w30805"
+        },
+        {
+          "key": "S0022109023000893_r40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13233"
+        },
+        {
+          "key": "S0022109023000893_r17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2139/ssrn.4117882"
+        },
+        {
+          "key": "S0022109023000893_r24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhz123"
+        },
+        {
+          "key": "S0022109023000893_r45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jeconom.2019.08.012"
+        },
+        {
+          "key": "S0022109023000893_r3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13197"
+        },
+        {
+          "key": "S0022109023000893_r47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2009.09.001"
+        },
+        {
+          "key": "S0022109023000893_r1",
+          "unstructured": "Bali, T. G. ; Huang, D. ; Jiang, F. ; and Wen, Q. . “Different Strokes: Return Predictability Across Stocks and Bonds with Machine Learning and Big Data.” Working Paper, Georgetown University (2021)."
+        },
+        {
+          "key": "S0022109023000893_r51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2021.05.023"
+        },
+        {
+          "key": "S0022109023000893_r18",
+          "unstructured": "Fan, Y. ; Feng, G. ; Fulop, A. ; and Li, J. . “Real-Time Macro Information and Bond Return Predictability: A Weighted Group Deep Learning Approach.” Working Paper, City University of Hong Kong (2022b)."
+        },
+        {
+          "key": "S0022109023000893_r8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2011.01671.x"
+        },
+        {
+          "key": "S0022109023000893_r10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2139/ssrn.4219905"
+        },
+        {
+          "key": "S0022109023000893_r14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.13099"
+        },
+        {
+          "key": "S0022109023000893_r42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhaa102"
+        },
+        {
+          "key": "S0022109023000893_r44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2019.06.008"
+        },
+        {
+          "key": "S0022109023000893_r13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhz085"
+        },
+        {
+          "key": "S0022109023000893_r21",
+          "unstructured": "Feng, G. ; Jiang, L. ; Li, J. ; and Song, Y. . “Deep Tangency Portfolios.” Working Paper, City University of Hong Kong (2022)."
+        }
+      ],
+      "container-title": [
+        "Journal of Financial and Quantitative Analysis"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0022109023000893",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            9
+          ]
+        ],
+        "date-time": "2024-12-09T15:44:13Z",
+        "timestamp": 1733759053000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.cambridge.org/core/product/identifier/S0022109023000893/type/journal_article"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            24
+          ]
+        ]
+      },
+      "references-count": 51,
+      "journal-issue": {
+        "issue": "7",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              11
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0022109023000893"
+      ],
+      "URL": "https://doi.org/10.1017/s0022109023000893",
+      "relation": {},
+      "ISSN": [
+        "0022-1090",
+        "1756-6916"
+      ],
+      "issn-type": [
+        {
+          "value": "0022-1090",
+          "type": "print"
+        },
+        {
+          "value": "1756-6916",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            24
+          ]
+        ]
+      }
+    }
+  }
+}

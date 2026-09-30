@@ -1,0 +1,21 @@
+{
+  "experiment_id": "P3-NN-U001-CUDA-FULL",
+  "frozen_dir": "experiments/P3-NN-F001/outputs/R001",
+  "frozen_manifest_sha256": "d72aa3d2e27e2e402465d2ac71cb011374f054c88a7f746845c5eaaee526b336",
+  "training_config": "configs/paper3/P3-NN-F001.json",
+  "training_config_sha256": "ab5ab69d647cdc539d138e16eaae95e1e5afa91fe80e7b5be492cb2f32f18da5",
+  "arms": ["rolling60", "expanding"],
+  "device": "cuda",
+  "cuda_device": 0,
+  "months": 239,
+  "fits": 2390,
+  "pilot_gate": {
+    "run_id": "20260927T141815Z__9fcfc658__P3-NN-U001-CUDA-PILOT",
+    "returned_output_manifest_sha256": "b80cb5ad079e49ae5df9f45390524cdfd69195fe7c049c3efbc2c386fa5a1570",
+    "max_abs_prediction_difference": 5.960464477539063e-08,
+    "mean_abs_prediction_difference": 7.742942892679907e-09,
+    "cpu_cuda_loss_difference": 7.008817970888259e-10,
+    "decision": "pass_float32_roundoff_scale"
+  },
+  "scope": "Full registered CUDA execution of the pre-specified historical-only monthly rolling60 and expanding neural updates for all 239 evaluation months. Hyperparameters, five seeds, ten epochs, frozen parent, and environment labels remain unchanged. Results remain exploratory under the inherited hyperparameter-selection and sample limitations; no structural claim follows from this run alone."
+}

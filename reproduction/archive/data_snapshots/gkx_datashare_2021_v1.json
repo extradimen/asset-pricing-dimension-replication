@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "gkx-datashare-2021-v1",
+  "created_at": "2026-09-24T03:45:00+08:00",
+  "source": {
+    "title": "Empirical Asset Pricing via Machine Learning - 94 Firm Characteristics",
+    "authors": [
+      "Shihao Gu",
+      "Bryan Kelly",
+      "Dacheng Xiu"
+    ],
+    "url": "https://dachxiu.chicagobooth.edu/download/datashare.zip",
+    "internet_appendix": "https://dachxiu.chicagobooth.edu/download/ML_supp.pdf",
+    "http_last_modified": "2026-02-26T05:30:14Z",
+    "http_etag": "5cbd17e1-64bb36a4b9bde",
+    "readme_version": "April 2019",
+    "citation": "Gu, Kelly, and Xiu, Empirical Asset Pricing via Machine Learning, Review of Financial Studies 33(5), 2020"
+  },
+  "local": {
+    "relative_path": "data/raw/public/gkx-datashare-2026-02-26/datashare.zip",
+    "size_bytes": 1555896289,
+    "sha256": "5de63312a9b4d8e340c3b69c2d3f2682cd834705aff695922227e6f93ce4bbf3"
+  },
+  "archive": {
+    "primary_member": "datashare.csv",
+    "primary_member_size_bytes": 3836202174,
+    "zip_integrity_test": "passed",
+    "rows": 4117300,
+    "columns": 97,
+    "identifier_columns": [
+      "permno",
+      "DATE"
+    ],
+    "feature_columns": 94,
+    "industry_columns": [
+      "sic2"
+    ],
+    "unique_permnos": 32793,
+    "date_min": "1957-01-31",
+    "date_max": "2021-12-31",
+    "duplicate_permno_date_extra_rows": 0,
+    "returns_included": false,
+    "lags_already_applied": true
+  },
+  "role": "Public external benchmark for GKX Core-94 and Structured Core-92; not a replacement for the WRDS return and cost panel",
+  "redistribution": "Do not commit the large archive; retain the official URL, citation, metadata, and content hash"
+}

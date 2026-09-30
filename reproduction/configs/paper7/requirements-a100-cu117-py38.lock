@@ -1,0 +1,6 @@
+numpy==1.24.4 \
+    --hash=sha256:dd80e219fd4c71fc3699fc1dadac5dcf4fd882bfc6f7ec53d30fa197b8ee22dc
+typing_extensions==4.12.2 \
+    --hash=sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d
+torch @ https://download.pytorch.org/whl/cu117/torch-1.13.1%2Bcu117-cp38-cp38-linux_x86_64.whl \
+    --hash=sha256:bbf9546f0d0d8b51263ca479637b426a88335fca0034f42cec63d4d32dee05af

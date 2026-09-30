@@ -1,0 +1,16 @@
+{
+  "experiment_id": "P3-TOP-M002",
+  "supersedes_failed_run": "P3-TOP-M001 failed at 2019-01 expanding because the audit compared a float64-first identity calculation with the archived trainer's float32 residual arithmetic at a 1e-8 tolerance; M002 separates exact-identity arithmetic from archive-reproduction arithmetic",
+  "protocol": "configs/paper3/P3-TOP-P001.json",
+  "frozen_dir": "experiments/P3-NN-F001/outputs/R001",
+  "frozen_manifest_sha256": "d72aa3d2e27e2e402465d2ac71cb011374f054c88a7f746845c5eaaee526b336",
+  "updated_dir": "experiments/P3-NN-U001-CUDA-FULL/returned/R001",
+  "updated_manifest_sha256": "54d581bb537573aaeab6dd8a85f018e48a843ea5bac84cd9f38e22500301a16d",
+  "arms": ["rolling60", "expanding"],
+  "development_end": 200912,
+  "promotion_start": 201001,
+  "identity_absolute_tolerance": 1e-12,
+  "archived_loss_absolute_tolerance": 1e-8,
+  "scope": "Exploratory exact loss decomposition of already observed 2000-2019 neural predictions. No new model, hyperparameter, update rule, later-period outcome, or promotion decision is allowed.",
+  "claim_boundary": "This run diagnoses why the two archived full-update arms did or did not help. It cannot establish that any feasible anchored update improves forecasts."
+}

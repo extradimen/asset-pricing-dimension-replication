@@ -1,0 +1,60 @@
+{
+  "baseline_commit": "b7361f8",
+  "baseline_reader": {
+    "pages": 24,
+    "exhibit_pages": {
+      "Table 1": 5,
+      "Figure 1": 5,
+      "Figure 2": 9,
+      "Table 2": 10,
+      "Figure 3": 12,
+      "Table 3": 13,
+      "Figure 4": 14,
+      "Table 4": 15,
+      "Figure 5": 17,
+      "Table 5": 18,
+      "Table 6": 19,
+      "Figure 6": 20
+    },
+    "sha256": "35548fdee9b2a1f8b0949245013455b16b4b833be22427146dd805cbe3566ba8"
+  },
+  "new_builds": {
+    "main_anonymous": {
+      "pages": 21,
+      "exhibit_pages": {
+        "Table 1": 5,
+        "Figure 1": 5,
+        "Figure 2": 9,
+        "Table 2": 10,
+        "Figure 3": 11,
+        "Table 3": 11,
+        "Table 4": 12,
+        "Figure 4": 13,
+        "Table 5": 14,
+        "Figure 5": 16,
+        "Table 6": 17,
+        "Figure 6": 17
+      },
+      "sha256": "fee21a7c88360cdc84aa093b0c3da4e6370b22d9b67b702c97ee2b543b6802ce"
+    },
+    "main_reader": {
+      "pages": 21,
+      "exhibit_pages": {
+        "Table 1": 5,
+        "Figure 1": 5,
+        "Figure 2": 9,
+        "Table 2": 10,
+        "Figure 3": 11,
+        "Table 3": 11,
+        "Table 4": 12,
+        "Figure 4": 13,
+        "Table 5": 14,
+        "Figure 5": 16,
+        "Table 6": 17,
+        "Figure 6": 17
+      },
+      "sha256": "0b38bacc2a5c120c92c93b88d165ee43c997358f2fb994f02588fe6851b3f9ff"
+    }
+  },
+  "changes": "Float placement only; identical content, figure sizes, font sizes, and margins."
+}

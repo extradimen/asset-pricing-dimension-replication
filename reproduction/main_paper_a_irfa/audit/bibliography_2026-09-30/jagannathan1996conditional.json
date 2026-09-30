@@ -1,0 +1,631 @@
+{
+  "key": "jagannathan1996conditional",
+  "submitted": {
+    "key": "jagannathan1996conditional",
+    "type": "article",
+    "fields": {
+      "author": "Jagannathan, Ravi and Wang, Zhenyu",
+      "title": "The Conditional {CAPM} and the Cross-Section of Expected Returns",
+      "journal": "The Journal of Finance",
+      "year": "1996",
+      "volume": "51",
+      "number": "1",
+      "pages": "3--53",
+      "doi": "10.1111/j.1540-6261.1996.tb05201.x"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/j.1540-6261.1996.tb05201.x",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T02:20:57Z",
+        "timestamp": 1790734857887,
+        "version": "4.1.0"
+      },
+      "reference-count": 77,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2012,
+                4,
+                30
+              ]
+            ],
+            "date-time": "2012-04-30T00:00:00Z",
+            "timestamp": 1335744000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 5904,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "The Journal of Finance"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1996,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Most empirical studies of the static CAPM assume that betas remain constant over time and that the return on the value‐weighted portfolio of all stocks is a proxy for the return on aggregate wealth. The general consensus is that the static CAPM is unable to explain satisfactorily the cross‐section of average returns on stocks. We assume that the CAPM holds in a conditional sense, i.e., betas and the market risk premium vary over time. We include the return on human capital when measuring the return on aggregate wealth. Our specification performs well in explaining the cross‐section of average returns.</jats:p>",
+      "DOI": "10.1111/j.1540-6261.1996.tb05201.x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            30
+          ]
+        ],
+        "date-time": "2012-04-30T05:25:11Z",
+        "timestamp": 1335763511000
+      },
+      "page": "3-53",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1161,
+      "title": [
+        "The Conditional CAPM and the Cross‐Section of Expected Returns"
+      ],
+      "prefix": "10.1111",
+      "volume": "51",
+      "author": [
+        {
+          "given": "RAVI",
+          "family": "JAGANNATHAN",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "ZHENYU",
+          "family": "WANG",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            30
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_10_2_1",
+          "volume-title": "Advanced Econometrics",
+          "author": "Amemiya Takeshi",
+          "year": "1985"
+        },
+        {
+          "key": "e_1_2_10_3_1",
+          "unstructured": "Amihud Yakov BentJesper Christensen andHaimMendelson 1992 Further evidence in the risk‐return relationship Working paper No. S‐93‐11 New York University."
+        },
+        {
+          "key": "e_1_2_10_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1993.tb05126.x"
+        },
+        {
+          "key": "e_1_2_10_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1993.tb04753.x"
+        },
+        {
+          "key": "e_1_2_10_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(81)90018-0"
+        },
+        {
+          "key": "e_1_2_10_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(83)90031-4"
+        },
+        {
+          "key": "e_1_2_10_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/8.2.275"
+        },
+        {
+          "key": "e_1_2_10_9_1",
+          "first-page": "51",
+          "volume-title": "New England Economic Review",
+          "author": "Bernanke Ben S.",
+          "year": "1990"
+        },
+        {
+          "key": "e_1_2_10_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1988.tb03952.x"
+        },
+        {
+          "key": "e_1_2_10_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/295472"
+        },
+        {
+          "key": "e_1_2_10_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3905/jpm.1993.409462"
+        },
+        {
+          "key": "e_1_2_10_13_1",
+          "first-page": "79",
+          "volume-title": "Studies in the Theory of Capital Markets",
+          "author": "Black Fischer",
+          "year": "1972"
+        },
+        {
+          "key": "e_1_2_10_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1991.tb04627.x"
+        },
+        {
+          "key": "e_1_2_10_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261527"
+        },
+        {
+          "key": "e_1_2_10_16_1",
+          "unstructured": "Bossaerts Peter 1994 Time series analysis of inefficient financial markets Manuscript California Institute of Technology."
+        },
+        {
+          "key": "e_1_2_10_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1989.tb02649.x"
+        },
+        {
+          "key": "e_1_2_10_18_1",
+          "unstructured": "Breen William J. andRobertA. Korajczyk 1994 On selection biases in book‐to‐market based tests of asset pricing models Working paper No. 167 Northwestern University."
+        },
+        {
+          "key": "e_1_2_10_19_1",
+          "first-page": "487",
+          "article-title": "Intertemporal asset pricing without consumption data",
+          "volume": "83",
+          "author": "Campbell John Y.",
+          "year": "1993",
+          "journal-title": "American Economic Review"
+        },
+        {
+          "key": "e_1_2_10_20_1",
+          "unstructured": "Campbell John Y. 1993b Understanding risk and returns Working paper No. 4554 NBER."
+        },
+        {
+          "key": "e_1_2_10_21_1",
+          "unstructured": "Carhart Mark M. RobertJ. Krail RossL. Stevens andKellyD. Welch 1995 Testing the conditional CAPM Manuscript University of Chicago."
+        },
+        {
+          "key": "e_1_2_10_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1988.tb03941.x"
+        },
+        {
+          "key": "e_1_2_10_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(85)90008-X"
+        },
+        {
+          "key": "e_1_2_10_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(94)00818-L"
+        },
+        {
+          "key": "e_1_2_10_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3905/jpm.1993.51"
+        },
+        {
+          "key": "e_1_2_10_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(88)90033-5"
+        },
+        {
+          "key": "e_1_2_10_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1991.tb02673.x"
+        },
+        {
+          "key": "e_1_2_10_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/296344"
+        },
+        {
+          "key": "e_1_2_10_29_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cochrane John H. 1992 A cross‐sectional test of a production based asset pricing model Working paper No. 4025 NBER.",
+          "DOI": "10.3386/w4025"
+        },
+        {
+          "key": "e_1_2_10_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(88)90062-1"
+        },
+        {
+          "key": "e_1_2_10_31_1",
+          "unstructured": "Connor Gregory andRobertA. Korajczyk 1988b The arbitrage pricing theory and multi‐factor models of asset returns Working paper Kellogg Graduate School of Management Northwestern University."
+        },
+        {
+          "key": "e_1_2_10_32_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Daniel Kent andSheridanTitman 1995 Evidence on the characteristics of cross sectional variation in stock returns Manuscript University of Chicago.",
+          "DOI": "10.3386/w5604"
+        },
+        {
+          "key": "e_1_2_10_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1994.tb04773.x"
+        },
+        {
+          "key": "e_1_2_10_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0165-1889(92)90048-J"
+        },
+        {
+          "key": "e_1_2_10_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/296162"
+        },
+        {
+          "key": "e_1_2_10_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1985.tb04963.x"
+        },
+        {
+          "key": "e_1_2_10_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(89)90095-0"
+        },
+        {
+          "key": "e_1_2_10_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1992.tb04398.x"
+        },
+        {
+          "key": "e_1_2_10_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(93)90023-5"
+        },
+        {
+          "key": "e_1_2_10_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/260061"
+        },
+        {
+          "key": "e_1_2_10_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(77)90014-9"
+        },
+        {
+          "key": "e_1_2_10_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261755"
+        },
+        {
+          "key": "e_1_2_10_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/6.3.527"
+        },
+        {
+          "key": "e_1_2_10_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(94)90029-9"
+        },
+        {
+          "key": "e_1_2_10_45_1",
+          "unstructured": "Ferson Wayne E. andRobertA. Korajczyk 1993 Do arbitrage pricing models explain the predictability of stock returns? Working paper Kellogg Graduate School of Management Northwestern University."
+        },
+        {
+          "key": "e_1_2_10_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(82)90028-9"
+        },
+        {
+          "key": "e_1_2_10_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912775"
+        },
+        {
+          "key": "e_1_2_10_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261749"
+        },
+        {
+          "key": "e_1_2_10_49_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hansen Lars Peter andRaviJagannathan 1994 Assessing specification errors in stochastic discount factor models Technical working paper No. 153 NBER.",
+          "DOI": "10.3386/t0153"
+        },
+        {
+          "key": "e_1_2_10_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913601"
+        },
+        {
+          "key": "e_1_2_10_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1911873"
+        },
+        {
+          "key": "e_1_2_10_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(89)90049-4"
+        },
+        {
+          "key": "e_1_2_10_53_1",
+          "unstructured": "Jagannathan Ravi andZhenyuWang 1992 The cross‐section of expected stock returns: Do size and book to market equity measure systematic risk better than beta? Notes for The Berkeley Program in Finance on “Are Betas Irrelevant?Evidence and Implications for Asset Management."
+        },
+        {
+          "key": "e_1_2_10_54_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jagannathan Ravi andZhenyuWang 1993 The CAPM is alive and well Staff report 165 Federal Reserve Bank of Minneapolis.",
+          "DOI": "10.21034/sr.165"
+        },
+        {
+          "key": "e_1_2_10_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2331323"
+        },
+        {
+          "key": "e_1_2_10_56_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(87)90061-4"
+        },
+        {
+          "key": "e_1_2_10_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/2.2.125"
+        },
+        {
+          "key": "e_1_2_10_58_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1995.tb05170.x"
+        },
+        {
+          "key": "e_1_2_10_59_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(86)90070-X"
+        },
+        {
+          "key": "e_1_2_10_60_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1995.tb05171.x"
+        },
+        {
+          "key": "e_1_2_10_61_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(88)90061-X"
+        },
+        {
+          "key": "e_1_2_10_62_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1924119"
+        },
+        {
+          "key": "e_1_2_10_63_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(74)90002-6"
+        },
+        {
+          "key": "e_1_2_10_64_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(74)90012-9"
+        },
+        {
+          "key": "e_1_2_10_65_1",
+          "first-page": "223",
+          "volume-title": "Studies in the Theory of Capital Markets",
+          "author": "Mayers David",
+          "year": "1972"
+        },
+        {
+          "key": "e_1_2_10_66_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1913811"
+        },
+        {
+          "key": "e_1_2_10_67_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(80)90007-0"
+        },
+        {
+          "key": "e_1_2_10_68_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(81)90019-2"
+        },
+        {
+          "key": "e_1_2_10_69_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(77)90009-5"
+        },
+        {
+          "key": "e_1_2_10_70_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-0531(76)90046-6"
+        },
+        {
+          "key": "e_1_2_10_71_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(85)90002-9"
+        },
+        {
+          "key": "e_1_2_10_72_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(87)90062-6"
+        },
+        {
+          "key": "e_1_2_10_73_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/5.1.1"
+        },
+        {
+          "key": "e_1_2_10_74_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1964.tb02865.x"
+        },
+        {
+          "key": "e_1_2_10_75_1",
+          "unstructured": "Stambaugh Robert F. 1981 Missing assets measuring the market and testing the capital asset pricing model Doctoral dissertation University of Chicago."
+        },
+        {
+          "key": "e_1_2_10_76_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(82)90002-2"
+        },
+        {
+          "key": "e_1_2_10_77_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stock James andMarkWatson 1989 New indexes of coincident and leading economic indicators InOlivierJ. BlanchardandStanleyFischer.NBER Macroeconomics Annual 1989.",
+          "DOI": "10.1086/654119"
+        },
+        {
+          "key": "e_1_2_10_78_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/7.4.687"
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1540-6261.1996.tb05201.x",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6261.1996.tb05201.x",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2023-10-01T05:00:40Z",
+        "timestamp": 1696136440000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1996.tb05201.x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1996,
+            3
+          ]
+        ]
+      },
+      "references-count": 77,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              1996,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/j.1540-6261.1996.tb05201.x"
+      ],
+      "URL": "https://doi.org/10.1111/j.1540-6261.1996.tb05201.x",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "0022-1082",
+        "1540-6261"
+      ],
+      "issn-type": [
+        {
+          "value": "0022-1082",
+          "type": "print"
+        },
+        {
+          "value": "1540-6261",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1996,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2012-04-30",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

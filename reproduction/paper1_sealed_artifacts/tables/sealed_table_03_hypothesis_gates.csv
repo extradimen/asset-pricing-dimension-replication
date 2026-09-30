@@ -1,0 +1,5 @@
+hypothesis,combined_endpoint_dimensions_differ,external_changed_count,required_external,supported,combined_positive_attenuation,external_positive_count,external_joint_improvement_count,unique_external_best_dimensions,required_count
+H1_geometry_dependence,False,2,4,False,,,,,
+H2_market_direction,,,4,True,True,6,,,
+H3_economic_completion,,,4,False,,,0,,
+H4_asset_family_dependence,,,,False,,,,"[1, 8]",3

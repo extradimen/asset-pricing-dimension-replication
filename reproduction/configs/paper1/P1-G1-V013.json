@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G1-V013",
+  "parent_experiment_id": "P1-G1-V012",
+  "paper": 1,
+  "generation": "G1",
+  "status": "completed",
+  "evidence_class": "estimand_audit",
+  "research_question": "Does the repeated HJ-alpha divergence arise because unrestricted SDF loadings price test assets without pricing the learned traded factors themselves?",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "pricing_target_snapshot_id": "ken-french-public-74-pricing-targets-2026-07-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v4",
+  "sealed_test_period": ["2020-01", "2025-12"],
+  "sealed_outputs_allowed": false,
+  "models": ["FF5 plus momentum", "V008 K=5", "V011 group-DRO K=5", "V012 adversarial-8 K=5"],
+  "loading_estimands": {
+    "unrestricted_test_asset_hj": "Fit SDF loadings to each test-asset family only.",
+    "joint_hj_with_traded_factors": "Fit the same HJ objective after appending the model factors to the priced assets.",
+    "strict_factor_self_pricing": "Solve E[f f']b=E[f] on validation and apply the frozen loading vector to test assets."
+  },
+  "diagnostics": ["test-asset Euler moments", "factor self-pricing moments", "regression alpha", "asset-second-moment eigendirection contributions", "moment-alpha alignment"],
+  "periods": {"validation": ["2000-01", "2009-12"], "development": ["2010-01", "2019-12"]},
+  "interpretation_rule": "If unrestricted HJ improves while factor self-pricing errors are material and self-pricing or joint HJ loses the advantage, classify the earlier HJ-alpha divergence as an estimand inconsistency rather than evidence of a strong traded-factor model.",
+  "boundary": "No model selection, hyperparameter tuning or sealed-period access. This audit can invalidate earlier HJ comparisons but cannot promote a teacher.",
+  "entrypoint": "scripts/audit_hj_alpha_estimands.py",
+  "remote_node": "campus-vm"
+}

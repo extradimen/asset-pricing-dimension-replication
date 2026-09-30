@@ -1,0 +1,16 @@
+{
+  "key": "ansuini2019intrinsic",
+  "submitted": {
+    "key": "ansuini2019intrinsic",
+    "type": "inproceedings",
+    "fields": {
+      "author": "Ansuini, Alessio and Laio, Alessandro and Macke, Jakob H. and Zoccolan, Davide",
+      "title": "Intrinsic Dimension of Data Representations in Deep Neural Networks",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2019",
+      "volume": "32",
+      "url": "https://proceedings.neurips.cc/paper/2019/hash/cfcce0621b49c983991ead4c3d4d3b6b-Abstract.html"
+    }
+  },
+  "status": "needs_primary_lookup"
+}

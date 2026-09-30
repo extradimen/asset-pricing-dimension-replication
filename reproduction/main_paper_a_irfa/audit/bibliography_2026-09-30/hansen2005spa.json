@@ -1,0 +1,400 @@
+{
+  "key": "hansen2005spa",
+  "submitted": {
+    "key": "hansen2005spa",
+    "type": "article",
+    "fields": {
+      "author": "Hansen, Peter Reinhard",
+      "title": "A Test for Superior Predictive Ability",
+      "journal": "Journal of Business \\& Economic Statistics",
+      "year": "2005",
+      "volume": "23",
+      "number": "4",
+      "pages": "365--380",
+      "doi": "10.1198/073500105000000063"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1198/073500105000000063",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            28
+          ]
+        ],
+        "date-time": "2026-09-28T21:32:43Z",
+        "timestamp": 1790631163458,
+        "version": "4.1.0"
+      },
+      "reference-count": 42,
+      "publisher": "Informa UK Limited",
+      "issue": "4",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Journal of Business &amp; Economic Statistics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2005,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.1198/073500105000000063",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2005,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2005-09-23T22:27:13Z",
+        "timestamp": 1127514433000
+      },
+      "page": "365-380",
+      "source": "Crossref",
+      "is-referenced-by-count": 971,
+      "title": [
+        "A Test for Superior Predictive Ability"
+      ],
+      "prefix": "10.1198",
+      "volume": "23",
+      "author": [
+        {
+          "given": "Peter Reinhard",
+          "family": "Hansen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "reference": [
+        {
+          "key": "p_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(97)00083-3"
+        },
+        {
+          "key": "p_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1468-0262.00114"
+        },
+        {
+          "key": "p_3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1468-0262.00092"
+        },
+        {
+          "key": "p_4",
+          "doi-asserted-by": "crossref",
+          "first-page": "598",
+          "DOI": "10.1017/S1365100501023070",
+          "volume": "5",
+          "author": "Chao J. C.",
+          "year": "2001",
+          "journal-title": "Macroeconomic Dynamics"
+        },
+        {
+          "key": "p_5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(01)00071-9"
+        },
+        {
+          "key": "p_7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(02)00099-4"
+        },
+        {
+          "key": "p_9",
+          "author": "Corradi V.",
+          "year": "2005",
+          "journal-title": "Journal of Econometrics, forthcoming."
+        },
+        {
+          "key": "p_10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(01)00086-0"
+        },
+        {
+          "key": "p_12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0266466600005843"
+        },
+        {
+          "key": "p_13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1392185"
+        },
+        {
+          "key": "p_15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912558"
+        },
+        {
+          "key": "p_16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(01)00093-8"
+        },
+        {
+          "key": "p_17",
+          "first-page": "113",
+          "author": "Folks L.",
+          "year": "1984",
+          "journal-title": "P. R. Krishnaiah and P. K. Sen, New York: North-Holland, pp."
+        },
+        {
+          "key": "p_20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0165-1765(03)00192-7"
+        },
+        {
+          "key": "p_21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912529"
+        },
+        {
+          "key": "p_24",
+          "author": "Hansen P. R.",
+          "year": "2005",
+          "journal-title": "Journal of Econometrics, forthcoming."
+        },
+        {
+          "key": "p_25",
+          "author": "Hansen P. R.",
+          "year": "2005",
+          "journal-title": "Journal of Applied Econometrics, forthcoming."
+        },
+        {
+          "key": "p_26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/1099-1255(200009/10)15:5<471::AID-JAE567>3.0.CO;2-X"
+        },
+        {
+          "key": "p_27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0169-2070(96)00719-4"
+        },
+        {
+          "key": "p_28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1392581"
+        },
+        {
+          "key": "p_29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(99)00042-1"
+        },
+        {
+          "key": "p_30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1081/ETC-200040785"
+        },
+        {
+          "key": "p_31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4076(86)90020-5"
+        },
+        {
+          "key": "p_32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176347265"
+        },
+        {
+          "key": "p_33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1018031117"
+        },
+        {
+          "key": "p_35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1176349754"
+        },
+        {
+          "key": "p_36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(00)00022-1"
+        },
+        {
+          "key": "p_38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aoms/1177697723"
+        },
+        {
+          "key": "p_39",
+          "doi-asserted-by": "crossref",
+          "first-page": "355",
+          "DOI": "10.1214/ss/1009212517",
+          "volume": "14",
+          "author": "Perlman M. D.",
+          "year": "1999",
+          "journal-title": "Statistical Science"
+        },
+        {
+          "key": "p_40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2290993"
+        },
+        {
+          "key": "p_44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-3932(99)00027-6"
+        },
+        {
+          "key": "p_45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00163"
+        },
+        {
+          "key": "p_46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(01)00077-X"
+        },
+        {
+          "key": "p_47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0169-2070(01)00140-6"
+        },
+        {
+          "key": "p_49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2171956"
+        },
+        {
+          "key": "p_50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1198/07350010152472580"
+        },
+        {
+          "key": "p_51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2527340"
+        },
+        {
+          "key": "p_53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/1468-0262.00152"
+        },
+        {
+          "key": "p_54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2288787"
+        },
+        {
+          "key": "p_55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0266466600012238"
+        },
+        {
+          "key": "p_56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-4076(89)90094-8"
+        },
+        {
+          "key": "p_57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2938170"
+        }
+      ],
+      "container-title": [
+        "Journal of Business &amp; Economic Statistics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://www.tandfonline.com/doi/pdf/10.1080/10256018808623883",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2021-07-17T22:20:31Z",
+        "timestamp": 1626560431000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://www.tandfonline.com/doi/abs/10.1198/073500105000000063"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2005,
+            10
+          ]
+        ]
+      },
+      "references-count": 42,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              10
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1198/073500105000000063"
+      ],
+      "URL": "https://doi.org/10.1198/073500105000000063",
+      "relation": {},
+      "ISSN": [
+        "0735-0015",
+        "1537-2707"
+      ],
+      "issn-type": [
+        {
+          "value": "0735-0015",
+          "type": "print"
+        },
+        {
+          "value": "1537-2707",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2005,
+            10
+          ]
+        ]
+      }
+    }
+  }
+}

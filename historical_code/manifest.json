@@ -1,0 +1,110 @@
+[
+  {
+    "revision": "91e64e79a620e5705fc75cbb72ef74764f30a5ce",
+    "source": "scripts/run_multi_factor_sdf_teacher.py",
+    "file": "historical_code/91e64e7/scripts/run_multi_factor_sdf_teacher.py",
+    "sha256": "e3c8c7857fc3dd3cff9f6edc9899d0c0a3a7b03c67c1b98df4e6aacac6403286"
+  },
+  {
+    "revision": "91e64e79a620e5705fc75cbb72ef74764f30a5ce",
+    "source": "scripts/run_neural_sdf_teacher.py",
+    "file": "historical_code/91e64e7/scripts/run_neural_sdf_teacher.py",
+    "sha256": "7d1c7b7924526b5915817b10a58d3d2dab5217fde322f429b064b37e6d71ebf2"
+  },
+  {
+    "revision": "91e64e79a620e5705fc75cbb72ef74764f30a5ce",
+    "source": "scripts/audit_dimension_geometry_surface.py",
+    "file": "historical_code/91e64e7/scripts/audit_dimension_geometry_surface.py",
+    "sha256": "4191b081ddc4e085c11f7eccfcc2e03b518e998ba846200b0d79d34293866bb9"
+  },
+  {
+    "revision": "91e64e79a620e5705fc75cbb72ef74764f30a5ce",
+    "source": "scripts/audit_hj_alpha_estimands.py",
+    "file": "historical_code/91e64e7/scripts/audit_hj_alpha_estimands.py",
+    "sha256": "c03a2677b3d6a421edc4ce9f022109043dc026c1da88e9d273d78d8a3955a882"
+  },
+  {
+    "revision": "c90488192a33c043c3a0860e261cc69eacddd2fe",
+    "source": "scripts/run_multi_factor_sdf_teacher.py",
+    "file": "historical_code/c9048819/scripts/run_multi_factor_sdf_teacher.py",
+    "sha256": "5c5af1f0c240f053959ef9569c1c141267e37dc919ac1c9511404055c3b456d6"
+  },
+  {
+    "revision": "c90488192a33c043c3a0860e261cc69eacddd2fe",
+    "source": "scripts/run_neural_sdf_teacher.py",
+    "file": "historical_code/c9048819/scripts/run_neural_sdf_teacher.py",
+    "sha256": "8fdd044cbc0ecf3e7151f2aac0af1f5a81d796cd1c57816da5daf2965e28623c"
+  },
+  {
+    "revision": "c90488192a33c043c3a0860e261cc69eacddd2fe",
+    "source": "scripts/audit_dimension_geometry_surface.py",
+    "file": "historical_code/c9048819/scripts/audit_dimension_geometry_surface.py",
+    "sha256": "4191b081ddc4e085c11f7eccfcc2e03b518e998ba846200b0d79d34293866bb9"
+  },
+  {
+    "revision": "c90488192a33c043c3a0860e261cc69eacddd2fe",
+    "source": "scripts/audit_hj_alpha_estimands.py",
+    "file": "historical_code/c9048819/scripts/audit_hj_alpha_estimands.py",
+    "sha256": "c03a2677b3d6a421edc4ce9f022109043dc026c1da88e9d273d78d8a3955a882"
+  },
+  {
+    "revision": "c90488192a33c043c3a0860e261cc69eacddd2fe",
+    "source": "scripts/audit_market_hedged_geometry.py",
+    "file": "historical_code/c9048819/scripts/audit_market_hedged_geometry.py",
+    "sha256": "4474d4386e4b2b1ec95dada4c7638fab2995d382eb042be66dbb53078586f08e"
+  },
+  {
+    "revision": "c90488192a33c043c3a0860e261cc69eacddd2fe",
+    "source": "scripts/audit_external_asset_geometry.py",
+    "file": "historical_code/c9048819/scripts/audit_external_asset_geometry.py",
+    "sha256": "4bc3b3138210099711e6f58a999b793846a9131004e57d05f56b669d4c7ea5e5"
+  },
+  {
+    "revision": "c90488192a33c043c3a0860e261cc69eacddd2fe",
+    "source": "scripts/audit_market_factor_completion.py",
+    "file": "historical_code/c9048819/scripts/audit_market_factor_completion.py",
+    "sha256": "63e9b530c5ac862dfb2caa244564c2dff060234a5a18b834d810634fa72b9c8d"
+  },
+  {
+    "revision": "ef83bd90d975cdf76b4e91f44194833da0600fa4",
+    "source": "scripts/run_multi_factor_sdf_teacher.py",
+    "file": "historical_code/ef83bd9/scripts/run_multi_factor_sdf_teacher.py",
+    "sha256": "5c5af1f0c240f053959ef9569c1c141267e37dc919ac1c9511404055c3b456d6"
+  },
+  {
+    "revision": "ef83bd90d975cdf76b4e91f44194833da0600fa4",
+    "source": "scripts/run_neural_sdf_teacher.py",
+    "file": "historical_code/ef83bd9/scripts/run_neural_sdf_teacher.py",
+    "sha256": "8fdd044cbc0ecf3e7151f2aac0af1f5a81d796cd1c57816da5daf2965e28623c"
+  },
+  {
+    "revision": "ef83bd90d975cdf76b4e91f44194833da0600fa4",
+    "source": "scripts/audit_dimension_geometry_surface.py",
+    "file": "historical_code/ef83bd9/scripts/audit_dimension_geometry_surface.py",
+    "sha256": "dcf9e475bb41205d1a68db63c253f78042ebee1dd0a6cbf67100819ba61c57ea"
+  },
+  {
+    "revision": "ef83bd90d975cdf76b4e91f44194833da0600fa4",
+    "source": "scripts/audit_hj_alpha_estimands.py",
+    "file": "historical_code/ef83bd9/scripts/audit_hj_alpha_estimands.py",
+    "sha256": "c03a2677b3d6a421edc4ce9f022109043dc026c1da88e9d273d78d8a3955a882"
+  },
+  {
+    "revision": "ef83bd90d975cdf76b4e91f44194833da0600fa4",
+    "source": "scripts/audit_market_hedged_geometry.py",
+    "file": "historical_code/ef83bd9/scripts/audit_market_hedged_geometry.py",
+    "sha256": "5fd3b0c68350d159c942722fdeac7ecf72b3d625819c2828a8335eecdffda857"
+  },
+  {
+    "revision": "ef83bd90d975cdf76b4e91f44194833da0600fa4",
+    "source": "scripts/audit_external_asset_geometry.py",
+    "file": "historical_code/ef83bd9/scripts/audit_external_asset_geometry.py",
+    "sha256": "2d6b244b5dfcb5fb2df867ae91f0f98c6065a84181eb29663177f631c839b996"
+  },
+  {
+    "revision": "ef83bd90d975cdf76b4e91f44194833da0600fa4",
+    "source": "scripts/audit_market_factor_completion.py",
+    "file": "historical_code/ef83bd9/scripts/audit_market_factor_completion.py",
+    "sha256": "63e9b530c5ac862dfb2caa244564c2dff060234a5a18b834d810634fa72b9c8d"
+  }
+]

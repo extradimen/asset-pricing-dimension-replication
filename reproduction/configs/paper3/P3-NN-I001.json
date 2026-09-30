@@ -1,0 +1,12 @@
+{
+  "experiment_id": "P3-NN-I001",
+  "input_dir": "experiments/P3-NN-U001-CUDA-FULL/returned/R001",
+  "monthly_sha256": "12a84096055de7b77454737cfbce3115e75c6cf5bdab3f6005eeb16ca3cd5c0c",
+  "output_manifest_sha256": "54d581bb537573aaeab6dd8a85f018e48a843ea5bac84cd9f38e22500301a16d",
+  "arms": ["frozen", "rolling60", "expanding"],
+  "updated_arms": ["rolling60", "expanding"],
+  "environments": ["A", "B1", "B2", "C"],
+  "primary_hac_lag": 12,
+  "sensitivity_hac_lags": [6, 24, 60],
+  "status": "exploratory_post_training_inference; Q1 and Q2 only; no beta/lambda structural claim"
+}

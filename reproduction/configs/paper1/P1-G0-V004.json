@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V004",
+  "parent_experiment_id": "P1-G0-V003",
+  "paper": 1,
+  "generation": "G0",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Construct a reproducible CRSP CIZ security-month panel with integrated delisting returns and daily-risk sufficient statistics.",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v3",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Implement the first G0 data pipeline milestone from the archived WRDS daily snapshot.",
+  "entrypoint": "scripts/build_crsp_monthly.py",
+  "validator": "scripts/validate_crsp_monthly.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V004",
+  "result_summary": "experiments/P1-G0-V004/result_summary.json"
+}

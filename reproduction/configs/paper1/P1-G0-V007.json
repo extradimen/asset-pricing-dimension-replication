@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V007",
+  "parent_experiment_id": "P1-G0-V006",
+  "paper": 1,
+  "generation": "G0",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Integrate the official GKX 94-characteristic public panel as a versioned benchmark and construct the Structured Core-92 feature input without announcement-window variables.",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "additional_data_snapshot_ids": [
+    "gkx-datashare-2021-v1"
+  ],
+  "research_snapshot_id": "paper1-design-2026-09-24-v3",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Audit and convert the official GKX datashare, preserve Core-94 for replication, define Core-92 for the primary pure structured-data specification, and measure overlap with the WRDS research master.",
+  "entrypoint": "scripts/build_gkx_feature_benchmark.py",
+  "validator": "scripts/validate_gkx_feature_benchmark.py",
+  "result_summary": "experiments/P1-G0-V007/result_summary.json",
+  "output_directory": "data/processed/gkx-datashare-2021-v1/P1-G0-V007",
+  "feature_sets": {
+    "primary": "structured_core_92",
+    "replication_benchmark": "gkx_core_94"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V006",
+  "parent_experiment_id": "P1-G0-V005",
+  "paper": 1,
+  "generation": "G0",
+  "status": "completed",
+  "evidence_class": "exploratory",
+  "research_question": "Construct the point-in-time CRSP-Compustat research master panel and quantify link/coverage ambiguities without inspecting sealed-period model outcomes.",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v3",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Join common-stock CRSP months to canonical CCM intervals, attach the latest available annual and quarterly statements, add freshness flags and next-month return targets, and validate all temporal constraints.",
+  "entrypoint": "scripts/build_research_master.py",
+  "validator": "scripts/validate_research_master.py",
+  "output_directory": "data/processed/wrds-us-equity-2025-12-v1/P1-G0-V006",
+  "result_summary": "experiments/P1-G0-V006/result_summary.json"
+}

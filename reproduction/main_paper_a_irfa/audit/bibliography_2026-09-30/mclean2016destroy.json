@@ -1,0 +1,617 @@
+{
+  "key": "mclean2016destroy",
+  "submitted": {
+    "key": "mclean2016destroy",
+    "type": "article",
+    "fields": {
+      "author": "McLean, R. David and Pontiff, Jeffrey",
+      "title": "Does Academic Research Destroy Stock Return Predictability?",
+      "journal": "The Journal of Finance",
+      "year": "2016",
+      "volume": "71",
+      "number": "1",
+      "pages": "5--32",
+      "doi": "10.1111/jofi.12365"
+    }
+  },
+  "status": "retrieved",
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1111/jofi.12365",
+  "raw": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T12:43:03Z",
+        "timestamp": 1790772183614,
+        "version": "4.1.0"
+      },
+      "reference-count": 61,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2016,
+                1,
+                14
+              ]
+            ],
+            "date-time": "2016-01-14T00:00:00Z",
+            "timestamp": 1452729600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Q Group"
+        },
+        {
+          "name": "Dauphine-Amundi Chair in Asset Management"
+        },
+        {
+          "DOI": "10.13039/501100000155",
+          "name": "SSHRC",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/501100000155",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "The Journal of Finance"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2016,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>We study the out‐of‐sample and post‐publication return predictability of 97 variables shown to predict cross‐sectional stock returns. Portfolio returns are 26% lower out‐of‐sample and 58% lower post‐publication. The out‐of‐sample decline is an upper bound estimate of data mining effects. We estimate a 32% (58%–26%) lower return from publication‐informed trading. Post‐publication declines are greater for predictors with higher in‐sample returns, and returns are higher for portfolios concentrated in stocks with high idiosyncratic risk and low liquidity. Predictor portfolios exhibit post‐publication increases in correlations with other published‐predictor portfolios. Our findings suggest that investors learn about mispricing from academic publications.</jats:p>",
+      "DOI": "10.1111/jofi.12365",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2015,
+            10,
+            13
+          ]
+        ],
+        "date-time": "2015-10-13T12:16:25Z",
+        "timestamp": 1444738585000
+      },
+      "page": "5-32",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1419,
+      "title": [
+        "Does Academic Research Destroy Stock Return Predictability?"
+      ],
+      "prefix": "10.1111",
+      "volume": "71",
+      "author": [
+        {
+          "given": "R. DAVID",
+          "family": "MCLEAN",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "JEFFREY",
+          "family": "PONTIFF",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            1,
+            14
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_7_2_1",
+          "unstructured": "Akbas Ferhat Will J.Armstrong SorinSorescu andAanidharSubrahmanyam 2014 Time varying market efficiency in the cross‐section of expected stock returns Working paper UCLA."
+        },
+        {
+          "key": "e_1_2_7_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2006.00836.x"
+        },
+        {
+          "key": "e_1_2_7_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1386-4181(01)00024-6"
+        },
+        {
+          "key": "e_1_2_7_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(86)90065-6"
+        },
+        {
+          "key": "e_1_2_7_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhr110"
+        },
+        {
+          "key": "e_1_2_7_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jofi.12021"
+        },
+        {
+          "key": "e_1_2_7_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S002210900000274X"
+        },
+        {
+          "key": "e_1_2_7_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-405X(03)00064-3"
+        },
+        {
+          "key": "e_1_2_7_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2004.04.003"
+        },
+        {
+          "key": "e_1_2_7_11_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1086/NTJ41792223",
+          "article-title": "Taxes, market valuation, and corporate financial policy",
+          "volume": "23",
+          "author": "Brennan Michael J.",
+          "year": "1970",
+          "journal-title": "National Tax Journal"
+        },
+        {
+          "key": "e_1_2_7_12_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chordia Tarun AvanidharSubrahmanyam andQingTong 2013 Trends in the cross‐section of expected stock returns Working paper Emory University.",
+          "DOI": "10.2139/ssrn.2029057"
+        },
+        {
+          "key": "e_1_2_7_13_1",
+          "first-page": "59",
+          "article-title": "Portfolio advice for a multifactor world",
+          "volume": "23",
+          "author": "Cochrane John H.",
+          "year": "1999",
+          "journal-title": "Economic Perspectives: Federal Reserve Bank of Chicago"
+        },
+        {
+          "key": "e_1_2_7_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2012.01729.x"
+        },
+        {
+          "key": "e_1_2_7_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/261703"
+        },
+        {
+          "key": "e_1_2_7_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00046"
+        },
+        {
+          "key": "e_1_2_7_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00322"
+        },
+        {
+          "key": "e_1_2_7_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2308/accr.00000006"
+        },
+        {
+          "key": "e_1_2_7_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2469/faj.v65.n2.3"
+        },
+        {
+          "key": "e_1_2_7_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfi.2009.06.003"
+        },
+        {
+          "key": "e_1_2_7_21_1",
+          "volume-title": "Foundations of Finance",
+          "author": "Fama Eugene F.",
+          "year": "1976"
+        },
+        {
+          "key": "e_1_2_7_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1991.tb04636.x"
+        },
+        {
+          "key": "e_1_2_7_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1992.tb04398.x"
+        },
+        {
+          "key": "e_1_2_7_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00080"
+        },
+        {
+          "key": "e_1_2_7_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/260061"
+        },
+        {
+          "key": "e_1_2_7_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2006.00859.x"
+        },
+        {
+          "key": "e_1_2_7_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhp083"
+        },
+        {
+          "key": "e_1_2_7_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhm014"
+        },
+        {
+          "key": "e_1_2_7_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11142-013-9231-1"
+        },
+        {
+          "key": "e_1_2_7_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hhm052"
+        },
+        {
+          "key": "e_1_2_7_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/14.1.29"
+        },
+        {
+          "key": "e_1_2_7_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/hht066"
+        },
+        {
+          "key": "e_1_2_7_33_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Harvey Campbell R. YanLiu andHeqingZhu 2013 … and the cross‐section of expected returns Working paper Duke University.",
+          "DOI": "10.3386/w20592"
+        },
+        {
+          "key": "e_1_2_7_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0304-405X(95)00868-F"
+        },
+        {
+          "key": "e_1_2_7_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1912352"
+        },
+        {
+          "key": "e_1_2_7_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/ss/1177011364"
+        },
+        {
+          "key": "e_1_2_7_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/B:RAST.0000013629.59222.df"
+        },
+        {
+          "key": "e_1_2_7_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.00342"
+        },
+        {
+          "key": "e_1_2_7_39_1",
+          "unstructured": "Kokkonen Joni andMattiSuominen 2014 Hedge funds and stock market efficiency Working paper Aalto University."
+        },
+        {
+          "key": "e_1_2_7_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.2004.00656.x"
+        },
+        {
+          "key": "e_1_2_7_41_1",
+          "volume-title": "Specification Searches: Ad Hoc Inference with Nonexperimental Data",
+          "author": "Leamer Edward E.",
+          "year": "1978"
+        },
+        {
+          "key": "e_1_2_7_42_1",
+          "first-page": "324",
+          "article-title": "The stability of moving average technical trading rules on the Dow Jones Index",
+          "volume": "5",
+          "author": "LeBaron Blake",
+          "year": "2000",
+          "journal-title": "Derivatives Use, Trading and Regulation"
+        },
+        {
+          "key": "e_1_2_7_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1991.tb03746.x"
+        },
+        {
+          "key": "e_1_2_7_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-405X(03)00206-X"
+        },
+        {
+          "key": "e_1_2_7_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1561/104.00000024"
+        },
+        {
+          "key": "e_1_2_7_46_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu Qi LeiLu BoSun andHongjunYan 2014 A model of anomaly discovery Working paper Yale School of Management.",
+          "DOI": "10.2139/ssrn.2431498"
+        },
+        {
+          "key": "e_1_2_7_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/rfs/3.3.431"
+        },
+        {
+          "key": "e_1_2_7_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0022109010000311"
+        },
+        {
+          "key": "e_1_2_7_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2008.09.009"
+        },
+        {
+          "key": "e_1_2_7_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1995.tb04796.x"
+        },
+        {
+          "key": "e_1_2_7_51_1",
+          "unstructured": "Mittoo Usha andRexThompson 1990 Do capital markets learn from financial economists? Working paper Southern Methodist University."
+        },
+        {
+          "key": "e_1_2_7_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jfineco.2011.11.003"
+        },
+        {
+          "key": "e_1_2_7_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1909635"
+        },
+        {
+          "key": "e_1_2_7_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2946710"
+        },
+        {
+          "key": "e_1_2_7_55_1",
+          "first-page": "155",
+          "article-title": "Excess volatility and closed‐end funds",
+          "volume": "87",
+          "author": "Pontiff Jeffrey",
+          "year": "1997",
+          "journal-title": "American Economic Review"
+        },
+        {
+          "key": "e_1_2_7_56_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jacceco.2006.04.002"
+        },
+        {
+          "key": "e_1_2_7_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/0022-1082.95722"
+        },
+        {
+          "key": "e_1_2_7_58_1",
+          "volume-title": "Handbook of the Economics of Finance",
+          "author": "Schwert G. William",
+          "year": "2003"
+        },
+        {
+          "key": "e_1_2_7_59_1",
+          "first-page": "421",
+          "article-title": "Do stock prices move too much to be justified by subsequent changes in dividends",
+          "volume": "71",
+          "author": "Shiller Robert",
+          "year": "1981",
+          "journal-title": "American Economic Review"
+        },
+        {
+          "key": "e_1_2_7_60_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1540-6261.1997.tb03807.x"
+        },
+        {
+          "key": "e_1_2_7_61_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-4076(01)00077-X"
+        },
+        {
+          "key": "e_1_2_7_62_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/295508"
+        }
+      ],
+      "container-title": [
+        "The Journal of Finance"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjofi.12365",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjofi.12365",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jofi.12365",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2023-10-05T11:03:42Z",
+        "timestamp": 1696503822000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.12365"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2016,
+            1,
+            14
+          ]
+        ]
+      },
+      "references-count": 61,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              2
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1111/jofi.12365"
+      ],
+      "URL": "https://doi.org/10.1111/jofi.12365",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "0022-1082",
+        "1540-6261"
+      ],
+      "issn-type": [
+        {
+          "value": "0022-1082",
+          "type": "print"
+        },
+        {
+          "value": "1540-6261",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            1,
+            14
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2013-05-16",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2015-05-21",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2016-01-14",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

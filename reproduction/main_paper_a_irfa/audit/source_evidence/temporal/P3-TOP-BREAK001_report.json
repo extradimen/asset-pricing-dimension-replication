@@ -1,0 +1,210 @@
+{
+  "experiment_id": "P3-TOP-BREAK001",
+  "scope": "Retrospective exploratory cross-model break analysis of already observed 2000-2019 A/B components. It verifies the new tree archive and summarizes all three models, but does not convert the estimated break date into a real-time trading rule or a confirmatory structural-break claim.",
+  "claim_boundary": "The global bootstrap p-value is exploratory because the statistic and full 2000-2019 sample are used to select the break. A confirmatory claim requires a separately locked rule tested on untouched later outcomes; 2020-2025 outcomes remain inaccessible in this run.",
+  "months": 239,
+  "archive_verification": {
+    "manifests": "pass",
+    "all_output_hashes": "pass",
+    "calendar": "pass",
+    "exact_loss_identities": "pass"
+  },
+  "summaries": {
+    "neural": {
+      "rolling60": {
+        "full_2000_2019": {
+          "months": 239,
+          "adjustment_cost_A": 0.00041901684783378677,
+          "alignment_benefit_2B": 0.00028120662875684817,
+          "updated_minus_frozen_loss": 0.00013781021907693873,
+          "ex_post_lambda_star_from_mean_terms": 0.3355552768470012,
+          "months_full_update_helped": 135
+        },
+        "development_2000_2009": {
+          "months": 119,
+          "adjustment_cost_A": 0.0005825192023232534,
+          "alignment_benefit_2B": 5.1233964070173846e-05,
+          "updated_minus_frozen_loss": 0.0005312852382530797,
+          "ex_post_lambda_star_from_mean_terms": 0.04397620187097535,
+          "months_full_update_helped": 60
+        },
+        "promotion_2010_2019": {
+          "months": 120,
+          "adjustment_cost_A": 0.0002568770129650656,
+          "alignment_benefit_2B": 0.0005092628545711336,
+          "updated_minus_frozen_loss": -0.00025238584160606787,
+          "ex_post_lambda_star_from_mean_terms": 0.9912581291195401,
+          "months_full_update_helped": 75
+        }
+      },
+      "expanding": {
+        "full_2000_2019": {
+          "months": 239,
+          "adjustment_cost_A": 0.00028219372331880137,
+          "alignment_benefit_2B": -0.00016593986425962677,
+          "updated_minus_frozen_loss": 0.0004481335875784282,
+          "ex_post_lambda_star_from_mean_terms": 0.0,
+          "months_full_update_helped": 111
+        },
+        "development_2000_2009": {
+          "months": 119,
+          "adjustment_cost_A": 0.00047457187185057445,
+          "alignment_benefit_2B": -0.00033111687985880426,
+          "updated_minus_frozen_loss": 0.000805688751709379,
+          "ex_post_lambda_star_from_mean_terms": 0.0,
+          "months_full_update_helped": 52
+        },
+        "promotion_2010_2019": {
+          "months": 120,
+          "adjustment_cost_A": 9.141872602479311e-05,
+          "alignment_benefit_2B": -2.1393237904423694e-06,
+          "updated_minus_frozen_loss": 9.355804981523553e-05,
+          "ex_post_lambda_star_from_mean_terms": 0.0,
+          "months_full_update_helped": 59
+        }
+      }
+    },
+    "ridge": {
+      "rolling60": {
+        "full_2000_2019": {
+          "months": 239,
+          "adjustment_cost_A": 0.002874213665137744,
+          "alignment_benefit_2B": 0.001851516840403307,
+          "updated_minus_frozen_loss": 0.0010226968247344502,
+          "ex_post_lambda_star_from_mean_terms": 0.32209102316590904,
+          "months_full_update_helped": 124
+        },
+        "development_2000_2009": {
+          "months": 119,
+          "adjustment_cost_A": 0.004207508575935611,
+          "alignment_benefit_2B": 0.002167117353422409,
+          "updated_minus_frozen_loss": 0.0020403912225132248,
+          "ex_post_lambda_star_from_mean_terms": 0.25752976070173705,
+          "months_full_update_helped": 52
+        },
+        "promotion_2010_2019": {
+          "months": 120,
+          "adjustment_cost_A": 0.0015520295452631926,
+          "alignment_benefit_2B": 0.0015385463316593643,
+          "updated_minus_frozen_loss": 1.3483213603831859e-05,
+          "ex_post_lambda_star_from_mean_terms": 0.4956562638755882,
+          "months_full_update_helped": 72
+        }
+      },
+      "expanding": {
+        "full_2000_2019": {
+          "months": 239,
+          "adjustment_cost_A": 0.0005003742566916654,
+          "alignment_benefit_2B": 0.0006511087649944125,
+          "updated_minus_frozen_loss": -0.0001507345083027475,
+          "ex_post_lambda_star_from_mean_terms": 0.6506217658951537,
+          "months_full_update_helped": 141
+        },
+        "development_2000_2009": {
+          "months": 119,
+          "adjustment_cost_A": 0.000662125661763187,
+          "alignment_benefit_2B": 0.0006310911864086994,
+          "updated_minus_frozen_loss": 3.103447535448749e-05,
+          "ex_post_lambda_star_from_mean_terms": 0.4765645124885771,
+          "months_full_update_helped": 66
+        },
+        "promotion_2010_2019": {
+          "months": 120,
+          "adjustment_cost_A": 0.00033997077999573975,
+          "alignment_benefit_2B": 0.0006709595304252444,
+          "updated_minus_frozen_loss": -0.00033098875042950553,
+          "ex_post_lambda_star_from_mean_terms": 0.986789997707527,
+          "months_full_update_helped": 75
+        }
+      }
+    },
+    "tree": {
+      "rolling60": {
+        "full_2000_2019": {
+          "months": 239,
+          "adjustment_cost_A": 0.003535516733704609,
+          "alignment_benefit_2B": 0.0034148411293898075,
+          "updated_minus_frozen_loss": 0.00012067560431480137,
+          "ex_post_lambda_star_from_mean_terms": 0.48293380948188097,
+          "months_full_update_helped": 126
+        },
+        "development_2000_2009": {
+          "months": 119,
+          "adjustment_cost_A": 0.0037087142226801023,
+          "alignment_benefit_2B": 0.0025864855125835827,
+          "updated_minus_frozen_loss": 0.0011222287100965207,
+          "ex_post_lambda_star_from_mean_terms": 0.3487038037018742,
+          "months_full_update_helped": 50
+        },
+        "promotion_2010_2019": {
+          "months": 120,
+          "adjustment_cost_A": 0.0033637625571372445,
+          "alignment_benefit_2B": 0.004236293782722648,
+          "updated_minus_frozen_loss": -0.0008725312255854032,
+          "ex_post_lambda_star_from_mean_terms": 0.6296957217943436,
+          "months_full_update_helped": 76
+        }
+      },
+      "expanding": {
+        "full_2000_2019": {
+          "months": 239,
+          "adjustment_cost_A": 0.0014727470880728489,
+          "alignment_benefit_2B": 0.002684763008576636,
+          "updated_minus_frozen_loss": -0.0012120159205037874,
+          "ex_post_lambda_star_from_mean_terms": 0.9114813501650717,
+          "months_full_update_helped": 146
+        },
+        "development_2000_2009": {
+          "months": 119,
+          "adjustment_cost_A": 0.0011504867145320302,
+          "alignment_benefit_2B": 0.0019212317158411093,
+          "updated_minus_frozen_loss": -0.0007707450013090795,
+          "ex_post_lambda_star_from_mean_terms": 0.834964755165637,
+          "months_full_update_helped": 67
+        },
+        "promotion_2010_2019": {
+          "months": 120,
+          "adjustment_cost_A": 0.0017923219585008275,
+          "alignment_benefit_2B": 0.003441931540539367,
+          "updated_minus_frozen_loss": -0.0016496095820385396,
+          "ex_post_lambda_star_from_mean_terms": 0.9601878513552167,
+          "months_full_update_helped": 79
+        }
+      }
+    }
+  },
+  "common_break": {
+    "series": [
+      "neural:rolling60",
+      "neural:expanding",
+      "ridge:rolling60",
+      "ridge:expanding",
+      "tree:rolling60",
+      "tree:expanding"
+    ],
+    "estimated_first_month_after_break": 201405,
+    "last_month_before_break": 201404,
+    "split_index": 171,
+    "pooled_sse_reduction": 35.75571725366103,
+    "exploratory_null_bootstrap_p_value": 0.0214,
+    "bootstrap_95pct_first_month_after_break_interval": [
+      200910,
+      201501
+    ],
+    "standardized_mean_shift_by_series": {
+      "neural:rolling60": 0.4473894752867305,
+      "neural:expanding": 0.053951787247560515,
+      "ridge:rolling60": 0.41244861343199796,
+      "ridge:expanding": 0.24674924400078446,
+      "tree:rolling60": 0.5035508378704705,
+      "tree:expanding": 0.2174545945551667
+    },
+    "positive_shift_series_count": 6,
+    "bootstrap": {
+      "null_replications": 4999,
+      "alternative_replications": 1999,
+      "block_months": 12
+    },
+    "interpretation": "Retrospective exploratory break only; not a real-time environment definition or confirmatory test."
+  }
+}

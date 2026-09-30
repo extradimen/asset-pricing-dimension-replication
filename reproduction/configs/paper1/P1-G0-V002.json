@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G0-V002",
+  "parent_experiment_id": "P1-G0-V001",
+  "paper": 1,
+  "generation": "G0",
+  "status": "planned",
+  "evidence_class": "exploratory",
+  "research_question": "Map teacher-student compression losses to firm information, priced risks, market states, and trading frictions.",
+  "data_snapshot_id": "wrds-us-equity-2025-12-v1",
+  "research_snapshot_id": "paper1-design-2026-09-24-v2",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Add an economic interpretation layer and Experiment 4D without altering the archived V001 baseline.",
+  "entrypoint": null
+}

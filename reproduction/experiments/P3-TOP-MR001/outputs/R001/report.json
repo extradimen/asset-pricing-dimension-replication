@@ -1,0 +1,67 @@
+{
+  "experiment_id": "P3-TOP-MR001",
+  "scope": "Exact Ridge update-loss decomposition using archived coefficients and monthly sufficient statistics; no refitting, parameter change, or later-period access.",
+  "purpose": "Determine whether the neural-network decade reversal and adjustment-cost/alignment mechanism generalize to the linear Ridge benchmark.",
+  "months": 239,
+  "max_absolute_identity_error": 3.122502256758253e-16,
+  "summary": {
+    "rolling60": {
+      "2000_2009": {
+        "adjustment_cost_A": 0.004207508575935611,
+        "alignment_benefit_2B": 0.002167117353422409,
+        "updated_minus_frozen_loss": 0.0020403912225132248,
+        "alignment_B": 0.0010835586767112045,
+        "ex_post_lambda_star": 0.25752976070173705,
+        "months": 119,
+        "months_full_update_helped": 52
+      },
+      "2010_2019": {
+        "adjustment_cost_A": 0.0015520295452631926,
+        "alignment_benefit_2B": 0.0015385463316593643,
+        "updated_minus_frozen_loss": 1.3483213603831859e-05,
+        "alignment_B": 0.0007692731658296821,
+        "ex_post_lambda_star": 0.4956562638755882,
+        "months": 120,
+        "months_full_update_helped": 72
+      },
+      "2000_2019": {
+        "adjustment_cost_A": 0.002874213665137744,
+        "alignment_benefit_2B": 0.001851516840403307,
+        "updated_minus_frozen_loss": 0.0010226968247344502,
+        "alignment_B": 0.0009257584202016535,
+        "ex_post_lambda_star": 0.32209102316590904,
+        "months": 239,
+        "months_full_update_helped": 124
+      }
+    },
+    "expanding": {
+      "2000_2009": {
+        "adjustment_cost_A": 0.000662125661763187,
+        "alignment_benefit_2B": 0.0006310911864086994,
+        "updated_minus_frozen_loss": 3.103447535448749e-05,
+        "alignment_B": 0.0003155455932043497,
+        "ex_post_lambda_star": 0.4765645124885771,
+        "months": 119,
+        "months_full_update_helped": 66
+      },
+      "2010_2019": {
+        "adjustment_cost_A": 0.00033997077999573975,
+        "alignment_benefit_2B": 0.0006709595304252444,
+        "updated_minus_frozen_loss": -0.00033098875042950553,
+        "alignment_B": 0.0003354797652126222,
+        "ex_post_lambda_star": 0.986789997707527,
+        "months": 120,
+        "months_full_update_helped": 75
+      },
+      "2000_2019": {
+        "adjustment_cost_A": 0.0005003742566916654,
+        "alignment_benefit_2B": 0.0006511087649944125,
+        "updated_minus_frozen_loss": -0.0001507345083027475,
+        "alignment_B": 0.00032555438249720625,
+        "ex_post_lambda_star": 0.6506217658951537,
+        "months": 239,
+        "months_full_update_helped": 141
+      }
+    }
+  }
+}

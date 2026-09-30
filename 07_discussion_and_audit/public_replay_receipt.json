@@ -1,0 +1,21 @@
+{
+  "scope": "Public frozen-output replay; no training or Monte Carlo experiment run",
+  "status": "passed",
+  "command": "python reproduce_public.py",
+  "python": "3.12.2",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1",
+    "matplotlib": "3.10.8"
+  },
+  "outputs": [
+    "21-page authored paper",
+    "21-page anonymous paper",
+    "1-page title page",
+    "20-page supplement",
+    "six main figures plus optional graphical abstract",
+    "five formatted tables and supplemental long tables"
+  ],
+  "cross_platform_bitwise_training_claim": false
+}

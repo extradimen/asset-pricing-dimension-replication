@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "ken-french-external-six-families-2026-07-v1",
+  "retrieved_at": "2026-09-24T17:08:00+08:00",
+  "source_page": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+  "retrieval_timing": "Downloaded only after P1-G1-V021 was frozen in commit c2a3346 and tag paper1-g1-pivot-confirmation-design-2026-09-24.",
+  "files": [
+    {
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_OP_5x5_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-external-six-families-2026-07/25_Portfolios_ME_OP_5x5_CSV.zip",
+      "bytes": 384080,
+      "sha256": "7cbe57f3cca13039b6fce13f80c4fbfbab59292cfa2984cacec4a6d4e46a022e"
+    },
+    {
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_INV_5x5_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-external-six-families-2026-07/25_Portfolios_ME_INV_5x5_CSV.zip",
+      "bytes": 385156,
+      "sha256": "88e66145f9e0589ffcb7f8b96c518e917b654d9a4a0407e85562bfae73831f84"
+    },
+    {
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_Prior_12_2_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-external-six-families-2026-07/25_Portfolios_ME_Prior_12_2_CSV.zip",
+      "bytes": 427073,
+      "sha256": "cc76640d778055a500192fe9e8419e7e7516649b5a9c052550be297d5f18a0be"
+    },
+    {
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_AC_5x5_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-external-six-families-2026-07/25_Portfolios_ME_AC_5x5_CSV.zip",
+      "bytes": 533241,
+      "sha256": "9b817dc19f72ce89508b133400259640204ded97093436a772fb3eeccaab2415"
+    },
+    {
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_BETA_5x5_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-external-six-families-2026-07/25_Portfolios_ME_BETA_5x5_CSV.zip",
+      "bytes": 464621,
+      "sha256": "214b387d364f3dad2c7d2aad78fbbbabd8b1b264f1160672ccbb9bbf05eac155"
+    },
+    {
+      "source": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_ME_RESVAR_5x5_CSV.zip",
+      "relative_path": "data/raw/public/ken-french-external-six-families-2026-07/25_Portfolios_ME_RESVAR_5x5_CSV.zip",
+      "bytes": 489463,
+      "sha256": "a09d29b8bcffa490d1977eb59698c3e2bdaef2ed9fec9e3eb4138b084bae0c6c"
+    }
+  ],
+  "license_note": "Official public research downloads; retain attribution and source hashes."
+}
