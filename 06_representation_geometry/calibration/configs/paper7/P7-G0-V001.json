@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P7-G0-V001",
+  "parent_experiment_id": null,
+  "paper": 7,
+  "generation": "G0",
+  "status": "planned",
+  "evidence_class": "synthetic_identification_audit",
+  "research_question": "Can the proposed finite-scale geometry panel distinguish true low-dimensional support, curvature, anisotropy, normalization artifacts, finite-sample bias, and representation collapse under known truth?",
+  "data_snapshot_id": "paper7-synthetic-geometry-v1",
+  "research_snapshot_id": "paper7-design-2026-09-28-v1",
+  "sealed_test_period": null,
+  "sealed_outputs_allowed": false,
+  "random_seeds": [17, 41, 73, 101, 149],
+  "synthetic_design": {
+    "ambient_dimension": 32,
+    "sample_sizes": [256, 512, 1024],
+    "dgps": ["plane3", "plane8", "swiss_roll", "sphere2", "anisotropic_full20", "scale_artifact8", "near_collapse"]
+  },
+  "geometry": {
+    "normalizations": ["raw_centered", "feature_zscore", "row_l2_centered"],
+    "estimators": ["entropy_effective_rank", "participation_rank", "stable_rank", "twonn", "levina_bickel_10", "levina_bickel_20", "local_tangent_curvature"]
+  },
+  "entrypoint": "scripts/run_paper7_synthetic_geometry.py"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T09:11:09.307869+00:00",
+  "experiment_id": "P7-G0-V002",
+  "run_id": "P7-G0-V002-R001",
+  "inputs": [
+    {
+      "path": "./configs/paper7/P7-G0-V002.json",
+      "sha256": "1fe6bafd8900aadac21247390a90926aefd4175613e2787d4564bbd6bf1e5bf9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "synthetic_geometry.csv",
+      "size_bytes": 67929,
+      "sha256": "e7116e140713e4b2e4686cb39e0722ddbecdb321a19fdbde4e7994d3ed87dd98"
+    },
+    {
+      "path": "quality_report.json",
+      "size_bytes": 679,
+      "sha256": "e476e43035a0a3ad6f66a7316445b8e76042c346b6b658e02e4952562cff700e"
+    },
+    {
+      "path": "environment.json",
+      "size_bytes": 216,
+      "sha256": "2b10c674ec49839fcceabc6798a373a76a1dbb28f57150c7eb5177226ff0ba2b"
+    }
+  ]
+}
