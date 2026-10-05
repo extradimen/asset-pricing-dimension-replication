@@ -15,3 +15,8 @@ Audit date: 2026-10-01. The release preserves observed results, including failur
 11. **Publication status.** This is a replication archive for an author manuscript, not proof of journal acceptance or a claim to be the first study of low-dimensional asset-pricing representations.
 
 The 60 research references were checked against DOI registries or official proceedings pages. Bibliographic audit records identify their sources. The additional archive citation refers to this release. Initial journal submission uses the official Elsevier `elsarticle` class without publisher logos or fictitious volume, DOI, acceptance or copyright information. Author and repository identifiers are separated from the anonymous submission file.
+
+
+## Version 1.2.0
+
+V003 contradicts a uniform selection-instability claim: K=8 concentrates selection. V004 finds material undercoverage for the new simultaneous intervals; non-rejection is not used for equivalence. These exploratory controls do not repair chronology or establish a new economic mechanism. See the new manuscript Appendix A.

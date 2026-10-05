@@ -1,0 +1,9 @@
+Appendix A / Table A.1
+
+Protocol: reproduction/configs/paper1/P1-G4-V004.json
+Code: reproduction/scripts/paper_a_inference_calibration.py and run_paper_a_inference_calibration.py
+Evidence: reproduction/experiments/P1-G4-V004/P1-G4-V004-R001/
+outer_results.json.gz contains every outer replication, grouped by 30 scenario IDs (400 rows each). These are fully synthetic and publicly reusable.
+
+Run reproduce_iref.py for arithmetic and exhibit checks without new estimation. Full simulation child command, from reproduction/: python scripts/run_paper_a_inference_calibration.py --config configs/paper1/P1-G4-V004.json --output-dir NEW_EMPTY_PATH --device cuda
+Use the mandatory institutional controller and a verified immutable environment where applicable. Inputs include checksum-pinned code and V003 configuration, all released. The original runtime is recorded in environment.json. Do not describe the failed calibration as a passing check; software arithmetic correctness does not imply statistical coverage. No alternative interval tuning was performed after failure.

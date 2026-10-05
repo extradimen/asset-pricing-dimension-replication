@@ -1,0 +1,14 @@
+{
+  "selection": "K chosen by validation predictive R2 only",
+  "chosen_K": 8,
+  "validation_predictive_R2_positive": true,
+  "development_predictive_R2_positive": true,
+  "development_HJ_not_worse_than_FF5_MOM_point_estimate": true,
+  "HJ_difference_to_FF5_MOM": -0.9327913263485286,
+  "HJ_difference_pointwise_95": [
+    -2.54743316654342,
+    0.5005932536859378
+  ],
+  "all_point_criteria_pass": true,
+  "interpretation": "Prespecified diagnostic gate, not proof of global competitiveness or inferential noninferiority. Report failures without retuning."
+}

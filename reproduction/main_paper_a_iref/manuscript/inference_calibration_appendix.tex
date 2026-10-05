@@ -1,0 +1,91 @@
+% IREF working appendix fragment; all numbers copied from frozen V004 outputs.
+% Requires booktabs. No replacement for the archived V003/V004 numerical files.
+\section{Calibration of the exploratory dimension-comparison intervals}
+\label{app:inference-calibration}
+
+Experiment P1-G4-V004 evaluates the previously fixed simultaneous-interval
+procedure without fitting additional networks or examining additional empirical
+periods. Six candidate labels and five model variants are represented by pricing
+moment vectors with known population means. After a fixed whitening transform,
+their population distance is $d_{ks}=\sqrt{12}\|\mu_{ks}\|_2$. Deterministic
+rotations give the five variants the same population distance within each
+candidate. Stationary Gaussian AR(1) innovations combine common, candidate, and
+variant components with variance shares 0.5, 0.3, and 0.2. Total innovation energy
+is held constant across moment ranks. This is a moment-level calibration,
+conditional on fixed models and weights, rather than a structural return/SDF
+model or an estimate of power for the empirical panel.
+
+For each simulated sample, we reproduce the original procedure: common
+12-month circular time blocks, five jointly resampled variant indices, the
+average of variant-specific sample distances, and all 15 pairwise differences.
+For difference $j$, let $\widehat\Delta_j$ be its point estimate,
+$\widehat\Delta_j^{*(b)}$ its bootstrap value, and $s_j^*$ the bootstrap standard
+deviation. The common critical value is the 0.95 bootstrap quantile of
+$\max_j |(\widehat\Delta_j^{*(b)}-\widehat\Delta_j)/s_j^*|$; the interval is
+$\widehat\Delta_j\pm c_{.95}s_j^*$. This is a single-step maximum standardized
+bootstrap-deviation construction. It does not re-estimate the standardizer
+inside each draw and does not implement a stepdown procedure.
+
+The frozen design contains 30 scenarios, each with 400 independently seeded
+outer replications and 1,999 inner draws. The primary scenarios use 74 moment
+coordinates, 120 months, baseline distance five, AR coefficients zero or 0.5,
+and population gaps of zero, 0.5, one, or two between the first five candidates
+and the sixth. Prespecified sensitivities extend the sample to 240 or 600 months,
+reduce the moment rank to four, or set all distances to zero. Candidate labels
+do not represent a known structural factor count. The design contains no
+post-calibration adjustment to the block length, candidate grid, or interval
+construction.
+
+\begin{widetable}[!tbp]
+\centering
+\caption{Equal-distance calibration: simultaneous coverage and familywise rejection}
+\label{tab:inference-calibration}
+\small
+\begin{tabular}{rrrrrr}
+\toprule
+Months & Rank & Distance & AR coefficient & Coverage (\%) & FWER (\%) \\
+\midrule
+120 & 74 & 5 & 0.0 & 83.50 & 16.50 \\
+120 & 74 & 5 & 0.5 & 87.00 & 13.00 \\
+240 & 74 & 5 & 0.0 & 91.50 & 8.50 \\
+240 & 74 & 5 & 0.5 & 91.75 & 8.25 \\
+600 & 74 & 5 & 0.0 & 93.25 & 6.75 \\
+600 & 74 & 5 & 0.5 & 93.00 & 7.00 \\
+120 & 4 & 5 & 0.0 & 86.25 & 13.75 \\
+120 & 4 & 5 & 0.5 & 90.50 & 9.50 \\
+120 & 74 & 0 & 0.0 & 98.75 & 1.25 \\
+120 & 74 & 0 & 0.5 & 98.50 & 1.50 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.96\linewidth}\footnotesize
+Each row contains 400 outer replications. Coverage requires all 15 intervals
+to include their population differences. FWER is the probability of excluding
+zero in at least one comparison; since all differences in these rows equal
+zero, it equals one minus simultaneous coverage. Nominal values are 95\%
+coverage and 5\% FWER. Wilson Monte Carlo 95\% intervals for coverage in the
+first two rows are [79.55,86.82]\% and [83.35,89.95]\%; the corresponding FWER
+intervals are [13.18,20.45]\% and [10.05,16.65]\%. These probabilities describe
+the specified simulations, not empirical error probabilities for U.S. equities.
+All 30 scenarios, including unequal-distance detection results, are retained
+in the experiment archive.
+\end{minipage}
+\end{widetable}
+
+The primary short-sample equal-distance scenarios exhibit undercoverage and
+excess familywise rejection. Longer samples improve coverage in those scenarios
+but do not establish exact calibration. The two zero-distance stress scenarios
+are conservative, so the primary failures cannot be attributed simply to the
+norm's nondifferentiability at zero. The experiment does not isolate the
+contributions of block length, nonlinear transformation, dependence, and
+variant resampling. In particular, the fixed rotated variants do not reproduce
+the distribution of repeatedly trained networks. These limits restrict the
+interpretation of the calibration without removing its adverse result.
+
+This exercise does not calibrate the separate predictive-$R^2$ intervals,
+the pointwise difference from FF5 plus momentum, or the earlier paper's other
+procedures. Nor does failure of this particular construction establish a new
+economic mechanism. Its consequence is narrower: the exploratory simultaneous
+intervals are not used to support equivalence, a confidence set for a unique
+dimension, or structural nonidentification. Point estimates and all original
+outputs remain reported without retuning the empirical models.

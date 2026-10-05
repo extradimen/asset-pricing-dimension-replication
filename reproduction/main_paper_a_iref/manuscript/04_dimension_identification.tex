@@ -1,0 +1,117 @@
+\section{Pricing dimension: empirical sensitivity and statistical identification}
+
+\subsection{Development-period dimension surfaces}
+
+Within the original diagnostic family, the preferred dimension changes with the data definition and pricing geometry (Figure~\ref{fig:dev-surfaces}). Each row is a candidate dimension within one feature-lineage--test-asset environment, and each column is one of the 21 evaluation geometries. Cell color measures the percentage pricing-distance loss relative to the pointwise best candidate, so the figure preserves both the winner and the economic size of every model's shortfall. The outlined path follows the winner based on the five-seed mean, while circle size records how many individual seeds select that row. A single model does not dominate every asset family and every geometry. For Core-86, the aggregate endpoint winner for the combined 74 assets moves from $K=2$ under the equal-moment endpoint to $K=4$ under the HJ endpoint. The industry and size--book-to-market sets move from $K=2$ to $K=1$. For Core-92, the equal-moment endpoint selects $K=5$ for all three primary sets, while the HJ endpoint selects $K=1$, $4$, and $8$ for the combined, industry, and size--book-to-market assets.
+
+\begin{widefigure}[!tbp]
+\centering
+\includegraphics[width=0.98\textwidth]{figure_02_dimension_sensitivity.pdf}
+\caption{Empirical dimension-competition field. The 756 cells report every frozen five-seed mean for the archived development windows: two characteristic definitions, three primary test-asset sets, six candidate dimensions, and 21 evaluation geometries. Color is excess pricing distance relative to the best candidate in the same environment and geometry, clipped at 50\% for display; dark blue denotes close competition and orange denotes economically large shortfall. The outlined diamond path follows the winner of the five-seed mean. Hollow circles are a distinct statistic: their area records one to five seed-level winner votes for the corresponding dimension, computed from all 3,780 seed-specific distances. A circle away from the diamond path therefore indicates seed-level support that does not win after averaging. Geometry zero is the equal-moment endpoint and one is the HJ-type endpoint. Core-92 evaluates February 2010--January 2020 returns; Core-86 evaluates January 2010--December 2019 returns. The comparison also changes construction and coverage, not only feature count.}
+\label{fig:dev-surfaces}
+\end{widefigure}
+
+Table~\ref{tab:dimension-evidence} reports all six candidate dimensions at both endpoints. Its common column structure allows a direct comparison of Core-92 and Core-86 within each asset set. Boldface identifies the seed-mean minimum; neighboring entries show whether that minimum is separated from the alternatives. Parentheses summarize dispersion across five fixed training seeds, not time-series sampling uncertainty.
+
+\input{dimension_comparison}
+
+The result is not merely that two losses produce two answers. The economic content of a pricing error depends on direction. Equal weighting emphasizes the coordinate representation of the moments. HJ weighting discounts directions with large payoff second moments and emphasizes directions that are expensive to span. If weak priced directions are correlated with dominant common directions, a change in $W$ changes the signal-to-noise tradeoff. A dimension claim that is robust only to one geometry is therefore a statement about that loss, not a loss-free risk count.
+
+\subsection{Data-definition and seed instability}
+
+The archived Core-92 and Core-86 row blocks in Figure~\ref{fig:dev-surfaces}, together with Table~\ref{tab:dimension-evidence}, compare the entire six-dimension ordering under the two feature lineages. Exact agreement is nearly absent. Across 21 geometries, the best $K$ agrees twice for the 25 size--book-to-market portfolios, never for industries, and once for the combined assets. Mean Spearman correlations are $-0.355$, $-0.156$, and $-0.151$, respectively; their minima are $-0.600$, $-0.371$, and $-0.371$. Mean Kendall correlations are $-0.263$, $-0.111$, and $-0.124$. The color field also shows that the result is not uniformly driven by economically negligible ties: some switches occur within a broad blue region of small descriptive loss gaps, while others coincide with large orange shortfalls for the displaced candidate. Thus the change reaches beyond a close tie at the minimum; it reverses much of the ordering.
+
+This archived comparison cannot separate feature information from measurement, coverage, missingness, and timing. We therefore retain it as a pipeline sensitivity result and examine deletion separately using the later same-panel control. Neither comparison identifies the marginal causal effect of an individual characteristic on expected returns.
+
+Seed sensitivity points in the same direction. There are 12 combinations of data definition, primary asset set, and endpoint geometry. None yields a five-of-five unanimous best dimension. Averaging across seeds is a useful performance summary, but it does not make the underlying structural object seed-invariant. The distinction is analogous to model averaging: aggregation can stabilize a prediction while leaving model selection uncertain.
+
+\subsection{What survives a same-panel feature ablation?}
+
+The controlled comparison is less disruptive than the archived pipeline contrast. Keeping rows, return months, ranks, input positions, and paired initialization fixed produces mean rank correlations of 0.649 for size--book-to-market portfolios, 0.722 for industries, and 0.703 for the combined assets across the 21 geometries. Winner agreement occurs in 9, 9, and 11 geometries, respectively. Thus some exact minima still switch, but deleting the six features alone does not reproduce the broad negative rank correlations of the two archived pipelines in this design.
+
+For the combined 74 assets, both full and masked arms select $K=4$ under equal moments and $K=5$ under the HJ-type endpoint. Table~\ref{tab:matched-features} retains all fixed-$K$ comparisons rather than reporting only those winners. Under the HJ-type endpoint the $K=5$ distance is 2.700 with all features and 2.699 after masking, a difference of $-0.0007$ with interval $[-0.0600,0.0700]$. All six HJ-endpoint paired intervals include zero. Under equal moments, masking raises the $K=1$ distance by 0.3855 with pointwise interval $[0.0172,0.9277]$; the remaining five intervals include zero. This single exclusion of zero among twelve primary intervals is not familywise evidence of a general feature effect.
+
+\input{matched_feature_control}
+
+Figure~\ref{fig:matched-features} shows the complete combined-asset ablation paths. The direction and magnitude vary across candidate dimensions and seeds. Even unchanged winners can conceal different separation: at the equal-moment endpoint the first-to-second gap falls from 0.3603 in the full arm to 0.0481 in the masked arm. Exact selection therefore discards information about competition among neighboring candidates. Bootstrap winner frequencies in the table describe this conditional instability; they are not probabilities that a candidate is the economy's true risk dimension.
+
+\begin{widefigure}[!tbp]
+\centering
+\includegraphics[width=0.98\textwidth]{figure_08_matched_feature_control.pdf}
+\caption{Same-panel six-feature ablation for the combined 74 assets. Every curve is a paired difference, masked minus full, on the same 2010--2019 target-return months. Thin lines show all five paired seeds for each fixed $K$; thick lines show their means over the 21 prespecified geometry weights. Positive values mean that masking worsens pricing distance. Both arms have 184 input positions and 128--64--32 hidden widths; only the six characteristic columns and their six missingness indicators are zeroed in the masked arm. The endpoint block-bootstrap intervals are in Table~\ref{tab:matched-features}; thin-line dispersion is algorithmic variation, not a confidence band.}
+\label{fig:matched-features}
+\end{widefigure}
+
+The control changes the attribution, not the original archived numbers. The historical pipeline reversal cannot be read as a six-characteristic effect. Reconstruction, coverage, timing, and the different input parameterization remain bundled in that older comparison. The present experiment does not decompose their contributions. Its narrower result is that the information deletion tested here leaves endpoint winners for the combined assets unchanged while affecting candidate margins and some intermediate rankings. Geometry dependence persists within both matched arms, without identifying a structural risk count.
+
+\input{conditional_autoencoder_control}
+
+\subsection{External assets and the common market direction}
+
+In the development period, Core-86 changes best dimension between geometry endpoints for all six external families, but its raw contrast statistic $A$ has a bootstrap interval containing zero in every family. The market-direction attenuation point estimate is positive for five of six families, yet all six intervals contain zero. Adding the market factor to $K=1$ improves raw Euler moments with intervals excluding zero in five of six families, while alpha improvement excludes zero in none. Under Core-92, the same diagnostics appear much stronger: $A$, raw-moment completion, and alpha completion exclude zero for all six families. This difference shows sensitivity between the archived pipelines, which also differ in coverage and timing; it cannot be attributed to data construction alone.
+
+The spectral decomposition provides a coherent economic clue. Compression loss is concentrated in a small number of high-variance common directions. The largest spectral direction is close to the equal-weighted payoff direction, and hedging assets by validation-period market betas reduces the point-estimate geometry contrast. A compact representation can therefore recover aggregate market variation while losing finer relative-pricing information. Adding the market factor can repair a dominant unconditional Euler direction without repairing the cross-section of alphas.
+
+That distinction answers why the direction of compression matters. The decomposition localizes part of the observed error contrast to common payoff variation. It does not establish which information is lost first inside the network, nor identify a causal effect of compression. The absence of joint alpha improvement limits the interpretation to the reported diagnostics.
+
+\subsection{The locked 2020--2025 test}
+
+The development-period dimension pattern does not persist in the locked period (Figure~\ref{fig:sealed-dashboard}). Reading across a row connects endpoint dimension, the raw geometry contrast, market-direction attenuation, raw-moment completion, and alpha completion; hollow diamonds and arrows add the development estimate wherever the same external family is available. Seven of nine asset sets select $K=1$ at both endpoints. Size--accruals and size--residual-variance select $K=1$ under equal moments and $K=8$ under HJ. Combined 74 selects $K=1$ under both. This is a much more uniformly low-dimensional period than development.
+
+\begin{widefigure}[!tbp]
+\centering
+\includegraphics[width=0.99\textwidth]{figure_04_sealed_falsification.pdf}
+\caption{Asset-aligned locked 2020--2025 evidence field. Each row preserves one test-asset family across endpoint dimension, raw geometry contrast $A$, market-direction attenuation, raw-moment completion, and alpha completion. Green points and horizontal lines report the locked estimate and its 95\% circular-block interval. For the six external families, hollow diamonds mark the development estimate and arrows point to the locked estimate. The first track compares equal-moment and HJ endpoint dimensions. The Core-86 models and rules were fixed before this later evaluation. Earlier legacy development includes January 2020; the period is not a wholly untouched research holdout.}
+\label{fig:sealed-dashboard}
+\end{widefigure}
+
+Table~\ref{tab:sealed-evidence} places each asset family's selected dimensions beside its pricing diagnostics and 95\% intervals. The locked point estimates have the anticipated market-attenuation sign but do not provide precise evidence of that effect or confirm the broader dimension pattern. The four frozen decisions follow directly from these rows. Geometry dependence fails because only two of six external families change endpoint dimension, below the four-family threshold, and Combined 74 does not change. The market-direction gate passes its point-estimate rule: attenuation is positive for Combined 74 and all six external families. Precision is limited because every corresponding block-bootstrap interval contains zero. Economic completion fails: no external family jointly improves raw moments and alpha. Dimension diversity fails because only $K=1$ and $K=8$ appear among external endpoint winners.
+
+
+
+\input{sealed_comparison}
+
+The locked result narrows the interpretation of development evidence. Development evidence suggested broad geometry dependence. The locked period says that this pattern is not stable; one factor ranks first for most evaluated spans under the fixed models. This ranking alone does not identify a change in the economy's true risk count. The market-direction clue is more persistent in sign than the exact dimension ranking, but its uncertainty is too large for a strong structural claim. The last two tracks of Figure~\ref{fig:sealed-dashboard} make the development-to-locked completion reversal visible row by row across the six external families.
+
+\subsection{Known-truth evidence on exact dimension recovery}
+
+Feasible evaluation recovers the true dimension much less often than oracle evaluation. Table~\ref{tab:sim-mechanisms} separates the marginal selection frequencies (Panel A) from the eight prespecified mechanism contrasts (Panel B). All eight contrasts have the planned sign. Overall exact recovery is 64.2\% under oracle evaluation and 32.6\% under feasible evaluation. Increasing the sample from 72 to 600 months raises recovery from 38.1\% to 58.2\%, but the gain combines oracle and feasible designs and does not eliminate feasible over-selection. Strong risk prices raise recovery by 23.0 percentage points relative to weak prices. Full spanning raises it by 12.0 points relative to weak-tail spanning.
+
+\input{simulation_comparison}
+
+Figure~\ref{fig:identification-dashboard} shows how recovery changes with sample length within each design. Panels A--B retain joint conditioning: rows separate risk-price strength and asset spanning, colors identify the true dimension, and line styles separate oracle from feasible evaluation. In the most favorable strong-price, full-span, zero-correlation design, oracle recovery at $T=600$ is 100\% for $K_0=1$, 99.8\% for $K_0=3$, and 99.2\% for $K_0=5$. These cells illustrate substantially better recovery when the evaluation mean is known. Feasible selection behaves differently. For $K_0=1$, recovery is approximately 46--51\% across 72, 240, and 600 months under the two geometries. Its over-selection probability does not vanish.
+
+\begin{widefigure}[!tbp]
+\centering
+\includegraphics[width=0.99\textwidth]{figure_05_identification_mechanisms.pdf}
+\caption{Known-truth identification trajectories over the complete frozen condition grid. Panels A and B plot exact recovery at the three prespecified sample lengths, 72, 240, and 600 months, under factor correlations zero and 0.7. Rows distinguish risk-price strength and asset spanning; colors identify $K_0$; solid and dashed lines separate oracle and feasible evaluation. Small points expose the four asset-count--pricing-geometry cells behind each mean marker; their vertical range is also shown. Each mean is therefore based on 12,000 selection outcomes. Shaded gaps show the loss from feasible evaluation. Panel C is a two-level slope graph, rather than an interpolated correlation curve, and reports equal-versus-HJ dimension disagreement at the two prespecified correlation values.}
+\label{fig:identification-dashboard}
+\end{widefigure}
+
+The result illustrates Proposition~\ref{prop:inconsistency}. Models above $K_0$ add directions with zero population price. Their empirical losses fluctuate around the same population value, so the strict minimum rewards whichever redundant direction happens to reduce sample loss. More data shrink all differences, but they do not force the sign of a centered, second-order difference to favor the minimal model. In the aggregate feasible design, the over-selection rate is 33.5\%; it rises from 31.3\% at 72 months to 35.7\% at 600 months rather than disappearing.
+
+\subsection{Asset spanning and geometry disagreement}
+
+Weak-tail spanning reduces the loadings on the final true directions to 0.15 of their baseline magnitude. Exact recovery falls by 12.0 percentage points, and the probability that six asset families select different dimensions rises by 7.4 points. Under oracle evaluation, multiple dimensions appear across the six families in 27.8\% of strong/full conditions, 55.1\% of strong/weak-tail conditions, and about 63--65\% of weak-price conditions. Under feasible evaluation, cross-family diversity appears in 98--99\% of conditions. A common economic dimension can therefore generate heterogeneous empirical dimensions when assets reveal its weaker directions unevenly.
+
+Equal and HJ geometries disagree on the selected dimension in 20.3\% of all simulation cases. With independent factor directions and full spanning, disagreement is only 0.8\% under oracle evaluation and 5.3\% under feasible evaluation. Raising factor correlation to 0.7 increases those rates to 23.0\% and 51.7\%. Panel C of Figure~\ref{fig:identification-dashboard} displays this amplification.
+
+The simulation does not identify which mechanism causes each empirical result. It establishes that the specified combinations of weak prices, weak spanning, correlated risks, weighting, and evaluation noise can generate unstable selection. The design contrasts do not imply that each mechanism alone explains the empirical results. It would be invalid to invert the simulation and declare the true empirical dimension or the causal share of each mechanism.
+
+\subsection{Descriptive loss-tolerance sets}
+
+A candidate minimum can be accompanied by a transparent loss-tolerance set,
+\begin{equation}
+ \widehat{\mathcal A}_{\delta}^{\mathrm{desc}}=
+ \{K:\widehat\Loss(K)-\min_j\widehat\Loss(j)\leq\delta\}.
+\end{equation}
+Here $\delta$ is a stated descriptive tolerance, not a critical value. This set
+reports proximity to the observed minimum. It is neither a confidence set for
+the population minimizer nor evidence of statistical or economic equivalence.
+The conditional-autoencoder archive uses a fixed tolerance of 1\% of the
+FF5-plus-momentum development distance and retains the full candidate losses.
+That convention has no claim to being a universally appropriate economic
+threshold. A formal equivalence claim would require a justified margin and
+valid uncertainty assessment for the corresponding estimand. The failed
+calibration in \ref{app:inference-calibration} prevents the new
+simultaneous intervals from supplying that assessment here.

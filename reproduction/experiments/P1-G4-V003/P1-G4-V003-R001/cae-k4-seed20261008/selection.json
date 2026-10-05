@@ -1,0 +1,26 @@
+{
+  "selected": {
+    "l1": 0.0001,
+    "validation_mse_scaled": 1.1772203459056736,
+    "best_epoch": 56,
+    "epochs": 60,
+    "initialization_sha256": "3b2bb3b7bf55294e9d73f4e9d2e7aae4779c7d7bceddfacdf18bcf2f951e888e"
+  },
+  "candidates": [
+    {
+      "l1": 1e-06,
+      "validation_mse_scaled": 1.1792961102157344,
+      "best_epoch": 60,
+      "epochs": 60,
+      "initialization_sha256": "3b2bb3b7bf55294e9d73f4e9d2e7aae4779c7d7bceddfacdf18bcf2f951e888e"
+    },
+    {
+      "l1": 0.0001,
+      "validation_mse_scaled": 1.1772203459056736,
+      "best_epoch": 56,
+      "epochs": 60,
+      "initialization_sha256": "3b2bb3b7bf55294e9d73f4e9d2e7aae4779c7d7bceddfacdf18bcf2f951e888e"
+    }
+  ],
+  "development_used": false
+}

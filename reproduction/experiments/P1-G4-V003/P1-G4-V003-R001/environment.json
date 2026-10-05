@@ -1,0 +1,7 @@
+{
+  "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+  "torch": "1.13.1+cu117",
+  "numpy": "1.24.4",
+  "cuda": "11.7",
+  "platform": "Linux-5.4.0-135-generic-x86_64-with-glibc2.29"
+}

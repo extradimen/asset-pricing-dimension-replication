@@ -1,0 +1,9 @@
+Section 4.4 / Table 4
+
+Frozen protocol: reproduction/configs/paper1/P1-G4-V003.json
+Code: reproduction/scripts/run_paper_a_cae_control.py, evaluate_paper_a_cae_control.py, paper_a_cae_core.py
+Evidence: reproduction/experiments/P1-G4-V003/P1-G4-V003-R001/analysis/
+Monthly seed-level SSE aggregates and selection metadata are released; they are not security-level returns or predictions.
+
+Full reconstruction needs the three prepared arrays, array design and manifest listed with hashes in the protocol, and FF5/momentum source ZIPs independently downloaded by the replicator. The common mother panel is described by the v1.1.0 licensed reconstruction guide. These prepared arrays are excluded. Entrypoint child command from reproduction/: python scripts/run_paper_a_cae_control.py --config configs/paper1/P1-G4-V003.json --output-dir NEW_EMPTY_PATH --workers 2
+Run only in an approved environment/controller. Original Python 3.8.10, NumPy 1.24.4, torch 1.13.1+cu117; see environment.json. CUDA and CPU retraining are not claimed bitwise identical. The original evaluator consumes the training run outputs, not this aggregate-only subset.

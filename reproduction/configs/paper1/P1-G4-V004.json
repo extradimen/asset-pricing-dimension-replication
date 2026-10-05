@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G4-V004",
+  "parent_experiment_id": "P1-G4-V003",
+  "paper": 1,
+  "generation": "G4",
+  "status": "protocol_frozen_before_execution",
+  "evidence_class": "exploratory",
+  "research_question": "Does the frozen paired block and seed bootstrap attain nominal simultaneous coverage and detect known HJ-type distance gaps?",
+  "data_snapshot_id": "synthetic-known-truth-pricing-moments-v1",
+  "research_snapshot_id": "paper-a-iref-inference-calibration-2026-10-05-v1",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "random_seeds": [],
+  "changes_from_parent": "Bounded inference calibration only: analytic known-truth moment DGP; no model training, no new market, no empirical retuning.",
+  "entrypoint": "scripts/run_paper_a_inference_calibration.py",
+  "random_seed": 2026100504,
+  "factor_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+  ],
+  "model_seeds": 5,
+  "outer_replications": 400,
+  "bootstrap_draws": 1999,
+  "block_months": 12,
+  "noise_sigma": 4.0,
+  "noise_shares": [
+    0.5,
+    0.3,
+    0.2
+  ],
+  "scenarios": [
+    {
+      "id": "r74-t120-phi0-gap0",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.0,
+      "gap": 0.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 0
+    },
+    {
+      "id": "r74-t120-phi0-gap5",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.0,
+      "gap": 0.5,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 1
+    },
+    {
+      "id": "r74-t120-phi0-gap10",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.0,
+      "gap": 1.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 2
+    },
+    {
+      "id": "r74-t120-phi0-gap20",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.0,
+      "gap": 2.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 3
+    },
+    {
+      "id": "r74-t120-phi5-gap0",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.5,
+      "gap": 0.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 4
+    },
+    {
+      "id": "r74-t120-phi5-gap5",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.5,
+      "gap": 0.5,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 5
+    },
+    {
+      "id": "r74-t120-phi5-gap10",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.5,
+      "gap": 1.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 6
+    },
+    {
+      "id": "r74-t120-phi5-gap20",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.5,
+      "gap": 2.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 7
+    },
+    {
+      "id": "r74-t240-phi0-gap0",
+      "moment_rank": 74,
+      "months": 240,
+      "phi": 0.0,
+      "gap": 0.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 8
+    },
+    {
+      "id": "r74-t240-phi0-gap5",
+      "moment_rank": 74,
+      "months": 240,
+      "phi": 0.0,
+      "gap": 0.5,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 9
+    },
+    {
+      "id": "r74-t240-phi0-gap10",
+      "moment_rank": 74,
+      "months": 240,
+      "phi": 0.0,
+      "gap": 1.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 10
+    },
+    {
+      "id": "r74-t240-phi0-gap20",
+      "moment_rank": 74,
+      "months": 240,
+      "phi": 0.0,
+      "gap": 2.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 11
+    },
+    {
+      "id": "r74-t240-phi5-gap0",
+      "moment_rank": 74,
+      "months": 240,
+      "phi": 0.5,
+      "gap": 0.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 12
+    },
+    {
+      "id": "r74-t240-phi5-gap5",
+      "moment_rank": 74,
+      "months": 240,
+      "phi": 0.5,
+      "gap": 0.5,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 13
+    },
+    {
+      "id": "r74-t240-phi5-gap10",
+      "moment_rank": 74,
+      "months": 240,
+      "phi": 0.5,
+      "gap": 1.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 14
+    },
+    {
+      "id": "r74-t240-phi5-gap20",
+      "moment_rank": 74,
+      "months": 240,
+      "phi": 0.5,
+      "gap": 2.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 15
+    },
+    {
+      "id": "r74-t600-phi0-gap0",
+      "moment_rank": 74,
+      "months": 600,
+      "phi": 0.0,
+      "gap": 0.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 16
+    },
+    {
+      "id": "r74-t600-phi0-gap5",
+      "moment_rank": 74,
+      "months": 600,
+      "phi": 0.0,
+      "gap": 0.5,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 17
+    },
+    {
+      "id": "r74-t600-phi0-gap10",
+      "moment_rank": 74,
+      "months": 600,
+      "phi": 0.0,
+      "gap": 1.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 18
+    },
+    {
+      "id": "r74-t600-phi0-gap20",
+      "moment_rank": 74,
+      "months": 600,
+      "phi": 0.0,
+      "gap": 2.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 19
+    },
+    {
+      "id": "r74-t600-phi5-gap0",
+      "moment_rank": 74,
+      "months": 600,
+      "phi": 0.5,
+      "gap": 0.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 20
+    },
+    {
+      "id": "r74-t600-phi5-gap5",
+      "moment_rank": 74,
+      "months": 600,
+      "phi": 0.5,
+      "gap": 0.5,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 21
+    },
+    {
+      "id": "r74-t600-phi5-gap10",
+      "moment_rank": 74,
+      "months": 600,
+      "phi": 0.5,
+      "gap": 1.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 22
+    },
+    {
+      "id": "r74-t600-phi5-gap20",
+      "moment_rank": 74,
+      "months": 600,
+      "phi": 0.5,
+      "gap": 2.0,
+      "base_distance": 5.0,
+      "role": "regular_full_rank",
+      "index": 23
+    },
+    {
+      "id": "r4-t120-phi0-gap0",
+      "moment_rank": 4,
+      "months": 120,
+      "phi": 0.0,
+      "gap": 0.0,
+      "base_distance": 5.0,
+      "role": "low_rank_sensitivity",
+      "index": 24
+    },
+    {
+      "id": "r4-t120-phi0-gap10",
+      "moment_rank": 4,
+      "months": 120,
+      "phi": 0.0,
+      "gap": 1.0,
+      "base_distance": 5.0,
+      "role": "low_rank_sensitivity",
+      "index": 25
+    },
+    {
+      "id": "r4-t120-phi5-gap0",
+      "moment_rank": 4,
+      "months": 120,
+      "phi": 0.5,
+      "gap": 0.0,
+      "base_distance": 5.0,
+      "role": "low_rank_sensitivity",
+      "index": 26
+    },
+    {
+      "id": "r4-t120-phi5-gap10",
+      "moment_rank": 4,
+      "months": 120,
+      "phi": 0.5,
+      "gap": 1.0,
+      "base_distance": 5.0,
+      "role": "low_rank_sensitivity",
+      "index": 27
+    },
+    {
+      "id": "r74-t120-phi0-zero",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.0,
+      "gap": 0.0,
+      "base_distance": 0.0,
+      "role": "nondifferentiable_zero_distance_stress",
+      "index": 28
+    },
+    {
+      "id": "r74-t120-phi5-zero",
+      "moment_rank": 74,
+      "months": 120,
+      "phi": 0.5,
+      "gap": 0.0,
+      "base_distance": 0.0,
+      "role": "nondifferentiable_zero_distance_stress",
+      "index": 29
+    }
+  ],
+  "estimand": "All 15 pairwise differences of population HJ-type distances averaged over five fixed seed models. True distances: dimensions 1..5 equal baseline+gap, K8 equals baseline. Candidate labels index fixed models, not true structural dimension.",
+  "dgp": "Gaussian stationary AR(1) pricing-moment vectors in whitened payoff coordinates; time dependence phi, common/dimension/seed covariance shares .5/.3/.2. All 5 seed model means are deterministic rotations with exactly equal norm within K. Moment dimension 74 or an isometric rank-4 subspace of 74. Annualized distance sqrt(12)*norm(E[mR] whitened). Monthly noise energy fixed at 4*sigma^2 across ranks. No claim of a coherent full return/SDF structural DGP or empirical power calibration.",
+  "procedure": "Exactly reproduce V003 statistic: common 12-month circular blocks, five shared resampled seed indices, mean of seed-specific pricing distances, pair differences, ddof=1 bootstrap standard error, .95 max absolute standardized bootstrap-minus-observed quantile, symmetric simultaneous intervals. The norm is taken before seed averaging. Validation coefficients/weight held fixed.",
+  "primary": "At T=120, rank74, phi 0 and .5: familywise false rejection under equal distances and simultaneous coverage across all 15 pairs; detection of a truly better K8 for gaps .5,1,2. All other scenarios are fixed sensitivity/stress cases.",
+  "reported_metrics": [
+    "simultaneous coverage (nominal .95)",
+    "familywise false rejection among truly zero pairs (nominal .05)",
+    "probability of detecting any true gap",
+    "probability of detecting all five K8 advantages",
+    "point-winner and conditional bootstrap winner frequencies",
+    "mean interval width and finite-sample norm bias",
+    "95% Wilson Monte Carlo intervals based on 400 independent outer repetitions"
+  ],
+  "interpretation_rules": [
+    "Report rates and Monte Carlo intervals, never infer equality from non-rejection.",
+    "Flag material undercoverage if coverage Wilson upper bound <.90; flag material false rejections if false-rejection Wilson lower bound >.10. These tolerances are warning thresholds, not proof of exact calibration.",
+    "The zero-distance cases deliberately test a nondifferentiable norm boundary; failures restrict conclusions and are not a tuning target.",
+    "Synthetic gaps are controlled norm units; results are not a power estimate for observed US equity differences.",
+    "Stable bootstrap winners and non-significant intervals can coexist. A winner is not an estimator of structural K."
+  ],
+  "stopping_rule": "Run all 30 cells x400 outer repetitions once with 1999 inner draws. Do not enlarge the grid or change block lengths/method after inspecting outcomes. Technical corrections require separate immutable version. Any inferential limitation is reported; no automatic search for a method yielding empirical significance.",
+  "limitations": [
+    "Post-result audit specified after observing V003, not fresh empirical confirmation.",
+    "Conditional on fixed model means and a fixed pricing weight; does not cover training, hyperparameter selection or estimated validation weights.",
+    "Gaussian moment-level simulation does not establish universal coverage or empirical equivalence.",
+    "Only 400 Monte Carlo repetitions per cell: nominal .05 probabilities have about one percentage point standard error.",
+    "No new model training, financial dataset, trading strategy or sealed-period access."
+  ],
+  "inputs": [
+    {
+      "path": "scripts/evaluate_paper_a_cae_control.py",
+      "sha256": "eba872310cadeeaa004aaf5c1e0897732746aeaa552da36b06e591d8e16c2920"
+    },
+    {
+      "path": "scripts/paper_a_cae_core.py",
+      "sha256": "3e1805f7b901165e9a343f18b3159050eb0d9ed7859814d4319b734fcdf70bfb"
+    },
+    {
+      "path": "configs/paper1/P1-G4-V003.json",
+      "sha256": "9f9ce981f927be8e0b6ae3975e12aacec5fc3bd9cb26816d83aa752e06e2b5a1"
+    }
+  ]
+}

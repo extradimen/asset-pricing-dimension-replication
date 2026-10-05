@@ -1,0 +1,14 @@
+[
+  {
+    "arm": "linear",
+    "K_chosen_by_validation_predictive_R2": 8,
+    "validation_predictive_R2": 0.0012868940664569894,
+    "development_predictive_R2": 0.0029633767077376083
+  },
+  {
+    "arm": "cae",
+    "K_chosen_by_validation_predictive_R2": 8,
+    "validation_predictive_R2": 0.0007812194142573503,
+    "development_predictive_R2": 0.002687304135542745
+  }
+]

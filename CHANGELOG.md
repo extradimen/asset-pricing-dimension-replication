@@ -1,3 +1,7 @@
+# 1.2.0
+
+Adds the bounded CAE control and its failed inference calibration, revised IREF manuscript source, and an aggregate-only verification entry point. Retains all previously archived results and their qualifications. No new security-level data are distributed.
+
 # Version history
 
 ## 1.1.0 — 2026-10-01

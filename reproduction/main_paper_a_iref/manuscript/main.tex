@@ -1,0 +1,104 @@
+\ifdefined\IREFPREPRINT
+  \documentclass[preprint,12pt,authoryear]{elsarticle}
+\else
+  \documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
+\fi
+\usepackage{amsmath,amssymb,amsthm,booktabs,graphicx,threeparttable,longtable,array,tabularx,multirow}
+\usepackage{xcolor}
+\usepackage{stfloats}
+\usepackage{flushend}
+\usepackage{hyperref}
+\pdfstringdefDisableCommands{\def\corref#1{}}
+% Let wide exhibits share pages with text and cross subsection boundaries.
+% Keep font sizes and exhibit dimensions unchanged; avoid half-empty float pages.
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\setcounter{dbltopnumber}{2}
+\renewcommand{\topfraction}{0.88}
+\renewcommand{\bottomfraction}{0.72}
+\renewcommand{\textfraction}{0.10}
+\renewcommand{\floatpagefraction}{0.85}
+\renewcommand{\dbltopfraction}{0.88}
+\renewcommand{\dblfloatpagefraction}{0.85}
+\ifdefined\IREFREADER
+  \usepackage{fancyhdr}
+  \fancypagestyle{irefreader}{%
+    \fancyhf{}
+    \fancyhead[L]{\footnotesize International Review of Economics \& Finance}
+    \fancyhead[R]{\footnotesize Author manuscript preview}
+    \fancyfoot[C]{\footnotesize\thepage}
+    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0pt}}
+\fi
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue,pdftitle={Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use},pdfauthor={Jinpeng Wang and Yan Jiang}}
+\emergencystretch=2em
+\journal{International Review of Economics \& Finance}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Pp}{\mathbb{P}}
+\newcommand{\Loss}{\mathcal{L}}
+\newcommand{\Kset}{\mathcal{K}}
+\ifdefined\IREFPREPRINT
+  \newenvironment{widefigure}[1][!tbp]{\begin{figure}[#1]}{\end{figure}}
+  \newenvironment{widetable}[1][!tbp]{\begin{table}[#1]}{\end{table}}
+\else
+  \newenvironment{widefigure}[1][!tbp]{\begin{figure*}[#1]}{\end{figure*}}
+  \newenvironment{widetable}[1][!tbp]{\begin{table*}[#1]}{\end{table*}}
+\fi
+
+\begin{document}
+\begin{frontmatter}
+\title{Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use}
+
+
+\input{author_frontmatter}
+
+\begin{abstract}
+Selecting a compact asset-pricing network does not by itself identify the number of priced risks. We examine this distinction using U.S. equity networks, matched controls, and known-truth simulations. In an archived diagnostic family, preferred dimensions vary across payoff spans, loss weights, data pipelines, and periods. A later same-panel feature ablation does not reproduce the archived pipeline rank reversal, limiting its attribution to feature removal. A conditional-autoencoder extension gives a different pattern: eight factors, the candidate-grid upper bound, attain the lowest development pricing distance in 87.2\% of resampling draws. Thus selection instability is not common to every tested family. Its predictive $R^2$ is 0.269\%, and its HJ-type distance is below FF5 plus momentum in point estimates, without an established superiority claim. A separate calibration finds only 83.5\% and 87.0\% simultaneous coverage for nominal 95\% dimension-comparison intervals in the two primary equal-distance, 120-month scenarios. These intervals cannot establish equivalence or structural nonidentification. In the original geometry analysis, training adds concentration beyond matched random networks, but the specified incremental pricing-loss prediction criterion is not met. The post-study controls use familiar historical data. The evidence distinguishes representation compactness, candidate selection, and economic dimension, while delimiting the conclusions supported by each experiment.
+\end{abstract}
+
+\begin{keyword}
+Machine learning \sep Asset pricing \sep Pricing dimension \sep Model comparison \sep Representation geometry \sep Feature ablation
+\end{keyword}
+
+\end{frontmatter}
+% Keep natural paragraph spacing below tall floats instead of stretching gaps.
+\raggedbottom
+\ifdefined\IREFREADER\pagestyle{irefreader}\fi
+
+\noindent\textbf{JEL classification:} G12; C52; C53; C55.
+
+\input{01_introduction}
+\input{02_literature_framework}
+\input{03_data_design}
+\input{04_dimension_identification}
+\input{05_temporal_usability}
+\input{06_representation_geometry}
+\input{07_discussion_conclusion}
+
+\input{author_declarations}
+
+\section*{Data availability}
+The replication package provides construction and analysis code, frozen configurations, synthetic results, aggregate figure and table data, and checksums. The section-ordered package includes the conditional-autoencoder control (P1-G4-V003) and its inference calibration (P1-G4-V004), including unsuccessful calibration results. CRSP, Compustat, CCM, third-party security-level characteristic records, model checkpoints, stock-level predictions, and derived security-level panels are excluded. Reconstruction requires independently licensed inputs. Public source downloads are linked rather than relicensed. Aggregate exhibit replay is separate from retraining with licensed data, and no cross-platform bitwise retraining guarantee is made.
+
+The version 1.2.0 update is prepared for the public GitHub repository. Its Zenodo deposit is pending. The earlier version 1.1.0 remains at \href{https://doi.org/10.5281/zenodo.23066253}{10.5281/zenodo.23066253}; that earlier DOI does not cover the two new experiments.
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work, the authors used OpenAI Codex to assist with literature organization, code development and auditing, artifact indexing, statistical-figure production, and language drafting. The authors reviewed and edited all generated material, verified cited sources and numerical claims against frozen project evidence, and take full responsibility for the content of the article.
+
+\appendix
+\setcounter{table}{0}
+\renewcommand{\theHtable}{A.\arabic{table}}
+\input{inference_calibration_appendix}
+
+\begingroup
+\small
+\raggedright
+\setlength{\bibsep}{3pt}
+\urlstyle{same}
+\bibliographystyle{elsarticle-harv}
+\bibliography{references}
+\endgroup
+\end{document}

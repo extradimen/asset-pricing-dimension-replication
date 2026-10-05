@@ -1,32 +1,23 @@
-# Low-Dimensional Asset-Pricing Networks: replication package
+# Replication package version 1.2.0
 
-Jinpeng Wang and Yan Jiang (corresponding author), International Business School, Guangzhou City University of Technology.
+Jinpeng Wang and Yan Jiang. Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use.
 
-Version 1.1.0 accompanies *Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use*. DOI: https://doi.org/10.5281/zenodo.23066253. Code: https://github.com/extradimen/asset-pricing-dimension-replication.
+This update accompanies the IREF preparation manuscript, not a journal acceptance. The numbered directories follow Sections 1–7. The original 1.1.0 evidence and replay remain intact. New CAE evidence is indexed from `04_dimension_identification/CAE_CONTROL.txt`; calibration and qualifications are indexed from `07_discussion_and_audit/INFERENCE_CALIBRATION.txt`. Appendix A belongs to the new main article; Supplements A–F describe the earlier evidence.
 
-Read the numbered 01–07 directories in the order of the paper. The original relative runtime paths are preserved under `reproduction/` so existing scripts and frozen manifests remain traceable. These are two views of one package, not different analyses.
+## Reproduce the current article
 
-## Changes from 1.0.1
+Run `python3 reproduce_iref.py` from this directory. It checks released checksums, verifies Table 4 against its aggregate source, re-aggregates all 12,000 released synthetic outcomes, checks Table A.1, and compiles the current authored article using latexmk and elsarticle. It neither trains nor runs new simulations. Python standard library and TeX Live suffice for this current-update verification. The earlier `reproduce_public.py` retains the version 1.1.0 exhibit workflow and its pinned requirements.
 
-Version 1.1.0 adds two bounded post-study controls: matched random-network geometry and a same-panel six-feature ablation (60 additional networks). It distinguishes layer width from learned concentration and isolates feature masking from archived pipeline differences. The separate temporal replay is moved to Supplement D. The original failed pricing-function criterion and chronology qualifications are unchanged. Synthetic geometry calibration is now included in this single package. Version 1.0.1 remains available under its original DOI and tag.
+## Scientific changes and limits
 
-## Reproduce the public exhibits
+V003 adds 120 candidate fits, 60 selected models, matched linear versus nonlinear loadings, six factor counts and five seeds. K=8 wins 87.2% of conditional development resamples; it is the grid boundary, not an identified structural count. The new simultaneous intervals fail their V004 calibration: 83.5% and 87.0% coverage in the two primary 120-month equal-distance scenarios. No equivalence or structural nonidentification is inferred from non-rejection. The calibration only targets the 15 simultaneous within-CAE intervals. Full training, validation-coefficient and weight-estimation uncertainty are not covered. All later controls use familiar historical data.
 
-Use Python 3.12 or newer with the pinned packages in `requirements-public.txt`, and TeX Live with latexmk and elsarticle. From this repository:
+## Data access and execution
 
-```sh
-python -m pip install -r requirements-public.txt
-python reproduce_public.py
-```
+Only author-generated aggregates and synthetic outputs are newly released. No licensed stock observations, stock-level arrays, predictions or model weights are included. `LICENSED_RECONSTRUCTION.md` describes the old pipeline; `04_dimension_identification/CAE_CONTROL.txt` describes the extension. Exact historical prepared arrays are not public, and newly downloaded input vintages need not have their frozen checksums. No clean-room licensed pipeline or bitwise cross-platform retraining claim is made.
 
-This verifies both the original and later-control numerical sources, extracts temporal tables from JSON, regenerates the main and supplementary figures, tables and supplement long tables, and compiles the authored paper, anonymous paper, title page and supplement. It does not train models, reacquire data or rerun Monte Carlo estimation. The public check needs no WRDS account. Main PDF: `reproduction/main_paper_a_irfa/manuscript/main_full.pdf`.
+Scientific runners must be launched through the applicable institutional resource controller where required; documentation commands are child commands, not authorization to bypass that controller. The package contains no server access credentials. Code is MIT; original aggregate/synthetic outputs and documentation are CC BY 4.0. Third-party sources retain their own terms.
 
-## Reconstruct underlying experiments
-
-Read `LICENSED_RECONSTRUCTION.md` before running original entry points. Source code, scientific configurations, raw-input hashes and aggregate results are included. CRSP, Compustat, CCM and third-party security-level inputs must be obtained by the replicator under their own access terms. This release does not claim a clean-room licensed-data rebuild, prospective evaluation, externally registered protocol, or bitwise-identical GPU retraining. The original project used a separate resource controller; users on that Mac or its campus nodes must retain its launch requirements.
-
-## Interpretation and provenance
-
-Read `AUDIT_QUALIFICATIONS.md`. In particular, legacy Core-92 development includes January 2020 returns. The 2020–2025 evaluation is a later locked-model test, not a completely untouched research-wide holdout. Core-86 is a public-benchmark/self-built bridge. Temporal predictors are separate selected-sample models. The theory concerns known linear spans. Archived files retain historical labels and outcomes, including failed criteria.
-
-`SOURCE_MANIFEST.json` records original and released SHA-256 values. `SHA256SUMS` covers release files. Path sanitization affects deployment prefixes, not numerical results. Source code is MIT; original aggregate results and documentation are CC BY 4.0. Third-party data and TeX packages retain their original rights and are not relicensed. No raw licensed records, stock-level predictions, model checkpoints, credentials or institutional connection details are included.
+Zenodo version 1.2.0 publication is pending; the old DOI covers version 1.1.0 only.
+Earlier release: https://doi.org/10.5281/zenodo.23066253
+GitHub: https://github.com/extradimen/asset-pricing-dimension-replication

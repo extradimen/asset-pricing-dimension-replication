@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "experiment_id": "P1-G4-V003",
+  "parent_experiment_id": "P1-G4-V002",
+  "paper": 1,
+  "generation": "G4",
+  "status": "protocol_frozen_before_execution",
+  "evidence_class": "post_rejection_exploratory_bounded_control",
+  "data_snapshot_id": "gkx-datashare-2021-v1",
+  "research_snapshot_id": "paper-a-iref-cae-control-2026-10-05-v1",
+  "sealed_test_period": [
+    "2020-01",
+    "2025-12"
+  ],
+  "sealed_outputs_allowed": false,
+  "data_dir": "experiments/P1-G4-V002/P1-G4-V002-DATA003",
+  "ff5_zip": "data/raw/public/ken-french-monthly-2026-07/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+  "momentum_zip": "data/raw/public/ken-french-monthly-2026-07/F-F_Momentum_Factor_CSV.zip",
+  "inputs": [
+    {
+      "path": "experiments/P1-G4-V002/P1-G4-V002-DATA003/train.npz",
+      "bytes": 504865347,
+      "sha256": "1f862c7e26f4c055d7a6b7c8d0ca099da68bae0a2d9e829e013bf515ac9f39d9"
+    },
+    {
+      "path": "experiments/P1-G4-V002/P1-G4-V002-DATA003/validation.npz",
+      "bytes": 179168531,
+      "sha256": "f0a3f0058d7ca3d0c9c4c4ab64231ebdeb667bc32f827395a262e8ba282b0715"
+    },
+    {
+      "path": "experiments/P1-G4-V002/P1-G4-V002-DATA003/development.npz",
+      "bytes": 131912593,
+      "sha256": "bbde40129b81b859aeae4c975cd250c0a1e3cc582e241f7712acba242323ab5c"
+    },
+    {
+      "path": "experiments/P1-G4-V002/P1-G4-V002-DATA003/array_design.json",
+      "bytes": 4961,
+      "sha256": "a38e9fd4eef60477e300c79083411e897fb70c9e8710fadf3717f6a6a7a8635a"
+    },
+    {
+      "path": "experiments/P1-G4-V002/P1-G4-V002-DATA003/output_manifest.json",
+      "bytes": 2179,
+      "sha256": "ae622efe6485d7e36ed57885ad3ab5cc06ef1198763d959a87409259d88decff"
+    },
+    {
+      "path": "data/raw/public/ken-french-monthly-2026-07/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+      "bytes": 11948,
+      "sha256": "b8653b411cc5e28917e7ef643bb42f6d2d3703f84bc170eb6ae38d5267c65807"
+    },
+    {
+      "path": "data/raw/public/ken-french-monthly-2026-07/F-F_Momentum_Factor_CSV.zip",
+      "bytes": 5596,
+      "sha256": "7ee14e892b0f7044902fdbc4e25cfaf175b73d4eda0ae6f4a0354a4433afe065"
+    }
+  ],
+  "factor_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+  ],
+  "seeds": [
+    20261005,
+    20261006,
+    20261007,
+    20261008,
+    20261009
+  ],
+  "architectures": {
+    "linear": [],
+    "cae": [
+      32,
+      16,
+      8
+    ]
+  },
+  "l1_grid": [
+    1e-06,
+    0.0001
+  ],
+  "learning_rate": 0.001,
+  "max_epochs": 60,
+  "patience": 8,
+  "month_batch": 24,
+  "managed_ridge": 0.0001,
+  "pricing_ridge": 0.0001,
+  "geometry_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "descriptive_tolerance": 0.01,
+  "inference": {
+    "seed": 202610051,
+    "draws": 1999,
+    "block_months": 12
+  },
+  "entrypoint": "scripts/run_paper_a_cae_control.py",
+  "selection": "Select epoch and L1 by validation reconstruction MSE separately for each architecture/K/seed. Freeze every model before development inspection. For competence gate select K by seed-averaged validation predictive R2; report every K, never replace failed candidates.",
+  "architecture_reference": "Gu, Kelly and Xiu (2021), doi:10.1016/j.jeconom.2020.07.009; architecture-level implementation, not exact reproduction of their sample, tuning or annual refitting",
+  "feature_policy": "First 92 ranked characteristics from the archived common mother panel; no missing-indicator expansion. Factor encoder uses constant plus 92 ridge characteristic-managed portfolios. Both arms identical.",
+  "prediction": "Fixed fitted model. At month t use beta(z[t-1]) times expanding mean of strictly earlier factor realizations. Contemporaneous f[t] only for total R2 and realized pricing factors.",
+  "primary": "Combined74 development HJ-type distance with covariance weight and SDF coefficients fitted to validation; simultaneous paired K differences for CAE across 15 comparisons.",
+  "secondary": [
+    "stock total and predictive R2",
+    "FF5+momentum reference under identical pricing criterion",
+    "linear characteristic loading control",
+    "bootstrap dimension winner frequencies within fixed geometry",
+    "three asset families and five geometry weights, explicitly different objectives",
+    "descriptive 1% FF6-distance tolerance sets, no confidence-set claim"
+  ],
+  "stopping_rule": "One immutable run; no architecture, seed, K, time period, regularization or threshold expansion after inspection. Report adverse and inconclusive results. A failed competence gate limits representativeness and does not trigger another model search. Technical bugs require append-only failure receipt and separately versioned correction.",
+  "limitations": [
+    "historical data already used in prior research; not fresh confirmation",
+    "archived characteristic bridge is not independent point-in-time reconstruction",
+    "architecture-level CAE implementation; no claim to exactly reproduce published performance",
+    "bootstrap conditional on trained models and validation coefficients; does not repeat training or provide structural K coverage",
+    "metric weight changes represent different objectives, not a pure reparameterization",
+    "linear loading control is CA0 architecture, not a separately optimized ALS-IPCA estimator",
+    "point competence criteria are not proof of statistical noninferiority or universal model adequacy"
+  ],
+  "source_base_commit": "1fe604f7c7d7bff712bbc8fec1562addc4ccbe2d",
+  "authorization": "User on 2026-10-05: 需要什么实验，你赶快补; new bounded branch following IREF suitability assessment, previous two-control stopping rule retained for its closed branch."
+}

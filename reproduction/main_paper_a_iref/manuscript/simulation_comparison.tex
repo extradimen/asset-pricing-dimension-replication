@@ -1,0 +1,60 @@
+\begin{widetable}[!tbp]
+\centering
+\begin{minipage}{\textwidth}
+\caption{Known-truth dimension selection: outcomes and prespecified mechanism contrasts}
+\label{tab:sim-mechanisms}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llrrrr@{}}
+\toprule
+\multicolumn{6}{@{}l}{\textit{A. Marginal selection outcomes}} \\[2pt]
+Design axis & Level & Exact (\%) & Under (\%) & Over (\%) & Mean error \\
+\midrule
+Evaluation & Feasible & 32.6 & 33.9 & 33.5 & 1.693 \\
+ & Oracle & 64.2 & 35.8 & 0.0 & 0.760 \\
+\addlinespace[2pt]
+Sample months & 72 & 38.1 & 46.2 & 15.7 & 1.526 \\
+ & 240 & 48.9 & 34.4 & 16.8 & 1.197 \\
+ & 600 & 58.2 & 23.9 & 17.8 & 0.956 \\
+\addlinespace[2pt]
+Risk prices & Strong & 59.9 & 22.1 & 17.9 & 0.900 \\
+ & Weak & 36.9 & 47.5 & 15.6 & 1.552 \\
+\addlinespace[2pt]
+Asset spanning & Full & 54.4 & 28.6 & 16.9 & 1.105 \\
+ & Weak tail & 42.4 & 41.0 & 16.6 & 1.347 \\
+\addlinespace[2pt]
+True dimension & 1 & 74.2 & 0.0 & 25.8 & 0.775 \\
+ & 3 & 38.0 & 44.9 & 17.1 & 1.120 \\
+ & 5 & 33.1 & 59.5 & 7.4 & 1.784 \\
+\addlinespace[2pt]
+Test assets & 25 & 46.8 & 36.7 & 16.5 & 1.257 \\
+ & 74 & 50.0 & 33.0 & 17.0 & 1.195 \\
+\addlinespace[2pt]
+Factor correlation & 0.0 & 47.0 & 36.8 & 16.2 & 1.259 \\
+ & 0.7 & 49.8 & 32.9 & 17.3 & 1.194 \\
+\addlinespace[2pt]
+Pricing geometry & Equal moments & 46.7 & 35.1 & 18.2 & 1.337 \\
+ & HJ & 50.2 & 34.5 & 15.3 & 1.116 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{7pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrr@{}}
+\toprule
+\multicolumn{4}{@{}l}{\textit{B. Prespecified mechanism contrasts}} \\[2pt]
+Contrast and outcome & Cells & Effect (pp) & 95\% cell interval (pp) \\
+\midrule
+More time: exact recovery$^{a}$ & 24 & 26.5 & [17.8, 35.2] \\
+Strong minus weak prices: exact recovery & 288 & 23.0 & [20.3, 25.7] \\
+Weak minus strong prices: under-selection & 288 & 25.4 & [22.7, 28.1] \\
+Full minus weak-tail span: exact recovery & 288 & 12.0 & [10.4, 13.6] \\
+Weak-tail minus full span: asset-family divergence & 288 & 7.4 & [5.2, 9.6] \\
+Equal--HJ disagreement: level$^{b}$ & 288 & 20.3 & [17.7, 22.9] \\
+Complex minus baseline designs: disagreement$^{c}$ & 216 & 22.9 & [20.0, 25.9] \\
+Oracle minus feasible evaluation: exact recovery & 288 & 31.6 & [29.0, 34.2] \\
+\bottomrule
+\end{tabular*}
+\par\vspace{4pt}
+{\footnotesize\raggedright\textit{Notes:} Panel A averages the remaining frozen design axes; its rows do not hold every other axis fixed. Exact, under-, and over-selection sum to 100\% before rounding; mean error is $|\widehat K-K_0|$. Oracle over-selection is zero by construction. Panel B uses percentage points (pp). Its archived intervals are the mean $\pm1.96$ standard errors across design-cell contrasts; they summarize cell heterogeneity, not uncertainty from independent Monte Carlo draws. $^{a}$600 minus 72 months, restricted to strong prices, full span, and $\rho=0$. $^{b}$An average level, not a difference. $^{c}$Correlation and/or weak-tail designs relative to full spanning with $\rho=0$. There are 500 Monte Carlo repetitions per base condition; six asset families share each repetition.\par}
+\end{minipage}
+\end{widetable}

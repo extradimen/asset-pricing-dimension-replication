@@ -1,0 +1,26 @@
+\begin{widetable}[!tbp]
+\centering
+\caption{Conditional-autoencoder extension: complete development-period candidate comparison}
+\label{tab:cae-candidates}
+\small
+\begin{threeparttable}
+\begin{tabular}{@{}r rrr rrr@{}}
+\toprule
+& \multicolumn{3}{c}{Linear loadings} & \multicolumn{3}{c}{Conditional autoencoder} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+$K$ & Predictive $R^2$ & Pricing distance & Win frequency & Predictive $R^2$ & Pricing distance & Win frequency \\
+& (\%) & & (\%) & (\%) & & (\%) \\
+\midrule
+1 & 0.1555 & 6.0417 & 6.40 & 0.1375 & 6.0127 & 2.05 \\
+2 & 0.1594 & 6.3576 & 0.00 & 0.1973 & 6.0961 & 0.05 \\
+3 & 0.2323 & 6.1573 & 0.05 & 0.2269 & 5.9433 & 3.95 \\
+4 & 0.2880 & 5.3790 & 9.50 & 0.2327 & 5.9172 & 0.40 \\
+5 & 0.2903 & 5.2380 & 34.32 & 0.2513 & 5.5869 & 6.35 \\
+8 & 0.2963 & 5.1674 & 49.72 & 0.2687 & 5.0254 & 87.19 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item Development period: 2010--2019, 120 months and 444,538 stock-months. Pricing uses the combined 74 assets with validation-fixed weights and SDF coefficients. FF5 plus momentum has pricing distance 5.9582 under the same protocol. Each candidate aggregates five selected initializations. Win frequencies use 1,999 common time-block and seed-resampling draws within each architecture; they are descriptive frequencies, not structural-dimension probabilities. No confidence interval or significance ranking is asserted by this table. $K=8$ is the upper endpoint of the prespecified grid. Raw distances are not directly comparable with those from the earlier evaluation-weighted diagnostic protocol.
+\end{tablenotes}
+\end{threeparttable}
+\end{widetable}

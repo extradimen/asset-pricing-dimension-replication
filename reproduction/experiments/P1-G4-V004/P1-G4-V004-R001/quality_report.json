@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "scenarios": 30,
+  "replications_per_scenario": 400,
+  "outer_replications": 12000,
+  "inner_bootstrap_draws": 1999,
+  "simultaneous_pairs": 15,
+  "elapsed_seconds": 765.223340511322,
+  "inputs_verified": true,
+  "empirical_model_retrained": false,
+  "sealed_period_accessed": false,
+  "limitations": [
+    "Post-result audit specified after observing V003, not fresh empirical confirmation.",
+    "Conditional on fixed model means and a fixed pricing weight; does not cover training, hyperparameter selection or estimated validation weights.",
+    "Gaussian moment-level simulation does not establish universal coverage or empirical equivalence.",
+    "Only 400 Monte Carlo repetitions per cell: nominal .05 probabilities have about one percentage point standard error.",
+    "No new model training, financial dataset, trading strategy or sealed-period access."
+  ]
+}

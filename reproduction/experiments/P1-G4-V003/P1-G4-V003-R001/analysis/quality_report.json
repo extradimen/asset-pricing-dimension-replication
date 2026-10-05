@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "models": 60,
+  "candidate_fits": 120,
+  "bootstrap_draws": 1999,
+  "primary_simultaneous_comparisons": 15,
+  "simultaneous_max_t_critical": 2.96263274601982,
+  "sealed_period_accessed": false,
+  "economic_task_changed_by_gamma": true,
+  "test_returns_used_for_forecast": false,
+  "pricing_weight_estimated_on_validation_only": true,
+  "sdf_coefficients_estimated_on_validation_only": true,
+  "bootstrap_retrains_networks": false,
+  "limitations": [
+    "historical data already used in prior research; not fresh confirmation",
+    "archived characteristic bridge is not independent point-in-time reconstruction",
+    "architecture-level CAE implementation; no claim to exactly reproduce published performance",
+    "bootstrap conditional on trained models and validation coefficients; does not repeat training or provide structural K coverage",
+    "metric weight changes represent different objectives, not a pure reparameterization",
+    "linear loading control is CA0 architecture, not a separately optimized ALS-IPCA estimator",
+    "point competence criteria are not proof of statistical noninferiority or universal model adequacy"
+  ]
+}
