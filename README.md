@@ -21,3 +21,4 @@ Scientific runners must be launched through the applicable institutional resourc
 Zenodo version 1.2.0 publication is pending; the old DOI covers version 1.1.0 only.
 Earlier release: https://doi.org/10.5281/zenodo.23066253
 GitHub: https://github.com/extradimen/asset-pricing-dimension-replication
+Immutable code and evidence snapshot: https://github.com/extradimen/asset-pricing-dimension-replication/tree/8f116144824fe575fe8f3ecf4cfea3a0b3d82d75
