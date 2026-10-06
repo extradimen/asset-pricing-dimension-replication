@@ -11,6 +11,12 @@ for line in (ROOT/'SHA256SUMS').read_text().splitlines():
 v3=REPRO/'experiments/P1-G4-V003/P1-G4-V003-R001/analysis'
 v4=REPRO/'experiments/P1-G4-V004/P1-G4-V004-R001'
 paper=REPRO/'main_paper_a_iref/manuscript'
+metadata=json.loads((ROOT/'.zenodo.json').read_text())
+citation=(ROOT/'CITATION.cff').read_text()
+assert 'version: '+metadata['version'] in citation, 'Repository version metadata mismatch'
+assert 'doi: '+metadata['doi'] in citation, 'Repository DOI metadata mismatch'
+assert metadata['doi'] in (ROOT/'README.md').read_text(), 'README DOI mismatch'
+assert metadata['doi'] in (paper/'main.tex').read_text(), 'Manuscript DOI mismatch'
 rows=list(csv.DictReader((v3/'dimension_summary.csv').open()))
 table=(paper/'cae_candidate_comparison.tex').read_text()
 for k in [1,2,3,4,5,8]:

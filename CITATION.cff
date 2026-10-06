@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "Cite the versioned Zenodo replication package when using this code or aggregate data."
 title: "Replication package for Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use"
 type: dataset
-version: 1.2.0
+version: 1.2.1
 date-released: 2026-10-06
-doi: 10.5281/zenodo.23177164
+doi: 10.5281/zenodo.23177771
 repository-code: "https://github.com/extradimen/asset-pricing-dimension-replication"
 authors:
   - family-names: Wang

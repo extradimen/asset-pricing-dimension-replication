@@ -1,3 +1,7 @@
+# 1.2.1
+
+Corrects the legacy version and DOI in the bundled .zenodo.json file. The 1.2.0 scientific code and numerical evidence are unchanged; current archive identifiers are updated consistently. Version 1.2.0 remains preserved at https://doi.org/10.5281/zenodo.23177164.
+
 # 1.2.0
 
 Adds the bounded CAE control and its failed inference calibration, revised IREF manuscript source, and an aggregate-only verification entry point. Retains all previously archived results and their qualifications. No new security-level data are distributed.

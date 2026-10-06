@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "base_release": "v1.1.0",
-  "new_version": "1.2.0",
+  "new_version": "1.2.1",
   "files": [
     {
       "source": "scripts/run_paper_a_cae_control.py",
@@ -1415,8 +1415,8 @@
     {
       "source": "main_paper_a_iref/submission_2026-10-06/authored_source/main.tex",
       "destination": "reproduction/main_paper_a_iref/manuscript/main.tex",
-      "source_sha256": "cf5ecece32abd2efcab5f12d6ff2dbfcce711719eb9f370df04d5bfbcf7dbd10",
-      "release_sha256": "cf5ecece32abd2efcab5f12d6ff2dbfcce711719eb9f370df04d5bfbcf7dbd10",
+      "source_sha256": "035f5c84db4ad4e07ce50c1888f30625a825d39dc3a86f68bb2750733c8ba61e",
+      "release_sha256": "035f5c84db4ad4e07ce50c1888f30625a825d39dc3a86f68bb2750733c8ba61e",
       "deployment_paths_changed": false
     },
     {
