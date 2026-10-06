@@ -4,7 +4,7 @@ title: "Replication package for Low-Dimensional Asset-Pricing Networks: Identifi
 type: dataset
 version: 1.2.0
 date-released: 2026-10-06
-# New Zenodo DOI pending; do not cite the old DOI for new evidence.
+doi: 10.5281/zenodo.23177164
 repository-code: "https://github.com/extradimen/asset-pricing-dimension-replication"
 authors:
   - family-names: Wang

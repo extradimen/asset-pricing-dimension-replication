@@ -1261,8 +1261,8 @@
     {
       "source": "main_paper_a_iref/submission_2026-10-06/authored_source/02_literature_framework.tex",
       "destination": "reproduction/main_paper_a_iref/manuscript/02_literature_framework.tex",
-      "source_sha256": "7dd0aef15f66e5481fb8e10f1c4e0268cc7a17b71374776bd52cfc91655e4531",
-      "release_sha256": "7dd0aef15f66e5481fb8e10f1c4e0268cc7a17b71374776bd52cfc91655e4531",
+      "source_sha256": "45141f388b4129d3877dd21cf8baaa4426f01c2a6528c9dbc41ce51832653dc0",
+      "release_sha256": "45141f388b4129d3877dd21cf8baaa4426f01c2a6528c9dbc41ce51832653dc0",
       "deployment_paths_changed": false
     },
     {
@@ -1275,8 +1275,8 @@
     {
       "source": "main_paper_a_iref/submission_2026-10-06/authored_source/04_dimension_identification.tex",
       "destination": "reproduction/main_paper_a_iref/manuscript/04_dimension_identification.tex",
-      "source_sha256": "a965249756d27771642c5bbe2b8e81e39b67651750da684b0f0ae2c375e7c172",
-      "release_sha256": "a965249756d27771642c5bbe2b8e81e39b67651750da684b0f0ae2c375e7c172",
+      "source_sha256": "fc2964a119fbc314e80e35bedcb5fc0ebac6feb8930dd707aa8b8376c68eb51a",
+      "release_sha256": "fc2964a119fbc314e80e35bedcb5fc0ebac6feb8930dd707aa8b8376c68eb51a",
       "deployment_paths_changed": false
     },
     {
@@ -1289,8 +1289,8 @@
     {
       "source": "main_paper_a_iref/submission_2026-10-06/authored_source/06_representation_geometry.tex",
       "destination": "reproduction/main_paper_a_iref/manuscript/06_representation_geometry.tex",
-      "source_sha256": "bff82878db10089eaceb545a2f039126de14e10a9f78927591c0946e397099ff",
-      "release_sha256": "bff82878db10089eaceb545a2f039126de14e10a9f78927591c0946e397099ff",
+      "source_sha256": "20e0731d8b69f0167664164f6ec36ba460281d271163e888c1ae7afedbf47f94",
+      "release_sha256": "20e0731d8b69f0167664164f6ec36ba460281d271163e888c1ae7afedbf47f94",
       "deployment_paths_changed": false
     },
     {
@@ -1415,8 +1415,8 @@
     {
       "source": "main_paper_a_iref/submission_2026-10-06/authored_source/main.tex",
       "destination": "reproduction/main_paper_a_iref/manuscript/main.tex",
-      "source_sha256": "3c91e645c5324cf3a894af7fab77ac85ca05e7da74a1766d669b67a6a39148fe",
-      "release_sha256": "3c91e645c5324cf3a894af7fab77ac85ca05e7da74a1766d669b67a6a39148fe",
+      "source_sha256": "cf5ecece32abd2efcab5f12d6ff2dbfcce711719eb9f370df04d5bfbcf7dbd10",
+      "release_sha256": "cf5ecece32abd2efcab5f12d6ff2dbfcce711719eb9f370df04d5bfbcf7dbd10",
       "deployment_paths_changed": false
     },
     {

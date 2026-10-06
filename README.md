@@ -18,7 +18,7 @@ Only author-generated aggregates and synthetic outputs are newly released. No li
 
 Scientific runners must be launched through the applicable institutional resource controller where required; documentation commands are child commands, not authorization to bypass that controller. The package contains no server access credentials. Code is MIT; original aggregate/synthetic outputs and documentation are CC BY 4.0. Third-party sources retain their own terms.
 
-Zenodo version 1.2.0 publication is pending; the old DOI covers version 1.1.0 only.
+Version DOI: https://doi.org/10.5281/zenodo.23177164
 Earlier release: https://doi.org/10.5281/zenodo.23066253
 GitHub: https://github.com/extradimen/asset-pricing-dimension-replication
 Immutable code and evidence snapshot: https://github.com/extradimen/asset-pricing-dimension-replication/tree/8f116144824fe575fe8f3ecf4cfea3a0b3d82d75
