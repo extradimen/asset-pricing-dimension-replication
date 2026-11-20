@@ -1,0 +1,88 @@
+% Compatibility for the publisher's legacy rQUF2e class on modern LaTeX.
+% Save kernel lifecycle/output commands; retain publisher fonts and layout.
+\makeatletter
+\let\QFKernelDocument\document
+\let\QFKernelEndDocument\enddocument
+\let\QFKernelOutputPage\@outputpage
+\makeatother
+\documentclass{rQUF2e}
+\makeatletter
+\let\document\QFKernelDocument
+\let\enddocument\QFKernelEndDocument
+\let\@outputpage\QFKernelOutputPage
+\makeatother
+
+\usepackage{booktabs,threeparttable,longtable,array,tabularx,multirow}
+\usepackage{xcolor}
+\usepackage{url}
+\newcommand{\href}[2]{#2}
+\providecommand{\theHtable}{}
+\emergencystretch=2em
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Pp}{\mathbb{P}}
+\newcommand{\Loss}{\mathcal{L}}
+\newcommand{\Kset}{\mathcal{K}}
+\newenvironment{widefigure}[1][!tbp]{\begin{figure}[#1]}{\end{figure}}
+\newenvironment{widetable}[1][!tbp]{\begin{table}[#1]}{\end{table}}
+\setcounter{topnumber}{3}\setcounter{bottomnumber}{2}\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.9}\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}\renewcommand{\floatpagefraction}{0.85}
+\bibpunct{(}{)}{,}{a}{}{,}
+% The official legacy class defaults to a fictional 'To appear' header and received dates.
+% Keep its layout and source unmodified; use ordinary manuscript pagination instead.
+\makeatletter
+\def\ps@qfmanuscript{\let\@oddhead\@empty\let\@evenhead\@empty
+ \def\@oddfoot{\hfil\thepage\hfil}\let\@evenfoot\@oddfoot}
+\let\ps@plain\ps@qfmanuscript
+\makeatother
+\pagestyle{qfmanuscript}
+\makeatletter\def\trimmarks{}\makeatother
+% Restore space for manuscript page numbers after replacing the legacy output routine.
+\addtolength{\textheight}{-16pt}
+\setlength{\footskip}{20pt}
+\begin{document}
+\title{Latent Dimension Selection in Neural Asset Pricing: Sensitivity and Pricing-Loss Costs}
+\input{author_frontmatter}
+\maketitle
+\begin{abstract}
+A selected latent dimension summarizes a model under an evaluation task, but does not alone identify priced risks. We audit this distinction using archived U.S. equity pricing networks, matched controls, conditional autoencoders, and known-truth simulations. For combined Core-86 assets, transferring the HJ-preferred four factors to equal-moment evaluation increases the pricing norm by 19.7\%, whereas transferring the equal-moment-preferred two factors to HJ increases it by 1.9\%. A same-panel six-feature ablation does not reproduce the archived pipeline reversal. An audit reproduces all 900 archived conditional-autoencoder and linear-loading surface rows. The autoencoder prefers eight factors, the grid upper bound, across all 15 asset--weight tasks; its five-factor excess ranges from 2.35\% to 11.17\%. Linear loadings select four, five or eight factors, with endpoint-transfer costs from 2.09\% to 9.34\%. Thus objective sensitivity is not universal across the tested architectures. These retrospective norm costs are neither investor return losses nor validated significance findings. Simulations demonstrate possible selection mechanisms, while market-direction evidence remains imprecise. We distinguish candidate selection, representation concentration and economic risk counts.
+\end{abstract}
+\begin{keywords}
+Machine learning; Asset pricing; Pricing dimension; Model comparison; Representation geometry; Feature ablation
+\end{keywords}
+\begin{classcode}G12; C52; C53; C55\end{classcode}
+\raggedbottom
+\input{01_introduction}
+\input{02_literature_framework}
+\input{03_data_design}
+\input{04_dimension_identification}
+\input{06_representation_geometry}
+\input{07_discussion_conclusion}
+
+\input{author_declarations}
+
+\section*{Data availability}
+The replication package provides construction and analysis code, frozen configurations, synthetic results, aggregate figure and table data, and checksums. The section-ordered package includes the conditional-autoencoder control (P1-G4-V003) and its inference calibration (P1-G4-V004), including unsuccessful calibration results. CRSP, Compustat, CCM, third-party security-level characteristic records, model checkpoints, stock-level predictions, and derived security-level panels are excluded. Reconstruction requires independently licensed inputs. Public source downloads are linked rather than relicensed. Aggregate exhibit replay is separate from retraining with licensed data, and no cross-platform bitwise retraining guarantee is made.
+
+Version 1.3.0 of the replication package is available at \href{https://doi.org/10.5281/zenodo.24398249}{10.5281/zenodo.24398249}. It includes this manuscript, the separate audit supplement, all 900 frozen aggregate surface rows, 180 candidate means, 30 task summaries, 12 endpoint transfers, and the public arithmetic-replay script. The GitHub project is \href{https://github.com/extradimen/asset-pricing-dimension-replication}{https://github.com/extradimen/asset-pricing-dimension-replication}; the version-specific Zenodo archive identifies the exact files supporting this revision. Version 1.2.1 and its original identifiers are preserved within the package and remain separately available at \href{https://doi.org/10.5281/zenodo.23177771}{10.5281/zenodo.23177771}.
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work, the authors used OpenAI Codex to assist with literature organization, code development and auditing, artifact indexing, statistical-figure production, and language drafting. The authors reviewed and edited all generated material, verified cited sources and numerical claims against frozen project evidence, and take full responsibility for the content of the article.
+
+\begingroup
+\small
+\raggedright
+\setlength{\bibsep}{3pt}
+\urlstyle{same}
+\bibliographystyle{rQUF}
+\bibliography{references_qf}
+\endgroup
+\appendix
+\setcounter{table}{0}
+\renewcommand{\theHtable}{A.\arabic{table}}
+\input{inference_calibration_appendix}
+
+
+\end{document}

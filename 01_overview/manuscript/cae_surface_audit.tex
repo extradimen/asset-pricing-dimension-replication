@@ -1,0 +1,33 @@
+\begin{widetable}[!tbp]
+\centering\footnotesize
+\caption{Complete asset--weight audit of the archived conditional-autoencoder extension}
+\label{tab:cae-surface-audit}
+\begin{threeparttable}
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule & & \multicolumn{3}{c}{Linear loadings} & \multicolumn{3}{c}{Conditional autoencoder} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Assets & $\gamma$ & Best $K$ & Min. & $K=5$ excess & Best $K$ & Min. & $K=5$ excess \\
+ & & & norm & (\%) & & norm & (\%) \\ \midrule
+25 Size--B/M & 0 & 5 & 1.418 & 0.00 & 8 & 1.658 & 3.27 \\
+ & 0.25 & 5 & 1.489 & 0.00 & 8 & 1.651 & 4.35 \\
+ & 0.5 & 8 & 1.607 & 1.08 & 8 & 1.705 & 5.65 \\
+ & 0.75 & 8 & 1.731 & 3.36 & 8 & 1.832 & 5.58 \\
+ & 1 & 8 & 1.869 & 3.66 & 8 & 1.981 & 3.96 \\
+\addlinespace[3pt]
+49 industries & 0 & 4 & 2.206 & 1.10 & 8 & 2.523 & 2.35 \\
+ & 0.25 & 5 & 2.232 & 0.00 & 8 & 2.417 & 4.02 \\
+ & 0.5 & 8 & 2.224 & 0.92 & 8 & 2.327 & 6.05 \\
+ & 0.75 & 8 & 2.233 & 2.02 & 8 & 2.287 & 8.22 \\
+ & 1 & 8 & 2.282 & 2.54 & 8 & 2.301 & 10.34 \\
+\addlinespace[3pt]
+Combined 74 & 0 & 4 & 2.656 & 0.27 & 8 & 3.036 & 2.53 \\
+ & 0.25 & 5 & 2.791 & 0.00 & 8 & 2.998 & 4.66 \\
+ & 0.5 & 8 & 3.161 & 0.82 & 8 & 3.220 & 7.54 \\
+ & 0.75 & 8 & 3.953 & 1.32 & 8 & 3.906 & 9.81 \\
+ & 1 & 8 & 5.167 & 1.37 & 8 & 5.025 & 11.17 \\
+\addlinespace[3pt]
+\bottomrule\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item Each minimum is over six candidates, using the arithmetic mean of five seed-specific annualized pricing norms, not the norm of an averaged SDF. Development is 2010--2019 (120 months). Validation-fitted SDF coefficients and weights remain fixed. Weights vary over the five archived values only; $\gamma=0$ and $1$ denote equal-moment and HJ-type endpoints. Excess is $100[D(5)/\min_K D(K)-1]$, so zero means the five-factor candidate minimizes the observed norm. No new fitting, resampling, or significance test is performed. Minima are retrospective; eight is a grid boundary. Values across different asset--weight tasks are not a single common objective. Tasks share model fits, seeds and overlapping asset returns; fifteen tasks are not fifteen independent replications. The full 180 means, seed dispersion, and all 900 source rows are indexed in the audit materials.
+\end{tablenotes}\end{threeparttable}
+\end{widetable}

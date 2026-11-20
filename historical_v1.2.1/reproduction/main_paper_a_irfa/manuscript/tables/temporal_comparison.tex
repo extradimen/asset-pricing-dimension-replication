@@ -1,0 +1,31 @@
+\begin{widetable}[!tbp]
+\centering
+\begin{minipage}{\textwidth}
+\caption{Forecast updating and portfolio performance by learner and update rule}
+\label{tab:temporal-economic}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llrrrrrr@{}}
+\toprule
+ &  & \multicolumn{2}{c}{Updated minus frozen loss} & \multicolumn{4}{c}{Value-weighted portfolios; 25 bp cost} \\
+\cmidrule(lr){3-4}\cmidrule(l){5-8}
+Learner & Rule & 2000--09 & 2010--19 & Return (\%) & Sharpe & Turnover & CE (\%) \\
+\midrule
+Neural & Frozen & 0.000 & 0.000 & 13.02 & 0.546 & 1.219 & -1.20 \\
+ & Rolling 60 & 0.531 & -0.252 & -0.61 & -0.022 & 0.874 & -20.32 \\
+ & Expanding & 0.806 & 0.094 & 13.12 & 0.444 & 1.352 & -8.68 \\
+\addlinespace[5pt]
+Ridge & Frozen & 0.000 & 0.000 & 5.59 & 0.245 & 0.787 & -7.47 \\
+ & Rolling 60 & 2.040 & 0.013 & 4.60 & 0.158 & 1.030 & -16.63 \\
+ & Expanding & 0.031 & -0.331 & 7.92 & 0.378 & 0.745 & -3.04 \\
+\addlinespace[5pt]
+Tree & Frozen & 0.000 & 0.000 & 3.83 & 0.120 & 1.030 & -21.55 \\
+ & Rolling 60 & 1.122 & -0.873 & -11.65 & -0.371 & 1.324 & -36.23 \\
+ & Expanding & -0.771 & -1.650 & -0.16 & -0.005 & 1.148 & -22.38 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{4pt}
+{\footnotesize\raggedright\textit{Notes:} Loss differences are multiplied by $10^3$; negative values favor updating. Zero for the frozen rule is the comparison baseline. Portfolio return and certainty equivalent (CE, risk aversion five) are annualized percentages over February 2000--December 2019. Turnover is monthly for unit long and unit short positions after return drift. Portfolio columns cover the full period, not the individual decades in the loss columns. These are separate return-prediction learners, not the pricing-dimension networks. None of the six update-minus-frozen return differences passes the Holm-adjusted 5\% gate.\par}
+\end{minipage}
+\end{widetable}

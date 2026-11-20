@@ -1,0 +1,1 @@
+Current QF working manuscript and audit supplement: manuscript/main.pdf and manuscript/audit_supplement.pdf. Historical IREF manuscript is preserved under historical_v1.2.1/reproduction/main_paper_a_iref/manuscript/.

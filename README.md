@@ -1,24 +1,26 @@
-# Replication package version 1.2.1
+# Replication package 1.3.0
 
-Jinpeng Wang and Yan Jiang. Low-Dimensional Asset-Pricing Networks: Identification, Stability, and Economic Use.
+Current working paper: **Latent Dimension Selection in Neural Asset Pricing: Sensitivity and Pricing-Loss Costs**, Jinpeng Wang and Yan Jiang. QF preparation does not mean acceptance or submission.
 
-This update accompanies the IREF preparation manuscript, not a journal acceptance. The numbered directories follow Sections 1–7. The original 1.1.0 evidence and replay remain intact. New CAE evidence is indexed from `04_dimension_identification/CAE_CONTROL.txt`; calibration and qualifications are indexed from `07_discussion_and_audit/INFERENCE_CALIBRATION.txt`. Appendix A belongs to the new main article; Supplements A–F describe the earlier evidence.
+## Start here
 
-## Reproduce the current article
+1. Read `01_overview/manuscript/main.pdf` (current article) and `audit_supplement.pdf` (new four-page numeric audit).
+2. Follow `01_overview` through `07_discussion_and_audit`, in article order. Each index points to current sources and the exact preserved earlier evidence.
+3. Run `python3 reproduce_qf.py --no-pdf` for checksum validation, re-aggregation of the frozen 900 rows, all 180 means/30 tasks/12 endpoint transfers, and the new 15-row table. Standard library suffices. Without `--no-pdf`, TeX Live/latexmk compiles the two QF documents.
+4. The old complete 1.2.1 directory is preserved, byte for byte, under `historical_v1.2.1/`. For the old IREF checks, change into that directory and run `python3 reproduce_iref.py --no-pdf`. Its scientific evidence and metadata are historical, not the current working-paper citation.
 
-Run `python3 reproduce_iref.py` from this directory. It checks released checksums, verifies Table 4 against its aggregate source, re-aggregates all 12,000 released synthetic outcomes, checks Table A.1, and compiles the current authored article using latexmk and elsarticle. It neither trains nor runs new simulations. Python standard library and TeX Live suffice for this current-update verification. The earlier `reproduce_public.py` retains the version 1.1.0 exhibit workflow and its pinned requirements.
+## What changed
 
-## Scientific changes and limits
+The new audit recomputed 1,800 saved pricing distances from licensed prepared arrays on the original local project, with maximum absolute error 1.255e-12. Public replay uses only author-generated aggregate distances; it verifies arithmetic, not the restricted array-to-distance step. The original audit script and hash receipt document that distinction. No licensed security-level observations, stock predictions, checkpoints or vendor panels are redistributed. No new model fitting, resampling or significance claim.
 
-V003 adds 120 candidate fits, 60 selected models, matched linear versus nonlinear loadings, six factor counts and five seeds. K=8 wins 87.2% of conditional development resamples; it is the grid boundary, not an identified structural count. The new simultaneous intervals fail their V004 calibration: 83.5% and 87.0% coverage in the two primary 120-month equal-distance scenarios. No equivalence or structural nonidentification is inferred from non-rejection. The calibration only targets the 15 simultaneous within-CAE intervals. Full training, validation-coefficient and weight-estimation uncertainty are not covered. All later controls use familiar historical data.
+All 15 CAE task minima are at the largest candidate K=8; tasks share fitted models/seeds/returns and are not independent repeats. Linear winners vary. Relative norm costs are not investor returns or welfare losses. Failed inference calibration remains fully disclosed. Original eight figure assets are unchanged. Bibliographic metadata and contextual citation use were audited; no full-text systematic review is claimed.
 
-## Data access and execution
+## Version and citation
 
-Only author-generated aggregates and synthetic outputs are newly released. No licensed stock observations, stock-level arrays, predictions or model weights are included. `LICENSED_RECONSTRUCTION.md` describes the old pipeline; `04_dimension_identification/CAE_CONTROL.txt` describes the extension. Exact historical prepared arrays are not public, and newly downloaded input vintages need not have their frozen checksums. No clean-room licensed pipeline or bitwise cross-platform retraining claim is made.
+Version-specific archive: https://doi.org/10.5281/zenodo.24398249 (1.3.0, 2026-11-20). See CITATION.cff for authors and title. This archive supplies the exact current manuscript, code and aggregate evidence. Earlier published release: https://doi.org/10.5281/zenodo.23177771 (1.2.1), also preserved unchanged under historical_v1.2.1.
 
-Scientific runners must be launched through the applicable institutional resource controller where required; documentation commands are child commands, not authorization to bypass that controller. The package contains no server access credentials. Code is MIT; original aggregate/synthetic outputs and documentation are CC BY 4.0. Third-party sources retain their own terms.
+GitHub project: https://github.com/extradimen/asset-pricing-dimension-replication. The GitHub branch may lag this archive; use this version-specific DOI and SHA256SUMS for the exact files supporting the QF working revision. This package does not imply journal acceptance or submission.
 
-Version DOI: https://doi.org/10.5281/zenodo.23177771
-Earlier release: https://doi.org/10.5281/zenodo.23066253
-GitHub: https://github.com/extradimen/asset-pricing-dimension-replication
-Immutable code and evidence snapshot: https://github.com/extradimen/asset-pricing-dimension-replication/tree/8f116144824fe575fe8f3ecf4cfea3a0b3d82d75
+## Rights
+
+Code MIT; author-generated original aggregate/synthetic outputs and documentation CC BY 4.0. Third-party data keep their terms. Existing public source links are not relicensed. The inherited historical receipt is historical evidence; full retraining needs licensed inputs and applicable resource-control approvals. The public replay performs only integrity and exhibit verification.

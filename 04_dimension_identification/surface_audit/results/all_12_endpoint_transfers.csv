@@ -1,0 +1,13 @@
+family,arm,target_gamma,best_K,transfer_K,excess_pct
+size_bm_25,linear,0,5,8,2.0907888721585444
+size_bm_25,cae,0,8,8,0.0
+size_bm_25,linear,1,8,5,3.661441593263315
+size_bm_25,cae,1,8,8,0.0
+industry_49,linear,0,4,8,2.976666831217578
+industry_49,cae,0,8,8,0.0
+industry_49,linear,1,8,4,9.34114314466219
+industry_49,cae,1,8,8,0.0
+combined_74,linear,0,4,8,2.27646273587494
+combined_74,cae,0,8,8,0.0
+combined_74,linear,1,8,4,4.095522146124764
+combined_74,cae,1,8,8,0.0

@@ -1,0 +1,80 @@
+% IREF working fragment, 2026-10-06. Not a standalone submission manuscript.
+% Sources: P1-G4-V003-R001; calibration qualification P1-G4-V004-R001.
+\subsection{Conditional-autoencoder control and the interpretation of dimension}
+\label{sec:cae-control}
+
+To assess whether the earlier diagnostic findings extend to a model with more
+favorable benchmark performance, we added a conditional-autoencoder control and
+a matched linear-loading arm. This extension was specified after the original
+study and uses familiar historical data; it is exploratory. The models use 92
+ranked characteristics and candidate factor counts $K\in\{1,2,3,4,5,8\}$.
+The training, validation, and development periods are August 1963--December 1999,
+2000--2009, and 2010--2019, respectively. The extension does not access 2020--2025.
+For each architecture, factor count, and initialization, validation reconstruction
+loss selects the epoch and one of two regularization settings. Five initializations
+produce 120 candidate fits and 60 selected models across the two architectures.
+This is a conditional-autoencoder benchmark implementation, not an exact
+replication of a published model.
+
+The forecasting exercise uses fixed estimated loadings and expanding factor means
+formed from strictly earlier observations. Contemporaneous factors are used for
+reconstruction and pricing evaluation, not for forecasting the same month's
+returns. SDF coefficients and regularized pricing weights are estimated using
+validation data and held fixed in the development evaluation. The reported
+pricing norm is HJ-type: it uses the study's regularization and normalization,
+so its numerical scale should not be compared directly with differently
+normalized HJ distances in other studies.
+
+Validation predictive $R^2$ selects $K=8$ for the conditional autoencoder. Its
+validation predictive $R^2$ is 0.0781\%, and its development predictive $R^2$ is
+0.2687\%. Its development pricing distance on the combined 74-asset set is
+5.0254, compared with 5.9582 for FF5 plus momentum. These point estimates satisfy
+the prespecified diagnostic criteria of positive predictive $R^2$ in both periods
+and a development pricing distance no larger than the reference. They do not
+constitute a statistical noninferiority test or establish superiority over either
+the reference factors or the matched linear-loading arm.
+
+Table~\ref{tab:cae-candidates} retains every candidate in both arms. At $K=8$, the linear-loading model has development predictive $R^2$ of 0.2963\%, slightly above the conditional autoencoder, while its pricing distance is 5.1674. These different orderings preclude a general claim of nonlinear-model dominance.
+
+\input{cae_candidate_comparison}
+
+Dimension selection is comparatively concentrated in this extension. Under the
+prespecified joint time-block and initialization resampling, $K=8$ attains the
+smallest development pricing distance in 87.19\% of draws. This is a descriptive
+frequency under that resampling procedure, not a probability that the economy
+has eight priced shocks. Moreover, eight is the upper endpoint of the fixed
+candidate grid. The result qualifies any general statement that these models
+necessarily produce unstable dimension choices. It establishes neither a global
+optimum over factor counts nor a structural factor dimension.
+
+All 15 pairwise dimension intervals from the exploratory simultaneous procedure
+include zero. We do not interpret this as evidence of equivalence or structural
+nonidentification. A subsequent, bounded known-truth calibration of that procedure
+found simultaneous coverage of 83.5\% and 87.0\%, below the nominal 95\%, in its two
+primary 120-month equal-distance scenarios. \ref{app:inference-calibration}
+reports the design and results. Accordingly, the intervals remain an archived
+exploratory output rather than a calibrated confidence set for dimension.
+The separate pointwise forecasting and benchmark-comparison intervals were not
+validated by that calibration either; the extension's substantive comparison is
+therefore limited to the reported point estimates and descriptive selection
+behavior.
+
+The control separates a model's observed performance from the interpretation of
+its selected width. It supplies a case with favorable point-estimate diagnostics
+and comparatively concentrated selection, alongside the earlier diagnostic
+family. The combined evidence does not establish that successful pricing models
+share an unstable economic structure. Rather, claims about economic dimension
+require an identified economic object and evidence beyond the fitted width,
+activation rank, or minimum of a finite candidate loss grid.
+
+\paragraph{Descriptive cost within the fixed candidate grid.}
+The archived conditional-autoencoder pricing norms are 6.0127, 6.0961, 5.9433, 5.9172, 5.5869 and 5.0254 for $K=1,2,3,4,5,8$. Relative to the development minimum at eight, the respective excesses are 19.65\%, 21.31\%, 18.27\%, 17.75\%, 11.17\% and zero. For linear loadings, five instead of eight adds only 1.37\%. These calculations are direct transformations of Table~\ref{tab:cae-candidates}, not new training or hypothesis tests. They show why the identity of a selected count and its loss cost should be reported separately. The failed interval calibration prevents a validated significance or equivalence conclusion. Eight remains a grid endpoint, not an estimated global optimum.
+
+\paragraph{Audit across the complete archived asset--weight grid.}
+We checked the 900 rows of the existing secondary surface against the original output checksums and recomputed both validation and development norms from saved factors and asset returns. All 1,800 distances agree to numerical precision (maximum absolute discrepancy $1.3\times10^{-12}$). The twelve combined-asset HJ means reproduce Table~\ref{tab:cae-candidates}. Aggregation follows the original evaluator: compute the annualized norm for each seed, then average the five norms. No new networks or resampling draws are introduced.
+
+\input{cae_surface_audit}
+
+Table~\ref{tab:cae-surface-audit} extends the existing primary comparison to every archived secondary task. For the conditional autoencoder, $K=8$ minimizes the seed-mean development norm in all fifteen asset--weight tasks. Reducing to five factors raises that norm by 3.27--5.65\% for size--book-to-market assets, 2.35--10.34\% for industries, and 2.53--11.17\% for the combined assets across the five weights. These ranges quantify compression costs without implying that eight is a population optimum or that the differences are significant.
+
+The matched linear-loading family does change selected dimension. Size--book-to-market assets move from five to eight factors; industries and combined assets move from four through five to eight as $\gamma$ increases. Carrying the HJ-endpoint winner into equal-moment evaluation costs 2.09\%, 2.98\% and 2.28\% for size--book-to-market, industry and combined assets, respectively. Reversing the direction costs 3.66\%, 9.34\% and 4.10\%. Selection sensitivity therefore survives in this linear-loading control, but is absent from the autoencoder seed-mean minima on the same finite grid. Because weighting changes the target, this is an interaction between evaluation design and the tested architecture; it is not proof that nonlinearity alone identifies a structural dimension. Nor does stable within-family selection imply that the nonlinear family dominates the linear one across tasks.

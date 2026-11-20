@@ -1,0 +1,1 @@
+Current discussion: ../01_overview/manuscript/07_discussion_conclusion.tex. reference_audit.csv maps every library record to current text, bibliographic verification source and qualifications. Original calibration remains in ../historical_v1.2.1/07_discussion_and_audit/.

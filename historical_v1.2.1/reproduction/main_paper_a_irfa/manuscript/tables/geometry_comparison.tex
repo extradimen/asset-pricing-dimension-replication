@@ -1,0 +1,33 @@
+\begin{widetable}[!tbp]
+\centering
+\begin{minipage}{\textwidth}
+\caption{Layerwise representation geometry under three normalization rules}
+\label{tab:geometry}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrrrr@{}}
+\toprule
+Layer & Participation & Entropy & PCA95 & TWO-NN & LB ($k=20$) & Tangent angle & Drift \\
+ & rank & rank & rank & dimension & dimension & (radians) & (rank 5) \\
+\midrule
+\multicolumn{8}{@{}l}{\textit{A. Raw centering}} \\[2pt]
+Hidden 1 & 20.251 & 35.855 & 50 & 15.477 & 13.835 & 1.493 & 0.987 \\
+Hidden 2 & 14.669 & 23.760 & 32 & 14.072 & 12.054 & 1.474 & 0.862 \\
+Hidden 3 & 9.048 & 13.839 & 18 & 11.814 & 9.757 & 1.437 & 0.670 \\
+\addlinespace[5pt]
+\multicolumn{8}{@{}l}{\textit{B. Feature z-score}} \\[2pt]
+Hidden 1 & 22.989 & 38.444 & 51 & 15.750 & 14.186 & 1.494 & 0.942 \\
+Hidden 2 & 16.538 & 25.430 & 32 & 14.237 & 12.399 & 1.477 & 0.890 \\
+Hidden 3 & 10.476 & 15.097 & 18 & 11.990 & 10.058 & 1.429 & 0.661 \\
+\addlinespace[5pt]
+\multicolumn{8}{@{}l}{\textit{C. Row-$L_2$ normalization}} \\[2pt]
+Hidden 1 & 21.168 & 36.728 & 50 & -- & -- & -- & 0.948 \\
+Hidden 2 & 15.479 & 24.609 & 32 & -- & -- & -- & 0.856 \\
+Hidden 3 & 9.105 & 13.903 & 18 & -- & -- & -- & 0.661 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{4pt}
+{\footnotesize\raggedright\textit{Notes:} Entries are archived medians for 30 frozen networks and 120 development months. Spectral summaries use 3,600 observations per group; drift uses 3,570 adjacent-month pairs. Neighbor dimensions and tangent angles use only 300 observations per raw/z-score group (ten sampled months). LB is the Levina--Bickel estimator. Dashes denote diagnostics not computed under row normalization, not zero values. The numerical-collapse rate is zero; it is not a classification neural-collapse test. The two adjacent-layer CKA medians are 0.875 and 0.848. These are descriptive, finite-scale diagnostics; the separate economic-function test is reported in Figure~\ref{fig:evidence-ladder} and Section~\ref{sec:function-gate}.\par}
+\end{minipage}
+\end{widetable}

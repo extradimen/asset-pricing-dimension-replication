@@ -1,0 +1,33 @@
+\begin{widetable}[!tbp]
+\centering
+\begin{minipage}{\textwidth}
+\caption{Matched six-feature ablation: pricing distances and paired uncertainty}
+\label{tab:matched-features}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}crrrrc@{}}
+\toprule
+$K$ & Full 92 & Masked 86 & Difference & 95\% interval & $K^*$ frequency \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{A. Equal-moment endpoint}} \\[2pt]
+1 & 5.227 & 5.612 & +0.385 & [0.017, 0.928] & 0.0 / 0.0 \\
+2 & 4.449 & 3.980 & -0.469 & [-1.280, 0.493] & 7.2 / 20.7 \\
+3 & 4.257 & 3.900 & -0.358 & [-1.568, 0.600] & 16.3 / 19.7 \\
+4 & 3.745 & 3.852 & +0.106 & [-0.612, 0.588] & 54.4 / 16.7 \\
+5 & 4.106 & 3.994 & -0.111 & [-0.689, 0.466] & 20.0 / 30.6 \\
+8 & 4.838 & 4.194 & -0.644 & [-2.066, 0.640] & 2.1 / 12.3 \\
+\addlinespace[5pt]
+\multicolumn{6}{@{}l}{\textit{B. HJ-type endpoint}} \\[2pt]
+1 & 2.742 & 2.777 & +0.036 & [-0.031, 0.117] & 8.4 / 10.7 \\
+2 & 2.715 & 2.763 & +0.048 & [-0.045, 0.184] & 29.2 / 10.3 \\
+3 & 2.786 & 2.746 & -0.039 & [-0.169, 0.124] & 1.5 / 7.4 \\
+4 & 2.753 & 2.787 & +0.034 & [-0.066, 0.180] & 1.5 / 6.7 \\
+5 & 2.700 & 2.699 & -0.001 & [-0.060, 0.070] & 47.6 / 56.7 \\
+8 & 2.739 & 2.813 & +0.073 & [-0.096, 0.299] & 11.8 / 8.2 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{4pt}
+{\footnotesize\raggedright\textit{Notes:} Combined 74 assets, January 2010--December 2019. Distances average five seeds; difference is masked minus full, so positive values favor retaining all features. Both arms use the same mother panel, ordered stock-month rows, ranks, target-month clock, and paired initial weights. The six characteristic columns and their missingness flags are zeroed only in the masked arm. Intervals use 1,000 common twelve-month block draws with paired seed resampling and fixed validation coefficients; the evaluation second moment is re-estimated within each draw. These are pointwise intervals conditional on fitted models. $K^*$ frequency lists full/masked bootstrap winner percentages, not posterior probabilities of a true dimension.\par}
+\end{minipage}
+\end{widetable}

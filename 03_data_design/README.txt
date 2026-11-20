@@ -1,0 +1,1 @@
+Current design is ../01_overview/manuscript/03_data_design.tex. Licensed raw inputs are excluded. Earlier pipeline/reconstruction documentation: ../historical_v1.2.1/03_data_design/ and ../LICENSED_RECONSTRUCTION.md.

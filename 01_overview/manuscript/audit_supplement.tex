@@ -1,0 +1,28 @@
+% Compatibility for the publisher's legacy rQUF2e class on modern LaTeX.
+% Save kernel lifecycle/output commands; retain publisher fonts and layout.
+\makeatletter
+\let\QFKernelDocument\document
+\let\QFKernelEndDocument\enddocument
+\let\QFKernelOutputPage\@outputpage
+\makeatother
+\documentclass{rQUF2e}
+\makeatletter
+\let\document\QFKernelDocument
+\let\enddocument\QFKernelEndDocument
+\let\@outputpage\QFKernelOutputPage
+\makeatother
+
+\usepackage{booktabs,longtable,url}
+\makeatletter\def\ps@plain{\let\@oddhead\@empty\let\@evenhead\@empty\def\@oddfoot{\hfil\thepage\hfil}\let\@evenfoot\@oddfoot}\makeatother
+\pagestyle{plain}
+\makeatletter\def\trimmarks{}\makeatother
+% Restore space for manuscript page numbers after replacing the legacy output routine.
+\addtolength{\textheight}{-16pt}
+\setlength{\footskip}{20pt}
+\begin{document}
+\title{Supplementary audit of the archived latent-dimension surface}
+\input{author_frontmatter}\maketitle
+\noindent Companion to the revised article. This supplement reports arithmetic summaries of frozen outputs and their numerical verification, not new training or inference.
+\setcounter{table}{0}\renewcommand{\thetable}{S\arabic{table}}
+\input{surface_audit_appendix}
+\end{document}

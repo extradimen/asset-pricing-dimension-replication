@@ -1,0 +1,22 @@
+\begin{widetable}[!tbp]
+\centering\small
+\caption{Cost of transferring the preferred dimension between evaluation endpoints}
+\label{tab:transfer-cost}
+\begin{tabular}{llrrrrr}
+\toprule Pipeline & Assets & Target $\gamma$ & Best $K$ & Transfer $K$ & Excess norm & Excess (\%) \\
+\midrule
+Core-86 & Combined 74 & 0 & 2 & 4 & 0.677 & 19.68 \\
+Core-86 & Combined 74 & 1 & 4 & 2 & 0.053 & 1.93 \\
+Core-86 & Industries & 0 & 2 & 1 & 0.501 & 16.89 \\
+Core-86 & Industries & 1 & 1 & 2 & 0.059 & 2.55 \\
+Core-86 & Size--B/M & 0 & 2 & 1 & 0.732 & 44.83 \\
+Core-86 & Size--B/M & 1 & 1 & 2 & 0.002 & 0.11 \\
+Core-92 & Combined 74 & 0 & 5 & 1 & 1.852 & 52.03 \\
+Core-92 & Combined 74 & 1 & 1 & 5 & 0.093 & 3.33 \\
+Core-92 & Industries & 0 & 5 & 4 & 0.049 & 1.57 \\
+Core-92 & Industries & 1 & 4 & 5 & 0.075 & 3.24 \\
+Core-92 & Size--B/M & 0 & 5 & 8 & 0.624 & 39.08 \\
+Core-92 & Size--B/M & 1 & 8 & 5 & 0.052 & 2.97 \\
+\bottomrule\end{tabular}
+\par\smallskip\begin{minipage}{0.97\textwidth}\footnotesize Notes: Direct arithmetic from archived five-seed mean distances. Transfer $K$ is the dimension minimizing the other endpoint on the same development window; its cost is evaluated under the target endpoint. These are retrospective in-sample-to-evaluation-design comparisons, not a validation-selected trading policy. Excess is a pricing-norm difference; percentages are relative to the target sample minimum, not returns, welfare losses or true-dimension errors. No significance or equivalence claim is made. The two pipelines have different coverage and return windows and are not pooled.\end{minipage}
+\end{widetable}

@@ -1,0 +1,26 @@
+{
+  "library_entries": 67,
+  "active_cited_entries": 64,
+  "printed_entries": 64,
+  "unused_library_keys": [
+    "chen2026vaeer",
+    "zhang2021tradable",
+    "zhao2026categorical"
+  ],
+  "undefined_citation_keys": [],
+  "uncited_printed_entries": [],
+  "crossref_records": 61,
+  "official_proceedings_entries": 5,
+  "datacite_entries": 1,
+  "bibliography_sha256": "03f3b4e86ef66fa4ea1dc9e4c5cf37587ae9470f3bbc7d454ecadf608dd5db33",
+  "scope": "All bibliographic identities and citation links checked. Statement-level review of contextual use; not a new full-text systematic review or independent proof of the cited theorems. Crossref sometimes omits authors or final page and publication dates differ by online/issue version.",
+  "changes": [
+    "Kelly middle initial",
+    "Feng online-first status",
+    "classification scope for neural collapse",
+    "precise anomaly-interaction description",
+    "avoid implying combined-search error-control guarantee"
+  ],
+  "archive_update_required": true,
+  "zenodo_status": "Version 1.3.0 archive DOI 10.5281/zenodo.24398249; initial 403 was subsequently resolved before release."
+}
